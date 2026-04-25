@@ -1,0 +1,1973 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>유튜브 브랜드 모니터링</title>
+<style>
+:root {
+  --bg-primary: #0f1117;
+  --bg-secondary: #1a1d27;
+  --bg-card: #222632;
+  --bg-card-hover: #2a2e3c;
+  --bg-input: #2a2e3c;
+  --text-primary: #e8eaed;
+  --text-secondary: #9aa0a6;
+  --text-muted: #6b7280;
+  --accent: #E4002B;
+  --accent-light: #ff1a45;
+  --accent-bg: rgba(228, 0, 43, 0.12);
+  --border: #2e3340;
+  --border-light: #3a3f4f;
+  --buzz-gray: #6b7280;
+  --buzz-yellow: #f59e0b;
+  --buzz-orange: #f97316;
+  --buzz-red: #ef4444;
+  --tier-nano: #9ca3af;
+  --tier-micro: #60a5fa;
+  --tier-mid: #a78bfa;
+  --tier-macro: #f59e0b;
+  --tier-mega: #ef4444;
+  --tier-official: #1d9bf0;
+  --verified: #1d9bf0;
+  --shadow: 0 2px 8px rgba(0,0,0,0.3);
+  --shadow-strong: 0 4px 18px rgba(0,0,0,0.45);
+  --radius: 10px;
+  --radius-sm: 6px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans KR', sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+a { color: var(--accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Header */
+.header {
+  position: relative;
+  background: linear-gradient(135deg, var(--bg-secondary) 0%, #1e1225 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 22px 24px 16px;
+  text-align: center;
+}
+.header h1 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.header .subtitle {
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+  margin-top: 6px;
+}
+.header .data-notice-pin {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  background: rgba(228, 0, 43, 0.14);
+  border: 1px solid rgba(228, 0, 43, 0.45);
+  color: #ff4d6d;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  line-height: 1.3;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  max-width: 360px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.header .data-notice-pin strong { color: #ff6b86; font-weight: 700; }
+@media (max-width: 720px) {
+  .header .data-notice-pin {
+    position: static;
+    margin-top: 8px;
+    max-width: 100%;
+  }
+}
+
+/* Container */
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 24px 24px 40px;
+}
+
+/* Summary cards */
+.summary-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.summary-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 8px 14px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 0;
+}
+.summary-card .label {
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 2px;
+  line-height: 1.2;
+}
+.summary-card .value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+.summary-card .value .unit {
+  font-size: 0.78rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+  margin-left: 2px;
+}
+
+/* ===== Filter Toolbar ===== */
+.filter-bar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(15, 17, 23, 0.92);
+  backdrop-filter: saturate(150%) blur(10px);
+  -webkit-backdrop-filter: saturate(150%) blur(10px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  margin-bottom: 22px;
+  box-shadow: var(--shadow-strong);
+}
+.filter-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0;
+  border-bottom: 1px dashed var(--border);
+}
+.filter-group:last-of-type { border-bottom: none; }
+.filter-group-label {
+  flex: 0 0 auto;
+  min-width: 120px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  letter-spacing: 0.01em;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.filter-group-label .icon { font-size: 0.95rem; }
+
+/* Chip (pill) buttons */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  user-select: none;
+  font-family: inherit;
+  line-height: 1.3;
+  white-space: nowrap;
+}
+.chip:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-light);
+  color: var(--text-primary);
+}
+.chip.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(228, 0, 43, 0.3);
+}
+.chip.active:hover {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+}
+.chip .chip-count {
+  font-size: 0.74rem;
+  opacity: 0.85;
+  font-weight: 400;
+}
+.chip.active .chip-count { opacity: 0.95; }
+.chip.muted {
+  opacity: 0.45;
+}
+.chip.master {
+  background: transparent;
+  border-style: dashed;
+  font-weight: 600;
+}
+.chip.master.active {
+  background: var(--accent-bg);
+  color: var(--accent-light);
+  border-color: var(--accent);
+  border-style: solid;
+  box-shadow: none;
+}
+
+/* Date range inputs */
+.date-range {
+  display: none;
+  align-items: center;
+  gap: 8px;
+  margin-left: 4px;
+  padding: 4px 10px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+}
+.date-range.open { display: inline-flex; }
+.date-range input[type="date"] {
+  background: transparent;
+  border: none;
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 0.8rem;
+  padding: 2px 4px;
+  outline: none;
+  color-scheme: dark;
+}
+.date-range .dash { color: var(--text-muted); font-size: 0.8rem; }
+.date-range .apply-btn {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+}
+.date-range .apply-btn:hover { background: var(--accent-light); }
+
+/* Search */
+.filter-search {
+  position: relative;
+  flex: 1;
+  min-width: 220px;
+}
+.filter-search input {
+  width: 100%;
+  padding: 8px 14px 8px 36px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text-primary);
+  font-size: 0.85rem;
+  outline: none;
+  transition: border-color 0.2s;
+  font-family: inherit;
+}
+.filter-search input:focus { border-color: var(--accent); }
+.filter-search::before {
+  content: '🔍';
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.88rem;
+  pointer-events: none;
+  opacity: 0.75;
+}
+
+/* Actions row */
+.filter-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 10px;
+  margin-top: 4px;
+  border-top: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+.filter-actions-left {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.filter-reset-btn {
+  background: transparent;
+  border: 1px solid var(--border-light);
+  color: var(--text-secondary);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.15s;
+  font-weight: 500;
+}
+.filter-reset-btn:hover {
+  background: var(--bg-card);
+  color: var(--accent-light);
+  border-color: var(--accent);
+}
+.filter-result-count {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+.filter-result-count strong {
+  color: var(--accent-light);
+  font-weight: 700;
+}
+
+/* ===== 고급필터 토글 ===== */
+.filter-advanced-toggle {
+  background: transparent;
+  border: 1px dashed var(--border-light);
+  color: var(--text-secondary);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  transition: all 0.15s;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.filter-advanced-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent-light);
+  border-style: solid;
+}
+.filter-advanced-toggle .toggle-icon {
+  transition: transform 0.15s;
+  font-size: 0.7rem;
+}
+.filter-advanced-toggle[aria-expanded="true"] .toggle-icon {
+  transform: rotate(180deg);
+}
+.filter-advanced {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 0 0 0;
+  border-top: 1px solid var(--border);
+  margin-top: 4px;
+}
+.filter-advanced[hidden] {
+  display: none;
+}
+
+/* Brand section */
+.brand-section {
+  margin-bottom: 36px;
+}
+.brand-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--accent);
+}
+.brand-name {
+  font-size: 1.05rem;
+  font-weight: 700;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.brand-stat {
+  background: var(--accent-bg);
+  color: var(--accent-light);
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.brand-tier-badges {
+  display: flex;
+  gap: 6px;
+  margin-left: auto;
+  flex-wrap: wrap;
+}
+.brand-tier-badge {
+  font-size: 0.72rem;
+  padding: 2px 8px;
+  border-radius: 12px;
+  background: var(--bg-input);
+  color: var(--text-secondary);
+  border: 1px solid var(--border);
+}
+
+/* AI Summary */
+.ai-summary {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius-sm);
+  padding: 16px 18px;
+  margin-bottom: 18px;
+  font-size: 0.9rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  white-space: pre-line;
+}
+.ai-summary-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent-light);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 8px;
+}
+
+/* Video cards */
+.video-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.video-card {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px;
+  transition: background 0.15s, border-color 0.15s;
+}
+.video-card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-light);
+}
+.video-thumb {
+  position: relative;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  aspect-ratio: 16/9;
+}
+.video-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.video-thumb .duration-badge {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  font-size: 0.72rem;
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+.video-thumb .short-badge {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.65rem;
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* ===== 감성 워닝 ===== */
+.video-card.warn-critical {
+  border-left: 6px solid #991b1b;
+  background: linear-gradient(180deg, #fef2f2 0%, #fee2e2 100%);
+  box-shadow: 0 0 0 2px rgba(220, 38, 38, 0.35), 0 4px 14px rgba(220, 38, 38, 0.18);
+  position: relative;
+  animation: card-critical-pulse 2.2s ease-in-out infinite;
+}
+/* 치명 콘텐츠 근거 패널 — 왜 치명 판정인지 설명 */
+.critical-reason {
+  background: #991b1b;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin: 10px 0 2px;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  box-shadow: 0 2px 8px rgba(153, 27, 27, 0.3);
+}
+.critical-reason .cr-title {
+  font-weight: 700;
+  font-size: 0.88rem;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.critical-reason .cr-body {
+  opacity: 0.95;
+}
+.critical-reason .cr-quote {
+  margin-top: 6px;
+  padding: 6px 10px;
+  background: rgba(255,255,255,0.12);
+  border-left: 3px solid #fecaca;
+  border-radius: 4px;
+  font-size: 0.78rem;
+  font-style: italic;
+  color: #fee2e2;
+}
+.critical-reason .cr-quote::before { content: '💬 최악 댓글: '; font-style: normal; font-weight: 600; }
+@keyframes card-critical-pulse {
+  0%, 100% { box-shadow: 0 0 0 2px rgba(220, 38, 38, 0.35), 0 4px 14px rgba(220, 38, 38, 0.18); }
+  50% { box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.55), 0 6px 18px rgba(220, 38, 38, 0.3); }
+}
+.video-card.warn-red {
+  border-left: 4px solid #dc2626;
+  background: #fef2f2;
+}
+.video-card.warn-yellow {
+  border-left: 4px solid #f59e0b;
+  background: #fffbeb;
+}
+.warn-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 2px 7px;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+.warn-badge.critical {
+  background: #991b1b;
+  color: #fff;
+  animation: pulse-critical 1.8s ease-in-out infinite;
+}
+@keyframes pulse-critical {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+.warn-badge.red {
+  background: #dc2626;
+  color: #fff;
+}
+.warn-badge.yellow {
+  background: #f59e0b;
+  color: #fff;
+}
+.brand-critical-alert {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  background: #991b1b;
+  color: #fff;
+  white-space: nowrap;
+  flex-shrink: 0;
+  animation: pulse-critical 1.8s ease-in-out infinite;
+}
+/* Inline 감성 점수 (Buzz 옆) */
+.sentiment-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+.sentiment-inline.neg { background: #fee2e2; color: #991b1b; border-color: #fca5a5; }
+.sentiment-inline.mid { background: #fef3c7; color: #b45309; border-color: #fcd34d; }
+.sentiment-inline.pos { background: #d1fae5; color: #065f46; border-color: #86efac; }
+.sentiment-inline.none { background: #f3f4f6; color: #9ca3af; border-color: #e5e7eb; font-weight: 500; }
+/* 영상 메타 기반 감성 (댓글 없을 때 fallback) — 점선 테두리로 신뢰도 낮음을 표시 */
+.sentiment-inline.meta {
+  border-style: dashed;
+  opacity: 0.85;
+  font-weight: 600;
+}
+
+/* 멀티-브랜드 비교 콘텐츠 칩 */
+.multi-brand-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 6px 0 4px;
+  align-items: center;
+}
+.multi-badge {
+  display: inline-flex;
+  align-items: center;
+  background: linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 3px 9px;
+  border-radius: 10px;
+  letter-spacing: 0.3px;
+  box-shadow: 0 1px 3px rgba(139, 92, 246, 0.3);
+}
+.brand-chip {
+  display: inline-block;
+  background: #ede9fe;
+  color: #5b21b6;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 10px;
+  border: 1px solid #ddd6fe;
+}
+.sentiment-bar {
+  display: flex;
+  height: 6px;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-top: 4px;
+  background: #e5e7eb;
+}
+.sentiment-bar .seg-neg { background: #dc2626; }
+.sentiment-bar .seg-neu { background: #9ca3af; }
+.sentiment-bar .seg-pos { background: #10b981; }
+.sentiment-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.75rem;
+  color: #6b7280;
+  margin-top: 6px;
+}
+.sentiment-info .neg-ratio.high { color: #dc2626; font-weight: 700; }
+.sentiment-info .neg-ratio.mid { color: #f59e0b; font-weight: 700; }
+.comment-item.sent-neg { border-left: 3px solid #dc2626; padding-left: 7px; }
+.comment-item.sent-neu { border-left: 3px solid #9ca3af; padding-left: 7px; }
+.comment-item.sent-pos { border-left: 3px solid #10b981; padding-left: 7px; }
+.comment-sentiment-tag {
+  display: inline-block;
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  margin-right: 4px;
+}
+.comment-sentiment-tag.neg { background: #fee2e2; color: #dc2626; }
+.comment-sentiment-tag.neu { background: #f3f4f6; color: #6b7280; }
+.comment-sentiment-tag.pos { background: #d1fae5; color: #065f46; }
+
+.video-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+.video-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.video-title a { color: var(--text-primary); }
+.video-title a:hover { color: var(--accent-light); }
+.video-channel {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  flex-wrap: wrap;
+}
+.verified-icon {
+  color: var(--verified);
+  font-size: 0.82rem;
+}
+.tier-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 10px;
+  color: #fff;
+  line-height: 1.5;
+}
+.tier-nano { background: var(--tier-nano); }
+.tier-micro { background: var(--tier-micro); color: #0c1425; }
+.tier-mid { background: var(--tier-mid); color: #1a0e30; }
+.tier-macro { background: var(--tier-macro); color: #1a1200; }
+.tier-mega { background: var(--tier-mega); }
+.tier-official { background: var(--tier-official); }
+
+.video-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+.video-stats .stat {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.video-stats .stat-icon {
+  font-size: 0.85rem;
+}
+
+/* Buzz score */
+.buzz-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 2px;
+}
+.buzz-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  min-width: 32px;
+}
+.buzz-bar-bg {
+  flex: 1;
+  max-width: 160px;
+  height: 6px;
+  background: var(--bg-input);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.buzz-bar {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.3s;
+}
+.buzz-value {
+  font-size: 0.82rem;
+  font-weight: 700;
+  min-width: 36px;
+}
+
+.video-date {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+/* Top comments */
+.comments-toggle {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  padding: 4px 12px;
+  border-radius: 14px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  margin-top: 4px;
+  transition: background 0.15s, color 0.15s;
+  font-family: inherit;
+}
+.comments-toggle:hover {
+  background: var(--bg-input);
+  color: var(--text-primary);
+}
+.comments-list {
+  display: none;
+  margin-top: 8px;
+  padding: 10px 12px;
+  background: var(--bg-primary);
+  border-radius: var(--radius-sm);
+  font-size: 0.82rem;
+}
+.comments-list.open { display: block; }
+.comment-item {
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border);
+}
+.comment-item:last-child { border-bottom: none; }
+.comment-author {
+  color: var(--accent-light);
+  font-weight: 600;
+  font-size: 0.78rem;
+}
+.comment-text {
+  color: var(--text-secondary);
+  margin-top: 2px;
+}
+.comment-likes {
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  margin-top: 2px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 28px 16px;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  border-top: 1px solid var(--border);
+  margin-top: 20px;
+}
+.footer .gen-time {
+  margin-top: 4px;
+  font-size: 0.72rem;
+}
+
+/* Loading & Error */
+.loading {
+  text-align: center;
+  padding: 80px 20px;
+  color: var(--text-secondary);
+}
+.loading .spinner {
+  width: 36px;
+  height: 36px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin: 0 auto 16px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.error-msg {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--buzz-orange);
+  font-size: 0.95rem;
+}
+
+/* Data notice banner */
+.data-notice {
+  background: rgba(228, 0, 43, 0.08);
+  border: 1px solid rgba(228, 0, 43, 0.35);
+  border-left: 4px solid var(--accent);
+  color: var(--accent-light);
+  padding: 12px 16px;
+  border-radius: var(--radius);
+  margin-bottom: 18px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  line-height: 1.5;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.data-notice .icon {
+  font-size: 1.05rem;
+  flex-shrink: 0;
+}
+.data-notice strong {
+  color: #ff4d6d;
+  font-weight: 700;
+}
+
+.no-results {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+/* Load-more button */
+.load-more-wrap {
+  text-align: center;
+  padding: 8px 0 4px;
+}
+.load-more-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  color: var(--text-primary);
+  padding: 10px 22px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-size: 0.88rem;
+  font-weight: 500;
+  transition: all 0.15s ease;
+  font-family: inherit;
+}
+.load-more-btn:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent);
+  color: var(--accent-light);
+}
+.load-more-btn .count {
+  color: var(--text-muted);
+  margin-left: 4px;
+  font-weight: 400;
+}
+.load-more-btn:hover .count { color: var(--text-secondary); }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .summary-row { grid-template-columns: repeat(2, 1fr); }
+  .video-card { grid-template-columns: 1fr; }
+  .video-thumb { max-width: 100%; }
+  .brand-tier-badges { margin-left: 0; }
+  .brand-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .header h1 { font-size: 1.3rem; }
+  .summary-card .value { font-size: 1.25rem; }
+
+  .filter-bar {
+    position: static;
+    padding: 12px;
+  }
+  .filter-group-label {
+    min-width: 100%;
+    flex-basis: 100%;
+    margin-bottom: 4px;
+  }
+  .filter-group {
+    padding: 6px 0;
+  }
+  .filter-search { min-width: 100%; }
+  .filter-actions { flex-direction: column; align-items: stretch; }
+  .filter-result-count { text-align: center; }
+}
+
+@media (max-width: 480px) {
+  .summary-row { grid-template-columns: 1fr 1fr; gap: 8px; }
+  .container { padding: 14px 10px 30px; }
+  .chip { padding: 5px 11px; font-size: 0.78rem; }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>📺 유튜브 브랜드 모니터링</h1>
+  <div class="subtitle" id="header-subtitle">데이터 로딩 중...</div>
+  <div class="data-notice-pin" id="data-notice" title="안내">
+    <span>📌 <strong id="notice-from-date">...</strong>부터</span>
+  </div>
+</div>
+
+<div class="container">
+  <div class="summary-row" id="summary-row">
+    <div class="summary-card"><div class="label">총 브랜드수</div><div class="value" id="s-brands">-</div></div>
+    <div class="summary-card"><div class="label">총 영상수</div><div class="value" id="s-videos">-</div></div>
+    <div class="summary-card"><div class="label">총 조회수</div><div class="value" id="s-views">-</div></div>
+    <div class="summary-card"><div class="label">기간</div><div class="value" id="s-period">-</div></div>
+  </div>
+
+  <!-- Filter Toolbar -->
+  <div class="filter-bar" id="filter-bar">
+    <!-- Period -->
+    <div class="filter-group" id="fg-period">
+      <div class="filter-group-label"><span class="icon">📅</span> 기간</div>
+      <button class="chip" data-period="today">오늘</button>
+      <button class="chip" data-period="1">최근 1일</button>
+      <button class="chip active" data-period="7">최근 7일</button>
+      <button class="chip" data-period="30">최근 30일</button>
+      <button class="chip" data-period="custom">기간 지정</button>
+      <div class="date-range" id="date-range">
+        <input type="date" id="date-from">
+        <span class="dash">~</span>
+        <input type="date" id="date-to">
+        <button class="apply-btn" id="date-apply">적용</button>
+      </div>
+    </div>
+
+    <!-- Brand -->
+    <div class="filter-group" id="fg-brand">
+      <div class="filter-group-label"><span class="icon">🏷️</span> 브랜드</div>
+      <button class="chip master active" data-brand-master>모두</button>
+      <!-- Brand chips injected here -->
+    </div>
+
+    <!-- Advanced (collapsed by default) -->
+    <div class="filter-advanced" id="filter-advanced" hidden>
+      <!-- Format -->
+      <div class="filter-group" id="fg-format">
+        <div class="filter-group-label"><span class="icon">🎬</span> 형식</div>
+        <button class="chip active" data-format="long">Long</button>
+        <button class="chip active" data-format="short">Short</button>
+      </div>
+
+      <!-- Tier -->
+      <div class="filter-group" id="fg-tier">
+        <div class="filter-group-label"><span class="icon">👤</span> 크리에이터 티어</div>
+        <button class="chip active" data-tier="Official">Official</button>
+        <button class="chip active" data-tier="Mega">Mega <span class="chip-count">(1M+)</span></button>
+        <button class="chip active" data-tier="Macro">Macro <span class="chip-count">(100K-1M)</span></button>
+        <button class="chip active" data-tier="Mid">Mid <span class="chip-count">(10K-100K)</span></button>
+        <button class="chip active" data-tier="Micro">Micro <span class="chip-count">(1K-10K)</span></button>
+        <button class="chip active" data-tier="Nano">Nano <span class="chip-count">(&lt;1K)</span></button>
+      </div>
+
+      <!-- Sort -->
+      <div class="filter-group" id="fg-sort">
+        <div class="filter-group-label"><span class="icon">↕️</span> 정렬</div>
+        <button class="chip active" data-sort="upload">📅 최신순</button>
+        <button class="chip" data-sort="buzz">🔥 스코어순</button>
+        <button class="chip" data-sort="views">👁 조회순</button>
+        <button class="chip" data-sort="comments">💬 댓글순</button>
+        <button class="chip" data-sort="likes">👍 좋아요순</button>
+        <button class="chip" data-sort="negative">⚠️ 부정률순</button>
+      </div>
+
+      <!-- Search -->
+      <div class="filter-group" id="fg-search">
+        <div class="filter-group-label"><span class="icon">🔍</span> 검색</div>
+        <div class="filter-search">
+          <input type="text" id="search-input" placeholder="영상 제목, 채널명, 설명으로 검색...">
+        </div>
+      </div>
+    </div>
+
+    <!-- Actions -->
+    <div class="filter-actions">
+      <div class="filter-actions-left">
+        <button class="filter-advanced-toggle" id="filter-advanced-toggle" aria-expanded="false">
+          <span class="toggle-icon">▼</span> <span class="toggle-label">고급 필터</span>
+        </button>
+        <button class="filter-reset-btn" id="filter-reset">↺ 필터 초기화</button>
+      </div>
+      <div class="filter-result-count" id="filter-result-count">
+        <strong>0</strong>개 영상 / <strong>0</strong>개 브랜드 표시 중
+      </div>
+    </div>
+  </div>
+
+  <div id="brands-container">
+    <div class="loading"><div class="spinner"></div>데이터를 불러오는 중...</div>
+  </div>
+</div>
+
+<div class="footer">
+  <div>자동 생성 · KFC Korea Digital Tech · 검색엔진 비공개</div>
+  <div class="gen-time" id="footer-time"></div>
+</div>
+
+<script>
+(function() {
+  'use strict';
+
+  // ===== Utility functions =====
+  function formatNumber(n) {
+    if (n == null) return '-';
+    if (n >= 1e8) return (n / 1e8).toFixed(1) + '억';
+    if (n >= 1e4) return (n / 1e4).toFixed(1) + '만';
+    if (n >= 1e3) return (n / 1e3).toFixed(1) + 'K';
+    return n.toLocaleString('ko-KR');
+  }
+
+  function formatDuration(sec) {
+    if (!sec || sec <= 0) return '';
+    var h = Math.floor(sec / 3600);
+    var m = Math.floor((sec % 3600) / 60);
+    var s = sec % 60;
+    if (h > 0) return h + ':' + String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
+    return m + ':' + String(s).padStart(2,'0');
+  }
+
+  function buzzColor(score) {
+    if (score >= 70) return 'var(--buzz-red)';
+    if (score >= 50) return 'var(--buzz-orange)';
+    if (score >= 30) return 'var(--buzz-yellow)';
+    return 'var(--buzz-gray)';
+  }
+
+  function tierClass(tier) {
+    var t = (tier || '').toLowerCase();
+    if (t === 'official') return 'tier-official';
+    if (t === 'mega') return 'tier-mega';
+    if (t === 'macro') return 'tier-macro';
+    if (t === 'mid') return 'tier-mid';
+    if (t === 'micro') return 'tier-micro';
+    return 'tier-nano';
+  }
+
+  function escapeHtml(str) {
+    var div = document.createElement('div');
+    div.textContent = str == null ? '' : str;
+    return div.innerHTML;
+  }
+
+  // 브랜드 키 → 짧은 한글 라벨 (multi_brand_tags 칩 표시용)
+  var BRAND_SHORT_LABELS = {
+    kfc: 'KFC',
+    burgerking: '버거킹',
+    mcdonalds: '맥도날드',
+    lotteria: '롯데리아',
+    momstouch: '맘스터치',
+    popeyes: '파파이스',
+    subway: '서브웨이',
+    bbq: 'BBQ',
+    bhc: 'BHC',
+    kyochon: '교촌',
+  };
+  function brandShortLabel(key) {
+    return BRAND_SHORT_LABELS[key] || key;
+  }
+
+  // Parse YYYY.MM.DD → Date object (local time, midnight)
+  function parseDotDate(s) {
+    if (!s) return null;
+    var m = String(s).match(/^(\d{4})\.(\d{1,2})\.(\d{1,2})/);
+    if (!m) {
+      // try ISO fallback
+      var d = new Date(s);
+      return isNaN(d.getTime()) ? null : d;
+    }
+    return new Date(+m[1], +m[2] - 1, +m[3]);
+  }
+
+  function ymdToday() {
+    var d = new Date();
+    d.setHours(0, 0, 0, 0);
+    return d;
+  }
+
+  function toYmdInputStr(d) {
+    var y = d.getFullYear();
+    var m = String(d.getMonth() + 1).padStart(2, '0');
+    var dd = String(d.getDate()).padStart(2, '0');
+    return y + '-' + m + '-' + dd;
+  }
+
+  function parseInputDate(s) {
+    if (!s) return null;
+    var m = s.match(/^(\d{4})-(\d{1,2})-(\d{1,2})$/);
+    if (!m) return null;
+    return new Date(+m[1], +m[2] - 1, +m[3]);
+  }
+
+  // ===== State =====
+  var PAGE_SIZE = 10;
+  var ALL_BRAND_KEYS = ['kfc', 'burgerking', 'mcdonalds', 'lotteria', 'momstouch', 'popeyes', 'subway', 'bbq', 'bhc', 'kyochon'];
+  var BRAND_DISPLAY_KOR = {
+    kfc: 'KFC',
+    burgerking: '버거킹',
+    mcdonalds: '맥도날드',
+    lotteria: '롯데리아',
+    momstouch: '맘스터치',
+    popeyes: '파파이스',
+    subway: '서브웨이',
+    bbq: 'BBQ치킨',
+    bhc: 'BHC치킨',
+    kyochon: '교촌치킨',
+    multi: '🔀 멀티-브랜드 비교'
+  };
+  var ALL_TIERS = ['Official', 'Mega', 'Macro', 'Mid', 'Micro', 'Nano'];
+
+  var DATA = null;           // loaded JSON
+  var BRAND_KEYS_ORDER = []; // sorted brand key order (from data)
+  var BRAND_KEYS_IN_DATA = []; // keys present in data
+  var filters = {
+    period: '7',                      // 'today' | '1' | '7' | '30' | 'custom'
+    customFrom: null,                 // Date
+    customTo: null,                   // Date
+    brands: new Set(),                // selected brand keys
+    formats: new Set(['long', 'short']),
+    tiers: new Set(ALL_TIERS),
+    search: '',
+    sort: 'upload'                    // 'upload' | 'buzz' | 'views' | 'comments' | 'likes' (default 최신순)
+  };
+  // per-brand pagination state: key -> true (expanded) | false (collapsed)
+  var expanded = {};
+
+  // ===== Filter logic =====
+  function passesPeriod(v) {
+    var d = parseDotDate(v.upload_date);
+    if (!d) return true; // missing date → don't exclude
+    var today = ymdToday();
+    if (filters.period === 'today') {
+      return d.getFullYear() === today.getFullYear() &&
+             d.getMonth() === today.getMonth() &&
+             d.getDate() === today.getDate();
+    }
+    if (filters.period === 'custom') {
+      if (filters.customFrom && d < filters.customFrom) return false;
+      if (filters.customTo) {
+        // include the whole day on customTo
+        var to = new Date(filters.customTo);
+        to.setHours(23, 59, 59, 999);
+        if (d > to) return false;
+      }
+      return true;
+    }
+    var days = parseInt(filters.period, 10);
+    if (isNaN(days)) return true;
+    var cutoff = new Date(today);
+    cutoff.setDate(cutoff.getDate() - (days - 1));
+    cutoff.setHours(0, 0, 0, 0);
+    return d >= cutoff && d <= new Date(today.getFullYear(), today.getMonth(), today.getDate(), 23, 59, 59, 999);
+  }
+
+  function passesFormat(v) {
+    return filters.formats.has(v.is_short ? 'short' : 'long');
+  }
+
+  function passesTier(v) {
+    var t = v.creator_tier || 'Nano';
+    return filters.tiers.has(t);
+  }
+
+  function passesSearch(v) {
+    if (!filters.search) return true;
+    var q = filters.search.toLowerCase();
+    var hay = ((v.title || '') + ' ' + (v.channel || '') + ' ' + (v.description_excerpt || '')).toLowerCase();
+    return hay.indexOf(q) !== -1;
+  }
+
+  function videoPassesNonBrandFilters(v) {
+    return passesPeriod(v) && passesFormat(v) && passesTier(v) && passesSearch(v);
+  }
+
+  function filterVideosForBrand(key) {
+    if (!DATA || !DATA.brands || !DATA.brands[key]) return [];
+    var videos = (DATA.brands[key].videos || []).filter(videoPassesNonBrandFilters);
+    videos.sort(getSortComparator(filters.sort));
+    return videos;
+  }
+
+  function getSortComparator(mode) {
+    switch (mode) {
+      case 'upload':
+        // 최신순: upload_date 내림차순 (YYYY.MM.DD 문자열 비교 OK)
+        return function(a, b) {
+          var da = String(a.upload_date || '');
+          var db = String(b.upload_date || '');
+          if (db !== da) return db < da ? -1 : 1;
+          return (b.buzz_score || 0) - (a.buzz_score || 0); // tiebreak
+        };
+      case 'views':
+        return function(a, b) { return (b.views || 0) - (a.views || 0); };
+      case 'comments':
+        return function(a, b) { return (b.comment_count || 0) - (a.comment_count || 0); };
+      case 'likes':
+        return function(a, b) { return (b.likes || 0) - (a.likes || 0); };
+      case 'negative':
+        // 치명 영상 → 워닝 → 일반 → 없음
+        return function(a, b) {
+          var aOrder = isCriticalVideo(a) ? 0 : (a.warning_level === 'red' ? 1 : (a.warning_level === 'yellow' ? 2 : 3));
+          var bOrder = isCriticalVideo(b) ? 0 : (b.warning_level === 'red' ? 1 : (b.warning_level === 'yellow' ? 2 : 3));
+          if (aOrder !== bOrder) return aOrder - bOrder;
+          var at = (a.sentiment_counts && (a.sentiment_counts.neg + a.sentiment_counts.neu + a.sentiment_counts.pos)) || 0;
+          var bt = (b.sentiment_counts && (b.sentiment_counts.neg + b.sentiment_counts.neu + b.sentiment_counts.pos)) || 0;
+          var ar = at > 0 ? (a.negative_ratio || 0) : -1;
+          var br = bt > 0 ? (b.negative_ratio || 0) : -1;
+          if (br !== ar) return br - ar;
+          return (b.views || 0) - (a.views || 0);
+        };
+      case 'buzz':
+      default:
+        return function(a, b) { return (b.buzz_score || 0) - (a.buzz_score || 0); };
+    }
+  }
+
+  // ===== Render =====
+  function sentimentSegments(sc) {
+    var total = (sc.neg || 0) + (sc.neu || 0) + (sc.pos || 0);
+    if (total <= 0) return '';
+    var pn = (sc.neg || 0) / total * 100;
+    var pu = (sc.neu || 0) / total * 100;
+    var pp = (sc.pos || 0) / total * 100;
+    return '<div class="sentiment-bar">' +
+      (pn > 0 ? '<div class="seg-neg" style="width:' + pn + '%"></div>' : '') +
+      (pu > 0 ? '<div class="seg-neu" style="width:' + pu + '%"></div>' : '') +
+      (pp > 0 ? '<div class="seg-pos" style="width:' + pp + '%"></div>' : '') +
+    '</div>';
+  }
+
+  function warnBadgeHtml(level) {
+    if (level === 'critical') return '<span class="warn-badge critical">🔴 치명</span>';
+    if (level === 'red') return '<span class="warn-badge red">🚨 위험</span>';
+    if (level === 'yellow') return '<span class="warn-badge yellow">⚠️ 주의</span>';
+    return '';
+  }
+
+  // ===== 치명 레벨 감지 (근거 반환) =====
+  // 조건 (AND 공통): 부정 댓글 ≥ 3개
+  // A. 제목 리스크 키워드 + 부정률 ≥ 50%
+  // B. 대규모 조회수 (≥ 50K) + 부정률 ≥ 45%
+  // C. 중규모 조회수 (≥ 10K) + 부정률 ≥ 55%
+  var RISK_KEYWORDS = ['논란','분노','꼼수','가격 인상','가격인상','사과문','리콜','실망','무너진','폭발','비판','반품','불매','최악','기만','거짓','허위','품절 사기','왜 이리'];
+  function getCriticalInfo(v) {
+    // 반환: null (치명 아님) | {rule, reason, short}
+    var sc = v.sentiment_counts || {};
+    var neg = sc.neg || 0, neu = sc.neu || 0, pos = sc.pos || 0;
+    var total = neg + neu + pos;
+    if (neg < 3) return null;
+    var ratio = v.negative_ratio || 0;
+    var views = v.views || 0;
+    var title = (v.title || '') + ' ' + (v.description_excerpt || '');
+    var matched = RISK_KEYWORDS.filter(function(k) { return title.indexOf(k) !== -1; });
+    var pct = Math.round(ratio * 100);
+    var fracTxt = neg + '/' + total;
+
+    // A. 리스크 키워드 + 높은 부정률 — 가장 명확한 브랜드 위기 신호
+    if (matched.length > 0 && ratio >= 0.5) {
+      return {
+        rule: 'keyword',
+        short: '리스크 키워드 · 부정 ' + pct + '%',
+        reason: '제목에 리스크 키워드 "' + matched[0] + '" 감지 + 부정 댓글 ' + pct + '% (' + fracTxt + ')',
+        matchedKeyword: matched[0],
+      };
+    }
+    // B. 대규모 조회수(≥5만) + 과반 가까운 부정
+    if (views >= 50000 && ratio >= 0.45) {
+      return {
+        rule: 'high-views',
+        short: '조회 ' + formatNumber(views) + ' · 부정 ' + pct + '%',
+        reason: '대규모 조회수 ' + formatNumber(views) + ' · 부정 댓글 ' + pct + '% (' + fracTxt + ') — 브랜드 여론에 영향',
+      };
+    }
+    // C. 중규모 조회수(≥1만) + 확실한 과반 부정
+    if (views >= 10000 && ratio >= 0.55) {
+      return {
+        rule: 'mid-views',
+        short: '조회 ' + formatNumber(views) + ' · 부정 ' + pct + '%',
+        reason: '조회 ' + formatNumber(views) + ' · 부정 댓글 과반 ' + pct + '% (' + fracTxt + ')',
+      };
+    }
+    return null;
+  }
+  function isCriticalVideo(v) { return getCriticalInfo(v) !== null; }
+  function effectiveWarnLevel(v) {
+    if (isCriticalVideo(v)) return 'critical';
+    return v.warning_level || '';
+  }
+
+  function sentimentMarker(s) {
+    if (s === '부정') return { cls: 'sent-neg', tag: '<span class="comment-sentiment-tag neg">부정</span>' };
+    if (s === '긍정') return { cls: 'sent-pos', tag: '<span class="comment-sentiment-tag pos">긍정</span>' };
+    if (s === '중립') return { cls: 'sent-neu', tag: '<span class="comment-sentiment-tag neu">중립</span>' };
+    return { cls: '', tag: '' };
+  }
+
+  function renderVideo(v) {
+    var thumbUrl = 'https://i.ytimg.com/vi/' + encodeURIComponent(v.video_id) + '/mqdefault.jpg';
+    var dur = formatDuration(v.duration);
+    var bc = buzzColor(v.buzz_score || 0);
+    var pct = Math.min(100, (v.buzz_score || 0));
+
+    var sc = v.sentiment_counts || {neg: 0, neu: 0, pos: 0};
+    var sTotal = (sc.neg || 0) + (sc.neu || 0) + (sc.pos || 0);
+    var negRatio = v.negative_ratio || 0;
+    var warnLevel = effectiveWarnLevel(v);
+    var cardCls = 'video-card' + (warnLevel ? ' warn-' + warnLevel : '');
+
+    // Buzz 옆 인라인 감성 점수 — 댓글 기반 우선, 없으면 영상 메타 기반 fallback
+    var inlineSent = '';
+    if (sTotal > 0) {
+      var sCls = negRatio >= 0.5 ? 'neg' : (negRatio >= 0.3 ? 'mid' : 'pos');
+      var sIcon = sCls === 'neg' ? '😠' : (sCls === 'mid' ? '😐' : '😊');
+      inlineSent = '<span class="sentiment-inline ' + sCls + '" title="댓글 기반 — 부정 ' + sc.neg + ' / 중립 ' + sc.neu + ' / 긍정 ' + sc.pos + '">' + sIcon + ' ' + Math.round(negRatio * 100) + '%</span>';
+    } else if (v.video_meta_sentiment) {
+      // 댓글 0개일 때 제목+설명 기반 감성 (📝 마크로 구분 · 신뢰도 낮음)
+      var ms = v.video_meta_sentiment;
+      var mCls = ms === '부정' ? 'neg' : (ms === '중립' ? 'mid' : 'pos');
+      var mIcon = ms === '부정' ? '😠' : (ms === '중립' ? '😐' : '😊');
+      inlineSent = '<span class="sentiment-inline meta ' + mCls + '" title="영상 제목+설명 기반 (댓글 없음) · 신뢰도 낮음">📝 ' + mIcon + ' ' + escapeHtml(ms) + '</span>';
+    } else {
+      inlineSent = '<span class="sentiment-inline none" title="댓글 없음">· –</span>';
+    }
+
+    // 멀티-브랜드 비교 콘텐츠 칩 (2개 이상 브랜드 감지 시)
+    var multiChipsHtml = '';
+    if (v.multi_brand_tags && v.multi_brand_tags.length >= 2) {
+      var labels = v.multi_brand_tags.map(function(k) { return brandShortLabel(k); });
+      multiChipsHtml = '<div class="multi-brand-row">' +
+        '<span class="multi-badge" title="2개 이상 브랜드가 함께 등장하는 비교 콘텐츠">🔀 비교</span>' +
+        labels.map(function(lbl) { return '<span class="brand-chip">' + escapeHtml(lbl) + '</span>'; }).join('') +
+        '</div>';
+    }
+
+    var sentimentHtml = '';
+    if (sTotal > 0) {
+      var ratioCls = negRatio >= 0.5 ? 'high' : (negRatio >= 0.3 ? 'mid' : '');
+      sentimentHtml =
+        '<div class="sentiment-info">' +
+          '<span class="neg-ratio ' + ratioCls + '">부정 ' + Math.round(negRatio * 100) + '%</span>' +
+          '<span>🔴 ' + sc.neg + ' · ⚪ ' + sc.neu + ' · 🟢 ' + sc.pos + '</span>' +
+          warnBadgeHtml(warnLevel) +
+        '</div>' +
+        sentimentSegments(sc);
+    }
+
+    // 치명 콘텐츠 판정 근거 패널
+    var critInfo = getCriticalInfo(v);
+    var criticalReasonHtml = '';
+    if (critInfo) {
+      var worstComment = null;
+      if (v.top_comments && v.top_comments.length > 0) {
+        var negComments = v.top_comments.filter(function(c) { return c.sentiment === '부정'; });
+        negComments.sort(function(a, b) { return (b.likes || 0) - (a.likes || 0); });
+        worstComment = negComments[0] || null;
+      }
+      var quoteHtml = '';
+      if (worstComment) {
+        var qtxt = (worstComment.text || '').substring(0, 140);
+        if ((worstComment.text || '').length > 140) qtxt += '…';
+        quoteHtml = '<div class="cr-quote">' + escapeHtml(qtxt) +
+          (worstComment.likes ? ' <span style="opacity:0.8">(👍 ' + worstComment.likes + ')</span>' : '') +
+          '</div>';
+      }
+      criticalReasonHtml =
+        '<div class="critical-reason">' +
+          '<div class="cr-title">⚠️ 치명 콘텐츠 판정 — ' + escapeHtml(critInfo.short) + '</div>' +
+          '<div class="cr-body">' + escapeHtml(critInfo.reason) + '</div>' +
+          quoteHtml +
+        '</div>';
+    }
+
+    var commentsHtml = '';
+    if (v.top_comments && v.top_comments.length > 0) {
+      var cid = 'c-' + v.video_id;
+      commentsHtml = '<button class="comments-toggle" onclick="toggleComments(\'' + cid + '\', this)">💬 댓글 ' + v.top_comments.length + '개 보기</button>';
+      commentsHtml += '<div class="comments-list" id="' + cid + '">';
+      v.top_comments.forEach(function(c) {
+        var m = sentimentMarker(c.sentiment);
+        commentsHtml += '<div class="comment-item ' + m.cls + '">' +
+          '<div class="comment-author">' + m.tag + escapeHtml(c.author) + '</div>' +
+          '<div class="comment-text">' + escapeHtml(c.text) + '</div>' +
+          (c.likes ? '<div class="comment-likes">👍 ' + c.likes + '</div>' : '') +
+          '</div>';
+      });
+      commentsHtml += '</div>';
+    }
+
+    return '<div class="' + cardCls + '">' +
+      '<div class="video-thumb">' +
+        '<a href="' + escapeHtml(v.url) + '" target="_blank" rel="noopener">' +
+          '<img src="' + thumbUrl + '" alt="" loading="lazy">' +
+        '</a>' +
+        (v.is_short ? '<span class="short-badge">Short</span>' : '') +
+        (dur ? '<span class="duration-badge">' + dur + '</span>' : '') +
+      '</div>' +
+      '<div class="video-info">' +
+        '<div class="video-title">' + warnBadgeHtml(warnLevel) +
+          '<a href="' + escapeHtml(v.url) + '" target="_blank" rel="noopener">' + escapeHtml(v.title) + '</a></div>' +
+        multiChipsHtml +
+        '<div class="video-channel">' +
+          escapeHtml(v.channel) +
+          (v.is_verified ? ' <span class="verified-icon" title="인증됨">✓</span>' : '') +
+          ' · 구독자 ' + formatNumber(v.subscribers) +
+          ' <span class="tier-badge ' + tierClass(v.creator_tier) + '">' + escapeHtml(v.creator_tier || '') + '</span>' +
+        '</div>' +
+        '<div class="video-stats">' +
+          '<span class="stat"><span class="stat-icon">▶</span> ' + formatNumber(v.views) + '</span>' +
+          '<span class="stat"><span class="stat-icon">♡</span> ' + formatNumber(v.likes) + '</span>' +
+          '<span class="stat"><span class="stat-icon">💬</span> ' + formatNumber(v.comment_count) + '</span>' +
+          (v.engagement_rate != null ? '<span class="stat">참여율 ' + (v.engagement_rate * 100).toFixed(2) + '%</span>' : '') +
+        '</div>' +
+        '<div class="buzz-container">' +
+          '<span class="buzz-label">Buzz</span>' +
+          '<div class="buzz-bar-bg"><div class="buzz-bar" style="width:' + pct + '%;background:' + bc + '"></div></div>' +
+          '<span class="buzz-value" style="color:' + bc + '">' + (v.buzz_score != null ? v.buzz_score.toFixed(1) : '-') + '</span>' +
+          inlineSent +
+        '</div>' +
+        criticalReasonHtml +
+        sentimentHtml +
+        '<div class="video-date">📅 ' + escapeHtml(v.upload_date || '') + '</div>' +
+        commentsHtml +
+      '</div>' +
+    '</div>';
+  }
+
+  function renderBrand(key, brand, filteredVideos) {
+    // Re-compute tier counts over filtered set (so they match what's shown)
+    var tierCounts = {};
+    ALL_TIERS.forEach(function(t) { tierCounts[t] = 0; });
+    var nShort = 0, nLong = 0, totalViews = 0;
+    filteredVideos.forEach(function(v) {
+      var t = v.creator_tier || 'Nano';
+      if (tierCounts[t] != null) tierCounts[t]++;
+      if (v.is_short) nShort++; else nLong++;
+      totalViews += (v.views || 0);
+    });
+
+    var tierHtml = '';
+    ALL_TIERS.forEach(function(t) {
+      if (tierCounts[t] > 0) {
+        tierHtml += '<span class="brand-tier-badge">' + t + ' ' + tierCounts[t] + '</span>';
+      }
+    });
+
+    var isExpanded = !!expanded[key];
+    var showAll = isExpanded || filters.search.length > 0; // in active search, show all matching
+    var visibleVideos = showAll ? filteredVideos : filteredVideos.slice(0, PAGE_SIZE);
+    var hiddenCount = Math.max(filteredVideos.length - visibleVideos.length, 0);
+
+    var videosHtml = visibleVideos.map(renderVideo).join('');
+
+    var loadMoreHtml = '';
+    if (hiddenCount > 0) {
+      loadMoreHtml =
+        '<div class="load-more-wrap">' +
+          '<button class="load-more-btn" onclick="loadMore(\'' + escapeHtml(key) + '\', this)">' +
+            '▼ 더보기 <span class="count">(' + hiddenCount + '개 더 · 전체 ' + filteredVideos.length + '개)</span>' +
+          '</button>' +
+        '</div>';
+    }
+
+    // 브랜드 레벨 감성 (필터 적용된 영상들 기준으로 재집계)
+    var bSc = {neg: 0, neu: 0, pos: 0};
+    var criticalCount = 0;
+    filteredVideos.forEach(function(v) {
+      var s = v.sentiment_counts || {};
+      bSc.neg += (s.neg || 0); bSc.neu += (s.neu || 0); bSc.pos += (s.pos || 0);
+      if (isCriticalVideo(v)) criticalCount++;
+    });
+    var bTotal = bSc.neg + bSc.neu + bSc.pos;
+    var bRatio = bTotal > 0 ? bSc.neg / bTotal : 0;
+    var bWarn = '';
+    if (bTotal >= 5 && bRatio >= 0.5) bWarn = 'red';
+    else if (bTotal >= 3 && bRatio >= 0.3) bWarn = 'yellow';
+
+    var brandSentHtml = '';
+    if (bTotal > 0) {
+      brandSentHtml = '<span class="brand-stat">부정 ' + Math.round(bRatio * 100) + '% (' + bSc.neg + '/' + bTotal + ')</span>' + warnBadgeHtml(bWarn);
+    }
+    var criticalHtml = '';
+    if (criticalCount > 0) {
+      criticalHtml = '<span class="brand-critical-alert">🔴 치명 콘텐츠 ' + criticalCount + '건</span>';
+    }
+
+    return '<div class="brand-section" data-brand="' + escapeHtml(key) + '">' +
+      '<div class="brand-header">' +
+        '<span class="brand-name">' + escapeHtml(brand.display || BRAND_DISPLAY_KOR[key] || key) + '</span>' +
+        criticalHtml +
+        '<span class="brand-stat">영상 ' + filteredVideos.length + '개</span>' +
+        '<span class="brand-stat">조회수 ' + formatNumber(totalViews) + '</span>' +
+        '<span class="brand-stat">Short ' + nShort + ' / Long ' + nLong + '</span>' +
+        brandSentHtml +
+        '<div class="brand-tier-badges">' + tierHtml + '</div>' +
+      '</div>' +
+      (brand.summary ? '<div class="ai-summary"><div class="ai-summary-label">🤖 AI 요약</div>' + escapeHtml(brand.summary) + '</div>' : '') +
+      '<div class="video-list">' + videosHtml + '</div>' +
+      loadMoreHtml +
+    '</div>';
+  }
+
+  // Counts for brand chips — respects period/format/tier/search, IGNORES brand selection
+  function computeBrandChipCounts() {
+    var counts = {};
+    BRAND_KEYS_IN_DATA.forEach(function(k) {
+      counts[k] = (DATA.brands[k].videos || []).filter(videoPassesNonBrandFilters).length;
+    });
+    return counts;
+  }
+
+  function renderBrands() {
+    if (!DATA) return;
+    var html = '';
+    var totalVids = 0;
+    var shownBrands = 0;
+
+    BRAND_KEYS_ORDER.forEach(function(k) {
+      if (!filters.brands.has(k)) return;
+      var brand = DATA.brands[k];
+      if (!brand) return;
+      var vids = filterVideosForBrand(k);
+      if (vids.length === 0) return; // hide empty brand sections
+      html += renderBrand(k, brand, vids);
+      totalVids += vids.length;
+      shownBrands++;
+    });
+
+    var container = document.getElementById('brands-container');
+    if (html) {
+      container.innerHTML = html;
+    } else {
+      container.innerHTML = '<div class="no-results">조건에 맞는 영상이 없습니다. 필터를 조정해보세요.</div>';
+    }
+
+    // Update result count
+    var rc = document.getElementById('filter-result-count');
+    rc.innerHTML = '<strong>' + totalVids + '</strong>개 영상 / <strong>' + shownBrands + '</strong>개 브랜드 표시 중';
+
+    // Update brand chip counts
+    var counts = computeBrandChipCounts();
+    document.querySelectorAll('.chip[data-brand-key]').forEach(function(btn) {
+      var key = btn.getAttribute('data-brand-key');
+      var c = counts[key] != null ? counts[key] : 0;
+      var label = btn.querySelector('.chip-label');
+      var countEl = btn.querySelector('.chip-count');
+      if (countEl) countEl.textContent = '(' + c + ')';
+      // Mute chip if 0 results (still selectable)
+      if (c === 0) btn.classList.add('muted'); else btn.classList.remove('muted');
+    });
+  }
+
+  // ===== Filter bar UI =====
+  function buildBrandChips() {
+    var container = document.getElementById('fg-brand');
+    var master = container.querySelector('[data-brand-master]');
+    // remove any previously-injected brand chips
+    container.querySelectorAll('.chip[data-brand-key]').forEach(function(el) { el.remove(); });
+
+    // Determine which brand keys to render: union of ALL_BRAND_KEYS and keys present in data
+    var keys = ALL_BRAND_KEYS.slice();
+    BRAND_KEYS_IN_DATA.forEach(function(k) {
+      if (keys.indexOf(k) === -1) keys.push(k);
+    });
+
+    keys.forEach(function(k) {
+      var label = (DATA && DATA.brands && DATA.brands[k] && DATA.brands[k].display) ||
+                  BRAND_DISPLAY_KOR[k] || k;
+      var btn = document.createElement('button');
+      btn.className = 'chip active';
+      btn.setAttribute('data-brand-key', k);
+      btn.innerHTML = '<span class="chip-label">' + escapeHtml(label) + '</span> <span class="chip-count">(0)</span>';
+      btn.addEventListener('click', function() { toggleBrand(k); });
+      container.appendChild(btn);
+    });
+
+    // select all by default
+    filters.brands = new Set(keys);
+    updateBrandMaster();
+  }
+
+  function updateBrandMaster() {
+    var master = document.querySelector('[data-brand-master]');
+    if (!master) return;
+    var chips = document.querySelectorAll('.chip[data-brand-key]');
+    var allOn = chips.length > 0;
+    chips.forEach(function(c) {
+      if (!c.classList.contains('active')) allOn = false;
+    });
+    master.classList.toggle('active', allOn);
+  }
+
+  function toggleBrand(key) {
+    var btn = document.querySelector('.chip[data-brand-key="' + key + '"]');
+    if (!btn) return;
+    if (filters.brands.has(key)) {
+      filters.brands.delete(key);
+      btn.classList.remove('active');
+    } else {
+      filters.brands.add(key);
+      btn.classList.add('active');
+    }
+    updateBrandMaster();
+    resetPagination();
+    renderBrands();
+  }
+
+  function toggleBrandMaster() {
+    var chips = document.querySelectorAll('.chip[data-brand-key]');
+    var anyOff = false;
+    chips.forEach(function(c) { if (!c.classList.contains('active')) anyOff = true; });
+    // if any off → turn all on; else turn all off
+    if (anyOff) {
+      chips.forEach(function(c) {
+        var k = c.getAttribute('data-brand-key');
+        c.classList.add('active');
+        filters.brands.add(k);
+      });
+    } else {
+      chips.forEach(function(c) {
+        var k = c.getAttribute('data-brand-key');
+        c.classList.remove('active');
+        filters.brands.delete(k);
+      });
+    }
+    updateBrandMaster();
+    resetPagination();
+    renderBrands();
+  }
+
+  function resetPagination() {
+    expanded = {};
+  }
+
+  function setPeriod(p) {
+    filters.period = p;
+    document.querySelectorAll('.chip[data-period]').forEach(function(b) {
+      b.classList.toggle('active', b.getAttribute('data-period') === p);
+    });
+    var dr = document.getElementById('date-range');
+    if (p === 'custom') {
+      dr.classList.add('open');
+      // populate with defaults if empty
+      var fromEl = document.getElementById('date-from');
+      var toEl = document.getElementById('date-to');
+      if (!fromEl.value) {
+        var d = new Date(); d.setDate(d.getDate() - 7);
+        fromEl.value = toYmdInputStr(d);
+      }
+      if (!toEl.value) toEl.value = toYmdInputStr(new Date());
+      // Don't re-render until 적용 clicked; but set the custom bounds from current inputs so chips show correct counts if user switches directly
+      filters.customFrom = parseInputDate(fromEl.value);
+      filters.customTo = parseInputDate(toEl.value);
+    } else {
+      dr.classList.remove('open');
+    }
+    resetPagination();
+    renderBrands();
+  }
+
+  function applyCustomDates() {
+    var fromEl = document.getElementById('date-from');
+    var toEl = document.getElementById('date-to');
+    filters.customFrom = parseInputDate(fromEl.value);
+    filters.customTo = parseInputDate(toEl.value);
+    filters.period = 'custom';
+    resetPagination();
+    renderBrands();
+  }
+
+  function toggleFormat(f) {
+    if (filters.formats.has(f)) {
+      if (filters.formats.size === 1) return; // don't allow empty — ignore
+      filters.formats.delete(f);
+    } else {
+      filters.formats.add(f);
+    }
+    document.querySelectorAll('.chip[data-format]').forEach(function(b) {
+      b.classList.toggle('active', filters.formats.has(b.getAttribute('data-format')));
+    });
+    resetPagination();
+    renderBrands();
+  }
+
+  function toggleTier(t) {
+    if (filters.tiers.has(t)) {
+      filters.tiers.delete(t);
+    } else {
+      filters.tiers.add(t);
+    }
+    document.querySelectorAll('.chip[data-tier]').forEach(function(b) {
+      b.classList.toggle('active', filters.tiers.has(b.getAttribute('data-tier')));
+    });
+    resetPagination();
+    renderBrands();
+  }
+
+  function setSort(mode) {
+    // radio-like: only one active
+    if (!mode) return;
+    filters.sort = mode;
+    document.querySelectorAll('.chip[data-sort]').forEach(function(b) {
+      b.classList.toggle('active', b.getAttribute('data-sort') === mode);
+    });
+    resetPagination();
+    renderBrands();
+  }
+
+  function resetFilters() {
+    filters.period = '7';
+    filters.customFrom = null;
+    filters.customTo = null;
+    filters.formats = new Set(['long', 'short']);
+    filters.tiers = new Set(ALL_TIERS);
+    filters.search = '';
+    filters.sort = 'upload';
+    // re-select all brands
+    var chips = document.querySelectorAll('.chip[data-brand-key]');
+    filters.brands = new Set();
+    chips.forEach(function(c) {
+      c.classList.add('active');
+      filters.brands.add(c.getAttribute('data-brand-key'));
+    });
+    // period chips
+    document.querySelectorAll('.chip[data-period]').forEach(function(b) {
+      b.classList.toggle('active', b.getAttribute('data-period') === '7');
+    });
+    // format chips
+    document.querySelectorAll('.chip[data-format]').forEach(function(b) { b.classList.add('active'); });
+    // tier chips
+    document.querySelectorAll('.chip[data-tier]').forEach(function(b) { b.classList.add('active'); });
+    // sort chips
+    document.querySelectorAll('.chip[data-sort]').forEach(function(b) {
+      b.classList.toggle('active', b.getAttribute('data-sort') === 'upload');
+    });
+    // search
+    document.getElementById('search-input').value = '';
+    // date range
+    document.getElementById('date-range').classList.remove('open');
+    document.getElementById('date-from').value = '';
+    document.getElementById('date-to').value = '';
+    updateBrandMaster();
+    resetPagination();
+    renderBrands();
+  }
+
+  // ===== Wire up event listeners =====
+  function wireFilterBar() {
+    document.querySelectorAll('.chip[data-period]').forEach(function(b) {
+      b.addEventListener('click', function() { setPeriod(b.getAttribute('data-period')); });
+    });
+    document.getElementById('date-apply').addEventListener('click', applyCustomDates);
+
+    document.querySelector('[data-brand-master]').addEventListener('click', toggleBrandMaster);
+
+    document.querySelectorAll('.chip[data-format]').forEach(function(b) {
+      b.addEventListener('click', function() { toggleFormat(b.getAttribute('data-format')); });
+    });
+
+    document.querySelectorAll('.chip[data-tier]').forEach(function(b) {
+      b.addEventListener('click', function() { toggleTier(b.getAttribute('data-tier')); });
+    });
+
+    document.querySelectorAll('.chip[data-sort]').forEach(function(b) {
+      b.addEventListener('click', function() { setSort(b.getAttribute('data-sort')); });
+    });
+
+    document.getElementById('filter-reset').addEventListener('click', resetFilters);
+
+    // 고급 필터 토글 (기본 접힘)
+    var advToggle = document.getElementById('filter-advanced-toggle');
+    var advPanel = document.getElementById('filter-advanced');
+    var advLabel = advToggle.querySelector('.toggle-label');
+    advToggle.addEventListener('click', function() {
+      var open = advPanel.hasAttribute('hidden') ? false : true;
+      if (open) {
+        advPanel.setAttribute('hidden', '');
+        advToggle.setAttribute('aria-expanded', 'false');
+        advLabel.textContent = '고급 필터';
+      } else {
+        advPanel.removeAttribute('hidden');
+        advToggle.setAttribute('aria-expanded', 'true');
+        advLabel.textContent = '접기';
+      }
+    });
+
+    var searchInput = document.getElementById('search-input');
+    var searchTimer = null;
+    searchInput.addEventListener('input', function() {
+      clearTimeout(searchTimer);
+      var v = this.value.trim();
+      searchTimer = setTimeout(function() {
+        filters.search = v;
+        resetPagination();
+        renderBrands();
+      }, 120);
+    });
+  }
+
+  // ===== Top-level render after data loads =====
+  function render(data) {
+    DATA = data;
+    BRAND_KEYS_IN_DATA = Object.keys(data.brands || {});
+
+    // Header
+    var windowDays = data.window_days != null ? data.window_days : data.days;
+    document.getElementById('header-subtitle').textContent =
+      (data.date || '') + ' 기준 · 최근 ' + (windowDays != null ? windowDays : '?') + '일';
+
+    // Data notice — 수집 시작 날짜 계산 (오늘 - windowDays)
+    try {
+      var refDate = data.date ? new Date(data.date.replace(/\./g, '-')) : new Date();
+      if (!isNaN(refDate.getTime()) && windowDays != null) {
+        refDate.setDate(refDate.getDate() - windowDays);
+        var yyyy = refDate.getFullYear();
+        var mm = String(refDate.getMonth() + 1).padStart(2, '0');
+        var dd = String(refDate.getDate()).padStart(2, '0');
+        var fromEl = document.getElementById('notice-from-date');
+        if (fromEl) fromEl.textContent = yyyy + '년 ' + mm + '월 ' + dd + '일';
+      }
+    } catch (e) { /* ignore */ }
+
+    // Summary — overall, pre-filter
+    var totalVideos = 0, totalViews = 0;
+    BRAND_KEYS_IN_DATA.forEach(function(k) {
+      totalVideos += data.brands[k].video_count || 0;
+      totalViews += data.brands[k].total_views || 0;
+    });
+    document.getElementById('s-brands').textContent = BRAND_KEYS_IN_DATA.length;
+    document.getElementById('s-videos').innerHTML = totalVideos + '<span class="unit">개</span>';
+    document.getElementById('s-views').textContent = formatNumber(totalViews);
+    document.getElementById('s-period').innerHTML = (windowDays != null ? windowDays : '?') + '<span class="unit">일</span>';
+
+    // Brand order: KFC first, then 🔀 멀티-브랜드 비교 (경쟁 맥락 중요), then by total_views desc
+    var order = BRAND_KEYS_IN_DATA.slice().sort(function(a, b) {
+      if (a === 'kfc') return -1;
+      if (b === 'kfc') return 1;
+      if (a === 'multi') return -1;
+      if (b === 'multi') return 1;
+      return (data.brands[b].total_views || 0) - (data.brands[a].total_views || 0);
+    });
+    BRAND_KEYS_ORDER = order;
+
+    // Build brand chips (and set default selection = all)
+    buildBrandChips();
+    wireFilterBar();
+
+    // Footer
+    if (data.generated_at) {
+      document.getElementById('footer-time').textContent = '생성: ' + data.generated_at;
+    }
+
+    // Initial render
+    renderBrands();
+  }
+
+  // Load data
+  fetch('./data/latest.json')
+    .then(function(res) {
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      return res.json();
+    })
+    .then(render)
+    .catch(function(err) {
+      document.getElementById('brands-container').innerHTML =
+        '<div class="error-msg">⚠️ 데이터 로딩 실패: ' + escapeHtml(err.message) + '<br><small>data/latest.json 파일을 확인하세요.</small></div>';
+    });
+
+  // Expose for global onclick handlers
+  window._ytmon_expand = function(key) {
+    expanded[key] = true;
+    renderBrands();
+  };
+
+})();
+
+// Global toggle function for comments
+function toggleComments(id, btn) {
+  var el = document.getElementById(id);
+  if (!el) return;
+  var open = el.classList.toggle('open');
+  btn.textContent = open ? '💬 댓글 접기' : '💬 댓글 ' + el.children.length + '개 보기';
+}
+
+// Global load-more: expand the brand section (re-renders from filtered list)
+function loadMore(brandKey, btn) {
+  if (window._ytmon_expand) window._ytmon_expand(brandKey);
+}
+</script>
+</body>
+</html>

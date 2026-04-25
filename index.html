@@ -1,35 +1,5054 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="robots" content="noindex,nofollow">
-  <title>육회바른연어 YouTube 모니터링</title>
-  <style>
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo",
-                   "Noto Sans KR", sans-serif;
-      max-width: 980px; margin: 0 auto; padding: 24px;
-      background: #fafafa; color: #222; line-height: 1.6;
-    }
-    h1 { font-size: 24px; border-bottom: 2px solid #d33; padding-bottom: 8px; }
-    .placeholder {
-      background: #fff; padding: 32px; border-radius: 8px;
-      box-shadow: 0 1px 3px rgba(0,0,0,0.06);
-      text-align: center; color: #666;
-    }
-    code { background: #f0f0f0; padding: 2px 6px; border-radius: 3px; }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>육회바른연어 YouTube 모니터링</title>
+<!-- Chart.js: 로컬 번들 우선, 실패 시 CDN 폴백 -->
+<script src="./vendor/chart.umd.min.js"></script>
+<script>if(!window.Chart){var s=document.createElement('script');s.src='https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js';document.head.appendChild(s);}</script>
+<style>
+:root {
+  --bg-primary: #0f1117;
+  --bg-secondary: #1a1d27;
+  --bg-card: #222632;
+  --bg-card-hover: #2a2e3c;
+  --bg-input: #2a2e3c;
+  --text-primary: #e8eaed;
+  --text-secondary: #9aa0a6;
+  --text-muted: #6b7280;
+  --accent: #E4002B;
+  --accent-light: #ff1a45;
+  --accent-bg: rgba(228, 0, 43, 0.12);
+  --border: #2e3340;
+  --border-light: #3a3f4f;
+  --pos: #10b981;
+  --neg: #ef4444;
+  --neu: #94a3b8;
+  --up: #10b981;
+  --down: #ef4444;
+  --chart-grid: #2e3340;
+  --buzz-gray: #6b7280;
+  --buzz-yellow: #f59e0b;
+  --buzz-orange: #f97316;
+  --buzz-red: #ef4444;
+  --tier-nano: #9ca3af;
+  --tier-micro: #60a5fa;
+  --tier-mid: #a78bfa;
+  --tier-macro: #f59e0b;
+  --tier-mega: #ef4444;
+  --tier-official: #1d9bf0;
+  --verified: #1d9bf0;
+  --shadow: 0 2px 8px rgba(0,0,0,0.3);
+  --shadow-strong: 0 4px 18px rgba(0,0,0,0.45);
+  --radius: 10px;
+  --radius-sm: 6px;
+}
+body.theme-light {
+  --bg-primary: #f6f7fb;
+  --bg-secondary: #ffffff;
+  --bg-card: #ffffff;
+  --bg-card-hover: #f0f2f7;
+  --bg-input: #ffffff;
+  --text-primary: #1a1d27;
+  --text-secondary: #4b5563;
+  --text-muted: #6b7280;
+  --accent-bg: rgba(228, 0, 43, 0.08);
+  --border: #e5e7eb;
+  --border-light: #d1d5db;
+  --chart-grid: #e5e7eb;
+  --shadow: 0 2px 8px rgba(0,0,0,0.08);
+  --shadow-strong: 0 4px 18px rgba(0,0,0,0.12);
+}
+body.theme-light .header {
+  background: linear-gradient(135deg, #fff 0%, #fef2f4 100%);
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Noto Sans KR', sans-serif;
+  background: var(--bg-primary);
+  color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+a { color: var(--accent-light); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* Header */
+.header {
+  position: relative;
+  background: linear-gradient(135deg, var(--bg-secondary) 0%, #1e1225 100%);
+  border-bottom: 1px solid var(--border);
+  padding: 22px 24px 16px;
+  text-align: center;
+}
+.header h1 {
+  font-size: 1.7rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+.header .subtitle {
+  color: var(--text-secondary);
+  font-size: 0.92rem;
+  margin-top: 6px;
+}
+.header .data-range-line {
+  color: var(--text-secondary);
+  font-size: 0.88rem;
+  margin-top: 8px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
+.header .data-range-line strong {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+.header .dr-sep { opacity: 0.5; }
+.header .data-notice-pin {
+  position: absolute;
+  top: 10px;
+  right: 14px;
+  background: rgba(228, 0, 43, 0.14);
+  border: 1px solid rgba(228, 0, 43, 0.45);
+  color: #ff4d6d;
+  padding: 4px 10px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  line-height: 1.3;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  max-width: 360px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.header .data-notice-pin strong { color: #ff6b86; font-weight: 700; }
+@media (max-width: 720px) {
+  .header .data-notice-pin {
+    position: static;
+    margin-top: 8px;
+    max-width: 100%;
+  }
+}
+
+/* Container */
+.container {
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 24px 24px 40px;
+}
+
+/* Summary cards */
+.summary-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  margin-bottom: 14px;
+}
+.summary-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 8px 14px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 0;
+}
+.summary-card .label {
+  font-size: 0.7rem;
+  color: var(--text-secondary);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  margin-bottom: 2px;
+  line-height: 1.2;
+}
+.summary-card .value {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  line-height: 1.2;
+}
+.summary-card .value .unit {
+  font-size: 0.78rem;
+  font-weight: 400;
+  color: var(--text-secondary);
+  margin-left: 2px;
+}
+
+/* ===== Filter Toolbar ===== */
+.filter-bar {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: rgba(15, 17, 23, 0.92);
+  backdrop-filter: saturate(150%) blur(10px);
+  -webkit-backdrop-filter: saturate(150%) blur(10px);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  margin-bottom: 22px;
+  box-shadow: var(--shadow-strong);
+}
+.filter-group {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 0;
+  border-bottom: 1px dashed var(--border);
+}
+.filter-group:last-of-type { border-bottom: none; }
+.filter-group-label {
+  flex: 0 0 auto;
+  min-width: 120px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  letter-spacing: 0.01em;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.filter-group-label .icon { font-size: 0.95rem; }
+
+/* Chip (pill) buttons */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 6px 14px;
+  border-radius: 999px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  font-size: 0.82rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.18s ease;
+  user-select: none;
+  font-family: inherit;
+  line-height: 1.3;
+  white-space: nowrap;
+}
+.chip:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-light);
+  color: var(--text-primary);
+}
+.chip.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(228, 0, 43, 0.3);
+}
+.chip.active:hover {
+  background: var(--accent-light);
+  border-color: var(--accent-light);
+}
+.chip .chip-count {
+  font-size: 0.74rem;
+  opacity: 0.85;
+  font-weight: 400;
+}
+.chip.active .chip-count { opacity: 0.95; }
+.chip.muted {
+  opacity: 0.45;
+}
+.chip.master {
+  background: transparent;
+  border-style: dashed;
+  font-weight: 600;
+}
+.chip.master.active {
+  background: var(--accent-bg);
+  color: var(--accent-light);
+  border-color: var(--accent);
+  border-style: solid;
+  box-shadow: none;
+}
+
+/* Date range inputs */
+.date-range {
+  display: none;
+  align-items: center;
+  gap: 8px;
+  margin-left: 4px;
+  padding: 4px 10px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+}
+.date-range.open { display: inline-flex; }
+.date-range input[type="date"] {
+  background: transparent;
+  border: none;
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 0.8rem;
+  padding: 2px 4px;
+  outline: none;
+  color-scheme: dark;
+}
+.date-range .dash { color: var(--text-muted); font-size: 0.8rem; }
+.date-range .apply-btn {
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 0.76rem;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: inherit;
+}
+.date-range .apply-btn:hover { background: var(--accent-light); }
+
+/* Search */
+.filter-search {
+  position: relative;
+  flex: 1;
+  min-width: 220px;
+}
+.filter-search input {
+  width: 100%;
+  padding: 8px 14px 8px 36px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text-primary);
+  font-size: 0.85rem;
+  outline: none;
+  transition: border-color 0.2s;
+  font-family: inherit;
+}
+.filter-search input:focus { border-color: var(--accent); }
+.filter-search::before {
+  content: '🔍';
+  position: absolute;
+  left: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.88rem;
+  pointer-events: none;
+  opacity: 0.75;
+}
+
+/* Actions row */
+.filter-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 10px;
+  margin-top: 4px;
+  border-top: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+.filter-actions-left {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.filter-reset-btn {
+  background: transparent;
+  border: 1px solid var(--border-light);
+  color: var(--text-secondary);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  font-family: inherit;
+  transition: all 0.15s;
+  font-weight: 500;
+}
+.filter-reset-btn:hover {
+  background: var(--bg-card);
+  color: var(--accent-light);
+  border-color: var(--accent);
+}
+.filter-result-count {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+}
+.filter-result-count strong {
+  color: var(--accent-light);
+  font-weight: 700;
+}
+
+/* ===== 고급필터 토글 ===== */
+.filter-advanced-toggle {
+  background: transparent;
+  border: 1px dashed var(--border-light);
+  color: var(--text-secondary);
+  padding: 6px 14px;
+  border-radius: 999px;
+  font-size: 0.82rem;
+  cursor: pointer;
+  font-family: inherit;
+  font-weight: 500;
+  transition: all 0.15s;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+.filter-advanced-toggle:hover {
+  border-color: var(--accent);
+  color: var(--accent-light);
+  border-style: solid;
+}
+.filter-advanced-toggle .toggle-icon {
+  transition: transform 0.15s;
+  font-size: 0.7rem;
+}
+.filter-advanced-toggle[aria-expanded="true"] .toggle-icon {
+  transform: rotate(180deg);
+}
+.filter-advanced {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px 0 0 0;
+  border-top: 1px solid var(--border);
+  margin-top: 4px;
+}
+.filter-advanced[hidden] {
+  display: none;
+}
+
+/* Brand section */
+.brand-section {
+  margin-bottom: 36px;
+}
+.brand-header {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--accent);
+}
+.brand-name {
+  font-size: 1.05rem;
+  font-weight: 700;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.brand-stat {
+  background: var(--accent-bg);
+  color: var(--accent-light);
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+.brand-tier-badges {
+  display: flex;
+  gap: 6px;
+  margin-left: auto;
+  flex-wrap: wrap;
+}
+.brand-tier-badge {
+  font-size: 0.72rem;
+  padding: 3px 10px;
+  border-radius: 12px;
+  background: var(--bg-input);
+  color: var(--text-secondary);
+  border: 1.5px solid var(--border);
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.15s ease;
+  font-weight: 600;
+}
+.brand-tier-badge:hover {
+  border-color: var(--accent-light);
+  color: var(--text-primary);
+}
+.brand-tier-badge.active {
+  background: linear-gradient(135deg, var(--accent), #ff5a3c);
+  color: #fff;
+  border-color: transparent;
+  box-shadow: 0 2px 8px rgba(228,0,43,0.25);
+}
+.brand-tier-badge.inactive {
+  opacity: 0.42;
+  text-decoration: line-through;
+}
+
+/* AI Summary */
+.ai-summary {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  border-radius: var(--radius-sm);
+  padding: 16px 18px;
+  margin-bottom: 18px;
+  font-size: 0.9rem;
+  line-height: 1.8;
+  color: var(--text-secondary);
+  white-space: pre-line;
+}
+.ai-summary-label {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: var(--accent-light);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 8px;
+}
+
+/* Video cards */
+.video-list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.video-card {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  gap: 16px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px;
+  transition: background 0.15s, border-color 0.15s;
+}
+.video-card:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--border-light);
+}
+.video-thumb {
+  position: relative;
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  aspect-ratio: 16/9;
+}
+.video-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+.video-thumb .duration-badge {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  background: rgba(0,0,0,0.8);
+  color: #fff;
+  font-size: 0.72rem;
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-weight: 500;
+}
+.video-thumb .short-badge {
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 0.65rem;
+  padding: 1px 6px;
+  border-radius: 3px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+/* ===== 감성 워닝 ===== */
+.video-card.warn-critical {
+  border-left: 6px solid #991b1b;
+  background: linear-gradient(180deg, #fef2f2 0%, #fee2e2 100%);
+  box-shadow: 0 0 0 2px rgba(220, 38, 38, 0.35), 0 4px 14px rgba(220, 38, 38, 0.18);
+  position: relative;
+  animation: card-critical-pulse 2.2s ease-in-out infinite;
+}
+/* 치명 콘텐츠 근거 패널 — 왜 치명 판정인지 설명 */
+.critical-reason {
+  background: #991b1b;
+  color: #fff;
+  border-radius: 8px;
+  padding: 10px 12px;
+  margin: 10px 0 2px;
+  font-size: 0.82rem;
+  line-height: 1.45;
+  box-shadow: 0 2px 8px rgba(153, 27, 27, 0.3);
+}
+.critical-reason .cr-title {
+  font-weight: 700;
+  font-size: 0.88rem;
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.critical-reason .cr-body {
+  opacity: 0.95;
+}
+.critical-reason .cr-quote {
+  margin-top: 6px;
+  padding: 6px 10px;
+  background: rgba(255,255,255,0.12);
+  border-left: 3px solid #fecaca;
+  border-radius: 4px;
+  font-size: 0.78rem;
+  font-style: italic;
+  color: #fee2e2;
+}
+.critical-reason .cr-quote::before { content: '💬 최악 댓글: '; font-style: normal; font-weight: 600; }
+@keyframes card-critical-pulse {
+  0%, 100% { box-shadow: 0 0 0 2px rgba(220, 38, 38, 0.35), 0 4px 14px rgba(220, 38, 38, 0.18); }
+  50% { box-shadow: 0 0 0 3px rgba(220, 38, 38, 0.55), 0 6px 18px rgba(220, 38, 38, 0.3); }
+}
+.video-card.warn-red {
+  border-left: 4px solid #dc2626;
+  background: #fef2f2;
+}
+.video-card.warn-yellow {
+  border-left: 4px solid #f59e0b;
+  background: #fffbeb;
+}
+.warn-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 2px 7px;
+  border-radius: 10px;
+  font-size: 0.7rem;
+  font-weight: 700;
+  margin-left: 6px;
+  vertical-align: middle;
+}
+.warn-badge.critical {
+  background: #991b1b;
+  color: #fff;
+  animation: pulse-critical 1.8s ease-in-out infinite;
+}
+@keyframes pulse-critical {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
+.warn-badge.red {
+  background: #dc2626;
+  color: #fff;
+}
+.warn-badge.yellow {
+  background: #f59e0b;
+  color: #fff;
+}
+.brand-critical-alert {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  background: #991b1b;
+  color: #fff;
+  white-space: nowrap;
+  flex-shrink: 0;
+  animation: pulse-critical 1.8s ease-in-out infinite;
+}
+/* Inline 감성 점수 (Buzz 옆) */
+.sentiment-inline {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  padding: 3px 10px;
+  border-radius: 10px;
+  margin-left: 10px;
+  border: 1px solid transparent;
+  white-space: nowrap;
+}
+.sentiment-inline.neg { background: #fee2e2; color: #991b1b; border-color: #fca5a5; }
+.sentiment-inline.mid { background: #fef3c7; color: #b45309; border-color: #fcd34d; }
+.sentiment-inline.pos { background: #d1fae5; color: #065f46; border-color: #86efac; }
+.sentiment-inline.none { background: #f3f4f6; color: #9ca3af; border-color: #e5e7eb; font-weight: 500; }
+.sentiment-inline.low-conf { opacity: 0.62; border-style: dashed; }
+.coverage-note { opacity: 0.72; font-size: 0.85em; font-weight: 500; margin-left: 2px; }
+.exec-date-range { margin-left: 8px; display: inline-flex; gap: 4px; align-items: center; }
+.exec-date-range input[type="date"] {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  padding: 4px 8px;
+  border-radius: 6px;
+  font-size: 0.82rem;
+}
+.exec-date-range .apply-btn {
+  background: var(--accent);
+  color: #fff; border: none;
+  padding: 5px 12px; border-radius: 6px;
+  font-size: 0.82rem; font-weight: 600; cursor: pointer;
+}
+.exec-date-range .apply-btn:hover { background: var(--accent-light); }
+/* 영상 메타 기반 감성 (댓글 없을 때 fallback) — 점선 테두리로 신뢰도 낮음을 표시 */
+.sentiment-inline.meta {
+  border-style: dashed;
+  opacity: 0.85;
+  font-weight: 600;
+}
+
+/* 멀티-브랜드 비교 콘텐츠 칩 */
+.news-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 2px 10px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  color: #fff;
+  background: linear-gradient(90deg, #64748b, #94a3b8);
+  border-radius: 12px;
+  letter-spacing: -0.01em;
+}
+.multi-brand-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 6px 0 4px;
+  align-items: center;
+}
+.multi-badge {
+  display: inline-flex;
+  align-items: center;
+  background: linear-gradient(135deg, #8b5cf6 0%, #6366f1 100%);
+  color: #fff;
+  font-size: 0.72rem;
+  font-weight: 700;
+  padding: 3px 9px;
+  border-radius: 10px;
+  letter-spacing: 0.3px;
+  box-shadow: 0 1px 3px rgba(139, 92, 246, 0.3);
+}
+.brand-chip {
+  display: inline-block;
+  background: #ede9fe;
+  color: #5b21b6;
+  font-size: 0.72rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 10px;
+  border: 1px solid #ddd6fe;
+}
+.sentiment-bar {
+  display: flex;
+  height: 6px;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-top: 4px;
+  background: #e5e7eb;
+}
+.sentiment-bar .seg-neg { background: #dc2626; }
+.sentiment-bar .seg-neu { background: #9ca3af; }
+.sentiment-bar .seg-pos { background: #10b981; }
+.sentiment-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.75rem;
+  color: #6b7280;
+  margin-top: 6px;
+}
+.sentiment-info .neg-ratio.high { color: #dc2626; font-weight: 700; }
+.sentiment-info .neg-ratio.mid { color: #f59e0b; font-weight: 700; }
+.comment-item.sent-neg { border-left: 3px solid #dc2626; padding-left: 7px; }
+.comment-item.sent-neu { border-left: 3px solid #9ca3af; padding-left: 7px; }
+.comment-item.sent-pos { border-left: 3px solid #10b981; padding-left: 7px; }
+.comment-sentiment-tag {
+  display: inline-block;
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 0.65rem;
+  font-weight: 700;
+  margin-right: 4px;
+}
+.comment-sentiment-tag.neg { background: #fee2e2; color: #dc2626; }
+.comment-sentiment-tag.neu { background: #f3f4f6; color: #6b7280; }
+.comment-sentiment-tag.pos { background: #d1fae5; color: #065f46; }
+
+.video-info {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
+}
+.video-title {
+  font-size: 0.95rem;
+  font-weight: 600;
+  line-height: 1.4;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.video-title a { color: var(--text-primary); }
+.video-title a:hover { color: var(--accent-light); }
+.video-channel {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  flex-wrap: wrap;
+}
+.verified-icon {
+  color: var(--verified);
+  font-size: 0.82rem;
+}
+.tier-badge {
+  display: inline-block;
+  font-size: 0.68rem;
+  font-weight: 700;
+  padding: 1px 7px;
+  border-radius: 10px;
+  color: #fff;
+  line-height: 1.5;
+}
+.tier-nano { background: var(--tier-nano); }
+.tier-micro { background: var(--tier-micro); color: #0c1425; }
+.tier-mid { background: var(--tier-mid); color: #1a0e30; }
+.tier-macro { background: var(--tier-macro); color: #1a1200; }
+.tier-mega { background: var(--tier-mega); }
+.tier-official { background: var(--tier-official); }
+
+.video-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+.video-stats .stat {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+}
+.video-stats .stat-icon {
+  font-size: 0.85rem;
+}
+
+/* Buzz score */
+.buzz-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 2px;
+}
+.buzz-label {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  min-width: 32px;
+}
+.buzz-bar-bg {
+  flex: 1;
+  max-width: 160px;
+  height: 6px;
+  background: var(--bg-input);
+  border-radius: 3px;
+  overflow: hidden;
+}
+.buzz-bar {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.3s;
+}
+.buzz-value {
+  font-size: 0.82rem;
+  font-weight: 700;
+  min-width: 36px;
+}
+
+.video-date {
+  font-size: 0.75rem;
+  color: var(--text-muted);
+}
+
+/* Top comments */
+.comments-toggle {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  padding: 4px 12px;
+  border-radius: 14px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  margin-top: 4px;
+  transition: background 0.15s, color 0.15s;
+  font-family: inherit;
+}
+.comments-toggle:hover {
+  background: var(--bg-input);
+  color: var(--text-primary);
+}
+.comments-list {
+  display: none;
+  margin-top: 8px;
+  padding: 10px 12px;
+  background: var(--bg-primary);
+  border-radius: var(--radius-sm);
+  font-size: 0.82rem;
+}
+.comments-list.open { display: block; }
+.comment-item {
+  padding: 6px 0;
+  border-bottom: 1px solid var(--border);
+}
+.comment-item:last-child { border-bottom: none; }
+.comment-author {
+  color: var(--accent-light);
+  font-weight: 600;
+  font-size: 0.78rem;
+}
+.comment-text {
+  color: var(--text-secondary);
+  margin-top: 2px;
+}
+.comment-likes {
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  margin-top: 2px;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  padding: 28px 16px;
+  color: var(--text-muted);
+  font-size: 0.78rem;
+  border-top: 1px solid var(--border);
+  margin-top: 20px;
+}
+/* Beta 공지 팝업 */
+.beta-modal-overlay {
+  position: fixed; inset: 0;
+  background: rgba(10, 10, 14, 0.72);
+  backdrop-filter: blur(4px);
+  z-index: 10000;
+  display: flex; align-items: center; justify-content: center;
+  padding: 16px;
+  animation: beta-fade-in 0.2s ease-out;
+}
+@keyframes beta-fade-in { from { opacity: 0; } to { opacity: 1; } }
+.beta-modal {
+  background: var(--bg-card, #fff);
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.4), 0 0 0 1px rgba(228,0,43,0.2);
+  padding: 28px 30px 22px;
+  max-width: 420px;
+  width: 100%;
+  position: relative;
+  animation: beta-slide-up 0.25s cubic-bezier(.2,.9,.3,1);
+}
+@keyframes beta-slide-up { from { transform: translateY(16px); opacity:0; } to { transform: translateY(0); opacity:1; } }
+.beta-modal-badge {
+  position: absolute;
+  top: -12px; left: 24px;
+  background: linear-gradient(135deg, #e4002b, #ff5a3c);
+  color: #fff;
+  font-weight: 800;
+  font-size: 0.72rem;
+  letter-spacing: 1.5px;
+  padding: 4px 12px;
+  border-radius: 999px;
+  box-shadow: 0 4px 12px rgba(228,0,43,0.35);
+}
+.beta-modal-title {
+  margin: 4px 0 12px 0;
+  font-size: 1.18rem;
+  font-weight: 800;
+  color: var(--text-primary);
+}
+.beta-modal-body {
+  color: var(--text-secondary);
+  font-size: 0.95rem;
+  line-height: 1.6;
+  margin: 0 0 20px 0;
+}
+.beta-modal-body strong {
+  color: var(--text-primary);
+  font-weight: 700;
+}
+.beta-modal-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  border-top: 1px solid var(--border);
+  padding-top: 14px;
+}
+.beta-modal-check {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+  user-select: none;
+}
+.beta-modal-check input { cursor: pointer; }
+.beta-modal-btn {
+  background: linear-gradient(135deg, #e4002b, #ff5a3c);
+  color: #fff;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 0.92rem;
+  cursor: pointer;
+  transition: transform 0.1s, box-shadow 0.1s;
+}
+.beta-modal-btn:hover { transform: translateY(-1px); box-shadow: 0 6px 16px rgba(228,0,43,0.3); }
+.beta-modal-btn:active { transform: translateY(0); }
+.footer .gen-time {
+  margin-top: 4px;
+  font-size: 0.72rem;
+}
+
+/* Loading & Error */
+.loading {
+  text-align: center;
+  padding: 80px 20px;
+  color: var(--text-secondary);
+}
+.loading .spinner {
+  width: 36px;
+  height: 36px;
+  border: 3px solid var(--border);
+  border-top-color: var(--accent);
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  margin: 0 auto 16px;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+.error-msg {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--buzz-orange);
+  font-size: 0.95rem;
+}
+
+/* Data notice banner */
+.data-notice {
+  background: rgba(228, 0, 43, 0.08);
+  border: 1px solid rgba(228, 0, 43, 0.35);
+  border-left: 4px solid var(--accent);
+  color: var(--accent-light);
+  padding: 12px 16px;
+  border-radius: var(--radius);
+  margin-bottom: 18px;
+  font-size: 0.88rem;
+  font-weight: 500;
+  line-height: 1.5;
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+.data-notice .icon {
+  font-size: 1.05rem;
+  flex-shrink: 0;
+}
+.data-notice strong {
+  color: #ff4d6d;
+  font-weight: 700;
+}
+
+.no-results {
+  text-align: center;
+  padding: 40px 20px;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+/* Load-more button */
+.load-more-wrap {
+  text-align: center;
+  padding: 8px 0 4px;
+}
+.load-more-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border-light);
+  color: var(--text-primary);
+  padding: 10px 22px;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  font-size: 0.88rem;
+  font-weight: 500;
+  transition: all 0.15s ease;
+  font-family: inherit;
+}
+.load-more-btn:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent);
+  color: var(--accent-light);
+}
+.load-more-btn .count {
+  color: var(--text-muted);
+  margin-left: 4px;
+  font-weight: 400;
+}
+.load-more-btn:hover .count { color: var(--text-secondary); }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .summary-row { grid-template-columns: repeat(2, 1fr); }
+  .video-card { grid-template-columns: 1fr; }
+  .video-thumb { max-width: 100%; }
+  .brand-tier-badges { margin-left: 0; }
+  .brand-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+  }
+  .header h1 { font-size: 1.3rem; }
+  .summary-card .value { font-size: 1.25rem; }
+
+  .filter-bar {
+    position: static;
+    padding: 12px;
+  }
+  .filter-group-label {
+    min-width: 100%;
+    flex-basis: 100%;
+    margin-bottom: 4px;
+  }
+  .filter-group {
+    padding: 6px 0;
+  }
+  .filter-search { min-width: 100%; }
+  .filter-actions { flex-direction: column; align-items: stretch; }
+  .filter-result-count { text-align: center; }
+}
+
+@media (max-width: 480px) {
+  .summary-row { grid-template-columns: 1fr 1fr; gap: 8px; }
+  .container { padding: 14px 10px 30px; }
+  .chip { padding: 5px 11px; font-size: 0.78rem; }
+}
+
+/* ======================================================== */
+/* Executive View — CDTO 의사결정용 상단 대시보드            */
+/* ======================================================== */
+
+/* Theme toggle in header */
+.header-actions {
+  position: absolute;
+  top: 10px;
+  left: 14px;
+  display: flex;
+  gap: 8px;
+}
+.icon-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.icon-btn:hover { background: var(--bg-card-hover); color: var(--text-primary); }
+
+/* Tab navigation */
+.view-tabs {
+  display: flex;
+  gap: 10px;
+  margin: 20px auto 18px;
+  max-width: 1200px;
+  padding: 0 18px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.view-tab {
+  background: var(--bg-card);
+  border: 1.5px solid var(--border);
+  color: var(--text-secondary);
+  padding: 11px 22px;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  transition: all 0.18s cubic-bezier(.2,.9,.3,1);
+  letter-spacing: -0.01em;
+  border-radius: 999px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+.view-tab:hover {
+  color: var(--text-primary);
+  border-color: var(--accent-light);
+  background: var(--bg-card-hover, var(--bg-card));
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(228,0,43,0.08);
+}
+.view-tab.active {
+  color: #fff;
+  background: linear-gradient(135deg, #e4002b, #ff5a3c);
+  border-color: transparent;
+  box-shadow: 0 6px 18px rgba(228,0,43,0.28);
+  transform: translateY(-1px);
+}
+.view-tab.active:hover {
+  box-shadow: 0 8px 22px rgba(228,0,43,0.35);
+}
+.view-tab .tab-hint {
+  display: inline-block;
+  margin-left: 2px;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  font-weight: 500;
+  opacity: 0.85;
+}
+.view-tab.active .tab-hint {
+  color: rgba(255,255,255,0.92);
+  opacity: 1;
+}
+
+/* View visibility */
+body.mode-exec .view-detail, body.mode-exec .view-help { display: none; }
+body.mode-detail .view-executive, body.mode-detail .view-help { display: none; }
+body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
+
+/* Help View — 초심자용 설명 문서 */
+.view-help { display: block; }
+.help-doc {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 28px 36px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  line-height: 1.65;
+  color: var(--text-primary);
+}
+.help-doc h1 { font-size: 1.7rem; margin: 0 0 8px; }
+.help-doc h2 {
+  font-size: 1.2rem; margin: 32px 0 10px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--accent);
+}
+.help-doc p { margin: 8px 0; }
+.help-lead {
+  padding: 12px 16px;
+  background: rgba(228,0,43,0.08);
+  border-left: 3px solid var(--accent);
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+.help-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 18px 0 24px;
+  padding: 12px;
+  background: var(--bg-card-hover);
+  border-radius: 8px;
+}
+.help-nav a {
+  padding: 4px 12px;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  text-decoration: none;
+  transition: all 0.15s;
+}
+.help-nav a:hover {
+  color: var(--accent-light);
+  border-color: var(--accent);
+}
+.help-section { margin-bottom: 24px; scroll-margin-top: 80px; }
+.help-card {
+  margin: 10px 0;
+  padding: 12px 16px;
+  background: var(--bg-card-hover);
+  border-left: 3px solid var(--text-muted);
+  border-radius: 0 8px 8px 0;
+  font-size: 0.9rem;
+}
+.help-card ul { margin: 6px 0 0 18px; }
+.help-card li { margin: 4px 0; }
+.help-table { margin: 10px 0; overflow-x: auto; }
+.help-table table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.88rem;
+}
+.help-table th {
+  text-align: left;
+  padding: 8px 12px;
+  background: var(--bg-card-hover);
+  border-bottom: 2px solid var(--border);
+  color: var(--text-secondary);
+  font-weight: 600;
+}
+.help-table td {
+  padding: 8px 12px;
+  border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+.help-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+.help-dot.owned { background: #6b7280; }
+.help-dot.sponsored { background: #f59e0b; }
+.help-dot.earned { background: #E4002B; }
+.help-glossary {
+  margin: 10px 0;
+  padding: 0;
+}
+.help-glossary dt {
+  font-weight: 700;
+  color: var(--accent-light);
+  margin-top: 14px;
+}
+.help-glossary dd {
+  margin: 4px 0 0 0;
+  padding-left: 0;
+  color: var(--text-secondary);
+}
+.help-faq {
+  margin: 10px 0;
+  padding: 12px 16px;
+  background: var(--bg-card-hover);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.help-faq summary {
+  font-weight: 600;
+  color: var(--text-primary);
+  list-style: none;
+}
+.help-faq summary::before {
+  content: "▶ ";
+  color: var(--accent);
+  transition: transform 0.2s;
+  display: inline-block;
+}
+.help-faq[open] summary::before { content: "▼ "; }
+.help-faq p {
+  margin-top: 10px;
+  padding-left: 16px;
+  color: var(--text-secondary);
+  font-size: 0.9rem;
+}
+.help-foot {
+  margin-top: 32px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+@media (max-width: 720px) {
+  .help-doc { padding: 18px; margin: 10px; }
+  .help-nav { gap: 6px; padding: 8px; }
+  .help-table { font-size: 0.8rem; }
+}
+
+/* Executive Strip — headline KPI cards */
+.exec-strip {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 12px;
+  margin-bottom: 20px;
+}
+.exec-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  position: relative;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+.exec-card.primary {
+  background: linear-gradient(135deg, rgba(228,0,43,0.18) 0%, var(--bg-card) 60%);
+  border-color: rgba(228,0,43,0.45);
+}
+.exec-card .exec-label {
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+  letter-spacing: -0.01em;
+  margin-bottom: 6px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.exec-card .exec-value {
+  font-size: 1.8rem;
+  font-weight: 800;
+  line-height: 1.1;
+  color: var(--text-primary);
+  letter-spacing: -0.02em;
+}
+.exec-card .exec-value .small { font-size: 0.9rem; font-weight: 600; color: var(--text-secondary); margin-left: 4px; }
+.exec-card .exec-delta {
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 2px 7px;
+  border-radius: 999px;
+  margin-top: 6px;
+}
+.exec-delta.up { color: var(--up); background: rgba(16,185,129,0.12); }
+.exec-delta.down { color: var(--down); background: rgba(239,68,68,0.12); }
+.exec-delta.flat { color: var(--text-muted); background: var(--bg-card-hover); }
+.exec-card .exec-sub {
+  color: var(--text-muted);
+  font-size: 0.72rem;
+  margin-top: 4px;
+}
+.exec-gauge {
+  margin-top: 8px;
+  height: 6px;
+  background: var(--bg-card-hover);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.exec-gauge-fill {
+  height: 100%;
+  background: linear-gradient(90deg, var(--accent), var(--accent-light));
+  border-radius: 999px;
+  transition: width 0.5s;
+}
+.exec-card.alert-on {
+  border-color: rgba(239,68,68,0.55);
+  background: linear-gradient(135deg, rgba(239,68,68,0.10) 0%, var(--bg-card) 60%);
+}
+
+/* 브랜드 선택 — 테이블 / 스택바 행 클릭 가능 표시 + 리셋 버튼 */
+.bench-table tbody tr { cursor: pointer; }
+.mix-row { cursor: pointer; }
+.bench-table tbody tr.selected-brand {
+  outline: 2px solid var(--accent-light);
+  outline-offset: -2px;
+  background: rgba(228,0,43,0.06);
+}
+.mix-row.selected-brand .mix-brand::after {
+  content: ' 📍';
+  font-size: 0.85em;
+}
+.reset-brand-btn {
+  background: rgba(228,0,43,0.15);
+  color: var(--accent-light);
+  border: 1px solid rgba(228,0,43,0.4);
+  padding: 3px 10px;
+  margin-left: 10px;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+.reset-brand-btn:hover {
+  background: rgba(228,0,43,0.3);
+}
+
+/* PESO 3색 팔레트 (Owned/Sponsored/Earned) */
+:root {
+  --peso-owned: #6b7280;       /* 중립 회색 */
+  --peso-sponsored: #f59e0b;   /* 주황 — 중간 강조 */
+  --peso-earned: var(--accent); /* KFC 레드 (primary) */
+}
+
+.exec-card.peso-owned {
+  background: linear-gradient(135deg, rgba(107,114,128,0.10) 0%, var(--bg-card) 60%);
+  border-color: rgba(107,114,128,0.30);
+}
+.exec-card.peso-sponsored {
+  background: linear-gradient(135deg, rgba(245,158,11,0.12) 0%, var(--bg-card) 60%);
+  border-color: rgba(245,158,11,0.35);
+}
+.exec-card.peso-earned {
+  background: linear-gradient(135deg, rgba(228,0,43,0.14) 0%, var(--bg-card) 60%);
+  border-color: rgba(228,0,43,0.40);
+}
+.exec-card.engagement {
+  background: linear-gradient(135deg, rgba(99,102,241,0.10) 0%, var(--bg-card) 60%);
+  border-color: rgba(99,102,241,0.30);
+}
+.exec-gauge-fill.owned {
+  background: linear-gradient(90deg, #6b7280, #9ca3af);
+}
+.exec-gauge-fill.sponsored {
+  background: linear-gradient(90deg, #f59e0b, #fbbf24);
+}
+.exec-gauge-fill.earned {
+  background: linear-gradient(90deg, #E4002B, #F04060);
+}
+.tier-tag {
+  display: inline-block;
+  font-size: 0.65rem;
+  font-weight: 600;
+  padding: 1px 6px;
+  border-radius: 10px;
+  background: rgba(228,0,43,0.18);
+  color: var(--accent-light);
+  margin-left: 4px;
+  vertical-align: middle;
+}
+
+/* KPI 카드 내부 — KFC 콘텐츠 믹스 보조 배지 */
+.mix-badge {
+  display: inline-block;
+  margin-top: 6px;
+  padding: 2px 8px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: var(--bg-card-hover);
+  border-radius: 6px;
+  border-left: 2px solid var(--text-muted);
+}
+
+/* KPI 카드 건수 라인 (% 아래) */
+.count-line {
+  margin-top: 4px;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+.count-line strong { color: var(--text-primary); font-weight: 700; }
+.count-line .count-denom { color: var(--text-muted); font-size: 0.72rem; }
+
+/* 기간 선택 토글 */
+.period-toggle {
+  display: inline-flex;
+  gap: 2px;
+  margin-left: 10px;
+  background: var(--bg-card-hover);
+  border-radius: 8px;
+  padding: 2px;
+}
+.period-toggle button {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  padding: 3px 10px;
+  font-size: 0.75rem;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.period-toggle button:hover { color: var(--text-primary); }
+.period-toggle button.active {
+  background: var(--accent);
+  color: white;
+  font-weight: 600;
+}
+.mix-badge.pri-owned     { border-left-color: var(--peso-owned); }
+.mix-badge.pri-sponsored { border-left-color: var(--peso-sponsored); }
+.mix-badge.pri-earned    { border-left-color: var(--peso-earned); }
+
+/* 🧩 브랜드 콘텐츠 믹스 — 100% 스택바 */
+.mix-legend {
+  display: flex;
+  gap: 14px;
+  margin: 4px 0 10px;
+  font-size: 0.75rem;
+  color: var(--text-secondary);
+}
+.mix-lg-item { display: inline-flex; align-items: center; gap: 4px; }
+.mix-lg-dot {
+  width: 10px; height: 10px; border-radius: 2px; display: inline-block;
+}
+.mix-lg-dot.owned     { background: #6b7280; }
+.mix-lg-dot.sponsored { background: #f59e0b; }
+.mix-lg-dot.earned    { background: #E4002B; }
+
+.mix-bars {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.mix-row {
+  display: grid;
+  grid-template-columns: 80px 1fr 150px;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.78rem;
+}
+.mix-row.kfc-row .mix-brand {
+  color: var(--accent-light);
+  font-weight: 700;
+}
+.mix-brand {
+  color: var(--text-secondary);
+  text-align: right;
+  white-space: nowrap;
+}
+.mix-stack {
+  position: relative;
+  height: 18px;
+  background: var(--bg-card-hover);
+  border-radius: 4px;
+  overflow: hidden;
+  display: flex;
+}
+.mix-seg {
+  height: 100%;
+  transition: width 0.4s;
+}
+.mix-seg.owned     { background: #6b7280; }
+.mix-seg.sponsored { background: #f59e0b; }
+.mix-seg.earned    { background: #E4002B; }
+.mix-seg[title] { cursor: help; }
+.mix-labels {
+  display: flex;
+  gap: 6px;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+.mix-labels strong { color: var(--text-secondary); font-weight: 600; }
+.mix-row.empty .mix-stack {
+  background: transparent;
+  border: 1px dashed var(--border);
+}
+.mix-row.empty .mix-labels {
+  color: var(--text-muted);
+  font-style: italic;
+}
+@media (max-width: 720px) {
+  .mix-row { grid-template-columns: 60px 1fr; }
+  .mix-labels { grid-column: 1/-1; padding-left: 68px; }
+}
+
+/* PESO 3-donut grid */
+.peso-donuts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  align-items: stretch;
+}
+.peso-donut-cell {
+  min-width: 0;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.peso-donut-title {
+  font-size: 0.82rem;
+  font-weight: 600;
+  color: var(--text-secondary);
+  margin-bottom: 6px;
+  min-height: 2.8em;  /* 제목 2줄 영역 고정 (1줄짜리도 같은 높이) */
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  line-height: 1.3;
+}
+.sent-split {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 8px;
+}
+.sent-split-cell { min-width: 0; }
+.sent-split-title {
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+.sent-split-sub {
+  font-size: 0.7rem;
+  font-weight: 500;
+  color: var(--text-muted);
+  margin-left: 4px;
+}
+@media (max-width: 700px) {
+  .sent-split { grid-template-columns: 1fr; }
+}
+.primary-hint {
+  color: var(--accent-light);
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+.chart-wrap.xs {
+  position: relative;
+  width: 100%;
+  height: 140px;
+}
+@media (max-width: 720px) {
+  .peso-donuts { grid-template-columns: 1fr; }
+}
+.chart-empty {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  text-align: center;
+  padding: 10px;
+}
+.chart-legend.xs {
+  font-size: 0.7rem;
+  line-height: 1.5;
+  margin-top: 6px;
+  min-height: 7.5em;  /* 범례 최대 5줄 기준 세로 정렬 고정 */
+}
+.chart-legend.xs .lg-item { margin: 0 4px 2px 0; }
+
+/* 벤치마크 테이블 헤더 서브라벨 */
+.bench-table thead th .th-sub {
+  display: block;
+  font-size: 0.65rem;
+  color: var(--text-muted);
+  font-weight: 400;
+  margin-top: 1px;
+}
+@media (max-width: 1100px) {
+  .bench-table .col-owned,
+  .bench-table tbody td.col-owned { display: none; }
+}
+@media (max-width: 900px) {
+  .bench-table .col-sponsored,
+  .bench-table tbody td.col-sponsored { display: none; }
+}
+
+/* Section title */
+.exec-section-title {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  margin: 22px 0 10px;
+  padding: 0 2px;
+}
+.exec-section-title h3 {
+  font-size: 1.05rem;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+  color: var(--text-primary);
+}
+.exec-section-title .hint {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+/* Benchmark + charts grid */
+.exec-grid {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 14px;
+  margin-bottom: 20px;
+}
+
+.exec-panel {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 16px 18px;
+}
+
+/* Benchmark table */
+.bench-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+}
+.bench-table thead th {
+  text-align: right;
+  color: var(--text-muted);
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  padding: 8px 10px 10px;
+  border-bottom: 1px solid var(--border);
+  position: sticky; top: 0;
+  background: var(--bg-card);
+  cursor: pointer;
+  user-select: none;
+}
+.bench-table thead th:first-child { text-align: left; }
+.bench-table thead th:hover { color: var(--text-primary); }
+.bench-table thead th.sort-active { color: var(--accent-light); }
+.bench-table thead th .sort-arrow { margin-left: 3px; font-size: 0.7rem; }
+.bench-table tbody td {
+  padding: 10px;
+  text-align: right;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-primary);
+  font-variant-numeric: tabular-nums;
+}
+.bench-table tbody td:first-child { text-align: left; font-weight: 600; }
+.bench-table tbody tr:hover { background: var(--bg-card-hover); }
+.bench-table tbody tr.kfc-row {
+  background: rgba(228,0,43,0.08);
+  border-left: 3px solid var(--accent);
+}
+.bench-table tbody tr.kfc-row:hover { background: rgba(228,0,43,0.14); }
+.bench-table tbody tr.kfc-row td:first-child { color: var(--accent-light); font-weight: 700; }
+.bench-rank {
+  display: inline-block;
+  min-width: 22px;
+  padding: 1px 5px;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  font-variant-numeric: tabular-nums;
+  margin-right: 4px;
+}
+.delta-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+}
+.delta-chip.up { color: var(--up); background: rgba(16,185,129,0.12); }
+.delta-chip.down { color: var(--down); background: rgba(239,68,68,0.12); }
+.delta-chip.flat { color: var(--text-muted); background: var(--bg-card-hover); }
+.neg-chip {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+.neg-chip.safe { color: var(--pos); background: rgba(16,185,129,0.10); }
+.neg-chip.warn { color: var(--buzz-orange); background: rgba(249,115,22,0.12); }
+.neg-chip.danger { color: var(--neg); background: rgba(239,68,68,0.12); }
+
+/* Spark in table cell */
+.bench-spark { width: 80px; height: 22px; }
+
+/* Donut + sentiment panels */
+.chart-wrap { position: relative; height: 240px; }
+.chart-wrap.sm { height: 160px; }
+.chart-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 10px;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+}
+.chart-legend .lg-item { display: flex; align-items: center; gap: 4px; }
+.chart-legend .lg-dot { width: 9px; height: 9px; border-radius: 50%; }
+
+/* Highlights — 3 섹션 세로 쌓기, 각 섹션 가로 2 카드 */
+.highlights-list {
+  display: block;
+}
+.hl-group-label {
+  font-size: 0.95rem;
+  font-weight: 700;
+  margin: 14px 0 8px;
+  padding-left: 2px;
+}
+.highlights-row {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+.highlight-card.hl-best {
+  border-left: 3px solid #10b981;
+}
+.highlight-card.hl-worst {
+  border-left: 3px solid #dc2626;
+}
+@media (max-width: 600px) {
+  .highlights-row { grid-template-columns: 1fr; }
+}
+.highlight-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+  transition: all 0.15s;
+  text-decoration: none;
+  color: inherit;
+}
+.highlight-card:hover { border-color: var(--accent); background: var(--bg-card-hover); text-decoration: none; }
+.highlight-card .hl-reason {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  color: var(--accent-light);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+.highlight-card .hl-title {
+  font-size: 0.92rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--text-primary);
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.highlight-card .hl-meta {
+  color: var(--text-secondary);
+  font-size: 0.78rem;
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.highlight-card .hl-meta .hl-brand {
+  padding: 1px 8px;
+  background: var(--accent-bg);
+  color: var(--accent-light);
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 600;
+}
+.highlight-card .hl-stats {
+  display: flex;
+  gap: 12px;
+  font-size: 0.78rem;
+  color: var(--text-secondary);
+  font-variant-numeric: tabular-nums;
+}
+.highlight-card .hl-stats strong { color: var(--text-primary); font-weight: 700; }
+
+/* Alert strip */
+.alert-strip {
+  background: linear-gradient(90deg, rgba(239,68,68,0.10), transparent 80%);
+  border: 1px solid rgba(239,68,68,0.30);
+  border-radius: var(--radius);
+  padding: 10px 14px;
+  margin-bottom: 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 0.88rem;
+  color: var(--text-primary);
+}
+.alert-strip .alert-badge {
+  background: var(--neg);
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+}
+.alert-strip.empty {
+  background: linear-gradient(90deg, rgba(16,185,129,0.08), transparent 80%);
+  border-color: rgba(16,185,129,0.25);
+}
+.alert-strip.empty .alert-badge { background: var(--pos); }
+
+/* Actions row */
+.exec-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 12px;
+}
+.exec-toolbar .exec-meta {
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+}
+.exec-toolbar .exec-meta strong { color: var(--text-primary); }
+.exec-actions { display: flex; gap: 6px; flex-wrap: wrap; }
+.exec-btn {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 0.82rem;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.exec-btn:hover { border-color: var(--accent); color: var(--accent-light); }
+
+/* Responsive */
+@media (max-width: 1000px) {
+  .exec-strip { grid-template-columns: repeat(2, 1fr); }
+  .exec-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 600px) {
+  .exec-strip { grid-template-columns: 1fr; }
+  .view-tabs { padding: 0 10px; overflow-x: auto; }
+  .view-tab { padding: 10px 14px; font-size: 0.88rem; white-space: nowrap; }
+  .bench-table { font-size: 0.78rem; }
+  .bench-table thead th,
+  .bench-table tbody td { padding: 8px 6px; }
+  .bench-spark { display: none; }
+  .header-actions { position: static; justify-content: center; margin-top: 8px; }
+}
+</style>
 </head>
 <body>
-  <h1>🍣 육회바른연어 YouTube 모니터링</h1>
-  <div class="placeholder">
-    <p><strong>대시보드 빌드 대기 중</strong></p>
-    <p>첫 데이터 수집 후 본 페이지가 갱신됩니다.</p>
-    <p style="font-size: 12px; color: #999;">
-      자사(육회바른연어) + 9개 모니터링 대상 (T1·T2·T3)<br>
-      매일 06:00 / 18:00 자동 갱신 예정
+
+
+<div class="header">
+  <div class="header-actions">
+    <button class="icon-btn" id="theme-toggle" title="테마 전환" aria-label="테마 전환">🌙 다크</button>
+  </div>
+  <h1>📺 유튜브 브랜드 모니터링</h1>
+  <div class="data-range-line" id="data-range-line">
+    <span>📊 <strong id="dr-earliest">...</strong> ~ <strong id="dr-latest">...</strong></span>
+    <span class="dr-sep">·</span>
+    <span>마지막 업데이트 <strong id="dr-generated">...</strong></span>
+  </div>
+  <div class="data-notice-pin" id="data-notice" title="안내">
+    <span>📌 <strong id="notice-from-date">...</strong>부터</span>
+  </div>
+</div>
+
+<!-- Tabs -->
+<nav class="view-tabs" id="view-tabs" role="tablist" aria-label="대시보드 뷰">
+  <button class="view-tab active" data-view="exec" role="tab" aria-selected="true">
+    🎯 Executive Summary
+  </button>
+  <button class="view-tab" data-view="detail" role="tab" aria-selected="false">
+    📋 브랜드별 영상 상세
+  </button>
+  <button class="view-tab" data-view="help" role="tab" aria-selected="false">
+    📚 Help <span class="tab-hint">용어·지표 해설</span>
+  </button>
+</nav>
+
+<!-- ===================== Executive View ===================== -->
+<div class="container view-executive" id="view-exec">
+  <div class="exec-toolbar">
+    <div class="exec-meta">
+      <span id="exec-baseline-wrap" style="display:none;">비교 기준 <strong id="exec-baseline">-</strong></span>
+      <span class="period-toggle" id="period-toggle" role="group" aria-label="기간 필터">
+        <button type="button" data-period="7" class="active">최근 7일</button>
+        <button type="button" data-period="14">14일</button>
+        <button type="button" data-period="30">30일</button>
+        <button type="button" data-period="custom">기간 지정</button>
+      </span>
+      <span class="date-range exec-date-range" id="exec-date-range" style="display:none;">
+        <input type="date" id="exec-date-from">
+        <span class="dash">~</span>
+        <input type="date" id="exec-date-to">
+        <button class="apply-btn" id="exec-date-apply">적용</button>
+      </span>
+      <button type="button" id="btn-reset-brand" class="reset-brand-btn" style="display:none;">← 육바연으로 되돌리기</button>
+    </div>
+    <div class="exec-actions">
+      <button class="exec-btn" id="btn-copy-summary" title="클립보드에 한줄 요약 복사">📋 한줄 요약 복사</button>
+      <button class="exec-btn" id="btn-print">🖨 인쇄/PDF</button>
+    </div>
+  </div>
+
+  <!-- Alerts -->
+  <div class="alert-strip empty" id="alert-strip">
+    <span class="alert-badge" id="alert-badge">0</span>
+    <span id="alert-text">이상 징후를 분석 중...</span>
+  </div>
+
+  <!-- KPI Strip — Paid/Earned/Engagement 3층 SOV + 순위 + 감정·위험 통합 -->
+  <!-- KPI Strip — PESO 3분류 (Owned / Sponsored / Earned) + Engagement -->
+  <div class="exec-strip">
+    <div class="exec-card primary">
+      <div class="exec-label">🏆 자사(육바연) 순위 (총 조회수 기준)</div>
+      <div class="exec-value" id="k-rank">-<span class="small">/10</span></div>
+      <div class="exec-delta flat" id="k-rank-delta">—</div>
+      <div class="exec-sub" id="k-rank-sub">경쟁 10개 브랜드 총 조회수 비교</div>
+    </div>
+    <div class="exec-card peso-owned">
+      <div class="exec-label">🏛 Owned SOV</div>
+      <div class="exec-value" id="k-owned-sov">-<span class="small">%</span></div>
+      <div class="exec-gauge owned"><div class="exec-gauge-fill owned" id="k-owned-gauge" style="width:0%"></div></div>
+      <div class="count-line" id="k-owned-count">영상 —</div>
+      <div class="mix-badge" id="k-owned-mix" title="전체 Owned 시장에서 선택 브랜드 점유율">시장 —</div>
+      <div class="exec-sub">자사 공식 채널 (브랜드 자체 발신)</div>
+    </div>
+    <div class="exec-card peso-sponsored">
+      <div class="exec-label">🤝 Sponsored SOV</div>
+      <div class="exec-value" id="k-sponsored-sov">-<span class="small">%</span></div>
+      <div class="exec-gauge sponsored"><div class="exec-gauge-fill sponsored" id="k-sponsored-gauge" style="width:0%"></div></div>
+      <div class="count-line" id="k-sponsored-count">영상 —</div>
+      <div class="mix-badge" id="k-sponsored-mix" title="전체 Sponsored 시장에서 선택 브랜드 점유율">시장 —</div>
+      <div class="exec-sub">크리에이터 협찬 (Paid Partnership)</div>
+    </div>
+    <div class="exec-card peso-earned">
+      <div class="exec-label">🎤 Earned SOV <span class="tier-tag">⭐ Primary</span></div>
+      <div class="exec-value" id="k-earned-sov">-<span class="small">%</span></div>
+      <div class="exec-gauge earned"><div class="exec-gauge-fill earned" id="k-earned-gauge" style="width:0%"></div></div>
+      <div class="count-line" id="k-earned-count">영상 —</div>
+      <div class="mix-badge" id="k-earned-mix" title="전체 Earned 시장에서 선택 브랜드 점유율">시장 —</div>
+      <div class="exec-sub">순수 자발 크리에이터 — KFC가 움직일 수 있는 레버</div>
+    </div>
+    <div class="exec-card engagement">
+      <div class="exec-label">💬 Engagement SOV</div>
+      <div class="exec-value" id="k-eng-sov">-<span class="small">%</span></div>
+      <div class="exec-gauge"><div class="exec-gauge-fill" id="k-eng-gauge" style="width:0%"></div></div>
+      <div class="exec-delta flat" id="k-eng-delta">—</div>
+      <div class="exec-sub">실질 관심 강도 (좋아요+댓글 점유)</div>
+    </div>
+  </div>
+
+  <!-- Benchmark + Donut -->
+  <div class="exec-grid">
+    <div class="exec-panel">
+      <div class="exec-section-title">
+        <h3>🏁 경쟁 벤치마크</h3>
+        <span class="hint">컬럼 헤더 클릭 = 정렬 · KFC 행 하이라이트</span>
+      </div>
+      <div>
+        <table class="bench-table" id="bench-table">
+          <thead>
+            <tr>
+              <th data-sort="brand">브랜드</th>
+              <th data-sort="videos">영상수</th>
+              <th data-sort="views" class="sort-active">조회수<span class="sort-arrow">▼</span></th>
+              <th data-sort="ownedSov" data-col="owned" class="col-owned">🏛 Owned</th>
+              <th data-sort="sponsoredSov" data-col="sponsored" class="col-sponsored">🤝 Sponsored</th>
+              <th data-sort="earnedSov">🎤 Earned</th>
+              <th data-sort="engSov">💬 ER</th>
+              <th data-sort="neg">부정률</th>
+            </tr>
+          </thead>
+          <tbody id="bench-tbody">
+            <tr><td colspan="8" style="text-align:center; color: var(--text-muted); padding: 30px;">로딩 중…</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+    <div class="exec-panel">
+      <div class="exec-section-title"><h3>🥧 SOV 분포 (PESO)</h3><span class="hint">각 유형 시장에서 브랜드별 점유 — 10개 브랜드 합산 100%</span></div>
+      <div class="peso-donuts">
+        <div class="peso-donut-cell">
+          <div class="peso-donut-title">🌐 전체 조회수 점유</div>
+          <div class="chart-wrap xs"><canvas id="chart-total"></canvas><div id="chart-total-empty" class="chart-empty" style="display:none;">집계된 조회수 없음</div></div>
+          <div class="chart-legend xs" id="total-legend"></div>
+        </div>
+        <div class="peso-donut-cell">
+          <div class="peso-donut-title">🏛 Owned 점유</div>
+          <div class="chart-wrap xs"><canvas id="chart-owned"></canvas><div id="chart-owned-empty" class="chart-empty" style="display:none;">집계된 Owned 영상 없음</div></div>
+          <div class="chart-legend xs" id="owned-legend"></div>
+        </div>
+        <div class="peso-donut-cell">
+          <div class="peso-donut-title">🎤 Earned 점유</div>
+          <div class="chart-wrap xs"><canvas id="chart-earned"></canvas><div id="chart-earned-empty" class="chart-empty" style="display:none;">집계된 Earned 영상 없음</div></div>
+          <div class="chart-legend xs" id="earned-legend"></div>
+        </div>
+      </div>
+
+      <div class="exec-section-title" style="margin-top: 18px;"><h3>🧩 브랜드 콘텐츠 믹스</h3><span class="hint">각 브랜드가 어디에 투자하나 — 브랜드별 합 100%</span></div>
+      <div class="mix-legend">
+        <span class="mix-lg-item"><span class="mix-lg-dot owned"></span>🏛 Owned</span>
+        <span class="mix-lg-item"><span class="mix-lg-dot sponsored"></span>🤝 Sponsored</span>
+        <span class="mix-lg-item"><span class="mix-lg-dot earned"></span>🎤 Earned</span>
+      </div>
+      <div class="mix-bars" id="mix-bars"></div>
+
+      <div class="exec-section-title" style="margin-top: 18px;"><h3>🎭 브랜드별 감정 분포</h3><span class="hint">💬 댓글 · 🎬 영상 메타</span></div>
+      <div class="sent-split">
+        <div class="sent-split-cell">
+          <div class="sent-split-title">💬 댓글 기반 <span class="sent-split-sub">시청자 반응</span></div>
+          <div class="chart-wrap sm"><canvas id="chart-sentiment"></canvas></div>
+        </div>
+        <div class="sent-split-cell">
+          <div class="sent-split-title">🎬 영상 메타 기반 <span class="sent-split-sub">컨텐츠 톤</span></div>
+          <div class="chart-wrap sm"><canvas id="chart-sentiment-meta"></canvas></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Today's Highlights -->
+  <div class="exec-section-title">
+    <h3>✨ <span id="highlights-brand-label">육회바른연어</span> 하이라이트 <span class="hint" style="font-weight:normal;font-size:0.85rem;">🔥 가장 많이 퍼진 2 · 💚 가장 긍정적 2 · 🚨 가장 부정적 2</span></h3>
+    <span class="hint" id="highlights-period-hint">브랜드 클릭 시 전환 · 기간 토글 반영</span>
+  </div>
+  <div class="highlights-list" id="highlights-list">
+    <div style="grid-column: 1/-1; text-align:center; color: var(--text-muted); padding: 20px;">분석 중…</div>
+  </div>
+</div>
+<!-- =================== End Executive View ==================== -->
+
+<div class="container view-detail" id="view-detail">
+  <div class="summary-row" id="summary-row">
+    <div class="summary-card"><div class="label">총 브랜드수</div><div class="value" id="s-brands">-</div></div>
+    <div class="summary-card"><div class="label">총 영상수</div><div class="value" id="s-videos">-</div></div>
+    <div class="summary-card"><div class="label">총 조회수</div><div class="value" id="s-views">-</div></div>
+    <div class="summary-card"><div class="label">🚨 주의 브랜드</div><div class="value" id="s-warn">-</div></div>
+  </div>
+
+  <!-- Filter Toolbar -->
+  <div class="filter-bar" id="filter-bar">
+    <!-- Period -->
+    <div class="filter-group" id="fg-period">
+      <div class="filter-group-label"><span class="icon">📅</span> 기간</div>
+      <button class="chip" data-period="today">오늘</button>
+      <button class="chip" data-period="1">최근 1일</button>
+      <button class="chip active" data-period="7">최근 7일</button>
+      <button class="chip" data-period="30">최근 30일</button>
+      <button class="chip" data-period="custom">기간 지정</button>
+      <div class="date-range" id="date-range">
+        <input type="date" id="date-from">
+        <span class="dash">~</span>
+        <input type="date" id="date-to">
+        <button class="apply-btn" id="date-apply">적용</button>
+      </div>
+    </div>
+
+    <!-- Brand -->
+    <div class="filter-group" id="fg-brand">
+      <div class="filter-group-label"><span class="icon">🏷️</span> 브랜드</div>
+      <button class="chip master active" data-brand-master>모두</button>
+      <!-- Brand chips injected here -->
+    </div>
+
+    <!-- Advanced (collapsed by default) -->
+    <div class="filter-advanced" id="filter-advanced" hidden>
+      <!-- Format -->
+      <div class="filter-group" id="fg-format">
+        <div class="filter-group-label"><span class="icon">🎬</span> 형식</div>
+        <button class="chip active" data-format="long">Long</button>
+        <button class="chip active" data-format="short">Short</button>
+      </div>
+
+      <!-- Tier -->
+      <div class="filter-group" id="fg-tier">
+        <div class="filter-group-label"><span class="icon">👤</span> 크리에이터 티어</div>
+        <button class="chip active" data-tier="Official">Official</button>
+        <button class="chip active" data-tier="Mega">Mega <span class="chip-count">(1M+)</span></button>
+        <button class="chip active" data-tier="Macro">Macro <span class="chip-count">(100K-1M)</span></button>
+        <button class="chip active" data-tier="Mid">Mid <span class="chip-count">(10K-100K)</span></button>
+        <button class="chip active" data-tier="Micro">Micro <span class="chip-count">(1K-10K)</span></button>
+        <button class="chip active" data-tier="Nano">Nano <span class="chip-count">(&lt;1K)</span></button>
+      </div>
+
+      <!-- Sort -->
+      <div class="filter-group" id="fg-sort">
+        <div class="filter-group-label"><span class="icon">↕️</span> 정렬</div>
+        <button class="chip active" data-sort="upload">📅 최신순</button>
+        <button class="chip" data-sort="buzz">🔥 스코어순</button>
+        <button class="chip" data-sort="views">👁 조회순</button>
+        <button class="chip" data-sort="comments">💬 댓글순</button>
+        <button class="chip" data-sort="likes">👍 좋아요순</button>
+        <button class="chip" data-sort="negative">⚠️ 부정률순</button>
+      </div>
+
+      <!-- Search -->
+      <div class="filter-group" id="fg-search">
+        <div class="filter-group-label"><span class="icon">🔍</span> 검색</div>
+        <div class="filter-search">
+          <input type="text" id="search-input" placeholder="영상 제목, 채널명, 설명으로 검색...">
+        </div>
+      </div>
+    </div>
+
+    <!-- Actions -->
+    <div class="filter-actions">
+      <div class="filter-actions-left">
+        <button class="filter-advanced-toggle" id="filter-advanced-toggle" aria-expanded="false">
+          <span class="toggle-icon">▼</span> <span class="toggle-label">고급 필터</span>
+        </button>
+        <button class="filter-reset-btn" id="filter-reset">↺ 필터 초기화</button>
+      </div>
+      <div class="filter-result-count" id="filter-result-count">
+        <strong>0</strong>개 영상 / <strong>0</strong>개 브랜드 표시 중
+      </div>
+    </div>
+  </div>
+
+  <div id="brands-container">
+    <div class="loading"><div class="spinner"></div>데이터를 불러오는 중...</div>
+  </div>
+</div>
+
+<!-- ===================== Help / 설명 View ===================== -->
+<div class="container view-help" id="view-help">
+  <div class="help-doc">
+    <h1>📚 대시보드 사용 설명서</h1>
+    <p class="help-lead">
+      이 대시보드는 <strong>KFC + 경쟁사 9개</strong> YouTube 동향을 한눈에 보기 위한 도구입니다.
+      매일 <strong>06:00 / 18:00 자동 업데이트</strong>, 누적 데이터를 관리합니다.
+      상단 `📊 YYYY-MM-DD ~ YYYY-MM-DD` 에서 실제 수집 범위와 마지막 업데이트 시각을 확인하세요.
+    </p>
+
+    <nav class="help-nav">
+      <a href="#h-ranking">🏆 순위</a>
+      <a href="#h-peso">🎯 PESO 3층</a>
+      <a href="#h-donut">🥧 도넛</a>
+      <a href="#h-bench">🏁 벤치마크</a>
+      <a href="#h-mix">🧩 콘텐츠 믹스</a>
+      <a href="#h-sentiment">🎭 감성 분석</a>
+      <a href="#h-relevance">🧹 영상 스크리닝</a>
+      <a href="#h-buzz">🔥 Buzz</a>
+      <a href="#h-summary">📊 요약 카드</a>
+      <a href="#h-glossary">📖 용어</a>
+      <a href="#h-faq">❓ FAQ</a>
+    </nav>
+
+    <!-- 1. 순위 -->
+    <section class="help-section" id="h-ranking">
+      <h2>🏆 순위 (조회수 기준)</h2>
+      <p>경쟁 10개 브랜드 중 <strong>총 YouTube 조회수 기준 순위</strong>. 1위 = 조회수 가장 많음.</p>
+      <div class="help-card">
+        <strong>해석 주의:</strong>
+        <ul>
+          <li>맥도날드·맘스터치 등은 <strong>광고비로 만든 조회수</strong>가 대부분 (유튜브 광고 노출 = 조회수 카운트)</li>
+          <li>KFC가 6위라도 "약하다"가 아니라 <strong>광고 투자를 덜 했다</strong>는 의미</li>
+          <li>실제 자발 관심은 🎤 <strong>Earned SOV</strong>가 더 정확 (벤치마크 테이블에서 확인)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 2. PESO 3층 -->
+    <section class="help-section" id="h-peso">
+      <h2>🎯 PESO 프레임워크 (3층 사용)</h2>
+      <p>마케팅 업계 표준 <strong>PESO (Paid·Earned·Shared·Owned) 4분류</strong>.
+      본 대시보드는 그 중 <strong>3가지만 사용</strong>합니다 — 이유는 아래에서 설명.</p>
+
+      <div class="help-card">
+        <strong>✅ 사용 중인 3종:</strong>
+        <ul>
+          <li><span class="help-dot owned"></span>🏛 <strong>Owned</strong> — 자사 공식 채널</li>
+          <li><span class="help-dot sponsored"></span>🤝 <strong>Sponsored</strong> (Paid 변형) — 크리에이터 협찬 영상</li>
+          <li><span class="help-dot earned"></span>🎤 <strong>Earned</strong> — 자발 크리에이터 콘텐츠</li>
+        </ul>
+      </div>
+
+      <div class="help-card" style="border-left-color: #f59e0b;">
+        <strong>❌ 빠진 1종 — <code style="background:rgba(245,158,11,0.15);padding:2px 6px;border-radius:4px;">Shared</code>:</strong>
+        <p style="margin:8px 0 0 0;">전통 PESO에서 <strong>Shared</strong> = "사용자가 공유·좋아요·댓글로 재확산하는 것".
+        하지만 본 대시보드에선 별도 카테고리로 분리하지 않았습니다.</p>
+        <strong style="display:block;margin-top:10px;">제외 이유 3가지:</strong>
+        <ul>
+          <li><strong>① 이중 집계 방지</strong> — Shared 를 별도 집계하면 Owned/Earned 영상에서 발생한 좋아요·댓글을 2번 카운트하게 됨 (예: 맘스터치 공식 광고의 좋아요 → Owned & Shared 양쪽)</li>
+          <li><strong>② 이미 <code>💬 Engagement SOV</code> 로 측정 중</strong> — KPI 5번째 카드의 "좋아요+댓글 시장 점유" = 전통 Shared 개념과 사실상 동일</li>
+          <li><strong>③ YouTube 특성</strong> — YouTube 의 "공유" 지표(Share count)는 yt-dlp 로 수집 불가. 좋아요·댓글만 가능</li>
+        </ul>
+        <p style="margin:8px 0 0 0;">→ 결론: <strong>Shared 는 Engagement SOV 카드로 대체</strong>. 3+1 구조 (PESO 3분류 + Engagement) 로 운영.</p>
+      </div>
+
+      <p>PESO 의 각 층 의미:</p>
+      <div class="help-table">
+        <table>
+          <thead><tr><th>층</th><th>의미</th><th>예시</th><th>KFC가 쓸 수 있는 레버</th></tr></thead>
+          <tbody>
+            <tr><td><span class="help-dot owned"></span>🏛 <strong>Owned</strong></td>
+                <td>자사 공식 채널이 업로드한 영상</td>
+                <td>KFC Korea · 한국 맥도날드 공식 채널 광고</td>
+                <td>광고 제작 · 예산 집행</td></tr>
+            <tr><td><span class="help-dot sponsored"></span>🤝 <strong>Sponsored</strong></td>
+                <td>크리에이터가 돈받고 만든 협찬 영상</td>
+                <td>#광고 · "유료광고 포함" 표시가 있는 영상</td>
+                <td>크리에이터 협찬 집행</td></tr>
+            <tr><td><span class="help-dot earned"></span>🎤 <strong>Earned</strong> ⭐</td>
+                <td>크리에이터가 자발적으로 만든 영상</td>
+                <td>일반 먹방·리뷰·뉴스 영상</td>
+                <td><strong>제품 자체 화제성</strong> (KFC 주력)</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="help-card">
+        <strong>KPI 카드 읽는 법:</strong>
+        <ul>
+          <li><strong>큰 숫자</strong> = 선택된 브랜드 <strong>내 비중</strong> (Owned + Sponsored + Earned = 100%)</li>
+          <li><strong>회색 배지</strong> = "시장 OO 중 X% 점유" (경쟁사 대비 점유율)</li>
+          <li>예: <code>KFC 내 Earned 99.6%</code> = KFC 영상의 99.6%가 크리에이터 자발 / <code>시장 Earned 중 21.9%</code> = 전체 Earned 시장의 21.9% 차지</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 3. 도넛 -->
+    <section class="help-section" id="h-donut">
+      <h2>🥧 SOV 분포 도넛 3개</h2>
+      <p>세로 합 100% 기준 시장 점유 — 브랜드별 색깔 조각 크기 비교:</p>
+      <ul>
+        <li><strong>🌐 전체 조회수 점유</strong> ⭐ — 광고+협찬+자발 모두 합친 시장 목소리. 제일 직관적</li>
+        <li><strong>🏛 Owned 점유</strong> — 공식 광고 지출 규모 반영 (맥도날드가 보통 압도)</li>
+        <li><strong>🎤 Earned 점유</strong> — 자발 크리에이터 화제성 (KFC·롯데리아 강함)</li>
+      </ul>
+    </section>
+
+    <!-- 4. 벤치마크 -->
+    <section class="help-section" id="h-bench">
+      <h2>🏁 경쟁 벤치마크 테이블</h2>
+      <p>10개 브랜드 × 8개 컬럼. <strong>기본 정렬: 조회수 내림차순</strong>. 헤더 클릭하면 해당 컬럼 기준 정렬.</p>
+      <div class="help-card">
+        <strong>행 클릭 기능:</strong> 해당 브랜드 행을 클릭하면 <strong>상단 KPI 5장이 그 브랜드 기준으로 전환</strong>.
+        레드 외곽선 = 현재 선택된 브랜드. "← 육바연으로 되돌리기" 버튼으로 초기화.
+      </div>
+      <div class="help-table">
+        <table>
+          <thead><tr><th>컬럼</th><th>의미</th></tr></thead>
+          <tbody>
+            <tr><td>영상수</td><td>수집 기간 내 해당 브랜드 관련 영상 개수 (상단 날짜 범위 참조, 기간 토글 7/14/30일로 축소 가능)</td></tr>
+            <tr><td>조회수</td><td>영상들 조회수 총합</td></tr>
+            <tr><td>🏛 Owned</td><td>전체 Owned 시장 중 이 브랜드 차지 비율</td></tr>
+            <tr><td>🤝 Sponsored</td><td>전체 Sponsored 시장 중 이 브랜드 비율</td></tr>
+            <tr><td>🎤 Earned</td><td>전체 Earned 시장 중 이 브랜드 비율</td></tr>
+            <tr><td>💬 ER</td><td>Engagement (좋아요+댓글) 시장 점유</td></tr>
+            <tr><td>부정률</td><td>댓글 중 부정 댓글 비율</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 5. 콘텐츠 믹스 -->
+    <section class="help-section" id="h-mix">
+      <h2>🧩 브랜드 콘텐츠 믹스</h2>
+      <p>가로 100% 스택바 — <strong>각 브랜드가 어떤 유형에 투자하는지</strong>:</p>
+      <ul>
+        <li>🏛 회색(Owned) 비율 크면 → 광고 중심 브랜드 (맥도날드·맘스터치)</li>
+        <li>🎤 레드(Earned) 비율 크면 → 자발 바이럴 브랜드 (KFC·BBQ·교촌)</li>
+        <li>🤝 주황(Sponsored) 비율 크면 → 협찬 마케팅 (드물게 롯데리아 침착맨)</li>
+      </ul>
+    </section>
+
+    <!-- 6. 감성 분석 -->
+    <section class="help-section" id="h-sentiment">
+      <h2>🎭 감성 분석 파이프라인</h2>
+      <p>
+        감성 분류는 <strong>KR-BERT + Qwen3 하이브리드</strong> 구조입니다. 대량 댓글은 BERT 가 빠르게 1차 분류하고,
+        BERT 가 '부정'으로 판정한 댓글 중 워닝 후보만 <strong>Qwen3:4b LLM</strong> 이 2차 검증해
+        YouTube 특유의 아이러니·밈·타임스탬프 코멘트를 교정합니다.
+      </p>
+
+      <div class="help-card">
+        <strong>🔬 2단계 파이프라인:</strong>
+        <ol>
+          <li><strong>1차 — KR-BERT</strong> (한국어 리뷰 학습, 로컬 MPS GPU, ~수천 댓글/분):
+            제목+설명(내용 감성), 상위 50개 댓글(댓글 감성) 각각 긍정/중립/부정 3분류</li>
+          <li><strong>규칙 오버라이드</strong> (아래 "자동 교정 규칙" 참조): 슬랭·밈·웃음·질문·타임스탬프 등 한국어·YouTube 특유 패턴 교정</li>
+          <li><strong>2차 — Qwen3:4b</strong> (Ollama 로컬, ~4 GB RAM, 배치 10건): BERT 가 '부정'으로 남긴 댓글 중
+            워닝 후보 영상(부정률 20%↑)의 것만 LLM 재검증 → 아이러니·웃음·질문을 재분류</li>
+        </ol>
+      </div>
+
+      <p>각 영상 카드에 2가지 감성 배지가 병렬 표시됩니다:</p>
+      <div class="help-table">
+        <table>
+          <thead><tr><th>배지</th><th>의미</th><th>신뢰도</th></tr></thead>
+          <tbody>
+            <tr>
+              <td><span class="sentiment-inline pos">💬 😊 긍정 82% (9/11)</span></td>
+              <td><strong>댓글 감성</strong>: 상위 50개 댓글 → KR-BERT 1차 + Qwen3 2차 검증 집계. N/T = 감정 건수/총 댓글</td>
+              <td>★★ (실제 시청자 반응)</td>
+            </tr>
+            <tr>
+              <td><span class="sentiment-inline meta pos">📝 😊 내용 긍정</span></td>
+              <td><strong>내용 감성</strong>: 제목+설명 KR-BERT + 규칙 오버라이드. 크리에이터 의도 추정</td>
+              <td>★ (보조 지표)</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="help-card">
+        <strong>Executive 탭 하단 "🎭 브랜드별 감정 분포" 2차트:</strong>
+        <ul>
+          <li>💬 <strong>댓글 기반</strong> — 시청자 반응 (BERT + Qwen3 검증 결과)</li>
+          <li>🎬 <strong>영상 메타 기반</strong> — 컨텐츠 톤 (제목+설명 분석)</li>
+        </ul>
+      </div>
+
+      <h3 style="margin-top:24px;">🧭 자동 교정 규칙 (우선순위 순)</h3>
+
+      <div class="help-card">
+        <strong>① 📰 뉴스·외부사건 자동 중립화</strong>
+        — 브랜드 매장에서 일어난 <strong>고객 난동·진상·폭행 영상</strong>은 브랜드 평판과 무관 → 중립.
+        <ul>
+          <li>강한 고객-가해자 마커: 진상녀/난동녀/진상 손님/블랙컨슈머/풀영상 → 중립 (설명 `#갑질`·`#논란` 해시태그 오독 방지)</li>
+          <li>뉴스 채널 + 외부 사건 키워드(난동·폭행·행패·막말·시비) → 중립</li>
+          <li>단 <strong>브랜드가 가해자</strong>(갑질·담합·과징금·영업정지·이물질·위생) → 부정 유지</li>
+          <li>📰 <strong>뉴스 배지</strong>로 UI 에 별도 표시, 브랜드 부정률 집계에서도 제외</li>
+        </ul>
+      </div>
+
+      <div class="help-card">
+        <strong>② ✅ 브랜드 친소비자 이니셔티브 → 긍정 강제</strong>
+        — 본사가 손해를 감수하고 소비자·가맹점을 보호하는 영상은 브랜드 이미지 제고 → 긍정 확정.
+        <ul>
+          <li>가격 동결/인상 안 한다/인하 · 본사 부담/본사 흡수/원가 흡수</li>
+          <li>기부/후원/사회공헌/상생/장학금/무료 제공</li>
+          <li>품질 개선/서비스 개선/안심 선언</li>
+        </ul>
+        예: "BBQ, 치킨값 인상 안 한다 — 본사가 비용 상승 부담" → <strong>긍정</strong>
+      </div>
+
+      <div class="help-card">
+        <strong>③ 🔍 비판·분석 톤 → 부정 강제</strong>
+        — "먹방/리뷰" 키워드가 있어도 비판 분석 영상이면 부정 유지.
+        <ul>
+          <li>무엇이 문제/왜 실패/몰락/조롱/밈으로 확산/주가 영향/역풍/불매/어색한/구설</li>
+        </ul>
+        예: "맥도날드 CEO의 햄버거 먹방 무엇이 문제였나" → <strong>부정</strong>
+      </div>
+
+      <div class="help-card">
+        <strong>④ 🎯 브랜드별 관점 재판단 — 주제 vs 참조 브랜드</strong>
+        — 같은 영상도 브랜드 관점이 다르면 다른 감성.
+        <ul>
+          <li><strong>벤치마크 패턴</strong> — "브랜드보다 N배/년 많/크/빠르", "브랜드급/수준" → 긍정 (권위 인정)</li>
+          <li>단 "브랜드보다 맛있/좋/낫/싸대기" → 부정 (경쟁사 우위 주장)</li>
+          <li><strong>위상 강조</strong> — "전 세계 브랜드", "글로벌 브랜드", "세계 최대" → 긍정</li>
+          <li><strong>산업·역사 주제</strong> — 자영업 잔혹사/프랜차이즈 현실/역사(로마·중세)/디지털 전환 → 중립</li>
+        </ul>
+        예: "대한민국 자영업 잔혹사 EP4. 치킨집 8만 개, 전세계 맥도날드 4만 개보다 2배 많은 나라의 비극"
+        → 맥도날드 섹션: <strong>긍정</strong> (글로벌 규모 기준점, 주제는 한국 자영업)
+      </div>
+
+      <div class="help-card">
+        <strong>⑤ 😂 한국어 슬랭·웃음 오버라이드 (댓글·메타 공통)</strong>
+        <ul>
+          <li><strong>극찬 슬랭</strong>: "폭력적인 맛", "병맛광고", "역대급", "존맛", "인생메뉴", "레전드", "미쳤다", "죽인다", "킹", "갓" → 긍정</li>
+          <li><strong>웃음·재미 표현</strong>: "ㅋㅋㅋ", "ㅎㅎㅎ", "빵터짐", "미쳐 진짜", "봉변", "웃김", "폭소", "꿀잼" → 긍정/중립</li>
+          <li>KR-BERT 가 문자 그대로 '부정' 해석하는 걸 교정</li>
+        </ul>
+      </div>
+
+      <div class="help-card">
+        <strong>⑥ 💬 댓글 전용 규칙 (브랜드 평판과 무관한 코멘트 중립화)</strong>
+        <ul>
+          <li><strong>영상 품질 불만</strong>: "재미없/지루/길다/잠온다/목소리/자막/스킵" → 중립 (브랜드 비판 아님)
+            <br>&emsp;단 "맛없·최악·불매·실망·비싸·쓰레기" 등 <strong>브랜드 직접 불만어 동반 시</strong>는 부정 유지</li>
+          <li><strong>질문형 댓글</strong>: "왜 ~인가요?", "셤을 쳤다는 겨?" 같은 호기심 질문 → 중립</li>
+          <li><strong>타임스탬프 레퍼런스</strong>: "24:21 아 이 녀석 삐져나오네" 같은 영상 장면 묘사 → 중립</li>
+        </ul>
+      </div>
+
+      <div class="help-card">
+        <strong>⑦ 🔬 댓글 표본 부족 영상 — 판정 보류</strong>
+        — 댓글이 <strong>15개 미만</strong>이면 통계적 유의성 부족 → 긍부정 판정 않음.
+        <ul>
+          <li><strong>0개</strong>: <span class="sentiment-inline none">💬 — 댓글 없음</span></li>
+          <li><strong>1~14개</strong>: <span class="sentiment-inline none">💬 🔬 표본 부족 (N개)</span> — 분포는 툴팁, 워닝(🟡/🔴) 미표시</li>
+          <li><strong>15개 이상</strong>: 정상 판정 (💬 😊 긍정 82% · 💬 😠 부정 35% 등)</li>
+        </ul>
+        <p style="margin:8px 0 0 0;color:var(--text-secondary);font-size:0.88rem;">
+          표본이 적을 땐 <strong>영상 메타(📝) 감성</strong>만 참고하는 것이 안전합니다.
+        </p>
+      </div>
+
+      <div class="help-card">
+        <strong>⚠️ 경고 등급 (부정률 기반)</strong>
+        <ul>
+          <li>🔴 red — 댓글 <strong>30개 이상</strong> 중 부정 <strong>50% 이상</strong> (신뢰구간 ±9%p)</li>
+          <li>🟡 yellow — 댓글 <strong>15개 이상</strong> 중 부정 <strong>30% 이상</strong> (신뢰구간 ±12%p)</li>
+          <li>멀티브랜드 영상은 경고 등급 한 단계 감쇠 (크리에이터 팬 댓글 신뢰도 ↓)</li>
+        </ul>
+        <p style="margin:8px 0 0 0;color:var(--text-secondary);font-size:0.88rem;">
+          댓글 수집 한도: 경쟁사 영상당 <strong>100개</strong> · 대시보드 노출 <strong>상위 50개</strong> (좋아요 기준).
+          15+ / 30+ 임계는 통계적 안정성을 위한 최소값입니다.
+        </p>
+      </div>
+    </section>
+
+    <!-- 6.5. 영상 스크리닝 -->
+    <section class="help-section" id="h-relevance">
+      <h2>🧹 브랜드 무관 영상 자동 스크리닝</h2>
+      <p>제목에 브랜드명이 있어도 실제 내용이 무관하면 자동 제외합니다. 수집 파이프라인과 대시보드 양쪽에서 다단 필터.</p>
+
+      <div class="help-card">
+        <strong>판정 우선순위:</strong>
+        <ol>
+          <li><strong>브랜드별 명시 제외 리스트</strong> (서브컬처/탁구/게임 방송/BBQ 전기그릴 등)</li>
+          <li><strong>공식표기 필수</strong> — 짧은 별칭(서브·맘스·롯데)만으로는 통과 불가. 공식 표기 또는 시그니처 메뉴(와퍼·빅맥·뿌링클·싸이버거·허니콤보 등) 필수</li>
+          <li><strong>서브웨이 엄격 모드</strong> — 제목+설명에 "서브웨이/써브웨이/Subway" 필수 (댓글만으로는 불가)</li>
+          <li><strong>BBQ 치킨 컨텍스트 필수</strong> — "비비큐" 있어도 치킨/닭/황올/프라이드/후라이드/치밥/치맥 등 동반 없으면 제외</li>
+          <li><strong>밈·비교 패턴</strong> — "브랜드랑 같은", "브랜드처럼" + 맥락 부족 → 제외
+            <br><span style="color:var(--text-muted);">예: "맘스터치랑 같은 사람인가" (수류탄 성능 테스트 영상)</span></li>
+          <li><strong>컨텍스트 마커 검증</strong> — 리뷰/먹방/매장/메뉴/시그니처 있으면 통과</li>
+          <li><strong>댓글 교차 검증</strong> — 댓글 내 브랜드 언급률 &lt; 50% 이면 제외</li>
+        </ol>
+      </div>
+
+      <div class="help-card">
+        <strong>주요 차단 동음이의 사례:</strong>
+        <ul>
+          <li><strong>서브웨이</strong> — 서브컬처/서브에이전트/서브티처/서브스터디/탁구·테니스·배드민턴 서브/마라톤 서브3·서브4/서브캠/서브우퍼/서브퀘스트/서브노티카(게임)/지하철·전철/Subway Serenade/Today's Stockings</li>
+          <li><strong>BBQ</strong> — 텍사스 바베큐/Korean BBQ/K-BBQ/삼겹살·오겹살·꽃갈비·꽃등심·살치살·토시살/마블링·드라이에이징/훈제·스모커/양꼬치/BBQ체어·전기그릴/게임방송(템진단·똥꼬쇼·룰렛)/라이브 음악 비비큐</li>
+          <li><strong>맥도날드</strong> — '맥도' 단독 제거 (맥도유저/맥도아이디 = 게임 유저명, 맥도생태공원 = 지명). 시그니처 메뉴(빅맥·맥너겟·맥치킨·맥스파이시·맥카페·맥모닝) 필수. 맥주/맥북/맥프로/심법/붉은사막/리니지 등 제외</li>
+          <li><strong>롯데리아</strong> — 롯데그룹/롯데쇼핑/롯데마트/롯데월드 등 계열사 뉴스 제외</li>
+          <li><strong>교촌</strong> — 교촌한옥마을(경주 지명) 제외</li>
+        </ul>
+      </div>
+
+      <div class="help-card">
+        <strong>수집 단계 차단:</strong>
+        서브웨이 검색 쿼리에서 '서브'·'써브' 짧은 별칭 제거. 수집 게이트에서 공식표기 없으면 CSV에 저장되지도 않음. CSV 비대화 방지.
+      </div>
+    </section>
+
+    <!-- 7. Buzz Score -->
+    <section class="help-section" id="h-buzz">
+      <h2>🔥 Buzz Score (영상별 0~100)</h2>
+      <p>각 영상에 부여되는 종합 점수. "얼마나 바이럴 되고 있느냐" 지표.</p>
+      <div class="help-table">
+        <table>
+          <thead><tr><th>구성 요소</th><th>가중치</th><th>의미</th></tr></thead>
+          <tbody>
+            <tr><td>Reach</td><td>15%</td><td>절대 조회수 (log)</td></tr>
+            <tr><td>Engagement</td><td>20%</td><td>좋아요+댓글 비율</td></tr>
+            <tr><td>Freshness</td><td>10%</td><td>신선도 (7일 반감기)</td></tr>
+            <tr><td>Authority</td><td>15%</td><td>채널 구독자 파급력</td></tr>
+            <tr><td>Velocity</td><td>10%</td><td>시간당 조회수 증가 속도</td></tr>
+            <tr><td>Overperformance</td><td>20%</td><td>구독자 대비 조회수 (작은 채널 바이럴)</td></tr>
+            <tr><td>Discovery Speed</td><td>10%</td><td>업로드→발견까지 속도</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="help-card">
+        <strong>보정 게이트:</strong>
+        <ul>
+          <li><strong>Viability Gate</strong>: 좋아요+댓글 3건 미만 → ×0.3 (죽은 영상 감쇠)</li>
+          <li><strong>Paid Gate</strong>: 조회수 1만 이상인데 ER < 0.1% → ×0.7 (광고성 감쇠)</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- 7.5 요약 카드 -->
+    <section class="help-section" id="h-summary">
+      <h2>📊 상단 요약 카드 4개</h2>
+      <div class="help-table">
+        <table>
+          <thead><tr><th>카드</th><th>의미</th></tr></thead>
+          <tbody>
+            <tr><td>총 브랜드수</td><td>집계 중인 경쟁 브랜드 개수 (KFC + 경쟁사 9 + 멀티 = 11)</td></tr>
+            <tr><td>총 영상수</td><td>수집 기간 내 전 브랜드 영상 합계</td></tr>
+            <tr><td>총 조회수</td><td>전 영상 조회수 합계 (단위: 억/만/K 자동)</td></tr>
+            <tr><td>🚨 주의 브랜드</td><td><strong>현재 yellow/red 워닝 중인 브랜드 수</strong>. 임원이 한눈에 신경써야 할 브랜드 개수 파악 (액션지표)</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- 8. 용어 사전 -->
+    <section class="help-section" id="h-glossary">
+      <h2>📖 용어 사전</h2>
+      <dl class="help-glossary">
+        <dt>SOV (Share of Voice)</dt>
+        <dd>전체 시장에서 해당 브랜드가 차지하는 "목소리"의 비율. 여기선 조회수·Engagement 기반.</dd>
+
+        <dt>ER (Engagement Rate)</dt>
+        <dd>(좋아요 + 댓글) / 조회수. YouTube 평균 4~5%. 10% 넘으면 매우 강한 참여.</dd>
+
+        <dt>Creator Tier</dt>
+        <dd>Official = 공식 채널 / Mega = 1M+ 구독 / Macro = 100K-1M / Micro = 10K-100K / Nano = 10K 미만</dd>
+
+        <dt>🔀 멀티-브랜드</dt>
+        <dd>제목/설명에 2개 이상 브랜드 등장. KFC 포함 영상은 KFC+멀티 섹션만, 나머지는 멀티 섹션만 표시 (중복 방지).</dd>
+
+        <dt>Refresh Tier</dt>
+        <dd>영상 업로드 경과일 기준 — hot(≤3일), warm(3-7일), cold(7-14일), frozen(>14일). 주기적으로 다시 크롤.</dd>
+
+        <dt>KR-BERT</dt>
+        <dd>한국어 전용 BERT 기반 3-class 감성 분류기. 로컬 MPS(Apple Silicon GPU)에서 실행, API 비용 0.</dd>
+      </dl>
+    </section>
+
+    <!-- 9. FAQ -->
+    <section class="help-section" id="h-faq">
+      <h2>❓ 자주 묻는 질문</h2>
+      <details class="help-faq">
+        <summary>Q. 왜 KFC가 순위 6위인가요? 실제로는 잘하고 있는 것 같은데...</summary>
+        <p>기본 순위는 <strong>총 조회수 기준</strong>인데 맥도날드·맘스터치가 유튜브 광고 집행(억 단위)으로
+        수천만 조회를 찍어서 상위권. 하지만 <strong>자발 크리에이터 관심(🎤 Earned)</strong>에서는
+        KFC가 상위 2~3위 수준이라 브랜드 파워는 건재합니다. 광고비 투자 부족이 순위에 반영된 것.</p>
+      </details>
+      <details class="help-faq">
+        <summary>Q. 맥도날드 광고 한 편이 2,400만 뷰가 말이 되나요?</summary>
+        <p>YouTube 인스트림/인피드 광고는 <strong>사용자가 광고 건너뛰기 전 잠깐 본 것도 조회수 1로 카운트</strong>합니다.
+        TV CF + 유튜브 광고에 수억 투입하면 2천만 뷰 달성은 현실적입니다.</p>
+      </details>
+      <details class="help-faq">
+        <summary>Q. 부정률이 왜 이렇게 들쑥날쑥한가요?</summary>
+        <p>교촌 40% = 실제 갑질 뉴스 때문 (진짜 부정). KFC 14% = 대부분 호의적 리뷰.
+        한국어 슬랭 (폭력적=최고, 죽인다=최고) 자동 교정 적용 후 현실 반영.</p>
+      </details>
+      <details class="help-faq">
+        <summary>Q. Sponsored 영상이 거의 없는데 왜 생겼나요?</summary>
+        <p>현재 감지는 제목+설명 300자 범위에서 "#광고", "유료광고 포함" 같은 명시적 마커만 잡습니다.
+        <strong>미공개 협찬</strong>(20~30% 추정)은 Earned로 오분류될 수 있음.
+        향후 자막 기반 고도화 예정.</p>
+      </details>
+      <details class="help-faq">
+        <summary>Q. 파파이스가 항상 0%인 이유?</summary>
+        <p>파파이스 한국 공식 채널은 <strong>2024년 4월 이후 2년째 업로드가 없습니다</strong>.
+        크리에이터 자발 영상도 희박해서 실제 "데이터가 없는" 상태입니다.</p>
+      </details>
+      <details class="help-faq">
+        <summary>Q. 언제 데이터가 업데이트되나요?</summary>
+        <p>매일 <strong>06:00 (아침)과 18:00 (저녁)</strong> 자동 크롤. Slack 발송은 08:30 (아침만).
+        대시보드는 브라우저 하드 리프레시(⌘+Shift+R)하면 최신 버전 반영됩니다.</p>
+      </details>
+      <details class="help-faq">
+        <summary>Q. 데이터는 어디서 오나요?</summary>
+        <p><code>yt-dlp</code> 오픈소스 도구로 YouTube 검색·공식 채널 크롤. <strong>YouTube Data API 미사용</strong> (토큰·쿼터 없음).
+        감성 분석은 로컬 KR-BERT, 요약은 로컬 Ollama qwen2.5:14b. <strong>외부 API 비용 0원</strong>.</p>
+      </details>
+      <details class="help-faq">
+        <summary>Q. 어떤 검색어(키워드)로 브랜드 영상을 잡나요?</summary>
+        <p>각 브랜드마다 공식표기·줄임말·별칭·오타·시그니처메뉴까지 포함해서 매칭합니다.
+        제목에 아래 키워드 중 <strong>하나라도 포함</strong>되면 해당 브랜드 관련 영상으로 인식:</p>
+        <div class="help-table" style="font-size:0.82rem;">
+          <table>
+            <thead><tr><th>브랜드</th><th>매칭 키워드</th></tr></thead>
+            <tbody>
+              <tr><td>🔴 <strong>KFC</strong></td>
+                  <td>KFC · 케이에프씨 · 케프씨 · 켄터키치킨 · 켄터키프라이드 · 할아버지치킨 · 커널샌더스
+                  <br><span style="color:var(--text-muted);">※ 메뉴 매칭 별도: 징거 · 통다리살 · 치즐링 · 트위스터 · 타워버거 · 갈릭징거 · 살라미 등</span></td></tr>
+              <tr><td>🟨 <strong>맥도날드</strong></td>
+                  <td>맥도날드 · 맥날 · 맥드 · 맥도 · 맥디 · 막도날드 · 맥날먹방 · 맥날버거 · McDonald('s) · Mcdonald · MacDonald · Mckdonald · Mickey D's · 미키디</td></tr>
+              <tr><td>🟧 <strong>버거킹</strong></td>
+                  <td>버거킹 · 버거 킹 · 버킹 · 벅킹 · 부거킹(오타) · Burger King · BK · <strong>와퍼 · 와퍼주니어</strong></td></tr>
+              <tr><td>🩷 <strong>롯데리아</strong></td>
+                  <td>롯데리아 · 롯리 · 롯데 · 리아버거 · 롯데리야(오타) · Lotteria</td></tr>
+              <tr><td>🟢 <strong>맘스터치</strong></td>
+                  <td>맘스터치 · 맘스 · 맘터 · 맘터치 · 맘치 · 맘스치킨 · 혜자터치 · Mom's Touch · <strong>싸이버거 · 싸이플렉스</strong></td></tr>
+              <tr><td>🔵 <strong>파파이스</strong></td>
+                  <td>파파이스 · 파파이 · 파핫 · Popeyes · Popeye's · <strong>케이준후라이</strong></td></tr>
+              <tr><td>🟣 <strong>서브웨이</strong></td>
+                  <td>서브웨이 · <strong>써브웨이</strong>(공식병기) · 써브 · 서브 · 섭웨이 · 섭웨 · 써배 · 서배 · Subway</td></tr>
+              <tr><td>🔷 <strong>BBQ</strong></td>
+                  <td>BBQ · 비비큐 · 비비큐치킨 · 비비규(오타) · B.B.Q · <strong>황금올리브 · 황올</strong></td></tr>
+              <tr><td>🟪 <strong>BHC</strong></td>
+                  <td>BHC · 비에이치씨 · 비에이치씨치킨 · 비에이치 · 비에이치치 · B.H.C · <strong>뿌링클 · 맛초킹</strong></td></tr>
+              <tr><td>🩵 <strong>교촌</strong></td>
+                  <td>교촌 · 교촌치킨 · Kyochon · <strong>허니콤보 · 레드콤보 · 교촌 허니 · 교촌 레드</strong></td></tr>
+            </tbody>
+          </table>
+        </div>
+        <p><strong>오탐 방지를 위해 제외한 키워드</strong>:</p>
+        <ul>
+          <li><code>갓양념</code> — "갓"은 한국어 슬랭으로 너무 일반적 (갓성비·갓경수 등)</li>
+          <li><code>라이스버거</code> — 여러 브랜드가 사용 (롯데리아 전용 아님)</li>
+          <li><code>데리버거</code> — 일반 데리야키 버거와 혼동</li>
+          <li><code>상하이버거</code> — "상하이" 도시명과 혼동 가능</li>
+        </ul>
+        <p>또한 추가 필터 2단:</p>
+        <ol>
+          <li><strong>한글 비율 필터</strong>: 제목 한글 50% 이상 OR 한글 브랜드 토큰 포함 시 통과 (한·영 이중 제목 허용)</li>
+          <li><strong>해외 KFC 블랙리스트</strong>: "미국 KFC", "일본 KFC" 등 16개 해외 KFC 표현 포함 시 드롭</li>
+        </ol>
+      </details>
+    </section>
+
+    <p class="help-foot">
+      질문·개선 제안: KFC IT/디지털 팀 · 최종 업데이트는 상단 날짜 확인
     </p>
   </div>
+</div>
+
+<div class="footer">
+  <div>자동 생성 · KFC Korea Digital Tech · 검색엔진 비공개</div>
+  <div class="gen-time" id="footer-time"></div>
+</div>
+
+<script>
+(function() {
+  'use strict';
+
+  // ===== DOM Safety Helpers (Null-safe accessors) =====
+  // 동기 : HTML 수정 시 DOM 요소를 제거해도 JS가 null 참조로 전체 렌더 중단되지 않도록.
+  // 2026-04-23 버그 재발 방지 — exec-date/exec-window 제거 후 render 전체 크래시 사례.
+  var _MISSING_ID_LOG = {};
+  function $(id) {
+    var el = document.getElementById(id);
+    if (!el && !_MISSING_ID_LOG[id]) {
+      _MISSING_ID_LOG[id] = true;
+      try { console.warn('[dom] element not found:', id); } catch (e) {}
+    }
+    return el;
+  }
+  function $text(id, text) {
+    var el = $(id);
+    if (el) el.textContent = text == null ? '' : text;
+    return el;
+  }
+  function $html(id, html) {
+    var el = $(id);
+    if (el) el.innerHTML = html == null ? '' : html;
+    return el;
+  }
+  function $style(id, prop, val) {
+    var el = $(id);
+    if (el) el.style[prop] = val;
+    return el;
+  }
+  function $on(id, ev, fn) {
+    var el = $(id);
+    if (el) el.addEventListener(ev, fn);
+    return el;
+  }
+  // 렌더 함수에 안전한 try-catch 래퍼 (한 파트 실패해도 전체 페이지 붕괴 방지)
+  function safeRender(name, fn) {
+    try { fn(); }
+    catch (e) { try { console.error('[render:' + name + ']', e); } catch (_) {} }
+  }
+
+  // ===== Utility functions =====
+  function formatNumber(n) {
+    if (n == null) return '-';
+    if (n >= 1e8) return (n / 1e8).toFixed(1) + '억';
+    if (n >= 1e4) return (n / 1e4).toFixed(1) + '만';
+    if (n >= 1e3) return (n / 1e3).toFixed(1) + 'K';
+    return n.toLocaleString('ko-KR');
+  }
+
+  function formatDuration(sec) {
+    if (!sec || sec <= 0) return '';
+    var h = Math.floor(sec / 3600);
+    var m = Math.floor((sec % 3600) / 60);
+    var s = sec % 60;
+    if (h > 0) return h + ':' + String(m).padStart(2,'0') + ':' + String(s).padStart(2,'0');
+    return m + ':' + String(s).padStart(2,'0');
+  }
+
+  function buzzColor(score) {
+    if (score >= 70) return 'var(--buzz-red)';
+    if (score >= 50) return 'var(--buzz-orange)';
+    if (score >= 30) return 'var(--buzz-yellow)';
+    return 'var(--buzz-gray)';
+  }
+
+  function tierClass(tier) {
+    var t = (tier || '').toLowerCase();
+    if (t === 'official') return 'tier-official';
+    if (t === 'mega') return 'tier-mega';
+    if (t === 'macro') return 'tier-macro';
+    if (t === 'mid') return 'tier-mid';
+    if (t === 'micro') return 'tier-micro';
+    return 'tier-nano';
+  }
+
+  function escapeHtml(str) {
+    var div = document.createElement('div');
+    div.textContent = str == null ? '' : str;
+    return div.innerHTML;
+  }
+
+  // 브랜드 키 → 짧은 한글 라벨 (multi_brand_tags 칩 표시용)
+  var BRAND_SHORT_LABELS = {
+    yukbayeon:   '육바연',
+    baksoo:      '박수식당',
+    daepo79:     '79대포',
+    dalmaji_bbq: '달맞이BBQ',
+    kfc:         'KFC',
+    johnmaat:    'JohnMaat',
+    champd:      '참피디',
+    hongsound:   '홍사운드',
+    ttoganzip:   '또간집',
+    meatking:    '정육왕',
+  };
+  function brandShortLabel(key) {
+    return BRAND_SHORT_LABELS[key] || key;
+  }
+
+  // Parse YYYY.MM.DD → Date object (local time, midnight)
+  function parseDotDate(s) {
+    if (!s) return null;
+    var m = String(s).match(/^(\d{4})\.(\d{1,2})\.(\d{1,2})/);
+    if (!m) {
+      // try ISO fallback
+      var d = new Date(s);
+      return isNaN(d.getTime()) ? null : d;
+    }
+    return new Date(+m[1], +m[2] - 1, +m[3]);
+  }
+
+  function ymdToday() {
+    var d = new Date();
+    d.setHours(0, 0, 0, 0);
+    return d;
+  }
+
+  function toYmdInputStr(d) {
+    var y = d.getFullYear();
+    var m = String(d.getMonth() + 1).padStart(2, '0');
+    var dd = String(d.getDate()).padStart(2, '0');
+    return y + '-' + m + '-' + dd;
+  }
+
+  function parseInputDate(s) {
+    if (!s) return null;
+    var m = s.match(/^(\d{4})-(\d{1,2})-(\d{1,2})$/);
+    if (!m) return null;
+    return new Date(+m[1], +m[2] - 1, +m[3]);
+  }
+
+  // ===== State =====
+  var PAGE_SIZE = 10;
+  var ALL_BRAND_KEYS = ['yukbayeon', 'baksoo', 'daepo79', 'dalmaji_bbq', 'kfc', 'johnmaat', 'champd', 'hongsound', 'ttoganzip', 'meatking'];
+  var BRAND_DISPLAY_KOR = {
+    yukbayeon:   '육회바른연어',
+    baksoo:      '박수식당',
+    daepo79:     '79대포',
+    dalmaji_bbq: '달맞이광장바베큐',
+    kfc:         'KFC 코리아',
+    johnmaat:    '삼양 JohnMaat',
+    champd:      '참피디',
+    hongsound:   '홍사운드',
+    ttoganzip:   '또간집(풍자)',
+    meatking:    '정육왕',
+    multi: '🔀 멀티-브랜드 비교'
+  };
+  var ALL_TIERS = ['Official', 'Mega', 'Macro', 'Mid', 'Micro', 'Nano'];
+
+  var DATA = null;           // loaded JSON
+  var BRAND_KEYS_ORDER = []; // sorted brand key order (from data)
+  var BRAND_KEYS_IN_DATA = []; // keys present in data
+  var filters = {
+    period: '7',                      // 'today' | '1' | '7' | '30' | 'custom'
+    customFrom: null,                 // Date
+    customTo: null,                   // Date
+    brands: new Set(),                // selected brand keys
+    formats: new Set(['long', 'short']),
+    tiers: new Set(ALL_TIERS),
+    search: '',
+    sort: 'upload'                    // 'upload' | 'buzz' | 'views' | 'comments' | 'likes' (default 최신순)
+  };
+  // per-brand pagination state: key -> true (expanded) | false (collapsed)
+  var expanded = {};
+
+  // ===== Filter logic =====
+  function passesPeriod(v) {
+    var d = parseDotDate(v.upload_date);
+    if (!d) return true; // missing date → don't exclude
+    var today = ymdToday();
+    if (filters.period === 'today') {
+      return d.getFullYear() === today.getFullYear() &&
+             d.getMonth() === today.getMonth() &&
+             d.getDate() === today.getDate();
+    }
+    if (filters.period === 'custom') {
+      if (filters.customFrom && d < filters.customFrom) return false;
+      if (filters.customTo) {
+        // include the whole day on customTo
+        var to = new Date(filters.customTo);
+        to.setHours(23, 59, 59, 999);
+        if (d > to) return false;
+      }
+      return true;
+    }
+    var days = parseInt(filters.period, 10);
+    if (isNaN(days)) return true;
+    var cutoff = new Date(today);
+    cutoff.setDate(cutoff.getDate() - (days - 1));
+    cutoff.setHours(0, 0, 0, 0);
+    return d >= cutoff && d <= new Date(today.getFullYear(), today.getMonth(), today.getDate(), 23, 59, 59, 999);
+  }
+
+  function passesFormat(v) {
+    return filters.formats.has(v.is_short ? 'short' : 'long');
+  }
+
+  function passesTier(v) {
+    var t = v.creator_tier || 'Nano';
+    return filters.tiers.has(t);
+  }
+
+  function passesSearch(v) {
+    if (!filters.search) return true;
+    var q = filters.search.toLowerCase();
+    var hay = ((v.title || '') + ' ' + (v.channel || '') + ' ' + (v.description_excerpt || '')).toLowerCase();
+    return hay.indexOf(q) !== -1;
+  }
+
+  function videoPassesNonBrandFilters(v) {
+    return passesPeriod(v) && passesFormat(v) && passesTier(v) && passesSearch(v);
+  }
+
+  function filterVideosForBrand(key) {
+    if (!DATA || !DATA.brands || !DATA.brands[key]) return [];
+    var videos = (DATA.brands[key].videos || []).filter(videoPassesNonBrandFilters);
+    videos.sort(getSortComparator(filters.sort));
+    return videos;
+  }
+
+  function getSortComparator(mode) {
+    switch (mode) {
+      case 'upload':
+        // 최신순: upload_date 내림차순 (YYYY.MM.DD 문자열 비교 OK)
+        return function(a, b) {
+          var da = String(a.upload_date || '');
+          var db = String(b.upload_date || '');
+          if (db !== da) return db < da ? -1 : 1;
+          return (b.buzz_score || 0) - (a.buzz_score || 0); // tiebreak
+        };
+      case 'views':
+        return function(a, b) { return (b.views || 0) - (a.views || 0); };
+      case 'comments':
+        return function(a, b) { return (b.comment_count || 0) - (a.comment_count || 0); };
+      case 'likes':
+        return function(a, b) { return (b.likes || 0) - (a.likes || 0); };
+      case 'negative':
+        // 치명 영상 → 워닝 → 일반 → 없음
+        return function(a, b) {
+          var aOrder = isCriticalVideo(a) ? 0 : (a.warning_level === 'red' ? 1 : (a.warning_level === 'yellow' ? 2 : 3));
+          var bOrder = isCriticalVideo(b) ? 0 : (b.warning_level === 'red' ? 1 : (b.warning_level === 'yellow' ? 2 : 3));
+          if (aOrder !== bOrder) return aOrder - bOrder;
+          var at = (a.sentiment_counts && (a.sentiment_counts.neg + a.sentiment_counts.neu + a.sentiment_counts.pos)) || 0;
+          var bt = (b.sentiment_counts && (b.sentiment_counts.neg + b.sentiment_counts.neu + b.sentiment_counts.pos)) || 0;
+          var ar = at > 0 ? (a.negative_ratio || 0) : -1;
+          var br = bt > 0 ? (b.negative_ratio || 0) : -1;
+          if (br !== ar) return br - ar;
+          return (b.views || 0) - (a.views || 0);
+        };
+      case 'buzz':
+      default:
+        return function(a, b) { return (b.buzz_score || 0) - (a.buzz_score || 0); };
+    }
+  }
+
+  // ===== Render =====
+  function sentimentSegments(sc) {
+    var total = (sc.neg || 0) + (sc.neu || 0) + (sc.pos || 0);
+    if (total <= 0) return '';
+    var pn = (sc.neg || 0) / total * 100;
+    var pu = (sc.neu || 0) / total * 100;
+    var pp = (sc.pos || 0) / total * 100;
+    return '<div class="sentiment-bar">' +
+      (pn > 0 ? '<div class="seg-neg" style="width:' + pn + '%"></div>' : '') +
+      (pu > 0 ? '<div class="seg-neu" style="width:' + pu + '%"></div>' : '') +
+      (pp > 0 ? '<div class="seg-pos" style="width:' + pp + '%"></div>' : '') +
+    '</div>';
+  }
+
+  function warnBadgeHtml(level) {
+    if (level === 'critical') return '<span class="warn-badge critical">🔴 치명</span>';
+    if (level === 'red') return '<span class="warn-badge red">🚨 위험</span>';
+    if (level === 'yellow') return '<span class="warn-badge yellow">⚠️ 주의</span>';
+    return '';
+  }
+
+  // ===== 치명 레벨 감지 (근거 반환) =====
+  // 조건 (AND 공통): 부정 댓글 ≥ 3개
+  // A. 제목 리스크 키워드 + 부정률 ≥ 50%
+  // B. 대규모 조회수 (≥ 50K) + 부정률 ≥ 45%
+  // C. 중규모 조회수 (≥ 10K) + 부정률 ≥ 55%
+  var RISK_KEYWORDS = ['논란','분노','꼼수','가격 인상','가격인상','사과문','리콜','실망','무너진','폭발','비판','반품','불매','최악','기만','거짓','허위','품절 사기','왜 이리'];
+  function getCriticalInfo(v) {
+    // 반환: null (치명 아님) | {rule, reason, short}
+    var sc = v.sentiment_counts || {};
+    var neg = sc.neg || 0, neu = sc.neu || 0, pos = sc.pos || 0;
+    var total = neg + neu + pos;
+    if (neg < 3) return null;
+    var ratio = v.negative_ratio || 0;
+    var views = v.views || 0;
+    var title = (v.title || '') + ' ' + (v.description_excerpt || '');
+    var matched = RISK_KEYWORDS.filter(function(k) { return title.indexOf(k) !== -1; });
+    var pct = Math.round(ratio * 100);
+    var fracTxt = neg + '/' + total;
+
+    // A. 리스크 키워드 + 높은 부정률 — 가장 명확한 브랜드 위기 신호
+    if (matched.length > 0 && ratio >= 0.5) {
+      return {
+        rule: 'keyword',
+        short: '리스크 키워드 · 부정 ' + pct + '%',
+        reason: '제목에 리스크 키워드 "' + matched[0] + '" 감지 + 부정 댓글 ' + pct + '% (' + fracTxt + ')',
+        matchedKeyword: matched[0],
+      };
+    }
+    // B. 대규모 조회수(≥5만) + 과반 가까운 부정
+    if (views >= 50000 && ratio >= 0.45) {
+      return {
+        rule: 'high-views',
+        short: '조회 ' + formatNumber(views) + ' · 부정 ' + pct + '%',
+        reason: '대규모 조회수 ' + formatNumber(views) + ' · 부정 댓글 ' + pct + '% (' + fracTxt + ') — 브랜드 여론에 영향',
+      };
+    }
+    // C. 중규모 조회수(≥1만) + 확실한 과반 부정
+    if (views >= 10000 && ratio >= 0.55) {
+      return {
+        rule: 'mid-views',
+        short: '조회 ' + formatNumber(views) + ' · 부정 ' + pct + '%',
+        reason: '조회 ' + formatNumber(views) + ' · 부정 댓글 과반 ' + pct + '% (' + fracTxt + ')',
+      };
+    }
+    return null;
+  }
+  function isCriticalVideo(v) { return getCriticalInfo(v) !== null; }
+  function effectiveWarnLevel(v) {
+    if (isCriticalVideo(v)) return 'critical';
+    // 댓글 표본 15개 미만이면 워닝 표시 보류 (10~14 건은 '참고' 배지만 노출)
+    var sc = v.sentiment_counts || {};
+    var sTot = (sc.neg||0) + (sc.neu||0) + (sc.pos||0);
+    if (sTot < 15) return '';
+    return v.warning_level || '';
+  }
+
+  function sentimentMarker(s) {
+    if (s === '부정') return { cls: 'sent-neg', tag: '<span class="comment-sentiment-tag neg">부정</span>' };
+    if (s === '긍정') return { cls: 'sent-pos', tag: '<span class="comment-sentiment-tag pos">긍정</span>' };
+    if (s === '중립') return { cls: 'sent-neu', tag: '<span class="comment-sentiment-tag neu">중립</span>' };
+    return { cls: '', tag: '' };
+  }
+
+  function renderVideo(v) {
+    var thumbUrl = 'https://i.ytimg.com/vi/' + encodeURIComponent(v.video_id) + '/mqdefault.jpg';
+    var dur = formatDuration(v.duration);
+    var bc = buzzColor(v.buzz_score || 0);
+    var pct = Math.min(100, (v.buzz_score || 0));
+
+    var sc = v.sentiment_counts || {neg: 0, neu: 0, pos: 0};
+    var sTotal = (sc.neg || 0) + (sc.neu || 0) + (sc.pos || 0);
+    var negRatio = v.negative_ratio || 0;
+    var warnLevel = effectiveWarnLevel(v);
+    var cardCls = 'video-card' + (warnLevel ? ' warn-' + warnLevel : '');
+
+    // 감성 배지 — 댓글 감성(💬) + 내용 감성(📝) 분리 표시
+    // 표본 임계 2단: 10+ 표시 가능(참고), 15+ 정규 판정(워닝 트리거)
+    var SAMPLE_DISPLAY_MIN = 10;  // 감성 비율 표시 최소
+    var SAMPLE_HIGH_MIN = 15;     // 정규 판정 (워닝 연동)
+    var inlineSent = '';
+    // ① 내용 감성 (먼저) — 제목+설명 기반 크리에이터 의도
+    if (v.video_meta_sentiment) {
+      var ms0 = v.video_meta_sentiment;
+      var mCls0 = ms0 === '부정' ? 'neg' : (ms0 === '중립' ? 'mid' : 'pos');
+      var mIcon0 = ms0 === '부정' ? '😠' : (ms0 === '중립' ? '😐' : '😊');
+      inlineSent += '<span class="sentiment-inline meta ' + mCls0 + '" title="📝 제목+설명 KR-BERT 분석 · 크리에이터 의도 추정">📝 ' + mIcon0 + ' 내용 ' + escapeHtml(ms0) + '</span>';
+    }
+    // ② 댓글 감성 (나중)
+    if (sTotal >= SAMPLE_DISPLAY_MIN) {
+      var posRatio = (sc.pos || 0) / sTotal;
+      var neuRatio = (sc.neu || 0) / sTotal;
+      var sCls, sIcon, sLabel, sPct, sCnt;
+      if (negRatio >= 0.5) {
+        sCls = 'neg'; sIcon = '😠'; sLabel = '부정'; sPct = negRatio; sCnt = sc.neg;
+      } else if (negRatio >= 0.3) {
+        sCls = 'mid'; sIcon = '😐'; sLabel = '부정'; sPct = negRatio; sCnt = sc.neg;
+      } else if (posRatio >= neuRatio) {
+        sCls = 'pos'; sIcon = '😊'; sLabel = '긍정'; sPct = posRatio; sCnt = sc.pos;
+      } else {
+        sCls = 'mid'; sIcon = '😐'; sLabel = '중립'; sPct = neuRatio; sCnt = sc.neu;
+      }
+      var isLowConf = sTotal < SAMPLE_HIGH_MIN;
+      var extraCls = isLowConf ? ' low-conf' : '';
+      var refNote = isLowConf ? ' <span style="opacity:0.6;font-size:0.88em;">(참고)</span>' : '';
+      // 수집 커버리지: sTotal / comment_count (YouTube 원본 수)
+      var ytTotal = v.comment_count || 0;
+      var covNote = '';
+      var covTitle = '';
+      if (ytTotal > 0 && sTotal > 0) {
+        var covPct = Math.round(sTotal / ytTotal * 100);
+        if (ytTotal > sTotal) {
+          covNote = ' <span class="coverage-note">(원본 ' + formatNumber(ytTotal) + '개 중 ' +
+            formatNumber(sTotal) + '개 수집 · ' + covPct + '%)</span>';
+          covTitle = ' — 수집 ' + sTotal + '/' + ytTotal + '개 (' + covPct + '%)';
+        }
+      }
+      var tipNote = (isLowConf
+        ? '댓글 ' + sTotal + '개 — 참고용(15개 이상이면 정규 판정)'
+        : '💬 댓글 ' + sTotal + '개 KR-BERT+Qwen3')
+        + covTitle + ' — 긍정 ' + (sc.pos||0) + ' · 중립 ' + (sc.neu||0) + ' · 부정 ' + (sc.neg||0);
+      inlineSent += '<span class="sentiment-inline ' + sCls + extraCls + '" title="' + tipNote + '">💬 ' +
+        sIcon + ' 댓글 ' + sLabel + ' ' + Math.round(sPct * 100) + '% <span style="opacity:0.7">(' + sCnt + '/' + sTotal + ')</span>' + refNote + covNote + '</span>';
+    } else if (sTotal > 0) {
+      // 1~9개: 표본 부족 — 판정 보류, 분포만 툴팁으로
+      var ytT = v.comment_count || 0;
+      var covBit = (ytT > sTotal) ? ' · 원본 ' + formatNumber(ytT) + '개 중' : '';
+      inlineSent += '<span class="sentiment-inline none" title="댓글 ' + sTotal + '개로 통계 판정 보류 (10개 이상 필요)' + covBit + ' — 긍정 ' + (sc.pos||0) + ' · 중립 ' + (sc.neu||0) + ' · 부정 ' + (sc.neg||0) + '">💬 🔬 표본 부족 <span style="opacity:0.7">(' + sTotal + '개' + (ytT > sTotal ? ' / 원본 ' + formatNumber(ytT) : '') + ')</span></span>';
+    } else {
+      // 0개: 수집 못한 원본 표시
+      var ytT0 = v.comment_count || 0;
+      var msg0 = ytT0 > 0
+        ? '💬 — 댓글 ' + formatNumber(ytT0) + '개 중 0개 수집'
+        : '💬 — 댓글 없음';
+      inlineSent += '<span class="sentiment-inline none" title="' + (ytT0 > 0 ? '원본 ' + ytT0 + '개 있음, 수집 미완료' : '댓글 없음') + '">' + msg0 + '</span>';
+    }
+    // (내용 감성은 위에서 먼저 표시됨 — ①)
+    // 둘 다 없으면 "댓글 없음" 표시
+    if (!inlineSent) {
+      inlineSent = '<span class="sentiment-inline none" title="댓글 및 메타 분석 없음">· –</span>';
+    }
+
+    // 멀티-브랜드 비교 콘텐츠 칩 (2개 이상 브랜드 감지 시)
+    var multiChipsHtml = '';
+    if (v.multi_brand_tags && v.multi_brand_tags.length >= 2) {
+      var labels = v.multi_brand_tags.map(function(k) { return brandShortLabel(k); });
+      multiChipsHtml = '<div class="multi-brand-row">' +
+        '<span class="multi-badge" title="2개 이상 브랜드가 함께 등장하는 비교 콘텐츠">🔀 비교</span>' +
+        labels.map(function(lbl) { return '<span class="brand-chip">' + escapeHtml(lbl) + '</span>'; }).join('') +
+        '</div>';
+    }
+    // 뉴스·외부 사건 영상 배지 (브랜드 평판 아님 — 고객 난동·사건 보도)
+    if (v.is_news_incident) {
+      multiChipsHtml = '<div class="multi-brand-row">' +
+        '<span class="news-badge" title="고객 난동·사건 보도 — 브랜드 평판에서 분리, 감성 집계 제외">📰 뉴스·외부사건</span>' +
+        '</div>' + multiChipsHtml;
+    }
+
+    var sentimentHtml = '';
+    if (sTotal > 0) {
+      var ratioCls = negRatio >= 0.5 ? 'high' : (negRatio >= 0.3 ? 'mid' : '');
+      sentimentHtml =
+        '<div class="sentiment-info">' +
+          '<span class="neg-ratio ' + ratioCls + '">부정 ' + Math.round(negRatio * 100) + '%</span>' +
+          '<span>🔴 ' + sc.neg + ' · ⚪ ' + sc.neu + ' · 🟢 ' + sc.pos + '</span>' +
+          warnBadgeHtml(warnLevel) +
+        '</div>' +
+        sentimentSegments(sc);
+    }
+
+    // 치명 콘텐츠 판정 근거 패널
+    var critInfo = getCriticalInfo(v);
+    var criticalReasonHtml = '';
+    if (critInfo) {
+      var worstComment = null;
+      if (v.top_comments && v.top_comments.length > 0) {
+        var negComments = v.top_comments.filter(function(c) { return c.sentiment === '부정'; });
+        negComments.sort(function(a, b) { return (b.likes || 0) - (a.likes || 0); });
+        worstComment = negComments[0] || null;
+      }
+      var quoteHtml = '';
+      if (worstComment) {
+        var qtxt = (worstComment.text || '').substring(0, 140);
+        if ((worstComment.text || '').length > 140) qtxt += '…';
+        quoteHtml = '<div class="cr-quote">' + escapeHtml(qtxt) +
+          (worstComment.likes ? ' <span style="opacity:0.8">(👍 ' + worstComment.likes + ')</span>' : '') +
+          '</div>';
+      }
+      criticalReasonHtml =
+        '<div class="critical-reason">' +
+          '<div class="cr-title">⚠️ 치명 콘텐츠 판정 — ' + escapeHtml(critInfo.short) + '</div>' +
+          '<div class="cr-body">' + escapeHtml(critInfo.reason) + '</div>' +
+          quoteHtml +
+        '</div>';
+    }
+
+    var commentsHtml = '';
+    if (v.top_comments && v.top_comments.length > 0) {
+      var cid = 'c-' + v.video_id;
+      commentsHtml = '<button class="comments-toggle" onclick="toggleComments(\'' + cid + '\', this)">💬 댓글 ' + v.top_comments.length + '개 보기</button>';
+      commentsHtml += '<div class="comments-list" id="' + cid + '">';
+      v.top_comments.forEach(function(c) {
+        var m = sentimentMarker(c.sentiment);
+        commentsHtml += '<div class="comment-item ' + m.cls + '">' +
+          '<div class="comment-author">' + m.tag + escapeHtml(c.author) + '</div>' +
+          '<div class="comment-text">' + escapeHtml(c.text) + '</div>' +
+          (c.likes ? '<div class="comment-likes">👍 ' + c.likes + '</div>' : '') +
+          '</div>';
+      });
+      commentsHtml += '</div>';
+    }
+
+    return '<div class="' + cardCls + '">' +
+      '<div class="video-thumb">' +
+        '<a href="' + escapeHtml(v.url) + '" target="_blank" rel="noopener">' +
+          '<img src="' + thumbUrl + '" alt="" loading="lazy">' +
+        '</a>' +
+        (v.is_short ? '<span class="short-badge">Short</span>' : '') +
+        (dur ? '<span class="duration-badge">' + dur + '</span>' : '') +
+      '</div>' +
+      '<div class="video-info">' +
+        '<div class="video-title">' + warnBadgeHtml(warnLevel) +
+          '<a href="' + escapeHtml(v.url) + '" target="_blank" rel="noopener">' + escapeHtml(v.title) + '</a></div>' +
+        multiChipsHtml +
+        '<div class="video-channel">' +
+          escapeHtml(v.channel) +
+          (v.is_verified ? ' <span class="verified-icon" title="인증됨">✓</span>' : '') +
+          ' · 구독자 ' + formatNumber(v.subscribers) +
+          ' <span class="tier-badge ' + tierClass(v.creator_tier) + '">' + escapeHtml(v.creator_tier || '') + '</span>' +
+        '</div>' +
+        '<div class="video-stats">' +
+          '<span class="stat"><span class="stat-icon">▶</span> ' + formatNumber(v.views) + '</span>' +
+          '<span class="stat"><span class="stat-icon">♡</span> ' + formatNumber(v.likes) + '</span>' +
+          '<span class="stat"><span class="stat-icon">💬</span> ' + formatNumber(v.comment_count) + '</span>' +
+          (v.engagement_rate != null ? '<span class="stat">참여율 ' + (v.engagement_rate * 100).toFixed(2) + '%</span>' : '') +
+        '</div>' +
+        '<div class="buzz-container">' +
+          '<span class="buzz-label">Buzz</span>' +
+          '<div class="buzz-bar-bg"><div class="buzz-bar" style="width:' + pct + '%;background:' + bc + '"></div></div>' +
+          '<span class="buzz-value" style="color:' + bc + '">' + (v.buzz_score != null ? v.buzz_score.toFixed(1) : '-') + '</span>' +
+          inlineSent +
+        '</div>' +
+        criticalReasonHtml +
+        sentimentHtml +
+        '<div class="video-date">📅 ' + escapeHtml(v.upload_date || '') + '</div>' +
+        commentsHtml +
+      '</div>' +
+    '</div>';
+  }
+
+  function renderBrand(key, brand, filteredVideos) {
+    // Tier 배지 카운트는 "tier 필터만 제외한 나머지 모두 적용" 기준 —
+    // 기간/포맷/검색은 반영, tier 토글은 꺼도 배지 유지되어 재클릭 가능
+    var tierCountsAll = {};
+    ALL_TIERS.forEach(function(t) { tierCountsAll[t] = 0; });
+    (brand.videos || []).forEach(function(v) {
+      // tier 필터 외의 필터만 통과 체크
+      if (!passesPeriod(v)) return;
+      if (!passesFormat(v)) return;
+      if (!passesSearch(v)) return;
+      var t0 = v.creator_tier || 'Nano';
+      if (tierCountsAll[t0] != null) tierCountsAll[t0]++;
+    });
+    // 화면 표시용 (필터 적용된) 카운트 — 헤더 stats 에 사용
+    var tierCounts = {};
+    ALL_TIERS.forEach(function(t) { tierCounts[t] = 0; });
+    var nShort = 0, nLong = 0, totalViews = 0;
+    filteredVideos.forEach(function(v) {
+      var t = v.creator_tier || 'Nano';
+      if (tierCounts[t] != null) tierCounts[t]++;
+      if (v.is_short) nShort++; else nLong++;
+      totalViews += (v.views || 0);
+    });
+
+    // Tier 배지 — 클릭 토글 (불 켜짐/꺼짐) · 마우스오버 툴팁 (구독자 범위)
+    var TIER_INFO = {
+      'Official': {range: '공식 채널 (브랜드 자체 업로드)', emoji: '🏛'},
+      'Mega':     {range: '1M+ 구독자', emoji: '🌟'},
+      'Macro':    {range: '100K~1M 구독자', emoji: '⭐'},
+      'Mid':      {range: '10K~100K 구독자', emoji: '🔵'},
+      'Micro':    {range: '1K~10K 구독자', emoji: '🟢'},
+      'Nano':     {range: '1K 미만 구독자', emoji: '⚪'},
+    };
+    var tierHtml = '';
+    ALL_TIERS.forEach(function(t) {
+      // "브랜드 전체 영상 기준" 카운트가 0 이상이면 항상 표시 (필터 꺼도 유지)
+      if (tierCountsAll[t] > 0) {
+        var info = TIER_INFO[t] || {range: '', emoji: ''};
+        var isActive = filters.tiers.has(t);
+        tierHtml += '<span class="brand-tier-badge ' + (isActive ? 'active' : 'inactive') +
+          '" data-tier-toggle="' + escapeHtml(t) + '"' +
+          ' title="' + escapeHtml(t + ' — ' + info.range + ' · 클릭하면 이 등급 영상 숨김/표시') + '">' +
+          info.emoji + ' ' + t + ' ' + tierCountsAll[t] + '</span>';
+      }
+    });
+
+    var isExpanded = !!expanded[key];
+    var showAll = isExpanded || filters.search.length > 0; // in active search, show all matching
+    var visibleVideos = showAll ? filteredVideos : filteredVideos.slice(0, PAGE_SIZE);
+    var hiddenCount = Math.max(filteredVideos.length - visibleVideos.length, 0);
+
+    var videosHtml = visibleVideos.map(renderVideo).join('');
+
+    var loadMoreHtml = '';
+    if (hiddenCount > 0) {
+      loadMoreHtml =
+        '<div class="load-more-wrap">' +
+          '<button class="load-more-btn" onclick="loadMore(\'' + escapeHtml(key) + '\', this)">' +
+            '▼ 더보기 <span class="count">(' + hiddenCount + '개 더 · 전체 ' + filteredVideos.length + '개)</span>' +
+          '</button>' +
+        '</div>';
+    }
+
+    // 브랜드 레벨 감성 (필터 적용된 영상들 기준으로 재집계)
+    var bSc = {neg: 0, neu: 0, pos: 0};
+    var criticalCount = 0;
+    filteredVideos.forEach(function(v) {
+      var s = v.sentiment_counts || {};
+      bSc.neg += (s.neg || 0); bSc.neu += (s.neu || 0); bSc.pos += (s.pos || 0);
+      if (isCriticalVideo(v)) criticalCount++;
+    });
+    var bTotal = bSc.neg + bSc.neu + bSc.pos;
+    var bRatio = bTotal > 0 ? bSc.neg / bTotal : 0;
+    var bWarn = '';
+    if (bTotal >= 5 && bRatio >= 0.5) bWarn = 'red';
+    else if (bTotal >= 3 && bRatio >= 0.3) bWarn = 'yellow';
+
+    var brandSentHtml = '';
+    if (bTotal > 0) {
+      brandSentHtml = '<span class="brand-stat">부정 ' + Math.round(bRatio * 100) + '% (' + bSc.neg + '/' + bTotal + ')</span>' + warnBadgeHtml(bWarn);
+    }
+    // 댓글 수집 커버리지 — brand 내 모든 영상 comment_count 합 vs sentiment_counts 합
+    var ytCommentTotal = 0;
+    filteredVideos.forEach(function(v) { ytCommentTotal += (v.comment_count || 0); });
+    var covHtml = '';
+    if (ytCommentTotal > 0) {
+      var covPct = bTotal > 0 ? Math.round(bTotal / ytCommentTotal * 100) : 0;
+      covHtml = '<span class="brand-stat" title="YouTube 원본 ' + formatNumber(ytCommentTotal) +
+        '개 중 ' + formatNumber(bTotal) + '개 수집 (' + covPct + '%)">💬 ' +
+        formatNumber(bTotal) + '/' + formatNumber(ytCommentTotal) + ' 수집</span>';
+    }
+    var criticalHtml = '';
+    if (criticalCount > 0) {
+      criticalHtml = '<span class="brand-critical-alert">🔴 치명 콘텐츠 ' + criticalCount + '건</span>';
+    }
+
+    return '<div class="brand-section" data-brand="' + escapeHtml(key) + '">' +
+      '<div class="brand-header">' +
+        '<span class="brand-name">' + escapeHtml(brand.display || BRAND_DISPLAY_KOR[key] || key) + '</span>' +
+        criticalHtml +
+        '<span class="brand-stat">영상 ' + filteredVideos.length + '개</span>' +
+        '<span class="brand-stat">조회수 ' + formatNumber(totalViews) + '</span>' +
+        '<span class="brand-stat">Short ' + nShort + ' / Long ' + nLong + '</span>' +
+        covHtml +
+        brandSentHtml +
+        '<div class="brand-tier-badges">' + tierHtml + '</div>' +
+      '</div>' +
+      (brand.summary ? '<div class="ai-summary"><div class="ai-summary-label">🤖 AI 요약</div>' + escapeHtml(brand.summary) + '</div>' : '') +
+      '<div class="video-list">' + videosHtml + '</div>' +
+      loadMoreHtml +
+    '</div>';
+  }
+
+  // Counts for brand chips — respects period/format/tier/search, IGNORES brand selection
+  function computeBrandChipCounts() {
+    var counts = {};
+    BRAND_KEYS_IN_DATA.forEach(function(k) {
+      counts[k] = (DATA.brands[k].videos || []).filter(videoPassesNonBrandFilters).length;
+    });
+    return counts;
+  }
+
+  function renderBrands() {
+    safeRender('brands', _renderBrands);
+  }
+  function _renderBrands() {
+    if (!DATA) return;
+    var html = '';
+    var totalVids = 0;
+    var shownBrands = 0;
+
+    BRAND_KEYS_ORDER.forEach(function(k) {
+      if (!filters.brands.has(k)) return;
+      var brand = DATA.brands[k];
+      if (!brand) return;
+      var vids = filterVideosForBrand(k);
+      if (vids.length === 0) return; // hide empty brand sections
+      html += renderBrand(k, brand, vids);
+      totalVids += vids.length;
+      shownBrands++;
+    });
+
+    var container = document.getElementById('brands-container');
+    if (html) {
+      container.innerHTML = html;
+    } else {
+      container.innerHTML = '<div class="no-results">조건에 맞는 영상이 없습니다. 필터를 조정해보세요.</div>';
+    }
+
+    // Brand 섹션 내 tier 배지 클릭 → 해당 티어 필터 토글 (전역 filters.tiers 공유)
+    if (!container._tierHandlerAttached) {
+      container.addEventListener('click', function(e) {
+        var el = e.target.closest && e.target.closest('.brand-tier-badge[data-tier-toggle]');
+        if (el) {
+          var t = el.getAttribute('data-tier-toggle');
+          if (t && typeof toggleTier === 'function') toggleTier(t);
+        }
+      });
+      container._tierHandlerAttached = true;
+    }
+
+    // Update result count
+    var rc = document.getElementById('filter-result-count');
+    rc.innerHTML = '<strong>' + totalVids + '</strong>개 영상 / <strong>' + shownBrands + '</strong>개 브랜드 표시 중';
+
+    // Update brand chip counts
+    var counts = computeBrandChipCounts();
+    document.querySelectorAll('.chip[data-brand-key]').forEach(function(btn) {
+      var key = btn.getAttribute('data-brand-key');
+      var c = counts[key] != null ? counts[key] : 0;
+      var label = btn.querySelector('.chip-label');
+      var countEl = btn.querySelector('.chip-count');
+      if (countEl) countEl.textContent = '(' + c + ')';
+      // Mute chip if 0 results (still selectable)
+      if (c === 0) btn.classList.add('muted'); else btn.classList.remove('muted');
+    });
+  }
+
+  // ===== Filter bar UI =====
+  function buildBrandChips() {
+    var container = document.getElementById('fg-brand');
+    var master = container.querySelector('[data-brand-master]');
+    // remove any previously-injected brand chips
+    container.querySelectorAll('.chip[data-brand-key]').forEach(function(el) { el.remove(); });
+
+    // Determine which brand keys to render: union of ALL_BRAND_KEYS and keys present in data
+    var keys = ALL_BRAND_KEYS.slice();
+    BRAND_KEYS_IN_DATA.forEach(function(k) {
+      if (keys.indexOf(k) === -1) keys.push(k);
+    });
+
+    keys.forEach(function(k) {
+      var label = (DATA && DATA.brands && DATA.brands[k] && DATA.brands[k].display) ||
+                  BRAND_DISPLAY_KOR[k] || k;
+      var btn = document.createElement('button');
+      btn.className = 'chip active';
+      btn.setAttribute('data-brand-key', k);
+      btn.innerHTML = '<span class="chip-label">' + escapeHtml(label) + '</span> <span class="chip-count">(0)</span>';
+      btn.addEventListener('click', function() { toggleBrand(k); });
+      container.appendChild(btn);
+    });
+
+    // select all by default
+    filters.brands = new Set(keys);
+    updateBrandMaster();
+  }
+
+  function updateBrandMaster() {
+    var master = document.querySelector('[data-brand-master]');
+    if (!master) return;
+    var chips = document.querySelectorAll('.chip[data-brand-key]');
+    var allOn = chips.length > 0;
+    chips.forEach(function(c) {
+      if (!c.classList.contains('active')) allOn = false;
+    });
+    master.classList.toggle('active', allOn);
+  }
+
+  function toggleBrand(key) {
+    var btn = document.querySelector('.chip[data-brand-key="' + key + '"]');
+    if (!btn) return;
+    if (filters.brands.has(key)) {
+      filters.brands.delete(key);
+      btn.classList.remove('active');
+    } else {
+      filters.brands.add(key);
+      btn.classList.add('active');
+    }
+    updateBrandMaster();
+    resetPagination();
+    renderBrands();
+  }
+
+  function toggleBrandMaster() {
+    var chips = document.querySelectorAll('.chip[data-brand-key]');
+    var anyOff = false;
+    chips.forEach(function(c) { if (!c.classList.contains('active')) anyOff = true; });
+    // if any off → turn all on; else turn all off
+    if (anyOff) {
+      chips.forEach(function(c) {
+        var k = c.getAttribute('data-brand-key');
+        c.classList.add('active');
+        filters.brands.add(k);
+      });
+    } else {
+      chips.forEach(function(c) {
+        var k = c.getAttribute('data-brand-key');
+        c.classList.remove('active');
+        filters.brands.delete(k);
+      });
+    }
+    updateBrandMaster();
+    resetPagination();
+    renderBrands();
+  }
+
+  function resetPagination() {
+    expanded = {};
+  }
+
+  function setPeriod(p) {
+    filters.period = p;
+    document.querySelectorAll('.chip[data-period]').forEach(function(b) {
+      b.classList.toggle('active', b.getAttribute('data-period') === p);
+    });
+    var dr = document.getElementById('date-range');
+    if (p === 'custom') {
+      dr.classList.add('open');
+      // populate with defaults if empty
+      var fromEl = document.getElementById('date-from');
+      var toEl = document.getElementById('date-to');
+      if (!fromEl.value) {
+        var d = new Date(); d.setDate(d.getDate() - 7);
+        fromEl.value = toYmdInputStr(d);
+      }
+      if (!toEl.value) toEl.value = toYmdInputStr(new Date());
+      // Don't re-render until 적용 clicked; but set the custom bounds from current inputs so chips show correct counts if user switches directly
+      filters.customFrom = parseInputDate(fromEl.value);
+      filters.customTo = parseInputDate(toEl.value);
+    } else {
+      dr.classList.remove('open');
+    }
+    resetPagination();
+    renderBrands();
+  }
+
+  function applyCustomDates() {
+    var fromEl = document.getElementById('date-from');
+    var toEl = document.getElementById('date-to');
+    filters.customFrom = parseInputDate(fromEl.value);
+    filters.customTo = parseInputDate(toEl.value);
+    filters.period = 'custom';
+    resetPagination();
+    renderBrands();
+  }
+
+  function toggleFormat(f) {
+    if (filters.formats.has(f)) {
+      if (filters.formats.size === 1) return; // don't allow empty — ignore
+      filters.formats.delete(f);
+    } else {
+      filters.formats.add(f);
+    }
+    document.querySelectorAll('.chip[data-format]').forEach(function(b) {
+      b.classList.toggle('active', filters.formats.has(b.getAttribute('data-format')));
+    });
+    resetPagination();
+    renderBrands();
+  }
+
+  function toggleTier(t) {
+    if (filters.tiers.has(t)) {
+      filters.tiers.delete(t);
+    } else {
+      filters.tiers.add(t);
+    }
+    document.querySelectorAll('.chip[data-tier]').forEach(function(b) {
+      b.classList.toggle('active', filters.tiers.has(b.getAttribute('data-tier')));
+    });
+    resetPagination();
+    renderBrands();
+  }
+
+  function setSort(mode) {
+    // radio-like: only one active
+    if (!mode) return;
+    filters.sort = mode;
+    document.querySelectorAll('.chip[data-sort]').forEach(function(b) {
+      b.classList.toggle('active', b.getAttribute('data-sort') === mode);
+    });
+    resetPagination();
+    renderBrands();
+  }
+
+  function resetFilters() {
+    filters.period = '7';
+    filters.customFrom = null;
+    filters.customTo = null;
+    filters.formats = new Set(['long', 'short']);
+    filters.tiers = new Set(ALL_TIERS);
+    filters.search = '';
+    filters.sort = 'upload';
+    // re-select all brands
+    var chips = document.querySelectorAll('.chip[data-brand-key]');
+    filters.brands = new Set();
+    chips.forEach(function(c) {
+      c.classList.add('active');
+      filters.brands.add(c.getAttribute('data-brand-key'));
+    });
+    // period chips
+    document.querySelectorAll('.chip[data-period]').forEach(function(b) {
+      b.classList.toggle('active', b.getAttribute('data-period') === '7');
+    });
+    // format chips
+    document.querySelectorAll('.chip[data-format]').forEach(function(b) { b.classList.add('active'); });
+    // tier chips
+    document.querySelectorAll('.chip[data-tier]').forEach(function(b) { b.classList.add('active'); });
+    // sort chips
+    document.querySelectorAll('.chip[data-sort]').forEach(function(b) {
+      b.classList.toggle('active', b.getAttribute('data-sort') === 'upload');
+    });
+    // search
+    document.getElementById('search-input').value = '';
+    // date range
+    document.getElementById('date-range').classList.remove('open');
+    document.getElementById('date-from').value = '';
+    document.getElementById('date-to').value = '';
+    updateBrandMaster();
+    resetPagination();
+    renderBrands();
+  }
+
+  // ===== Wire up event listeners =====
+  function wireFilterBar() {
+    document.querySelectorAll('.chip[data-period]').forEach(function(b) {
+      b.addEventListener('click', function() { setPeriod(b.getAttribute('data-period')); });
+    });
+    document.getElementById('date-apply').addEventListener('click', applyCustomDates);
+
+    document.querySelector('[data-brand-master]').addEventListener('click', toggleBrandMaster);
+
+    document.querySelectorAll('.chip[data-format]').forEach(function(b) {
+      b.addEventListener('click', function() { toggleFormat(b.getAttribute('data-format')); });
+    });
+
+    document.querySelectorAll('.chip[data-tier]').forEach(function(b) {
+      b.addEventListener('click', function() { toggleTier(b.getAttribute('data-tier')); });
+    });
+
+    document.querySelectorAll('.chip[data-sort]').forEach(function(b) {
+      b.addEventListener('click', function() { setSort(b.getAttribute('data-sort')); });
+    });
+
+    document.getElementById('filter-reset').addEventListener('click', resetFilters);
+
+    // 고급 필터 토글 (기본 접힘)
+    var advToggle = document.getElementById('filter-advanced-toggle');
+    var advPanel = document.getElementById('filter-advanced');
+    var advLabel = advToggle.querySelector('.toggle-label');
+    advToggle.addEventListener('click', function() {
+      var open = advPanel.hasAttribute('hidden') ? false : true;
+      if (open) {
+        advPanel.setAttribute('hidden', '');
+        advToggle.setAttribute('aria-expanded', 'false');
+        advLabel.textContent = '고급 필터';
+      } else {
+        advPanel.removeAttribute('hidden');
+        advToggle.setAttribute('aria-expanded', 'true');
+        advLabel.textContent = '접기';
+      }
+    });
+
+    var searchInput = document.getElementById('search-input');
+    var searchTimer = null;
+    searchInput.addEventListener('input', function() {
+      clearTimeout(searchTimer);
+      var v = this.value.trim();
+      searchTimer = setTimeout(function() {
+        filters.search = v;
+        resetPagination();
+        renderBrands();
+      }, 120);
+    });
+  }
+
+  // ===== Top-level render after data loads =====
+  function render(data) {
+    DATA = data;
+    BRAND_KEYS_IN_DATA = Object.keys(data.brands || {});
+
+    // Header
+    var windowDays = data.window_days != null ? data.window_days : data.days;
+    // header-subtitle 제거됨 (데이터 범위는 data-range-line 에 표시)
+
+    // Data notice — 수집 시작 날짜 계산 (오늘 - windowDays)
+    try {
+      var refDate = data.date ? new Date(data.date.replace(/\./g, '-')) : new Date();
+      if (!isNaN(refDate.getTime()) && windowDays != null) {
+        refDate.setDate(refDate.getDate() - windowDays);
+        var yyyy = refDate.getFullYear();
+        var mm = String(refDate.getMonth() + 1).padStart(2, '0');
+        var dd = String(refDate.getDate()).padStart(2, '0');
+        var fromEl = document.getElementById('notice-from-date');
+        if (fromEl) fromEl.textContent = yyyy + '년 ' + mm + '월 ' + dd + '일';
+      }
+    } catch (e) { /* ignore */ }
+
+    // Summary — overall, pre-filter
+    var totalVideos = 0, totalViews = 0;
+    BRAND_KEYS_IN_DATA.forEach(function(k) {
+      totalVideos += data.brands[k].video_count || 0;
+      totalViews += data.brands[k].total_views || 0;
+    });
+    var warnBrands = 0;
+    BRAND_KEYS_IN_DATA.forEach(function(k) {
+      var wl = data.brands[k].warning_level || '';
+      if (wl === 'red' || wl === 'yellow') warnBrands++;
+    });
+    document.getElementById('s-brands').textContent = BRAND_KEYS_IN_DATA.length;
+    document.getElementById('s-videos').innerHTML = totalVideos + '<span class="unit">개</span>';
+    document.getElementById('s-views').textContent = formatNumber(totalViews);
+    document.getElementById('s-warn').innerHTML = warnBrands + '<span class="unit">개</span>';
+
+    // Brand order: 자사(yukbayeon) first, then 🔀 멀티-브랜드 비교, then by total_views desc
+    var order = BRAND_KEYS_IN_DATA.slice().sort(function(a, b) {
+      if (a === 'yukbayeon') return -1;
+      if (b === 'yukbayeon') return 1;
+      if (a === 'multi') return -1;
+      if (b === 'multi') return 1;
+      return (data.brands[b].total_views || 0) - (data.brands[a].total_views || 0);
+    });
+    BRAND_KEYS_ORDER = order;
+
+    // Build brand chips (and set default selection = all)
+    buildBrandChips();
+    wireFilterBar();
+
+    // Footer
+    if (data.generated_at) {
+      document.getElementById('footer-time').textContent = '생성: ' + data.generated_at;
+    }
+
+    // 헤더 데이터 범위: 최초 영상 업로드일 ~ 최신 영상 업로드일 · 마지막 생성 시각
+    var drE = document.getElementById('dr-earliest');
+    var drL = document.getElementById('dr-latest');
+    var drG = document.getElementById('dr-generated');
+    if (drE) drE.textContent = data.data_earliest || '-';
+    if (drL) drL.textContent = data.data_latest || '-';
+    if (drG) drG.textContent = data.generated_at || data.date || '-';
+
+    // Initial render
+    renderBrands();
+  }
+
+  // Load data — 캐시 무효화 (10분 단위 timestamp)
+  var _cacheBust = Math.floor(Date.now() / (10 * 60 * 1000));
+  fetch('./data/latest.json?v=' + _cacheBust, { cache: 'no-cache' })
+    .then(function(res) {
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      return res.json();
+    })
+    .then(function(data) {
+      render(data);
+      // Kick off Executive View after main render
+      initExecutiveView(data);
+    })
+    .catch(function(err) {
+      document.getElementById('brands-container').innerHTML =
+        '<div class="error-msg">⚠️ 데이터 로딩 실패: ' + escapeHtml(err.message) + '<br><small>data/latest.json 파일을 확인하세요.</small></div>';
+    });
+
+  // ============================================================
+  // Executive View — Competitive Benchmark + SOV + Highlights
+  // ============================================================
+
+  var EXEC = {
+    latest: null,
+    baseline: null,       // archive/2026-04-16.json (30d window) for 4-day delta
+    trend: [],            // digest-2026-04-17 ~ -20 arrays of brand snapshots
+    sortKey: 'views',     // v5: 기본 정렬을 총조회수로 (가장 직관적)
+    sortDir: 'desc',
+    splits: {},           // { brand_code: {paid, earned, engagement} } — computeTierSplit 캐시
+    selectedBrand: 'kfc', // v4: 클릭으로 KPI Strip 기준 브랜드 전환
+    period: 7,            // v5: 기본 7일 (로딩 빠름, 30일 선택 시 client-side 재계산)
+    customFrom: null,     // v6: 기간 지정 모드
+    customTo: null,
+  };
+
+  // 기간 필터링된 data 뷰 반환 (원본 latest 수정 없이 브랜드별 videos 만 필터)
+  function getFilteredLatest() {
+    if (!EXEC.latest) return null;
+    // 원본 JSON window_days 이상이면 전체 데이터 그대로 사용
+    var srcDays = EXEC.latest.window_days || 90;
+    // period 가 숫자 && 윈도우 이상이면 전체
+    if (!EXEC.period || (typeof EXEC.period === 'number' && EXEC.period >= srcDays)) return EXEC.latest;
+
+    function parseUp(s) {
+      if (!s) return null;
+      var p = String(s).split('.');
+      if (p.length !== 3) return null;
+      return new Date(+p[0], +p[1] - 1, +p[2]);
+    }
+
+    var cutoff, endCut;
+    if (EXEC.period === 'custom' && EXEC.customFrom && EXEC.customTo) {
+      cutoff = new Date(EXEC.customFrom);
+      endCut = new Date(EXEC.customTo);
+      endCut.setHours(23, 59, 59);
+    } else {
+      cutoff = new Date();
+      cutoff.setDate(cutoff.getDate() - EXEC.period);
+      endCut = null;
+    }
+
+    var filtered = { date: EXEC.latest.date, generated_at: EXEC.latest.generated_at,
+                     window_days: EXEC.period, brands: {} };
+    Object.keys(EXEC.latest.brands || {}).forEach(function(k) {
+      var b = EXEC.latest.brands[k];
+      var fvids = (b.videos || []).filter(function(v) {
+        var d = parseUp(v.upload_date);
+        if (!d) return false;
+        if (endCut) return d >= cutoff && d <= endCut;
+        return d >= cutoff;
+      });
+      var sumV = 0, sumL = 0, sumC = 0, nS = 0, nL = 0;
+      fvids.forEach(function(v) {
+        sumV += v.views || 0; sumL += v.likes || 0; sumC += v.comment_count || 0;
+        if (v.is_short) nS++; else nL++;
+      });
+      // sentiment_counts 도 videos 의 comments 기반이므로 일부 값만 필터 반영
+      var senC = { pos: 0, neu: 0, neg: 0 };
+      fvids.forEach(function(v) {
+        var sc = v.sentiment_counts || {};
+        senC.pos += sc.pos || 0;
+        senC.neu += sc.neu || 0;
+        senC.neg += sc.neg || 0;
+      });
+      var senTot = senC.pos + senC.neu + senC.neg;
+      filtered.brands[k] = Object.assign({}, b, {
+        videos: fvids,
+        video_count: fvids.length,
+        total_views: sumV,
+        total_likes: sumL,
+        total_comments: sumC,
+        n_short: nS,
+        n_long: nL,
+        sentiment_counts: senC,
+        negative_ratio: senTot > 0 ? senC.neg / senTot : 0,
+      });
+    });
+    return filtered;
+  }
+
+  var COMP_KEYS = ['kfc','burgerking','mcdonalds','lotteria','momstouch','popeyes','subway','bbq','bhc','kyochon'];
+
+  function safeFetch(url) {
+    return fetch(url).then(function(r) { return r.ok ? r.json() : null; }).catch(function() { return null; });
+  }
+
+  function initExecutiveView(data) {
+    EXEC.latest = data;
+
+    // Baseline: 4 days ago (same 30d window) + 4 days of 48h digests for sparkline
+    var baselineDate = 'data/archive/2026-04-16.json';
+    var trendDates = [
+      'data/archive/2026-04-17.json',
+      'data/archive/2026-04-18.json',
+      'data/archive/2026-04-19.json',
+      'data/archive/2026-04-20.json'
+    ];
+
+    Promise.all([safeFetch(baselineDate)].concat(trendDates.map(safeFetch)))
+      .then(function(results) {
+        EXEC.baseline = results[0];
+        EXEC.trend = results.slice(1).filter(Boolean);
+        // baseline 날짜 vs 현재 데이터 날짜 차이를 계산해 라벨 업데이트
+        try {
+          if (EXEC.baseline && EXEC.baseline.date && data && data.date) {
+            var b = new Date(String(EXEC.baseline.date).replace(/\./g, '-'));
+            var t = new Date(String(data.date).replace(/\./g, '-'));
+            var days = Math.round((t - b) / (1000 * 60 * 60 * 24));
+            var lbl = document.getElementById('exec-baseline');
+            var wrap = document.getElementById('exec-baseline-wrap');
+            if (lbl && days > 0) {
+              lbl.textContent = EXEC.baseline.date + ' (' + days + '일 전)';
+              if (wrap) wrap.style.display = '';
+            }
+          }
+        } catch (e) { /* ignore */ }
+        renderExecutiveView();
+      });
+
+    // Wire tabs / theme / buttons
+    wireChrome();
+  }
+
+  function wireChrome() {
+    // Tabs
+    document.querySelectorAll('.view-tab').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var v = btn.getAttribute('data-view');
+        document.querySelectorAll('.view-tab').forEach(function(b) {
+          b.classList.toggle('active', b === btn);
+          b.setAttribute('aria-selected', b === btn ? 'true' : 'false');
+        });
+        document.body.classList.remove('mode-exec','mode-detail','mode-help');
+        document.body.classList.add('mode-' + v);
+        // 탭 전환 시 기간 필터 동기화
+        if (v === 'exec' && typeof window._syncFromDetail === 'function') {
+          window._syncFromDetail();
+          if (typeof renderExecutiveView === 'function') renderExecutiveView();
+        }
+        // Help 탭: 외부 데이터 렌더링 시 사용자 브랜드 현재 상태 반영
+        if (v === 'help' && typeof renderHelp === 'function') renderHelp();
+      });
+    });
+    // Default mode
+    document.body.classList.add('mode-exec');
+
+    // Theme toggle
+    var themeBtn = document.getElementById('theme-toggle');
+    var applyTheme = function(t) {
+      document.body.classList.toggle('theme-light', t === 'light');
+      themeBtn.textContent = t === 'light' ? '☀️ 라이트' : '🌙 다크';
+      try { localStorage.setItem('ytmon-theme', t); } catch(e) {}
+      // repaint charts
+      if (window._rebuildCharts) window._rebuildCharts();
+    };
+    var saved = 'dark';
+    try { saved = localStorage.getItem('ytmon-theme') || 'dark'; } catch(e) {}
+    applyTheme(saved);
+    themeBtn.addEventListener('click', function() {
+      var next = document.body.classList.contains('theme-light') ? 'dark' : 'light';
+      applyTheme(next);
+    });
+
+    // Actions
+    var btnPrint = document.getElementById('btn-print');
+    if (btnPrint) btnPrint.addEventListener('click', function() { window.print(); });
+    var btnCopy = document.getElementById('btn-copy-summary');
+    if (btnCopy) btnCopy.addEventListener('click', copyOneLiner);
+
+    // Benchmark sort
+    document.querySelectorAll('#bench-table thead th').forEach(function(th) {
+      th.addEventListener('click', function() {
+        var key = th.getAttribute('data-sort');
+        if (!key) return;
+        if (EXEC.sortKey === key) {
+          EXEC.sortDir = EXEC.sortDir === 'desc' ? 'asc' : 'desc';
+        } else {
+          EXEC.sortKey = key;
+          EXEC.sortDir = 'desc';
+        }
+        renderBenchTable();
+      });
+    });
+
+    // 기간 필터 토글 (7/14/30일 + 기간 지정)
+    document.querySelectorAll('#period-toggle button').forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        var p = btn.getAttribute('data-period');
+        var range = document.getElementById('exec-date-range');
+        if (p === 'custom') {
+          // 기간 지정 모드
+          EXEC.period = 'custom';
+          document.querySelectorAll('#period-toggle button').forEach(function(b) {
+            b.classList.toggle('active', b === btn);
+          });
+          if (range) range.style.display = 'inline-flex';
+          return;
+        }
+        var num = parseInt(p, 10);
+        if (!num || num === EXEC.period) return;
+        EXEC.period = num;
+        EXEC.customFrom = null;
+        EXEC.customTo = null;
+        if (range) range.style.display = 'none';
+        document.querySelectorAll('#period-toggle button').forEach(function(b) {
+          b.classList.toggle('active', b === btn);
+        });
+        // Detail 탭 필터도 동기화
+        syncDetailPeriod(num);
+        renderExecutiveView();
+      });
+    });
+
+    // 기간 지정 적용 버튼
+    var execApplyBtn = document.getElementById('exec-date-apply');
+    if (execApplyBtn) {
+      execApplyBtn.addEventListener('click', function() {
+        var fromEl = document.getElementById('exec-date-from');
+        var toEl = document.getElementById('exec-date-to');
+        if (!fromEl || !toEl || !fromEl.value || !toEl.value) {
+          alert('시작일과 종료일을 모두 선택하세요');
+          return;
+        }
+        EXEC.period = 'custom';
+        EXEC.customFrom = fromEl.value;
+        EXEC.customTo = toEl.value;
+        // Detail 필터도 동기화
+        syncDetailCustomRange(fromEl.value, toEl.value);
+        renderExecutiveView();
+      });
+    }
+
+    // Detail 탭 -> Exec 동기화 (Detail 의 기간 필터 변경 감시)
+    // Detail 에선 FILTERS.period 를 바꾸므로, 탭 전환 시 Exec 에 반영
+    window._syncFromDetail = function() {
+      try {
+        if (typeof FILTERS === 'undefined' || !FILTERS.period) return;
+        var p = FILTERS.period;
+        if (p === 'custom' && FILTERS.dateFrom && FILTERS.dateTo) {
+          EXEC.period = 'custom';
+          EXEC.customFrom = FILTERS.dateFrom;
+          EXEC.customTo = FILTERS.dateTo;
+          var fromEl = document.getElementById('exec-date-from');
+          var toEl = document.getElementById('exec-date-to');
+          var range = document.getElementById('exec-date-range');
+          if (fromEl) fromEl.value = FILTERS.dateFrom;
+          if (toEl) toEl.value = FILTERS.dateTo;
+          if (range) range.style.display = 'inline-flex';
+          document.querySelectorAll('#period-toggle button').forEach(function(b) {
+            b.classList.toggle('active', b.getAttribute('data-period') === 'custom');
+          });
+        } else if (p === 'today' || p === '1') {
+          EXEC.period = 1;
+        } else {
+          var num = parseInt(p, 10);
+          if (num === 7 || num === 14 || num === 30) {
+            EXEC.period = num;
+            EXEC.customFrom = null; EXEC.customTo = null;
+            var rr = document.getElementById('exec-date-range');
+            if (rr) rr.style.display = 'none';
+            document.querySelectorAll('#period-toggle button').forEach(function(b) {
+              b.classList.toggle('active', b.getAttribute('data-period') === String(num));
+            });
+          }
+        }
+      } catch (e) { /* ignore */ }
+    };
+
+    function syncDetailPeriod(days) {
+      // Detail 필터의 chip 을 해당 기간으로 active 설정
+      try {
+        document.querySelectorAll('.chip[data-period]').forEach(function(b) {
+          b.classList.toggle('active', b.getAttribute('data-period') === String(days));
+        });
+        if (typeof FILTERS !== 'undefined') {
+          FILTERS.period = String(days);
+          FILTERS.dateFrom = null;
+          FILTERS.dateTo = null;
+          var dr = document.getElementById('date-range');
+          if (dr) dr.style.display = 'none';
+          if (typeof applyFilters === 'function') applyFilters();
+        }
+      } catch (e) { /* ignore */ }
+    }
+
+    function syncDetailCustomRange(from, to) {
+      try {
+        document.querySelectorAll('.chip[data-period]').forEach(function(b) {
+          b.classList.toggle('active', b.getAttribute('data-period') === 'custom');
+        });
+        if (typeof FILTERS !== 'undefined') {
+          FILTERS.period = 'custom';
+          FILTERS.dateFrom = from;
+          FILTERS.dateTo = to;
+          var fe = document.getElementById('date-from');
+          var te = document.getElementById('date-to');
+          var dr = document.getElementById('date-range');
+          if (fe) fe.value = from;
+          if (te) te.value = to;
+          if (dr) dr.style.display = 'inline-flex';
+          if (typeof applyFilters === 'function') applyFilters();
+        }
+      } catch (e) { /* ignore */ }
+    }
+
+    // ← 육바연으로 되돌리기 버튼 (IIFE 내부라 전역 onclick 불가, 이벤트 리스너 사용)
+    var resetBtn = document.getElementById('btn-reset-brand');
+    if (resetBtn) {
+      resetBtn.addEventListener('click', function() {
+        selectBrand('kfc');
+      });
+    }
+  }
+
+  // 전역 노출 — 혹시 다른 곳에서 브랜드 선택 필요할 경우 (Slack 링크 등)
+  window.selectBrand = function(code) { selectBrand(code); };
+
+  function computeSentimentScore(sc) {
+    if (!sc) return null;
+    var tot = (sc.pos || 0) + (sc.neu || 0) + (sc.neg || 0);
+    if (!tot) return null;
+    return ((sc.pos || 0) - (sc.neg || 0)) / tot;  // range -1 ~ +1
+  }
+
+  function pct(n, d) { return d > 0 ? (n / d * 100) : 0; }
+  function formatPct(v) {
+    if (v == null || !isFinite(v)) return '—';
+    var s = v >= 0 ? '+' : '';
+    return s + v.toFixed(1) + '%';
+  }
+  function deltaClass(v) {
+    if (v == null || !isFinite(v)) return 'flat';
+    if (v > 2) return 'up';
+    if (v < -2) return 'down';
+    return 'flat';
+  }
+  function deltaArrow(v) {
+    if (v == null || !isFinite(v)) return '—';
+    if (v > 2) return '▲';
+    if (v < -2) return '▼';
+    return '■';
+  }
+
+  function computeAlerts(data, brandCode) {
+    var code = brandCode || 'kfc';
+    var alerts = [];
+    var brand = data.brands[code];
+    if (!brand) return alerts;
+    var brandLabel = brand.display || code;
+
+    // 1. 부정률 > 0.4
+    if ((brand.negative_ratio || 0) > 0.4) {
+      alerts.push({ level: 'high', msg: brandLabel + ' 부정 댓글 비율이 40% 초과 (' + (brand.negative_ratio * 100).toFixed(1) + '%)' });
+    } else if ((brand.negative_ratio || 0) > 0.3) {
+      alerts.push({ level: 'mid', msg: brandLabel + ' 부정 댓글 비율 상승 (' + (brand.negative_ratio * 100).toFixed(1) + '%)' });
+    }
+    if (brand.warning_level === 'yellow' || brand.warning_level === 'red') {
+      alerts.push({ level: brand.warning_level === 'red' ? 'high' : 'mid', msg: brandLabel + ' 브랜드 경고 등급: ' + brand.warning_level });
+    }
+
+    // 2. 영상 단위 경고 (상위 영상 중 yellow/red)
+    (brand.videos || []).forEach(function(v) {
+      if (v.warning_level === 'red') {
+        alerts.push({ level: 'high', msg: '🚨 위험 영상: ' + (v.title || '').slice(0, 40), url: v.url });
+      }
+    });
+
+    // 3. 경쟁사 대비 순위 하락 (if baseline available)
+    if (EXEC.baseline && EXEC.baseline.brands && EXEC.baseline.brands[code]) {
+      var rankNow = brandRank(data, code);
+      var rankPrev = brandRank(EXEC.baseline, code);
+      if (rankPrev && rankNow && rankNow > rankPrev) {
+        alerts.push({ level: 'mid', msg: brandLabel + ' 순위 하락: ' + rankPrev + '위 → ' + rankNow + '위' });
+      }
+    }
+
+    return alerts;
+  }
+
+  function brandRank(data, code) {
+    var arr = COMP_KEYS.map(function(k) {
+      return { k: k, v: ((data.brands && data.brands[k]) ? (data.brands[k].total_views || 0) : 0) };
+    }).filter(function(x) { return x.v > 0; })
+      .sort(function(a, b) { return b.v - a.v; });
+    for (var i = 0; i < arr.length; i++) if (arr[i].k === code) return i + 1;
+    return null;
+  }
+
+  // PESO 프레임 — 영상 단위 분류
+  //   Owned:     자사 공식 채널 (creator_tier === "Official")
+  //   Sponsored: 크리에이터 협찬 (yt-dlp paid_content 플래그 + title/desc 키워드 + manual override)
+  //   Earned:    나머지 — 순수 자발 크리에이터 (primary KPI, KFC CDTO 레버)
+  var SPONSORED_MARKERS = [
+    "유료광고 포함", "유료 광고 포함", "유료 프로모션", "유료프로모션",
+    "#광고", "#협찬", "#ad", "#sponsored",
+    "협찬받아", "협찬 받아", "제공받아", "제공 받아", "제품을 제공",
+    "paid promotion", "brand partnership", "이 영상은 광고"
+  ];
+  function classifyPeso(v, brandCode) {
+    if (v && v.creator_tier === "Official") return "owned";
+    if (v && (v.paid_content === true || v.paid_content_disclosure === true)) return "sponsored";
+    var hay = ((v && v.title) || "") + " " + ((v && v.description_excerpt) || "");
+    hay = hay.toLowerCase();
+    for (var i = 0; i < SPONSORED_MARKERS.length; i++) {
+      if (hay.indexOf(SPONSORED_MARKERS[i].toLowerCase()) !== -1) return "sponsored";
+    }
+    if (window._KNOWN_SPONSORED && v && window._KNOWN_SPONSORED[v.video_id]) return "sponsored";
+    return "earned";
+  }
+
+  // 브랜드 단위 PESO 집계. multi 섹션은 제외 (KFC 포함 중복).
+  function computePesoSplit(brand, brandCode) {
+    var owned = 0, sponsored = 0, earned = 0, engagement = 0;
+    var cnt = { owned: 0, sponsored: 0, earned: 0, total: 0 };
+    (brand && brand.videos || []).forEach(function(v) {
+      var views = v.views || 0;
+      var e = (v.likes || 0) + (v.comment_count || 0);
+      var cat = classifyPeso(v, brandCode);
+      if (cat === "owned") { owned += views; cnt.owned++; }
+      else if (cat === "sponsored") { sponsored += views; cnt.sponsored++; }
+      else { earned += views; cnt.earned++; }
+      engagement += e;
+      cnt.total++;
+    });
+    return { owned: owned, sponsored: sponsored, earned: earned,
+             engagement: engagement, total: owned + sponsored + earned,
+             counts: cnt };
+  }
+
+  // 전 브랜드 캐시 + 총합
+  function preparePesoSplits(data) {
+    var splits = {};
+    var totals = { owned: 0, sponsored: 0, earned: 0, engagement: 0 };
+    COMP_KEYS.forEach(function(k) {
+      var sp = computePesoSplit(data.brands[k] || {}, k);
+      splits[k] = sp;
+      totals.owned += sp.owned;
+      totals.sponsored += sp.sponsored;
+      totals.earned += sp.earned;
+      totals.engagement += sp.engagement;
+    });
+    return { splits: splits, totals: totals };
+  }
+
+  // Earned 조회수 기준 순위 (1등 = 최다 earned) — 레거시, 벤치마크 부가 용도
+  function earnedRank(splits, code) {
+    var arr = COMP_KEYS.map(function(k) { return { k: k, v: (splits[k] && splits[k].earned) || 0 }; });
+    arr.sort(function(a, b) { return b.v - a.v; });
+    for (var i = 0; i < arr.length; i++) if (arr[i].k === code) return i + 1;
+    return null;
+  }
+
+  // 총 조회수 기준 순위 (KPI '🏆 순위' 카드 메인 지표)
+  function viewsRank(data, code) {
+    if (!data || !data.brands) return null;
+    var arr = COMP_KEYS.map(function(k) {
+      return { k: k, v: (data.brands[k] && data.brands[k].total_views) || 0 };
+    });
+    arr.sort(function(a, b) { return b.v - a.v; });
+    for (var i = 0; i < arr.length; i++) if (arr[i].k === code) return i + 1;
+    return null;
+  }
+
+  // Backward-compat 래퍼 (기존 함수명 보존)
+  function prepareSplits(data) { return preparePesoSplits(data); }
+
+  function formatSovPct(v) {
+    if (v == null || !isFinite(v)) return '—';
+    return v.toFixed(1) + '%';
+  }
+
+  function renderExecutiveView() {
+    safeRender('executive', _renderExecutiveView);
+  }
+  function _renderExecutiveView() {
+    var data = getFilteredLatest();
+    if (!data) return;
+    var selCode = EXEC.selectedBrand || 'kfc';
+    var sel = data.brands[selCode] || {};
+    var selName = (sel.display) || selCode;
+
+    // Meta (exec-date / exec-window 는 구버전 — 헤더 상단의 data-range-line 으로 이관됨)
+    $text('exec-date', data.date || '-');
+    $text('exec-window', EXEC.period);
+
+    // 선택된 브랜드 라벨 스왑 — KFC 이외 브랜드 선택시 상단에 "← KFC로" 버튼 표시
+    updateKpiLabels(selName, selCode);
+
+    // --- PESO 3분류 계산 (Owned / Sponsored / Earned / Engagement) ---
+    var cur = preparePesoSplits(data);
+    EXEC.splits = cur.splits;
+    EXEC.totals = cur.totals;
+    var kSp = cur.splits[selCode] || { owned: 0, sponsored: 0, earned: 0, engagement: 0 };
+
+    var ownedSov     = pct(kSp.owned, cur.totals.owned);
+    var sponsoredSov = pct(kSp.sponsored, cur.totals.sponsored);
+    var earnedSov    = pct(kSp.earned, cur.totals.earned);
+    var engSov       = pct(kSp.engagement, cur.totals.engagement);
+    var rank = viewsRank(data, selCode);  // 총 조회수 기준 (메인 순위)
+
+    document.getElementById('k-rank').innerHTML = (rank || '—') + '<span class="small">/' + COMP_KEYS.length + '</span>';
+
+    // === KPI 값 = 선택 브랜드 내 믹스 % (O+S+E 합 = 100%) + 영상 건수 ===
+    var brandTotal = kSp.owned + kSp.sponsored + kSp.earned;
+    var mixO = brandTotal > 0 ? (kSp.owned     / brandTotal * 100) : 0;
+    var mixS = brandTotal > 0 ? (kSp.sponsored / brandTotal * 100) : 0;
+    var mixE = brandTotal > 0 ? (kSp.earned    / brandTotal * 100) : 0;
+    var kCnt = (kSp.counts) || { owned:0, sponsored:0, earned:0, total:0 };
+
+    function _setCardValue(id, gaugeId, countElId, pct, hasData, cat_cnt, total_cnt) {
+      var el = document.getElementById(id);
+      var g = document.getElementById(gaugeId);
+      var cel = document.getElementById(countElId);
+      if (!el) return;
+      if (hasData) {
+        el.innerHTML = pct.toFixed(1) + '<span class="small">%</span>';
+      } else {
+        el.innerHTML = '—';
+      }
+      if (g) g.style.width = Math.min(pct, 100) + '%';
+      if (cel) {
+        if (total_cnt > 0) {
+          cel.innerHTML = '영상 <strong>' + cat_cnt + '</strong>건 <span class="count-denom">(전체 ' + total_cnt + '개 중)</span>';
+        } else {
+          cel.innerHTML = '영상 없음';
+        }
+      }
+    }
+    _setCardValue('k-owned-sov',     'k-owned-gauge',     'k-owned-count',     mixO, brandTotal > 0, kCnt.owned,     kCnt.total);
+    _setCardValue('k-sponsored-sov', 'k-sponsored-gauge', 'k-sponsored-count', mixS, brandTotal > 0, kCnt.sponsored, kCnt.total);
+    _setCardValue('k-earned-sov',    'k-earned-gauge',    'k-earned-count',    mixE, brandTotal > 0, kCnt.earned,    kCnt.total);
+
+    // Engagement는 별개 (다른 분모) — 선택 브랜드의 시장 점유율 유지
+    document.getElementById('k-eng-sov').innerHTML = engSov.toFixed(1) + '<span class="small">%</span>';
+    document.getElementById('k-eng-gauge').style.width = Math.min(engSov, 100) + '%';
+
+    // --- 보조 배지 = 시장 내 점유율 (경쟁 SOV, 세로합 100%) ---
+    function _marketBadge(id, val, cat, pri, marketTotal) {
+      var el = document.getElementById(id);
+      if (!el) return;
+      el.className = 'mix-badge ' + (pri ? 'pri-' + pri : '');
+      if (marketTotal > 0) {
+        var share = (val / marketTotal * 100).toFixed(1);
+        el.textContent = '시장 ' + cat + ' 중 ' + share + '% 점유';
+      } else {
+        el.textContent = '시장 집계 없음';
+      }
+    }
+    _marketBadge('k-owned-mix',     kSp.owned,     'Owned',     'owned',     cur.totals.owned);
+    _marketBadge('k-sponsored-mix', kSp.sponsored, 'Sponsored', 'sponsored', cur.totals.sponsored);
+    _marketBadge('k-earned-mix',    kSp.earned,    'Earned',    'earned',    cur.totals.earned);
+
+    // --- Baseline deltas (4일 전 기준) ---
+    if (EXEC.baseline && EXEC.baseline.brands && EXEC.baseline.brands[selCode]) {
+      var prev = preparePesoSplits(EXEC.baseline);
+      var prevSel = prev.splits[selCode] || { owned: 0, sponsored: 0, earned: 0, engagement: 0 };
+      var prevRank = viewsRank(EXEC.baseline, selCode);
+
+      var ownedDelta     = prevSel.owned     ? ((kSp.owned     - prevSel.owned)     / prevSel.owned)     * 100 : null;
+      var sponsoredDelta = prevSel.sponsored ? ((kSp.sponsored - prevSel.sponsored) / prevSel.sponsored) * 100 : null;
+      var earnedDelta    = prevSel.earned    ? ((kSp.earned    - prevSel.earned)    / prevSel.earned)    * 100 : null;
+      var engDelta       = prevSel.engagement? ((kSp.engagement- prevSel.engagement)/ prevSel.engagement)* 100 : null;
+      setDelta('k-owned-delta',     ownedDelta);
+      setDelta('k-sponsored-delta', sponsoredDelta);
+      setDelta('k-earned-delta',    earnedDelta);
+      setDelta('k-eng-delta',       engDelta);
+
+      if (prevRank && rank) {
+        var rDiff = prevRank - rank;  // positive = improved
+        var el = document.getElementById('k-rank-delta');
+        el.className = 'exec-delta ' + (rDiff > 0 ? 'up' : (rDiff < 0 ? 'down' : 'flat'));
+        el.textContent = (rDiff === 0 ? '변동없음' : (rDiff > 0 ? '▲' : '▼') + ' ' + Math.abs(rDiff) + '계단');
+      }
+    }
+
+    // --- 선택 브랜드 Sentiment + Alerts 를 상단 알림 스트립에 통합 ---
+    var s = computeSentimentScore(sel.sentiment_counts);
+    var alerts = computeAlerts(data, selCode);
+
+    var strip = document.getElementById('alert-strip');
+    var badge = document.getElementById('alert-badge');
+    var text = document.getElementById('alert-text');
+    badge.textContent = alerts.length;
+
+    var sentLabel = s != null ? (s > 0.3 ? '긍정 우세' : (s < -0.1 ? '부정 우세' : '중립')) : '—';
+    var sentText = s != null
+      ? ('감정 점수 ' + (s * 100).toFixed(0) + ' (' + sentLabel + ')')
+      : '감정 점수 —';
+    var negRatioText = '부정률 ' + ((sel.negative_ratio || 0) * 100).toFixed(1) + '%';
+    var alertText = '위험 신호 ' + alerts.length + '건';
+
+    if (alerts.length === 0) {
+      strip.classList.add('empty');
+      text.innerHTML = '✓ ' + sentText + ' · ' + negRatioText + ' · ' + alertText +
+        ' <span style="color: var(--text-muted);">— 이상징후 없음</span>';
+    } else {
+      strip.classList.remove('empty');
+      var alertLines = alerts.slice(0, 3).map(function(a) {
+        return (a.level === 'high' ? '🔴' : '🟡') + ' ' + escapeHtml(a.msg);
+      }).join(' &nbsp;·&nbsp; ');
+      if (alerts.length > 3) alertLines += ' <span style="color: var(--text-muted);">+' + (alerts.length - 3) + '건 더</span>';
+      text.innerHTML = '<strong>' + sentText + ' · ' + negRatioText + ' · ' + alertText + '</strong><br>' + alertLines;
+    }
+
+    renderBenchTable();
+    renderContentMix();
+    buildCharts();
+    renderHighlights();
+  }
+
+  // 🧩 브랜드 콘텐츠 믹스 — 각 브랜드 100% 스택바 (Owned/Sponsored/Earned)
+  // KPI 카드 라벨을 선택 브랜드명으로 스왑 (HTML 구조는 그대로, 텍스트만 변경)
+  function updateKpiLabels(brandName, brandCode) {
+    var labels = {
+      'k-rank-label':     '🏆 ' + brandName + ' 순위 (조회수 기준)',
+      'k-owned-label':    '🏛 ' + brandName + ' Owned SOV',
+      'k-sponsored-label':'🤝 ' + brandName + ' Sponsored SOV',
+      'k-earned-label':   '🎤 ' + brandName + ' Earned SOV ⭐ Primary',
+      'k-eng-label':      '💬 ' + brandName + ' Engagement SOV',
+    };
+    // 라벨 요소에 각각 text 설정 (없으면 무시)
+    // 여기선 exec-label 직접 선택 — id 없는 카드도 있으므로 data-kpi-label 속성 활용
+    var cards = document.querySelectorAll('.exec-strip .exec-card');
+    if (cards.length) {
+      // 5장 카드 순서: 순위 / Owned / Sponsored / Earned / Engagement
+      // 값의 의미: 순위=총조회수 시장순위, Owned/Sponsored/Earned=선택 브랜드 내 비중(3합=100%), Engagement=시장 점유
+      var labelTexts = [
+        '🏆 ' + brandName + ' 순위 (총 조회수 기준)',
+        '🏛 ' + brandName + ' 내 Owned 비중',
+        '🤝 ' + brandName + ' 내 Sponsored 비중',
+        '🎤 ' + brandName + ' 내 Earned 비중',
+        '💬 ' + brandName + ' Engagement SOV',
+      ];
+      cards.forEach(function(card, i) {
+        if (i >= labelTexts.length) return;
+        var labelEl = card.querySelector('.exec-label');
+        if (!labelEl) return;
+        // Earned 카드는 ⭐ Primary 태그 유지
+        if (i === 3) {
+          labelEl.innerHTML = labelTexts[i] + ' <span class="tier-tag">⭐ Primary</span>';
+        } else {
+          labelEl.textContent = labelTexts[i];
+        }
+      });
+    }
+
+    // "← KFC로 돌아가기" 버튼 토글
+    var btn = document.getElementById('btn-reset-brand');
+    if (btn) {
+      if (brandCode !== 'kfc') {
+        btn.style.display = 'inline-flex';
+        btn.innerHTML = '← 육바연으로 되돌리기';
+      } else {
+        btn.style.display = 'none';
+      }
+    }
+
+    // 순위 서브텍스트 — 항상 '경쟁 10개 브랜드 총 조회수 비교' 로 일관
+    var rankSub = document.getElementById('k-rank-sub');
+    if (rankSub) rankSub.textContent = '경쟁 10개 브랜드 총 조회수 비교';
+
+    // 선택 브랜드 행 하이라이트 (스택바 + 벤치마크 테이블)
+    document.querySelectorAll('.mix-row, .bench-table tbody tr').forEach(function(row) {
+      row.classList.remove('selected-brand');
+    });
+  }
+
+  // 브랜드 선택 + 재렌더 (스크롤 이동 無 — 사용자가 원하는 위치 유지)
+  function selectBrand(code) {
+    if (!code || !COMP_KEYS.indexOf || COMP_KEYS.indexOf(code) < 0) return;
+    EXEC.selectedBrand = code;
+    renderExecutiveView();
+  }
+
+  function renderContentMix() {
+    var splits = EXEC.splits || {};
+    var container = document.getElementById('mix-bars');
+    if (!container) return;
+    // Earned 점유율 내림차순 정렬 (primary KPI 기준)
+    var rows = COMP_KEYS.map(function(k) {
+      var sp = splits[k] || { owned:0, sponsored:0, earned:0 };
+      var total = sp.owned + sp.sponsored + sp.earned;
+      return { key: k, sp: sp, total: total };
+    });
+    rows.sort(function(a, b) { return b.sp.earned - a.sp.earned; });
+
+    var data = getFilteredLatest();  // 기간 필터 반영
+    var selected = EXEC.selectedBrand || 'kfc';
+    container.innerHTML = rows.map(function(r) {
+      var display = (data.brands[r.key] && data.brands[r.key].display) || r.key;
+      var classes = 'mix-row' +
+        (r.key === 'kfc' ? ' kfc-row' : '') +
+        (r.key === selected ? ' selected-brand' : '');
+      if (r.total <= 0) {
+        return '<div class="' + classes + ' empty" data-brand="' + r.key + '" title="클릭 → 상단 KPI를 ' + display + ' 기준으로">' +
+          '<div class="mix-brand">' + escapeHtml(display) + '</div>' +
+          '<div class="mix-stack"></div>' +
+          '<div class="mix-labels">데이터 없음</div>' +
+        '</div>';
+      }
+      var oP = r.sp.owned     / r.total * 100;
+      var sP = r.sp.sponsored / r.total * 100;
+      var eP = r.sp.earned    / r.total * 100;
+      function _seg(cls, pct, label, val) {
+        if (pct <= 0) return '';
+        var title = label + ' ' + pct.toFixed(1) + '% (' + formatNumber(val) + ' views)';
+        return '<div class="mix-seg ' + cls + '" style="width:' + pct + '%" title="' + title + '"></div>';
+      }
+      // 소숫점 1자리 + 0.05% 이상만 표시 (0% 노이즈 제거, 반올림으로 100% 되는 경우 방지)
+      function _pctStr(p) {
+        // 99.9% 는 99.9% 로, 100% 는 100% 로 — toFixed(1) 로 정밀도 확보
+        return p.toFixed(1);
+      }
+      var labelParts = [];
+      if (oP >= 0.05) labelParts.push('🏛<strong>' + _pctStr(oP) + '%</strong>');
+      if (sP >= 0.05) labelParts.push('🤝<strong>' + _pctStr(sP) + '%</strong>');
+      if (eP >= 0.05) labelParts.push('🎤<strong>' + _pctStr(eP) + '%</strong>');
+      return '<div class="' + classes + '" data-brand="' + r.key + '" title="클릭 → 상단 KPI를 ' + display + ' 기준으로">' +
+        '<div class="mix-brand">' + escapeHtml(display) + '</div>' +
+        '<div class="mix-stack">' +
+          _seg('owned',     oP, '🏛 Owned',     r.sp.owned) +
+          _seg('sponsored', sP, '🤝 Sponsored', r.sp.sponsored) +
+          _seg('earned',    eP, '🎤 Earned',    r.sp.earned) +
+        '</div>' +
+        '<div class="mix-labels">' + labelParts.join(' · ') + '</div>' +
+      '</div>';
+    }).join('');
+    // 행 클릭 → 브랜드 선택
+    container.querySelectorAll('.mix-row').forEach(function(row) {
+      row.addEventListener('click', function() {
+        var b = row.getAttribute('data-brand');
+        if (b) selectBrand(b);
+      });
+    });
+  }
+
+  function setDelta(id, v) {
+    var el = document.getElementById(id);
+    if (!el) return;
+    el.className = 'exec-delta ' + deltaClass(v);
+    el.textContent = deltaArrow(v) + ' ' + formatPct(v);
+  }
+
+  function renderBenchTable() {
+    var data = getFilteredLatest();  // 기간 필터 반영
+    var base = EXEC.baseline;
+    var splits = EXEC.splits || {};
+    var totals = EXEC.totals || { owned: 0, sponsored: 0, earned: 0, engagement: 0 };
+
+    // Baseline split (delta 계산용, Earned 기준)
+    var baseSplits = null;
+    if (base && base.brands) {
+      baseSplits = preparePesoSplits(base).splits;
+    }
+
+    var rows = COMP_KEYS.map(function(k) {
+      var b = data.brands[k] || {};
+      var sp = splits[k] || { owned: 0, sponsored: 0, earned: 0, engagement: 0 };
+      var prevEarned = (baseSplits && baseSplits[k]) ? baseSplits[k].earned : null;
+      var delta = (prevEarned && prevEarned > 0) ? ((sp.earned - prevEarned) / prevEarned) * 100 : null;
+      var spark = EXEC.trend.map(function(t) { return (t.brands && t.brands[k]) ? (t.brands[k].total_views || 0) : 0; });
+      return {
+        key: k,
+        brand: b.display || k,
+        videos: b.video_count || 0,
+        views: b.total_views || 0,
+        ownedSov:     totals.owned > 0     ? (sp.owned     / totals.owned     * 100) : null,
+        sponsoredSov: totals.sponsored > 0 ? (sp.sponsored / totals.sponsored * 100) : null,
+        earnedSov:    totals.earned > 0    ? (sp.earned    / totals.earned    * 100) : 0,
+        engSov:       totals.engagement>0  ? (sp.engagement/ totals.engagement* 100) : 0,
+        delta: delta,
+        neg: b.negative_ratio != null ? b.negative_ratio * 100 : null,
+        spark: spark
+      };
+    });
+
+    var key = EXEC.sortKey, dir = EXEC.sortDir === 'desc' ? -1 : 1;
+    rows.sort(function(a, b) {
+      var av = a[key], bv = b[key];
+      if (av == null && bv == null) return 0;
+      if (av == null) return 1;
+      if (bv == null) return -1;
+      if (typeof av === 'string') return av.localeCompare(bv) * dir;
+      return (av - bv) * dir;
+    });
+
+    // Header arrow state
+    document.querySelectorAll('#bench-table thead th').forEach(function(th) {
+      var k = th.getAttribute('data-sort');
+      th.classList.toggle('sort-active', k === key);
+      var arrow = th.querySelector('.sort-arrow');
+      if (arrow) arrow.remove();
+      if (k === key) {
+        th.insertAdjacentHTML('beforeend', '<span class="sort-arrow">' + (dir === -1 ? '▼' : '▲') + '</span>');
+      }
+    });
+
+    function _cellPct(v) {
+      if (v == null || v === 0) return '<span style="color:var(--text-muted)">—</span>';
+      return v.toFixed(1) + '%';
+    }
+
+    var tbody = document.getElementById('bench-tbody');
+    var selected = EXEC.selectedBrand || 'kfc';
+    tbody.innerHTML = rows.map(function(r, idx) {
+      var negClass = r.neg == null ? '' : (r.neg > 30 ? 'danger' : (r.neg > 20 ? 'warn' : 'safe'));
+      var negCell = r.neg == null ? '<span style="color:var(--text-muted)">—</span>'
+                    : '<span class="neg-chip ' + negClass + '">' + r.neg.toFixed(1) + '%</span>';
+      var ownedCell     = r.ownedSov     == null ? '<span style="color:var(--text-muted)">—</span>' : r.ownedSov.toFixed(1) + '%';
+      var sponsoredCell = r.sponsoredSov == null ? '<span style="color:var(--text-muted)">—</span>' : r.sponsoredSov.toFixed(1) + '%';
+      var rowClasses = (r.key === 'kfc' ? 'kfc-row ' : '') + (r.key === selected ? 'selected-brand' : '');
+      return '<tr class="' + rowClasses + '" data-brand="' + r.key + '" title="클릭 → 상단 KPI를 ' + escapeHtml(r.brand) + ' 기준으로">' +
+        '<td><span class="bench-rank">' + (idx + 1) + '</span>' + escapeHtml(r.brand) + '</td>' +
+        '<td>' + r.videos + '</td>' +
+        '<td>' + formatNumber(r.views) + '</td>' +
+        '<td class="col-owned">' + ownedCell + '</td>' +
+        '<td class="col-sponsored">' + sponsoredCell + '</td>' +
+        '<td><strong>' + r.earnedSov.toFixed(1) + '%</strong></td>' +
+        '<td>' + r.engSov.toFixed(1) + '%</td>' +
+        '<td>' + negCell + '</td>' +
+      '</tr>';
+    }).join('');
+    // 행 클릭 → 브랜드 선택
+    tbody.querySelectorAll('tr[data-brand]').forEach(function(tr) {
+      tr.addEventListener('click', function() {
+        var b = tr.getAttribute('data-brand');
+        if (b) selectBrand(b);
+      });
+    });
+  }
+
+  function drawSparkline(canvas, data, color) {
+    var dpr = window.devicePixelRatio || 1;
+    var w = canvas.offsetWidth || 80, h = canvas.offsetHeight || 22;
+    canvas.width = w * dpr; canvas.height = h * dpr;
+    var ctx = canvas.getContext('2d');
+    ctx.scale(dpr, dpr);
+    ctx.clearRect(0, 0, w, h);
+    var mx = Math.max.apply(null, data), mn = Math.min.apply(null, data);
+    if (mx === mn) { mx = mn + 1; }
+    var pad = 2;
+    ctx.strokeStyle = color; ctx.lineWidth = 1.5; ctx.beginPath();
+    data.forEach(function(v, i) {
+      var x = pad + i * ((w - pad*2) / (data.length - 1 || 1));
+      var y = h - pad - ((v - mn) / (mx - mn)) * (h - pad*2);
+      if (i === 0) ctx.moveTo(x, y); else ctx.lineTo(x, y);
+    });
+    ctx.stroke();
+    // last point dot
+    var last = data[data.length-1];
+    var lx = w - pad, ly = h - pad - ((last - mn) / (mx - mn)) * (h - pad*2);
+    ctx.fillStyle = color;
+    ctx.beginPath(); ctx.arc(lx, ly, 1.8, 0, 2*Math.PI); ctx.fill();
+  }
+
+  var CHART_INSTANCES = {};
+
+  function buildCharts() {
+    safeRender('charts', _buildCharts);
+  }
+  function _buildCharts() {
+    if (!window.Chart) return;
+    var data = getFilteredLatest();  // 기간 필터 반영
+    var textColor = getCSS('--text-secondary');
+    var gridColor = getCSS('--chart-grid');
+
+    // 10개 브랜드 최대 대비 팔레트 — 색상환 균등 + 브랜드 아이덴티티 반영
+    // kfc=레드, burgerking=주황, mcdonalds=노랑 (사용자 지정), 나머지 고대비
+    var palette = {
+      kfc:        '#E4002B',  // 레드 (KFC 고유)
+      burgerking: '#F97316',  // 주황 (사용자 지정)
+      mcdonalds:  '#FACC15',  // 노랑 (사용자 지정)
+      lotteria:   '#EC4899',  // 핑크
+      momstouch:  '#22C55E',  // 그린
+      popeyes:    '#3B82F6',  // 블루
+      subway:     '#8B5CF6',  // 퍼플
+      bbq:        '#06B6D4',  // 시안
+      bhc:        '#A855F7',  // 바이올렛
+      kyochon:    '#14B8A6',  // 틸
+    };
+
+    var splits = EXEC.splits || {};
+
+    // 전체 조회수 기반 도넛 — brand.total_views 사용 (splits 우회)
+    function buildTotalViewsDonut(canvasId, legendId, emptyId, palette) {
+      var labels = [], values = [], colors = [];
+      COMP_KEYS.forEach(function(k) {
+        var v = (data.brands[k] && data.brands[k].total_views) || 0;
+        if (v > 0) {
+          labels.push((data.brands[k] && data.brands[k].display) || k);
+          values.push(v);
+          colors.push(palette[k] || '#888');
+        }
+      });
+      _renderDonut(canvasId, legendId, emptyId, labels, values, colors);
+    }
+
+    // 공용 도넛 렌더 로직
+    function _renderDonut(canvasId, legendId, emptyId, labels, values, colors) {
+      var cv = document.getElementById(canvasId);
+      if (!cv) return;
+      if (CHART_INSTANCES[canvasId]) CHART_INSTANCES[canvasId].destroy();
+      var emptyEl = emptyId ? document.getElementById(emptyId) : null;
+      if (values.length === 0) {
+        if (emptyEl) emptyEl.style.display = 'flex';
+        cv.style.visibility = 'hidden';
+        var legendEmpty = document.getElementById(legendId);
+        if (legendEmpty) legendEmpty.innerHTML = '';
+        return;
+      }
+      if (emptyEl) emptyEl.style.display = 'none';
+      cv.style.visibility = '';
+      var ctx = cv.getContext('2d');
+      CHART_INSTANCES[canvasId] = new Chart(ctx, {
+        type: 'doughnut',
+        data: { labels: labels, datasets: [{ data: values, backgroundColor: colors, borderColor: getCSS('--bg-card'), borderWidth: 2 }] },
+        options: {
+          responsive: true, maintainAspectRatio: false, cutout: '60%',
+          plugins: {
+            legend: { display: false },
+            tooltip: {
+              callbacks: {
+                label: function(ctx) {
+                  var total = values.reduce(function(a,b){return a+b;},0);
+                  var p = (ctx.parsed / total * 100).toFixed(1);
+                  return ctx.label + ': ' + formatNumber(ctx.parsed) + ' (' + p + '%)';
+                }
+              }
+            }
+          }
+        }
+      });
+      var legendEl = document.getElementById(legendId);
+      if (legendEl) {
+        var total = values.reduce(function(a,b){return a+b;},0);
+        var top = labels.map(function(l, i) { return { l: l, v: values[i], c: colors[i] }; })
+                        .sort(function(a,b){return b.v-a.v;}).slice(0, 5);
+        legendEl.innerHTML = top.map(function(it) {
+          var p = (it.v / total * 100).toFixed(1);
+          return '<span class="lg-item"><span class="lg-dot" style="background:' + it.c + '"></span>' + escapeHtml(it.l) + ' ' + p + '%</span>';
+        }).join('');
+      }
+    }
+
+    // 카테고리별 (splits 기반) 도넛 — Owned / Earned
+    function buildDonut(canvasId, field, legendId, emptyId) {
+      var labels = [], values = [], colors = [];
+      COMP_KEYS.forEach(function(k) {
+        var v = (splits[k] && splits[k][field]) || 0;
+        if (v > 0) {
+          labels.push((data.brands[k] && data.brands[k].display) || k);
+          values.push(v);
+          colors.push(palette[k] || '#888');
+        }
+      });
+      _renderDonut(canvasId, legendId, emptyId, labels, values, colors);
+    }
+
+    // 3-donut 렌더링 (전체 조회수 / Owned / Earned)
+    // 전체 조회수 점유: splits 가 아닌 brand.total_views 기반 — 객관적 시장 목소리 비교
+    buildTotalViewsDonut('chart-total', 'total-legend', 'chart-total-empty', palette);
+    buildDonut('chart-owned',  'owned',  'owned-legend',  'chart-owned-empty');
+    buildDonut('chart-earned', 'earned', 'earned-legend', 'chart-earned-empty');
+
+    // Sentiment stacked
+    if (CHART_INSTANCES.sent) CHART_INSTANCES.sent.destroy();
+    var cSent = document.getElementById('chart-sentiment').getContext('2d');
+    var sLabels = [], pos = [], neu = [], neg = [];
+    COMP_KEYS.forEach(function(k) {
+      var b = data.brands[k];
+      if (b && b.sentiment_counts) {
+        sLabels.push((b.display || k).replace(/치킨$/, ''));
+        pos.push(b.sentiment_counts.pos || 0);
+        neu.push(b.sentiment_counts.neu || 0);
+        neg.push(b.sentiment_counts.neg || 0);
+      }
+    });
+    CHART_INSTANCES.sent = new Chart(cSent, {
+      type: 'bar',
+      data: {
+        labels: sLabels,
+        datasets: [
+          { label: '긍정', data: pos, backgroundColor: getCSS('--pos') },
+          { label: '중립', data: neu, backgroundColor: getCSS('--neu') },
+          { label: '부정', data: neg, backgroundColor: getCSS('--neg') }
+        ]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        indexAxis: 'y',
+        scales: {
+          x: { stacked: true, ticks: { color: textColor }, grid: { color: gridColor } },
+          y: { stacked: true, ticks: { color: textColor }, grid: { display: false } }
+        },
+        plugins: {
+          legend: { position: 'bottom', labels: { color: textColor, boxWidth: 10, font: { size: 11 } } }
+        }
+      }
+    });
+
+    // Meta-sentiment stacked (영상 메타 기반 — videos 배열에서 클라이언트 집계)
+    if (CHART_INSTANCES.sentMeta) CHART_INSTANCES.sentMeta.destroy();
+    var cSentMeta = document.getElementById('chart-sentiment-meta').getContext('2d');
+    var mLabels = [], mPos = [], mNeu = [], mNeg = [];
+    COMP_KEYS.forEach(function(k) {
+      var b = data.brands[k];
+      if (b && b.videos) {
+        var mp = 0, mn = 0, mg = 0;
+        b.videos.forEach(function(v) {
+          var s = v.video_meta_sentiment || '';
+          if (s === '긍정') mp++;
+          else if (s === '중립') mn++;
+          else if (s === '부정') mg++;
+        });
+        mLabels.push((b.display || k).replace(/치킨$/, ''));
+        mPos.push(mp); mNeu.push(mn); mNeg.push(mg);
+      }
+    });
+    CHART_INSTANCES.sentMeta = new Chart(cSentMeta, {
+      type: 'bar',
+      data: {
+        labels: mLabels,
+        datasets: [
+          { label: '긍정', data: mPos, backgroundColor: getCSS('--pos') },
+          { label: '중립', data: mNeu, backgroundColor: getCSS('--neu') },
+          { label: '부정', data: mNeg, backgroundColor: getCSS('--neg') }
+        ]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        indexAxis: 'y',
+        scales: {
+          x: { stacked: true, ticks: { color: textColor }, grid: { color: gridColor } },
+          y: { stacked: true, ticks: { color: textColor }, grid: { display: false } }
+        },
+        plugins: {
+          legend: { position: 'bottom', labels: { color: textColor, boxWidth: 10, font: { size: 11 } } }
+        }
+      }
+    });
+
+    window._rebuildCharts = buildCharts;  // rebuild on theme change
+  }
+
+  function getCSS(varName) {
+    return getComputedStyle(document.body).getPropertyValue(varName).trim();
+  }
+
+  function renderHighlights() {
+    safeRender('highlights', _renderHighlights);
+  }
+  function _renderHighlights() {
+    // v6: 선택 브랜드 + 기간 필터 기준 3축 Top 2 × 3 섹션
+    //  🔥 가장 많이 퍼진 (조회수 기준 Top 2)
+    //  💚 가장 긍정적 (긍정비율 기준 Top 2)
+    //  🚨 가장 부정적 (부정률 기준 Top 2)
+    var data = getFilteredLatest();
+    var selCode = EXEC.selectedBrand || 'kfc';
+    var sel = data.brands[selCode] || {};
+    var selName = sel.display || selCode;
+
+    // 라벨·부제 업데이트
+    var labelEl = document.getElementById('highlights-brand-label');
+    if (labelEl) labelEl.textContent = selName;
+    var periodEl = document.getElementById('highlights-period-hint');
+    if (periodEl) periodEl.textContent =
+      '브랜드 클릭 시 전환 · 최근 ' + EXEC.period + '일 기준';
+
+    var all = (sel.videos || []).map(function(v) {
+      return { v: v, brand: selCode, brandDisplay: selName };
+    });
+
+    if (all.length === 0) {
+      document.getElementById('highlights-list').innerHTML =
+        '<div style="grid-column:1/-1;text-align:center;color:var(--text-muted);padding:30px;">' +
+        escapeHtml(selName) + ' 의 최근 ' + EXEC.period + '일 영상이 없습니다.</div>';
+      return;
+    }
+
+    // 점수 계산
+    all.forEach(function(x) {
+      var v = x.v;
+      var sc = v.sentiment_counts || {};
+      var sTot = (sc.neg || 0) + (sc.neu || 0) + (sc.pos || 0);
+      x.posRatio = sTot > 0 ? (sc.pos || 0) / sTot : 0;
+      x.negRatio = v.negative_ratio || 0;
+      x.sTotal = sTot;
+    });
+
+    // ① 🔥 가장 많이 퍼진 — 조회수 내림차순
+    var viral = all.slice().sort(function(a, b) {
+      return (b.v.views || 0) - (a.v.views || 0);
+    }).slice(0, 2).map(function(x) { x.type = 'viral'; return x; });
+
+    // ② 💚 가장 긍정적 — 댓글 있는 것 중 긍정비율 높은 순 (최소 5개 댓글)
+    var positive = all.slice()
+      .filter(function(x) { return x.sTotal >= 3; })
+      .sort(function(a, b) {
+        if (b.posRatio !== a.posRatio) return b.posRatio - a.posRatio;
+        return (b.v.views || 0) - (a.v.views || 0);
+      }).slice(0, 2).map(function(x) { x.type = 'pos'; return x; });
+
+    // 댓글 적어서 긍정 Top 2 못 채우면 메타감성 긍정 으로 보완
+    if (positive.length < 2) {
+      var metaPos = all.slice()
+        .filter(function(x) {
+          return x.v.video_meta_sentiment === '긍정' &&
+                 positive.every(function(p) { return p.v.video_id !== x.v.video_id; });
+        })
+        .sort(function(a, b) { return (b.v.views || 0) - (a.v.views || 0); });
+      while (positive.length < 2 && metaPos.length > 0) {
+        var it = metaPos.shift();
+        it.type = 'pos';
+        positive.push(it);
+      }
+    }
+
+    // ③ 🚨 가장 부정적 — 부정률 높은 순 (뉴스·외부사건 영상 제외: 브랜드 부정 아님)
+    var negative = all.slice()
+      .filter(function(x) {
+        if (x.v.is_news_incident) return false;  // 뉴스 제외
+        return x.sTotal >= 3 && x.negRatio > 0.2;
+      })
+      .sort(function(a, b) {
+        if (b.negRatio !== a.negRatio) return b.negRatio - a.negRatio;
+        return (b.v.views || 0) - (a.v.views || 0);
+      }).slice(0, 2).map(function(x) { x.type = 'neg'; return x; });
+
+    // 부정 없으면 메타감성 부정 or warning_level 있는 것 (뉴스 제외)
+    if (negative.length < 2) {
+      var metaNeg = all.slice()
+        .filter(function(x) {
+          if (x.v.is_news_incident) return false;
+          return (x.v.video_meta_sentiment === '부정' || x.v.warning_level) &&
+                 negative.every(function(n) { return n.v.video_id !== x.v.video_id; });
+        })
+        .sort(function(a, b) { return (b.v.views || 0) - (a.v.views || 0); });
+      while (negative.length < 2 && metaNeg.length > 0) {
+        var it = metaNeg.shift();
+        it.type = 'neg';
+        negative.push(it);
+      }
+    }
+
+    function card(x) {
+      var v = x.v;
+      var sc = v.sentiment_counts || {};
+      var sTot = x.sTotal;
+      var neg = (v.negative_ratio != null && sTot > 0) ? (v.negative_ratio * 100).toFixed(0) + '% 부정' : '';
+      var sentClass = (v.negative_ratio || 0) > 0.3 ? 'danger' : 'safe';
+      var typeCls = x.type === 'neg' ? ' hl-worst' : ' hl-best';
+      return '<a class="highlight-card' + typeCls + '" href="' + escapeHtml(v.url || '#') + '" target="_blank" rel="noopener">' +
+        '<div class="hl-title">' + escapeHtml(v.title || '') + '</div>' +
+        '<div class="hl-meta">' +
+          '<span>' + escapeHtml(v.channel || '-') + '</span>' +
+          '<span style="color: var(--text-muted);">' + escapeHtml(v.upload_date || '') + '</span>' +
+        '</div>' +
+        '<div class="hl-stats">' +
+          '<span>👁 <strong>' + formatNumber(v.views || 0) + '</strong></span>' +
+          '<span>👍 <strong>' + formatNumber(v.likes || 0) + '</strong></span>' +
+          '<span>💬 <strong>' + formatNumber(v.comment_count || 0) + '</strong></span>' +
+          (neg ? '<span class="neg-chip ' + sentClass + '">' + neg + '</span>' : '') +
+          (v.buzz_score ? '<span style="color: var(--buzz-orange);">🔥 ' + v.buzz_score.toFixed(0) + '</span>' : '') +
+        '</div>' +
+      '</a>';
+    }
+
+    function section(label, color, list) {
+      if (!list || list.length === 0) {
+        return '<div class="hl-group-label" style="color:' + color + ';">' + label +
+          ' <span style="color:var(--text-muted);font-weight:normal;font-size:0.8rem;">(데이터 부족)</span></div>' +
+          '<div class="highlights-row" style="opacity:0.5;"><div class="highlight-card" style="text-align:center;color:var(--text-muted);">해당 기간 내 충분한 데이터 없음</div></div>';
+      }
+      return '<div class="hl-group-label" style="color:' + color + ';">' + label + '</div>' +
+        '<div class="highlights-row">' + list.map(card).join('') + '</div>';
+    }
+
+    var html = '';
+    html += section('🔥 가장 많이 퍼진 Top 2 (조회수 기준)', '#ea580c', viral);
+    html += section('💚 가장 긍정적 Top 2 (호평 비율)', '#059669', positive);
+    html += section('🚨 가장 부정적 Top 2 (비판 비율)', '#dc2626', negative);
+
+    document.getElementById('highlights-list').innerHTML = html;
+  }
+
+  function copyOneLiner() {
+    var d = EXEC.latest; if (!d) return;
+    var kfc = d.brands.kfc || {};
+    var cur = preparePesoSplits(d);
+    var kSp = cur.splits.kfc || { owned: 0, sponsored: 0, earned: 0, engagement: 0 };
+    var ownedSov     = pct(kSp.owned, cur.totals.owned);
+    var sponsoredSov = pct(kSp.sponsored, cur.totals.sponsored);
+    var earnedSov    = pct(kSp.earned, cur.totals.earned);
+    var engSov       = pct(kSp.engagement, cur.totals.engagement);
+    var rank = earnedRank(cur.splits, 'kfc');
+    var s = computeSentimentScore(kfc.sentiment_counts);
+    var alerts = computeAlerts(d);
+    var line = '[' + (d.date||'-') + ' · 최근 ' + (d.window_days||30) + '일] KFC ' +
+      (rank||'-') + '/' + COMP_KEYS.length + '위 · 🏛 Owned ' +
+      (cur.totals.owned>0 ? ownedSov.toFixed(1)+'%' : 'N/A') + ' · 🤝 Sponsored ' +
+      (cur.totals.sponsored>0 ? sponsoredSov.toFixed(1)+'%' : 'N/A') + ' · 🎤 Earned ' +
+      earnedSov.toFixed(1) + '% (⭐primary) · 💬 Engagement ' + engSov.toFixed(1) +
+      '% · 감정 ' + (s!=null?(s*100).toFixed(0):'-') + ' · 부정률 ' +
+      ((kfc.negative_ratio||0)*100).toFixed(1) + '% · 이슈 ' + alerts.length + '건';
+    try {
+      navigator.clipboard.writeText(line).then(function() {
+        var btn = document.getElementById('btn-copy-summary');
+        var t = btn.textContent; btn.textContent = '✓ 복사 완료';
+        setTimeout(function() { btn.textContent = t; }, 1500);
+      });
+    } catch(e) {
+      prompt('아래 요약을 복사하세요:', line);
+    }
+  }
+
+  // Expose for global onclick handlers
+  window._ytmon_expand = function(key) {
+    expanded[key] = true;
+    renderBrands();
+  };
+
+})();
+
+// Global toggle function for comments
+function toggleComments(id, btn) {
+  var el = document.getElementById(id);
+  if (!el) return;
+  var open = el.classList.toggle('open');
+  btn.textContent = open ? '💬 댓글 접기' : '💬 댓글 ' + el.children.length + '개 보기';
+}
+
+// Global load-more: expand the brand section (re-renders from filtered list)
+function loadMore(brandKey, btn) {
+  if (window._ytmon_expand) window._ytmon_expand(brandKey);
+}
+</script>
 </body>
 </html>
