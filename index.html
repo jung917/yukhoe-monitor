@@ -2366,7 +2366,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
           <tbody>
             <tr><td><span class="help-dot owned"></span>🏛 <strong>Owned</strong></td>
                 <td>자사 공식 채널이 업로드한 영상</td>
-                <td>육회바른연어 · KFC 코리아 공식 채널 광고</td>
+                <td>육회바른연어 · 자사 공식 채널 광고</td>
                 <td>광고 제작 · 예산 집행</td></tr>
             <tr><td><span class="help-dot sponsored"></span>🤝 <strong>Sponsored</strong></td>
                 <td>크리에이터가 돈받고 만든 협찬 영상</td>
@@ -2429,7 +2429,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       <h2>🧩 브랜드 콘텐츠 믹스</h2>
       <p>가로 100% 스택바 — <strong>각 브랜드가 어떤 유형에 투자하는지</strong>:</p>
       <ul>
-        <li>🏛 회색(Owned) 비율 크면 → 광고 중심 브랜드 (T2 벤치마킹 KFC 등)</li>
+        <li>🏛 회색(Owned) 비율 크면 → 광고 중심 브랜드 (T2 벤치마킹 채널 등)</li>
         <li>🎤 레드(Earned) 비율 크면 → 자발 바이럴 브랜드 (자사·박수식당·79대포)</li>
         <li>🤝 주황(Sponsored) 비율 크면 → 협찬 마케팅 (T3 콘텐츠 채널 협업)</li>
       </ul>
@@ -2682,7 +2682,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       <h2>❓ 자주 묻는 질문</h2>
       <details class="help-faq">
         <summary>Q. 자사 순위가 낮게 나오는데 잘하고 있는 게 맞나요?</summary>
-        <p>기본 순위는 <strong>총 조회수 기준</strong>인데 광고 집행이 큰 브랜드(KFC 등)가 유튜브 광고로
+        <p>기본 순위는 <strong>총 조회수 기준</strong>인데 광고 집행이 큰 브랜드가 유튜브 광고로
         수천만 조회를 찍어서 상위권. 하지만 <strong>자발 크리에이터 관심(🎤 Earned)</strong>에서는
         자사는 광고 의존도가 낮은 자발적 화제성 브랜드라 Earned 비율이 높음. 광고비 투자 부족이 순위에 반영된 것일 뿐.</p>
       </details>
@@ -2736,9 +2736,6 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
               <tr><td>⚔️ <strong>달맞이광장바베큐 (T1)</strong></td>
                   <td>달맞이광장바베큐 · 세광그린푸드 · 무보쇼
                   <br><span style="color:var(--text-muted);">※ '달맞이꽃' 등 식물명 차단 — '광장+바베큐' 묶음 필수</span></td></tr>
-              <tr><td>🎓 <strong>KFC 코리아 (T2)</strong></td>
-                  <td>KFC · 케이에프씨 · <strong>켄치밥 · 징거버거 · 타워버거 · 트위스터</strong>
-                  <br><span style="color:var(--text-muted);">※ 해외 KFC 영상은 별도 차단</span></td></tr>
               <tr><td>🎓 <strong>삼양 JohnMaat (T2)</strong></td>
                   <td>JohnMaat · John_maat · 삼양 존맛 · 존맛 채널
                   <br><span style="color:var(--text-muted);">※ '존맛' 단독(인터넷 슬랭)은 채널명 묶음만 통과</span></td></tr>
@@ -2766,7 +2763,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
         <p>또한 추가 필터 2단:</p>
         <ol>
           <li><strong>한글 비율 필터</strong>: 제목 한글 50% 이상 OR 한글 브랜드 토큰 포함 시 통과 (한·영 이중 제목 허용)</li>
-          <li><strong>해외 KFC 블랙리스트</strong>: T2 벤치마킹 KFC 의 해외 매장 영상은 드롭 (한국 KFC 코리아만)</li>
+          <li><strong>해외 콘텐츠 블랙리스트</strong>: 자사 도메인은 한국 단독이라 해외 분기 차단 없음 (참고용)</li>
         </ol>
       </details>
     </section>
@@ -2866,12 +2863,12 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   }
 
   // 브랜드 키 → 짧은 한글 라벨 (multi_brand_tags 칩 표시용)
+  // KFC 제거 (사용자 지시 2026-04-26)
   var BRAND_SHORT_LABELS = {
     yukbayeon:   '육바연',
     baksoo:      '박수식당',
     daepo79:     '79대포',
     dalmaji_bbq: '달맞이BBQ',
-    kfc:         'KFC',
     johnmaat:    'JohnMaat',
     champd:      '참피디',
     hongsound:   '홍사운드',
@@ -2916,13 +2913,13 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
 
   // ===== State =====
   var PAGE_SIZE = 10;
-  var ALL_BRAND_KEYS = ['yukbayeon', 'baksoo', 'daepo79', 'dalmaji_bbq', 'kfc', 'johnmaat', 'champd', 'hongsound', 'ttoganzip', 'meatking'];
+  // KFC 제거 (사용자 지시 2026-04-26)
+  var ALL_BRAND_KEYS = ['yukbayeon', 'baksoo', 'daepo79', 'dalmaji_bbq', 'johnmaat', 'champd', 'hongsound', 'ttoganzip', 'meatking'];
   var BRAND_DISPLAY_KOR = {
     yukbayeon:   '육회바른연어',
     baksoo:      '박수식당',
     daepo79:     '79대포',
     dalmaji_bbq: '달맞이광장바베큐',
-    kfc:         'KFC 코리아',
     johnmaat:    '삼양 JohnMaat',
     champd:      '참피디',
     hongsound:   '홍사운드',
@@ -3901,7 +3898,8 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     return filtered;
   }
 
-  var COMP_KEYS = ['yukbayeon','baksoo','daepo79','dalmaji_bbq','kfc','johnmaat','champd','hongsound','ttoganzip','meatking'];
+  // KFC 제거 (사용자 지시 2026-04-26)
+  var COMP_KEYS = ['yukbayeon','baksoo','daepo79','dalmaji_bbq','johnmaat','champd','hongsound','ttoganzip','meatking'];
 
   function safeFetch(url) {
     return fetch(url).then(function(r) { return r.ok ? r.json() : null; }).catch(function() { return null; });
@@ -4687,16 +4685,15 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     var textColor = getCSS('--text-secondary');
     var gridColor = getCSS('--chart-grid');
 
-    // 10개 모니터링 대상 팔레트 — Tier 별 컬러 군집화
-    // own=레드(자사), t1=주황계열(직접 경쟁), t2=노랑·청록(벤치마킹), t3=청·보라(콘텐츠)
+    // 9개 모니터링 대상 팔레트 — Tier 별 컬러 군집화 (KFC 제거 2026-04-26)
+    // own=레드(자사), t1=주황계열(직접 경쟁), t2=청록(벤치마킹), t3=청·보라(콘텐츠)
     var palette = {
       yukbayeon:   '#E4002B',  // 자사 — 레드 (강조)
       // T1 직접 경쟁 — 주황계열
       baksoo:      '#F97316',  // 주황
       daepo79:     '#F59E0B',  // 앰버
       dalmaji_bbq: '#EAB308',  // 노랑-주황
-      // T2 벤치마킹 — 노랑·청록
-      kfc:         '#FACC15',  // 노랑 (KFC 코리아)
+      // T2 벤치마킹
       johnmaat:    '#14B8A6',  // 틸
       // T3 콘텐츠 채널 — 청·보라
       champd:      '#3B82F6',  // 블루
