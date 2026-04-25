@@ -1478,7 +1478,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
 :root {
   --peso-owned: #6b7280;       /* 중립 회색 */
   --peso-sponsored: #f59e0b;   /* 주황 — 중간 강조 */
-  --peso-earned: var(--accent); /* KFC 레드 (primary) */
+  --peso-earned: var(--accent); /* 액센트 컬러 (primary) */
 }
 
 .exec-card.peso-owned {
@@ -1518,7 +1518,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   vertical-align: middle;
 }
 
-/* KPI 카드 내부 — KFC 콘텐츠 믹스 보조 배지 */
+/* KPI 카드 내부 — 자사 콘텐츠 믹스 보조 배지 */
 .mix-badge {
   display: inline-block;
   margin-top: 6px;
@@ -1598,7 +1598,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   gap: 8px;
   font-size: 0.78rem;
 }
-.mix-row.kfc-row .mix-brand {
+.mix-row.own-row .mix-brand {
   color: var(--accent-light);
   font-weight: 700;
 }
@@ -1806,12 +1806,12 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
 }
 .bench-table tbody td:first-child { text-align: left; font-weight: 600; }
 .bench-table tbody tr:hover { background: var(--bg-card-hover); }
-.bench-table tbody tr.kfc-row {
+.bench-table tbody tr.own-row {
   background: rgba(228,0,43,0.08);
   border-left: 3px solid var(--accent);
 }
-.bench-table tbody tr.kfc-row:hover { background: rgba(228,0,43,0.14); }
-.bench-table tbody tr.kfc-row td:first-child { color: var(--accent-light); font-weight: 700; }
+.bench-table tbody tr.own-row:hover { background: rgba(228,0,43,0.14); }
+.bench-table tbody tr.own-row td:first-child { color: var(--accent-light); font-weight: 700; }
 .bench-rank {
   display: inline-block;
   min-width: 22px;
@@ -2109,7 +2109,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       <div class="exec-gauge earned"><div class="exec-gauge-fill earned" id="k-earned-gauge" style="width:0%"></div></div>
       <div class="count-line" id="k-earned-count">영상 —</div>
       <div class="mix-badge" id="k-earned-mix" title="전체 Earned 시장에서 선택 브랜드 점유율">시장 —</div>
-      <div class="exec-sub">순수 자발 크리에이터 — KFC가 움직일 수 있는 레버</div>
+      <div class="exec-sub">순수 자발 크리에이터 — 자사(육바연)가 움직일 수 있는 레버</div>
     </div>
     <div class="exec-card engagement">
       <div class="exec-label">💬 Engagement SOV</div>
@@ -2125,7 +2125,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     <div class="exec-panel">
       <div class="exec-section-title">
         <h3>🏁 경쟁 벤치마크</h3>
-        <span class="hint">컬럼 헤더 클릭 = 정렬 · KFC 행 하이라이트</span>
+        <span class="hint">컬럼 헤더 클릭 = 정렬 · 자사 행 하이라이트</span>
       </div>
       <div>
         <table class="bench-table" id="bench-table">
@@ -2298,7 +2298,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   <div class="help-doc">
     <h1>📚 대시보드 사용 설명서</h1>
     <p class="help-lead">
-      이 대시보드는 <strong>KFC + 경쟁사 9개</strong> YouTube 동향을 한눈에 보기 위한 도구입니다.
+      이 대시보드는 <strong>자사(육회바른연어) + 모니터링 대상 9개 (4-Tier)</strong> YouTube 동향을 한눈에 보기 위한 도구입니다.
       매일 <strong>06:00 / 18:00 자동 업데이트</strong>, 누적 데이터를 관리합니다.
       상단 `📊 YYYY-MM-DD ~ YYYY-MM-DD` 에서 실제 수집 범위와 마지막 업데이트 시각을 확인하세요.
     </p>
@@ -2324,8 +2324,8 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       <div class="help-card">
         <strong>해석 주의:</strong>
         <ul>
-          <li>맥도날드·맘스터치 등은 <strong>광고비로 만든 조회수</strong>가 대부분 (유튜브 광고 노출 = 조회수 카운트)</li>
-          <li>KFC가 6위라도 "약하다"가 아니라 <strong>광고 투자를 덜 했다</strong>는 의미</li>
+          <li>T1 직접 경쟁사·T2 벤치마킹 브랜드는 <strong>광고비로 만든 조회수</strong>가 대부분 (유튜브 광고 노출 = 조회수 카운트)</li>
+          <li>자사가 하위에 있어도 "약하다"가 아니라 <strong>광고 투자를 덜 했다</strong>는 의미</li>
           <li>실제 자발 관심은 🎤 <strong>Earned SOV</strong>가 더 정확 (벤치마크 테이블에서 확인)</li>
         </ul>
       </div>
@@ -2352,7 +2352,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
         하지만 본 대시보드에선 별도 카테고리로 분리하지 않았습니다.</p>
         <strong style="display:block;margin-top:10px;">제외 이유 3가지:</strong>
         <ul>
-          <li><strong>① 이중 집계 방지</strong> — Shared 를 별도 집계하면 Owned/Earned 영상에서 발생한 좋아요·댓글을 2번 카운트하게 됨 (예: 맘스터치 공식 광고의 좋아요 → Owned & Shared 양쪽)</li>
+          <li><strong>① 이중 집계 방지</strong> — Shared 를 별도 집계하면 Owned/Earned 영상에서 발생한 좋아요·댓글을 2번 카운트하게 됨 (예: 타사 공식 광고의 좋아요 → Owned & Shared 양쪽)</li>
           <li><strong>② 이미 <code>💬 Engagement SOV</code> 로 측정 중</strong> — KPI 5번째 카드의 "좋아요+댓글 시장 점유" = 전통 Shared 개념과 사실상 동일</li>
           <li><strong>③ YouTube 특성</strong> — YouTube 의 "공유" 지표(Share count)는 yt-dlp 로 수집 불가. 좋아요·댓글만 가능</li>
         </ul>
@@ -2362,11 +2362,11 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       <p>PESO 의 각 층 의미:</p>
       <div class="help-table">
         <table>
-          <thead><tr><th>층</th><th>의미</th><th>예시</th><th>KFC가 쓸 수 있는 레버</th></tr></thead>
+          <thead><tr><th>층</th><th>의미</th><th>예시</th><th>자사(육바연)가 쓸 수 있는 레버</th></tr></thead>
           <tbody>
             <tr><td><span class="help-dot owned"></span>🏛 <strong>Owned</strong></td>
                 <td>자사 공식 채널이 업로드한 영상</td>
-                <td>KFC Korea · 한국 맥도날드 공식 채널 광고</td>
+                <td>육회바른연어 · KFC 코리아 공식 채널 광고</td>
                 <td>광고 제작 · 예산 집행</td></tr>
             <tr><td><span class="help-dot sponsored"></span>🤝 <strong>Sponsored</strong></td>
                 <td>크리에이터가 돈받고 만든 협찬 영상</td>
@@ -2375,7 +2375,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
             <tr><td><span class="help-dot earned"></span>🎤 <strong>Earned</strong> ⭐</td>
                 <td>크리에이터가 자발적으로 만든 영상</td>
                 <td>일반 먹방·리뷰·뉴스 영상</td>
-                <td><strong>제품 자체 화제성</strong> (KFC 주력)</td></tr>
+                <td><strong>제품 자체 화제성</strong> (자사 주력)</td></tr>
           </tbody>
         </table>
       </div>
@@ -2384,7 +2384,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
         <ul>
           <li><strong>큰 숫자</strong> = 선택된 브랜드 <strong>내 비중</strong> (Owned + Sponsored + Earned = 100%)</li>
           <li><strong>회색 배지</strong> = "시장 OO 중 X% 점유" (경쟁사 대비 점유율)</li>
-          <li>예: <code>KFC 내 Earned 99.6%</code> = KFC 영상의 99.6%가 크리에이터 자발 / <code>시장 Earned 중 21.9%</code> = 전체 Earned 시장의 21.9% 차지</li>
+          <li>예: <code>자사 내 Earned 99.6%</code> = 자사 영상의 99.6%가 크리에이터 자발 / <code>시장 Earned 중 21.9%</code> = 전체 Earned 시장의 21.9% 차지</li>
         </ul>
       </div>
     </section>
@@ -2395,8 +2395,8 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       <p>세로 합 100% 기준 시장 점유 — 브랜드별 색깔 조각 크기 비교:</p>
       <ul>
         <li><strong>🌐 전체 조회수 점유</strong> ⭐ — 광고+협찬+자발 모두 합친 시장 목소리. 제일 직관적</li>
-        <li><strong>🏛 Owned 점유</strong> — 공식 광고 지출 규모 반영 (맥도날드가 보통 압도)</li>
-        <li><strong>🎤 Earned 점유</strong> — 자발 크리에이터 화제성 (KFC·롯데리아 강함)</li>
+        <li><strong>🏛 Owned 점유</strong> — 공식 광고 지출 규모 반영 (광고 집행 큰 브랜드가 보통 압도)</li>
+        <li><strong>🎤 Earned 점유</strong> — 자발 크리에이터 화제성 (자사 + T1 경쟁사 강함)</li>
       </ul>
     </section>
 
@@ -2429,9 +2429,9 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       <h2>🧩 브랜드 콘텐츠 믹스</h2>
       <p>가로 100% 스택바 — <strong>각 브랜드가 어떤 유형에 투자하는지</strong>:</p>
       <ul>
-        <li>🏛 회색(Owned) 비율 크면 → 광고 중심 브랜드 (맥도날드·맘스터치)</li>
-        <li>🎤 레드(Earned) 비율 크면 → 자발 바이럴 브랜드 (KFC·BBQ·교촌)</li>
-        <li>🤝 주황(Sponsored) 비율 크면 → 협찬 마케팅 (드물게 롯데리아 침착맨)</li>
+        <li>🏛 회색(Owned) 비율 크면 → 광고 중심 브랜드 (T2 벤치마킹 KFC 등)</li>
+        <li>🎤 레드(Earned) 비율 크면 → 자발 바이럴 브랜드 (자사·박수식당·79대포)</li>
+        <li>🤝 주황(Sponsored) 비율 크면 → 협찬 마케팅 (T3 콘텐츠 채널 협업)</li>
       </ul>
     </section>
 
@@ -2503,7 +2503,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
           <li>기부/후원/사회공헌/상생/장학금/무료 제공</li>
           <li>품질 개선/서비스 개선/안심 선언</li>
         </ul>
-        예: "BBQ, 치킨값 인상 안 한다 — 본사가 비용 상승 부담" → <strong>긍정</strong>
+        예: "79대포, 가격 동결 — 본사가 비용 상승 부담" → <strong>긍정</strong>
       </div>
 
       <div class="help-card">
@@ -2512,7 +2512,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
         <ul>
           <li>무엇이 문제/왜 실패/몰락/조롱/밈으로 확산/주가 영향/역풍/불매/어색한/구설</li>
         </ul>
-        예: "맥도날드 CEO의 햄버거 먹방 무엇이 문제였나" → <strong>부정</strong>
+        예: "외식 브랜드 CEO 발언 무엇이 문제였나" → <strong>부정</strong>
       </div>
 
       <div class="help-card">
@@ -2524,8 +2524,8 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
           <li><strong>위상 강조</strong> — "전 세계 브랜드", "글로벌 브랜드", "세계 최대" → 긍정</li>
           <li><strong>산업·역사 주제</strong> — 자영업 잔혹사/프랜차이즈 현실/역사(로마·중세)/디지털 전환 → 중립</li>
         </ul>
-        예: "대한민국 자영업 잔혹사 EP4. 치킨집 8만 개, 전세계 맥도날드 4만 개보다 2배 많은 나라의 비극"
-        → 맥도날드 섹션: <strong>긍정</strong> (글로벌 규모 기준점, 주제는 한국 자영업)
+        예: "대한민국 자영업 잔혹사 EP4. 외식업 자영업의 구조적 어려움"
+        → 자사 섹션: <strong>중립</strong> (시장 맥락 기준점)
       </div>
 
       <div class="help-card">
@@ -2582,12 +2582,12 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       <div class="help-card">
         <strong>판정 우선순위:</strong>
         <ol>
-          <li><strong>브랜드별 명시 제외 리스트</strong> (서브컬처/탁구/게임 방송/BBQ 전기그릴 등)</li>
-          <li><strong>공식표기 필수</strong> — 짧은 별칭(서브·맘스·롯데)만으로는 통과 불가. 공식 표기 또는 시그니처 메뉴(와퍼·빅맥·뿌링클·싸이버거·허니콤보 등) 필수</li>
-          <li><strong>서브웨이 엄격 모드</strong> — 제목+설명에 "서브웨이/써브웨이/Subway" 필수 (댓글만으로는 불가)</li>
-          <li><strong>BBQ 치킨 컨텍스트 필수</strong> — "비비큐" 있어도 치킨/닭/황올/프라이드/후라이드/치밥/치맥 등 동반 없으면 제외</li>
+          <li><strong>브랜드별 명시 제외 리스트</strong> (동음이의 일반어 (박수치다·달맞이꽃·풍자(문학) 등))</li>
+          <li><strong>공식표기 필수</strong> — 짧은 별칭만으로는 통과 불가. 공식 표기 또는 시그니처 메뉴(육회연어국수·빠삭파전·켄치밥 등) 필수</li>
+          <li><strong>채널명 엄격 모드</strong> — 동음이의 함정이 있는 채널은 묶음 토큰만 통과 (예: "풍자 또간집")</li>
+          <li><strong>박수식당 컨텍스트 필수</strong> — "박수" 있어도 식당/육회/사직/야구장 등 동반 없으면 제외</li>
           <li><strong>밈·비교 패턴</strong> — "브랜드랑 같은", "브랜드처럼" + 맥락 부족 → 제외
-            <br><span style="color:var(--text-muted);">예: "맘스터치랑 같은 사람인가" (수류탄 성능 테스트 영상)</span></li>
+            <br><span style="color:var(--text-muted);">예: "박수받았다" (응원/갈채 의미, 식당과 무관)</span></li>
           <li><strong>컨텍스트 마커 검증</strong> — 리뷰/먹방/매장/메뉴/시그니처 있으면 통과</li>
           <li><strong>댓글 교차 검증</strong> — 댓글 내 브랜드 언급률 &lt; 50% 이면 제외</li>
         </ol>
@@ -2644,7 +2644,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
         <table>
           <thead><tr><th>카드</th><th>의미</th></tr></thead>
           <tbody>
-            <tr><td>총 브랜드수</td><td>집계 중인 경쟁 브랜드 개수 (KFC + 경쟁사 9 + 멀티 = 11)</td></tr>
+            <tr><td>총 브랜드수</td><td>집계 중인 모니터링 대상 개수 (자사 1 + 경쟁사 9 + 멀티 = 11)</td></tr>
             <tr><td>총 영상수</td><td>수집 기간 내 전 브랜드 영상 합계</td></tr>
             <tr><td>총 조회수</td><td>전 영상 조회수 합계 (단위: 억/만/K 자동)</td></tr>
             <tr><td>🚨 주의 브랜드</td><td><strong>현재 yellow/red 워닝 중인 브랜드 수</strong>. 임원이 한눈에 신경써야 할 브랜드 개수 파악 (액션지표)</td></tr>
@@ -2667,7 +2667,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
         <dd>Official = 공식 채널 / Mega = 1M+ 구독 / Macro = 100K-1M / Micro = 10K-100K / Nano = 10K 미만</dd>
 
         <dt>🔀 멀티-브랜드</dt>
-        <dd>제목/설명에 2개 이상 브랜드 등장. KFC 포함 영상은 KFC+멀티 섹션만, 나머지는 멀티 섹션만 표시 (중복 방지).</dd>
+        <dd>제목/설명에 2개 이상 브랜드 등장. 자사 포함 영상은 자사+멀티 섹션만, 나머지는 멀티 섹션만 표시 (중복 방지).</dd>
 
         <dt>Refresh Tier</dt>
         <dd>영상 업로드 경과일 기준 — hot(≤3일), warm(3-7일), cold(7-14일), frozen(>14일). 주기적으로 다시 크롤.</dd>
@@ -2681,19 +2681,19 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     <section class="help-section" id="h-faq">
       <h2>❓ 자주 묻는 질문</h2>
       <details class="help-faq">
-        <summary>Q. 왜 KFC가 순위 6위인가요? 실제로는 잘하고 있는 것 같은데...</summary>
-        <p>기본 순위는 <strong>총 조회수 기준</strong>인데 맥도날드·맘스터치가 유튜브 광고 집행(억 단위)으로
+        <summary>Q. 자사 순위가 낮게 나오는데 잘하고 있는 게 맞나요?</summary>
+        <p>기본 순위는 <strong>총 조회수 기준</strong>인데 광고 집행이 큰 브랜드(KFC 등)가 유튜브 광고로
         수천만 조회를 찍어서 상위권. 하지만 <strong>자발 크리에이터 관심(🎤 Earned)</strong>에서는
-        KFC가 상위 2~3위 수준이라 브랜드 파워는 건재합니다. 광고비 투자 부족이 순위에 반영된 것.</p>
+        자사는 광고 의존도가 낮은 자발적 화제성 브랜드라 Earned 비율이 높음. 광고비 투자 부족이 순위에 반영된 것일 뿐.</p>
       </details>
       <details class="help-faq">
-        <summary>Q. 맥도날드 광고 한 편이 2,400만 뷰가 말이 되나요?</summary>
+        <summary>Q. 단일 광고 한 편이 수천만 뷰가 말이 되나요?</summary>
         <p>YouTube 인스트림/인피드 광고는 <strong>사용자가 광고 건너뛰기 전 잠깐 본 것도 조회수 1로 카운트</strong>합니다.
         TV CF + 유튜브 광고에 수억 투입하면 2천만 뷰 달성은 현실적입니다.</p>
       </details>
       <details class="help-faq">
         <summary>Q. 부정률이 왜 이렇게 들쑥날쑥한가요?</summary>
-        <p>교촌 40% = 실제 갑질 뉴스 때문 (진짜 부정). KFC 14% = 대부분 호의적 리뷰.
+        <p>특정 브랜드가 갑자기 부정 비율 높아지면 사건사고 가능성. 일반적으로 자사·T1·T2는 호의적 리뷰가 다수.
         한국어 슬랭 (폭력적=최고, 죽인다=최고) 자동 교정 적용 후 현실 반영.</p>
       </details>
       <details class="help-faq">
@@ -2703,8 +2703,8 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
         향후 자막 기반 고도화 예정.</p>
       </details>
       <details class="help-faq">
-        <summary>Q. 파파이스가 항상 0%인 이유?</summary>
-        <p>파파이스 한국 공식 채널은 <strong>2024년 4월 이후 2년째 업로드가 없습니다</strong>.
+        <summary>Q. 어떤 채널이 항상 0%인 이유?</summary>
+        <p>공식 채널 미운영(예: 박수식당) 또는 자사 신규 브랜드는 초기 데이터가 적음.
         크리에이터 자발 영상도 희박해서 실제 "데이터가 없는" 상태입니다.</p>
       </details>
       <details class="help-faq">
@@ -2725,53 +2725,60 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
           <table>
             <thead><tr><th>브랜드</th><th>매칭 키워드</th></tr></thead>
             <tbody>
-              <tr><td>🔴 <strong>KFC</strong></td>
-                  <td>KFC · 케이에프씨 · 케프씨 · 켄터키치킨 · 켄터키프라이드 · 할아버지치킨 · 커널샌더스
-                  <br><span style="color:var(--text-muted);">※ 메뉴 매칭 별도: 징거 · 통다리살 · 치즐링 · 트위스터 · 타워버거 · 갈릭징거 · 살라미 등</span></td></tr>
-              <tr><td>🟨 <strong>맥도날드</strong></td>
-                  <td>맥도날드 · 맥날 · 맥드 · 맥도 · 맥디 · 막도날드 · 맥날먹방 · 맥날버거 · McDonald('s) · Mcdonald · MacDonald · Mckdonald · Mickey D's · 미키디</td></tr>
-              <tr><td>🟧 <strong>버거킹</strong></td>
-                  <td>버거킹 · 버거 킹 · 버킹 · 벅킹 · 부거킹(오타) · Burger King · BK · <strong>와퍼 · 와퍼주니어</strong></td></tr>
-              <tr><td>🩷 <strong>롯데리아</strong></td>
-                  <td>롯데리아 · 롯리 · 롯데 · 리아버거 · 롯데리야(오타) · Lotteria</td></tr>
-              <tr><td>🟢 <strong>맘스터치</strong></td>
-                  <td>맘스터치 · 맘스 · 맘터 · 맘터치 · 맘치 · 맘스치킨 · 혜자터치 · Mom's Touch · <strong>싸이버거 · 싸이플렉스</strong></td></tr>
-              <tr><td>🔵 <strong>파파이스</strong></td>
-                  <td>파파이스 · 파파이 · 파핫 · Popeyes · Popeye's · <strong>케이준후라이</strong></td></tr>
-              <tr><td>🟣 <strong>서브웨이</strong></td>
-                  <td>서브웨이 · <strong>써브웨이</strong>(공식병기) · 써브 · 서브 · 섭웨이 · 섭웨 · 써배 · 서배 · Subway</td></tr>
-              <tr><td>🔷 <strong>BBQ</strong></td>
-                  <td>BBQ · 비비큐 · 비비큐치킨 · 비비규(오타) · B.B.Q · <strong>황금올리브 · 황올</strong></td></tr>
-              <tr><td>🟪 <strong>BHC</strong></td>
-                  <td>BHC · 비에이치씨 · 비에이치씨치킨 · 비에이치 · 비에이치치 · B.H.C · <strong>뿌링클 · 맛초킹</strong></td></tr>
-              <tr><td>🩵 <strong>교촌</strong></td>
-                  <td>교촌 · 교촌치킨 · Kyochon · <strong>허니콤보 · 레드콤보 · 교촌 허니 · 교촌 레드</strong></td></tr>
+              <tr><td>🔴 <strong>육회바른연어 (자사)</strong></td>
+                  <td>육회바른연어 · 육바연 · yukbayeon · yukba_yeon
+                  <br><span style="color:var(--text-muted);">※ 시그니처 메뉴: 육회연어국수 · 육회쫄면 · 육바연 3단 변신 세트 · 연어깍두기</span></td></tr>
+              <tr><td>⚔️ <strong>박수식당 (T1)</strong></td>
+                  <td>박수식당 · 사직 박수식당 · 사직야구장 박수식당 · 박수식당 미슐랭
+                  <br><span style="color:var(--text-muted);">※ '박수' 단독은 박수치다 의미 — 묶음 토큰만 통과</span></td></tr>
+              <tr><td>⚔️ <strong>79대포 (T1)</strong></td>
+                  <td>79대포 · 79 대포 · 79DAEPO · <strong>빠삭파전 · 빠삭리믹스 · 슬러시막걸리</strong></td></tr>
+              <tr><td>⚔️ <strong>달맞이광장바베큐 (T1)</strong></td>
+                  <td>달맞이광장바베큐 · 세광그린푸드 · 무보쇼
+                  <br><span style="color:var(--text-muted);">※ '달맞이꽃' 등 식물명 차단 — '광장+바베큐' 묶음 필수</span></td></tr>
+              <tr><td>🎓 <strong>KFC 코리아 (T2)</strong></td>
+                  <td>KFC · 케이에프씨 · <strong>켄치밥 · 징거버거 · 타워버거 · 트위스터</strong>
+                  <br><span style="color:var(--text-muted);">※ 해외 KFC 영상은 별도 차단</span></td></tr>
+              <tr><td>🎓 <strong>삼양 JohnMaat (T2)</strong></td>
+                  <td>JohnMaat · John_maat · 삼양 존맛 · 존맛 채널
+                  <br><span style="color:var(--text-muted);">※ '존맛' 단독(인터넷 슬랭)은 채널명 묶음만 통과</span></td></tr>
+              <tr><td>📺 <strong>참피디 (T3)</strong></td>
+                  <td>참피디 · Champd · cham_pd · 참피디 리뷰 · 참피디 기부</td></tr>
+              <tr><td>📺 <strong>홍사운드 (T3)</strong></td>
+                  <td>홍사운드 · HONGSOUND · 홍사운드 ASMR · 홍사운드 리얼사운드</td></tr>
+              <tr><td>📺 <strong>또간집/풍자 (T3)</strong></td>
+                  <td>또간집 · 풍자 또간집 · realyunnam · 재밌는 거 올라온다
+                  <br><span style="color:var(--text-muted);">※ '풍자' 단독(문학용어)은 또간집·풍자또간 묶음만 통과</span></td></tr>
+              <tr><td>📺 <strong>정육왕 (T3)</strong></td>
+                  <td>정육왕 · MEAT KING · MEAT_KING · 정육왕 추천 · 정육왕 한우</td></tr>
             </tbody>
           </table>
         </div>
         <p><strong>오탐 방지를 위해 제외한 키워드</strong>:</p>
         <ul>
-          <li><code>갓양념</code> — "갓"은 한국어 슬랭으로 너무 일반적 (갓성비·갓경수 등)</li>
-          <li><code>라이스버거</code> — 여러 브랜드가 사용 (롯데리아 전용 아님)</li>
-          <li><code>데리버거</code> — 일반 데리야키 버거와 혼동</li>
-          <li><code>상하이버거</code> — "상하이" 도시명과 혼동 가능</li>
+          <li><code>육회</code>·<code>연어</code> — 일반 식품명, 자사 식별엔 부적합 (메뉴명 묶음만)</li>
+          <li><code>박수</code> — 박수치다(applause) 의미와 혼동 — '박수식당' 묶음 필수</li>
+          <li><code>달맞이</code> — 달맞이꽃 등 식물명 — '달맞이광장+바베큐' 묶음 필수</li>
+          <li><code>존맛</code> — 인터넷 슬랭 (존나 맛있다) — 'JohnMaat' 채널명만 인정</li>
+          <li><code>풍자</code> — 문학용어 — '또간집·풍자 또간' 묶음만</li>
+          <li><code>BBQ</code> — 영어 barbecue (삼겹살·꽃등심 등) — 치킨 컨텍스트 필수</li>
         </ul>
         <p>또한 추가 필터 2단:</p>
         <ol>
           <li><strong>한글 비율 필터</strong>: 제목 한글 50% 이상 OR 한글 브랜드 토큰 포함 시 통과 (한·영 이중 제목 허용)</li>
-          <li><strong>해외 KFC 블랙리스트</strong>: "미국 KFC", "일본 KFC" 등 16개 해외 KFC 표현 포함 시 드롭</li>
+          <li><strong>해외 KFC 블랙리스트</strong>: T2 벤치마킹 KFC 의 해외 매장 영상은 드롭 (한국 KFC 코리아만)</li>
         </ol>
       </details>
     </section>
 
     <p class="help-foot">
-      질문·개선 제안: KFC IT/디지털 팀 · 최종 업데이트는 상단 날짜 확인
+      질문·개선 제안: 육회바른연어 운영팀 · 최종 업데이트는 상단 날짜 확인
     </p>
   </div>
 </div>
 
 <div class="footer">
-  <div>자동 생성 · KFC Korea Digital Tech · 검색엔진 비공개</div>
+  <div>자동 생성 · 육회바른연어 모니터링 · 검색엔진 비공개</div>
   <div class="gen-time" id="footer-time"></div>
 </div>
 
@@ -4505,7 +4512,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     container.innerHTML = rows.map(function(r) {
       var display = (data.brands[r.key] && data.brands[r.key].display) || r.key;
       var classes = 'mix-row' +
-        (r.key === 'kfc' ? ' kfc-row' : '') +
+        (r.key === 'yukbayeon' ? ' own-row' : '') +
         (r.key === selected ? ' selected-brand' : '');
       if (r.total <= 0) {
         return '<div class="' + classes + ' empty" data-brand="' + r.key + '" title="클릭 → 상단 KPI를 ' + display + ' 기준으로">' +
@@ -4624,7 +4631,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
                     : '<span class="neg-chip ' + negClass + '">' + r.neg.toFixed(1) + '%</span>';
       var ownedCell     = r.ownedSov     == null ? '<span style="color:var(--text-muted)">—</span>' : r.ownedSov.toFixed(1) + '%';
       var sponsoredCell = r.sponsoredSov == null ? '<span style="color:var(--text-muted)">—</span>' : r.sponsoredSov.toFixed(1) + '%';
-      var rowClasses = (r.key === 'kfc' ? 'kfc-row ' : '') + (r.key === selected ? 'selected-brand' : '');
+      var rowClasses = (r.key === 'yukbayeon' ? 'own-row ' : '') + (r.key === selected ? 'selected-brand' : '');
       return '<tr class="' + rowClasses + '" data-brand="' + r.key + '" title="클릭 → 상단 KPI를 ' + escapeHtml(r.brand) + ' 기준으로">' +
         '<td><span class="bench-rank">' + (idx + 1) + '</span>' + escapeHtml(r.brand) + '</td>' +
         '<td>' + r.videos + '</td>' +
@@ -4680,19 +4687,22 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     var textColor = getCSS('--text-secondary');
     var gridColor = getCSS('--chart-grid');
 
-    // 10개 브랜드 최대 대비 팔레트 — 색상환 균등 + 브랜드 아이덴티티 반영
-    // kfc=레드, burgerking=주황, mcdonalds=노랑 (사용자 지정), 나머지 고대비
+    // 10개 모니터링 대상 팔레트 — Tier 별 컬러 군집화
+    // own=레드(자사), t1=주황계열(직접 경쟁), t2=노랑·청록(벤치마킹), t3=청·보라(콘텐츠)
     var palette = {
-      kfc:        '#E4002B',  // 레드 (KFC 고유)
-      burgerking: '#F97316',  // 주황 (사용자 지정)
-      mcdonalds:  '#FACC15',  // 노랑 (사용자 지정)
-      lotteria:   '#EC4899',  // 핑크
-      momstouch:  '#22C55E',  // 그린
-      popeyes:    '#3B82F6',  // 블루
-      subway:     '#8B5CF6',  // 퍼플
-      bbq:        '#06B6D4',  // 시안
-      bhc:        '#A855F7',  // 바이올렛
-      kyochon:    '#14B8A6',  // 틸
+      yukbayeon:   '#E4002B',  // 자사 — 레드 (강조)
+      // T1 직접 경쟁 — 주황계열
+      baksoo:      '#F97316',  // 주황
+      daepo79:     '#F59E0B',  // 앰버
+      dalmaji_bbq: '#EAB308',  // 노랑-주황
+      // T2 벤치마킹 — 노랑·청록
+      kfc:         '#FACC15',  // 노랑 (KFC 코리아)
+      johnmaat:    '#14B8A6',  // 틸
+      // T3 콘텐츠 채널 — 청·보라
+      champd:      '#3B82F6',  // 블루
+      hongsound:   '#06B6D4',  // 시안
+      ttoganzip:   '#8B5CF6',  // 퍼플
+      meatking:    '#A855F7',  // 바이올렛
     };
 
     var splits = EXEC.splits || {};
@@ -5001,23 +5011,23 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
 
   function copyOneLiner() {
     var d = EXEC.latest; if (!d) return;
-    var kfc = d.brands.kfc || {};
+    var own = d.brands.yukbayeon || {};
     var cur = preparePesoSplits(d);
-    var kSp = cur.splits.kfc || { owned: 0, sponsored: 0, earned: 0, engagement: 0 };
+    var kSp = cur.splits.yukbayeon || { owned: 0, sponsored: 0, earned: 0, engagement: 0 };
     var ownedSov     = pct(kSp.owned, cur.totals.owned);
     var sponsoredSov = pct(kSp.sponsored, cur.totals.sponsored);
     var earnedSov    = pct(kSp.earned, cur.totals.earned);
     var engSov       = pct(kSp.engagement, cur.totals.engagement);
-    var rank = earnedRank(cur.splits, 'kfc');
-    var s = computeSentimentScore(kfc.sentiment_counts);
+    var rank = earnedRank(cur.splits, 'yukbayeon');
+    var s = computeSentimentScore(own.sentiment_counts);
     var alerts = computeAlerts(d);
-    var line = '[' + (d.date||'-') + ' · 최근 ' + (d.window_days||30) + '일] KFC ' +
+    var line = '[' + (d.date||'-') + ' · 최근 ' + (d.window_days||30) + '일] 육바연 ' +
       (rank||'-') + '/' + COMP_KEYS.length + '위 · 🏛 Owned ' +
       (cur.totals.owned>0 ? ownedSov.toFixed(1)+'%' : 'N/A') + ' · 🤝 Sponsored ' +
       (cur.totals.sponsored>0 ? sponsoredSov.toFixed(1)+'%' : 'N/A') + ' · 🎤 Earned ' +
       earnedSov.toFixed(1) + '% (⭐primary) · 💬 Engagement ' + engSov.toFixed(1) +
       '% · 감정 ' + (s!=null?(s*100).toFixed(0):'-') + ' · 부정률 ' +
-      ((kfc.negative_ratio||0)*100).toFixed(1) + '% · 이슈 ' + alerts.length + '건';
+      ((own.negative_ratio||0)*100).toFixed(1) + '% · 이슈 ' + alerts.length + '건';
     try {
       navigator.clipboard.writeText(line).then(function() {
         var btn = document.getElementById('btn-copy-summary');
