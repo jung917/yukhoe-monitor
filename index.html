@@ -3830,7 +3830,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     sortKey: 'views',     // v5: 기본 정렬을 총조회수로 (가장 직관적)
     sortDir: 'desc',
     splits: {},           // { brand_code: {paid, earned, engagement} } — computeTierSplit 캐시
-    selectedBrand: 'kfc', // v4: 클릭으로 KPI Strip 기준 브랜드 전환
+    selectedBrand: 'yukbayeon', // v4: 클릭으로 KPI Strip 기준 브랜드 전환
     period: 7,            // v5: 기본 7일 (로딩 빠름, 30일 선택 시 client-side 재계산)
     customFrom: null,     // v6: 기간 지정 모드
     customTo: null,
@@ -3901,7 +3901,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     return filtered;
   }
 
-  var COMP_KEYS = ['kfc','burgerking','mcdonalds','lotteria','momstouch','popeyes','subway','bbq','bhc','kyochon'];
+  var COMP_KEYS = ['yukbayeon','baksoo','daepo79','dalmaji_bbq','kfc','johnmaat','champd','hongsound','ttoganzip','meatking'];
 
   function safeFetch(url) {
     return fetch(url).then(function(r) { return r.ok ? r.json() : null; }).catch(function() { return null; });
@@ -4130,7 +4130,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     var resetBtn = document.getElementById('btn-reset-brand');
     if (resetBtn) {
       resetBtn.addEventListener('click', function() {
-        selectBrand('kfc');
+        selectBrand('yukbayeon');
       });
     }
   }
@@ -4165,7 +4165,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   }
 
   function computeAlerts(data, brandCode) {
-    var code = brandCode || 'kfc';
+    var code = brandCode || 'yukbayeon';
     var alerts = [];
     var brand = data.brands[code];
     if (!brand) return alerts;
@@ -4298,7 +4298,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   function _renderExecutiveView() {
     var data = getFilteredLatest();
     if (!data) return;
-    var selCode = EXEC.selectedBrand || 'kfc';
+    var selCode = EXEC.selectedBrand || 'yukbayeon';
     var sel = data.brands[selCode] || {};
     var selName = (sel.display) || selCode;
 
@@ -4470,7 +4470,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     // "← KFC로 돌아가기" 버튼 토글
     var btn = document.getElementById('btn-reset-brand');
     if (btn) {
-      if (brandCode !== 'kfc') {
+      if (brandCode !== 'yukbayeon') {
         btn.style.display = 'inline-flex';
         btn.innerHTML = '← 육바연으로 되돌리기';
       } else {
@@ -4508,7 +4508,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     rows.sort(function(a, b) { return b.sp.earned - a.sp.earned; });
 
     var data = getFilteredLatest();  // 기간 필터 반영
-    var selected = EXEC.selectedBrand || 'kfc';
+    var selected = EXEC.selectedBrand || 'yukbayeon';
     container.innerHTML = rows.map(function(r) {
       var display = (data.brands[r.key] && data.brands[r.key].display) || r.key;
       var classes = 'mix-row' +
@@ -4624,7 +4624,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     }
 
     var tbody = document.getElementById('bench-tbody');
-    var selected = EXEC.selectedBrand || 'kfc';
+    var selected = EXEC.selectedBrand || 'yukbayeon';
     tbody.innerHTML = rows.map(function(r, idx) {
       var negClass = r.neg == null ? '' : (r.neg > 30 ? 'danger' : (r.neg > 20 ? 'warn' : 'safe'));
       var negCell = r.neg == null ? '<span style="color:var(--text-muted)">—</span>'
@@ -4881,7 +4881,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     //  💚 가장 긍정적 (긍정비율 기준 Top 2)
     //  🚨 가장 부정적 (부정률 기준 Top 2)
     var data = getFilteredLatest();
-    var selCode = EXEC.selectedBrand || 'kfc';
+    var selCode = EXEC.selectedBrand || 'yukbayeon';
     var sel = data.brands[selCode] || {};
     var selName = sel.display || selCode;
 
