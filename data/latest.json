@@ -1,6 +1,279 @@
 {
   "date": "2026-04-25",
-  "status": "placeholder",
-  "brands": {},
-  "_note": "첫 데이터 수집 전. youtube_dashboard_build.py 실행 후 자동 갱신됨."
+  "generated_at": "2026-04-25 22:01:59",
+  "window_days": 30,
+  "data_earliest": "2026-04-20",
+  "data_latest": "2026-04-20",
+  "tiers": {
+    "own": {
+      "label": "자사",
+      "description": "자사 콘텐츠 반응 추적",
+      "brands": [
+        "yukbayeon"
+      ]
+    },
+    "t1": {
+      "label": "T1 직접 경쟁",
+      "description": "직접 파이/분위기를 위협하는 경쟁자 — 점유율 방어",
+      "brands": [
+        "baksoo",
+        "daepo79",
+        "dalmaji_bbq"
+      ]
+    },
+    "t2": {
+      "label": "T2 전략 벤치마킹",
+      "description": "다른 카테고리지만 마케팅 문법을 배울 대상",
+      "brands": [
+        "kfc",
+        "johnmaat"
+      ]
+    },
+    "t3": {
+      "label": "T3 콘텐츠 경쟁",
+      "description": "소비자 결정에 영향을 주는 미디어 — 신뢰도 기준점",
+      "brands": [
+        "champd",
+        "hongsound",
+        "ttoganzip",
+        "meatking"
+      ]
+    }
+  },
+  "brands": {
+    "yukbayeon": {
+      "display": "육회바른연어",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(데이터 없음)",
+      "videos": []
+    },
+    "baksoo": {
+      "display": "박수식당",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(데이터 없음)",
+      "videos": []
+    },
+    "daepo79": {
+      "display": "79대포",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(데이터 없음)",
+      "videos": []
+    },
+    "dalmaji_bbq": {
+      "display": "달맞이광장바베큐",
+      "video_count": 1,
+      "total_views": 54,
+      "total_likes": 3,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 1,
+      "tier_counts": {
+        "Nano": 1
+      },
+      "summary": "달맞이광장바베큐의 신메뉴와 프로모션에 대한 긍정적인 소비자 반응으로 인해 육회바른연어의 점유율과 매장 트래픽에 위협이 될 가능성이 있으며, 가격 경쟁력도 주목해야 한다. 즉시 대응 필요.\n  📌 신메뉴 · 긍정적 소비자 반응 · 가격 경쟁력",
+      "videos": [
+        {
+          "video_id": "iL2SqhJNAr0",
+          "title": "을지로3가역 먹고먹는 vlog l 안동장 아소토베이커리 달맞이광장바베큐",
+          "channel": "찌내",
+          "subscribers": 42,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 54,
+          "likes": 3,
+          "comment_count": 0,
+          "engagement_rate": 0.0556,
+          "duration": 311,
+          "is_short": false,
+          "buzz_score": 27.0,
+          "upload_date": "2026.04.20",
+          "url": "https://www.youtube.com/watch?v=iL2SqhJNAr0",
+          "description_excerpt": "중식좋아.",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "",
+          "video_meta_rating": 0,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        }
+      ],
+      "sentiment_counts": {
+        "neg": 0,
+        "neu": 0,
+        "pos": 0
+      },
+      "negative_ratio": 0.0,
+      "warning_level": "",
+      "transcript_sentiment_counts": {
+        "긍정": 0,
+        "부정": 0,
+        "중립": 0
+      },
+      "aspect_counts": {
+        "맛": {
+          "긍정": 0,
+          "부정": 0,
+          "중립": 0
+        },
+        "가격": {
+          "긍정": 0,
+          "부정": 0,
+          "중립": 0
+        },
+        "양": {
+          "긍정": 0,
+          "부정": 0,
+          "중립": 0
+        },
+        "서비스": {
+          "긍정": 0,
+          "부정": 0,
+          "중립": 0
+        },
+        "신메뉴": {
+          "긍정": 0,
+          "부정": 0,
+          "중립": 0
+        },
+        "매장": {
+          "긍정": 0,
+          "부정": 0,
+          "중립": 0
+        },
+        "배달": {
+          "긍정": 0,
+          "부정": 0,
+          "중립": 0
+        },
+        "앱_키오스크": {
+          "긍정": 0,
+          "부정": 0,
+          "중립": 0
+        },
+        "기타": {
+          "긍정": 0,
+          "부정": 0,
+          "중립": 0
+        }
+      },
+      "transcript_coverage": 0.0
+    },
+    "kfc": {
+      "display": "KFC 코리아",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(데이터 없음)",
+      "videos": []
+    },
+    "johnmaat": {
+      "display": "삼양 JohnMaat",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(데이터 없음)",
+      "videos": []
+    },
+    "champd": {
+      "display": "참피디",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(데이터 없음)",
+      "videos": []
+    },
+    "hongsound": {
+      "display": "홍사운드",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(데이터 없음)",
+      "videos": []
+    },
+    "ttoganzip": {
+      "display": "또간집(풍자)",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(데이터 없음)",
+      "videos": []
+    },
+    "meatking": {
+      "display": "정육왕",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(데이터 없음)",
+      "videos": []
+    },
+    "multi": {
+      "display": "🔀 멀티-브랜드 비교",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(해당 기간 비교 콘텐츠 없음)",
+      "videos": [],
+      "sentiment_counts": {
+        "neg": 0,
+        "neu": 0,
+        "pos": 0
+      },
+      "negative_ratio": 0.0,
+      "warning_level": "",
+      "is_multi_section": true
+    }
+  }
 }
