@@ -5,15 +5,43 @@
   "brands": {
     "yukbayeon": {
       "display": "육회바른연어",
-      "video_count": 0,
-      "total_views": 0,
+      "video_count": 1,
+      "total_views": 4,
       "total_likes": 0,
-      "total_comments": 0,
+      "total_comments": 1,
       "n_short": 0,
-      "n_long": 0,
-      "tier_counts": {},
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
-      "videos": []
+      "n_long": 1,
+      "tier_counts": {
+        "Nano": 1
+      },
+      "summary": "육회바른연어 메뉴 중 불닭마요연어깍두기와 육회비빔막국수에 대한 긍정적인 소감이 담긴 영상이 올라왔으나, 다른 음식들에 비해 자사 제품의 특별한 언급은 없으며, 이로 인해 매장 트래픽 증가 가능성은 낮아 보임. 그러나 소비자들의 긍정적 반응을 확인했으므로, 이를 활용한 마케팅 전략 수립이 필요하다.\n  📌 긍정적인 소감 · 매장 트래픽 증가 가능성 낮음 · 마케팅 전략 수립",
+      "videos": [
+        {
+          "video_id": "KcG1wVD7fno",
+          "title": "Vlog│가족들 한차례씩 앓고 간 b형독감무섭다(스타벅스텀블러벚꽃에디션언박싱,장사의신두쫀쿠,홍안동두마리찜닭,비빔밥,육회바른연어)",
+          "channel": "요것저것 알라홍",
+          "subscribers": 637,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 4,
+          "likes": 0,
+          "comment_count": 1,
+          "engagement_rate": 0.25,
+          "duration": 364,
+          "is_short": false,
+          "buzz_score": 8.5,
+          "upload_date": "2026.04.26",
+          "url": "https://www.youtube.com/watch?v=KcG1wVD7fno",
+          "description_excerpt": "📍 타임라인\n00:00 스타벅스 벚꽃에디션 텀블러 '모모레오텀블러' 473ml\n00:44 장사의신두쫀쿠\n01:05 두바이스타일디저트&묵은지한우곱창찜닭\n03:59 비빔밥 맛있다.\n04:43 육회바른연어(불닭마요연어깍두기&육회비빔막국수)\n\n\n🎨알라홍 인스타그램(그림일기계정) : @alahong_diary\n💌협업 문의 메일 : alahong@kakao.com",
+          "top_comments": [
+            {
+              "author": "@alahongs2",
+              "text": "안녕하세요, 알라홍입니다. \r\n\r\n요즘 일과 가정을 돌보며 상반기 목표인 자격증공부를 준비하다보니(한자3급.일본어)\n\n제 삶의 모든 부분을 다 통제하기가 어렵더라고요.\r\n\r\n그래서 유튜브는 잠시 쉬어가며 공부에 더 집중해 보려고 합니다. \r\n상반기 계획들을 잘 마무리하고, \r\n하반기에 여유가 생기면  다시 영상을 만들 힘을 얻어 돌아오겠습니다~\r\n\r\n보시는",
+              "likes": 0
+            }
+          ]
+        }
+      ]
     },
     "baksoo": {
       "display": "박수식당",
@@ -74,154 +102,63 @@
       "tier_counts": {
         "Mega": 1
       },
-      "summary": "참피디의 무젓게장이 소비자들 사이에서 긍정적인 반응을 얻고 있으며, 이는 육회바른연어와 유사한 시장 위치에 있는 자사 제품과 직접 비교될 가능성이 있다. 특히 가족이나 친구들과 함께 즐길 수 있는 특별 할인 프로모션으로 인해 매장 트래픽 증가를 견제해야 한다.\n  📌 무젓게장 · 긍정적 소비자 반응 · 특별 할인",
-      "videos": [
-        {
-          "video_id": "ct4zCrspAv8",
-          "title": "전설로 내려오는 무젓게장 직접 담가봤습니다.",
-          "channel": "애주가TV참PD",
-          "subscribers": 1510000,
-          "creator_tier": "Mega",
-          "is_verified": true,
-          "views": 53157,
-          "likes": 763,
-          "comment_count": 84,
-          "engagement_rate": 0.0159,
-          "duration": 1033,
-          "is_short": false,
-          "buzz_score": 59.6,
-          "upload_date": "2026.04.25",
-          "url": "https://www.youtube.com/watch?v=ct4zCrspAv8",
-          "description_excerpt": "간장게장 보다 맛있다는 전설의 무젓게장을 담가봤어요.\n\n참피디가 직접 운영하는 녹진이 특별 안주 할인몰\n핵이득마켓 구경가기 - https://ndns.shop/\n\n핵이득마켓 어플 다운로드\n안드로이드전용\n https://play.google.com/store/apps/details?id=com.cafe24.ec.plusndns2021\n아이폰전용\nhttps://apps.apple.com/kr/app/%ED%95%B5%EC%9D%B4%EB%93%9D%EB%A7%88%EC%BC%93/id1581544007\n\n참피디 Q&A 2025 최신판\n",
-          "top_comments": [
-            {
-              "author": "@김한결-n7m",
-              "text": "참피디) 게 딱지 뜯을때가 와이프 처음 만났을때보다 더 설렌다\n(실제로 한말)",
-              "likes": 55
-            },
-            {
-              "author": "@참",
-              "text": "쉿",
-              "likes": 15
-            },
-            {
-              "author": "@시샬라",
-              "text": "암꽃게 1인분 몇g정도 먹으면 적당해여?",
-              "likes": 10
-            },
-            {
-              "author": "@nang_art",
-              "text": "언제나 느끼지만 앞에 피디님 얼마나 먹고싶을까 맨날 와 와 하면서 찍기만 ㅋㅋㅋㅋ 넘 웃긴다 드시네? ㅋ",
-              "likes": 6
-            },
-            {
-              "author": "@에드워드뉴게이트-k4z",
-              "text": "얼음도 있었는데 찬물이 없었을리가...",
-              "likes": 4
-            }
-          ]
-        }
-      ]
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
     },
     "hongsound": {
       "display": "홍사운드",
-      "video_count": 2,
-      "total_views": 94117,
-      "total_likes": 1660,
-      "total_comments": 45,
-      "n_short": 1,
+      "video_count": 3,
+      "total_views": 175913,
+      "total_likes": 3069,
+      "total_comments": 82,
+      "n_short": 2,
       "n_long": 1,
       "tier_counts": {
-        "Official": 2
+        "Official": 3
       },
-      "summary": "홍사운드의 '마니커 바사삭 돼지 후라이드'와 '더블 노른자 간장계란밥'이 소비자들로부터 긍정적인 반응을 얻고 있으며, 특히 맛과 편리성에 대한 호평이 많아 육회바른연어의 점유율과 매장 트래픽에 위협이 될 가능성이 있다. 즉시 대응 필요.\n  📌 마니커 바사삭 돼지 후라이드 · 더블 노른자 간장계란밥 · 긍정적 소비자 반응",
+      "summary": "홍사운드의 '갓지은 창억떡'이 소비자들 사이에서 긍정적인 반응을 얻고 있으며, 이는 육회바른연어와 유사한 카테고리 내에서 경쟁력 있는 제품으로 인식되고 있음을 시사한다. 특히 홍사운드의 온라인 쇼핑몰과 네이버 스마트스토어를 통한 판매가 활발히 이루어지고 있어, 육회바른연어의 매장 트래픽에 즉각적인 위협 요소로 작용할 가능성이 있다.\n  📌 갓지은 창억떡 · 긍정적 반응 · 온라인 판매",
       "videos": [
         {
-          "video_id": "qZ7m4fTFTak",
-          "title": "집에서 이 튀김 맛이 나다니",
+          "video_id": "Ha9GHMy8S_M",
+          "title": "갓지은 창억떡을 먹어본 딸의 반응",
           "channel": "HONG SOUND",
           "subscribers": 1840000,
           "creator_tier": "Official",
           "is_verified": true,
-          "views": 14306,
-          "likes": 369,
-          "comment_count": 10,
-          "engagement_rate": 0.0265,
-          "duration": 45,
-          "is_short": true,
-          "buzz_score": 55.7,
-          "upload_date": "2026.04.25",
-          "url": "https://www.youtube.com/watch?v=qZ7m4fTFTak",
-          "description_excerpt": "마니커 바사삭 돼지 후라이드!\n생걱했던 것 보다 훨씬 맛있어요!!",
-          "top_comments": [
-            {
-              "author": "@patraschu",
-              "text": "나 어쩐지 이 쇼츠를 본 것만 같은 기분이 들어",
-              "likes": 9
-            },
-            {
-              "author": "@minari0507",
-              "text": "맥주~~~!!",
-              "likes": 2
-            },
-            {
-              "author": "@수지림-v5g",
-              "text": "아아아 이거로 덮밥 만들어서 먹고 싶어 파채까지 넣으면 존맛",
-              "likes": 1
-            },
-            {
-              "author": "@자기만의방",
-              "text": "개맛잇어보여요",
-              "likes": 1
-            },
-            {
-              "author": "@cepo2330",
-              "text": "영상이 방금 올라왔는데 품절;;",
-              "likes": 1
-            }
-          ]
-        },
-        {
-          "video_id": "y6bv5XUPRh8",
-          "title": "더블 노른자 간장계란밥",
-          "channel": "HONG SOUND",
-          "subscribers": 1840000,
-          "creator_tier": "Official",
-          "is_verified": true,
-          "views": 79811,
-          "likes": 1291,
-          "comment_count": 35,
+          "views": 54810,
+          "likes": 881,
+          "comment_count": 31,
           "engagement_rate": 0.0166,
-          "duration": 73,
-          "is_short": false,
-          "buzz_score": 51.3,
-          "upload_date": "2026.04.24",
-          "url": "https://www.youtube.com/watch?v=y6bv5XUPRh8",
+          "duration": 54,
+          "is_short": true,
+          "buzz_score": 58.1,
+          "upload_date": "2026.04.26",
+          "url": "https://www.youtube.com/watch?v=Ha9GHMy8S_M",
           "description_excerpt": "집가락 정품 구매하는 곳\n홍사운드몰 https://hongsound.shop/\n네이버 https://smartstore.naver.com/coffeechild/products/7688043656\n집가락이 특별한 이유 https://youtu.be/9KvCvdMSJ54\n\n홍사운드 플러스 채널(네츄럴 홍의 모습들) : https://www.youtube.com/channel/UCe8eXpQCaLaEiXOh2RxU_3A\n인스타그램(instagram) : https://www.instagram.com/hong_sound",
           "top_comments": [
             {
-              "author": "@차정현-h2m",
-              "text": "난 개인적으로 이거 뭔가 특유의 인공적인 형용할 수 없는 맛..? 때문에 거부감이 살짝 들던데 이거 어케 맛있게 먹음 ㅠ",
-              "likes": 64
+              "author": "@난배신자",
+              "text": "와 이번엔 그 이상한 아저씨가 나올 줄 알고 있었는데 깜작 놀랐네",
+              "likes": 30
             },
             {
-              "author": "@HONGSOUND",
-              "text": "아 저도! 그게 아마 마가린 같은 느끼한 저렴이 맛..?!",
-              "likes": 29
+              "author": "@patraschu",
+              "text": "이제 다음 영상은 남은 창억떡 먹는 병진이일까요?",
+              "likes": 20
             },
             {
-              "author": "@Kwonhan0-h1b",
-              "text": "이정도면 진짜 주말부부",
-              "likes": 9
+              "author": "@CcCcCcCcCcCcCc02",
+              "text": "똑같이 생겼어 ㅋㅋㅋㅋㅋ",
+              "likes": 16
             },
             {
-              "author": "@hyony01",
-              "text": "짬처리의 짬처리",
+              "author": "@감자떡-c7m",
+              "text": "광주사람입니다 창억떡 렌지에 돌려 먹으면 훨 맛있어요ㅠㅠ",
               "likes": 7
             },
             {
-              "author": "@nar_270",
-              "text": "이거 게 먹어야해요 ㄹㅈㄷ임\n난 그냥도 잘 먹는데 전날 홍게먹고 남은 살이랑 게장 비벼 먹었다가 극락 봄\n\n참고로 저 계란은 실온보관 및 유통을 위해? 마요네즈를 넣어서 유통기한 늘리고 보관도 용이하게 만듦\n그래서 일반적인 계란 맛이 아님",
+              "author": "@lululalazz",
+              "text": "이상한 아저씨ㅋㅋㅋㅋㅋㅋㅋㅋㅋ혹시 병진님 ㅠㅠ",
               "likes": 6
             }
           ]
@@ -230,177 +167,19 @@
     },
     "ttoganzip": {
       "display": "또간집(풍자)",
-      "video_count": 14,
-      "total_views": 11631,
+      "video_count": 15,
+      "total_views": 11641,
       "total_likes": 412,
       "total_comments": 59,
       "n_short": 2,
-      "n_long": 12,
+      "n_long": 13,
       "tier_counts": {
-        "Nano": 12,
+        "Nano": 13,
         "Macro": 1,
         "Micro": 1
       },
-      "summary": "또간집의 여러 지점에서 다양한 메뉴와 서비스를 소개하는 영상들이 유행하면서, 소비자들 사이에서 긍정적인 반응을 얻고 있다. 특히 파리 라 투르 다르장과 트히스탕 등 고급 와인과 샴페인을 취급하는 곳이 주목받아 자사의 프리미엄 이미지에 영향을 미칠 수 있다. 즉각적으로는 프리미엄 메뉴와 서비스 강화가 필요하다.\n  📌 라 투르 다르장 · 트히스탕 · 프리미엄 이미지",
+      "summary": "또간집(풍자)의 대파피자는 인기 메뉴로 소비자들 사이에서 긍정적인 반응을 얻고 있으며, 이는 육회바른연어와 유사한 피자 라인업과 직접 경쟁할 가능성이 있다. 그러나 아직까지 구체적인 신메뉴나 프로모션은 확인되지 않아 매장 트래픽에 대한 즉각적 위협은 미미하다.\n  📌 대파피자 · 긍정적 반응 · 매장 트래픽",
       "videos": [
-        {
-          "video_id": "jg2QVSwCfjU",
-          "title": "시부야 현지 직장인의 추천 또간집!!",
-          "channel": "토요일의 도쿄",
-          "subscribers": 102000,
-          "creator_tier": "Macro",
-          "is_verified": false,
-          "views": 6570,
-          "likes": 240,
-          "comment_count": 22,
-          "engagement_rate": 0.0399,
-          "duration": 626,
-          "is_short": false,
-          "buzz_score": 51.7,
-          "upload_date": "2026.04.25",
-          "url": "https://www.youtube.com/watch?v=jg2QVSwCfjU",
-          "description_excerpt": "시부야 현지 직장인이 추천해 준 이자카야!\n_\n토요일의 도쿄 지음, 도쿄 스팟 419곳 정리\n이렇게 즐거운 도쿄라니:)\n🫰🏻온라인 구매링크🫰🏻\n•교보문고 \nhttps://product.kyobobook.co.kr/detail/S000216158870\n•예스24\nhttps://www.yes24.com/product/goods/144130064\n•알라딘\nhttps://www.aladin.co.kr/shop/wproduct.aspx?ItemId=361299401\n\n🫶🏻오프라인🏃‍♀️💨\n전국 오프라인 서점 절찬 판매중!\n_\n| 우오마미레 ",
-          "top_comments": [
-            {
-              "author": "@MangoIcecream_",
-              "text": "역시 토요일의 시부야님",
-              "likes": 2
-            },
-            {
-              "author": "@guiltyspark343",
-              "text": "아 삿포로 쿠로라벨....\n저번주에 3박4일로 삿포로 다녀왔는데 진짜 진짜 맛있게 마신 맥주가 삿포로 쿠로라벨이랑 클래식이었는데....군침이 싹 돕니다.\n원래 기린이치방시보리를 가장 좋아했는데 바뀌었어요~ㅋㅋ 6캔 사둬서 천천히 즐길 생각입니다.\n그리고 야구를 좋아해서 차량 렌트해서 에스콘 필드 홋카이도도 다녀오고 오타루도 다녀오고 나름 알찬 여행이었습니다",
-              "likes": 2
-            },
-            {
-              "author": "@thomasji7614",
-              "text": "시부야에 가면 어디서 먹을지 아는데가 잘 없어서 고민되는 저에게 참으로 도움이 되는 영상이네요~ 나중에 꼭 가보고 싶습니다, 지금까지 소개해주신 다른 시부야의 식당들도 포함해서요 ㅎㅎㅎ 오늘도 알찬 영상 감사합니다, 좋은 주말 보내세요!",
-              "likes": 1
-            },
-            {
-              "author": "@HotaTravel",
-              "text": "삿포로 4일다녀왔는데 맨날 로바타야키랑 마트식품코너 회만 사먹다보니 막상 초밥은 못먹었네요 도쿄가면 여기지점아니더라도 다른지점이라도 가봐야겠어요 삿포로맥주 클래식 너무 땡기는 토요일오후입니다..\n그나저나 금눈돔이 요즘 철인가봐요 스페셜메뉴에 항상들어가있던데 ㅎㅎ",
-              "likes": 1
-            },
-            {
-              "author": "@sung_mxn",
-              "text": "드디어 도쿄 오랜만에 갑니다. 골든위크 끝나자마자!\n안식년 휴가때 도쿄 한 달 살까봐요. 토도 코스 박박 긁어서 맛보기 😅",
-              "likes": 1
-            }
-          ]
-        },
-        {
-          "video_id": "gQX0WNLXnxc",
-          "title": "와인만 30만병 \"라 투르 다정\" 벌써 4번째 방문 파리 또간집🍷 feat. 현주영 소믈리에",
-          "channel": "France wayo",
-          "subscribers": 42100,
-          "creator_tier": "Micro",
-          "is_verified": false,
-          "views": 4658,
-          "likes": 134,
-          "comment_count": 20,
-          "engagement_rate": 0.0331,
-          "duration": 602,
-          "is_short": false,
-          "buzz_score": 50.1,
-          "upload_date": "2026.04.25",
-          "url": "https://www.youtube.com/watch?v=gQX0WNLXnxc",
-          "description_excerpt": "파리 또간집 라 투르 다정 영상을 또 가져왔습니다.\n이번에는 많은 사랑을 받고있는 샴페인 생산자 트히스탕과 다녀왔는데요.\n현주영쏨의 추천과 서비스까지 즐겁게 즐기고 왔습니다.\n\n📌La Tour d'Argent\nhttps://maps.app.goo.gl/Gr39cdAzvjs72Ehf9\n\n⬇️프랑스와요 추천 와인 보러가기⬇️\nhttps://www.francewayo.com/\n프랑스에서 현지에서 소개하는 와인\n\n⬇️프랑스와요 오픈채팅방입니다.\nhttps://open.kakao.com/o/gtP5eSzg\n주민여러분들과 편하게 와인이야기 나",
-          "top_comments": [
-            {
-              "author": "@Marlangyi",
-              "text": "라 투르 다르장은 영상은 추천이죠 ㅎㅎ",
-              "likes": 2
-            },
-            {
-              "author": "@YoungjunKim-c1i",
-              "text": "역시 트히스텅도 좋은 피노를 좋아하네요! ㅎㅎㅎ",
-              "likes": 2
-            },
-            {
-              "author": "@hansolobae",
-              "text": "오 트히스텅 아저씨랑 같이 가신 건가요? (맞나...) 뷰가 정말 좋습니다!!",
-              "likes": 2
-            },
-            {
-              "author": "@나파죽돌이",
-              "text": "저런 올빈은 얼마정도 하나요!?",
-              "likes": 1
-            },
-            {
-              "author": "@위커파크",
-              "text": "크~~~굿굿ㅋㅋㅋ",
-              "likes": 1
-            }
-          ]
-        },
-        {
-          "video_id": "dYU1iMylfFs",
-          "title": "🇨🇦 2년차 프로 워홀러의 찐 또간집 🇨🇦 (짜장면 편)",
-          "channel": "Soyotime",
-          "subscribers": 1430,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 155,
-          "likes": 9,
-          "comment_count": 4,
-          "engagement_rate": 0.0839,
-          "duration": 629,
-          "is_short": false,
-          "buzz_score": 33.1,
-          "upload_date": "2026.04.24",
-          "url": "https://www.youtube.com/watch?v=dYU1iMylfFs",
-          "description_excerpt": "2년간 토론토에서 열심히 먹어봤어요\n다 최소 3번 이상은 간 곳입니다!\n즐겁게 봐주세요\n\n[ 타임라인 ]\n00:00 Intro\n00:34 세인트로렌스 마켓\n02:24 풍문\n03:09 Coffee Lunar\n03:59 Bitters & Bloom\n05:35 Dark Horse Espresso Bar\n06:39 Pho Tien Thanh\n07:51 북경성\n08:43 PAI\n\n📍 St. Lawrence Market 세인트 로렌스 마켓\nhttps://maps.app.goo.gl/W3qgxoBfuufYEz4x8\n\n📍Poong Moon 풍문\n",
-          "top_comments": [
-            {
-              "author": "@ariel8492",
-              "text": "또간집 젤조아!",
-              "likes": 0
-            },
-            {
-              "author": "@마동이-g7z",
-              "text": "소또먹",
-              "likes": 0
-            }
-          ]
-        },
-        {
-          "video_id": "S-EfN7JcSRg",
-          "title": "[먹어볼게요]@킹받지안 한돈 돼지갈비🐖🥓🍗먹으러가서 냉면🍜만  먹는 애👧🏻",
-          "channel": "킹받지안",
-          "subscribers": 109,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 44,
-          "likes": 6,
-          "comment_count": 0,
-          "engagement_rate": 0.1364,
-          "duration": 161,
-          "is_short": false,
-          "buzz_score": 30.6,
-          "upload_date": "2026.04.24",
-          "url": "https://www.youtube.com/watch?v=S-EfN7JcSRg",
-          "description_excerpt": "✅성남 한돈 돼지갈비_한양 본 갈비(경기 성남시 수정구 수정로257번길 1)\n✅아이동반식사하기좋아요_고기구워서나옵니다\n✅#내돈내먹#돼지고기#숯불고기 \n✅ #아이랑가볼만한곳 #일상 #추천 #맛집#먹어볼게요#외식#성남맛집 #또간집#아이동반식당#브이로그 #kfood #kpop#seoul #shorts",
-          "top_comments": []
-        },
-        {
-          "video_id": "oKK77pAHM8Q",
-          "title": "🤧감기 그까이꺼..에 죽을 수도 있겠구나.. 퇴치해주겠다..",
-          "channel": "후룹희",
-          "subscribers": 369,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 39,
-          "likes": 4,
-          "comment_count": 0,
-          "engagement_rate": 0.1026,
-          "duration": 569,
-          "is_short": false,
-          "buzz_score": 30.5,
-          "upload_date": "2026.04.24",
-          "url": "https://www.youtube.com/watch?v=oKK77pAHM8Q",
-          "description_excerpt": "안녕하세요 여러분\n한주 잘 보내셨나요?🌸\n저는 짝꿍에게 아주 독한 감기에 옮아서\n2주 내내 골골골 거렸네요\n여러분은 감기 걸리지 마세오.. 진ㅉ ㅏ 루..⭐️\n\n끝까지 병원안가고 보양식 먹어서\n낫겟다는 몽총한 생각한 저구요\n오리 백숙은 너무 맛있었구요💗\n맛집이니 경기러 or 인천러분 꼭 가보세오!!(추천)\n처음 갔는데 맛나서 또간집으로 설정될 예정\n\n맛집 정보\n오리 농원\n(경기 김포시 중봉로33번길 4-9)\nhttps://naver.me/F884vDK1\n백숙 만드는데 시간이 꽤 소요되니 가기 전, 꼭 예약하고 가세요! \n\n김포 장릉",
-          "top_comments": []
-        },
         {
           "video_id": "vUBFKQJLiJM",
           "title": "먹빵 +일상 vlog☠️ep.19 l 집에서 맨날 먹는 취준생 l 🥠트러플크림찜닭, 국물뼈찜🌶️, 제육볶음🐷, 꿔바로우, 죠리퐁, 베스킨라빈스🍦 l 먹는 게 인생에서 최고 행복해",
@@ -599,6 +378,25 @@
           "upload_date": "2026.04.25",
           "url": "https://www.youtube.com/watch?v=ojaXh2jsObk",
           "description_excerpt": "안녕하새요 지난 겨울\n두아이와 함께 속초여행을 다녀왔어요.\n\n1일차 또간집에 나온 송정희어머니순두부, 스테이오롯이, 한화리조트 설악쏘라노, 속초해수욕장 속초아이, 속초중앙시장\n\n2일차 설악워터피아, 나폴리아, 속초하나로마트\n\n3일차 황대구탕, 가평 금계닭갈비, 자잠157\n등을 방문했습니다\n\n부족하지만 시청해주셔서 감사합니다",
+          "top_comments": []
+        },
+        {
+          "video_id": "qGDpOP4dhg4",
+          "title": "나혼자 일산 🍕또간집 포폴로피자 먹으러 출동! 낮술 그리고 또 먹....",
+          "channel": "소비온",
+          "subscribers": 6,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 10,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 378,
+          "is_short": false,
+          "buzz_score": 7.1,
+          "upload_date": "2026.04.25",
+          "url": "https://www.youtube.com/watch?v=qGDpOP4dhg4",
+          "description_excerpt": "어쩌다보니 먹고 걷고 먹고....하다 끝난 일산 나들이.",
           "top_comments": []
         },
         {
