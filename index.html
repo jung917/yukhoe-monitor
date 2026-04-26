@@ -1595,6 +1595,18 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   color: white;
   font-weight: 700;
 }
+/* "전체" 칩 시각 구분 — 항상 오른쪽 구분선 */
+.brand-quick button.qb-all {
+  margin-right: 6px;
+  border-right: 1px solid var(--border);
+  padding-right: 12px;
+  border-radius: 6px 0 0 6px;
+  font-weight: 600;
+}
+.brand-quick button.qb-all.active {
+  background: var(--text-secondary);
+  color: var(--bg-primary);
+}
 .mix-badge.pri-owned     { border-left-color: var(--peso-owned); }
 .mix-badge.pri-sponsored { border-left-color: var(--peso-sponsored); }
 .mix-badge.pri-earned    { border-left-color: var(--peso-earned); }
@@ -2087,17 +2099,18 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
         <button type="button" data-period="30">30일</button>
         <button type="button" data-period="custom">기간 지정</button>
       </span>
-      <!-- ★ 2026-04-26 추가: 기간 옆 브랜드 빠른 선택 (3자 약자) -->
-      <span class="brand-quick" id="brand-quick" role="group" aria-label="브랜드 빠른 선택">
+      <!-- ★ 2026-04-26 다중 토글 + 전체 칩 -->
+      <span class="brand-quick" id="brand-quick" role="group" aria-label="브랜드 다중 선택">
+        <button type="button" data-brand="__all__"     class="qb qb-all active" title="전체 9개 브랜드">전체</button>
         <button type="button" data-brand="yukbayeon"   class="qb active" title="육회바른연어">육바연</button>
-        <button type="button" data-brand="baksoo"      class="qb" title="박수식당">박수</button>
-        <button type="button" data-brand="daepo79"     class="qb" title="79대포">79대</button>
-        <button type="button" data-brand="dalmaji_bbq" class="qb" title="달맞이광장바베큐">달맞</button>
-        <button type="button" data-brand="johnmaat"    class="qb" title="삼양 JohnMaat">존맛</button>
-        <button type="button" data-brand="champd"      class="qb" title="참피디">참피</button>
-        <button type="button" data-brand="hongsound"   class="qb" title="홍사운드">홍사</button>
-        <button type="button" data-brand="ttoganzip"   class="qb" title="또간집(풍자)">또간</button>
-        <button type="button" data-brand="meatking"    class="qb" title="정육왕">정육</button>
+        <button type="button" data-brand="baksoo"      class="qb active" title="박수식당">박수</button>
+        <button type="button" data-brand="daepo79"     class="qb active" title="79대포">79대</button>
+        <button type="button" data-brand="dalmaji_bbq" class="qb active" title="달맞이광장바베큐">달맞</button>
+        <button type="button" data-brand="johnmaat"    class="qb active" title="삼양 JohnMaat">존맛</button>
+        <button type="button" data-brand="champd"      class="qb active" title="참피디">참피</button>
+        <button type="button" data-brand="hongsound"   class="qb active" title="홍사운드">홍사</button>
+        <button type="button" data-brand="ttoganzip"   class="qb active" title="또간집(풍자)">또간</button>
+        <button type="button" data-brand="meatking"    class="qb active" title="정육왕">정육</button>
       </span>
       <span class="date-range exec-date-range" id="exec-date-range" style="display:none;">
         <input type="date" id="exec-date-from">
@@ -4531,21 +4544,54 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   function selectBrand(code) {
     if (!code || !COMP_KEYS.indexOf || COMP_KEYS.indexOf(code) < 0) return;
     EXEC.selectedBrand = code;
-    // ★ 2026-04-26: 브랜드 빠른 선택 칩 active 토글
-    document.querySelectorAll('.brand-quick button.qb').forEach(function(b) {
-      b.classList.toggle('active', b.dataset.brand === code);
-    });
     renderExecutiveView();
   }
 
-  // ★ 2026-04-26 추가: 브랜드 빠른 선택 칩 클릭 이벤트 wire
+  // ★ 2026-04-26: 다중 브랜드 토글 + "전체" 칩
+  // selectedBrands = active 인 브랜드 Set. 단일 선택 시에는 selectedBrand 도 갱신.
+  EXEC.selectedBrands = new Set(['yukbayeon','baksoo','daepo79','dalmaji_bbq','johnmaat','champd','hongsound','ttoganzip','meatking']);
+
+  function syncQuickChips() {
+    var all = document.querySelector('.brand-quick button.qb-all');
+    var allOn = EXEC.selectedBrands.size === COMP_KEYS.length;
+    if (all) all.classList.toggle('active', allOn);
+    document.querySelectorAll('.brand-quick button.qb:not(.qb-all)').forEach(function(b) {
+      b.classList.toggle('active', EXEC.selectedBrands.has(b.dataset.brand));
+    });
+  }
+
+  function toggleBrand(code) {
+    if (code === '__all__') {
+      // 전체 토글: 모두 active 면 → 모두 해제 / 그 외 → 모두 active
+      var allOn = EXEC.selectedBrands.size === COMP_KEYS.length;
+      if (allOn) {
+        EXEC.selectedBrands = new Set();
+      } else {
+        EXEC.selectedBrands = new Set(COMP_KEYS);
+      }
+    } else {
+      if (EXEC.selectedBrands.has(code)) {
+        EXEC.selectedBrands.delete(code);
+      } else {
+        EXEC.selectedBrands.add(code);
+        // 단일 선택 모드 호환: 마지막 클릭 브랜드를 selectedBrand 로
+        EXEC.selectedBrand = code;
+      }
+    }
+    syncQuickChips();
+    // 다중 선택 결과를 페이지에 반영 — 일단 renderExecutiveView 호출
+    // (추가 필터링 효과는 추후 확장)
+    renderExecutiveView();
+  }
+
   document.addEventListener('DOMContentLoaded', function() {
     var qbs = document.querySelectorAll('.brand-quick button.qb');
     qbs.forEach(function(btn) {
       btn.addEventListener('click', function() {
-        selectBrand(btn.dataset.brand);
+        toggleBrand(btn.dataset.brand);
       });
     });
+    syncQuickChips();
   });
 
   function renderContentMix() {
