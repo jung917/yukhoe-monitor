@@ -1566,6 +1566,35 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   color: white;
   font-weight: 600;
 }
+
+/* ★ 2026-04-26 추가: 브랜드 빠른 선택 (3자 약자) */
+.brand-quick {
+  display: inline-flex;
+  gap: 2px;
+  margin-left: 10px;
+  background: var(--bg-card-hover);
+  border-radius: 8px;
+  padding: 2px;
+  flex-wrap: wrap;
+}
+.brand-quick button.qb {
+  background: transparent;
+  border: none;
+  color: var(--text-secondary);
+  padding: 3px 8px;
+  font-size: 0.72rem;
+  font-weight: 500;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s;
+  min-width: 32px;
+}
+.brand-quick button.qb:hover { color: var(--text-primary); background: var(--bg-card); }
+.brand-quick button.qb.active {
+  background: var(--accent);
+  color: white;
+  font-weight: 700;
+}
 .mix-badge.pri-owned     { border-left-color: var(--peso-owned); }
 .mix-badge.pri-sponsored { border-left-color: var(--peso-sponsored); }
 .mix-badge.pri-earned    { border-left-color: var(--peso-earned); }
@@ -2057,6 +2086,18 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
         <button type="button" data-period="14">14일</button>
         <button type="button" data-period="30">30일</button>
         <button type="button" data-period="custom">기간 지정</button>
+      </span>
+      <!-- ★ 2026-04-26 추가: 기간 옆 브랜드 빠른 선택 (3자 약자) -->
+      <span class="brand-quick" id="brand-quick" role="group" aria-label="브랜드 빠른 선택">
+        <button type="button" data-brand="yukbayeon"   class="qb active" title="육회바른연어">육바연</button>
+        <button type="button" data-brand="baksoo"      class="qb" title="박수식당">박수</button>
+        <button type="button" data-brand="daepo79"     class="qb" title="79대포">79대</button>
+        <button type="button" data-brand="dalmaji_bbq" class="qb" title="달맞이광장바베큐">달맞</button>
+        <button type="button" data-brand="johnmaat"    class="qb" title="삼양 JohnMaat">존맛</button>
+        <button type="button" data-brand="champd"      class="qb" title="참피디">참피</button>
+        <button type="button" data-brand="hongsound"   class="qb" title="홍사운드">홍사</button>
+        <button type="button" data-brand="ttoganzip"   class="qb" title="또간집(풍자)">또간</button>
+        <button type="button" data-brand="meatking"    class="qb" title="정육왕">정육</button>
       </span>
       <span class="date-range exec-date-range" id="exec-date-range" style="display:none;">
         <input type="date" id="exec-date-from">
@@ -4490,8 +4531,22 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   function selectBrand(code) {
     if (!code || !COMP_KEYS.indexOf || COMP_KEYS.indexOf(code) < 0) return;
     EXEC.selectedBrand = code;
+    // ★ 2026-04-26: 브랜드 빠른 선택 칩 active 토글
+    document.querySelectorAll('.brand-quick button.qb').forEach(function(b) {
+      b.classList.toggle('active', b.dataset.brand === code);
+    });
     renderExecutiveView();
   }
+
+  // ★ 2026-04-26 추가: 브랜드 빠른 선택 칩 클릭 이벤트 wire
+  document.addEventListener('DOMContentLoaded', function() {
+    var qbs = document.querySelectorAll('.brand-quick button.qb');
+    qbs.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        selectBrand(btn.dataset.brand);
+      });
+    });
+  });
 
   function renderContentMix() {
     var splits = EXEC.splits || {};
