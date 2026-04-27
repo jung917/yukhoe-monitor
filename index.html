@@ -3905,10 +3905,15 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     var cutoff, endCut;
     if (EXEC.period === 'custom' && EXEC.customFrom && EXEC.customTo) {
       cutoff = new Date(EXEC.customFrom);
+      cutoff.setHours(0, 0, 0, 0);  // ★ 2026-04-27 fix: 자정 기준
       endCut = new Date(EXEC.customTo);
-      endCut.setHours(23, 59, 59);
+      endCut.setHours(23, 59, 59, 999);
     } else {
+      // ★ 2026-04-27 fix: 현재 시각이 아니라 오늘 자정에서 N일 전 자정으로 cutoff
+      // 이전: 04.27 14:30 - 7일 = 04.20 14:30 → 04.20 00:00 영상 drop
+      // 수정: 04.27 00:00 - 7일 = 04.20 00:00 → 04.20 영상 정상 포함
       cutoff = new Date();
+      cutoff.setHours(0, 0, 0, 0);
       cutoff.setDate(cutoff.getDate() - EXEC.period);
       endCut = null;
     }
