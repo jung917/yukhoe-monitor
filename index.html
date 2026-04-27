@@ -2094,6 +2094,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     <div class="exec-meta">
       <span id="exec-baseline-wrap" style="display:none;">비교 기준 <strong id="exec-baseline">-</strong></span>
       <span class="period-toggle" id="period-toggle" role="group" aria-label="기간 필터">
+        <button type="button" data-period="all">전체</button>
         <button type="button" data-period="7" class="active">최근 7일</button>
         <button type="button" data-period="14">14일</button>
         <button type="button" data-period="30">30일</button>
@@ -4062,18 +4063,29 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       });
     });
 
-    // 기간 필터 토글 (7/14/30일 + 기간 지정)
+    // 기간 필터 토글 (전체/7/14/30일 + 기간 지정)
     document.querySelectorAll('#period-toggle button').forEach(function(btn) {
       btn.addEventListener('click', function() {
         var p = btn.getAttribute('data-period');
         var range = document.getElementById('exec-date-range');
         if (p === 'custom') {
-          // 기간 지정 모드
           EXEC.period = 'custom';
           document.querySelectorAll('#period-toggle button').forEach(function(b) {
             b.classList.toggle('active', b === btn);
           });
           if (range) range.style.display = 'inline-flex';
+          return;
+        }
+        // ★ 2026-04-27 추가: '전체' = period=null → getFilteredLatest 가 전체 리턴
+        if (p === 'all') {
+          EXEC.period = null;
+          EXEC.customFrom = null;
+          EXEC.customTo = null;
+          if (range) range.style.display = 'none';
+          document.querySelectorAll('#period-toggle button').forEach(function(b) {
+            b.classList.toggle('active', b === btn);
+          });
+          renderExecutiveView();
           return;
         }
         var num = parseInt(p, 10);
