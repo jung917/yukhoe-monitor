@@ -82,9 +82,9 @@
     "hongsound": {
       "display": "홍사운드",
       "video_count": 2,
-      "total_views": 109661,
-      "total_likes": 1768,
-      "total_comments": 49,
+      "total_views": 136832,
+      "total_likes": 2452,
+      "total_comments": 58,
       "n_short": 2,
       "n_long": 0,
       "tier_counts": {
@@ -95,111 +95,128 @@
     },
     "ttoganzip": {
       "display": "또간집(풍자)",
-      "video_count": 10,
-      "total_views": 22798,
-      "total_likes": 492,
-      "total_comments": 79,
-      "n_short": 1,
-      "n_long": 9,
+      "video_count": 15,
+      "total_views": 23967,
+      "total_likes": 514,
+      "total_comments": 82,
+      "n_short": 2,
+      "n_long": 13,
       "tier_counts": {
-        "Nano": 8,
+        "Nano": 13,
         "Macro": 1,
         "Micro": 1
       },
-      "summary": "또간집에서 돈까스와 순두부 등 다양한 메뉴를 선보이며 웨이팅 현상까지 발생시키고 있어, 육회바른연어의 점유율과 매장 트래픽에 대해 경쟁력 있는 위협 요소로 작용하고 있다. 특히 소비자들의 긍정적인 반응은 자사와 비교해 우위를 보이고 있으며, 즉시 대응이 필요하다.\n  📌 웨이팅 · 긍정적 소비자 반응 · 다양한 메뉴",
+      "summary": "또간집(풍자)은 주로 차슈동과 라멘을 중심으로 한 메뉴를 제공하며, 특히 차슈동의 양념이 과하지 않아 고기 풍미와 잘 어울린다는 긍정적인 평가를 받고 있다. 그러나 이 영상들은 육회바른연어와 직접 비교되는 부분은 명확히 드러나지 않았으며, 주로 기존에 방문했던 곳을 다시 찾는 소비자들의 리뷰가 중심이다. 그럼에도 불구하고 차슈동의 맛과 품질이 긍정적으로 언급되어 육회바른연어와의 경쟁에서 즉시 대응 전략을 고려해야 할 필요성이 있다.\n  📌 차슈동 · 양념 · 재방문",
       "videos": [
         {
-          "video_id": "JGRabL36wIA",
-          "title": "또간집",
-          "channel": "Qwrt Y",
-          "subscribers": 49,
+          "video_id": "Jwrv6YgzXjo",
+          "title": "수원 라멘 맛집 또간집 특차슈동 먹으면... #맛집 #일식 #또간집 #라멘 #shorts",
+          "channel": "핏플로드 Fit Place Road",
+          "subscribers": 7,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 43,
-          "likes": 0,
+          "views": 1050,
+          "likes": 4,
+          "comment_count": 1,
+          "engagement_rate": 0.0048,
+          "duration": 25,
+          "is_short": true,
+          "buzz_score": 46.2,
+          "upload_date": "2026.04.27",
+          "url": "https://www.youtube.com/watch?v=Jwrv6YgzXjo",
+          "description_excerpt": "🇰🇷 한국어 리뷰\n주문 메뉴\n특 차슈동 11,000원\n계란 추가 1,000원\n라멘으로 유명한 키와마루아지지만,\n여기 차슈동도 진짜 잘한다.\n양념이 과하게 달지 않아서 전혀 물리지 않고,\n고기 풍미랑 밥이 잘 어울린다.\n특히 계란 퀄리티가 좋아서 추가하길 잘했다는 생각이 들었다.\n여기는 기본적으로 밥이 무한 리필이라\n차슈랑 밥 조합 좋아하는 사람들에겐 진짜 만족도 높다.\n라멘이 맛있는 집인데\n차슈동까지 잘하는 집이라는 게 가장 큰 장점.\n\n⭐ 별점 : 4.5 / 5\n📍 경기 수원시 장안구 율전동 408-1\n\n🔖 해시태그 (40)\n\n#",
+          "top_comments": [
+            {
+              "author": "@핏플로드FitPlaceRoad",
+              "text": "🇰🇷 한국어 리뷰\r\n주문 메뉴\r\n특 차슈동 11,000원\r\n계란 추가 1,000원\r\n라멘으로 유명한 키와마루아지지만,\r\n여기 차슈동도 진짜 잘한다.\r\n양념이 과하게 달지 않아서 전혀 물리지 않고,\r\n고기 풍미랑 밥이 잘 어울린다.\r\n특히 계란 퀄리티가 좋아서 추가하길 잘했다는 생각이 들었다.\r\n여기는 기본적으로 밥이 무한 리필이라\r\n차슈랑 밥 조합 좋아하는",
+              "likes": 0
+            }
+          ]
+        },
+        {
+          "video_id": "2RtoFi_gy0A",
+          "title": "당일치기 대전 vlog | 한 달 만에 또 간 대전 | 빵집, 카페, 맛집 중에 또간집만 모았어요 💘 | 대전 당일치기 완벽 코스 공유",
+          "channel": "joozero 주제로",
+          "subscribers": 5630,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 57,
+          "likes": 5,
           "comment_count": 0,
-          "engagement_rate": 0.0,
-          "duration": 7121,
+          "engagement_rate": 0.0877,
+          "duration": 753,
           "is_short": false,
-          "buzz_score": 8.9,
-          "upload_date": "2026.04.26",
-          "url": "https://www.youtube.com/watch?v=JGRabL36wIA",
+          "buzz_score": 37.4,
+          "upload_date": "2026.04.27",
+          "url": "https://www.youtube.com/watch?v=2RtoFi_gy0A",
+          "description_excerpt": "#대전여행브이로그 #당일치기대전 \n#대전브이로그 #국내여행 #당일치기여행 \n\n안녕하세요!\n한 달만에 또 대전에 다녀왔어요 😗\n같이간 친구가 대전이 처음이라 \n이번엔 새로운 곳 보다 기존에 좋았던 또간집 위주로 다녀왔어요.\n이번 영상도 시청해주셔서 감사합니다!\n\n저는 며칠 안에 용산 영상으로 돌아올게요!",
+          "top_comments": []
+        },
+        {
+          "video_id": "vrGhtaOLXUo",
+          "title": "토론토의 또간집|캐나다 세금 보고까지 |오싱턴 맛집| 토론토 이자카야 맛집| #ossington#churchstreet #캐나다워홀 #torontolife #토론토맛집 #캐나다세금",
+          "channel": "초히CHOHEE",
+          "subscribers": 1630,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 33,
+          "likes": 4,
+          "comment_count": 0,
+          "engagement_rate": 0.1212,
+          "duration": 587,
+          "is_short": false,
+          "buzz_score": 34.1,
+          "upload_date": "2026.04.27",
+          "url": "https://www.youtube.com/watch?v=vrGhtaOLXUo",
           "description_excerpt": "nan",
           "top_comments": []
         },
         {
-          "video_id": "UJR782x7ZBw",
-          "title": "또간집 분당편 나도 따라먹기+미금 분조카🥓예돈돈까스,웨이팅,돈멜,제주근고기,묵사발,된장술밥,브림커피",
-          "channel": "딩부ddingbbu",
-          "subscribers": 135,
+          "video_id": "ejPzen9iumA",
+          "title": "포르투 또간집과 검은 고양이 그리고 com licença",
+          "channel": "최채챗",
+          "subscribers": 138,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 21,
-          "likes": 0,
-          "comment_count": 0,
-          "engagement_rate": 0.0,
-          "duration": 617,
+          "views": 25,
+          "likes": 8,
+          "comment_count": 2,
+          "engagement_rate": 0.4,
+          "duration": 1018,
           "is_short": false,
-          "buzz_score": 8.6,
-          "upload_date": "2026.04.26",
-          "url": "https://www.youtube.com/watch?v=UJR782x7ZBw",
+          "buzz_score": 31.3,
+          "upload_date": "2026.04.27",
+          "url": "https://www.youtube.com/watch?v=ejPzen9iumA",
           "description_excerpt": "nan",
-          "top_comments": []
+          "top_comments": [
+            {
+              "author": "@jjj122-x6i",
+              "text": "🐈‍⬛🐾커여워",
+              "likes": 0
+            },
+            {
+              "author": "@legendarydaughter",
+              "text": "메에 🐈‍⬛🐈",
+              "likes": 0
+            }
+          ]
         },
         {
-          "video_id": "DkVk-uhkjHs",
-          "title": "돈까스 웨이팅하며 고스톱치는 일상(feat.분량조절 실패)",
-          "channel": "파르끄",
-          "subscribers": 8,
+          "video_id": "cTUwwJ5DkSA",
+          "title": "VLOG 🛌 또간집 프라이빗 풀빌라 ★ 🌀 ࣪ ♡ 💤 ꒰ !! ꒱ | 포천브이로그 | 여행브이로그  | 포천여행  | 풀빌라 펜션 | 노천스파 | 포천숙소추천 | 포천포레스트풀빌라",
+          "channel": "모모누나 momosister",
+          "subscribers": 25,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 118,
-          "likes": 2,
-          "comment_count": 0,
-          "engagement_rate": 0.0169,
-          "duration": 1336,
-          "is_short": false,
-          "buzz_score": 7.8,
-          "upload_date": "2026.04.25",
-          "url": "https://www.youtube.com/watch?v=DkVk-uhkjHs",
-          "description_excerpt": "예돈 돈까스 먹으러 왔다가 고스톱에 빠진 친구들•••\n⭐️출연: 나, 남편, 세경씨(내친구), 박사님(친구남편)\n\n#30대 #브이로그 #일상 \n#예돈 #또간집 #보드게임",
-          "top_comments": []
-        },
-        {
-          "video_id": "ojaXh2jsObk",
-          "title": "32개월, 14개월 두아기 2박3일 속초여행, 설악쏘리노, 설악워터피아, 속초아이, 속초중앙시장, 황대구탕, 또간집 송정희순두부, 속초카페, 가평카페, 가평금계닭갈비등",
-          "channel": "채채바라",
-          "subscribers": 97,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 39,
+          "views": 4,
           "likes": 1,
           "comment_count": 0,
-          "engagement_rate": 0.0256,
-          "duration": 1390,
+          "engagement_rate": 0.25,
+          "duration": 504,
           "is_short": false,
-          "buzz_score": 7.5,
-          "upload_date": "2026.04.25",
-          "url": "https://www.youtube.com/watch?v=ojaXh2jsObk",
-          "description_excerpt": "안녕하새요 지난 겨울\n두아이와 함께 속초여행을 다녀왔어요.\n\n1일차 또간집에 나온 송정희어머니순두부, 스테이오롯이, 한화리조트 설악쏘라노, 속초해수욕장 속초아이, 속초중앙시장\n\n2일차 설악워터피아, 나폴리아, 속초하나로마트\n\n3일차 황대구탕, 가평 금계닭갈비, 자잠157\n등을 방문했습니다\n\n부족하지만 시청해주셔서 감사합니다",
-          "top_comments": []
-        },
-        {
-          "video_id": "VsWWMyW0Rxw",
-          "title": "뒷고기의 명품#다사고기집 #대구맛집 #또간집#냉동삼겹살 #막창#닭발",
-          "channel": "신깡통뒷고기 다사죽곡점 ",
-          "subscribers": 57,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 14,
-          "likes": 0,
-          "comment_count": 0,
-          "engagement_rate": 0.0,
-          "duration": 2,
-          "is_short": true,
-          "buzz_score": 6.2,
-          "upload_date": "2026.04.25",
-          "url": "https://www.youtube.com/watch?v=VsWWMyW0Rxw",
+          "buzz_score": 7.6,
+          "upload_date": "2026.04.27",
+          "url": "https://www.youtube.com/watch?v=cTUwwJ5DkSA",
           "description_excerpt": "nan",
           "top_comments": []
         },
@@ -226,15 +243,63 @@
     },
     "meatking": {
       "display": "정육왕",
-      "video_count": 0,
-      "total_views": 0,
-      "total_likes": 0,
-      "total_comments": 0,
+      "video_count": 1,
+      "total_views": 4078,
+      "total_likes": 94,
+      "total_comments": 15,
       "n_short": 0,
-      "n_long": 0,
-      "tier_counts": {},
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
-      "videos": []
+      "n_long": 1,
+      "tier_counts": {
+        "Macro": 1
+      },
+      "summary": "정육왕 관련 영상에서 자사와 직접 비교되는 부분이 없으나, 소비자들이 직접 구운 음식을 선호하는 경향이 나타났으며 이는 자사의 매장 트래픽에 미미한 위협 요소로 작용할 수 있다. 즉시 대응은 필요하지 않으나, 고객 경험 향상을 위한 전략 검토가 필요하다.\n  📌 직접 구운 음식 선호 · 매장 트래픽 미미 위협 · 고객 경험 향상",
+      "videos": [
+        {
+          "video_id": "gFnMIE0Hc3U",
+          "title": "도쿄 8끼 + 숙소에서 와규 구워먹기",
+          "channel": "MeatCreator (Only Korean BBQ )",
+          "subscribers": 778000,
+          "creator_tier": "Macro",
+          "is_verified": true,
+          "views": 4078,
+          "likes": 94,
+          "comment_count": 15,
+          "engagement_rate": 0.0267,
+          "duration": 719,
+          "is_short": false,
+          "buzz_score": 59.6,
+          "upload_date": "2026.04.27",
+          "url": "https://www.youtube.com/watch?v=gFnMIE0Hc3U",
+          "description_excerpt": "✔️ 도쿄에서 맛집 식폭행과 숙소에서 와규를 구워먹었습니다.\n\n00:00 네기시 우에노에키마에점\n02:34 삿포로생맥주 블랙라벨 더 바\n03:13 카미무라 노포 소바\n03:59 카빈 노포 커피\n04:19 토리키 야키토리\n06:39 우초쿠 다시마 츠케멘\n07:41 히키니쿠토 코메 본점\n08:32 키치조지 사토우 멘치카츠\n09:02 숙소에서 와규 구워먹기 \n\n✔️본 영상은 협찬&광고 해당사항이 없습니다.\nㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\n✔️ \"정육왕 고단백 돼지안심 소세지\" 구매 정보\n네이버 스토어",
+          "top_comments": [
+            {
+              "author": "@유두부-f5r",
+              "text": "요즘 쇼츠고 롱폼이고 다 재밌네요",
+              "likes": 0
+            },
+            {
+              "author": "@Movemink",
+              "text": "마지막에 직접 구운게 제일 맛있어 보여요🥺",
+              "likes": 0
+            },
+            {
+              "author": "@미스터리_3",
+              "text": "또 먹고싶은 도교의 와규입니다\n동구리오 타다오테모 츠~기마센~",
+              "likes": 0
+            },
+            {
+              "author": "@InaInaInaRR",
+              "text": "네기시는 스프를 배워오고 싶음 ㅋㅋ",
+              "likes": 0
+            },
+            {
+              "author": "@WonseobLEE-t8o",
+              "text": "고기는 직접 정육왕선생님이 구워먹는게ㅎㅎ",
+              "likes": 0
+            }
+          ]
+        }
+      ]
     }
   }
 }
