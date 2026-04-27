@@ -4253,7 +4253,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   }
 
   function brandRank(data, code) {
-    var arr = COMP_KEYS.map(function(k) {
+    var arr = ACTIVE().map(function(k) {
       return { k: k, v: ((data.brands && data.brands[k]) ? (data.brands[k].total_views || 0) : 0) };
     }).filter(function(x) { return x.v > 0; })
       .sort(function(a, b) { return b.v - a.v; });
@@ -4306,7 +4306,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   function preparePesoSplits(data) {
     var splits = {};
     var totals = { owned: 0, sponsored: 0, earned: 0, engagement: 0 };
-    COMP_KEYS.forEach(function(k) {
+    ACTIVE().forEach(function(k) {
       var sp = computePesoSplit(data.brands[k] || {}, k);
       splits[k] = sp;
       totals.owned += sp.owned;
@@ -4319,7 +4319,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
 
   // Earned 조회수 기준 순위 (1등 = 최다 earned) — 레거시, 벤치마크 부가 용도
   function earnedRank(splits, code) {
-    var arr = COMP_KEYS.map(function(k) { return { k: k, v: (splits[k] && splits[k].earned) || 0 }; });
+    var arr = ACTIVE().map(function(k) { return { k: k, v: (splits[k] && splits[k].earned) || 0 }; });
     arr.sort(function(a, b) { return b.v - a.v; });
     for (var i = 0; i < arr.length; i++) if (arr[i].k === code) return i + 1;
     return null;
@@ -4328,7 +4328,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   // 총 조회수 기준 순위 (KPI '🏆 순위' 카드 메인 지표)
   function viewsRank(data, code) {
     if (!data || !data.brands) return null;
-    var arr = COMP_KEYS.map(function(k) {
+    var arr = ACTIVE().map(function(k) {
       return { k: k, v: (data.brands[k] && data.brands[k].total_views) || 0 };
     });
     arr.sort(function(a, b) { return b.v - a.v; });
@@ -4550,6 +4550,10 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
   // ★ 2026-04-26: 다중 브랜드 토글 + "전체" 칩
   // selectedBrands = active 인 브랜드 Set. 단일 선택 시에는 selectedBrand 도 갱신.
   EXEC.selectedBrands = new Set(['yukbayeon','baksoo','daepo79','dalmaji_bbq','johnmaat','champd','hongsound','ttoganzip','meatking']);
+  // ★ 데이터 필터 헬퍼: 모든 KPI·차트·순위·하이라이트 가 이걸 사용해야 칩 토글 반영됨
+  function ACTIVE() {
+    return COMP_KEYS.filter(function(k) { return EXEC.selectedBrands.has(k); });
+  }
 
   function syncQuickChips() {
     var all = document.querySelector('.brand-quick button.qb-all');
@@ -4599,7 +4603,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     var container = document.getElementById('mix-bars');
     if (!container) return;
     // Earned 점유율 내림차순 정렬 (primary KPI 기준)
-    var rows = COMP_KEYS.map(function(k) {
+    var rows = ACTIVE().map(function(k) {
       var sp = splits[k] || { owned:0, sponsored:0, earned:0 };
       var total = sp.owned + sp.sponsored + sp.earned;
       return { key: k, sp: sp, total: total };
@@ -4675,7 +4679,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
       baseSplits = preparePesoSplits(base).splits;
     }
 
-    var rows = COMP_KEYS.map(function(k) {
+    var rows = ACTIVE().map(function(k) {
       var b = data.brands[k] || {};
       var sp = splits[k] || { owned: 0, sponsored: 0, earned: 0, engagement: 0 };
       var prevEarned = (baseSplits && baseSplits[k]) ? baseSplits[k].earned : null;
@@ -4808,7 +4812,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     // 전체 조회수 기반 도넛 — brand.total_views 사용 (splits 우회)
     function buildTotalViewsDonut(canvasId, legendId, emptyId, palette) {
       var labels = [], values = [], colors = [];
-      COMP_KEYS.forEach(function(k) {
+      ACTIVE().forEach(function(k) {
         var v = (data.brands[k] && data.brands[k].total_views) || 0;
         if (v > 0) {
           labels.push((data.brands[k] && data.brands[k].display) || k);
@@ -4869,7 +4873,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     // 카테고리별 (splits 기반) 도넛 — Owned / Earned
     function buildDonut(canvasId, field, legendId, emptyId) {
       var labels = [], values = [], colors = [];
-      COMP_KEYS.forEach(function(k) {
+      ACTIVE().forEach(function(k) {
         var v = (splits[k] && splits[k][field]) || 0;
         if (v > 0) {
           labels.push((data.brands[k] && data.brands[k].display) || k);
@@ -4890,7 +4894,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     if (CHART_INSTANCES.sent) CHART_INSTANCES.sent.destroy();
     var cSent = document.getElementById('chart-sentiment').getContext('2d');
     var sLabels = [], pos = [], neu = [], neg = [];
-    COMP_KEYS.forEach(function(k) {
+    ACTIVE().forEach(function(k) {
       var b = data.brands[k];
       if (b && b.sentiment_counts) {
         sLabels.push((b.display || k).replace(/치킨$/, ''));
@@ -4926,7 +4930,7 @@ body.mode-help .view-executive, body.mode-help .view-detail { display: none; }
     if (CHART_INSTANCES.sentMeta) CHART_INSTANCES.sentMeta.destroy();
     var cSentMeta = document.getElementById('chart-sentiment-meta').getContext('2d');
     var mLabels = [], mPos = [], mNeu = [], mNeg = [];
-    COMP_KEYS.forEach(function(k) {
+    ACTIVE().forEach(function(k) {
       var b = data.brands[k];
       if (b && b.videos) {
         var mp = 0, mn = 0, mg = 0;
