@@ -1,0 +1,256 @@
+{
+  "date": "2026-04-29",
+  "days": 2,
+  "first_run": false,
+  "brands": {
+    "yukbayeon": {
+      "display": "육회바른연어",
+      "video_count": 1,
+      "total_views": 11551,
+      "total_likes": 144,
+      "total_comments": 41,
+      "n_short": 0,
+      "n_long": 1,
+      "tier_counts": {
+        "Micro": 1
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "baksoo": {
+      "display": "박수식당",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "daepo79": {
+      "display": "79대포",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "dalmaji_bbq": {
+      "display": "달맞이광장바베큐",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "johnmaat": {
+      "display": "삼양 JohnMaat",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "champd": {
+      "display": "참피디",
+      "video_count": 1,
+      "total_views": 64078,
+      "total_likes": 806,
+      "total_comments": 122,
+      "n_short": 0,
+      "n_long": 1,
+      "tier_counts": {
+        "Mega": 1
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "hongsound": {
+      "display": "홍사운드",
+      "video_count": 2,
+      "total_views": 232656,
+      "total_likes": 3072,
+      "total_comments": 99,
+      "n_short": 1,
+      "n_long": 1,
+      "tier_counts": {
+        "Official": 2
+      },
+      "summary": "홍사운드의 집가락 신메뉴에 대한 소비자들의 긍정적인 반응이 나타나고 있으며, 특히 이클립스 복숭아 맛과 같은 다른 제품들과 비교해도 만족감을 주는 것으로 보인다. 그러나 육회바른연어와 직접적으로 비교되는 내용은 없으나, 홍사운드의 인지도 상승이 자사 점유율에 영향을 미칠 가능성이 있어 경쟁 상황 모니터링이 필요하다.\n  📌 집가락 신메뉴 · 긍정적인 소비자 반응 · 경쟁 상황 모니터링",
+      "videos": [
+        {
+          "video_id": "RKyU3x4fAnM",
+          "title": "펩시 피치향 이대로 괜찮은가",
+          "channel": "HONG SOUND",
+          "subscribers": 1840000,
+          "creator_tier": "Official",
+          "is_verified": true,
+          "views": 24579,
+          "likes": 511,
+          "comment_count": 33,
+          "engagement_rate": 0.0221,
+          "duration": 55,
+          "is_short": true,
+          "buzz_score": 60.0,
+          "upload_date": "2026.04.28",
+          "url": "https://www.youtube.com/watch?v=RKyU3x4fAnM",
+          "description_excerpt": "집가락 정품 구매하는 곳\n홍사운드몰 https://hongsound.shop/\n네이버 https://smartstore.naver.com/coffeechild/products/7688043656\n집가락이 특별한 이유 https://youtu.be/9KvCvdMSJ54\n\n홍사운드 플러스 채널(네츄럴 홍의 모습들) : https://www.youtube.com/channel/UCe8eXpQCaLaEiXOh2RxU_3A\n인스타그램(instagram) : https://www.instagram.com/hong_sound",
+          "top_comments": [
+            {
+              "author": "@지후-q6b",
+              "text": "저거 이클립스 복숭아 맛 나던데...ㅋㅋ",
+              "likes": 27
+            },
+            {
+              "author": "@꾸멩꾸멩",
+              "text": "일주어터님이 여기 왜..",
+              "likes": 11
+            },
+            {
+              "author": "@이맹꽁이",
+              "text": "이러다 두분 한집살림 ㆍ형제라도 이리 멋진 듀엣은 없을걸ㆍ😅😅😅🎉🎉",
+              "likes": 8
+            },
+            {
+              "author": "@そうしよう-t2y",
+              "text": "삼각관계 미춌다",
+              "likes": 7
+            },
+            {
+              "author": "@롤챌린저찍고싶다-l2z",
+              "text": "뱅지용사님 너무하시네...유리씨, 홍씨랑도 모자라 비빔밥이랑도 외도하시네....능력자여 능력자....",
+              "likes": 6
+            }
+          ]
+        }
+      ]
+    },
+    "ttoganzip": {
+      "display": "또간집(풍자)",
+      "video_count": 13,
+      "total_views": 4356,
+      "total_likes": 116,
+      "total_comments": 31,
+      "n_short": 2,
+      "n_long": 11,
+      "tier_counts": {
+        "Nano": 13
+      },
+      "summary": "하동 여행에서 또간집이 추천되었으나, 구체적인 메뉴나 소비자 반응은 제한적이고, 다른 영상에서는 자사와 직접 비교되는 내용 없음. 그러나 '풍자또간집'이라는 태그가 있어 부정적 이미지 확산 가능성 있음.\n  📌 풍자또간집 · 하동 여행 · 메뉴 추천",
+      "videos": [
+        {
+          "video_id": "a_NlKwQtN9A",
+          "title": "데이트 vlog. 여기 한국 맞나요? 한국의 치앙마이 '하동'에서 우리의 첫 벚꽃놀이🌸ㅣ하동 또간집 맛집 추천까지..!",
+          "channel": "진주보러와",
+          "subscribers": 2740,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 1061,
+          "likes": 39,
+          "comment_count": 18,
+          "engagement_rate": 0.0537,
+          "duration": 1467,
+          "is_short": false,
+          "buzz_score": 59.8,
+          "upload_date": "2026.04.28",
+          "url": "https://www.youtube.com/watch?v=a_NlKwQtN9A",
+          "description_excerpt": "안녕하세요, ’진주보러와‘ 진주입니다🙌🏻\n\n우리 입주민 여러분, 이번주는 벚꽃 브이로그예요🌸\n\n민철오빠랑 첫 벚꽃을 '한국의 치앙마이'라고 불리는 경상남도 하동에서 함께했습니다. 제가 매년 가족들과 다니던 곳을 오빠와 함께해서 더 특별했던거 같아요!\n입주민분들은 올해 벚꽃놀이 어디서 하셨나요?! 댓글에 함께 나눠요🫧\n\n그리고 저희가 처음으로 함께 맞이하는 벚꽃이라 더 특별했는데요✨\n하늘이 안 보일 정도로 빽빽한 벚꽃 터널부터, 하동 가면 꼭 가봐야 할 찐맛집과 카페까지 알차게 담아 왔어요!\n하동 특유의 고즈넉한 분위기와 흩날리는 벚",
+          "top_comments": [
+            {
+              "author": "@jinjoo0530",
+              "text": "입주민분들, 영상 재미있게 보고 계신가요?✨\n\n하동 여행 계획 중이신 분들 보기 편하시라고 제가 다녀온 맛집 정보랑 코스를 타임라인별로 댓글에 쫙 정리해 뒀어요!\n\n그나저나 모두들 올해 벚꽃 어디로 보러 가셨나요?! 아니면 꼭 가보고 싶은 스팟이 있으신가요? 댓글로 같이 수다 떨어요!🌸🤍\n\n⏱️ 타임라인\n\n00:11 하동으로 출발! (with 두바이소라빵💚",
+              "likes": 4
+            },
+            {
+              "author": "@h.w99s",
+              "text": "내년엔 제주로 벚꽃 여행 와주세요\n제주도 진짜 이뻐여 ~  녹산로 추천❤, \n유채꽃과 벚꽃의 조합 🌼🌸 \n제주대 벚꽃길도 엄청 이뻐요 \n꼭 와주세용❣️ 내년엔 부부로💕",
+              "likes": 3
+            },
+            {
+              "author": "@장민철1010",
+              "text": "벚굴 또 먹구 싶어요 ㅜㅜ",
+              "likes": 2
+            },
+            {
+              "author": "@jinjoo0530",
+              "text": "저 제주도 완전 조아하능데.. 내년에 갈게여🥹🌸💕 감사합니댜🫧",
+              "likes": 2
+            },
+            {
+              "author": "@장민철1010",
+              "text": "하이라이트 너무 좋다+_+><",
+              "likes": 2
+            }
+          ]
+        },
+        {
+          "video_id": "_zchEsJdlzo",
+          "title": "\"오늘 하루 고생했어, 나랑 한잔할래?\" #혼술 #혼밥 친구 유빈의 즐펀포차",
+          "channel": "즐펀포차",
+          "subscribers": 146,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 43,
+          "likes": 4,
+          "comment_count": 0,
+          "engagement_rate": 0.093,
+          "duration": 1133,
+          "is_short": false,
+          "buzz_score": 32.0,
+          "upload_date": "2026.04.28",
+          "url": "https://www.youtube.com/watch?v=_zchEsJdlzo",
+          "description_excerpt": "🍺 오늘도 고생한 당신을 위해, 즐펀 포차가 문을 열었습니다!\n\n이번 주 호스트 유빈이가 준비한 메뉴는 지금 딱! 맛있는 **'급냉 쭈꾸미'**입니다.\n맑고 시원한 국물의 샤브샤브로 속을 달래고, 스트레스 확 풀리는 매운 숯불구이로 마무리하는 완벽한 코스!\n\n혼자 밥 먹기 외로울 때, 퇴근 후 시원한 맥주 한 잔 생각날 때\n유빈이와 함께 맛있는 수다 나누며 스트레스를 날려보세요.\n\n여러분의 밥친구, 술친구가 되어드릴게요. 오늘도 맛있게 잘 먹겠습니다!\n\n📍 오늘의 메뉴: 급냉 쭈꾸미 샤브샤브, 매운 숯불 쭈꾸미 구이\n🎙️ 호스트: ",
+          "top_comments": []
+        },
+        {
+          "video_id": "RBxDLiZ2UqQ",
+          "title": "고객 편의에 올인한 얼룩말 식당 인테리어 공사 현장 밀착 취재!!",
+          "channel": "교회공간연구소",
+          "subscribers": 576,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 12,
+          "likes": 3,
+          "comment_count": 0,
+          "engagement_rate": 0.25,
+          "duration": 341,
+          "is_short": false,
+          "buzz_score": 29.3,
+          "upload_date": "2026.04.28",
+          "url": "https://www.youtube.com/watch?v=RBxDLiZ2UqQ",
+          "description_excerpt": "안녕하세요! 오늘은 많은 분들이 궁금해할만한 교회공간연구소의 상업시설 인터레어 현장! \n[얼룩말 식당]의 인테리어 공사 중간 점검 현장을 영상으로 담아왔습니다.\n\n#얼룩말식당\n#풍자또간집\n#상가인테리어\n#교회공간연구소\n\n[교회공간연구소]\n⭐️ 인스타그램 :: https://instagram.com/churchspace_lab\n📧 이메일 :: saeon_f@hanmail.net\n\n✅구독, 좋아요, 알림설정, 댓글은 큰 힘이 됩니다😄\n\n———————————\n\n#인테리어 #교회인테리어 #교회리모델링 #교회공간연구소",
+          "top_comments": []
+        }
+      ]
+    },
+    "meatking": {
+      "display": "정육왕",
+      "video_count": 2,
+      "total_views": 38346,
+      "total_likes": 448,
+      "total_comments": 31,
+      "n_short": 0,
+      "n_long": 2,
+      "tier_counts": {
+        "Macro": 1,
+        "Nano": 1
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    }
+  }
+}
