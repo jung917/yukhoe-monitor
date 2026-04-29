@@ -5,17 +5,38 @@
   "brands": {
     "yukbayeon": {
       "display": "육회바른연어",
-      "video_count": 1,
-      "total_views": 11551,
+      "video_count": 2,
+      "total_views": 11555,
       "total_likes": 144,
       "total_comments": 41,
-      "n_short": 0,
+      "n_short": 1,
       "n_long": 1,
       "tier_counts": {
-        "Micro": 1
+        "Micro": 1,
+        "Nano": 1
       },
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
-      "videos": []
+      "summary": "영상에서 육회바른연어 메뉴는 언급되지 않았으며, 다른 경쟁 브랜드의 메뉴만 소개되어 있어 직접적인 위협 요소로 볼 수 없다. 소비자 반응은 해당 브랜드에 집중되며, 자사와 비교되는 부분이 없으므로 현재로서는 대응 필요성이 낮다.\n  📌 신메뉴 N종 · 타사 메뉴 · 소비자 반응",
+      "videos": [
+        {
+          "video_id": "e5N6g7yZ3iw",
+          "title": "그 사람은 나를 어떻게 생각할까? 🤔 메뉴로 보는 내 진짜 이미지!",
+          "channel": "냠냠타로",
+          "subscribers": 1,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 4,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 34,
+          "is_short": true,
+          "buzz_score": 6.8,
+          "upload_date": "2026.04.29",
+          "url": "https://www.youtube.com/watch?v=e5N6g7yZ3iw",
+          "description_excerpt": "#shorts #냠냠타로 #상대방속마음 #타로 #첫인상 #이미지 #매력뿜뿜 #심리테스트 #짝사랑 #썸 #연어깍두기 #오징어먹물리조또 #구운명란&오이",
+          "top_comments": []
+        }
+      ]
     },
     "baksoo": {
       "display": "박수식당",
@@ -82,175 +103,136 @@
     "hongsound": {
       "display": "홍사운드",
       "video_count": 2,
-      "total_views": 232656,
-      "total_likes": 3072,
-      "total_comments": 99,
+      "total_views": 260187,
+      "total_likes": 3500,
+      "total_comments": 107,
       "n_short": 1,
       "n_long": 1,
       "tier_counts": {
         "Official": 2
       },
-      "summary": "홍사운드의 집가락 신메뉴에 대한 소비자들의 긍정적인 반응이 나타나고 있으며, 특히 이클립스 복숭아 맛과 같은 다른 제품들과 비교해도 만족감을 주는 것으로 보인다. 그러나 육회바른연어와 직접적으로 비교되는 내용은 없으나, 홍사운드의 인지도 상승이 자사 점유율에 영향을 미칠 가능성이 있어 경쟁 상황 모니터링이 필요하다.\n  📌 집가락 신메뉴 · 긍정적인 소비자 반응 · 경쟁 상황 모니터링",
-      "videos": [
-        {
-          "video_id": "RKyU3x4fAnM",
-          "title": "펩시 피치향 이대로 괜찮은가",
-          "channel": "HONG SOUND",
-          "subscribers": 1840000,
-          "creator_tier": "Official",
-          "is_verified": true,
-          "views": 24579,
-          "likes": 511,
-          "comment_count": 33,
-          "engagement_rate": 0.0221,
-          "duration": 55,
-          "is_short": true,
-          "buzz_score": 60.0,
-          "upload_date": "2026.04.28",
-          "url": "https://www.youtube.com/watch?v=RKyU3x4fAnM",
-          "description_excerpt": "집가락 정품 구매하는 곳\n홍사운드몰 https://hongsound.shop/\n네이버 https://smartstore.naver.com/coffeechild/products/7688043656\n집가락이 특별한 이유 https://youtu.be/9KvCvdMSJ54\n\n홍사운드 플러스 채널(네츄럴 홍의 모습들) : https://www.youtube.com/channel/UCe8eXpQCaLaEiXOh2RxU_3A\n인스타그램(instagram) : https://www.instagram.com/hong_sound",
-          "top_comments": [
-            {
-              "author": "@지후-q6b",
-              "text": "저거 이클립스 복숭아 맛 나던데...ㅋㅋ",
-              "likes": 27
-            },
-            {
-              "author": "@꾸멩꾸멩",
-              "text": "일주어터님이 여기 왜..",
-              "likes": 11
-            },
-            {
-              "author": "@이맹꽁이",
-              "text": "이러다 두분 한집살림 ㆍ형제라도 이리 멋진 듀엣은 없을걸ㆍ😅😅😅🎉🎉",
-              "likes": 8
-            },
-            {
-              "author": "@そうしよう-t2y",
-              "text": "삼각관계 미춌다",
-              "likes": 7
-            },
-            {
-              "author": "@롤챌린저찍고싶다-l2z",
-              "text": "뱅지용사님 너무하시네...유리씨, 홍씨랑도 모자라 비빔밥이랑도 외도하시네....능력자여 능력자....",
-              "likes": 6
-            }
-          ]
-        }
-      ]
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
     },
     "ttoganzip": {
       "display": "또간집(풍자)",
-      "video_count": 13,
-      "total_views": 4356,
-      "total_likes": 116,
-      "total_comments": 31,
+      "video_count": 15,
+      "total_views": 4402,
+      "total_likes": 126,
+      "total_comments": 32,
       "n_short": 2,
-      "n_long": 11,
+      "n_long": 13,
       "tier_counts": {
-        "Nano": 13
+        "Nano": 15
       },
-      "summary": "하동 여행에서 또간집이 추천되었으나, 구체적인 메뉴나 소비자 반응은 제한적이고, 다른 영상에서는 자사와 직접 비교되는 내용 없음. 그러나 '풍자또간집'이라는 태그가 있어 부정적 이미지 확산 가능성 있음.\n  📌 풍자또간집 · 하동 여행 · 메뉴 추천",
+      "summary": "또간집(풍자)의 풍전뚝집에서 제공하는 어죽이 소비자로부터 긍정적인 반응을 얻고 있으며, 이는 육회바른연어와 유사한 자연산 회 요리 시장에서 경쟁력을 갖추고 있음을 시사한다. 그러나 캐나다 토론토 관련 영상에서는 또간집 라멘에 대한 언급만 있어, 자사의 주요 제품인 연어와 직접적인 경쟁은 보이지 않으나, 지속적인 모니터링 필요하다.\n  📌 풍전뚝집 어죽 · 긍정적 소비자 반응 · 연어 대비 라멘",
       "videos": [
         {
-          "video_id": "a_NlKwQtN9A",
-          "title": "데이트 vlog. 여기 한국 맞나요? 한국의 치앙마이 '하동'에서 우리의 첫 벚꽃놀이🌸ㅣ하동 또간집 맛집 추천까지..!",
-          "channel": "진주보러와",
-          "subscribers": 2740,
+          "video_id": "caT4XqfpzrI",
+          "title": "25,000원이면 둘이서 배 터집니다ㅣ역대급 가성비 선상어시장!(+풍전뚝집, 개심사 청벚꽃)",
+          "channel": "띠띠빵빵 TTIBBANG",
+          "subscribers": 6120,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 1061,
-          "likes": 39,
-          "comment_count": 18,
-          "engagement_rate": 0.0537,
-          "duration": 1467,
+          "views": 40,
+          "likes": 9,
+          "comment_count": 1,
+          "engagement_rate": 0.25,
+          "duration": 1180,
           "is_short": false,
-          "buzz_score": 59.8,
-          "upload_date": "2026.04.28",
-          "url": "https://www.youtube.com/watch?v=a_NlKwQtN9A",
-          "description_excerpt": "안녕하세요, ’진주보러와‘ 진주입니다🙌🏻\n\n우리 입주민 여러분, 이번주는 벚꽃 브이로그예요🌸\n\n민철오빠랑 첫 벚꽃을 '한국의 치앙마이'라고 불리는 경상남도 하동에서 함께했습니다. 제가 매년 가족들과 다니던 곳을 오빠와 함께해서 더 특별했던거 같아요!\n입주민분들은 올해 벚꽃놀이 어디서 하셨나요?! 댓글에 함께 나눠요🫧\n\n그리고 저희가 처음으로 함께 맞이하는 벚꽃이라 더 특별했는데요✨\n하늘이 안 보일 정도로 빽빽한 벚꽃 터널부터, 하동 가면 꼭 가봐야 할 찐맛집과 카페까지 알차게 담아 왔어요!\n하동 특유의 고즈넉한 분위기와 흩날리는 벚",
+          "buzz_score": 36.1,
+          "upload_date": "2026.04.29",
+          "url": "https://www.youtube.com/watch?v=caT4XqfpzrI",
+          "description_excerpt": "바다 위 떠 있는 배 위에서 회를 떠서\n바로 앞 그늘막에서 노상 까며 먹는 자연산 도다리회...!\n\n도다리 1kg 25,000원에 둘이서 배 터지게 먹고 온 서산 삼길포항 후기🐟\n\n+서산 또간집 중 하나인 풍전뚝집 어죽과\n국내 유일 청벚꽃 명소로 유명한 개심사도 다녀왔어요~!\n\n\n00:00 - 삼길포항 회뜨는선상 돌아보기\n01:13 - 삼길포수산물직매장\n02:33 - 회뜨는선상에서 회 뜨기(진흥호)\n06:02 - 삼길포항 그늘에서 회 먹방\n12:37 - 풍전뚝집(어죽)\n16:16 - 카페원트\n17:03 - 향원만두\n17:51 - 개",
           "top_comments": [
             {
-              "author": "@jinjoo0530",
-              "text": "입주민분들, 영상 재미있게 보고 계신가요?✨\n\n하동 여행 계획 중이신 분들 보기 편하시라고 제가 다녀온 맛집 정보랑 코스를 타임라인별로 댓글에 쫙 정리해 뒀어요!\n\n그나저나 모두들 올해 벚꽃 어디로 보러 가셨나요?! 아니면 꼭 가보고 싶은 스팟이 있으신가요? 댓글로 같이 수다 떨어요!🌸🤍\n\n⏱️ 타임라인\n\n00:11 하동으로 출발! (with 두바이소라빵💚",
-              "likes": 4
-            },
-            {
-              "author": "@h.w99s",
-              "text": "내년엔 제주로 벚꽃 여행 와주세요\n제주도 진짜 이뻐여 ~  녹산로 추천❤, \n유채꽃과 벚꽃의 조합 🌼🌸 \n제주대 벚꽃길도 엄청 이뻐요 \n꼭 와주세용❣️ 내년엔 부부로💕",
-              "likes": 3
-            },
-            {
-              "author": "@장민철1010",
-              "text": "벚굴 또 먹구 싶어요 ㅜㅜ",
-              "likes": 2
-            },
-            {
-              "author": "@jinjoo0530",
-              "text": "저 제주도 완전 조아하능데.. 내년에 갈게여🥹🌸💕 감사합니댜🫧",
-              "likes": 2
-            },
-            {
-              "author": "@장민철1010",
-              "text": "하이라이트 너무 좋다+_+><",
-              "likes": 2
+              "author": "@jayjung849",
+              "text": "요런곳이 있었네요 신기하네유😮",
+              "likes": 1
             }
           ]
         },
         {
-          "video_id": "_zchEsJdlzo",
-          "title": "\"오늘 하루 고생했어, 나랑 한잔할래?\" #혼술 #혼밥 친구 유빈의 즐펀포차",
-          "channel": "즐펀포차",
-          "subscribers": 146,
+          "video_id": "Gk9L-gOEt2Q",
+          "title": "캐나다 어학연수 🇨🇦 vlog(5) | 3주차 어학연수 기록(+2주차 주말) 📝, 또간집 라멘 🍜, 전망대, 앨런 가든🌷, 리틀 캐나다, 워킹투어, 금주결심(?)",
+          "channel": "혠",
+          "subscribers": 18,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 43,
-          "likes": 4,
+          "views": 6,
+          "likes": 1,
           "comment_count": 0,
-          "engagement_rate": 0.093,
-          "duration": 1133,
+          "engagement_rate": 0.1667,
+          "duration": 937,
           "is_short": false,
-          "buzz_score": 32.0,
-          "upload_date": "2026.04.28",
-          "url": "https://www.youtube.com/watch?v=_zchEsJdlzo",
-          "description_excerpt": "🍺 오늘도 고생한 당신을 위해, 즐펀 포차가 문을 열었습니다!\n\n이번 주 호스트 유빈이가 준비한 메뉴는 지금 딱! 맛있는 **'급냉 쭈꾸미'**입니다.\n맑고 시원한 국물의 샤브샤브로 속을 달래고, 스트레스 확 풀리는 매운 숯불구이로 마무리하는 완벽한 코스!\n\n혼자 밥 먹기 외로울 때, 퇴근 후 시원한 맥주 한 잔 생각날 때\n유빈이와 함께 맛있는 수다 나누며 스트레스를 날려보세요.\n\n여러분의 밥친구, 술친구가 되어드릴게요. 오늘도 맛있게 잘 먹겠습니다!\n\n📍 오늘의 메뉴: 급냉 쭈꾸미 샤브샤브, 매운 숯불 쭈꾸미 구이\n🎙️ 호스트: ",
-          "top_comments": []
-        },
-        {
-          "video_id": "RBxDLiZ2UqQ",
-          "title": "고객 편의에 올인한 얼룩말 식당 인테리어 공사 현장 밀착 취재!!",
-          "channel": "교회공간연구소",
-          "subscribers": 576,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 12,
-          "likes": 3,
-          "comment_count": 0,
-          "engagement_rate": 0.25,
-          "duration": 341,
-          "is_short": false,
-          "buzz_score": 29.3,
-          "upload_date": "2026.04.28",
-          "url": "https://www.youtube.com/watch?v=RBxDLiZ2UqQ",
-          "description_excerpt": "안녕하세요! 오늘은 많은 분들이 궁금해할만한 교회공간연구소의 상업시설 인터레어 현장! \n[얼룩말 식당]의 인테리어 공사 중간 점검 현장을 영상으로 담아왔습니다.\n\n#얼룩말식당\n#풍자또간집\n#상가인테리어\n#교회공간연구소\n\n[교회공간연구소]\n⭐️ 인스타그램 :: https://instagram.com/churchspace_lab\n📧 이메일 :: saeon_f@hanmail.net\n\n✅구독, 좋아요, 알림설정, 댓글은 큰 힘이 됩니다😄\n\n———————————\n\n#인테리어 #교회인테리어 #교회리모델링 #교회공간연구소",
+          "buzz_score": 7.7,
+          "upload_date": "2026.04.29",
+          "url": "https://www.youtube.com/watch?v=Gk9L-gOEt2Q",
+          "description_excerpt": "캐나다 토론토에서 어학연수를 시작했어요🙂\n토론토에서의 2주차 주말과 3주차 시작 브이로그!\n\n#토론토브이로그 #캐나다어학연수 #어학연수브이로그 #캐나다브이로그 #브이로그 #일주일브이로그 #ILAC #TorontoVlog #StudyAbroadInCanada #LanguageStudy \n\n출처 |\ndanmoo - traveler\nautumn-2011-by-loxbeats",
           "top_comments": []
         }
       ]
     },
     "meatking": {
       "display": "정육왕",
-      "video_count": 2,
-      "total_views": 38346,
-      "total_likes": 448,
-      "total_comments": 31,
+      "video_count": 3,
+      "total_views": 40460,
+      "total_likes": 522,
+      "total_comments": 48,
       "n_short": 0,
-      "n_long": 2,
+      "n_long": 3,
       "tier_counts": {
-        "Macro": 1,
+        "Macro": 2,
         "Nano": 1
       },
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
-      "videos": []
+      "summary": "정육왕의 신규 메뉴인 '삿포로 와규 야키니쿠'가 높은 가격에도 불구하고 소비자들 사이에서 긍정적인 반응을 얻고 있으며, 이는 육회바른연어와 비교해 경쟁력이 있는 것으로 보임. 특히 위치 정보 공유 및 구체적인 메뉴 설명으로 인한 신뢰성 높은 평가가 육회바른연어의 트래픽 증대에 즉각적 대응 필요.\n  📌 와규 야키니쿠 · 고객 만족도 · 위치 정보 공유",
+      "videos": [
+        {
+          "video_id": "1mDwhoDptp0",
+          "title": "1인 16만원 또 가고 싶은 삿포로 탑급 와규 야키니쿠",
+          "channel": "MeatCreator (Only Korean BBQ )",
+          "subscribers": 780000,
+          "creator_tier": "Macro",
+          "is_verified": true,
+          "views": 2114,
+          "likes": 74,
+          "comment_count": 17,
+          "engagement_rate": 0.043,
+          "duration": 669,
+          "is_short": false,
+          "buzz_score": 64.8,
+          "upload_date": "2026.04.29",
+          "url": "https://www.youtube.com/watch?v=1mDwhoDptp0",
+          "description_excerpt": "1인 16만원 합리적인 가격대에 삿포로 와규만 사용하는\n야키니쿠 오마카세에 요리가 접목된\n삿포로에서 기억에 남았던 야키니쿠 키타우시에 다녀왔습니다. \n\n✔️ \"Hokkaido Yakiniku Kitaushi\" 위치 정보\n구글지도 : https://maps.app.goo.gl/5RMbGVynGTMcDj1s5\n\n✔️본 영상은 협찬&광고 해당사항이 없습니다.\nㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\n✔️ \"정육왕 고단백 돼지안심 소세지\" 구매 정보\n네이버 스토어 :  https://smartstore.nave",
+          "top_comments": [
+            {
+              "author": "@김한결-n7m",
+              "text": "16만원 이지만 또 가고 싶은 삿포로 말차... 아 여기가 아니지",
+              "likes": 9
+            },
+            {
+              "author": "@JJHW-j6v",
+              "text": "다음 여행은 삿포로다!!",
+              "likes": 1
+            },
+            {
+              "author": "@강거석-w6r",
+              "text": "한국말 개 잘하네 ㅋㅋㅋㅋ",
+              "likes": 1
+            },
+            {
+              "author": "@MapoSamChon",
+              "text": "💚💚아 이거말고 ❤❤",
+              "likes": 1
+            },
+            {
+              "author": "@FrankOcean_Mac",
+              "text": "타베로그로 찾다가 가본집인데 맛있어요~",
+              "likes": 1
+            }
+          ]
+        }
+      ]
     }
   }
 }
