@@ -5,17 +5,64 @@
   "brands": {
     "yukbayeon": {
       "display": "육회바른연어",
-      "video_count": 2,
-      "total_views": 523,
+      "video_count": 3,
+      "total_views": 5715,
       "total_likes": 5,
-      "total_comments": 7,
+      "total_comments": 65,
       "n_short": 1,
-      "n_long": 1,
+      "n_long": 2,
       "tier_counts": {
-        "Nano": 2
+        "Nano": 2,
+        "Macro": 1
       },
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
-      "videos": []
+      "summary": "육회바른연어의 불닭마요 연어깍두기 메뉴가 김복순 채널에서 소개되었으나, 주목받은 메뉴는 엽떡과 초밥 등 다른 브랜드 제품들이었다. 소비자 반응에서도 육회바른연어에 대한 직접적인 긍정적 피드백은 드물었으며, 자사 대비 타사 제품의 인지도가 더 높게 나타났다. 즉시 경쟁 메뉴 홍보 및 프로모션 강화 필요.\n  📌 불닭마요 연어깍두기 · 엽떡 · 초밥",
+      "videos": [
+        {
+          "video_id": "2fIJddzroA0",
+          "title": "한끼에 8가지 메뉴로 만칼로리 뷔페놀이🤤 | 불닭냉면,불닭마요연어깍두기,엽떡,삶은계란10개,투썸,두아박파티팩,카페인중독,두바이초코와플,체다치즈소고기초밥,크리스피크림도넛,브로쓰마카롱",
+          "channel": "김복순",
+          "subscribers": 379000,
+          "creator_tier": "Macro",
+          "is_verified": true,
+          "views": 5192,
+          "likes": 0,
+          "comment_count": 58,
+          "engagement_rate": 0.0112,
+          "duration": 1928,
+          "is_short": false,
+          "buzz_score": 53.4,
+          "upload_date": "2026.05.03",
+          "url": "https://www.youtube.com/watch?v=2fIJddzroA0",
+          "description_excerpt": "00:00 엽떡(오리지널)+계란10개추가+용이초밥:매운소고기초밥2개+갈릭스테이크초밥2개+체다치즈소고기초밥2개+치즈소고기초밥2개+소고기초밥2개+대게장군함말이초밥2개+크림새우롤초밥2개+게살다리튀김9개\n08:57 투썸:두아박파티팩+카페인중독:두바이초코와플+소금우유와플+말차몬드와플+우유\n17:53 육회야문연어:불닭마요연어깍두기(+연어추가+날치알추가)+육회150g+문어숙회120g+불닭냉면3개(+오이+cj시원한동치미냉면육수4개)+무순4팩\n26:55 크리스피크림도넛:두바이초코2개+초코멜로우+라즈베리요거트볼+애플청크시나몬+시트러스글레이즈링+브로쓰",
+          "top_comments": [
+            {
+              "author": "@kimboksoon222",
+              "text": "00:01 엽떡(오리지널₩14,000)+계란10개추가(2개₩1,500)+용이초밥:매운소고기초밥2개(₩4,700)+갈릭스테이크초밥2개(₩4,700)+체다치즈소고기초밥2개(₩4,700)+치즈소고기초밥2개(₩4,700)+소고기초밥2개(₩4,700)+대게장군함말이초밥2개(₩2,350)+크림새우롤초밥2개(₩2,350)+게살다리튀김9개(3개₩4,700)\n08:57 투",
+              "likes": 12
+            },
+            {
+              "author": "@햅삐혱",
+              "text": "햅-삐한 복순동생 영상❤❤❤",
+              "likes": 11
+            },
+            {
+              "author": "@리꾸리-z9s",
+              "text": "0:12 계란 10개 추가 넘 귀여워요 ㅋㅋㅋㅋ",
+              "likes": 9
+            },
+            {
+              "author": "@0juisme",
+              "text": "꺄아ㅠㅠㅠㅠㅠㅠ 바아로 클스피 말아주시는 복순언니 체고🫶🏻💙\n여름 감기 조심하시고 항상 응원할게요\n\n\n이번엔 빠더너스님이랑 콜라보 신상 나왔어요!!! 귀엽고 맛나요😋",
+              "likes": 8
+            },
+            {
+              "author": "@까캬캬g9d",
+              "text": "이렇게 다양하게 먹어주는거 넘조음ㅋㅋ",
+              "likes": 7
+            }
+          ]
+        }
+      ]
     },
     "baksoo": {
       "display": "박수식당",
@@ -69,17 +116,64 @@
     },
     "champd": {
       "display": "참피디",
-      "video_count": 1,
-      "total_views": 22,
-      "total_likes": 0,
-      "total_comments": 0,
+      "video_count": 2,
+      "total_views": 13395,
+      "total_likes": 346,
+      "total_comments": 75,
       "n_short": 0,
-      "n_long": 1,
+      "n_long": 2,
       "tier_counts": {
-        "Nano": 1
+        "Nano": 1,
+        "Mega": 1
       },
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
-      "videos": []
+      "summary": "참피디의 '차돌 등심 무제한' 프로모션은 초기 저렴한 가격(47,000원)에서 빠르게 상승(52,000원)하면서 소비자들의 부정적인 반응을 유발하고 있어 자사 점유율과 매장 트래픽에 악영향을 미칠 가능성이 있다. 즉시 가격 안정화 및 소통 강화 전략이 필요하다.\n  📌 가격 인상 · 소비자 불만 · 프로모션 혼란",
+      "videos": [
+        {
+          "video_id": "phmCT-CZM98",
+          "title": "말이 안됩니다. 5만원에 차돌 등심 무제한! 육회는 서비스ㄷㄷ 실체를 밝혀보겠습니다.",
+          "channel": "애주가TV참PD",
+          "subscribers": 1510000,
+          "creator_tier": "Mega",
+          "is_verified": true,
+          "views": 13373,
+          "likes": 346,
+          "comment_count": 75,
+          "engagement_rate": 0.0315,
+          "duration": 984,
+          "is_short": false,
+          "buzz_score": 64.3,
+          "upload_date": "2026.05.03",
+          "url": "https://www.youtube.com/watch?v=phmCT-CZM98",
+          "description_excerpt": "오랜만에 한우 배터지게 먹고 왔습니다\n\n참피디가 직접 운영하는 녹진이 특별 안주 할인몰\n핵이득마켓 구경가기 - https://ndns.shop/\n\n핵이득마켓 어플 다운로드\n안드로이드전용\n https://play.google.com/store/apps/details?id=com.cafe24.ec.plusndns2021\n아이폰전용\nhttps://apps.apple.com/kr/app/%ED%95%B5%EC%9D%B4%EB%93%9D%EB%A7%88%EC%BC%93/id1581544007\n\n참피디 Q&A 2025 최신판\nhttps://y",
+          "top_comments": [
+            {
+              "author": "@빨붕",
+              "text": "영상 나가자마자 5천원이 올랐다? 절대 안간다~",
+              "likes": 43
+            },
+            {
+              "author": "@Chris-nu8iy",
+              "text": "촬영하고 가격 인상이라......😢",
+              "likes": 42
+            },
+            {
+              "author": "@참",
+              "text": "촬영 때랑 가격이 달라져서 혼동 없으시라고 고정 댓글 남깁니다!\r\n\r\n촬영 당시(4월 20일)엔 한우로스 무제한 메뉴 47,000원이었는데 현재 52,000원으로 인상됐다고 합니다\r\n\r\n62,000원짜리 코스도 새로 생겼다고 하니, 방문하실 분들은 영상 속 가격이랑 혼동 없으시길 바랍니다!",
+              "likes": 27
+            },
+            {
+              "author": "@살콤",
+              "text": "와..저기는 안가야 겠네요 무한리필 시작한지 얼마 안됐는데 촬영 했다고 잽싸게 가격을 올려버리네ㅋㅋ 아무리 맛있다고 해도 안갑니다~^^ 참피디님 영상 잘봤어요ㅎ",
+              "likes": 25
+            },
+            {
+              "author": "@이정엽-m4l",
+              "text": "금액이 달라져서 아쉽네요..",
+              "likes": 20
+            }
+          ]
+        }
+      ]
     },
     "hongsound": {
       "display": "홍사운드",
@@ -95,53 +189,34 @@
     },
     "ttoganzip": {
       "display": "또간집(풍자)",
-      "video_count": 7,
+      "video_count": 8,
       "total_views": 4508,
       "total_likes": 100,
       "total_comments": 35,
       "n_short": 1,
-      "n_long": 6,
+      "n_long": 7,
       "tier_counts": {
-        "Nano": 7
+        "Nano": 8
       },
-      "summary": "또간집(풍자)의 베트남 음식 메뉴가 소비자들로부터 긍정적인 반응을 얻고 있으며, 특히 쌀국수와 해물볶음면 등 신메뉴들이 주목받아 육회바른연어의 점유율과 매장 트래픽에 일정한 위협이 될 수 있음. 소비자들의 입소문으로 인해 또간집(풍자)의 방문객 증가가 예상되며, 즉시 경쟁력 강화 전략을 고려해야 함.\n  📌 베트남 음식 · 신메뉴 쌀국수 · 긍정적 소비자 반응",
+      "summary": "풍자가 위고비 다이어트로 체중 감소와 함께 새로운 이미지를 선보이며 주목받고 있으나, 이 영상에서 또간집(풍자)의 메뉴나 프로모션에 대한 언급은 없으며 소비자 반응도 자사와 직접 비교되는 부분을 보여주지 않았다. 즉시 대응 필요성은 확인되지 않는다.\n  📌 위고비 다이어트 · 풍자의 변신 · 체중 감소",
       "videos": [
         {
-          "video_id": "_mP1ioPCXts",
-          "title": "vlog l 도쿄 3박4일🗼 ep.1 (LOOPS, 특별식당, 다이이치호텔, 호루이치, 이치란, 실바니안패밀리, 단톤)",
-          "channel": "rohhee 로희",
-          "subscribers": 865,
+          "video_id": "Wgc1uWxJvCE",
+          "title": "[단독] 풍자, 30kg 감량 후 '아이돌급' 단발 변신…역대급 미모 난리난",
+          "channel": "오늘 한국 NEWS",
+          "subscribers": 1660,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 12,
+          "views": 0,
           "likes": 0,
           "comment_count": 0,
           "engagement_rate": 0.0,
-          "duration": 2111,
+          "duration": 64,
           "is_short": false,
-          "buzz_score": 9.4,
+          "buzz_score": 0.0,
           "upload_date": "2026.05.03",
-          "url": "https://www.youtube.com/watch?v=_mP1ioPCXts",
-          "description_excerpt": "2년 전 도쿄브이로그를 아직도 많이 좋아해주셔서 감사해요🫶🏻\n이번에 거기서 살짝 업데이트해서 3박4일로 도쿄 갔다왔어요!\n\n봄에는 처음 갔는데 벚꽃은 이미 다 져서 구경도 못했네요 ㅜㅜ\n그래도 가보고싶었던 카페와 장소들에 가서 기분 좋았답니다🤗\n\n대신 아무래도 밥보다 공간, 디저트에 중점을 두다보니\n어쩌다 맛집은 대부분 또간집이 되어버렸어요 ㅎㅎ\n\n뭔가 계획대로 되는 게 하나도 없는 것 같지만 (되돌아보니 꽤 쏠쏠한)\n이번 도쿄여행도 재밌게 봐주세요♡\n--------------------------------------------\n",
-          "top_comments": []
-        },
-        {
-          "video_id": "9Z5reHIT_lQ",
-          "title": "#울산맛집 쌀국수 생각날 때 또또또간집🇻🇳",
-          "channel": "무엇-이든",
-          "subscribers": 9,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 1,
-          "likes": 1,
-          "comment_count": 0,
-          "engagement_rate": 1.0,
-          "duration": 55,
-          "is_short": true,
-          "buzz_score": 7.0,
-          "upload_date": "2026.05.03",
-          "url": "https://www.youtube.com/watch?v=9Z5reHIT_lQ",
-          "description_excerpt": "상호는 칼국수지만, 울산맛집의 메인은 아이러니하게도 베트남 음식입니다. 베트남 분들이 직접 운영하는 곳이라, 현지 맛에 가깝거든요.\n버코 쌀국수는 족발 비슷한 게 들어간 쌀국수로, 얼큰한 국물과 잘 어우러져요. 해물볶음면은 얇은 면이라, 컵라면을 고급지게 요리한 느낌이고, 반꿘은 신기한 맛이에요. 태어나서 처음 먹는 맛이랄까🤔\n　\n미포손칼국수\nㅣ052-904-0001\nㅣ울산 동구 남진길 94-2, 1층\nㅣ10:00 - 22:00 / 수 휴무\nㅣ버코쌀국수 10,000원\n　\n#울산대왕암맛집 #울산동구맛집 #울산쌀국수 #쌀국수",
+          "url": "https://www.youtube.com/watch?v=Wgc1uWxJvCE",
+          "description_excerpt": "방송인 풍자가 위고비 다이어트로 30kg 감량 후 '아이돌급' 단발 변신으로 '누구세요?' 반응을 얻고 있습니다.\n\n방송인 풍자가 파격적인 단발 헤어스타일로 변신하며 눈길을 사로잡고 있습니다. 풍자는 최근 위고비 등을 활용한 다이어트를 통해 약 30kg 가까이 체중을 감량했으며, 이러한 변화는 그의 달라진 비주얼을 통해 확연히 드러났습니다. 공개된 사진 속 풍자는 기존의 긴 머리를 과감하게 정리하고 어깨 라인에 닿는 세련된 단발머리로 완벽하게 변신한 모습입니다. 특히 날렵해진 브이라인 턱선과 한층 입체적인 이목구비는 팬들로부터 '누",
           "top_comments": []
         }
       ]
@@ -157,54 +232,8 @@
       "tier_counts": {
         "Macro": 1
       },
-      "summary": "정육왕이 구독자 한정으로 설화네 한우를 저렴하게 판매하며 이벤트를 진행하고 있어, 육회바른연어와의 가격 경쟁에서 우위를 점하고 있다. 소비자들의 긍정적인 반응은 정육왕의 브랜드 인지도와 고객 만족도를 증가시킬 것으로 보인다. 즉각적으로 가격 경쟁력과 프로모션 전략을 강화해야 한다.\n  📌 구독자 한정 이벤트 · 설화네 한우 · 가격 경쟁",
-      "videos": [
-        {
-          "video_id": "FMCS5OOw-rk",
-          "title": "고기 미쳤다.. 광주1등 \"정육점\" A급 일당알바",
-          "channel": "MeatCreator (Only Korean BBQ )",
-          "subscribers": 783000,
-          "creator_tier": "Macro",
-          "is_verified": true,
-          "views": 4381,
-          "likes": 131,
-          "comment_count": 25,
-          "engagement_rate": 0.0356,
-          "duration": 607,
-          "is_short": false,
-          "buzz_score": 64.6,
-          "upload_date": "2026.05.03",
-          "url": "https://www.youtube.com/watch?v=FMCS5OOw-rk",
-          "description_excerpt": "5년만에 다시 찾은 경기도 광주 1등 정육점 설화네\n\n✔️ \"경기 광주 설화네한우\" 위치 정보\n네이버 지도 : https://naver.me/FJbdKgLB\n\n[정육왕 구독자 한정 최저가 이벤트]\n\n설화네 한우 1++ 특수모듬 600g / 350개 한정\n(100g 당 12,900원 최저가 + 배송비 무료)\n\n- 5월7일(목) 일괄배송\n\n- 구매 링크 -\nhttps://naver.me/xy79USez\n\n(※공동구매 일환으로 소정의 수수료 지급)\n\n✔️본 영상은 협찬&광고 해당사항이 없습니다.\nㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ",
-          "top_comments": [
-            {
-              "author": "@설화네한우정육점",
-              "text": "오랜만에 함께 일하게 되어서 반가 웠어요! 고생하셨습니다^^",
-              "likes": 13
-            },
-            {
-              "author": "@meatcreator",
-              "text": "[정육왕 구독자 한정 최저가 이벤트]\n\n설화네 한우 1++ 특수모듬 600g / 350개 한정\n(100g 당 12,900원 최저가 + 배송비 무료)\n\n- 5월7일(목) 일괄배송\n\n- 구매 링크 -\nhttps://naver.me/xy79USez\n\n(※공동구매 일환으로 소정의 수수료 지급)",
-              "likes": 6
-            },
-            {
-              "author": "@gkswpgml",
-              "text": "여기 저희동네 있는 정육점인데 고기질도 좋고 사장님도 너무 친절해요 ㅋㅋㅋ",
-              "likes": 4
-            },
-            {
-              "author": "@aewonee",
-              "text": "0:09 칼들고 걸어 들어오는거 개웃기네ㅋㅋㅋㅋㅋ",
-              "likes": 4
-            },
-            {
-              "author": "@백번김구운선생-c4x",
-              "text": "주문완료 ㅎ 잘 먹겠습니다",
-              "likes": 3
-            }
-          ]
-        }
-      ]
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
     }
   }
 }
