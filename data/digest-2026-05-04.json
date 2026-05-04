@@ -44,17 +44,49 @@
     },
     "dalmaji_bbq": {
       "display": "달맞이광장바베큐",
-      "video_count": 1,
-      "total_views": 101014,
-      "total_likes": 1670,
-      "total_comments": 210,
+      "video_count": 2,
+      "total_views": 101074,
+      "total_likes": 1676,
+      "total_comments": 212,
       "n_short": 0,
-      "n_long": 1,
+      "n_long": 2,
       "tier_counts": {
-        "Mega": 1
+        "Mega": 1,
+        "Nano": 1
       },
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
-      "videos": []
+      "summary": "달맞이광장바베큐가 서울에서 야외 식사를 즐기는 소비자들에게 인기가 있으며, 이는 육회바른연어의 매장 트래픽에 대해 경쟁력 있는 위협으로 작용할 수 있다. 그러나 현재 제공된 콘텐츠에서는 구체적인 메뉴나 프로모션 정보가 부족하여 자사와 직접 비교되는 부분은 명확히 드러나지 않았다.\n  📌 야외 식사 인기 · 경쟁력 있는 위협 · 구체적 비교 정보 부족",
+      "videos": [
+        {
+          "video_id": "b1uYZ4Y6NaI",
+          "title": "야장의 계절 을지로 달맞이광장바베큐 웨이팅999실화냐 🍖🍗",
+          "channel": "재콩월드",
+          "subscribers": 60,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 60,
+          "likes": 6,
+          "comment_count": 2,
+          "engagement_rate": 0.1333,
+          "duration": 785,
+          "is_short": false,
+          "buzz_score": 34.9,
+          "upload_date": "2026.05.04",
+          "url": "https://www.youtube.com/watch?v=b1uYZ4Y6NaI",
+          "description_excerpt": "슬슬 날씨가 풀리고 야장의 계절이 돌아왔습니다\n서울권에서 야장을 즐기고싶으시다면\n달맞이 광장 바베큐 아주좋은 선택입니다\n을지로3가에서 걸어서 유명한 만선호프도 있으니\n얼마남지 않은 야장계절 빨리즐기시길 바라겠습니다",
+          "top_comments": [
+            {
+              "author": "@송폭치",
+              "text": "0:03 시작부터 머리를 넘기네",
+              "likes": 0
+            },
+            {
+              "author": "@송폭치",
+              "text": "이제 머리 안넘기겠네",
+              "likes": 0
+            }
+          ]
+        }
+      ]
     },
     "johnmaat": {
       "display": "삼양 JohnMaat",
@@ -96,51 +128,162 @@
     },
     "ttoganzip": {
       "display": "또간집(풍자)",
-      "video_count": 6,
-      "total_views": 7882,
-      "total_likes": 157,
-      "total_comments": 59,
+      "video_count": 12,
+      "total_views": 7970,
+      "total_likes": 174,
+      "total_comments": 65,
       "n_short": 1,
-      "n_long": 5,
+      "n_long": 11,
       "tier_counts": {
-        "Nano": 6
+        "Nano": 12
       },
-      "summary": "또간집의 딜레마에서 언급된 내용은 자사와 직접적인 경쟁 상황을 보여주지는 않지만, 소비자들의 관심과 대화를 유도하고 있어 자사 점유율 및 트래픽에 대한 간접적 위협 요인으로 볼 수 있다. 그러나 현재로서는 또간집(풍자)의 메뉴나 프로모션 등이 육회바른연어와 직접 비교되는 부분은 확인되지 않았다.\n  📌 딜레마 · 경쟁 상황 · 간접적 위협",
+      "summary": "또간집(풍자)가 최근 등산 코스와 여행지 맛집으로 소개되며 인지도를 높이고 있다. 특히 게장 무한리필 메뉴와 바게트빵, 오렌지주스 등의 음식이 소비자의 호평을 받고 있어 육회바른연어의 점유율과 매장 트래픽에 약간의 위협 요인이 될 수 있다. 즉시 경쟁력 있는 프로모션 및 메뉴 개발이 필요하다.\n  📌 게장 무한리필 · 바게트빵 · 오렌지주스",
       "videos": [
         {
-          "video_id": "iSzLxR_T20w",
-          "title": "방콕 여행 후기/설날 연휴와 잡채/겨자 참소스 (2월에 먹은 거 리뷰&잡담)",
-          "channel": "쏭이츠 SsongEats",
-          "subscribers": 4480,
+          "video_id": "LWYUHKkp-HY",
+          "title": "초보자 출입금지 | 도봉산 Y계곡 일방통행 코스 | 주말엔 등산⛰️ | 도봉산 근처 맛집 추천 (Feat. 게장🦀 무한리필)",
+          "channel": "집밖엘린(Elin)🌿",
+          "subscribers": 1190,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 49,
-          "likes": 4,
-          "comment_count": 3,
-          "engagement_rate": 0.1429,
-          "duration": 1614,
+          "views": 36,
+          "likes": 8,
+          "comment_count": 0,
+          "engagement_rate": 0.2222,
+          "duration": 440,
           "is_short": false,
-          "buzz_score": 35.1,
-          "upload_date": "2026.05.03",
-          "url": "https://www.youtube.com/watch?v=iSzLxR_T20w",
-          "description_excerpt": "2월 결산 최큼 늦어따...\n\n0:00 인사말\n0:37 방콕 여행 - 방콕을 좋아하는 이유\n1:40 방콕 릉루엉\n4:20 방콕 팡차 (Pang Cha)\n7:40 또간집의 딜레마\n8:23 방콕 코퍼 뷔페\n9:29 수박 귀신에게 방콕이란?\n10:05 방콕 편의점 (샌드위치)\n10:47 방콕 호텔에 대하여\n12:35 설날 연휴\n12:52 잡채 이야기\n14:05 각종 라면 이야기 (스파게티 라면, 짜파게티)\n17:02 겨자 참소스 (야채찜 a.k.a. \"소스 발림대\")\n18:34 파라타\n21:09 에이스 (공장별 맛차이 - 해태공장, 훼미",
+          "buzz_score": 34.1,
+          "upload_date": "2026.05.04",
+          "url": "https://www.youtube.com/watch?v=LWYUHKkp-HY",
+          "description_excerpt": "오랜만에 다녀온 등산⛰️\n서울 등산 코스중에 가장 좋아하는 도봉산 Y계곡 코스입니다.\n(진짜 자주 다녔는데, 영상 촬영이 쉽지 않아서 처음 찍어본 영상)\n\n등산은 역시 먹으러 가는 거죠?\n게장 무한리필 집에 다녀왔는데, 여기도 엘린의 또간집 이구요!! (3~4번 또간집)\n너무 맛있고 친절해서 추천해요 :)\n\n도봉산커피의 코코넛커피도 추천합니다👍\n\n✨엘린 SNS 주소✨\n인스타 - https://www.instagram.com/s2.elin/\n유튜브 - https://m.youtube.com/@s2.elin.k\n블로그 - https:/",
+          "top_comments": []
+        },
+        {
+          "video_id": "7u5BHhkE8GY",
+          "title": "데니트립 ep48. 타이페이 시먼딩 데니의 또또또간집",
+          "channel": "데니트립",
+          "subscribers": 974,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 12,
+          "likes": 4,
+          "comment_count": 4,
+          "engagement_rate": 0.6667,
+          "duration": 919,
+          "is_short": false,
+          "buzz_score": 31.0,
+          "upload_date": "2026.05.04",
+          "url": "https://www.youtube.com/watch?v=7u5BHhkE8GY",
+          "description_excerpt": "안녕하세요. 데니입니다. 타이페이 시먼딩의 데니의 맛집 또또또간집을 알려드리고 맛나게 먹는 모습까지 보여드리려 합니다. 같이 가실거죠?\n\n시먼딩 - https://www.google.co.kr/maps/place/108+%EB%8C%80%EB%A7%8C+%ED%83%80%EC%9D%B4%EB%B2%A0%EC%9D%B4+%EC%99%84%ED%99%94+%EA%B5%AC+%EC%8B%9C%EB%A8%BC%EB%9D%B5/@25.0433377,121.50485,17z/data=!4m6!3m5!1s0x3442a90918a8262b:0xc",
           "top_comments": [
             {
-              "author": "@soolj9512",
-              "text": "이올 롱폼 나이챠!",
+              "author": "@봄-s7r",
+              "text": "오랜만에 영상이 올라왔네요 근데 자막위치좀 위로 올려줄수있나요 확대해서 보면 자막이 짤리드라구요",
               "likes": 1
             },
             {
-              "author": "@뱅튜브-e4o",
-              "text": "일요일밤10시반에 올리면 못볼줄아나봐 다보고잔다",
-              "likes": 1
+              "author": "@illliilliii3",
+              "text": "선추천 후 감상!",
+              "likes": 0
             },
             {
-              "author": "@김민지-p2t8i",
-              "text": "세븐일레븐 티샤쓰 어디갓지",
-              "likes": 1
+              "author": "@yeo_lim_haha",
+              "text": "언제봐도 기분좋은 데니 영상😊😊",
+              "likes": 0
+            },
+            {
+              "author": "@ggonie9421",
+              "text": "풍자 비켜~~~대만 시먼딩은 데니가 접수한다!ㅋ",
+              "likes": 0
             }
           ]
+        },
+        {
+          "video_id": "y2g7eJrT14U",
+          "title": "✔️도쿄 2박3일 또간집 맛집 유흥 이자카야 추천 클릭 일본만 3N번째 다녀옴 ✔️",
+          "channel": "영쯍💗",
+          "subscribers": 22,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 27,
+          "likes": 4,
+          "comment_count": 2,
+          "engagement_rate": 0.2222,
+          "duration": 1749,
+          "is_short": false,
+          "buzz_score": 29.9,
+          "upload_date": "2026.05.04",
+          "url": "https://www.youtube.com/watch?v=y2g7eJrT14U",
+          "description_excerpt": "🤍안녕하세요 영쯍입니다🤍\n나고야 다녀온지 일주일만에 도쿄(2박3일)알차게 맛집 뿌시고 왔으니 재밌게 시청부탁드립니다 ❤️꼭  클릭후 좋아요❤️까먹지마시기🫧\n구독 꼭해주시면 더욱더 좋은 퀄리티 재미로 올테니 기달려주세요 ! 다음에는 쇼핑영상으로 (도쿄여행) 찾아올테니 좋댓구알🤔😂‼️❤️\n\n\n\n#일본 #도쿄 #japan #trip #tokyo #또간집 #일본여행 #맛집 #산도맛집#vlog #japantrip#🇯🇵#한국인#korean#신주쿠#코엔지#나카메구로#신오쿠보 #에비스#도쿄역",
+          "top_comments": [
+            {
+              "author": "@youngju97",
+              "text": "맛집리스트 정리✔️\n\n\n1.딸기산도 디저트 카페(가격 초큼High) 코엔지역 도보4분\n\n주소: 4 Chome-44-5 Koenjiminami, Suginami City, Tokyo 우편번호🇯🇵166-0003\n\n2.가성비 이자카야 찾는다면(양 많고 야쓰이) 시부야역 도보 10분 \n\n주소: 〒우편번호🇯🇵150-0042 Tokyo, Shibuya, Udagawa",
+              "likes": 0
+            },
+            {
+              "author": "@youngju97",
+              "text": "공원 위치는 신주쿠 코엔입니다❤",
+              "likes": 0
+            }
+          ]
+        },
+        {
+          "video_id": "tSMO0jmObJE",
+          "title": "전주당일치기여행 vlog 👫🏻 | 고전여행이 되어버렸다 | 사실 비빔밥먹으러 갔음 | 또간집 길거리아에 또 반해버림🥖 | 임산부 만보걷기🤰🏻",
+          "channel": "베이지beige",
+          "subscribers": 318,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 4,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 695,
+          "is_short": false,
+          "buzz_score": 8.4,
+          "upload_date": "2026.05.04",
+          "url": "https://www.youtube.com/watch?v=tSMO0jmObJE",
+          "description_excerpt": "📍교동떡갈비 / 비빔밥\n📍길거리아 / 바게트빵 , 오렌지주스\n📍차미라미 카페 / 아포카토 , 디카페인아이스아메리카노",
+          "top_comments": []
+        },
+        {
+          "video_id": "Wx-rbb_vTIw",
+          "title": "🇨🇳중국 상하이 여행ㅣ중국여행 처음인 친구 데리고 상해 간 썰👭 | 짱구&못난이인형 랜덤깡부터 상해 또간집까지! ㅣ",
+          "channel": "슈슈싱 shushuxing",
+          "subscribers": 52,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 5,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 1854,
+          "is_short": false,
+          "buzz_score": 7.9,
+          "upload_date": "2026.05.04",
+          "url": "https://www.youtube.com/watch?v=Wx-rbb_vTIw",
+          "description_excerpt": "안녕하세요 슈슈입니다 !!!\n\n중국이 처음인 친구와 함께 떠난 낭만 가득 상하이 여행을 다녀왔어요! 🇨🇳✨\n\n끝없는 랜덤깡 투어(?)부터 입맛을 사로잡은 현지 맛집, 그리고 상하이의 감성을 200% 즐길 수 있는 코스까지 모두 담았습니다. 친구의 첫 중국 여행은 과연 어땠을까요?\n\n💌 마법 같은 순간이 가득했던 상하이 디즈니랜드 편은 다음 영상에서 이어집니다!\n\n\n#상하이브이로그  #상하이여행 #상해여행 #상하이맛집 #상하이 #중국여행 #중국 #상하이 #중국여행브이로그 #브이로그 #vlog",
+          "top_comments": []
+        },
+        {
+          "video_id": "zxAxE2EP0tU",
+          "title": "인천 부평 또간집 부평 현지인?TOP3 공개",
+          "channel": "오늘도 성은",
+          "subscribers": 37,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 4,
+          "likes": 1,
+          "comment_count": 0,
+          "engagement_rate": 0.25,
+          "duration": 1012,
+          "is_short": false,
+          "buzz_score": 7.7,
+          "upload_date": "2026.05.04",
+          "url": "https://www.youtube.com/watch?v=zxAxE2EP0tU",
+          "description_excerpt": "인천 부평 맛집 / 부평 또간집 / 부평역 맛집 추천\n\n한 번 가고 끝이 아니라\n진짜 다시 가게 되는 곳 3곳만 모았습니다.\n\n✔ 내돈내산\n✔ 재방문 확정 맛집\n\n영상 보시고 취향 맞는 곳 골라가세요!\n\n#부평맛집 #인천맛집 #또간집 #부평역맛집 #맛집추천\n\n\nSong : Roa - Santa Monica    • Roa - Santa Monica 【Official】  \nMusic promoted by 프리뮤직 Vlog Copyright Free Music \nLink :    • [무료브금] 신나는 밝은 여행 브이로그 브금 | Ro",
+          "top_comments": []
         }
       ]
     },
