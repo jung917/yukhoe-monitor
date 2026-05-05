@@ -83,104 +83,111 @@
     },
     "hongsound": {
       "display": "홍사운드",
-      "video_count": 0,
-      "total_views": 0,
-      "total_likes": 0,
-      "total_comments": 0,
+      "video_count": 1,
+      "total_views": 90,
+      "total_likes": 4,
+      "total_comments": 5,
       "n_short": 0,
-      "n_long": 0,
-      "tier_counts": {},
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
-      "videos": []
+      "n_long": 1,
+      "tier_counts": {
+        "Official": 1
+      },
+      "summary": "홍사운드의 '유부둘'과 '창억떡' 등 신메뉴들이 긍정적인 소비자 반응을 얻고 있으며, 이는 육회바른연어와 직접 경쟁하는 상황으로 매장 트래픽에 영향을 미칠 가능성이 있다. 특히 창억떡은 구독자 추천 맛집으로 언급되어 인지도 향상이 예상된다.\n  📌 유부둘 · 창억떡 · 구독자 추천",
+      "videos": [
+        {
+          "video_id": "5v8AGCX3qKY",
+          "title": "유부둘 광주, 아침부터 곱창 뿌시면서 창억떡까지! 구독자추천 찐맛집 체험 | 서울곱창, 창억떡, 우성오리탕, 밤실마을",
+          "channel": "HONG SOUND",
+          "subscribers": 1830000,
+          "creator_tier": "Official",
+          "is_verified": true,
+          "views": 90,
+          "likes": 4,
+          "comment_count": 5,
+          "engagement_rate": 0.1,
+          "duration": 2065,
+          "is_short": false,
+          "buzz_score": 45.2,
+          "upload_date": "2026.05.05",
+          "url": "https://www.youtube.com/watch?v=5v8AGCX3qKY",
+          "description_excerpt": "집가락 정품 구매하는 곳\n홍사운드몰 https://hongsound.shop/\n네이버 https://smartstore.naver.com/coffeechild/products/7688043656\n집가락이 특별한 이유 https://youtu.be/9KvCvdMSJ54\n\n홍사운드 플러스 채널(네츄럴 홍의 모습들) : https://www.youtube.com/channel/UCe8eXpQCaLaEiXOh2RxU_3A\n인스타그램(instagram) : https://www.instagram.com/hong_sound\n\n00:00 아침부",
+          "top_comments": [
+            {
+              "author": "@WonseobLEE-t8o",
+              "text": "이제 두분이 함깨 결성하시기로하셨나요ㅋㅋ은근케미좋아보여요 ㅡㅋㅋㅋ",
+              "likes": 0
+            },
+            {
+              "author": "@HONGSOUND",
+              "text": "아 진짜 구독자분들이 추천해주신 광주 맛집들 너무너무너무 맛있게 잘 먹었습니다!! 정말 감사합니다 ㅠㅠ 또 가고 싶당...\n박병진용사 시점 광주 브이로그 https://www.youtube.com/watch?v=G4n84DIVEk4",
+              "likes": 0
+            },
+            {
+              "author": "@보리-m9p",
+              "text": "유두불 케미가 좋아요",
+              "likes": 0
+            }
+          ]
+        }
+      ]
     },
     "ttoganzip": {
       "display": "또간집(풍자)",
-      "video_count": 13,
-      "total_views": 1796,
-      "total_likes": 71,
-      "total_comments": 20,
+      "video_count": 14,
+      "total_views": 2731,
+      "total_likes": 129,
+      "total_comments": 37,
       "n_short": 1,
-      "n_long": 12,
+      "n_long": 13,
       "tier_counts": {
-        "Nano": 13
+        "Nano": 14
       },
-      "summary": "또간집(풍자)의 '신간짬뽕'이 주요 메뉴로 소개되었으며, 영상에서 또간집은 현지인들이 재방문하는 맛집으로 언급되어 자사와 직접적인 경쟁 상황을 드러냈다. 소비자 반응은 긍정적이지만, 이는 자사의 점유율과 트래픽에 부정적 영향을 미칠 수 있으므로 즉시 대응이 필요하다.\n  📌 신간짬뽕 · 재방문 확정 맛집 · 긍정적인 소비자 반응",
+      "summary": "또간집(풍자)의 신메뉴와 프로모션에 대한 긍정적인 소비자 반응이 나타나고 있으나, 자사 제품과 직접 비교되는 부분은 명확히 드러나지 않았다. 그러나 협찬 영향으로 인한 편향된 리뷰가 일부 존재하며, 이는 자사의 점유율 및 매장 트래픽에 대한 즉각적인 위협 요소로 작용할 수 있다.\n  📌 긍정적 소비자 반응 · 편향된 협찬 리뷰 · 즉시 대응 필요",
       "videos": [
         {
-          "video_id": "p_Q2eg0sU0Y",
-          "title": "[vlog] 5년간 매달 자산결산 루틴 지키면 일어나는 일ㅣ쭈꾸미 레전드 맛집추천 , 홍보각 짬뽕, 다가진 여자들 만나고 자극받음🔥 플라워 요가클래스",
-          "channel": "차차",
-          "subscribers": 20,
+          "video_id": "J99Ngwhdz28",
+          "title": "또간집 LA 대도식당 프리미엄 고기먹방 이래서 또 와야 했구나!! 대도식당 (Daedo Sikdang)",
+          "channel": "LA MUKBANG",
+          "subscribers": 2320,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 62,
-          "likes": 5,
-          "comment_count": 0,
-          "engagement_rate": 0.0806,
-          "duration": 1085,
+          "views": 935,
+          "likes": 58,
+          "comment_count": 17,
+          "engagement_rate": 0.0802,
+          "duration": 3455,
           "is_short": false,
-          "buzz_score": 32.2,
-          "upload_date": "2026.05.04",
-          "url": "https://www.youtube.com/watch?v=p_Q2eg0sU0Y",
-          "description_excerpt": "4월도 끝나구 새로운 5월이 찾아왔어요 🫶🏻\n5월은 휴일이 많아서 벌써 신나는 어른이입니다.. 맨날 맨날 쉬고싶어요ㅜㅠㅠ\n\n이번주는 몸상태이슈로 운동도 한번도 안가고ㅋㅋㅋㅋ 집에서 요양하면서 푹 쉰 한 주 였는데요.\n틈틈이 모임이라던가 인터뷰요청 또 주말에는 꽃꽂이 등 일상의 이벤트들이 있어서 다채로웠던 한 주 였어요.\n\n00:00 | 퇴근하고 모임에갔더니 연예인, 유튜버가 있다\n03:14 | 휴가쓰고 인터뷰, 내가 열심히 못(?)사는 이유\n05:47 | 실적압박, 퇴근후 핑크하늘과 언박싱, 야밤의 장보기\n09:41 | 월말에 꼭 ",
-          "top_comments": []
-        },
-        {
-          "video_id": "zxAxE2EP0tU",
-          "title": "인천 부평 또간집 부평 현지인?TOP3 공개",
-          "channel": "오늘도 성은",
-          "subscribers": 37,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 21,
-          "likes": 3,
-          "comment_count": 0,
-          "engagement_rate": 0.1429,
-          "duration": 1012,
-          "is_short": false,
-          "buzz_score": 27.7,
-          "upload_date": "2026.05.04",
-          "url": "https://www.youtube.com/watch?v=zxAxE2EP0tU",
-          "description_excerpt": "인천 부평 맛집 / 부평 또간집 / 부평역 맛집 추천\n\n한 번 가고 끝이 아니라\n진짜 다시 가게 되는 곳 3곳만 모았습니다.\n\n✔ 내돈내산\n✔ 재방문 확정 맛집\n\n영상 보시고 취향 맞는 곳 골라가세요!\n\n#부평맛집 #인천맛집 #또간집 #부평역맛집 #맛집추천\n\n\nSong : Roa - Santa Monica    • Roa - Santa Monica 【Official】  \nMusic promoted by 프리뮤직 Vlog Copyright Free Music \nLink :    • [무료브금] 신나는 밝은 여행 브이로그 브금 | Ro",
-          "top_comments": []
-        },
-        {
-          "video_id": "5MKHYdHTnLc",
-          "title": "대전 여행 브이로그 최신판♥/대전 먹으러 간다면 필수시청🌟.현지인맛집 대공개.내가 또간집.대전디저트.빵집추천.",
-          "channel": "지니지니jinny",
-          "subscribers": 15,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 32,
-          "likes": 0,
-          "comment_count": 0,
-          "engagement_rate": 0.0,
-          "duration": 723,
-          "is_short": false,
-          "buzz_score": 8.2,
-          "upload_date": "2026.05.04",
-          "url": "https://www.youtube.com/watch?v=5MKHYdHTnLc",
-          "description_excerpt": "대전 여행 브이로그🍀\ninstagram: sju_0625\n\n\n#대전여행 #대전맛집 #대전 \n\n결혼준비와 여러가지 이슈로 영상 업로드가 너무 늦어졌어요ㅜㅁㅜ,,,\n얼른 또 새로운 영상으로 찾아올게요!!!",
-          "top_comments": []
-        },
-        {
-          "video_id": "bsbVaiAqVD8",
-          "title": "풍자 또간집 신간짬뽕 먹으러 파주감 (feat.악마는 프라다를 입는다2)",
-          "channel": "쩡로그 JJ-vlog",
-          "subscribers": 76,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 8,
-          "likes": 0,
-          "comment_count": 0,
-          "engagement_rate": 0.0,
-          "duration": 399,
-          "is_short": false,
-          "buzz_score": 7.9,
-          "upload_date": "2026.05.04",
-          "url": "https://www.youtube.com/watch?v=bsbVaiAqVD8",
-          "description_excerpt": "nan",
-          "top_comments": []
+          "buzz_score": 61.1,
+          "upload_date": "2026.05.05",
+          "url": "https://www.youtube.com/watch?v=J99Ngwhdz28",
+          "description_excerpt": "#mukbang #대도식당 #먹방 #Daedo Sikdang  #la대도식당\n\n대도식당 (Daedo Sikdang)\n4001 W 6th St, Los Angeles, CA 90020\n전화번호 : 213-322-2559\n영업시간\n월요일 : 휴무일\n화요일 : 오전 11:30~오후 3:00\n             오후 5:00~11:00\n수요일 : 오전 11:30~오후 3:00\n             오후 5:00~11:00\n목요일 : 오전 11:30~오후 3:00 (BBQ 가능)\n             오후 5:00~11:00\n금요일 ",
+          "top_comments": [
+            {
+              "author": "@kunpark5995",
+              "text": "협찬받았으니깐 이가야 헐뜯지마라. 훅가는수가 있다. ㅋ",
+              "likes": 5
+            },
+            {
+              "author": "@buseongkfood",
+              "text": "두번이나\n형제도 다시 찰영 해주세요 ㅎㅎㅎ",
+              "likes": 3
+            },
+            {
+              "author": "@kunpark5995",
+              "text": "엠제트시대?? 엠쥐세대라 말하자. 쪽팔린다.",
+              "likes": 3
+            },
+            {
+              "author": "@neofunks",
+              "text": "여기 비싸고 맛도 별로던데....깍두기 볶음밥인가 그거 먹으러 갓다가 비싸고 맛없어서 안가는 곳.",
+              "likes": 2
+            },
+            {
+              "author": "@jiyoonpark3884",
+              "text": "오~대도식당 맛있겠다",
+              "likes": 1
+            }
+          ]
         }
       ]
     },
