@@ -1,0 +1,143 @@
+{
+  "date": "2026-05-06",
+  "days": 2,
+  "first_run": false,
+  "brands": {
+    "yukbayeon": {
+      "display": "육회바른연어",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "baksoo": {
+      "display": "박수식당",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "daepo79": {
+      "display": "79대포",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "dalmaji_bbq": {
+      "display": "달맞이광장바베큐",
+      "video_count": 1,
+      "total_views": 242,
+      "total_likes": 9,
+      "total_comments": 3,
+      "n_short": 0,
+      "n_long": 1,
+      "tier_counts": {
+        "Nano": 1
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "johnmaat": {
+      "display": "삼양 JohnMaat",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "champd": {
+      "display": "참피디",
+      "video_count": 1,
+      "total_views": 1,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 1,
+      "n_long": 0,
+      "tier_counts": {
+        "Nano": 1
+      },
+      "summary": "참피디의 최근 영상과 댓글 분석 결과, 참피디 메뉴에 대한 구체적인 정보가 부족하여 자사 제품과 직접 비교되는 부분이나 소비자 반응이 드러나지 않았다. 따라서 현재로서는 육회바른연어의 점유율 및 매장 트래픽에 즉각적인 위협으로 보기는 어렵지만, 참피디의 신메뉴 출시와 프로모션 동향을 지속적으로 모니터링할 필요가 있다.\n  📌 신메뉴 N종 · 프로모션 부재 · 트래픽 영향 미미",
+      "videos": [
+        {
+          "video_id": "V-PL7xNtVCY",
+          "title": "Ronaldo on fut champd doing this absolute banger from Christiano ⚽️🎯🥅🤯#fc26 #ronaldo #fc #banger",
+          "channel": "MULTICHANNEL",
+          "subscribers": 82,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 1,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 12,
+          "is_short": true,
+          "buzz_score": 7.3,
+          "upload_date": "2026.05.05",
+          "url": "https://www.youtube.com/watch?v=V-PL7xNtVCY",
+          "description_excerpt": "nan",
+          "top_comments": []
+        }
+      ]
+    },
+    "hongsound": {
+      "display": "홍사운드",
+      "video_count": 1,
+      "total_views": 14835,
+      "total_likes": 335,
+      "total_comments": 52,
+      "n_short": 0,
+      "n_long": 1,
+      "tier_counts": {
+        "Official": 1
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "ttoganzip": {
+      "display": "또간집(풍자)",
+      "video_count": 10,
+      "total_views": 3181,
+      "total_likes": 127,
+      "total_comments": 45,
+      "n_short": 0,
+      "n_long": 10,
+      "tier_counts": {
+        "Nano": 10
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "meatking": {
+      "display": "정육왕",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    }
+  }
+}
