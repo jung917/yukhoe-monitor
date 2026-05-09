@@ -1,0 +1,188 @@
+{
+  "date": "2026-05-10",
+  "days": 2,
+  "first_run": false,
+  "brands": {
+    "yukbayeon": {
+      "display": "육회바른연어",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "baksoo": {
+      "display": "박수식당",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "daepo79": {
+      "display": "79대포",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "dalmaji_bbq": {
+      "display": "달맞이광장바베큐",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "johnmaat": {
+      "display": "삼양 JohnMaat",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "champd": {
+      "display": "참피디",
+      "video_count": 1,
+      "total_views": 41535,
+      "total_likes": 583,
+      "total_comments": 191,
+      "n_short": 0,
+      "n_long": 1,
+      "tier_counts": {
+        "Mega": 1
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "hongsound": {
+      "display": "홍사운드",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "ttoganzip": {
+      "display": "또간집(풍자)",
+      "video_count": 12,
+      "total_views": 2392,
+      "total_likes": 63,
+      "total_comments": 34,
+      "n_short": 0,
+      "n_long": 12,
+      "tier_counts": {
+        "Nano": 11,
+        "Micro": 1
+      },
+      "summary": "영상에서 '또간집'의 신메뉴와 프로모션에 대한 언급은 없으나, 분당 지역 맛집으로 소개되어 소비자들의 관심을 끌 수 있으며, 자사와 직접 비교되지는 않았지만 경쟁 상권 내에서 유동인구를 놓고 경쟁할 가능성이 있어 주의가 필요하다.\n  📌 분당맛집 · 경쟁상권 · 유동인구",
+      "videos": [
+        {
+          "video_id": "fB2LT3DV7NQ",
+          "title": "Vlog 일상브이로그|카페브이로그🍞|매일달리기🏃🏻‍♀️|러닝하다뱀봤다|분당토박이|분당맛집|또간집예돈|로또당첨|갓생|막국수|딤섬🥟",
+          "channel": "정현",
+          "subscribers": 13,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 4,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 1337,
+          "is_short": false,
+          "buzz_score": 7.1,
+          "upload_date": "2026.05.09",
+          "url": "https://www.youtube.com/watch?v=fB2LT3DV7NQ",
+          "description_excerpt": "안녕하세요 두번째 일상브이로그 입니다! 벌써 편집 실력이 늘은것같은 느낌이..🤭 구독자분들 로또 당첨 기운 받아가시고 주말 잘보내세요🤍\n#브이로그 #일상브이로그 #카페 #러닝",
+          "top_comments": []
+        }
+      ]
+    },
+    "meatking": {
+      "display": "정육왕",
+      "video_count": 1,
+      "total_views": 745,
+      "total_likes": 27,
+      "total_comments": 13,
+      "n_short": 0,
+      "n_long": 1,
+      "tier_counts": {
+        "Macro": 1
+      },
+      "summary": "정육왕은 고기 전문점 '금돼지식당 남영돈 산청숯불가든'의 흑돼지 비계 삼겹살을 극찬하며 소비자들에게 추천하고 있어, 이는 육회바른연어와 직접적인 경쟁 상황이며, 소비자들의 긍정적 반응은 자사 매장 트래픽에 부정적 영향을 미칠 가능성이 있다.\n  📌 흑돼지 비계 삼겹살 · 금돼지식당 남영돈 · 소비자 추천",
+      "videos": [
+        {
+          "video_id": "MRhvdOzh9Fc",
+          "title": "정육왕이 극찬한 흑돼지 상위 0.1% 비계 삼겹살의 진실(금돼지식당 남영돈 산청숯불가든 잡고 싶은 37살)",
+          "channel": "사장님입니다",
+          "subscribers": 167000,
+          "creator_tier": "Macro",
+          "is_verified": false,
+          "views": 745,
+          "likes": 27,
+          "comment_count": 13,
+          "engagement_rate": 0.0537,
+          "duration": 675,
+          "is_short": false,
+          "buzz_score": 62.2,
+          "upload_date": "2026.05.09",
+          "url": "https://www.youtube.com/watch?v=MRhvdOzh9Fc",
+          "description_excerpt": "#사장님입니다 #고산식육점\n #삼겹살맛집 #용산맛집 #용리단길맛집 #정육왕\n#휴먼스토리 #30대자영업자이야기 #탐구생활 #장사의신\n\n\n\n\n\n \n\n\n광고 및 출연 문의(결혼식 사회 축가 문의)\n\n3931335@naver.com\n\n인스타 instagram.com/sazangneem",
+          "top_comments": [
+            {
+              "author": "@부모님입니다",
+              "text": "지방 저 부분이 맛있는 건데",
+              "likes": 2
+            },
+            {
+              "author": "@사케내가사케",
+              "text": "정육왕과 사장님입니다가 인정한곳 믿고 갑니다😊",
+              "likes": 1
+            },
+            {
+              "author": "@토토로토토로",
+              "text": "내일 가봐야지요😊",
+              "likes": 1
+            },
+            {
+              "author": "@shadow00564",
+              "text": "여긴 갑니다 꼭 꼭🎉",
+              "likes": 1
+            },
+            {
+              "author": "@은이네반찬",
+              "text": "멋쟈요",
+              "likes": 1
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
