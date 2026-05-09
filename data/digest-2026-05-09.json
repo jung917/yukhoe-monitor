@@ -65,18 +65,65 @@
     },
     "champd": {
       "display": "참피디",
-      "video_count": 2,
-      "total_views": 9848,
-      "total_likes": 246,
-      "total_comments": 21,
+      "video_count": 3,
+      "total_views": 19547,
+      "total_likes": 530,
+      "total_comments": 110,
       "n_short": 1,
-      "n_long": 1,
+      "n_long": 2,
       "tier_counts": {
         "Micro": 1,
-        "Nano": 1
+        "Nano": 1,
+        "Mega": 1
       },
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
-      "videos": []
+      "summary": "참피디가 아나고회를 특별 할인으로 제공하여 소비자들 사이에서 긍정적인 반응을 얻고 있으나, 육회바른연어와의 직접 비교는 이루어지지 않았다. 그러나 참피디의 메뉴 중 일부에 대한 부정적 의견이 제기되어 있어 주의가 필요하다.\n  📌 아나고회 · 할인마켓 · 부정적 의견",
+      "videos": [
+        {
+          "video_id": "PfNgwd0iw68",
+          "title": "이 회는 아는사람이 없습니다.",
+          "channel": "애주가TV참PD",
+          "subscribers": 1510000,
+          "creator_tier": "Mega",
+          "is_verified": true,
+          "views": 9699,
+          "likes": 284,
+          "comment_count": 89,
+          "engagement_rate": 0.0385,
+          "duration": 753,
+          "is_short": false,
+          "buzz_score": 66.4,
+          "upload_date": "2026.05.09",
+          "url": "https://www.youtube.com/watch?v=PfNgwd0iw68",
+          "description_excerpt": "부산에서 아나고회 제대로 즐기고 왔습니다\n\n참피디가 직접 운영하는 녹진이 특별 안주 할인몰\n핵이득마켓 구경가기 - https://ndns.shop/\n\n핵이득마켓 어플 다운로드\n안드로이드전용\n https://play.google.com/store/apps/details?id=com.cafe24.ec.plusndns2021\n아이폰전용\nhttps://apps.apple.com/kr/app/%ED%95%B5%EC%9D%B4%EB%93%9D%EB%A7%88%EC%BC%93/id1581544007\n\n참피디 Q&A 2025 최신판\nhttps:/",
+          "top_comments": [
+            {
+              "author": "@또부어",
+              "text": "딱봐도 탈수기 이빠이 돌린 아나고ㅋ",
+              "likes": 17
+            },
+            {
+              "author": "@오오태식이",
+              "text": "다 좋은데\n소맥 종이컵 짜치네요 ㅋㅋㅋㅋㅋㅋㅋ",
+              "likes": 7
+            },
+            {
+              "author": "@greycat2920",
+              "text": "메추리알 껍질째 먹는거보고 경악했는데 와..................................😮😮😮😮",
+              "likes": 7
+            },
+            {
+              "author": "@후야-r4p",
+              "text": "저걸 모르는 사람은 없죠. 아직도 많이 찾는데 뭐가 잊혀지고 있다는 건가요?",
+              "likes": 7
+            },
+            {
+              "author": "@BBO_boojang",
+              "text": "기장 가면 바지 기장 수선 무료인가요?",
+              "likes": 5
+            }
+          ]
+        }
+      ]
     },
     "hongsound": {
       "display": "홍사운드",
@@ -94,122 +141,98 @@
     },
     "ttoganzip": {
       "display": "또간집(풍자)",
-      "video_count": 11,
-      "total_views": 62686,
-      "total_likes": 889,
-      "total_comments": 78,
+      "video_count": 13,
+      "total_views": 62838,
+      "total_likes": 893,
+      "total_comments": 89,
       "n_short": 0,
-      "n_long": 11,
+      "n_long": 13,
       "tier_counts": {
-        "Nano": 9,
+        "Nano": 11,
         "Macro": 1,
         "Micro": 1
       },
-      "summary": "또간집(풍자)의 부산 및 창원 여행 영상과 울산 남구 맛집 소개 영상이 자사 육회바른연어와 직접적인 경쟁은 아니지만, 지역 내에서의 인지도 향상에 기여할 수 있으며 소비자의 선택을 분산시킬 위험이 있다. 특히 부산 여행에서 또간집 메뉴가 언급되었으나 구체적 내용이 없어 자사 대비 우위/열위를 판단하기 어렵다.\n  📌 울산 남구 맛집 · 부산 여행 · 경주 맛집",
+      "summary": "또간집(풍자)은 대전여행 및 인사동 호텔스테이 관련 영상에서 언급되었으나, 자사와 직접 비교되는 메뉴나 프로모션은 확인되지 않았다. 소비자 반응은 긍정적이지만, 육회바른연어의 점유율과 매장 트래픽에 대한 즉각적인 위협으로 보이지는 않는다.\n  📌 대전여행 · 인사동 호텔스테이 · 긍정적 소비자 반응",
       "videos": [
         {
-          "video_id": "QFmAAfvisBw",
-          "title": "임신 16주차에 아들둘과 다녀온 부산여행!!(feat. 박가원의 또간집)",
-          "channel": "modooKAONEhe TV 모두가원해 TV",
-          "subscribers": 8960,
+          "video_id": "k9hN4alG_Ic",
+          "title": "광고없는 가성비 1박 호텔스테이 #인사동호텔추천 #혼밥맛집 #혼자여행",
+          "channel": "N번째날",
+          "subscribers": 3590,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 216,
-          "likes": 5,
-          "comment_count": 2,
-          "engagement_rate": 0.0324,
-          "duration": 762,
+          "views": 109,
+          "likes": 0,
+          "comment_count": 8,
+          "engagement_rate": 0.0734,
+          "duration": 692,
           "is_short": false,
-          "buzz_score": 42.3,
-          "upload_date": "2026.05.08",
-          "url": "https://www.youtube.com/watch?v=QFmAAfvisBw",
-          "description_excerpt": "안녕하세요🙌\n모두가원하는 TV 박가원 입니다.\n요새 축복이를 임신하고 고맙게도 바쁜 일상을 보내고 있어요🙌\n그러다 보니 영상을 찍어 놓은건 많은데 편집을 못하고있는 상황이...😭\n천천히 하나씩 풀어볼 예정이니까 조금만 기다려 주세요🔥\n\n오늘은 아들 둘과 떠난 부산 및 창원 여행이예요.\n사실 부산은 자주 가는 지역이기도 한데 맛있게 먹었던 식당이 있는데\n두 아들들과 안가봤던곳도 있고 해서 박가원의 또간집 느낌으로다가 \n영상 만들어 봤어요🥰\n재미있게 시청 해 주세요📺\n#부산여행 #부산 #해운대암소갈비 #양산국밥 #부산집 #맛집 #또간집",
+          "buzz_score": 40.3,
+          "upload_date": "2026.05.09",
+          "url": "https://www.youtube.com/watch?v=k9hN4alG_Ic",
+          "description_excerpt": "#나혼자 #호텔스테이 #혼밥맛집 #인사동아침식사\n어버이날 선물로 아들이 예약해준 호텔스테이 다녀왔습니다.\n혼자라서 (더)좋았던, 가성비 있게 잘 놀다 온 주부의 1박 서울여행.\n또간집과 또갈집도 구경하세요!\n\n00:00 인트로\n00:11 나인트리 인사동 호텔\n02:11 서울 공예박물관\n02:55 윤보선길\n03:58 오브젝트 삼청점\n04:28 북촌 설화수의 집\n05:49 로우루프\n06:35 기생\n07:19 경인미술관\n07:49 인사아트센터\n08:26 인명손안마원\n10:06 코끼리베이글 인사동점",
           "top_comments": [
             {
-              "author": "@초롱-k5v",
-              "text": "오마이베이비때부터 알게 된 팬이에요!!! ㅎㅎㅎㅎㅎ 유튜브 다시 시작하셔서 너무너무 반갑고 엄청 응원해요☺️☺️ 가원님 너무너무 밝고 사랑스럽고 아이들도 넘 착하고 이뻐요!!! ㅎㅎ셋째 몸조리 잘 하시고!! 항상 행복하시길 바래요!!! ㅎㅎㅎㅎ",
-              "likes": 0
-            },
-            {
-              "author": "@박창근-n5s",
-              "text": "잘 자라고 있는 유준, 유하 반갑구나.  해운대 암소갈비집에도 한번 가봐야 겠네.",
-              "likes": 0
-            }
-          ]
-        },
-        {
-          "video_id": "HAc1Y-pW7mA",
-          "title": "또간집에 나올 찐 울산 남구 맛집 추천 🔥웨이팅 주의🔥",
-          "channel": "Ulsan Namgu Tour",
-          "subscribers": 15800,
-          "creator_tier": "Micro",
-          "is_verified": false,
-          "views": 133,
-          "likes": 4,
-          "comment_count": 2,
-          "engagement_rate": 0.0451,
-          "duration": 407,
-          "is_short": false,
-          "buzz_score": 41.1,
-          "upload_date": "2026.05.08",
-          "url": "https://www.youtube.com/watch?v=HAc1Y-pW7mA",
-          "description_excerpt": "풍자 님의 '또간집' 울산 편에서 소개되지 않아 아쉬웠던\n남구의 진짜 맛집들을 소개합니다🔥\n이번 여행은 특별히 울산 맛집 인플루언서 잇츠윤 님과 함께했습니다ㅎㅎ\n\n정성이 가득 담긴 정갈한 솥밥 맛집 '복정원'부터,\n미국의 진한 맛의 수제버거 성지 '행루즈 버거'까지\n야무지게 다녀왔습니다. 🍱🍔\n\n남구의 '또간집' 리스트!\n여러분도 이번 주말, 남구의 두 맛집 꼭 가보시길 추천드려요! ✨\n\n📌타임라인\n0:00 인트로\n0:22 울산 남구 '또간집' 탐방 시작🚩\n0:47 🍚부모님이 좋아하시는 맛집(복정원)\n1:37  솥밥 먹방\n3:26 ",
-          "top_comments": [
-            {
-              "author": "@울산김볼링TV-tc2nz",
-              "text": "반갑습니다",
+              "author": "@nth-day",
+              "text": "제가 사랑하는 동네 인사동에서 하루를 보내고 왔습니다.맛과 멋 모두 넘치는 동네라 어디를 가야할지 고민이었어요.함께 여행하는 기분으로 영상 시청해주시면 감사하겠습니다😊",
               "likes": 1
             },
             {
-              "author": "@moosanghoon",
-              "text": "잘보고갑니다",
+              "author": "@완정-i5c",
+              "text": "저도  자주 다니는 코스인데   비오는 날은 또다른 느낌을 주네요😊  나오시는  호텔복도가 유난히 길어보이네요~^^",
+              "likes": 1
+            },
+            {
+              "author": "@천서영-f1f",
+              "text": "평일 비내리는 인사동 너무 좋아보이네요 최근 주말 서울시내 사람이 너무 많아 정신없었는데 역시 평일에가야 제맛이에요 덕분에 따라가볼집 저장합니다 참 저도 또갈집 하나 부암동 목인박물관 추천합니다 뷰가 미쳤다는 말밖에~",
+              "likes": 1
+            },
+            {
+              "author": "@jek-op2xo",
+              "text": "안국동으로 고등학교를 다녔는데 추억의 장소들이 영상에 나오니 몽글몽글하네요. 제가 다니던 학교, 이른 아침의 인사동 길... 그 시절이 생각나서요. 인사동에 호텔이 있는지 이제 알았어요. 조만간 저도 가봐야겠어요",
+              "likes": 1
+            },
+            {
+              "author": "@nth-day",
+              "text": "자주 가시는군요.언제가도 참 좋은 동네지요?비오는 날 따뜻한 옷 입고 여유있게 다니니 참 좋았어요.\n딩동댕!엘리베이터에서 먼 방이었어요😊",
               "likes": 0
             }
           ]
         },
         {
-          "video_id": "NZu_VD1cxE4",
-          "title": "경주 2박 3일 | 맛집과 느낌 좋은 장소들의 향연",
-          "channel": "맹지윤 Jiyun",
-          "subscribers": 132,
+          "video_id": "5yHTHe7Paco",
+          "title": "[국내여행] 또 가려고 만든 대전여행 지도🏷️ (또간집 모음) 은행동 토스트 | 백정화 | 몽심 | 프렐류드 | 바로그집 (대전 소품샵, 대전맛집)",
+          "channel": "풀하 Poolha",
+          "subscribers": 138,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 20,
-          "likes": 0,
-          "comment_count": 1,
-          "engagement_rate": 0.05,
-          "duration": 482,
+          "views": 43,
+          "likes": 4,
+          "comment_count": 3,
+          "engagement_rate": 0.1628,
+          "duration": 828,
           "is_short": false,
-          "buzz_score": 8.8,
-          "upload_date": "2026.05.08",
-          "url": "https://www.youtube.com/watch?v=NZu_VD1cxE4",
-          "description_excerpt": "2박 3일이지만 사실상 이틀이었던 일정표입니다\n\n1일차\n-대릉원\n🍚남정부일기사식당\n: 경주 또간집에 소개된 낙지+돼지고기 맛집! 가족 여행에도 적합하고 맛있습니다\n-동궁과 월지\n: 일몰시간에 맞춰가면 아름다운 야경을 볼 수 있습니다\n\n2일차\n황리단길\n-황남우엉김밥: 맛있어요\n-황남쫀드기\n-황남비빔밥: 맛있어요! 추천합니다\n\n오아르미술관\n: 요즘 떠오르는 왕릉뷰 커피 맛집 & 미술관\n\n현대밀면\n: 더워지는 날 한끼 식사로 좋아요 다만 주차가 거의 불가능하다는 점\n\n국립경주박물관 & 이디야 국립경주박물관점 \n: 무료 입장 / 이디야 수",
+          "buzz_score": 33.4,
+          "upload_date": "2026.05.09",
+          "url": "https://www.youtube.com/watch?v=5yHTHe7Paco",
+          "description_excerpt": "대전여행 vlog\n\n설정 - 화질 - 최대화질(4k)로 설정하시면 더욱 선명한 화질로 시청하실 수 있습니다♡\n\n⠀⠀⠀⠀⠀⠀⠀ \n\n#국내여행 #대전여행 #대전또간집\n#대전소품샵 #대전맛집 #대전카페\n#koreatravel",
           "top_comments": [
             {
-              "author": "@만찐두빵떵",
-              "text": "나도 경주 가고싶어지는 영상이다😭🥰",
-              "likes": 0
+              "author": "@PoolhaFilm",
+              "text": "설정 > 화질 > 2160p(4k)로 설정하시면 더욱 선명한 화질로 시청하실 수 있습니다♡",
+              "likes": 3
+            },
+            {
+              "author": "@Jack9film",
+              "text": "다음 여행지는 어디인가요?😊😊",
+              "likes": 2
+            },
+            {
+              "author": "@PoolhaFilm",
+              "text": "얼른 봄맞이 나들이 올려보아요😌😌",
+              "likes": 1
             }
           ]
-        },
-        {
-          "video_id": "AHbXC73saZU",
-          "title": "[구미 맛집] 한채 쭈꾸미",
-          "channel": "제리의 욜로 라이프(Jerry's yolo life)",
-          "subscribers": 3410,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 1,
-          "likes": 0,
-          "comment_count": 0,
-          "engagement_rate": 0.0,
-          "duration": 484,
-          "is_short": false,
-          "buzz_score": 8.5,
-          "upload_date": "2026.05.08",
-          "url": "https://www.youtube.com/watch?v=AHbXC73saZU",
-          "description_excerpt": "구미에 풍자 또간집에 나온 쭈꾸미 맛집이 있다고 하여 가족들과 방문. 매콤한 쭈꾸미에 시원한 묵사발, 그리고 야채 샐러드에 도토리전까지 가성비 좋게 즐길 수 있더라구요. 구미에서 쭈꾸미 땡기면 한번 들러보세요 ~\n\n주 소 : 경북 구미시 공원로 328\n전 화 : 0504-0544-5196\n영업 시간 : 매일 11시 ~ 21시30분\n                  설날, 추석 휴무\n\n방문일 : 2026년 4월 12일",
-          "top_comments": []
         }
       ]
     },
