@@ -5,15 +5,37 @@
   "brands": {
     "yukbayeon": {
       "display": "육회바른연어",
-      "video_count": 0,
-      "total_views": 0,
+      "video_count": 1,
+      "total_views": 2,
       "total_likes": 0,
       "total_comments": 0,
       "n_short": 0,
-      "n_long": 0,
-      "tier_counts": {},
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
-      "videos": []
+      "n_long": 1,
+      "tier_counts": {
+        "Nano": 1
+      },
+      "summary": "육회바른연어는 최근 한국소비자포럼에서 외식 부문 고객충성도 대상 수상으로 인해 브랜드 인지도와 신뢰성이 상승했으나, 아직 구체적인 신메뉴나 프로모션 내용이 제시되지 않아 자사 점유율과 매장 트래픽에 즉각적인 위협은 되지 않는 것으로 보인다. 소비자 반응에서도 주로 브랜드 가치와 고객 만족도를 중심으로 논의되고 있어, 현재로서는 방어 액션보다는 수상 결과를 활용한 마케팅 전략을 고려할 시기이다.\n  📌 브랜드고객충성도대상 · 외식부문 · 마케팅전략",
+      "videos": [
+        {
+          "video_id": "b5PUucF6EO0",
+          "title": "[단독] 수상자 인터뷰🎙️ 2026 브랜드 고객충성도 대상 - 외식 부문",
+          "channel": "한국소비자포럼",
+          "subscribers": 5900,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 2,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 140,
+          "is_short": false,
+          "buzz_score": 9.1,
+          "upload_date": "2026.05.11",
+          "url": "https://www.youtube.com/watch?v=b5PUucF6EO0",
+          "description_excerpt": "#브랜드고객충성도대상 #2026브랜드고객충성도대상 #BCLI\n\nLeave Your Mark!\n\n모든 것이 빠르게 변화하는 인공지능 대전환의 시대,\n강력한 브랜드는 흔들림 없이 자신만의 가치를 지키며\n소비자의 마음에 선명한 흔적을 남깁니다.\n\n38만 대한민국 소비자가 뽑은 고객충성도 1위 브랜드,\n그 영광의 주인공을 지금 공개합니다!🌻\n\n---\n📍타임스탬프\n#육회바른연어 00:00\n#거북이동네 00:23\n#카페인중독 00:59\n#크리스피프레시 01:17\n#카페프리헷 01:29",
+          "top_comments": []
+        }
+      ]
     },
     "baksoo": {
       "display": "박수식당",
@@ -65,17 +87,63 @@
     },
     "champd": {
       "display": "참피디",
-      "video_count": 1,
-      "total_views": 57835,
-      "total_likes": 725,
-      "total_comments": 237,
+      "video_count": 2,
+      "total_views": 65580,
+      "total_likes": 967,
+      "total_comments": 294,
       "n_short": 0,
-      "n_long": 1,
+      "n_long": 2,
       "tier_counts": {
-        "Mega": 1
+        "Mega": 2
       },
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
-      "videos": []
+      "summary": "참피디의 프리미엄 연어 제품이 동원산업과 비교해 가격 경쟁력을 갖추고 있으며, 할인 이벤트와 스타벅스 기프티콘 증정 등 다양한 프로모션을 통해 소비자들의 관심을 끌고 있다. 특히 품절 예상으로 인한 급매 효과가 나타나며, 육회바른연어의 연어 제품 점유율에 위협이 될 수 있음.\n  📌 프리미엄 연어 · 할인 이벤트 · 품절 예상",
+      "videos": [
+        {
+          "video_id": "9CvLQmQ-Ozw",
+          "title": "연어는 제발 이렇게 드세요.",
+          "channel": "애주가TV참PD",
+          "subscribers": 1510000,
+          "creator_tier": "Mega",
+          "is_verified": true,
+          "views": 7745,
+          "likes": 242,
+          "comment_count": 57,
+          "engagement_rate": 0.0386,
+          "duration": 741,
+          "is_short": false,
+          "buzz_score": 66.0,
+          "upload_date": "2026.05.11",
+          "url": "https://www.youtube.com/watch?v=9CvLQmQ-Ozw",
+          "description_excerpt": "참피디와 대한민국 프리미엄 연어 1등 동원이 \n또 다시 뭉쳐서 일냈습니다!\n\n최상품 연어 진짜 저렴하게 가져왔으니까\n품절 전에 빠르게 챙겨가세요!\n\n같이 먹으면 좋을 소스도 제대로 준비했고\n배송비도 한 번만 내시면 무제한으로 담을 수 있어요!\n\n3만원 이상 구매하시면 스타벅스 기프티콘 증정\n이벤트까지 하니까 놓치지 마세요!\n\n[행사 기간]\n기간: 2026. 5. 11(월) ~ 5. 18(월) 오전 10시까지\n\n▼연어 맛보러 가기▼\nhttps://ndns.shop/\n\n참피디가 직접 운영하는 녹진이 특별 안주 할인몰\n핵이득마켓 구경가기",
+          "top_comments": [
+            {
+              "author": "@King_sejong_",
+              "text": "동원산업 공홈에서 1kg 무배 41,990원에 팔고 있는데 57% 할인이 맞나요??",
+              "likes": 22
+            },
+            {
+              "author": "@참",
+              "text": "방구석 연어 축제 지금 시작합니다!\r\n이번에 가격 탈탈 털어서 가져왔습니다\r\n\r\n녹진이 여러분 많이 드시라고 준비 많이 했는데\r\n금방 품절 예상이니까 빨리 챙겨가세요!\r\n\r\n추가로 지금 만두 제품도 2차 오픈했으니\r\n같이 사서 먹으면 방구석 축제 제대롭니다\r\n\r\n[연어 축제행사 기간]\r\n기간: 2026. 5. 11(월) ~ 5. 18(월) 오전 10시까지\r",
+              "likes": 12
+            },
+            {
+              "author": "@thunda7048",
+              "text": "1.2키로 42900원이면 확실히 엄청난 혜자 맞네 ㄷㄷㄷㄷ",
+              "likes": 11
+            },
+            {
+              "author": "@야민라말-o5x",
+              "text": "지난주에 사먹은 코스트코보다 싸네",
+              "likes": 8
+            },
+            {
+              "author": "@Afyhgfbv",
+              "text": "엥 배송비까지 하면 46900원인데 이게 싼거라고...?당장 네이버 봐도1kg 무배에 4만초반이면 사는데..",
+              "likes": 6
+            }
+          ]
+        }
+      ]
     },
     "hongsound": {
       "display": "홍사운드",
@@ -91,107 +159,93 @@
     },
     "ttoganzip": {
       "display": "또간집(풍자)",
-      "video_count": 10,
-      "total_views": 73831,
-      "total_likes": 1548,
+      "video_count": 14,
+      "total_views": 73891,
+      "total_likes": 1556,
       "total_comments": 209,
       "n_short": 0,
-      "n_long": 10,
+      "n_long": 14,
       "tier_counts": {
-        "Nano": 8,
+        "Nano": 12,
         "Macro": 2
       },
-      "summary": "또간집(풍자)은 최근 브이로그에서 여러 소비자들에게 주목받고 있으나, 자사와 직접 비교되는 메뉴나 프로모션에 대한 언급은 발견되지 않았다. 다만, 신메뉴 N종에 대한 긍정적 반응과 함께 매장 방문 트래픽 증가를 확인할 수 있어 경쟁 상황을 주시해야 한다.\n  📌 신메뉴 N종 · 매장 방문 트래픽 증가 · 긍정적 소비자 반응",
+      "summary": "또간집(풍자)의 돈까스와 백숙 등 메뉴에 대한 긍정적인 소비자 반응이 나타나고 있으며, 특히 웨이팅 필수라는 점에서 자사 매장 트래픽과 경쟁력 비교가 필요하다. 그러나 해당 영상은 타사 제품을 섞어 분석하기 어려운 부분도 있어 신경 써야 한다.\n  📌 돈까스 · 백숙 · 웨이팅 필수",
       "videos": [
         {
-          "video_id": "qrCvC_B4VD8",
-          "title": "예산여행 또간집!! 재방문 숙소+맛집 제대로 말아옴 (연휴 교통지옥 6시간 실화?🚗)",
-          "channel": "트위티 (Tweety)",
-          "subscribers": 750000,
-          "creator_tier": "Macro",
+          "video_id": "zg9HEjGomCA",
+          "title": "풍자 또간집 그 식당! 12평 '얼룩말식당' 인테리어(가맹점 계약 방법 대공개)",
+          "channel": "교회공간연구소",
+          "subscribers": 586,
+          "creator_tier": "Nano",
           "is_verified": false,
-          "views": 55285,
-          "likes": 1108,
-          "comment_count": 110,
-          "engagement_rate": 0.022,
-          "duration": 1840,
+          "views": 30,
+          "likes": 4,
+          "comment_count": 0,
+          "engagement_rate": 0.1333,
+          "duration": 330,
           "is_short": false,
-          "buzz_score": 61.6,
+          "buzz_score": 30.5,
           "upload_date": "2026.05.10",
-          "url": "https://www.youtube.com/watch?v=qrCvC_B4VD8",
-          "description_excerpt": "✔️ 이 영상은 유료광고를 포함하지 않습니다 \n\n\nhttp://www.instargram.com/so_tweety\n비지니스 메일_tweety.company92@gmail.com\n\n\n\n\n\n#브이로그 #일상 #육아",
-          "top_comments": [
-            {
-              "author": "@QIUHONGJIN-r8h",
-              "text": "오프닝 영상 잘못 튼줄 알았어요! ㅋㅋㅋㅋㅋㅋ",
-              "likes": 306
-            },
-            {
-              "author": "@민지-h5u",
-              "text": "아니 혹시.. 사랑이 동생이....? 😊❤",
-              "likes": 114
-            },
-            {
-              "author": "@annayesolshin",
-              "text": "요즘 사랑이 분량 많아서 좋아욯ㅎㅎ 생각 드는게 저두 그렇고 다들 어렸을때 부모님이 너 여기 갔었어! 해도 기억 못하는 순간들이 많은데 사랑이는 바로 고해상도 영상 재생하면 되겠어요 엄마한테 엄청 감사해할것 같아요ㅋㅋㅋ",
-              "likes": 71
-            },
-            {
-              "author": "@레나-d5u",
-              "text": "오프닝ㅋㅋㅋㅋㅋㅋㅋㅋㅋ진짜귀여웤ㅋㅋㅋㅋㅋㅋㅋㅋㅋ💓💓",
-              "likes": 51
-            },
-            {
-              "author": "@losummerve719",
-              "text": "10:35 말투가 너무 어른같앜ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 그런 말 하더라? 이거 너무 웃겨 ㅋㅋㅋㅋㅋ",
-              "likes": 40
-            }
-          ]
+          "url": "https://www.youtube.com/watch?v=zg9HEjGomCA",
+          "description_excerpt": "풍자의 '또간집'에 방영되어 연일 웨이팅 필수인 바로 그곳!\n새롭게 단장한 얼룩말식당 의왕점의 12평 소형 상가 인테리어 시공 후기 인터뷰를 준비했습니다.\n\n좁은 공간을 어떻게 이렇게 넓고 따뜻한 감성으로 뽑아냈는지, 12평 공간의 마법 같은 대변신을 영상으로 직접 확인해 보세요!\n\n\n#교회인테리어 \n#교회리모델링 \n#교회공간연구소\n\n리모델리및 인테리어 문의\n⭐️ 인스타그램 :: https://instagram.com/churchspace_lab\n카카오채널  http://pf.kakao.com/_TxmFTX/chat\n✅구독, 좋아요",
+          "top_comments": []
         },
         {
-          "video_id": "8k5rjYYQeUY",
-          "title": "[vlog] 나 혼자 빵사러 대전 당일치기 떠나는 브이로그🥐 | 성심당 빵 추천, 망고시루, 대전 또간집, 족발 찐맛집, 나의 번아웃 이야기, 친구 결혼식 축가👰🏻‍♀️",
-          "channel": "Daily Joy조이",
-          "subscribers": 159000,
-          "creator_tier": "Macro",
+          "video_id": "jeLQnGne9js",
+          "title": "[먹어볼게요]@킹받지안  맛도리 누룽지 닭백숙👍🐓🍗냠냠😋👧🏻 내 입맛에 딱이네!",
+          "channel": "킹받지안",
+          "subscribers": 115,
+          "creator_tier": "Nano",
           "is_verified": false,
-          "views": 16520,
-          "likes": 411,
-          "comment_count": 60,
-          "engagement_rate": 0.0285,
-          "duration": 1564,
+          "views": 17,
+          "likes": 3,
+          "comment_count": 0,
+          "engagement_rate": 0.1765,
+          "duration": 150,
           "is_short": false,
-          "buzz_score": 60.2,
-          "upload_date": "2026.05.10",
-          "url": "https://www.youtube.com/watch?v=8k5rjYYQeUY",
-          "description_excerpt": "| 𝐂𝐨𝐧𝐭𝐚𝐜𝐭 | \n💬𝐈𝐧𝐬𝐭𝐚𝐠𝐫𝐚𝐦: _joysop\nhttps://www.instagram.com/_joysop/\n💌𝐁𝐮𝐬𝐢𝐧𝐞𝐬𝐬 𝐂𝐨𝐧𝐭𝐚𝐜𝐭: chlwlrus@naver.com\n\n\n👕착장정보\n\n𝐝𝐚𝐲𝟏\n잠옷 : 오끼뜨\n(https://29cm.onelink.me/1080201211/8q4csjfo)\n레오파드 가디건 : 더무이\n바지 : 하이원스 *제품제공\n신발 : 페이즈\n(https://29cm.onelink.me/1080201211/t0rpbb3c)\n\n𝐝𝐚𝐲𝟐\n니트 : 하이원스 *제품제공\n스커트 : 라룸\n([라룸] [b",
-          "top_comments": [
-            {
-              "author": "@broccolimoew",
-              "text": "노래 진짜 잘하시네요",
-              "likes": 43
-            },
-            {
-              "author": "@sdis-o4f",
-              "text": "같은일을 몇년동안 꾸준히 해왔다는 거 자체만으로도 충분히 대단하고 번아웃이 찾아오는것도 자연스러운 일이라고 생각해요\n저도 편집을 해본적이 있지만,,직접 해보니 편집이라는게 생각보다 정말 정말 쉽지 않더라구요..!! 혼자 영상찍고 편집하고 정말 대단한거에요ㅜㅜ\n그리고 물론 조이님 편집 스타일도 좋아하지만 그보다 조이님 자체를 좋아하는 거랍니다 진심으로 무편집",
-              "likes": 12
-            },
-            {
-              "author": "@감자에싹이나서잎이나",
-              "text": "그냥 얼굴이 대유잼이니까 자막 부담 갖지 마시구 영상 편집 부담 내려놓구 편히 올려주세요💗 항상 응원해요 !!!\n\n그나저나 노래 머선일 꾀꼬리가 따로 없네 ,,✨",
-              "likes": 8
-            },
-            {
-              "author": "@useee845",
-              "text": "자기 전 최고의 선택🤸🔥\n+ 무엇보다 언니의 건강과 행복이 최우선이니 잘 가꾸고 조절해가며 오는게 우리 모두의 마음이랍니다🥺 조이언니 절대 지켜. 항상 응원할게요 언니!!빠샤🫳🏻♥️",
-              "likes": 5
-            },
-            {
-              "author": "@garami77",
-              "text": "곧 대전 가려했는데ㅜㅜ무슨일!! 잘볼게여 언니❤",
-              "likes": 4
-            }
-          ]
+          "buzz_score": 30.0,
+          "upload_date": "2026.05.11",
+          "url": "https://www.youtube.com/watch?v=jeLQnGne9js",
+          "description_excerpt": "✅성남 백숙 맛집_평상집\n✅방문 전 미리 전화로 주문 추천❗️\n✅아이동반 식당 추천 누룽지 백숙 추천 메뉴👧🏻🙋🏻‍♀️\n#아이랑가볼만한곳 #일상 #추천 #kpop #쇼츠 #맛집 #여행 #브이로그 #korea #뽑기 #닭#백숙#남한산성 #안가도됨#여기가 찐맛집#또간집#성남맛집#누룽지백숙#먹방#먹방브이로그 #키즈#모델#키즈유튜버 #내돈내먹 #내돈내산",
+          "top_comments": []
+        },
+        {
+          "video_id": "9EQIORSg0nI",
+          "title": "30대 동거커플 주말 일상_또간집 돈까스 맛집 방문, 등산 동상이몽, 생초코파이 사냥",
+          "channel": "할까링",
+          "subscribers": 169,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 12,
+          "likes": 1,
+          "comment_count": 0,
+          "engagement_rate": 0.0833,
+          "duration": 464,
+          "is_short": false,
+          "buzz_score": 8.8,
+          "upload_date": "2026.05.11",
+          "url": "https://www.youtube.com/watch?v=9EQIORSg0nI",
+          "description_excerpt": "#일상 #브이로그 #30대커플 #동거일상 #동거브이로그 #또간집 #또간집분당편 #분당예돈 #생초코파이 #모락산 #등산\n\n저희 커플의 소소한 주말 일상을 담아봤어요!\n별거 없지만 재밌게 봐주세요🙏\n\n00:00 토요일 병원에서 주말 시작\n00:13 또간집 돈까스 맛집 예돈 방문\n00:32 웨이팅 걸어놓고 주변 시장 구경\n01:04 예돈 입장 후 식사\n02:01 집 돌아가서 쉬다가 저녁식사\n02:30 세븐일레븐 생초코파이 집착\n04:32 일요일 등산\n06:56 생초코파이 미팅 및 시식\n07:29 치킨&엽떡과 함께 주말 마무리\n\n🎵Musi",
+          "top_comments": []
+        },
+        {
+          "video_id": "flWYS0z6FoY",
+          "title": "브런치에 진심인 커플의 샌프란시스코 브런치 또간집/또갈집 - Most Popular Brunch Spots in San Francisco",
+          "channel": "What's Up Babe - 자기야 모해",
+          "subscribers": 2,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 1,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 1058,
+          "is_short": false,
+          "buzz_score": 6.5,
+          "upload_date": "2026.05.11",
+          "url": "https://www.youtube.com/watch?v=flWYS0z6FoY",
+          "description_excerpt": "안녕하세요, 샌프란시스코에 살고 있는 커플입니다. 저희는 거의 매주 주말 한번은 브런치를 먹으러 나가는데, 저희가 좋아하는 브런치 맛집 중에 샌프란 다운타운에 있는 3군데를 소개합니다 :) \nThese are, without a doubt, San Francisco's most popular brunch spots.  \n\nMusic from #Uppbeat\nhttps://uppbeat.io/t/kite-flight/sunset-scene\nLicense code: MUJIWU6AO6BUDE15\n\nMusic from #Uppbeat\nh",
+          "top_comments": []
         }
       ]
     },
