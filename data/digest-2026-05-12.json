@@ -93,18 +93,83 @@
     },
     "ttoganzip": {
       "display": "또간집(풍자)",
-      "video_count": 11,
-      "total_views": 129483,
-      "total_likes": 2279,
-      "total_comments": 289,
+      "video_count": 13,
+      "total_views": 129568,
+      "total_likes": 2286,
+      "total_comments": 297,
       "n_short": 0,
-      "n_long": 11,
+      "n_long": 13,
       "tier_counts": {
-        "Nano": 9,
+        "Nano": 11,
         "Macro": 2
       },
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
-      "videos": []
+      "summary": "또간집(풍자)의 '오리촌' 메뉴가 호들형 VLOG에서 언급되었으나, 자사 제품과 직접 비교되는 부분은 없음; 소비자 반응은 중립적이고, 현재로서는 즉시 대응 필요성은 떨어짐;\n  📌 오리촌 · VLOG · 중립적 반응",
+      "videos": [
+        {
+          "video_id": "7sB7IOJnq5s",
+          "title": "[VLOG] 부산 여행 가서야 알게된 에이미의 반전 입맛 | 해운대 해리단길 맛집🥟",
+          "channel": "\b복선쓰 BOKSEONSS",
+          "subscribers": 914,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 85,
+          "likes": 7,
+          "comment_count": 8,
+          "engagement_rate": 0.1765,
+          "duration": 1681,
+          "is_short": false,
+          "buzz_score": 33.5,
+          "upload_date": "2026.05.10",
+          "url": "https://www.youtube.com/watch?v=7sB7IOJnq5s",
+          "description_excerpt": "3박 4일 부산여행🌊\n\n☑️다녀온 곳\n-0:20 해리단길 주차(https://naver.me/xWNTERRt)\n-0:25 딤섬맛집 딤타오(https://naver.me/56lltwAr)\n-1:42 해운대 소금빵(https://naver.me/GBFVd6HO)\n-2:03 시그니엘 전망대(https://naver.me/5TXJUzzn)\n-5:17 낙곱새 개미집(https://naver.me/GeW530Wy)\n-7:08 해동 용궁사(https://naver.me/ID1mdkYS)\n-13:05 센텀시티(https://naver.me/xay",
+          "top_comments": [
+            {
+              "author": "@RF-sbYOUN",
+              "text": "행복해보이십니다!!!!!",
+              "likes": 1
+            },
+            {
+              "author": "@go_minha",
+              "text": "8:51 캡쳐하고 싶어요",
+              "likes": 1
+            },
+            {
+              "author": "@2025_우진산전_도시바",
+              "text": "경주로 잘못 가셔서 경주톨게이트를 보셨내요.",
+              "likes": 1
+            },
+            {
+              "author": "@BOKSEONSS",
+              "text": "행복전도사 에이미와 함께라면,,",
+              "likes": 0
+            },
+            {
+              "author": "@BOKSEONSS",
+              "text": "바탕화면 추천",
+              "likes": 0
+            }
+          ]
+        },
+        {
+          "video_id": "WoLxcjkr11A",
+          "title": "VLOG ｜ 26주차 차 나왔다!!!🚘✨미친듯이 당근하러 돌아다니는 임산부🙋🏻‍♀️ ｜ 시댁행+또간집 오리촌,팔당카페투어,대방어,앗싸곱창,추어탕,슈비버거,생오겹살",
+          "channel": "호들형",
+          "subscribers": 0,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 0,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 1667,
+          "is_short": false,
+          "buzz_score": 0.0,
+          "upload_date": "2026.05.12",
+          "url": "https://www.youtube.com/watch?v=WoLxcjkr11A",
+          "description_excerpt": "오늘 호들형에서는 투자자들에게 도움이 되는 시장 정보를 전해드립니다. 함께 공부해 보세요! 좋아요와 구독 부탁드립니다.",
+          "top_comments": []
+        }
+      ]
     },
     "meatking": {
       "display": "정육왕",
