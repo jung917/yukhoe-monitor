@@ -1,9 +1,9 @@
 {
   "date": "2026-05-13",
-  "generated_at": "2026-05-13 07:03:40",
+  "generated_at": "2026-05-13 19:25:42",
   "window_days": 365,
   "data_earliest": "2025-05-13",
-  "data_latest": "2026-05-12",
+  "data_latest": "2026-05-13",
   "tiers": {
     "own": {
       "label": "자사",
@@ -43,9 +43,9 @@
     "yukbayeon": {
       "display": "육회바른연어",
       "video_count": 13,
-      "total_views": 326701,
-      "total_likes": 3038,
-      "total_comments": 382,
+      "total_views": 373654,
+      "total_likes": 3039,
+      "total_comments": 386,
       "n_short": 2,
       "n_long": 11,
       "tier_counts": {
@@ -53,7 +53,7 @@
         "Macro": 2,
         "Micro": 2
       },
-      "summary": "육회바른연어의 신메뉴 '불닭마요 연어깍두기'와 육회가 소비자들에게 소개되었으나, 직접적인 경쟁사 제품과 비교되는 내용은 없었다. 소비자의 반응은 중립적이고, 자사 매장 트래픽에 큰 영향을 미치지는 않을 것으로 보인다.\n  📌 불닭마요 연어깍두기 · 육회 · 중립적인 소비자 반응",
+      "summary": "육회바른연어의 신메뉴 불닭마요 연어깍두기가 소비자들로부터 다양한 의견을 받았으며, 일부는 긍정적이지만 다른 일부는 맛에 대한 의구심을 나타냈다. 특히, 육회와 연어 제품이 함께 언급되며 자사 메뉴의 경쟁력을 강조하는 내용도 있었으나, 특정한 프로모션이나 가격 할인은 확인되지 않았다.\n  📌 불닭마요 연어깍두기 · 육회바른연어 신메뉴 · 소비자 의견",
       "videos": [
         {
           "video_id": "Ye8E_dCsMkw",
@@ -372,16 +372,16 @@
           "video_id": "cpnSuX1P7R4",
           "title": "[불닭냉면 먹방] 육회 추가 누가 안 하냐",
           "channel": "먹규랑 MUKGYURANG",
-          "subscribers": 174,
+          "subscribers": 173,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 609,
-          "likes": 11,
+          "views": 635,
+          "likes": 12,
           "comment_count": 10,
-          "engagement_rate": 0.0345,
+          "engagement_rate": 0.0346,
           "duration": 426,
           "is_short": false,
-          "buzz_score": 43.1,
+          "buzz_score": 42.6,
           "upload_date": "2026.04.30",
           "url": "https://www.youtube.com/watch?v=cpnSuX1P7R4",
           "description_excerpt": "연어 유부 초밥 • 육회는 “육회바른연어”에서 주문했어요!",
@@ -516,16 +516,16 @@
           "video_id": "2fIJddzroA0",
           "title": "한끼에 8가지 메뉴로 만칼로리 뷔페놀이🤤 | 불닭냉면,불닭마요연어깍두기,엽떡,삶은계란10개,투썸,두아박파티팩,카페인중독,두바이초코와플,체다치즈소고기초밥,크리스피크림도넛,브로쓰마카롱",
           "channel": "김복순",
-          "subscribers": 383000,
+          "subscribers": 384000,
           "creator_tier": "Macro",
           "is_verified": true,
-          "views": 228172,
+          "views": 275093,
           "likes": 0,
-          "comment_count": 200,
-          "engagement_rate": 0.0009,
+          "comment_count": 204,
+          "engagement_rate": 0.0007,
           "duration": 1928,
           "is_short": false,
-          "buzz_score": 34.5,
+          "buzz_score": 33.6,
           "upload_date": "2026.05.03",
           "url": "https://www.youtube.com/watch?v=2fIJddzroA0",
           "description_excerpt": "00:00 엽떡(오리지널)+계란10개추가+용이초밥:매운소고기초밥2개+갈릭스테이크초밥2개+체다치즈소고기초밥2개+치즈소고기초밥2개+소고기초밥2개+대게장군함말이초밥2개+크림새우롤초밥2개+게살다리튀김9개\n08:57 투썸:두아박파티팩+카페인중독:두바이초코와플+소금우유와플+말차몬드와플+우유\n17:53 육회야문연어:불닭마요연어깍두기(+연어추가+날치알추가)+육회150g+문어숙회120g+불닭냉면3개(+오이+cj시원한동치미냉면육수4개)+무순4팩\n26:55 크리스피크림도넛:두바이초코2개+초코멜로우+라즈베리요거트볼+애플청크시나몬+시트러스글레이즈링+브로쓰",
@@ -853,13 +853,13 @@
           "subscribers": 50300,
           "creator_tier": "Micro",
           "is_verified": false,
-          "views": 327,
+          "views": 333,
           "likes": 5,
           "comment_count": 0,
-          "engagement_rate": 0.0153,
+          "engagement_rate": 0.015,
           "duration": 1036,
           "is_short": false,
-          "buzz_score": 28.5,
+          "buzz_score": 27.5,
           "upload_date": "2026.04.30",
           "url": "https://www.youtube.com/watch?v=WO3IWbj_ivk",
           "description_excerpt": "안타까운 육회 🥲\n\n#대전#한화생명볼파크#daejeon\n#한화이글스#hanwha#eagles#kbo#vs#ssg#landers#쓱#랜더스\n#선발#류현진#5회까진완벽#육회는#육회바른연어\n#주현상#충격복귀전\n#노시환#만루2타점적시타#최재훈#1타점\n🦅 한화이글스 화이팅 🧡",
@@ -1211,7 +1211,7 @@
       "tier_counts": {
         "Nano": 1
       },
-      "summary": "79대포가 최근 인기 셰프들과 협업하여 신메뉴를 출시하고 있으며, 이는 육회바른연어와의 직접적인 경쟁 상황을 야기하며 소비자들의 관심과 매장 방문이 증가할 가능성이 있다. 특히 가격 경쟁력과 프로모션 전략이 자사에 영향을 미칠 수 있으므로 주의가 필요하다.\n  📌 스타셰프 협업 · 신메뉴 출시 · 매장 방문 증가",
+      "summary": "79대포가 최근 인기 셰프들과 협업하여 신메뉴를 출시하고 있으며, 이에 대한 소비자들의 관심과 반응이 높아지고 있어 육회바른연어의 점유율 및 매장 트래픽에 위협이 될 수 있음.\n  📌 스타셰프 협업 · 신메뉴 출시 · 고객 반응",
       "videos": [
         {
           "video_id": "na6BdL_1EP4",
@@ -1318,7 +1318,7 @@
         "Mega": 1,
         "Nano": 2
       },
-      "summary": "달맞이광장바베큐가 최근 인기로 웨이팅 번호가 1,500번을 넘는 등 높은 트래픽을 기록하고 있으며, 소비자들은 특히 메뉴의 가격과 퀄리티에 대해 긍정적인 반응을 보이고 있다. 이는 육회바른연어와 직접 경쟁하며 자사 점유율에 위협이 될 가능성이 높다.\n  📌 웨이팅 번호 · 가격 대비 퀄리티 · 인기",
+      "summary": "달맞이광장바베큐가 최근 인기와 웨이팅을 얻고 있으며, 일부 소비자들은 메뉴 가격에 대한 의문을 제기하고 있다. 그러나 이들의 영향으로 육회바른연어의 매장 트래픽과 점유율에 즉각적인 위협은 아직 보이지 않으나, 지속적인 모니터링이 필요하다.\n  📌 인기 · 웨이팅 · 가격",
       "videos": [
         {
           "video_id": "Xahb46AaB_k",
@@ -1737,7 +1737,7 @@
       "tier_counts": {
         "Official": 60
       },
-      "summary": "삼양 JohnMaat의 최근 영상들은 주로 팬들과의 소통 및 엔터테인먼트 콘텐츠에 초점을 맞추고 있으며, 자사 제품과 직접 비교되는 내용은 없으나, 높은 조회수와 긍정적인 반응을 보여 경쟁사로서의 존재감이 강화되고 있어 주목해야 한다.\n  📌 BYOB · 엔터테인먼트 콘텐츠 · 팬 참여",
+      "summary": "삼양 JohnMaat의 최근 영상은 주로 인플루언서들의 활동과 요리 레시피 공유에 초점을 맞추고 있으며, 소비자 반응은 긍정적이지만 육회바른연어와 직접적인 경쟁 메뉴나 프로모션을 언급하지 않았다. 그러나 이들이 지속적으로 인기 있는 콘텐츠를 제공함으로써 점유율과 트래픽에 미묘한 영향을 줄 가능성이 있다.\n  📌 인플루언서 활동 · 요리 레시피 공유 · 긍정적 소비자 반응",
       "videos": [
         {
           "video_id": "2phurdY0Gpw",
@@ -4028,9 +4028,9 @@
     "champd": {
       "display": "참피디",
       "video_count": 16,
-      "total_views": 1342438,
-      "total_likes": 15634,
-      "total_comments": 2528,
+      "total_views": 1365015,
+      "total_likes": 15791,
+      "total_comments": 2558,
       "n_short": 2,
       "n_long": 14,
       "tier_counts": {
@@ -4038,7 +4038,7 @@
         "Micro": 2,
         "Nano": 5
       },
-      "summary": "참피디는 원조 통골뱅이탕을 극찬하며 소비자들에게 적극 추천하고 있어, 이는 육회바른연어와 유사한 메뉴인 연어 회에 대한 관심과 선택을 분산시킬 위험이 있으며, 특히 참피디의 영향력으로 인해 매장 트래픽 감소를 초래할 가능성이 있다. 소비자들은 참피디의 추천을 신뢰하며 골뱅이탕을 주로 찾고 있어 즉각적인 대응이 필요하다.\n  📌 원조 통골뱅이탕 · 극찬 · 매장 트래픽 감소",
+      "summary": "참피디의 최근 영상들은 주로 프로모션과 할인 행사를 통해 소비자 유치를 시도하고 있으며, 특히 저렴한 가격과 추가 혜택으로 인해 고객들의 관심을 끌고 있다. 그러나 일부 고객은 가격 변동에 대한 불만이 있어 즉시 대응이 필요하다.\n  📌 프로모션 · 할인행사 · 가격변동",
       "videos": [
         {
           "video_id": "9CvLQmQ-Ozw",
@@ -4893,13 +4893,13 @@
           "subscribers": 1510000,
           "creator_tier": "Mega",
           "is_verified": true,
-          "views": 110210,
-          "likes": 1438,
-          "comment_count": 215,
-          "engagement_rate": 0.015,
+          "views": 117483,
+          "likes": 1478,
+          "comment_count": 226,
+          "engagement_rate": 0.0145,
           "duration": 984,
           "is_short": false,
-          "buzz_score": 51.8,
+          "buzz_score": 49.9,
           "upload_date": "2026.05.03",
           "url": "https://www.youtube.com/watch?v=phmCT-CZM98",
           "description_excerpt": "오랜만에 한우 배터지게 먹고 왔습니다\n\n참피디가 직접 운영하는 녹진이 특별 안주 할인몰\n핵이득마켓 구경가기 - https://ndns.shop/\n\n핵이득마켓 어플 다운로드\n안드로이드전용\n https://play.google.com/store/apps/details?id=com.cafe24.ec.plusndns2021\n아이폰전용\nhttps://apps.apple.com/kr/app/%ED%95%B5%EC%9D%B4%EB%93%9D%EB%A7%88%EC%BC%93/id1581544007\n\n참피디 Q&A 2025 최신판\nhttps://y",
@@ -5169,19 +5169,66 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "SJZ_qJt-hIY",
+          "title": "전문점 갈 필요없는 노포맛집 원조 통골뱅이 먹방 ASMR 골뱅이탕 근데 이제 김치 칼국수 곁들인 🍜 노토킹 리얼사운드 먹방 브이로그 핵이득마켓 안주 먹방 리뷰 이팅사운드 ASMR",
+          "channel": "Captain-Q ASMR Mukbang Eating show",
+          "subscribers": 37000,
+          "creator_tier": "Micro",
+          "is_verified": false,
+          "views": 278,
+          "likes": 22,
+          "comment_count": 7,
+          "engagement_rate": 0.1043,
+          "duration": 393,
+          "is_short": false,
+          "buzz_score": 49.8,
+          "upload_date": "2026.05.12",
+          "url": "https://www.youtube.com/watch?v=SJZ_qJt-hIY",
+          "description_excerpt": "크루님들 안녕하세요 😘 Captain-Q 입니다. \n오늘은 제가 정말 좋아하는 유튜버이신 참피디님의 핵이득마켓에서 \n가져온 통골뱅이탕을 가지고 왔습니다. \n제가 자주가는 노포맛집 \"명불허전 원조 골뱅이\"의 사장님이셨더라구요 😄\n물론 지점은 다르지만 😅\n정말 전문점 갈 필요없는 원조 통골뱅이 👍\n당연히 내돈내산이고 꼭 드셔보세요 \n구독과 좋아요는 힘이 됩니다. 구독 부탁드릴께요 \n\n0:00 통골뱅이탕 밀키트 만들기\n0:49 일단 국물부터~캬~\n1:15 쫄깃쫄깃 골뱅이 먹방\n1:38 양파에 싸서\n2:09 어묵 먹방\n4:01 김치 칼국수",
+          "top_comments": [
+            {
+              "author": "@박기범-v3y",
+              "text": "골뱅이탕이 맛있겠어요",
+              "likes": 0
+            },
+            {
+              "author": "@껨온SON153",
+              "text": "Captain-Q ASMR 캡틴큐님 먹는모습이 아주예쁘군요.",
+              "likes": 0
+            },
+            {
+              "author": "@ph14bhco61",
+              "text": "오! 보글보글 끓이는 소리도 좋아요🍲\n통골뱅이 밀키트란 것도 있군요 참 편한것 같아요\n골뱅이 가격 너무 비싼데 밀키트는 좀 싸려나요ㅠ\n캡틴큐님이 골뱅이 됐다니 어땠는지 너무 궁금하네요ㅋㅋ\n그런데 올려주신 쿠팡링크 제품은 명불허전이 아니고 알뱅이인데요?",
+              "likes": 0
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "",
+          "video_meta_rating": 0,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "Ux9LFAPFtOk",
           "title": "치킨 맥주 무제한! 9천원이면 됩니다.",
           "channel": "애주가TV참PD",
           "subscribers": 1510000,
           "creator_tier": "Mega",
           "is_verified": true,
-          "views": 135290,
-          "likes": 1814,
-          "comment_count": 215,
-          "engagement_rate": 0.015,
+          "views": 150594,
+          "likes": 1931,
+          "comment_count": 234,
+          "engagement_rate": 0.0144,
           "duration": 898,
           "is_short": false,
-          "buzz_score": 50.5,
+          "buzz_score": 49.6,
           "upload_date": "2026.04.30",
           "url": "https://www.youtube.com/watch?v=Ux9LFAPFtOk",
           "description_excerpt": "장모님한식뷔페 치킨 맥주 무제한\n\n참피디가 직접 운영하는 녹진이 특별 안주 할인몰\n핵이득마켓 구경가기 - https://ndns.shop/\n\n핵이득마켓 어플 다운로드\n안드로이드전용\n https://play.google.com/store/apps/details?id=com.cafe24.ec.plusndns2021\n아이폰전용\nhttps://apps.apple.com/kr/app/%ED%95%B5%EC%9D%B4%EB%93%9D%EB%A7%88%EC%BC%93/id1581544007\n\n참피디 Q&A 2025 최신판\nhttps://yout",
@@ -5435,53 +5482,6 @@
               "author": "@다다다다-d4z",
               "text": "많지는 않을듯\n인권비도 못해도 2명치는 빠질텐데",
               "likes": 1
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "SJZ_qJt-hIY",
-          "title": "전문점 갈 필요없는 노포맛집 원조 통골뱅이 먹방 ASMR 골뱅이탕 근데 이제 김치 칼국수 곁들인 🍜 노토킹 리얼사운드 먹방 브이로그 핵이득마켓 안주 먹방 리뷰 이팅사운드 ASMR",
-          "channel": "Captain-Q ASMR Mukbang Eating show",
-          "subscribers": 37000,
-          "creator_tier": "Micro",
-          "is_verified": false,
-          "views": 278,
-          "likes": 22,
-          "comment_count": 7,
-          "engagement_rate": 0.1043,
-          "duration": 393,
-          "is_short": false,
-          "buzz_score": 49.8,
-          "upload_date": "2026.05.12",
-          "url": "https://www.youtube.com/watch?v=SJZ_qJt-hIY",
-          "description_excerpt": "크루님들 안녕하세요 😘 Captain-Q 입니다. \n오늘은 제가 정말 좋아하는 유튜버이신 참피디님의 핵이득마켓에서 \n가져온 통골뱅이탕을 가지고 왔습니다. \n제가 자주가는 노포맛집 \"명불허전 원조 골뱅이\"의 사장님이셨더라구요 😄\n물론 지점은 다르지만 😅\n정말 전문점 갈 필요없는 원조 통골뱅이 👍\n당연히 내돈내산이고 꼭 드셔보세요 \n구독과 좋아요는 힘이 됩니다. 구독 부탁드릴께요 \n\n0:00 통골뱅이탕 밀키트 만들기\n0:49 일단 국물부터~캬~\n1:15 쫄깃쫄깃 골뱅이 먹방\n1:38 양파에 싸서\n2:09 어묵 먹방\n4:01 김치 칼국수",
-          "top_comments": [
-            {
-              "author": "@박기범-v3y",
-              "text": "골뱅이탕이 맛있겠어요",
-              "likes": 0
-            },
-            {
-              "author": "@껨온SON153",
-              "text": "Captain-Q ASMR 캡틴큐님 먹는모습이 아주예쁘군요.",
-              "likes": 0
-            },
-            {
-              "author": "@ph14bhco61",
-              "text": "오! 보글보글 끓이는 소리도 좋아요🍲\n통골뱅이 밀키트란 것도 있군요 참 편한것 같아요\n골뱅이 가격 너무 비싼데 밀키트는 좀 싸려나요ㅠ\n캡틴큐님이 골뱅이 됐다니 어땠는지 너무 궁금하네요ㅋㅋ\n그런데 올려주신 쿠팡링크 제품은 명불허전이 아니고 알뱅이인데요?",
-              "likes": 0
             }
           ],
           "sentiment_counts": {
@@ -7000,16 +7000,16 @@
     "hongsound": {
       "display": "홍사운드",
       "video_count": 106,
-      "total_views": 26853326,
-      "total_likes": 215250,
-      "total_comments": 9780,
+      "total_views": 26857614,
+      "total_likes": 215310,
+      "total_comments": 9783,
       "n_short": 23,
       "n_long": 83,
       "tier_counts": {
         "Official": 105,
         "Nano": 1
       },
-      "summary": "홍사운드의 최근 영상은 주로 떡볶이, 치킨 등 다양한 메뉴를 중심으로 진행되었으며, 이들 제품에 대한 소비자 반응은 긍정적과 부정적인 의견이 혼재되어 있다. 특히, 일부 제품은 건강을 고려한 저당 제품으로 소비자의 관심을 끌고 있으나, 맛이나 품질에 대한 평가는 다양하다.\n  📌 저당 엽기떡볶이 · 바삭 치킨 · 롯데리아 디진다돈까스",
+      "summary": "홍사운드의 최근 영상들은 주로 떡볶이, 치킨 등 다양한 메뉴를 중심으로 소비자들의 반응과 후기를 담고 있으며, 이는 육회바른연어와 직접적인 경쟁은 아니지만, 대중음식 트렌드 설정 및 가격 프로모션 전략을 통해 간접적으로 영향을 미칠 수 있다. 특히, 소비자들이 홍사운드의 메뉴에 대해 긍정적 반응을 보이는 경우가 많아 육회바른연어는 이를 모니터링하고 대응 전략을 마련해야 한다.\n  📌 신메뉴 · 프로모션 · 소비자 후기",
       "videos": [
         {
           "video_id": "rSujLI313T4",
@@ -10402,13 +10402,13 @@
           "subscribers": 1830000,
           "creator_tier": "Official",
           "is_verified": true,
-          "views": 217878,
-          "likes": 2203,
+          "views": 220088,
+          "likes": 2229,
           "comment_count": 23,
           "engagement_rate": 0.0102,
           "duration": 26,
           "is_short": true,
-          "buzz_score": 52.4,
+          "buzz_score": 52.1,
           "upload_date": "2026.05.06",
           "url": "https://www.youtube.com/watch?v=b_5f-KsNVNI",
           "description_excerpt": "집가락 정품 구매하는 곳\n홍사운드몰 https://hongsound.shop/\n네이버 https://smartstore.naver.com/coffeechild/products/7688043656\n집가락이 특별한 이유 https://youtu.be/9KvCvdMSJ54\n\n홍사운드 플러스 채널(네츄럴 홍의 모습들) : https://www.youtube.com/channel/UCe8eXpQCaLaEiXOh2RxU_3A\n인스타그램(instagram) : https://www.instagram.com/hong_sound",
@@ -10569,13 +10569,13 @@
           "subscribers": 1830000,
           "creator_tier": "Official",
           "is_verified": true,
-          "views": 40661,
-          "likes": 722,
-          "comment_count": 95,
+          "views": 41045,
+          "likes": 731,
+          "comment_count": 96,
           "engagement_rate": 0.0201,
           "duration": 2065,
           "is_short": false,
-          "buzz_score": 51.9,
+          "buzz_score": 51.7,
           "upload_date": "2026.05.05",
           "url": "https://www.youtube.com/watch?v=5v8AGCX3qKY",
           "description_excerpt": "집가락 정품 구매하는 곳\n홍사운드몰 https://hongsound.shop/\n네이버 https://smartstore.naver.com/coffeechild/products/7688043656\n집가락이 특별한 이유 https://youtu.be/9KvCvdMSJ54\n\n홍사운드 플러스 채널(네츄럴 홍의 모습들) : https://www.youtube.com/channel/UCe8eXpQCaLaEiXOh2RxU_3A\n인스타그램(instagram) : https://www.instagram.com/hong_sound\n\n00:00 아침부",
@@ -10751,28 +10751,13 @@
               "likes": 1
             },
             {
-              "author": "@블짱-v9c",
-              "text": "애호박찌개 먹으러안가서 다행이네 휴",
-              "likes": 0
-            },
-            {
-              "author": "@쥐갱-o4n",
-              "text": "우성오리탕은 진짜다",
-              "likes": 0
-            },
-            {
               "author": "@찬종-r1b",
               "text": "밤실마을  맛있제",
               "likes": 0
             },
             {
-              "author": "@Echteliebe-b4g",
-              "text": "형님, 예전에 주짓수 하시고 먹방하실 때부터 본 시청자입니다. 요즘 살 많이 불으셨네요 ㅠㅠ 건강 관리 하시면서 오래오래 영상 올려주세요 ㅎㅎ",
-              "likes": 0
-            },
-            {
-              "author": "@구리구리copper",
-              "text": "뭐야 둘이 부부세요? ㅋㅋㅋㅋ",
+              "author": "@블짱-v9c",
+              "text": "애호박찌개 먹으러안가서 다행이네 휴",
               "likes": 0
             },
             {
@@ -10781,8 +10766,13 @@
               "likes": 0
             },
             {
-              "author": "@나도몰랗",
-              "text": "와ㅡㅡ진짜 광주 오리탕 찐으로\n찾아오셧네",
+              "author": "@김한결-n7m",
+              "text": "와 광주여행가서 먹은 서울곱창, 우성오리탕 둘다 나오다니 ㅋㅋㅋㅋㅋ",
+              "likes": 0
+            },
+            {
+              "author": "@쥐갱-o4n",
+              "text": "우성오리탕은 진짜다",
               "likes": 0
             },
             {
@@ -10791,8 +10781,8 @@
               "likes": 0
             },
             {
-              "author": "@ooooo_5ri",
-              "text": "둘의 조합 조아요\n참고로 저는 오리구이집 가면 부추랑 초장에 들깨 듬뿍 찍어서 먹어요…\n고소 새콤달콤 해요\n광주에선 오리고기 무조건 이렇게 먹음머스타드는 초장 들깨 없을때…",
+              "author": "@구리구리copper",
+              "text": "뭐야 둘이 부부세요? ㅋㅋㅋㅋ",
               "likes": 0
             },
             {
@@ -10801,18 +10791,33 @@
               "likes": 0
             },
             {
+              "author": "@나도몰랗",
+              "text": "와ㅡㅡ진짜 광주 오리탕 찐으로\n찾아오셧네",
+              "likes": 0
+            },
+            {
+              "author": "@Echteliebe-b4g",
+              "text": "형님, 예전에 주짓수 하시고 먹방하실 때부터 본 시청자입니다. 요즘 살 많이 불으셨네요 ㅠㅠ 건강 관리 하시면서 오래오래 영상 올려주세요 ㅎㅎ",
+              "likes": 0
+            },
+            {
               "author": "@WonseobLEE-t8o",
               "text": "이제 두분이 함깨 결성하시기로하셨나요ㅋㅋ은근케미좋아보여요 ㅡㅋㅋㅋ",
               "likes": 0
             },
             {
-              "author": "@김한결-n7m",
-              "text": "와 광주여행가서 먹은 서울곱창, 우성오리탕 둘다 나오다니 ㅋㅋㅋㅋㅋ",
+              "author": "@ahdan8972",
+              "text": "우성오리탕 오픈때부터 단골입니다 정말 한 번만 가보세요 그 국물 한 번 맛보면 못 잊어요.......",
               "likes": 0
             },
             {
-              "author": "@ahdan8972",
-              "text": "우성오리탕 오픈때부터 단골입니다 정말 한 번만 가보세요 그 국물 한 번 맛보면 못 잊어요.......",
+              "author": "@gokum4444",
+              "text": "광주 오셨구나 ㅎㅎ 영상 잘봤습니다",
+              "likes": 0
+            },
+            {
+              "author": "@o0oo0o123",
+              "text": "아 중머리재에 밤실마을!!! 제 필수코스를 딱 가셨네여ㅋㅋㅋㅋ밤실마을은 고냥 육비시켜도 육회무침 한주먹 서비스로 나와요 한입 맛보고 비빔밥에 넣어주면 육회 듬뿍 비빔밥을 맛보실수 있답니다👍🏻",
               "likes": 0
             },
             {
@@ -10823,11 +10828,6 @@
             {
               "author": "@LaMi_healing",
               "text": "그건 국밥집이든 어딜가도 국룰인데.. 아쉽네요 미나리 오리고기 딱 찍어먹음 다른지역 가서도 그렇게 먹게되는데..😢",
-              "likes": 0
-            },
-            {
-              "author": "@레쓰고고",
-              "text": "밤실마을 안대!!!!!ㅠㅠㅠㅠ",
               "likes": 0
             }
           ],
@@ -11103,13 +11103,13 @@
           "subscribers": 1830000,
           "creator_tier": "Official",
           "is_verified": true,
-          "views": 225408,
-          "likes": 3720,
+          "views": 225746,
+          "likes": 3727,
           "comment_count": 65,
           "engagement_rate": 0.0168,
           "duration": 54,
           "is_short": true,
-          "buzz_score": 51.0,
+          "buzz_score": 50.9,
           "upload_date": "2026.04.26",
           "url": "https://www.youtube.com/watch?v=Ha9GHMy8S_M",
           "description_excerpt": "집가락 정품 구매하는 곳\n홍사운드몰 https://hongsound.shop/\n네이버 https://smartstore.naver.com/coffeechild/products/7688043656\n집가락이 특별한 이유 https://youtu.be/9KvCvdMSJ54\n\n홍사운드 플러스 채널(네츄럴 홍의 모습들) : https://www.youtube.com/channel/UCe8eXpQCaLaEiXOh2RxU_3A\n인스타그램(instagram) : https://www.instagram.com/hong_sound",
@@ -12852,8 +12852,8 @@
           "subscribers": 1830000,
           "creator_tier": "Official",
           "is_verified": true,
-          "views": 234008,
-          "likes": 3845,
+          "views": 234128,
+          "likes": 3847,
           "comment_count": 52,
           "engagement_rate": 0.0167,
           "duration": 73,
@@ -13416,13 +13416,13 @@
           "subscribers": 1830000,
           "creator_tier": "Official",
           "is_verified": true,
-          "views": 267483,
-          "likes": 3434,
+          "views": 267619,
+          "likes": 3439,
           "comment_count": 75,
           "engagement_rate": 0.0131,
           "duration": 72,
           "is_short": false,
-          "buzz_score": 44.6,
+          "buzz_score": 44.5,
           "upload_date": "2026.04.27",
           "url": "https://www.youtube.com/watch?v=MT61B6eCJB0",
           "description_excerpt": "집가락 정품 구매하는 곳\n홍사운드몰 https://hongsound.shop/\n네이버 https://smartstore.naver.com/coffeechild/products/7688043656\n집가락이 특별한 이유 https://youtu.be/9KvCvdMSJ54\n\n홍사운드 플러스 채널(네츄럴 홍의 모습들) : https://www.youtube.com/channel/UCe8eXpQCaLaEiXOh2RxU_3A\n인스타그램(instagram) : https://www.instagram.com/hong_sound",
@@ -17542,288 +17542,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "RKyU3x4fAnM",
-          "title": "펩시 피치향 이대로 괜찮은가",
-          "channel": "HONG SOUND",
-          "subscribers": 1830000,
-          "creator_tier": "Official",
-          "is_verified": true,
-          "views": 63737,
-          "likes": 1054,
-          "comment_count": 53,
-          "engagement_rate": 0.0174,
-          "duration": 55,
-          "is_short": true,
-          "buzz_score": 42.3,
-          "upload_date": "2026.04.28",
-          "url": "https://www.youtube.com/watch?v=RKyU3x4fAnM",
-          "description_excerpt": "집가락 정품 구매하는 곳\n홍사운드몰 https://hongsound.shop/\n네이버 https://smartstore.naver.com/coffeechild/products/7688043656\n집가락이 특별한 이유 https://youtu.be/9KvCvdMSJ54\n\n홍사운드 플러스 채널(네츄럴 홍의 모습들) : https://www.youtube.com/channel/UCe8eXpQCaLaEiXOh2RxU_3A\n인스타그램(instagram) : https://www.instagram.com/hong_sound",
-          "top_comments": [
-            {
-              "author": "@지후-q6b",
-              "text": "저거 이클립스 복숭아 맛 나던데...ㅋㅋ",
-              "likes": 27
-            },
-            {
-              "author": "@꾸멩꾸멩",
-              "text": "일주어터님이 여기 왜..",
-              "likes": 11
-            },
-            {
-              "author": "@이맹꽁이",
-              "text": "이러다 두분 한집살림 ㆍ형제라도 이리 멋진 듀엣은 없을걸ㆍ😅😅😅🎉🎉",
-              "likes": 8
-            },
-            {
-              "author": "@そうしよう-t2y",
-              "text": "삼각관계 미춌다",
-              "likes": 7
-            },
-            {
-              "author": "@infj2340",
-              "text": "아내분이랑 사이좋은 모습 보기 좋네요😊",
-              "likes": 6
-            },
-            {
-              "author": "@롤챌린저찍고싶다-l2z",
-              "text": "뱅지용사님 너무하시네...유리씨, 홍씨랑도 모자라 비빔밥이랑도 외도하시네....능력자여 능력자....",
-              "likes": 6
-            },
-            {
-              "author": "@Kwonhan0-h1b",
-              "text": "이제는 아에 안참고 찍기전부터 비비는구나",
-              "likes": 5
-            },
-            {
-              "author": "@노란뚱땡이-s4r",
-              "text": "병진님 앜ㅋㅋㅋㅋㅋ뒤에서 우물거리는거 왜케 웃기냐고욬ㅋㅋㅋ",
-              "likes": 4
-            },
-            {
-              "author": "@이동주-i1z",
-              "text": "두분 예쁜 사랑 너무 보기 좋습니다 ㅋㅋㅋㅋㅋ",
-              "likes": 4
-            },
-            {
-              "author": "@hanbji9524",
-              "text": "이 집 고추장 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
-              "likes": 3
-            },
-            {
-              "author": "@수학익힘입니다쌰갈",
-              "text": "갑자기 왜 비빌라고 해욬ㅋㅋㅋㅋㅋ",
-              "likes": 3
-            },
-            {
-              "author": "@user-Gulluberry",
-              "text": "기본은 펩제라 먹다가 물리면 가끔 먹어도 괜찮은 정도?딱 이클립스 복숭아맛이긴함 ㅋㅋ",
-              "likes": 2
-            },
-            {
-              "author": "@정현경-e9i",
-              "text": "39번째 좋아요-!!",
-              "likes": 2
-            },
-            {
-              "author": "@억까-m3b",
-              "text": "1분 귀하다ㅏㅏㅏㅏㅏ",
-              "likes": 2
-            },
-            {
-              "author": "@박지수-d1q",
-              "text": "와우껌맛이던데",
-              "likes": 2
-            },
-            {
-              "author": "@YJK-y7d",
-              "text": "너무 자연스럽게 뒤에서 오물 거리고 계신거 아닌가요ㅋㅋ",
-              "likes": 2
-            },
-            {
-              "author": "@스-l9e",
-              "text": "저두 예전엔 일반판이 더 좋았는데 특유의 끈적거림이 없어가지고 제로가 더좋은거같아요 ㅎㅎ",
-              "likes": 1
-            },
-            {
-              "author": "@Tetrapod20",
-              "text": "피치 공주와 콜라보해서 만든 피치향 펩시, 정말 귀하네요..",
-              "likes": 1
-            },
-            {
-              "author": "@archfiend298",
-              "text": "왔다껌 복숭아맛이던데😂",
-              "likes": 1
-            },
-            {
-              "author": "@lilii-so8zx",
-              "text": "하숙 하시는걸까요?😅",
-              "likes": 1
-            },
-            {
-              "author": "@호박0",
-              "text": "병진님 자연스럽네요 ^^",
-              "likes": 1
-            },
-            {
-              "author": "@김우동-s4y",
-              "text": "ㅋㅋ 맛없으니까 바로 짬처리",
-              "likes": 1
-            },
-            {
-              "author": "@유튜브꼴통",
-              "text": "병진이가동생인게신기하다ㅋㅋㅋ",
-              "likes": 1
-            },
-            {
-              "author": "@킥킥킥-t1q",
-              "text": "우와 패키징이 이쁘네요 영상 잘 봤습니다 혹시 요즘 명란이 뜨던데 명란 회사별로 드셔주실 수 있을까요 .. 홍사운드님만의 솔직리뷰 너무 궁금해요",
-              "likes": 0
-            },
-            {
-              "author": "@likecloudi1534",
-              "text": "ㅋㅋㅋ 같이 사시나요?",
-              "likes": 0
-            },
-            {
-              "author": "@starsepil",
-              "text": "남에 집에서 음식타박해서 부으실려고 하신건가요?",
-              "likes": 0
-            },
-            {
-              "author": "@넵넵-t8b",
-              "text": "헉;;",
-              "likes": 0
-            },
-            {
-              "author": "@버미-n7v",
-              "text": "진짜 마실거 없을때 피치못할때만 먹어야겠네",
-              "likes": 0
-            },
-            {
-              "author": "@깜파피들",
-              "text": "무슨 비빔밥에서 고추장 참기름맛난다는 소리하고있네..",
-              "likes": 0
-            },
-            {
-              "author": "@LMW-DP",
-              "text": "유리님이 서운하시겠어요.....ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 누가보면 두집살림하는줄",
-              "likes": 0
-            },
-            {
-              "author": "@종사운드",
-              "text": "난 이거 맛있던데 이클립스라 생각하는거 그냥 아이스티 복숭아 느낌보단 우롱차향 첨가한 복숭아라 그럼",
-              "likes": 0
-            },
-            {
-              "author": "@별님-i5q",
-              "text": "두분이 같이하니 넘 웃겨요 ㅋㅋ 뱅지니 ㅎㅎ",
-              "likes": 0
-            },
-            {
-              "author": "@똥그리-j5v",
-              "text": "이거 최악ㅜㅜ 먹다버림....껌맛",
-              "likes": 0
-            },
-            {
-              "author": "@숏올씨",
-              "text": "처음에 뒤에있는사람ai인줄 ㅋㅋㅋㅋㅋㅋ",
-              "likes": 0
-            },
-            {
-              "author": "@ramzi_ong",
-              "text": "마이쮸ㅋㅋㅋㅋㅋ",
-              "likes": 0
-            },
-            {
-              "author": "@아무거나-m6p",
-              "text": "썸네일 콜라 물줄기 인줄 알았는데 숫가락이네",
-              "likes": 0
-            },
-            {
-              "author": "@밝고빛나는나",
-              "text": "복수하시나요?ㅋㅋㅋ",
-              "likes": 0
-            },
-            {
-              "author": "@밍밍missn",
-              "text": "아니 사람들은 제로를 좋아하시는거지…제로도 말고 일반 나왓으면 좋겟는디..욕 아니에요..!오해 ㄴㄴ",
-              "likes": 0
-            },
-            {
-              "author": "@金-l5y",
-              "text": "저거 일본에도 있는데",
-              "likes": 0
-            },
-            {
-              "author": "@륜-i9l",
-              "text": "이젠 비빔밥이 여기서도 나오네 ㅋㅋㅋㅋㅋㅋㅋㅋ",
-              "likes": 0
-            },
-            {
-              "author": "@란-n9o",
-              "text": "용사님의 휴일이란 이런걸까",
-              "likes": 0
-            },
-            {
-              "author": "@빠삐코a",
-              "text": "ㅇㅇ 나돜ㅋㅋㅋㅋㅋ",
-              "likes": 0
-            },
-            {
-              "author": "@beckham_icon",
-              "text": "저분 논란1도없고 귀여운 고양이 키우면서 평범하게 잘사는사람인데",
-              "likes": 0
-            },
-            {
-              "author": "@안녕465",
-              "text": "저 사람 비호감인데 언제까지 나오는거임 쟤때메 보기 싫네",
-              "likes": 0
-            },
-            {
-              "author": "@ackuaeuvbkasvbhbrvdsvjase",
-              "text": "제로의 그 속에서 올라오는 단맛에서 \n-100점\n라임 향기까지 나면서 화장품 맛 첨가에\n-9999점해서\n\n펩시 제로는 절대 안먹는데\n저건 음식물 쓰레기에 가깝겠네요\n왜? 그냥 콜라먹으면서 마이쮸 먹지?\nㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ\n\n콜라 자체를 별로 안좋아하는 입장에선 그냥 재앙이네\n누구 대가리에서 나오는거야 저런건 ㅋㅋㅋㅋㅋ",
-              "likes": 0
-            },
-            {
-              "author": "@밍밍missn",
-              "text": "@스-l9e 저는 제로를 좀 싫어해서..ㅎㅎ마트나 씨유가면 제로가 넘 많아서..! 일반 것도 나왓으면 좋겟더라고요..;;",
-              "likes": 0
-            },
-            {
-              "author": "@히릿22",
-              "text": "둘이 무슨 사이죠?",
-              "likes": 0
-            },
-            {
-              "author": "@크림덕후-y9q",
-              "text": "병진님은 밥값드렸나요.?ㅎ",
-              "likes": 0
-            },
-            {
-              "author": "@skflthfl2056",
-              "text": "맛있던데요?",
-              "likes": 0
-            },
-            {
-              "author": "@JJIMARI",
-              "text": "이 두분 살림 합치셨나요",
-              "likes": 0
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "8JKglz74DFY",
           "title": "네네치킨 신메뉴 야자치킨?! 리얼사운드 먹방 | 네네치킨 | Coconut chicken Eatingshow MUKBANG ASMR",
           "channel": "HONG SOUND",
@@ -19593,6 +19311,288 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "RKyU3x4fAnM",
+          "title": "펩시 피치향 이대로 괜찮은가",
+          "channel": "HONG SOUND",
+          "subscribers": 1830000,
+          "creator_tier": "Official",
+          "is_verified": true,
+          "views": 63920,
+          "likes": 1056,
+          "comment_count": 54,
+          "engagement_rate": 0.0174,
+          "duration": 55,
+          "is_short": true,
+          "buzz_score": 42.1,
+          "upload_date": "2026.04.28",
+          "url": "https://www.youtube.com/watch?v=RKyU3x4fAnM",
+          "description_excerpt": "집가락 정품 구매하는 곳\n홍사운드몰 https://hongsound.shop/\n네이버 https://smartstore.naver.com/coffeechild/products/7688043656\n집가락이 특별한 이유 https://youtu.be/9KvCvdMSJ54\n\n홍사운드 플러스 채널(네츄럴 홍의 모습들) : https://www.youtube.com/channel/UCe8eXpQCaLaEiXOh2RxU_3A\n인스타그램(instagram) : https://www.instagram.com/hong_sound",
+          "top_comments": [
+            {
+              "author": "@지후-q6b",
+              "text": "저거 이클립스 복숭아 맛 나던데...ㅋㅋ",
+              "likes": 27
+            },
+            {
+              "author": "@꾸멩꾸멩",
+              "text": "일주어터님이 여기 왜..",
+              "likes": 11
+            },
+            {
+              "author": "@이맹꽁이",
+              "text": "이러다 두분 한집살림 ㆍ형제라도 이리 멋진 듀엣은 없을걸ㆍ😅😅😅🎉🎉",
+              "likes": 8
+            },
+            {
+              "author": "@そうしよう-t2y",
+              "text": "삼각관계 미춌다",
+              "likes": 7
+            },
+            {
+              "author": "@롤챌린저찍고싶다-l2z",
+              "text": "뱅지용사님 너무하시네...유리씨, 홍씨랑도 모자라 비빔밥이랑도 외도하시네....능력자여 능력자....",
+              "likes": 6
+            },
+            {
+              "author": "@infj2340",
+              "text": "아내분이랑 사이좋은 모습 보기 좋네요😊",
+              "likes": 6
+            },
+            {
+              "author": "@Kwonhan0-h1b",
+              "text": "이제는 아에 안참고 찍기전부터 비비는구나",
+              "likes": 5
+            },
+            {
+              "author": "@이동주-i1z",
+              "text": "두분 예쁜 사랑 너무 보기 좋습니다 ㅋㅋㅋㅋㅋ",
+              "likes": 4
+            },
+            {
+              "author": "@노란뚱땡이-s4r",
+              "text": "병진님 앜ㅋㅋㅋㅋㅋ뒤에서 우물거리는거 왜케 웃기냐고욬ㅋㅋㅋ",
+              "likes": 4
+            },
+            {
+              "author": "@수학익힘입니다쌰갈",
+              "text": "갑자기 왜 비빌라고 해욬ㅋㅋㅋㅋㅋ",
+              "likes": 3
+            },
+            {
+              "author": "@hanbji9524",
+              "text": "이 집 고추장 ㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
+              "likes": 3
+            },
+            {
+              "author": "@박지수-d1q",
+              "text": "와우껌맛이던데",
+              "likes": 2
+            },
+            {
+              "author": "@user-Gulluberry",
+              "text": "기본은 펩제라 먹다가 물리면 가끔 먹어도 괜찮은 정도?딱 이클립스 복숭아맛이긴함 ㅋㅋ",
+              "likes": 2
+            },
+            {
+              "author": "@억까-m3b",
+              "text": "1분 귀하다ㅏㅏㅏㅏㅏ",
+              "likes": 2
+            },
+            {
+              "author": "@정현경-e9i",
+              "text": "39번째 좋아요-!!",
+              "likes": 2
+            },
+            {
+              "author": "@YJK-y7d",
+              "text": "너무 자연스럽게 뒤에서 오물 거리고 계신거 아닌가요ㅋㅋ",
+              "likes": 2
+            },
+            {
+              "author": "@lilii-so8zx",
+              "text": "하숙 하시는걸까요?😅",
+              "likes": 1
+            },
+            {
+              "author": "@김우동-s4y",
+              "text": "ㅋㅋ 맛없으니까 바로 짬처리",
+              "likes": 1
+            },
+            {
+              "author": "@호박0",
+              "text": "병진님 자연스럽네요 ^^",
+              "likes": 1
+            },
+            {
+              "author": "@스-l9e",
+              "text": "저두 예전엔 일반판이 더 좋았는데 특유의 끈적거림이 없어가지고 제로가 더좋은거같아요 ㅎㅎ",
+              "likes": 1
+            },
+            {
+              "author": "@archfiend298",
+              "text": "왔다껌 복숭아맛이던데😂",
+              "likes": 1
+            },
+            {
+              "author": "@유튜브꼴통",
+              "text": "병진이가동생인게신기하다ㅋㅋㅋ",
+              "likes": 1
+            },
+            {
+              "author": "@Tetrapod20",
+              "text": "피치 공주와 콜라보해서 만든 피치향 펩시, 정말 귀하네요..",
+              "likes": 1
+            },
+            {
+              "author": "@LMW-DP",
+              "text": "유리님이 서운하시겠어요.....ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 누가보면 두집살림하는줄",
+              "likes": 0
+            },
+            {
+              "author": "@starsepil",
+              "text": "남에 집에서 음식타박해서 부으실려고 하신건가요?",
+              "likes": 0
+            },
+            {
+              "author": "@넵넵-t8b",
+              "text": "헉;;",
+              "likes": 0
+            },
+            {
+              "author": "@킥킥킥-t1q",
+              "text": "우와 패키징이 이쁘네요 영상 잘 봤습니다 혹시 요즘 명란이 뜨던데 명란 회사별로 드셔주실 수 있을까요 .. 홍사운드님만의 솔직리뷰 너무 궁금해요",
+              "likes": 0
+            },
+            {
+              "author": "@버미-n7v",
+              "text": "진짜 마실거 없을때 피치못할때만 먹어야겠네",
+              "likes": 0
+            },
+            {
+              "author": "@likecloudi1534",
+              "text": "ㅋㅋㅋ 같이 사시나요?",
+              "likes": 0
+            },
+            {
+              "author": "@별님-i5q",
+              "text": "두분이 같이하니 넘 웃겨요 ㅋㅋ 뱅지니 ㅎㅎ",
+              "likes": 0
+            },
+            {
+              "author": "@종사운드",
+              "text": "난 이거 맛있던데 이클립스라 생각하는거 그냥 아이스티 복숭아 느낌보단 우롱차향 첨가한 복숭아라 그럼",
+              "likes": 0
+            },
+            {
+              "author": "@똥그리-j5v",
+              "text": "이거 최악ㅜㅜ 먹다버림....껌맛",
+              "likes": 0
+            },
+            {
+              "author": "@숏올씨",
+              "text": "처음에 뒤에있는사람ai인줄 ㅋㅋㅋㅋㅋㅋ",
+              "likes": 0
+            },
+            {
+              "author": "@깜파피들",
+              "text": "무슨 비빔밥에서 고추장 참기름맛난다는 소리하고있네..",
+              "likes": 0
+            },
+            {
+              "author": "@밝고빛나는나",
+              "text": "복수하시나요?ㅋㅋㅋ",
+              "likes": 0
+            },
+            {
+              "author": "@fodtho",
+              "text": "아씨... 놀래라 뒤에 티비화면에 유툽틀어놓고 먹는줄알았는데 실제로 튀어나와버리네",
+              "likes": 0
+            },
+            {
+              "author": "@아무거나-m6p",
+              "text": "썸네일 콜라 물줄기 인줄 알았는데 숫가락이네",
+              "likes": 0
+            },
+            {
+              "author": "@밍밍missn",
+              "text": "아니 사람들은 제로를 좋아하시는거지…제로도 말고 일반 나왓으면 좋겟는디..욕 아니에요..!오해 ㄴㄴ",
+              "likes": 0
+            },
+            {
+              "author": "@ramzi_ong",
+              "text": "마이쮸ㅋㅋㅋㅋㅋ",
+              "likes": 0
+            },
+            {
+              "author": "@히릿22",
+              "text": "둘이 무슨 사이죠?",
+              "likes": 0
+            },
+            {
+              "author": "@롤챌린저찍고싶다-l2z",
+              "text": "20초전 귀하다",
+              "likes": 0
+            },
+            {
+              "author": "@sky_LuNa-o4e",
+              "text": "피치인데 달기만한 피치가 아니라 쌔그러운 피티라 괜찮더라고요",
+              "likes": 0
+            },
+            {
+              "author": "@이맹꽁이",
+              "text": "와 비빔밥 ㆍ용사입이 별로인거 정답ㆍ기냥 원조가 최고ㆍ",
+              "likes": 0
+            },
+            {
+              "author": "@JJIMARI",
+              "text": "이 두분 살림 합치셨나요",
+              "likes": 0
+            },
+            {
+              "author": "@skflthfl2056",
+              "text": "맛있던데요?",
+              "likes": 0
+            },
+            {
+              "author": "@크림덕후-y9q",
+              "text": "병진님은 밥값드렸나요.?ㅎ",
+              "likes": 0
+            },
+            {
+              "author": "@밍밍missn",
+              "text": "@스-l9e 저는 제로를 좀 싫어해서..ㅎㅎ마트나 씨유가면 제로가 넘 많아서..! 일반 것도 나왓으면 좋겟더라고요..;;",
+              "likes": 0
+            },
+            {
+              "author": "@金-l5y",
+              "text": "저거 일본에도 있는데",
+              "likes": 0
+            },
+            {
+              "author": "@ackuaeuvbkasvbhbrvdsvjase",
+              "text": "제로의 그 속에서 올라오는 단맛에서 \n-100점\n라임 향기까지 나면서 화장품 맛 첨가에\n-9999점해서\n\n펩시 제로는 절대 안먹는데\n저건 음식물 쓰레기에 가깝겠네요\n왜? 그냥 콜라먹으면서 마이쮸 먹지?\nㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ\n\n콜라 자체를 별로 안좋아하는 입장에선 그냥 재앙이네\n누구 대가리에서 나오는거야 저런건 ㅋㅋㅋㅋㅋ",
+              "likes": 0
+            },
+            {
+              "author": "@안녕465",
+              "text": "저 사람 비호감인데 언제까지 나오는거임 쟤때메 보기 싫네",
+              "likes": 0
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "",
+          "video_meta_rating": 0,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "c9j8FSa7kKg",
           "title": "충격비주얼 생차돌박이 & 성게알 관자 비빔면 가득한 리얼사운드 먹방 | Raw Brisket & Uni Bibim Noodles Mukbang ASMR",
           "channel": "HONG SOUND",
@@ -20386,6 +20386,233 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "Rt1EWs0ceCY",
+          "title": "소금파 vs 설탕파, 맷돌 콩국수로 오늘 결판낸다! 처갓집 슈프림 양념치킨 리얼사운드 먹방 ASMR",
+          "channel": "HONG SOUND",
+          "subscribers": 1840000,
+          "creator_tier": "Official",
+          "is_verified": true,
+          "views": 32812,
+          "likes": 550,
+          "comment_count": 41,
+          "engagement_rate": 0.018,
+          "duration": 571,
+          "is_short": false,
+          "buzz_score": 41.8,
+          "upload_date": "2025.08.13",
+          "url": "https://www.youtube.com/watch?v=Rt1EWs0ceCY",
+          "description_excerpt": "집가락 정품 구매하는 곳\n홍사운드몰 https://hongsound.shop/\n네이버 https://smartstore.naver.com/coffeechild/products/7688043656\n집가락이 특별한 이유 https://youtu.be/9KvCvdMSJ54\n\n홍사운드 플러스 채널(네츄럴 홍의 모습들) : https://www.youtube.com/channel/UCe8eXpQCaLaEiXOh2RxU_3A\n인스타그램(instagram) : https://www.instagram.com/hong_sound\n\n00:00:00 ",
+          "top_comments": [
+            {
+              "author": "@WD가입이-v8h",
+              "text": "전  소금 설탕을  1:1로  넣어서 먹습니다~~",
+              "likes": 30
+            },
+            {
+              "author": "@진짜별비",
+              "text": "개인적으로는 콩물에 소금간이 되어있는 콩국수가 가장 맛있는듯 해요!\n크림바위굴 먹방 기원차 10일차",
+              "likes": 13
+            },
+            {
+              "author": "@손찌냥",
+              "text": "​ @귀찮_아 율량동 수제두부예찬이요! 맷돌콩국수하면 안나옴..",
+              "likes": 3
+            },
+            {
+              "author": "@손찌냥",
+              "text": "어딘지찾았다... 간다",
+              "likes": 3
+            },
+            {
+              "author": "@deahmy89",
+              "text": "첫 번째❤",
+              "likes": 2
+            },
+            {
+              "author": "@민트초코-n9d1b",
+              "text": "저기!!! 제가 여름마다 매번 시켜먹는 콩국수집인데!! 멀어서 배달비 많이 나오는데도 항상 시켜먹는 찐 맛집입니닼ㅋㅋㅋ",
+              "likes": 2
+            },
+            {
+              "author": "@귀찮_아",
+              "text": "어디예요오😢",
+              "likes": 2
+            },
+            {
+              "author": "@호박0",
+              "text": "콩국수 슈프림 양념치킨 먹방 잘 봤어요",
+              "likes": 2
+            },
+            {
+              "author": "@jaong-deokhoo_GameHighlights",
+              "text": "여름엔 콩국수가 짱이지!",
+              "likes": 2
+            },
+            {
+              "author": "@wdy_wsj",
+              "text": "청주 율량동에 위치한 수제두부예찬",
+              "likes": 1
+            },
+            {
+              "author": "@ValleyPlusDew",
+              "text": "소면이랑 콩국물넣으면 간단하게 콩국수완성이예요!!",
+              "likes": 1
+            },
+            {
+              "author": "@귀찮_아",
+              "text": "어딘데요~~~~😢",
+              "likes": 1
+            },
+            {
+              "author": "@Aeri._hh",
+              "text": "이거지",
+              "likes": 1
+            },
+            {
+              "author": "@코난8678",
+              "text": "30대초중반까진 설탕,소금반반씩 넣었는 데 지금은 소금파 ㅋㅋ",
+              "likes": 1
+            },
+            {
+              "author": "@대한민국-w3n",
+              "text": "콩국수에 소금은 꼭 꽃소금을 뿌리셔야 맛있어요 맛소금은 뿌리시면 안됩니다",
+              "likes": 1
+            },
+            {
+              "author": "@HONGSOUND",
+              "text": "오늘 콩국수 드시고 시원한 하루 보내세요~! 👍앗 이미 드셨나요.. ㅋㅋ",
+              "likes": 1
+            },
+            {
+              "author": "@하루-하루x3x",
+              "text": "이렇게 순하고 선한 사람이 또 있나 싶다.. 애기아빠.. 큐ㅠ",
+              "likes": 1
+            },
+            {
+              "author": "@HONGSOUND",
+              "text": "@도깨비불-Illusion  맛점하세용 ❤❤",
+              "likes": 1
+            },
+            {
+              "author": "@gv7059",
+              "text": "ㅋㅋㅋㅋ맛나게따",
+              "likes": 1
+            },
+            {
+              "author": "@박기범-v3y",
+              "text": "홍사운드님 콩국수 먹방 잘 볼게요",
+              "likes": 1
+            },
+            {
+              "author": "@애플소다-e6k",
+              "text": "소금만 넣어먹었는데,다음에 설탕 한번 넣어 봐야겠어요.",
+              "likes": 1
+            },
+            {
+              "author": "@귀찮_아",
+              "text": "저 콩국수집 아시는분?제발...😢",
+              "likes": 1
+            },
+            {
+              "author": "@도깨비불-Illusion",
+              "text": "​ @HONGSOUND 와아! 홍사운드님이 직접 댓글 달아주셨다!!!!!!ㅋㅋㅋ 오늘 점심도 콩국수로 달리겠습니닷🏃‍♂️🏃‍♀️",
+              "likes": 0
+            },
+            {
+              "author": "@장지훈-x8k",
+              "text": "네 비쥬얼을 봤을땐 일단 무조건 치킨이랑 같이 먹어 봐야겠다고 생각함 맛있을것같음 ❤❤🎉🎉🎉",
+              "likes": 0
+            },
+            {
+              "author": "@msgjmt4513",
+              "text": "콩국수는 무조건 소금\n디저트도 아니고 식사인데 설탕은 진짜 아닌것같음요...",
+              "likes": 0
+            },
+            {
+              "author": "@ecology-v5r",
+              "text": "번호노출 괜찮나요?!",
+              "likes": 0
+            },
+            {
+              "author": "@도깨비불-Illusion",
+              "text": "내일 점심은 콩국수로 달려야겠다 😊",
+              "likes": 0
+            },
+            {
+              "author": "@핫한캔디",
+              "text": "완전 소금파였는데 미디어보고 설탕한번 넣어볼까해서 5:1 해보고 괜찮아서 4:1해보고 ㅋㅋ또 3:1 해봤거든요..ㅋㅋㅋ 2:1 추천드릴게요..편견 갖지 마세요!!\n먹어보고 결정하세요ㅋㅋㅋ",
+              "likes": 0
+            },
+            {
+              "author": "@도로궁뎅이",
+              "text": "콩국수가 좀 달달하면 디저트 느낌이라\n전 면에 소금살살쳐서 먹고\n면 다 건져먹으면 콩국좀 마시다 마무리에 설탕 조금 넣어서 달달하게 마셔요",
+              "likes": 0
+            },
+            {
+              "author": "@떠나요넷이서82",
+              "text": "소금❤",
+              "likes": 0
+            },
+            {
+              "author": "@맑은날비오는날",
+              "text": "와 대박",
+              "likes": 0
+            },
+            {
+              "author": "@UltraCapSyongJJang_EON",
+              "text": "헐 콩국수 뜨자마자 용수철마냥 튀어옴 복만네 콩국수 가루 이거 완전 추천해여 진심 콩국수에 미친 인간인데 전 이걸로 전 사계절 내내 콩국수 먹음 ㅜ 농도 조절 취향껏 가능하고 ,,, 맛도 매우 아름다워요 ,,,,,,,,,,, 절대 진득파라서 핵진득하게 해서 걍 마시기도 하고 설탕뿌린 도나츠 찍어 먹고 수제비도 말아 먹고 닭강정은 필수고 제 취향은 따끈한 밥 말아서 무말랭이랑 잡수기,,, 인데 이 조합 꽤 마딛더요",
+              "likes": 0
+            },
+            {
+              "author": "@H.Song_",
+              "text": "설탕 소금 둘다 있어야하고...맞아요\n예전엔 콩국수에 수박 한조각 토마토 한조각 오이 계란 깨 이렇게 올려줬음 ㅠㅠ...",
+              "likes": 0
+            },
+            {
+              "author": "@츄릅츄릅-s6v",
+              "text": "확신의 설탕파였지만 나이들어가니 입맛이 짭짤하게 변해서 이젠 소금파..",
+              "likes": 0
+            },
+            {
+              "author": "@underpar1184",
+              "text": "소금 콩국수에 한표!!",
+              "likes": 0
+            },
+            {
+              "author": "@아미꼬냥이-p8o",
+              "text": "드시는거보면 너무나 먹어보고는싶은데...안좋아해서 패쓰~~~ㅎㅎ그래도 워낙에 맛있게 드시니까 대리만족중이네요~~^^\n더운여름~늘 건강챙기시구요~\n오늘두 맛있구 멋있는영상 감사합니다~팬으로써 늘 응원할께융~~😊😊😊😊😊😊",
+              "likes": 0
+            },
+            {
+              "author": "@허거덩쓰거덩쓰",
+              "text": "콰삭킹치킨 먹어주세요 홍사운드님!!❤❤",
+              "likes": 0
+            },
+            {
+              "author": "@조누람",
+              "text": "아.. 콩국수 내 최애 음식.. 여름때 많이먹어둬야해.. ㅠ",
+              "likes": 0
+            },
+            {
+              "author": "@wdy_wsj",
+              "text": "배민은\n맷돌콩국수",
+              "likes": 0
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 0,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "lFs0Oq4TXxs",
           "title": "귀국하자마자 마라 엽떡 리얼사운드 먹방 (feat. 나트랑 썰) ASMR",
           "channel": "HONG SOUND",
@@ -20854,233 +21081,6 @@
           "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "Rt1EWs0ceCY",
-          "title": "소금파 vs 설탕파, 맷돌 콩국수로 오늘 결판낸다! 처갓집 슈프림 양념치킨 리얼사운드 먹방 ASMR",
-          "channel": "HONG SOUND",
-          "subscribers": 1840000,
-          "creator_tier": "Official",
-          "is_verified": true,
-          "views": 32812,
-          "likes": 550,
-          "comment_count": 41,
-          "engagement_rate": 0.018,
-          "duration": 571,
-          "is_short": false,
-          "buzz_score": 41.8,
-          "upload_date": "2025.08.13",
-          "url": "https://www.youtube.com/watch?v=Rt1EWs0ceCY",
-          "description_excerpt": "집가락 정품 구매하는 곳\n홍사운드몰 https://hongsound.shop/\n네이버 https://smartstore.naver.com/coffeechild/products/7688043656\n집가락이 특별한 이유 https://youtu.be/9KvCvdMSJ54\n\n홍사운드 플러스 채널(네츄럴 홍의 모습들) : https://www.youtube.com/channel/UCe8eXpQCaLaEiXOh2RxU_3A\n인스타그램(instagram) : https://www.instagram.com/hong_sound\n\n00:00:00 ",
-          "top_comments": [
-            {
-              "author": "@WD가입이-v8h",
-              "text": "전  소금 설탕을  1:1로  넣어서 먹습니다~~",
-              "likes": 30
-            },
-            {
-              "author": "@진짜별비",
-              "text": "개인적으로는 콩물에 소금간이 되어있는 콩국수가 가장 맛있는듯 해요!\n크림바위굴 먹방 기원차 10일차",
-              "likes": 13
-            },
-            {
-              "author": "@손찌냥",
-              "text": "​ @귀찮_아 율량동 수제두부예찬이요! 맷돌콩국수하면 안나옴..",
-              "likes": 3
-            },
-            {
-              "author": "@손찌냥",
-              "text": "어딘지찾았다... 간다",
-              "likes": 3
-            },
-            {
-              "author": "@deahmy89",
-              "text": "첫 번째❤",
-              "likes": 2
-            },
-            {
-              "author": "@민트초코-n9d1b",
-              "text": "저기!!! 제가 여름마다 매번 시켜먹는 콩국수집인데!! 멀어서 배달비 많이 나오는데도 항상 시켜먹는 찐 맛집입니닼ㅋㅋㅋ",
-              "likes": 2
-            },
-            {
-              "author": "@귀찮_아",
-              "text": "어디예요오😢",
-              "likes": 2
-            },
-            {
-              "author": "@호박0",
-              "text": "콩국수 슈프림 양념치킨 먹방 잘 봤어요",
-              "likes": 2
-            },
-            {
-              "author": "@jaong-deokhoo_GameHighlights",
-              "text": "여름엔 콩국수가 짱이지!",
-              "likes": 2
-            },
-            {
-              "author": "@wdy_wsj",
-              "text": "청주 율량동에 위치한 수제두부예찬",
-              "likes": 1
-            },
-            {
-              "author": "@ValleyPlusDew",
-              "text": "소면이랑 콩국물넣으면 간단하게 콩국수완성이예요!!",
-              "likes": 1
-            },
-            {
-              "author": "@귀찮_아",
-              "text": "어딘데요~~~~😢",
-              "likes": 1
-            },
-            {
-              "author": "@Aeri._hh",
-              "text": "이거지",
-              "likes": 1
-            },
-            {
-              "author": "@코난8678",
-              "text": "30대초중반까진 설탕,소금반반씩 넣었는 데 지금은 소금파 ㅋㅋ",
-              "likes": 1
-            },
-            {
-              "author": "@대한민국-w3n",
-              "text": "콩국수에 소금은 꼭 꽃소금을 뿌리셔야 맛있어요 맛소금은 뿌리시면 안됩니다",
-              "likes": 1
-            },
-            {
-              "author": "@HONGSOUND",
-              "text": "오늘 콩국수 드시고 시원한 하루 보내세요~! 👍앗 이미 드셨나요.. ㅋㅋ",
-              "likes": 1
-            },
-            {
-              "author": "@하루-하루x3x",
-              "text": "이렇게 순하고 선한 사람이 또 있나 싶다.. 애기아빠.. 큐ㅠ",
-              "likes": 1
-            },
-            {
-              "author": "@HONGSOUND",
-              "text": "@도깨비불-Illusion  맛점하세용 ❤❤",
-              "likes": 1
-            },
-            {
-              "author": "@gv7059",
-              "text": "ㅋㅋㅋㅋ맛나게따",
-              "likes": 1
-            },
-            {
-              "author": "@박기범-v3y",
-              "text": "홍사운드님 콩국수 먹방 잘 볼게요",
-              "likes": 1
-            },
-            {
-              "author": "@애플소다-e6k",
-              "text": "소금만 넣어먹었는데,다음에 설탕 한번 넣어 봐야겠어요.",
-              "likes": 1
-            },
-            {
-              "author": "@귀찮_아",
-              "text": "저 콩국수집 아시는분?제발...😢",
-              "likes": 1
-            },
-            {
-              "author": "@도깨비불-Illusion",
-              "text": "​ @HONGSOUND 와아! 홍사운드님이 직접 댓글 달아주셨다!!!!!!ㅋㅋㅋ 오늘 점심도 콩국수로 달리겠습니닷🏃‍♂️🏃‍♀️",
-              "likes": 0
-            },
-            {
-              "author": "@장지훈-x8k",
-              "text": "네 비쥬얼을 봤을땐 일단 무조건 치킨이랑 같이 먹어 봐야겠다고 생각함 맛있을것같음 ❤❤🎉🎉🎉",
-              "likes": 0
-            },
-            {
-              "author": "@msgjmt4513",
-              "text": "콩국수는 무조건 소금\n디저트도 아니고 식사인데 설탕은 진짜 아닌것같음요...",
-              "likes": 0
-            },
-            {
-              "author": "@ecology-v5r",
-              "text": "번호노출 괜찮나요?!",
-              "likes": 0
-            },
-            {
-              "author": "@도깨비불-Illusion",
-              "text": "내일 점심은 콩국수로 달려야겠다 😊",
-              "likes": 0
-            },
-            {
-              "author": "@핫한캔디",
-              "text": "완전 소금파였는데 미디어보고 설탕한번 넣어볼까해서 5:1 해보고 괜찮아서 4:1해보고 ㅋㅋ또 3:1 해봤거든요..ㅋㅋㅋ 2:1 추천드릴게요..편견 갖지 마세요!!\n먹어보고 결정하세요ㅋㅋㅋ",
-              "likes": 0
-            },
-            {
-              "author": "@도로궁뎅이",
-              "text": "콩국수가 좀 달달하면 디저트 느낌이라\n전 면에 소금살살쳐서 먹고\n면 다 건져먹으면 콩국좀 마시다 마무리에 설탕 조금 넣어서 달달하게 마셔요",
-              "likes": 0
-            },
-            {
-              "author": "@떠나요넷이서82",
-              "text": "소금❤",
-              "likes": 0
-            },
-            {
-              "author": "@맑은날비오는날",
-              "text": "와 대박",
-              "likes": 0
-            },
-            {
-              "author": "@UltraCapSyongJJang_EON",
-              "text": "헐 콩국수 뜨자마자 용수철마냥 튀어옴 복만네 콩국수 가루 이거 완전 추천해여 진심 콩국수에 미친 인간인데 전 이걸로 전 사계절 내내 콩국수 먹음 ㅜ 농도 조절 취향껏 가능하고 ,,, 맛도 매우 아름다워요 ,,,,,,,,,,, 절대 진득파라서 핵진득하게 해서 걍 마시기도 하고 설탕뿌린 도나츠 찍어 먹고 수제비도 말아 먹고 닭강정은 필수고 제 취향은 따끈한 밥 말아서 무말랭이랑 잡수기,,, 인데 이 조합 꽤 마딛더요",
-              "likes": 0
-            },
-            {
-              "author": "@H.Song_",
-              "text": "설탕 소금 둘다 있어야하고...맞아요\n예전엔 콩국수에 수박 한조각 토마토 한조각 오이 계란 깨 이렇게 올려줬음 ㅠㅠ...",
-              "likes": 0
-            },
-            {
-              "author": "@츄릅츄릅-s6v",
-              "text": "확신의 설탕파였지만 나이들어가니 입맛이 짭짤하게 변해서 이젠 소금파..",
-              "likes": 0
-            },
-            {
-              "author": "@underpar1184",
-              "text": "소금 콩국수에 한표!!",
-              "likes": 0
-            },
-            {
-              "author": "@아미꼬냥이-p8o",
-              "text": "드시는거보면 너무나 먹어보고는싶은데...안좋아해서 패쓰~~~ㅎㅎ그래도 워낙에 맛있게 드시니까 대리만족중이네요~~^^\n더운여름~늘 건강챙기시구요~\n오늘두 맛있구 멋있는영상 감사합니다~팬으로써 늘 응원할께융~~😊😊😊😊😊😊",
-              "likes": 0
-            },
-            {
-              "author": "@허거덩쓰거덩쓰",
-              "text": "콰삭킹치킨 먹어주세요 홍사운드님!!❤❤",
-              "likes": 0
-            },
-            {
-              "author": "@조누람",
-              "text": "아.. 콩국수 내 최애 음식.. 여름때 많이먹어둬야해.. ㅠ",
-              "likes": 0
-            },
-            {
-              "author": "@wdy_wsj",
-              "text": "배민은\n맷돌콩국수",
-              "likes": 0
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
           "video_meta_rating": 0,
           "is_news_incident": false,
           "multi_brand_tags": [],
@@ -28865,13 +28865,13 @@
           "subscribers": 1830000,
           "creator_tier": "Official",
           "is_verified": true,
-          "views": 210434,
-          "likes": 2606,
+          "views": 210616,
+          "likes": 2608,
           "comment_count": 58,
           "engagement_rate": 0.0127,
           "duration": 42,
           "is_short": true,
-          "buzz_score": 39.9,
+          "buzz_score": 39.8,
           "upload_date": "2026.04.23",
           "url": "https://www.youtube.com/watch?v=5hKxoID14t0",
           "description_excerpt": "집가락 정품 구매하는 곳\n홍사운드몰 https://hongsound.shop/\n네이버 https://smartstore.naver.com/coffeechild/products/7688043656\n집가락이 특별한 이유 https://youtu.be/9KvCvdMSJ54\n\n홍사운드 플러스 채널(네츄럴 홍의 모습들) : https://www.youtube.com/channel/UCe8eXpQCaLaEiXOh2RxU_3A\n인스타그램(instagram) : https://www.instagram.com/hong_sound",
@@ -31612,13 +31612,13 @@
           "subscribers": 1830000,
           "creator_tier": "Official",
           "is_verified": true,
-          "views": 119655,
-          "likes": 1686,
+          "views": 119863,
+          "likes": 1689,
           "comment_count": 24,
           "engagement_rate": 0.0143,
           "duration": 40,
           "is_short": true,
-          "buzz_score": 37.7,
+          "buzz_score": 37.6,
           "upload_date": "2026.04.22",
           "url": "https://www.youtube.com/watch?v=_ghn2ej0s3U",
           "description_excerpt": "집가락 정품 구매하는 곳\n홍사운드몰 https://hongsound.shop/\n네이버 https://smartstore.naver.com/coffeechild/products/7688043656\n집가락이 특별한 이유 https://youtu.be/9KvCvdMSJ54\n\n홍사운드 플러스 채널(네츄럴 홍의 모습들) : https://www.youtube.com/channel/UCe8eXpQCaLaEiXOh2RxU_3A\n인스타그램(instagram) : https://www.instagram.com/hong_sound",
@@ -32263,13 +32263,13 @@
           "subscribers": 1830000,
           "creator_tier": "Official",
           "is_verified": true,
-          "views": 290494,
-          "likes": 3427,
-          "comment_count": 129,
+          "views": 290766,
+          "likes": 3429,
+          "comment_count": 130,
           "engagement_rate": 0.0122,
           "duration": 69,
           "is_short": false,
-          "buzz_score": 35.8,
+          "buzz_score": 35.7,
           "upload_date": "2026.04.17",
           "url": "https://www.youtube.com/watch?v=3ziI0qjPMiw",
           "description_excerpt": "삐딱한 천재의 번트비프버거",
@@ -32450,13 +32450,13 @@
               "likes": 1
             },
             {
-              "author": "@tvasmr7278",
-              "text": "다들 의견이 다른데 \n한번 제가 먹어봐야겠네요 ㅎ",
+              "author": "@liveroker",
+              "text": "난.. 진짜 별루였음.",
               "likes": 0
             },
             {
-              "author": "@liveroker",
-              "text": "난.. 진짜 별루였음.",
+              "author": "@단순한소금물",
+              "text": "세트 10700원.. 돈 개아까움 맛없어요 먹지 마세요ㅜ",
               "likes": 0
             },
             {
@@ -32500,8 +32500,8 @@
               "likes": 0
             },
             {
-              "author": "@곰태-z1b",
-              "text": "최근 햄버거 콜라보들 다 별로임...\n\n맛피자가 제일 잘했다",
+              "author": "@tvasmr7278",
+              "text": "다들 의견이 다른데 \n한번 제가 먹어봐야겠네요 ㅎ",
               "likes": 0
             },
             {
@@ -32827,13 +32827,13 @@
           "subscribers": 1830000,
           "creator_tier": "Official",
           "is_verified": true,
-          "views": 136735,
-          "likes": 1354,
+          "views": 136801,
+          "likes": 1355,
           "comment_count": 47,
           "engagement_rate": 0.0102,
           "duration": 28,
           "is_short": true,
-          "buzz_score": 35.2,
+          "buzz_score": 35.1,
           "upload_date": "2026.04.19",
           "url": "https://www.youtube.com/watch?v=uu8mXeUqz9c",
           "description_excerpt": "nan",
@@ -33089,8 +33089,8 @@
           "subscribers": 1830000,
           "creator_tier": "Official",
           "is_verified": true,
-          "views": 79959,
-          "likes": 1153,
+          "views": 80148,
+          "likes": 1154,
           "comment_count": 74,
           "engagement_rate": 0.0153,
           "duration": 781,
@@ -33621,19 +33621,19 @@
     },
     "ttoganzip": {
       "display": "또간집(풍자)",
-      "video_count": 114,
-      "total_views": 1957019,
-      "total_likes": 16458,
-      "total_comments": 3171,
+      "video_count": 116,
+      "total_views": 1958315,
+      "total_likes": 16472,
+      "total_comments": 3173,
       "n_short": 6,
-      "n_long": 108,
+      "n_long": 110,
       "tier_counts": {
-        "Nano": 103,
+        "Nano": 105,
         "Macro": 3,
         "Micro": 7,
         "Mega": 1
       },
-      "summary": "또간집(풍자)이 최근 유튜브에서 여러 번 소개되어 자사 육회바른연어와 직접적인 경쟁 상황에 놓여 있다. 특히, '떡볶퀸' 채널의 영상은 또간집을 충주의 맛집 1위로 선정하며 소비자들에게 긍정적 인상을 주고 있어 자사 매장 트래픽과 점유율에 위협이 될 수 있다. 즉시 대응으로는 마케팅 전략 재검토와 함께 소셜 미디어를 활용한 고객 유치 캠페인을 진행해야 한다.\n  📌 떡볶퀸 · 충주 맛집 1위 · 마케팅 전략 재검토",
+      "summary": "또간집(풍자)은 대전여행 vlog와 가족 여행 영상에서 언급되며, 특히 남편의 또간집 피키친 주문이 눈에 띄나, 자사 육회바른연어와 직접 비교되는 메뉴는 확인되지 않았다. 소비자 반응은 긍정적이지만, 아직 구체적인 위협 요소는 드러나지 않아 즉시 대응은 필요 없으나 지켜보기로 한다.\n  📌 대전여행 · 가족 여행 · 피키친",
       "videos": [
         {
           "video_id": "LdxWw55tKQc",
@@ -35107,63 +35107,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "_mP1ioPCXts",
-          "title": "vlog l 도쿄 3박4일🗼 ep.1 (LOOPS, 특별식당, 다이이치호텔, 호루이치, 이치란, 실바니안패밀리, 단톤)",
-          "channel": "rohhee 로희",
-          "subscribers": 889,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 2303,
-          "likes": 52,
-          "comment_count": 6,
-          "engagement_rate": 0.0252,
-          "duration": 2111,
-          "is_short": false,
-          "buzz_score": 46.8,
-          "upload_date": "2026.05.03",
-          "url": "https://www.youtube.com/watch?v=_mP1ioPCXts",
-          "description_excerpt": "2년 전 도쿄브이로그를 아직도 많이 좋아해주셔서 감사해요🫶🏻\n이번에 거기서 살짝 업데이트해서 3박4일로 도쿄 갔다왔어요!\n\n봄에는 처음 갔는데 벚꽃은 이미 다 져서 구경도 못했네요 ㅜㅜ\n그래도 가보고싶었던 카페와 장소들에 가서 기분 좋았답니다🤗\n\n대신 아무래도 밥보다 공간, 디저트에 중점을 두다보니\n어쩌다 맛집은 대부분 또간집이 되어버렸어요 ㅎㅎ\n\n뭔가 계획대로 되는 게 하나도 없는 것 같지만 (되돌아보니 꽤 쏠쏠한)\n이번 도쿄여행도 재밌게 봐주세요♡\n--------------------------------------------\n",
-          "top_comments": [
-            {
-              "author": "@rohhee_vlog",
-              "text": "언제나 감사합니다😀",
-              "likes": 1
-            },
-            {
-              "author": "@퐌s",
-              "text": "잘 보고 갑니다",
-              "likes": 0
-            },
-            {
-              "author": "@rohhee_vlog",
-              "text": "오 댓글도 남겨주시고ㅜㅜ 감사합니당😁",
-              "likes": 0
-            },
-            {
-              "author": "@이선-w8b",
-              "text": "담주에 마롱샹테리에 먹으러 가야겠어요",
-              "likes": 0
-            },
-            {
-              "author": "@rohhee_vlog",
-              "text": "크림이 조금 니글할수있으니 커피랑 드세요 ㅋㅋ 한번씩 내려줘야하더라구요 아근데 말하다보니 또 먹고싶어졌어요ㅜㅜ 입맛에 잘 맞으셨으면 좋겠네요🤍제 몫까지 맛있게 드셔주세요!",
-              "likes": 0
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "xayZmjwORMI",
           "title": "🇻🇳 베트남 호이안 여행 vlog | 자유여행에서만 누릴 수 있는 호이안의 진짜 매력 탐방기 🌾 [ep.5] | 망고빙수, 논밭뷰 카페, 또간집, 올드타운, 소원배 흥정, 콩카페",
           "channel": "멩이로그",
@@ -35623,6 +35566,63 @@
             {
               "author": "@LA먹방탐험대LAMUKBANG",
               "text": "숙성 된 고기의 퀄리티는 매우 좋았습니다...맛을 제대로 표현 못한 아재들이라...",
+              "likes": 0
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "",
+          "video_meta_rating": 0,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "_mP1ioPCXts",
+          "title": "vlog l 도쿄 3박4일🗼 ep.1 (LOOPS, 특별식당, 다이이치호텔, 호루이치, 이치란, 실바니안패밀리, 단톤)",
+          "channel": "rohhee 로희",
+          "subscribers": 913,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 2763,
+          "likes": 58,
+          "comment_count": 6,
+          "engagement_rate": 0.0232,
+          "duration": 2111,
+          "is_short": false,
+          "buzz_score": 45.0,
+          "upload_date": "2026.05.03",
+          "url": "https://www.youtube.com/watch?v=_mP1ioPCXts",
+          "description_excerpt": "2년 전 도쿄브이로그를 아직도 많이 좋아해주셔서 감사해요🫶🏻\n이번에 거기서 살짝 업데이트해서 3박4일로 도쿄 갔다왔어요!\n\n봄에는 처음 갔는데 벚꽃은 이미 다 져서 구경도 못했네요 ㅜㅜ\n그래도 가보고싶었던 카페와 장소들에 가서 기분 좋았답니다🤗\n\n대신 아무래도 밥보다 공간, 디저트에 중점을 두다보니\n어쩌다 맛집은 대부분 또간집이 되어버렸어요 ㅎㅎ\n\n뭔가 계획대로 되는 게 하나도 없는 것 같지만 (되돌아보니 꽤 쏠쏠한)\n이번 도쿄여행도 재밌게 봐주세요♡\n--------------------------------------------\n",
+          "top_comments": [
+            {
+              "author": "@rohhee_vlog",
+              "text": "언제나 감사합니다😀",
+              "likes": 1
+            },
+            {
+              "author": "@퐌s",
+              "text": "잘 보고 갑니다",
+              "likes": 0
+            },
+            {
+              "author": "@rohhee_vlog",
+              "text": "오 댓글도 남겨주시고ㅜㅜ 감사합니당😁",
+              "likes": 0
+            },
+            {
+              "author": "@이선-w8b",
+              "text": "담주에 마롱샹테리에 먹으러 가야겠어요",
+              "likes": 0
+            },
+            {
+              "author": "@rohhee_vlog",
+              "text": "크림이 조금 니글할수있으니 커피랑 드세요 ㅋㅋ 한번씩 내려줘야하더라구요 아근데 말하다보니 또 먹고싶어졌어요ㅜㅜ 입맛에 잘 맞으셨으면 좋겠네요🤍제 몫까지 맛있게 드셔주세요!",
               "likes": 0
             }
           ],
@@ -37636,88 +37636,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "iSzLxR_T20w",
-          "title": "방콕 여행 후기/설날 연휴와 잡채/겨자 참소스 (2월에 먹은 거 리뷰&잡담)",
-          "channel": "쏭이츠 SsongEats",
-          "subscribers": 4490,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 259,
-          "likes": 9,
-          "comment_count": 10,
-          "engagement_rate": 0.0734,
-          "duration": 1614,
-          "is_short": false,
-          "buzz_score": 34.7,
-          "upload_date": "2026.05.03",
-          "url": "https://www.youtube.com/watch?v=iSzLxR_T20w",
-          "description_excerpt": "2월 결산 최큼 늦어따...\n\n0:00 인사말\n0:37 방콕 여행 - 방콕을 좋아하는 이유\n1:40 방콕 릉루엉\n4:20 방콕 팡차 (Pang Cha)\n7:40 또간집의 딜레마\n8:23 방콕 코퍼 뷔페\n9:29 수박 귀신에게 방콕이란?\n10:05 방콕 편의점 (샌드위치)\n10:47 방콕 호텔에 대하여\n12:35 설날 연휴\n12:52 잡채 이야기\n14:05 각종 라면 이야기 (스파게티 라면, 짜파게티)\n17:02 겨자 참소스 (야채찜 a.k.a. \"소스 발림대\")\n18:34 파라타\n21:09 에이스 (공장별 맛차이 - 해태공장, 훼미",
-          "top_comments": [
-            {
-              "author": "@soolj9512",
-              "text": "이올 롱폼 나이챠!",
-              "likes": 1
-            },
-            {
-              "author": "@뱅튜브-e4o",
-              "text": "일요일밤10시반에 올리면 못볼줄아나봐 다보고잔다",
-              "likes": 1
-            },
-            {
-              "author": "@김민지-p2t8i",
-              "text": "세븐일레븐 티샤쓰 어디갓지",
-              "likes": 1
-            },
-            {
-              "author": "@jemin1791",
-              "text": "요즘 바빠서 자주챙겨보진못햇는데 월간 쏭잇올려주셔서 감사해여!! :face-red-heart-shape:",
-              "likes": 0
-            },
-            {
-              "author": "@차구구",
-              "text": "티셔추 오데갓노",
-              "likes": 0
-            },
-            {
-              "author": "@SsongEats",
-              "text": "재밌게 봐주세용 !!!",
-              "likes": 0
-            },
-            {
-              "author": "@SsongEats",
-              "text": "아무도 안봐도 킵고잉~~~",
-              "likes": 0
-            },
-            {
-              "author": "@SsongEats",
-              "text": "ㅋㅋㅋㅋㅋㅋㅋㅋ 세븐일레븐",
-              "likes": 0
-            },
-            {
-              "author": "@SsongEats",
-              "text": "아웅 감사합니다 재밌게 봐주세요!!!",
-              "likes": 0
-            },
-            {
-              "author": "@SsongEats",
-              "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 빠져가지고 유니폼 안입음 ㅠㅠ",
-              "likes": 0
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "vrGhtaOLXUo",
           "title": "토론토의 또간집|캐나다 세금 보고까지 |오싱턴 맛집| 토론토 이자카야 맛집| #ossington#churchstreet #캐나다워홀 #torontolife #토론토맛집 #캐나다세금",
           "channel": "초히CHOHEE",
@@ -37845,10 +37763,10 @@
           "subscribers": 2500,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 205,
-          "likes": 8,
+          "views": 208,
+          "likes": 9,
           "comment_count": 2,
-          "engagement_rate": 0.0488,
+          "engagement_rate": 0.0529,
           "duration": 808,
           "is_short": false,
           "buzz_score": 33.9,
@@ -37988,6 +37906,88 @@
             {
               "author": "@soyotime",
               "text": "나잘먹지요즘?",
+              "likes": 0
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "",
+          "video_meta_rating": 0,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "iSzLxR_T20w",
+          "title": "방콕 여행 후기/설날 연휴와 잡채/겨자 참소스 (2월에 먹은 거 리뷰&잡담)",
+          "channel": "쏭이츠 SsongEats",
+          "subscribers": 4490,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 276,
+          "likes": 9,
+          "comment_count": 10,
+          "engagement_rate": 0.0688,
+          "duration": 1614,
+          "is_short": false,
+          "buzz_score": 33.5,
+          "upload_date": "2026.05.03",
+          "url": "https://www.youtube.com/watch?v=iSzLxR_T20w",
+          "description_excerpt": "2월 결산 최큼 늦어따...\n\n0:00 인사말\n0:37 방콕 여행 - 방콕을 좋아하는 이유\n1:40 방콕 릉루엉\n4:20 방콕 팡차 (Pang Cha)\n7:40 또간집의 딜레마\n8:23 방콕 코퍼 뷔페\n9:29 수박 귀신에게 방콕이란?\n10:05 방콕 편의점 (샌드위치)\n10:47 방콕 호텔에 대하여\n12:35 설날 연휴\n12:52 잡채 이야기\n14:05 각종 라면 이야기 (스파게티 라면, 짜파게티)\n17:02 겨자 참소스 (야채찜 a.k.a. \"소스 발림대\")\n18:34 파라타\n21:09 에이스 (공장별 맛차이 - 해태공장, 훼미",
+          "top_comments": [
+            {
+              "author": "@soolj9512",
+              "text": "이올 롱폼 나이챠!",
+              "likes": 1
+            },
+            {
+              "author": "@뱅튜브-e4o",
+              "text": "일요일밤10시반에 올리면 못볼줄아나봐 다보고잔다",
+              "likes": 1
+            },
+            {
+              "author": "@김민지-p2t8i",
+              "text": "세븐일레븐 티샤쓰 어디갓지",
+              "likes": 1
+            },
+            {
+              "author": "@jemin1791",
+              "text": "요즘 바빠서 자주챙겨보진못햇는데 월간 쏭잇올려주셔서 감사해여!! :face-red-heart-shape:",
+              "likes": 0
+            },
+            {
+              "author": "@차구구",
+              "text": "티셔추 오데갓노",
+              "likes": 0
+            },
+            {
+              "author": "@SsongEats",
+              "text": "재밌게 봐주세용 !!!",
+              "likes": 0
+            },
+            {
+              "author": "@SsongEats",
+              "text": "아무도 안봐도 킵고잉~~~",
+              "likes": 0
+            },
+            {
+              "author": "@SsongEats",
+              "text": "ㅋㅋㅋㅋㅋㅋㅋㅋ 세븐일레븐",
+              "likes": 0
+            },
+            {
+              "author": "@SsongEats",
+              "text": "아웅 감사합니다 재밌게 봐주세요!!!",
+              "likes": 0
+            },
+            {
+              "author": "@SsongEats",
+              "text": "ㅋㅋㅋㅋㅋㅋㅋㅋㅋ 빠져가지고 유니폼 안입음 ㅠㅠ",
               "likes": 0
             }
           ],
@@ -38369,37 +38369,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "jeLQnGne9js",
-          "title": "[먹어볼게요]@킹받지안  맛도리 누룽지 닭백숙👍🐓🍗냠냠😋👧🏻 내 입맛에 딱이네!",
-          "channel": "킹받지안",
-          "subscribers": 115,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 51,
-          "likes": 6,
-          "comment_count": 1,
-          "engagement_rate": 0.1373,
-          "duration": 150,
-          "is_short": false,
-          "buzz_score": 30.6,
-          "upload_date": "2026.05.11",
-          "url": "https://www.youtube.com/watch?v=jeLQnGne9js",
-          "description_excerpt": "✅성남 백숙 맛집_평상집\n✅방문 전 미리 전화로 주문 추천❗️\n✅아이동반 식당 추천 누룽지 백숙 추천 메뉴👧🏻🙋🏻‍♀️\n#아이랑가볼만한곳 #일상 #추천 #kpop #쇼츠 #맛집 #여행 #브이로그 #korea #뽑기 #닭#백숙#남한산성 #안가도됨#여기가 찐맛집#또간집#성남맛집#누룽지백숙#먹방#먹방브이로그 #키즈#모델#키즈유튜버 #내돈내먹 #내돈내산",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "sUJgbBBtJzA",
           "title": "#147 서울 혼밥맛집 | 영등포역 영등포시장역 타임스퀘어 직장인 점심 맛집 | 또또간집 | 점심 먹으러 회사 오는 사람",
           "channel": "호피언니",
@@ -38425,6 +38394,37 @@
           "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "",
+          "video_meta_rating": 0,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "jeLQnGne9js",
+          "title": "[먹어볼게요]@킹받지안  맛도리 누룽지 닭백숙👍🐓🍗냠냠😋👧🏻 내 입맛에 딱이네!",
+          "channel": "킹받지안",
+          "subscribers": 115,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 51,
+          "likes": 6,
+          "comment_count": 1,
+          "engagement_rate": 0.1373,
+          "duration": 150,
+          "is_short": false,
+          "buzz_score": 30.6,
+          "upload_date": "2026.05.11",
+          "url": "https://www.youtube.com/watch?v=jeLQnGne9js",
+          "description_excerpt": "✅성남 백숙 맛집_평상집\n✅방문 전 미리 전화로 주문 추천❗️\n✅아이동반 식당 추천 누룽지 백숙 추천 메뉴👧🏻🙋🏻‍♀️\n#아이랑가볼만한곳 #일상 #추천 #kpop #쇼츠 #맛집 #여행 #브이로그 #korea #뽑기 #닭#백숙#남한산성 #안가도됨#여기가 찐맛집#또간집#성남맛집#누룽지백숙#먹방#먹방브이로그 #키즈#모델#키즈유튜버 #내돈내먹 #내돈내산",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
           "video_meta_rating": 0,
           "is_news_incident": false,
           "multi_brand_tags": [],
@@ -38459,6 +38459,37 @@
               "likes": 0
             }
           ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "",
+          "video_meta_rating": 0,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "kAHQnJCUZEc",
+          "title": "[국내여행] 잔잔한 대전여행 Vlog 1박2일 코스🏷️ 은행동 토스트 | 백정화 | 몽심 | 프렐류드 | 바로그집 (대전 소품샵, 대전맛집)",
+          "channel": "풀하 Poolha",
+          "subscribers": 138,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 15,
+          "likes": 4,
+          "comment_count": 0,
+          "engagement_rate": 0.2667,
+          "duration": 828,
+          "is_short": false,
+          "buzz_score": 29.8,
+          "upload_date": "2026.05.13",
+          "url": "https://www.youtube.com/watch?v=kAHQnJCUZEc",
+          "description_excerpt": "대전여행 vlog\n\n설정 - 화질 - 최대화질(4k)로 설정하시면 더욱 선명한 화질로 시청하실 수 있습니다♡\n\n⠀⠀⠀⠀⠀⠀⠀ \n\n#국내여행 #대전여행 #대전또간집\n#대전소품샵 #대전맛집 #대전카페\n#koreatravel",
+          "top_comments": [],
           "sentiment_counts": {
             "neg": 0,
             "neu": 0,
@@ -39409,78 +39440,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "hpPMlT5FdNM",
-          "title": "🗼도쿄 10끼 아니고 오모테산도만 10끼｜부담없는 가격, 고민없는 또또간집 위주｜일본 정식, 면, 빵, 디저트, 커피 골고루｜구글맵 공유📍",
-          "channel": "오하도쿄 OHHA TOKYO",
-          "subscribers": 31700,
-          "creator_tier": "Micro",
-          "is_verified": false,
-          "views": 13871,
-          "likes": 0,
-          "comment_count": 10,
-          "engagement_rate": 0.0007,
-          "duration": 939,
-          "is_short": false,
-          "buzz_score": 23.4,
-          "upload_date": "2026.04.30",
-          "url": "https://www.youtube.com/watch?v=hpPMlT5FdNM",
-          "description_excerpt": "안녕하세요~오하도쿄입니다🗼\n작년에 올린 22개의 브이로그 중 신주쿠 10끼 영상이 제일 조회수가 좋았는데요\n그래서 올해는 오모테산도 10끼를 만들어 보았어요😎\n오모테산도는 비싼 이미지가 있지만 부담없는 가격에다가\n제가 N번째 다니는 또간집 위주로 엮어 보았어요❤️\n밥, 면, 빵, 디저트, 커피 골고루 나오니 마지막까지 야무지게 챙겨가 주세요📍\n이번 영상도 찾아 주셔서 감사합니다☺️\n\n📍오모테산도 / OMOTESANDO\n① 시비레 누들 로소쿠야 (蝋燭屋)\nhttps://maps.app.goo.gl/oGaV4TEXMtix2xTf7\n② ",
-          "top_comments": [
-            {
-              "author": "@밤-m4x",
-              "text": "7월에 도쿄 방문 예정인데 이렇게 소중한 영상을 !! 감사합니다 >< 혹시 니콜라이 버그만에서 입으셨던 흰색 착장 정보를 여쭤봐도 될까요? :)",
-              "likes": 1
-            },
-            {
-              "author": "@NaNa-jl1xm",
-              "text": "영상이 너무 예쁩니다❤",
-              "likes": 0
-            },
-            {
-              "author": "@tree0528",
-              "text": "이렇게 또 맛있어보이는 집 잔뜩 올려주심 어떡해요.  너무 가보고 싶잖아요ㅠㅠ 예쁜 영상, 친절한 정보 감사해요♡",
-              "likes": 0
-            },
-            {
-              "author": "@boreee6005",
-              "text": "와 첫 가게부터!! 취저에요 ㅋㅋㅋㅋ 카네타나카는 유명한 건축가분인가 만드셨다고 ㅋㅋㅋ 밥도 맛있고 분위기도 있으니 좋은거같아요\n유럽이고 뭐고 도쿄가고싶어지는 영상 ㅜㅜ 우리는 6월에 만나요:)",
-              "likes": 0
-            },
-            {
-              "author": "@Rrr-u5t7r",
-              "text": "영상 잘 보고 있는데, “이것 좀 보소” “저것좀 보소” 는 좋지못한 표현이니, 그런표현은 안쓰시는게 좋을것같네요",
-              "likes": 0
-            },
-            {
-              "author": "@ねもたん",
-              "text": "저는 일본인이지만 항상 점심 메뉴 고민이 많았는데, 오모테산도 카페 정리해주신 덕분에 정말 큰 도움이 됐어요! 🙏\n원래도 외국인 관광객이 많은 동네였지만, 최근에는 병원에서도 3개 국어를 지원하는 등 정말 글로벌해지고 있네요.\n앞으로도 일본에서 즐거운 시간 보내시길 바라요! ✨️",
-              "likes": 0
-            },
-            {
-              "author": "@yukiohara-e4e",
-              "text": "어머머 어머머!!!! 잘볼게요 오하도쿄님ㅠㅠ 새로운 영상이다~~",
-              "likes": 0
-            },
-            {
-              "author": "@Danieleeloves",
-              "text": "넘 재밌게 잘 봤어요❤ 12:04 저는 받고 우유, 치즈는 일본 차원이 달라 병입니다🥛🍼🧀",
-              "likes": 0
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "cTUwwJ5DkSA",
           "title": "VLOG 🛌 또간집 프라이빗 풀빌라 ★ 🌀 ࣪ ♡ 💤 ꒰ !! ꒱ | 포천브이로그 | 여행브이로그  | 포천여행  | 풀빌라 펜션 | 노천스파 | 포천숙소추천 | 포천포레스트풀빌라",
           "channel": "모모누나 momosister",
@@ -39497,37 +39456,6 @@
           "upload_date": "2026.04.27",
           "url": "https://www.youtube.com/watch?v=cTUwwJ5DkSA",
           "description_excerpt": "nan",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "2dtNukC1uS8",
-          "title": "5월 연휴 vlog | 마음만은 여행중.. | 망원주민 또간집 • 모드니 쇼핑 • 집밥일상 #브이로그",
-          "channel": "스윗서리",
-          "subscribers": 137,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 20,
-          "likes": 3,
-          "comment_count": 0,
-          "engagement_rate": 0.15,
-          "duration": 332,
-          "is_short": false,
-          "buzz_score": 23.3,
-          "upload_date": "2026.05.06",
-          "url": "https://www.youtube.com/watch?v=2dtNukC1uS8",
-          "description_excerpt": "5월 2nd 일상 브이로그 🌿\n\n🎧Music track\nStore by Lukrembo\nBean by Lukrembo\nTeapot by Lukrembo\nRosewater by massobeats\n\n🎼Source\nhttps://freetouse.com/music/lukrembo/store\nhttps://freetouse.com/music/lukrembo/bean\nhttps://freetouse.com/music/lukrembo/teapot\nhttps://freetouse.com/music/massobeats/rose-water\n\n#망",
           "top_comments": [],
           "sentiment_counts": {
             "neg": 0,
@@ -39566,6 +39494,37 @@
               "likes": 0
             }
           ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "",
+          "video_meta_rating": 0,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "2dtNukC1uS8",
+          "title": "5월 연휴 vlog | 마음만은 여행중.. | 망원주민 또간집 • 모드니 쇼핑 • 집밥일상 #브이로그",
+          "channel": "스윗서리",
+          "subscribers": 137,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 20,
+          "likes": 3,
+          "comment_count": 0,
+          "engagement_rate": 0.15,
+          "duration": 332,
+          "is_short": false,
+          "buzz_score": 23.3,
+          "upload_date": "2026.05.06",
+          "url": "https://www.youtube.com/watch?v=2dtNukC1uS8",
+          "description_excerpt": "5월 2nd 일상 브이로그 🌿\n\n🎧Music track\nStore by Lukrembo\nBean by Lukrembo\nTeapot by Lukrembo\nRosewater by massobeats\n\n🎼Source\nhttps://freetouse.com/music/lukrembo/store\nhttps://freetouse.com/music/lukrembo/bean\nhttps://freetouse.com/music/lukrembo/teapot\nhttps://freetouse.com/music/massobeats/rose-water\n\n#망",
+          "top_comments": [],
           "sentiment_counts": {
             "neg": 0,
             "neu": 0,
@@ -39662,6 +39621,78 @@
             {
               "author": "@aueoel",
               "text": "@Jiyyyyunnnnn 담주에 카메라 들고 부산 갑니동 🤍♥️",
+              "likes": 0
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "",
+          "video_meta_rating": 0,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "hpPMlT5FdNM",
+          "title": "🗼도쿄 10끼 아니고 오모테산도만 10끼｜부담없는 가격, 고민없는 또또간집 위주｜일본 정식, 면, 빵, 디저트, 커피 골고루｜구글맵 공유📍",
+          "channel": "오하도쿄 OHHA TOKYO",
+          "subscribers": 31800,
+          "creator_tier": "Micro",
+          "is_verified": false,
+          "views": 14643,
+          "likes": 0,
+          "comment_count": 12,
+          "engagement_rate": 0.0008,
+          "duration": 939,
+          "is_short": false,
+          "buzz_score": 22.7,
+          "upload_date": "2026.04.30",
+          "url": "https://www.youtube.com/watch?v=hpPMlT5FdNM",
+          "description_excerpt": "안녕하세요~오하도쿄입니다🗼\n작년에 올린 22개의 브이로그 중 신주쿠 10끼 영상이 제일 조회수가 좋았는데요\n그래서 올해는 오모테산도 10끼를 만들어 보았어요😎\n오모테산도는 비싼 이미지가 있지만 부담없는 가격에다가\n제가 N번째 다니는 또간집 위주로 엮어 보았어요❤️\n밥, 면, 빵, 디저트, 커피 골고루 나오니 마지막까지 야무지게 챙겨가 주세요📍\n이번 영상도 찾아 주셔서 감사합니다☺️\n\n📍오모테산도 / OMOTESANDO\n① 시비레 누들 로소쿠야 (蝋燭屋)\nhttps://maps.app.goo.gl/oGaV4TEXMtix2xTf7\n② ",
+          "top_comments": [
+            {
+              "author": "@밤-m4x",
+              "text": "7월에 도쿄 방문 예정인데 이렇게 소중한 영상을 !! 감사합니다 >< 혹시 니콜라이 버그만에서 입으셨던 흰색 착장 정보를 여쭤봐도 될까요? :)",
+              "likes": 1
+            },
+            {
+              "author": "@NaNa-jl1xm",
+              "text": "영상이 너무 예쁩니다❤",
+              "likes": 0
+            },
+            {
+              "author": "@tree0528",
+              "text": "이렇게 또 맛있어보이는 집 잔뜩 올려주심 어떡해요.  너무 가보고 싶잖아요ㅠㅠ 예쁜 영상, 친절한 정보 감사해요♡",
+              "likes": 0
+            },
+            {
+              "author": "@boreee6005",
+              "text": "와 첫 가게부터!! 취저에요 ㅋㅋㅋㅋ 카네타나카는 유명한 건축가분인가 만드셨다고 ㅋㅋㅋ 밥도 맛있고 분위기도 있으니 좋은거같아요\n유럽이고 뭐고 도쿄가고싶어지는 영상 ㅜㅜ 우리는 6월에 만나요:)",
+              "likes": 0
+            },
+            {
+              "author": "@Rrr-u5t7r",
+              "text": "영상 잘 보고 있는데, “이것 좀 보소” “저것좀 보소” 는 좋지못한 표현이니, 그런표현은 안쓰시는게 좋을것같네요",
+              "likes": 0
+            },
+            {
+              "author": "@ねもたん",
+              "text": "저는 일본인이지만 항상 점심 메뉴 고민이 많았는데, 오모테산도 카페 정리해주신 덕분에 정말 큰 도움이 됐어요! 🙏\n원래도 외국인 관광객이 많은 동네였지만, 최근에는 병원에서도 3개 국어를 지원하는 등 정말 글로벌해지고 있네요.\n앞으로도 일본에서 즐거운 시간 보내시길 바라요! ✨️",
+              "likes": 0
+            },
+            {
+              "author": "@yukiohara-e4e",
+              "text": "어머머 어머머!!!! 잘볼게요 오하도쿄님ㅠㅠ 새로운 영상이다~~",
+              "likes": 0
+            },
+            {
+              "author": "@Danieleeloves",
+              "text": "넘 재밌게 잘 봤어요❤ 12:04 저는 받고 우유, 치즈는 일본 차원이 달라 병입니다🥛🍼🧀",
               "likes": 0
             }
           ],
@@ -39907,37 +39938,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "r6j7oY-OldQ",
-          "title": "의정부편 풍자의 또간집 1위맛집 돈까스 1탑 인정 안할수없는곳 #돈까스갤러리",
-          "channel": "동서지간",
-          "subscribers": 74,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 107,
-          "likes": 8,
-          "comment_count": 0,
-          "engagement_rate": 0.0748,
-          "duration": 255,
-          "is_short": false,
-          "buzz_score": 20.7,
-          "upload_date": "2026.04.30",
-          "url": "https://www.youtube.com/watch?v=r6j7oY-OldQ",
-          "description_excerpt": "맛집탐방하고 여행다니는 동서들간의 일상브이로그\n맛집,여행 브이로그 좋아하신다면 함께 즐겨요~~..\n\n의정부에서 돈까스하면 단연 돈까스갤리를 말하게되는데 성인 남성도 남기고 올 정도의 푸짐한양과 정말 깨끗하고 깔끔한 돈까스를 먹고싶다면 돈갤은 필수!!\n\n매콤과부드러움이있는 마성의 레드소스 역시 필수!!\n\n한번 맛보면 웨이팅이 아깝지않은을 느낄수있는 의정부 돈까스 1티어 맛집\n\n#의정부맛집 #돈까스갤러리 #또간집 #또간집의정부\n#맛집추천 #돈까스맛집 #인쇄돈까스 #가능동맛집 #줄서는맛집 #현지인맛집 #맛집투어\n#맛집 #맛집탐방\n#일상브",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "wdoIm1bH0ww",
           "title": "우도에 시즌 제대로 시작된 무늬오징어 낚시, 그리고 또간집 이야기",
           "channel": "섬 LIFE",
@@ -39975,10 +39975,10 @@
           "subscribers": 16,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 23,
+          "views": 30,
           "likes": 5,
           "comment_count": 0,
-          "engagement_rate": 0.2174,
+          "engagement_rate": 0.1667,
           "duration": 989,
           "is_short": false,
           "buzz_score": 20.2,
@@ -40043,6 +40043,37 @@
               "likes": 0
             }
           ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "",
+          "video_meta_rating": 0,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "r6j7oY-OldQ",
+          "title": "의정부편 풍자의 또간집 1위맛집 돈까스 1탑 인정 안할수없는곳 #돈까스갤러리",
+          "channel": "동서지간",
+          "subscribers": 74,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 116,
+          "likes": 8,
+          "comment_count": 0,
+          "engagement_rate": 0.069,
+          "duration": 255,
+          "is_short": false,
+          "buzz_score": 20.1,
+          "upload_date": "2026.04.30",
+          "url": "https://www.youtube.com/watch?v=r6j7oY-OldQ",
+          "description_excerpt": "맛집탐방하고 여행다니는 동서들간의 일상브이로그\n맛집,여행 브이로그 좋아하신다면 함께 즐겨요~~..\n\n의정부에서 돈까스하면 단연 돈까스갤리를 말하게되는데 성인 남성도 남기고 올 정도의 푸짐한양과 정말 깨끗하고 깔끔한 돈까스를 먹고싶다면 돈갤은 필수!!\n\n매콤과부드러움이있는 마성의 레드소스 역시 필수!!\n\n한번 맛보면 웨이팅이 아깝지않은을 느낄수있는 의정부 돈까스 1티어 맛집\n\n#의정부맛집 #돈까스갤러리 #또간집 #또간집의정부\n#맛집추천 #돈까스맛집 #인쇄돈까스 #가능동맛집 #줄서는맛집 #현지인맛집 #맛집투어\n#맛집 #맛집탐방\n#일상브",
+          "top_comments": [],
           "sentiment_counts": {
             "neg": 0,
             "neu": 0,
@@ -40165,6 +40196,37 @@
           "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
+          "video_meta_rating": 0,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "HT0BQ4w2d0Y",
+          "title": "오사카여행 N번 째, 또간집+처음간집 추천맛집🐽 스시, 야끼니꾸, 야끼토리, 이자카야",
+          "channel": "보람언니",
+          "subscribers": 4,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 88,
+          "likes": 3,
+          "comment_count": 0,
+          "engagement_rate": 0.0341,
+          "duration": 685,
+          "is_short": false,
+          "buzz_score": 18.6,
+          "upload_date": "2026.04.30",
+          "url": "https://www.youtube.com/watch?v=HT0BQ4w2d0Y",
+          "description_excerpt": "밤11시까지 영업하는 스시집\n야키토리가 맛있는 또간집 이자카야\n예약 필수! 현지인 100% 또또또간집 야끼니꾸\n3호점까지 있는 믿먹 이자카야\n모두 맛있게 먹고 온 곳들이에요:)\n아~ 오사카 맛집 더 많은데 또 가고싶다🐷",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "",
           "video_meta_rating": 0,
           "is_news_incident": false,
           "multi_brand_tags": [],
@@ -40666,22 +40728,22 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "Wgc1uWxJvCE",
-          "title": "[단독] 풍자, 30kg 감량 후 '아이돌급' 단발 변신…역대급 미모 난리난",
-          "channel": "오늘 한국 NEWS",
-          "subscribers": 1770,
+          "video_id": "xONGeogP5_k",
+          "title": "vlog)260217~21 방콕 가족여행/만족스러운 쿠킹클래스/ 남편 또간집 피키친/팟타이 밀키트 10개 쟁임",
+          "channel": "서아로새기다",
+          "subscribers": 102,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 148,
-          "likes": 0,
+          "views": 6,
+          "likes": 2,
           "comment_count": 0,
-          "engagement_rate": 0.0,
-          "duration": 64,
+          "engagement_rate": 0.3333,
+          "duration": 1997,
           "is_short": false,
-          "buzz_score": 8.2,
-          "upload_date": "2026.05.03",
-          "url": "https://www.youtube.com/watch?v=Wgc1uWxJvCE",
-          "description_excerpt": "방송인 풍자가 위고비 다이어트로 30kg 감량 후 '아이돌급' 단발 변신으로 '누구세요?' 반응을 얻고 있습니다.\n\n방송인 풍자가 파격적인 단발 헤어스타일로 변신하며 눈길을 사로잡고 있습니다. 풍자는 최근 위고비 등을 활용한 다이어트를 통해 약 30kg 가까이 체중을 감량했으며, 이러한 변화는 그의 달라진 비주얼을 통해 확연히 드러났습니다. 공개된 사진 속 풍자는 기존의 긴 머리를 과감하게 정리하고 어깨 라인에 닿는 세련된 단발머리로 완벽하게 변신한 모습입니다. 특히 날렵해진 브이라인 턱선과 한층 입체적인 이목구비는 팬들로부터 '누",
+          "buzz_score": 8.3,
+          "upload_date": "2026.05.13",
+          "url": "https://www.youtube.com/watch?v=xONGeogP5_k",
+          "description_excerpt": "nan",
           "top_comments": [],
           "sentiment_counts": {
             "neg": 0,
@@ -40690,9 +40752,9 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "중립",
-          "video_meta_rating": 3,
-          "is_news_incident": true,
+          "video_meta_sentiment": "",
+          "video_meta_rating": 0,
+          "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
         },
@@ -40728,6 +40790,37 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "Wgc1uWxJvCE",
+          "title": "[단독] 풍자, 30kg 감량 후 '아이돌급' 단발 변신…역대급 미모 난리난",
+          "channel": "오늘 한국 NEWS",
+          "subscribers": 1840,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 152,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 64,
+          "is_short": false,
+          "buzz_score": 7.8,
+          "upload_date": "2026.05.03",
+          "url": "https://www.youtube.com/watch?v=Wgc1uWxJvCE",
+          "description_excerpt": "방송인 풍자가 위고비 다이어트로 30kg 감량 후 '아이돌급' 단발 변신으로 '누구세요?' 반응을 얻고 있습니다.\n\n방송인 풍자가 파격적인 단발 헤어스타일로 변신하며 눈길을 사로잡고 있습니다. 풍자는 최근 위고비 등을 활용한 다이어트를 통해 약 30kg 가까이 체중을 감량했으며, 이러한 변화는 그의 달라진 비주얼을 통해 확연히 드러났습니다. 공개된 사진 속 풍자는 기존의 긴 머리를 과감하게 정리하고 어깨 라인에 닿는 세련된 단발머리로 완벽하게 변신한 모습입니다. 특히 날렵해진 브이라인 턱선과 한층 입체적인 이목구비는 팬들로부터 '누",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
+          "is_news_incident": true,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "AHbXC73saZU",
           "title": "[구미 맛집] 한채 쭈꾸미",
           "channel": "제리의 욜로 라이프(Jerry's yolo life)",
@@ -40744,37 +40837,6 @@
           "upload_date": "2026.05.08",
           "url": "https://www.youtube.com/watch?v=AHbXC73saZU",
           "description_excerpt": "구미에 풍자 또간집에 나온 쭈꾸미 맛집이 있다고 하여 가족들과 방문. 매콤한 쭈꾸미에 시원한 묵사발, 그리고 야채 샐러드에 도토리전까지 가성비 좋게 즐길 수 있더라구요. 구미에서 쭈꾸미 땡기면 한번 들러보세요 ~\n\n주 소 : 경북 구미시 공원로 328\n전 화 : 0504-0544-5196\n영업 시간 : 매일 11시 ~ 21시30분\n                  설날, 추석 휴무\n\n방문일 : 2026년 4월 12일",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "mIIGsTi7G8o",
-          "title": "서울사람 대전인 패치중 🍞🥯🥨🥐 성심당 신메뉴 물론 곳곳 숨은 맛집들 알려줄게 (n번째 먹은 또간집들만)",
-          "channel": "lp_19p",
-          "subscribers": 696,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 217,
-          "likes": 0,
-          "comment_count": 0,
-          "engagement_rate": 0.0,
-          "duration": 480,
-          "is_short": false,
-          "buzz_score": 7.6,
-          "upload_date": "2026.04.28",
-          "url": "https://www.youtube.com/watch?v=mIIGsTi7G8o",
-          "description_excerpt": "nan",
           "top_comments": [],
           "sentiment_counts": {
             "neg": 0,
@@ -40815,6 +40877,37 @@
           "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
+          "video_meta_rating": 0,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "mIIGsTi7G8o",
+          "title": "서울사람 대전인 패치중 🍞🥯🥨🥐 성심당 신메뉴 물론 곳곳 숨은 맛집들 알려줄게 (n번째 먹은 또간집들만)",
+          "channel": "lp_19p",
+          "subscribers": 696,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 217,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 480,
+          "is_short": false,
+          "buzz_score": 7.6,
+          "upload_date": "2026.04.28",
+          "url": "https://www.youtube.com/watch?v=mIIGsTi7G8o",
+          "description_excerpt": "nan",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "",
           "video_meta_rating": 0,
           "is_news_incident": false,
           "multi_brand_tags": [],
@@ -40956,37 +41049,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "9Z5reHIT_lQ",
-          "title": "#울산맛집 쌀국수 생각날 때 또또또간집🇻🇳",
-          "channel": "무엇-이든",
-          "subscribers": 9,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 30,
-          "likes": 2,
-          "comment_count": 0,
-          "engagement_rate": 0.0667,
-          "duration": 55,
-          "is_short": true,
-          "buzz_score": 6.6,
-          "upload_date": "2026.05.03",
-          "url": "https://www.youtube.com/watch?v=9Z5reHIT_lQ",
-          "description_excerpt": "상호는 칼국수지만, 울산맛집의 메인은 아이러니하게도 베트남 음식입니다. 베트남 분들이 직접 운영하는 곳이라, 현지 맛에 가깝거든요.\n버코 쌀국수는 족발 비슷한 게 들어간 쌀국수로, 얼큰한 국물과 잘 어우러져요. 해물볶음면은 얇은 면이라, 컵라면을 고급지게 요리한 느낌이고, 반꿘은 신기한 맛이에요. 태어나서 처음 먹는 맛이랄까🤔\n　\n미포손칼국수\nㅣ052-904-0001\nㅣ울산 동구 남진길 94-2, 1층\nㅣ10:00 - 22:00 / 수 휴무\nㅣ버코쌀국수 10,000원\n　\n#울산대왕암맛집 #울산동구맛집 #울산쌀국수 #쌀국수",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "Z5r774_KiBc",
           "title": "아기랑 강릉여행 | 신라 모노그램 레지던스 강릉 | 돌아기 생일 기념 여행 | 또간집방문 |강릉시장 |",
           "channel": "뉴건기록",
@@ -41018,22 +41080,22 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "fB2LT3DV7NQ",
-          "title": "Vlog 일상브이로그|카페브이로그🍞|매일달리기🏃🏻‍♀️|러닝하다뱀봤다|분당토박이|분당맛집|또간집예돈|로또당첨|갓생|막국수|딤섬🥟",
-          "channel": "정현",
-          "subscribers": 16,
+          "video_id": "jQs7GAKZsM0",
+          "title": "홍콩 이거 안 하면 진짜 손해임",
+          "channel": "시리이모",
+          "subscribers": 532,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 33,
+          "views": 171,
           "likes": 2,
           "comment_count": 0,
-          "engagement_rate": 0.0606,
-          "duration": 1337,
+          "engagement_rate": 0.0117,
+          "duration": 674,
           "is_short": false,
           "buzz_score": 6.4,
-          "upload_date": "2026.05.09",
-          "url": "https://www.youtube.com/watch?v=fB2LT3DV7NQ",
-          "description_excerpt": "안녕하세요 두번째 일상브이로그 입니다! 벌써 편집 실력이 늘은것같은 느낌이..🤭 구독자분들 로또 당첨 기운 받아가시고 주말 잘보내세요🤍\n#브이로그 #일상브이로그 #카페 #러닝",
+          "upload_date": "2026.04.18",
+          "url": "https://www.youtube.com/watch?v=jQs7GAKZsM0",
+          "description_excerpt": "🇭🇰 홍콩 기록\n\n☕️ Winston Coffee\n첫 커피부터 여유 미쳤던 센트럴 감성\n\n🏙️ Central district streets\n그냥 걷는데 영화 속 장면 같던 거리\n\n🍜 Ho Hung Kee (공항)\n공항에서도 꼭 먹어야 하는 한 그릇\n\n🌃 A Symphony of Lights\n야경 + 레이저쇼 = 말 다 했지\n\n🍹 VLT\n이건 진짜 무조건 먹어야 됨\n\n🎨 Tung Lau Murals\n사진 찍기 좋은 벽화 골목\n\n🍽️ Macau Restaurant Hong Kong\n또간집 인정 맛집\n\n🛗 Mid-Levels Escala",
           "top_comments": [],
           "sentiment_counts": {
             "neg": 0,
@@ -41080,22 +41142,22 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "jQs7GAKZsM0",
-          "title": "홍콩 이거 안 하면 진짜 손해임",
-          "channel": "시리이모",
-          "subscribers": 532,
+          "video_id": "fB2LT3DV7NQ",
+          "title": "Vlog 일상브이로그|카페브이로그🍞|매일달리기🏃🏻‍♀️|러닝하다뱀봤다|분당토박이|분당맛집|또간집예돈|로또당첨|갓생|막국수|딤섬🥟",
+          "channel": "정현",
+          "subscribers": 16,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 171,
+          "views": 33,
           "likes": 2,
           "comment_count": 0,
-          "engagement_rate": 0.0117,
-          "duration": 674,
+          "engagement_rate": 0.0606,
+          "duration": 1337,
           "is_short": false,
           "buzz_score": 6.4,
-          "upload_date": "2026.04.18",
-          "url": "https://www.youtube.com/watch?v=jQs7GAKZsM0",
-          "description_excerpt": "🇭🇰 홍콩 기록\n\n☕️ Winston Coffee\n첫 커피부터 여유 미쳤던 센트럴 감성\n\n🏙️ Central district streets\n그냥 걷는데 영화 속 장면 같던 거리\n\n🍜 Ho Hung Kee (공항)\n공항에서도 꼭 먹어야 하는 한 그릇\n\n🌃 A Symphony of Lights\n야경 + 레이저쇼 = 말 다 했지\n\n🍹 VLT\n이건 진짜 무조건 먹어야 됨\n\n🎨 Tung Lau Murals\n사진 찍기 좋은 벽화 골목\n\n🍽️ Macau Restaurant Hong Kong\n또간집 인정 맛집\n\n🛗 Mid-Levels Escala",
+          "upload_date": "2026.05.09",
+          "url": "https://www.youtube.com/watch?v=fB2LT3DV7NQ",
+          "description_excerpt": "안녕하세요 두번째 일상브이로그 입니다! 벌써 편집 실력이 늘은것같은 느낌이..🤭 구독자분들 로또 당첨 기운 받아가시고 주말 잘보내세요🤍\n#브이로그 #일상브이로그 #카페 #러닝",
           "top_comments": [],
           "sentiment_counts": {
             "neg": 0,
@@ -41173,6 +41235,37 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "9Z5reHIT_lQ",
+          "title": "#울산맛집 쌀국수 생각날 때 또또또간집🇻🇳",
+          "channel": "무엇-이든",
+          "subscribers": 10,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 30,
+          "likes": 2,
+          "comment_count": 0,
+          "engagement_rate": 0.0667,
+          "duration": 55,
+          "is_short": true,
+          "buzz_score": 6.1,
+          "upload_date": "2026.05.03",
+          "url": "https://www.youtube.com/watch?v=9Z5reHIT_lQ",
+          "description_excerpt": "상호는 칼국수지만, 울산맛집의 메인은 아이러니하게도 베트남 음식입니다. 베트남 분들이 직접 운영하는 곳이라, 현지 맛에 가깝거든요.\n버코 쌀국수는 족발 비슷한 게 들어간 쌀국수로, 얼큰한 국물과 잘 어우러져요. 해물볶음면은 얇은 면이라, 컵라면을 고급지게 요리한 느낌이고, 반꿘은 신기한 맛이에요. 태어나서 처음 먹는 맛이랄까🤔\n　\n미포손칼국수\nㅣ052-904-0001\nㅣ울산 동구 남진길 94-2, 1층\nㅣ10:00 - 22:00 / 수 휴무\nㅣ버코쌀국수 10,000원\n　\n#울산대왕암맛집 #울산동구맛집 #울산쌀국수 #쌀국수",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "",
+          "video_meta_rating": 0,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "flWYS0z6FoY",
           "title": "브런치에 진심인 커플의 샌프란시스코 브런치 또간집/또갈집 - Most Popular Brunch Spots in San Francisco",
           "channel": "What's Up Babe - 자기야 모해",
@@ -41189,37 +41282,6 @@
           "upload_date": "2026.05.11",
           "url": "https://www.youtube.com/watch?v=flWYS0z6FoY",
           "description_excerpt": "안녕하세요, 샌프란시스코에 살고 있는 커플입니다. 저희는 거의 매주 주말 한번은 브런치를 먹으러 나가는데, 저희가 좋아하는 브런치 맛집 중에 샌프란 다운타운에 있는 3군데를 소개합니다 :) \nThese are, without a doubt, San Francisco's most popular brunch spots.  \n\nMusic from #Uppbeat\nhttps://uppbeat.io/t/kite-flight/sunset-scene\nLicense code: MUJIWU6AO6BUDE15\n\nMusic from #Uppbeat\nh",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "HT0BQ4w2d0Y",
-          "title": "오사카여행 N번 째, 또간집+처음간집 추천맛집🐽 스시, 야끼니꾸, 야끼토리, 이자카야",
-          "channel": "보람언니",
-          "subscribers": 4,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 85,
-          "likes": 2,
-          "comment_count": 0,
-          "engagement_rate": 0.0235,
-          "duration": 685,
-          "is_short": false,
-          "buzz_score": 5.6,
-          "upload_date": "2026.04.30",
-          "url": "https://www.youtube.com/watch?v=HT0BQ4w2d0Y",
-          "description_excerpt": "밤11시까지 영업하는 스시집\n야키토리가 맛있는 또간집 이자카야\n예약 필수! 현지인 100% 또또또간집 야끼니꾸\n3호점까지 있는 믿먹 이자카야\n모두 맛있게 먹고 온 곳들이에요:)\n아~ 오사카 맛집 더 많은데 또 가고싶다🐷",
           "top_comments": [],
           "sentiment_counts": {
             "neg": 0,
@@ -41454,16 +41516,16 @@
     "meatking": {
       "display": "정육왕",
       "video_count": 11,
-      "total_views": 276409,
-      "total_likes": 2984,
-      "total_comments": 319,
+      "total_views": 281067,
+      "total_likes": 3023,
+      "total_comments": 324,
       "n_short": 0,
       "n_long": 11,
       "tier_counts": {
         "Nano": 6,
         "Macro": 5
       },
-      "summary": "정육왕은 독특한 메뉴와 프로모션을 통해 소비자들에게 인기를 얻고 있으며, 특히 고기 세분화 및 카레 요리 등에서 자사 제품과 직접 비교되는 부분이 많다. 소비자들의 긍정적인 반응과 함께 가격 경쟁력도 강점으로 작용하고 있어 점유율 상승 가능성 높음. 즉시 대응 필요.\n  📌 고기 세분화 · 카레 요리 · 프로모션",
+      "summary": "정육왕은 최근 다양한 프로모션 및 이벤트를 통해 고객들에게 신선하고 저렴한 고기 제품을 제공하며, 특히 돼지안심 소세지와 설화네 한우 특수모듬 등 특정 메뉴에 대한 긍정적인 소비자 반응이 나타나고 있어 육회바른연어의 점유율과 매장 트래픽에 위협이 될 가능성이 있다. 즉시 경쟁력 있는 프로모션 및 신제품 출시를 고려해야 한다.\n  📌 정육왕 소세지 · 설화네 한우 · 프로모션 이벤트",
       "videos": [
         {
           "video_id": "JO_kRguK_Q0",
@@ -41751,16 +41813,16 @@
           "video_id": "FMCS5OOw-rk",
           "title": "고기 미쳤다.. 광주1등 \"정육점\" A급 일당알바",
           "channel": "MeatCreator (Only Korean BBQ )",
-          "subscribers": 786000,
+          "subscribers": 788000,
           "creator_tier": "Macro",
           "is_verified": true,
-          "views": 72315,
-          "likes": 647,
-          "comment_count": 76,
-          "engagement_rate": 0.01,
+          "views": 76845,
+          "likes": 683,
+          "comment_count": 81,
+          "engagement_rate": 0.0099,
           "duration": 607,
           "is_short": false,
-          "buzz_score": 49.1,
+          "buzz_score": 47.3,
           "upload_date": "2026.05.03",
           "url": "https://www.youtube.com/watch?v=FMCS5OOw-rk",
           "description_excerpt": "5년만에 다시 찾은 경기도 광주 1등 정육점 설화네\n\n✔️ \"경기 광주 설화네한우\" 위치 정보\n네이버 지도 : https://naver.me/FJbdKgLB\n\n[정육왕 구독자 한정 최저가 이벤트]\n\n설화네 한우 1++ 특수모듬 600g / 350개 한정\n(100g 당 12,900원 최저가 + 배송비 무료)\n\n- 5월7일(목) 일괄배송\n\n- 구매 링크 -\nhttps://naver.me/xy79USez\n\n(※공동구매 일환으로 소정의 수수료 지급)\n\n✔️본 영상은 협찬&광고 해당사항이 없습니다.\nㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ",
@@ -42444,133 +42506,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "jLNdxFfQ8zg",
-          "title": "진짜 돈 쓸 맛 나잖아! 대한민국 1호 야시장 깡통 야시장 맛집 TOP 4",
-          "channel": "88차밍지",
-          "subscribers": 2370,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 3653,
-          "likes": 64,
-          "comment_count": 23,
-          "engagement_rate": 0.0238,
-          "duration": 994,
-          "is_short": false,
-          "buzz_score": 43.0,
-          "upload_date": "2026.04.30",
-          "url": "https://www.youtube.com/watch?v=jLNdxFfQ8zg",
-          "description_excerpt": "[부산/광복동] 진짜 돈 쓸 맛 나잖아! 깡통시장 8곳으로 부족했다면?\n상인들의 퇴근길 성지맛집부터 야시장맛집까지 준비했습니다! (부산 깡통시장 2탄) \n\n\n본영상은 협찬&광고 해당사항이 없습니다.\n▫️인스타그램 88charming_ji\n▫️숨은맛집추천 및 기타 \nkingminji88@gmail.com\nㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\n\n[매장 정보 및 위치] 00:00\n\n1. 원조소문난완이네분식 🍜 01:58\n주문 즉시 삶아주는 면발의 탄력! 단무지와 김가루의 정겨운 조화, 깡통시장 오면 비빔당면은 여기서 시작하셔야 ",
-          "top_comments": [
-            {
-              "author": "@88charming_ji",
-              "text": "본영상은 협찬&광고 해당사항이 없습니다.\n▫️인스타그램 88charming_ji\n▫️숨은맛집추천 및 기타 \nkingminji88@gmail.com\nㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\n\n[매장 정보 및 위치] 00:00\n\n1. 원조소문난완이네분식 🍜 01:58\n주문 즉시 삶아주는 면발의 탄력! 단무지와 김가루의 정겨운 조화, 깡통시장 오면 비빔당면은 여기서 시작하셔야 해요.\n\n2. 장우손어묵 🍢 02:56\nVIP어묵 부산깡통시장 이재용 회장님이 다녀가신 핫플\n\n3. 이태리 집 (비누 전문점) 🧼 04:15\n맛있는 냄새 사이",
-              "likes": 5
-            },
-            {
-              "author": "@s럽뚱",
-              "text": "애교가 많으시네 밍지님^^ \n영상 잘 보고있습니다!!!",
-              "likes": 4
-            },
-            {
-              "author": "@JonJayH",
-              "text": "육회비빔밥을 두 번이나 드셔서 궁금하지만 날 것을 못 먹어서 또르르...메모해뒀다가 저는 기회가 되면 육개장을 먹어보겠습니다ㅎㅎ 고퀄 영상 감사히 봤습니다!",
-              "likes": 4
-            },
-            {
-              "author": "@88charming_ji",
-              "text": "응원해주셔서 정말 감사합니다! 맛있게 봐주셔서 기뻐요😊",
-              "likes": 2
-            },
-            {
-              "author": "@88charming_ji",
-              "text": "@KSG-AKS-HR 두분 모두 복 받으실거예요 감사합니다 😊❤",
-              "likes": 2
-            },
-            {
-              "author": "@88charming_ji",
-              "text": "@Yuree-choi 복 받으세요😊❤",
-              "likes": 2
-            },
-            {
-              "author": "@Yuree-choi",
-              "text": "금메달🎉 오늘도 맛있는 영상 감사합니다😊🤗🤭",
-              "likes": 2
-            },
-            {
-              "author": "@Yuree-choi",
-              "text": "​ @KSG-AKS-HR ㅋㅋㅋㅋ말씀 감사합니다. 복받으실거에요👍",
-              "likes": 2
-            },
-            {
-              "author": "@츠키-p8q",
-              "text": "오늘도 잘보고 갑니다 ~😊 \n9:35 집중시간 ㅎㅎㅎ",
-              "likes": 2
-            },
-            {
-              "author": "@88charming_ji",
-              "text": "ㅎㅎㅎ좋아요!😊",
-              "likes": 1
-            },
-            {
-              "author": "@88charming_ji",
-              "text": "집중 하셨죠????😊😊",
-              "likes": 1
-            },
-            {
-              "author": "@KSG-AKS-HR",
-              "text": "난 동메달이지만 너무 기뻐요.볼 생각에",
-              "likes": 1
-            },
-            {
-              "author": "@KSG-AKS-HR",
-              "text": "고기도 북두칠성 별자리로 이쁘게 태우셨네.고기 태운거 빼면 다 잘하는 딸",
-              "likes": 1
-            },
-            {
-              "author": "@KSG-AKS-HR",
-              "text": "축하! 로또 꼭 사세요",
-              "likes": 1
-            },
-            {
-              "author": "@88charming_ji",
-              "text": "육개장 좋죠😊꼭 가보세요 갈비탕도 맛있다고 하더라구요",
-              "likes": 1
-            },
-            {
-              "author": "@minjida88",
-              "text": "북두칠성처럼 봐주시는 마법😊",
-              "likes": 1
-            },
-            {
-              "author": "@88charming_ji",
-              "text": "예쁘게 봐주셔서 정말 감사합니다! 😊",
-              "likes": 0
-            },
-            {
-              "author": "@매콤푸우",
-              "text": "궁금한게 있어요!\n서울,부산 왔다 갔다 하시던데 부산이 고향이시고 서울은 가끔 여행으로 가시는거죠?",
-              "likes": 0
-            },
-            {
-              "author": "@88charming_ji",
-              "text": "네 맞아요 고향은 부산 서울은 종종 여행으로 왔다갔다해요😊",
-              "likes": 0
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "",
-          "video_meta_rating": 0,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "MRhvdOzh9Fc",
           "title": "정육왕이 극찬한 흑돼지 상위 0.1% 비계 삼겹살의 진실(금돼지식당 남영돈 산청숯불가든 잡고 싶은 37살)",
           "channel": "사장님입니다",
@@ -42686,6 +42621,133 @@
             {
               "author": "@ILLY115",
               "text": "썸네일에 저 갈빗대 부위가 맛있긴한테 저 고기는 지방이 많기는 함. 보통 정육점이나 식당에서 s급으로 키로당 1000-2000원씩 더 주고 사는곳들은 저런거 절대 안나가쥬. 그리고 똥돼지인 흑돼지가격으로 등쳐먹는 제주도에서 왠만하면 그냥 다른거 드시길 추천드립니다.",
+              "likes": 0
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "",
+          "video_meta_rating": 0,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "jLNdxFfQ8zg",
+          "title": "진짜 돈 쓸 맛 나잖아! 대한민국 1호 야시장 깡통 야시장 맛집 TOP 4",
+          "channel": "88차밍지",
+          "subscribers": 2380,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 3780,
+          "likes": 67,
+          "comment_count": 23,
+          "engagement_rate": 0.0238,
+          "duration": 994,
+          "is_short": false,
+          "buzz_score": 42.2,
+          "upload_date": "2026.04.30",
+          "url": "https://www.youtube.com/watch?v=jLNdxFfQ8zg",
+          "description_excerpt": "[부산/광복동] 진짜 돈 쓸 맛 나잖아! 깡통시장 8곳으로 부족했다면?\n상인들의 퇴근길 성지맛집부터 야시장맛집까지 준비했습니다! (부산 깡통시장 2탄) \n\n\n본영상은 협찬&광고 해당사항이 없습니다.\n▫️인스타그램 88charming_ji\n▫️숨은맛집추천 및 기타 \nkingminji88@gmail.com\nㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\n\n[매장 정보 및 위치] 00:00\n\n1. 원조소문난완이네분식 🍜 01:58\n주문 즉시 삶아주는 면발의 탄력! 단무지와 김가루의 정겨운 조화, 깡통시장 오면 비빔당면은 여기서 시작하셔야 ",
+          "top_comments": [
+            {
+              "author": "@88charming_ji",
+              "text": "본영상은 협찬&광고 해당사항이 없습니다.\n▫️인스타그램 88charming_ji\n▫️숨은맛집추천 및 기타 \nkingminji88@gmail.com\nㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ\n\n[매장 정보 및 위치] 00:00\n\n1. 원조소문난완이네분식 🍜 01:58\n주문 즉시 삶아주는 면발의 탄력! 단무지와 김가루의 정겨운 조화, 깡통시장 오면 비빔당면은 여기서 시작하셔야 해요.\n\n2. 장우손어묵 🍢 02:56\nVIP어묵 부산깡통시장 이재용 회장님이 다녀가신 핫플\n\n3. 이태리 집 (비누 전문점) 🧼 04:15\n맛있는 냄새 사이",
+              "likes": 5
+            },
+            {
+              "author": "@s럽뚱",
+              "text": "애교가 많으시네 밍지님^^ \n영상 잘 보고있습니다!!!",
+              "likes": 4
+            },
+            {
+              "author": "@JonJayH",
+              "text": "육회비빔밥을 두 번이나 드셔서 궁금하지만 날 것을 못 먹어서 또르르...메모해뒀다가 저는 기회가 되면 육개장을 먹어보겠습니다ㅎㅎ 고퀄 영상 감사히 봤습니다!",
+              "likes": 4
+            },
+            {
+              "author": "@88charming_ji",
+              "text": "응원해주셔서 정말 감사합니다! 맛있게 봐주셔서 기뻐요😊",
+              "likes": 2
+            },
+            {
+              "author": "@88charming_ji",
+              "text": "@KSG-AKS-HR 두분 모두 복 받으실거예요 감사합니다 😊❤",
+              "likes": 2
+            },
+            {
+              "author": "@88charming_ji",
+              "text": "@Yuree-choi 복 받으세요😊❤",
+              "likes": 2
+            },
+            {
+              "author": "@Yuree-choi",
+              "text": "금메달🎉 오늘도 맛있는 영상 감사합니다😊🤗🤭",
+              "likes": 2
+            },
+            {
+              "author": "@Yuree-choi",
+              "text": "​ @KSG-AKS-HR ㅋㅋㅋㅋ말씀 감사합니다. 복받으실거에요👍",
+              "likes": 2
+            },
+            {
+              "author": "@츠키-p8q",
+              "text": "오늘도 잘보고 갑니다 ~😊 \n9:35 집중시간 ㅎㅎㅎ",
+              "likes": 2
+            },
+            {
+              "author": "@88charming_ji",
+              "text": "ㅎㅎㅎ좋아요!😊",
+              "likes": 1
+            },
+            {
+              "author": "@88charming_ji",
+              "text": "집중 하셨죠????😊😊",
+              "likes": 1
+            },
+            {
+              "author": "@KSG-AKS-HR",
+              "text": "난 동메달이지만 너무 기뻐요.볼 생각에",
+              "likes": 1
+            },
+            {
+              "author": "@KSG-AKS-HR",
+              "text": "고기도 북두칠성 별자리로 이쁘게 태우셨네.고기 태운거 빼면 다 잘하는 딸",
+              "likes": 1
+            },
+            {
+              "author": "@KSG-AKS-HR",
+              "text": "축하! 로또 꼭 사세요",
+              "likes": 1
+            },
+            {
+              "author": "@88charming_ji",
+              "text": "육개장 좋죠😊꼭 가보세요 갈비탕도 맛있다고 하더라구요",
+              "likes": 1
+            },
+            {
+              "author": "@minjida88",
+              "text": "북두칠성처럼 봐주시는 마법😊",
+              "likes": 1
+            },
+            {
+              "author": "@88charming_ji",
+              "text": "예쁘게 봐주셔서 정말 감사합니다! 😊",
+              "likes": 0
+            },
+            {
+              "author": "@매콤푸우",
+              "text": "궁금한게 있어요!\n서울,부산 왔다 갔다 하시던데 부산이 고향이시고 서울은 가끔 여행으로 가시는거죠?",
+              "likes": 0
+            },
+            {
+              "author": "@88charming_ji",
+              "text": "네 맞아요 고향은 부산 서울은 종종 여행으로 왔다갔다해요😊",
               "likes": 0
             }
           ],
@@ -42951,16 +43013,16 @@
           "video_id": "lBcWMxC0QJY",
           "title": "Hitman Contracts Walkthrough Part 2 - The Meat King's Party [Silent Assassin Rank]",
           "channel": "The AKS Gaming ",
-          "subscribers": 145,
+          "subscribers": 146,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 19,
+          "views": 20,
           "likes": 0,
           "comment_count": 0,
           "engagement_rate": 0.0,
           "duration": 1331,
           "is_short": false,
-          "buzz_score": 6.3,
+          "buzz_score": 6.1,
           "upload_date": "2026.04.30",
           "url": "https://www.youtube.com/watch?v=lBcWMxC0QJY",
           "description_excerpt": "Enter one of the most disturbing and atmospheric missions in Hitman: Contracts, as Agent 47 infiltrates a nightmarish gathering of power, madness, and secrecy.\n\n🔪 Mission 2: The Meat King’s Party\n\nThe Meat King's Party is the second mission in Hitman: Contracts. Agent 47 must assassinate Scottish cr",
