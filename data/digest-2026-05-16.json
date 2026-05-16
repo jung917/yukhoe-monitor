@@ -53,190 +53,259 @@
     },
     "johnmaat": {
       "display": "삼양 JohnMaat",
-      "video_count": 0,
-      "total_views": 0,
-      "total_likes": 0,
-      "total_comments": 0,
-      "n_short": 0,
-      "n_long": 0,
-      "tier_counts": {},
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
-      "videos": []
-    },
-    "champd": {
-      "display": "참피디",
-      "video_count": 1,
-      "total_views": 76431,
-      "total_likes": 1166,
-      "total_comments": 152,
-      "n_short": 0,
-      "n_long": 1,
-      "tier_counts": {
-        "Mega": 1
-      },
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
-      "videos": []
-    },
-    "hongsound": {
-      "display": "홍사운드",
       "video_count": 2,
-      "total_views": 36631,
-      "total_likes": 670,
-      "total_comments": 34,
+      "total_views": 2741,
+      "total_likes": 41,
+      "total_comments": 3,
       "n_short": 1,
       "n_long": 1,
       "tier_counts": {
-        "Official": 1,
-        "Micro": 1
+        "Official": 2
       },
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
-      "videos": []
-    },
-    "ttoganzip": {
-      "display": "또간집(풍자)",
-      "video_count": 14,
-      "total_views": 13237,
-      "total_likes": 274,
-      "total_comments": 103,
-      "n_short": 1,
-      "n_long": 13,
-      "tier_counts": {
-        "Nano": 11,
-        "Micro": 2,
-        "Macro": 1
-      },
-      "summary": "또간집(풍자)은 다양한 유튜버들에 의해 소개되어 소비자들에게 알려지기 시작했으나, 육회바른연어와 직접 비교되는 메뉴 또는 프로모션은 언급되지 않았다. 그러나 일부 댓글에서 또간집의 맛과 경험을 긍정적으로 평가하고 있어 자사 점유율에 대한 우려가 있다. 즉시 대응 필요성: 육회바른연어의 차별화된 메뉴와 고객 만족도를 강조하는 마케팅 전략 개발.\n  📌 메뉴 다양성 · 긍정적 소비자 반응 · 마케팅 전략",
+      "summary": "삼양 JohnMaat의 신메뉴 N종이 소개되었으나 자사와 직접 비교되는 내용은 없으며, 소비자 반응에서도 육회바른연어 대비 특별한 우위를 드러내지 않았다. 그러나 지속적인 모니터링과 분석을 통해 즉시 대응할 필요가 있다.\n  📌 신메뉴 N종 · 소비자 반응 · 즉시 대응",
       "videos": [
         {
-          "video_id": "F36tb1j4g-A",
-          "title": "후쿠오카 또간집, 하카타인들이 사랑하는 미친 로컬 맛집만 모음. 스바라시!!",
-          "channel": "권혁",
-          "subscribers": 765000,
-          "creator_tier": "Macro",
+          "video_id": "B63KS-zX5tg",
+          "title": "Blind Dating with the SPICIEST Dishes | Spicy Blind Date",
+          "channel": "BURNT",
+          "subscribers": 355000,
+          "creator_tier": "Official",
           "is_verified": false,
-          "views": 6133,
-          "likes": 188,
-          "comment_count": 54,
-          "engagement_rate": 0.0395,
-          "duration": 1420,
+          "views": 1138,
+          "likes": 37,
+          "comment_count": 3,
+          "engagement_rate": 0.0351,
+          "duration": 909,
           "is_short": false,
-          "buzz_score": 63.8,
-          "upload_date": "2026.05.15",
-          "url": "https://www.youtube.com/watch?v=F36tb1j4g-A",
-          "description_excerpt": "일본여자 만나기 아이사츄 -https://litt.ly/aisachu\n\n마이프로틴 링크 https://tidd.ly/36mzZTJ\n링크타고 싸게 구매하세요!\n최대 40%이상 추가할인코드 hyuk (결제창 할인코드란에 입력)\n\n극강의 루틴 타이탄메소드 다운로드\nhttps://www.gymwork.pro/program/detail/114?lang=ko\n________________________________________\n비지니스메일 - meag888@naver.com",
-          "top_comments": [
-            {
-              "author": "@진보초",
-              "text": "\"얼간이들은 서로 얼굴만 봐도 즐겁다\"",
-              "likes": 36
-            },
-            {
-              "author": "@hailer2043",
-              "text": "여자 말고도 나 영상 만들수 있다라는 것을 증명하기 위한 혁짱 존경해",
-              "likes": 24
-            },
-            {
-              "author": "@kiri-nuki11",
-              "text": "뭔가 엄청나게 도파민 터지는 컨텐츠는 아니지만,슴슴한 맛에 보는맛이 있단말이지",
-              "likes": 17
-            },
-            {
-              "author": "@user-zh8jm1yz6k",
-              "text": "오늘 15시 이케부쿠로 JR미나미데구치에서 혁이 봄, 올블랙에 생각보다 키크고 잘생겼었음",
-              "likes": 7
-            },
-            {
-              "author": "@09.21.표시",
-              "text": "분명 며칠 전에는 얼마나 성공하고 싶었는지 감도 안왔는데 이젠 왜 이러는지 감도 안옴",
-              "likes": 6
-            }
-          ]
-        },
-        {
-          "video_id": "hjObo28_P84",
-          "title": "VLOG_에르메스 샌들쇼핑👡👠ㅣ소피텔 페메종 런치코스ㅣ아코르 멤버쉽ㅣ헬렌카미스키ㅣ아웃백ㅣ스타필드ㅣ까사미아 그릇보기ㅣ경제적자유",
-          "channel": "허니허니 브이로그 HONEYHONEY VLOG",
-          "subscribers": 1350,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 246,
-          "likes": 9,
-          "comment_count": 1,
-          "engagement_rate": 0.0407,
-          "duration": 947,
-          "is_short": false,
-          "buzz_score": 43.5,
-          "upload_date": "2026.05.15",
-          "url": "https://www.youtube.com/watch?v=hjObo28_P84",
-          "description_excerpt": "안녕하세요 여러분🥰\n오늘도 허니(아들) 등교 시키고 남편과 쇼핑데이트 하고 왔어요\n(또간집)에르메스 또 신발2개 겟했어요👡👠🛍\n즐거운 시청 되세요\n감사합니다☺️\n\n#에르메스 Gigi50 샌들 쇼핑(켈리샌들)\n#에르메스 Lipari 70샌들 쇼핑(샹달샌들)\n#소피텔 페메종\n#아코르 멤버쉽\n#워커힐 멤버쉽\n#스타필드 하남\n#아웃백\n#헬렌카민스키\n#까사미아 그릇보기",
-          "top_comments": [
-            {
-              "author": "@HONEYHONEYVLOG1",
-              "text": "안녕하세요 여러분🥰\n오늘도 허니(아들) 등교 시키고 남편과 쇼핑데이트 하고 왔어요\n(또간집)에르메스 또 신발2개 겟했어요👡👠🛍\n즐거운 시청 되세요\n감사합니다☺️\n\n#에르메스 Gigi50 샌들 쇼핑(켈리샌들)\n#에르메스 Lipari 70샌들 쇼핑(샹달샌들)\n#소피텔 페메종\n#아코르 멤버쉽\n#워커힐 멤버쉽\n#스타필드 하남\n#아웃백\n#헬렌카민스키\n#까사미아 그릇",
-              "likes": 1
-            }
-          ]
-        },
-        {
-          "video_id": "Hrs1jdUt10Y",
-          "title": "🗽뉴욕 일상 모음집: ✨👀뉴욕 금융권 훈남들이 모이는 곳💪승모근 보톡스 후기❤️ 남편 직장 근처 또또또간집 😝 브루클린 힙한 키즈카페 🍰디저트 못끊겠으면 꿀팁전수 받아가세요 😎",
-          "channel": "Jessie in New York 제시인뉴욕",
-          "subscribers": 7040,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 16,
-          "likes": 3,
-          "comment_count": 0,
-          "engagement_rate": 0.1875,
-          "duration": 383,
-          "is_short": false,
-          "buzz_score": 32.5,
-          "upload_date": "2026.05.15",
-          "url": "https://www.youtube.com/watch?v=Hrs1jdUt10Y",
-          "description_excerpt": "#파이낸스동생들보다_초코칩쿠키\n\n여러분 안녕하세요~제시입니다! \nMidtown에서 보낸 일상들구왔어요~ \nSpace Club은 너무너무 재밌어하니까 아기있으신분들은 꼭 한번 가보세요❤️\n그리구.. Midtown맛집 알면 제발제발 꼭꼭 공유 플리즈!!!!!!!!!!!!😂\n\n#뉴욕일상 #뉴욕브이로그#뉴욕육아 \n\n00:00-01:22 Intro\n01:23-02:45 잘생긴사람, KazuNori\n02:46-04:03 Midtown Cafe Devocion, 디저트\n04:05-06:10 Brooklyn kids cafe , Space Clu",
+          "buzz_score": 59.7,
+          "upload_date": "2026.05.16",
+          "url": "https://www.youtube.com/watch?v=B63KS-zX5tg",
+          "description_excerpt": "We are back and kicking off the first season of Spicy Blind Date, where singles get to know each other's values over some serious heat. They talk about different takes, from ‘having kids is okay regardless of financial situation’ to ‘men should sit down to pee’ and whenever they disagree, they are p",
           "top_comments": []
         },
         {
-          "video_id": "cRMu8oKSYOs",
-          "title": "토론토 일상 브이로그 | 토론토 또간집 | BEST AYCE TORONTO (Sushi Legend)",
-          "channel": "Heber | Heber good trip",
-          "subscribers": 26,
-          "creator_tier": "Nano",
+          "video_id": "mBFldFWQ4qE",
+          "title": "Is expressing anger healthy in a relationship?",
+          "channel": "BURNT",
+          "subscribers": 355000,
+          "creator_tier": "Official",
           "is_verified": false,
-          "views": 22,
-          "likes": 6,
-          "comment_count": 6,
-          "engagement_rate": 0.5455,
-          "duration": 524,
+          "views": 1603,
+          "likes": 4,
+          "comment_count": 0,
+          "engagement_rate": 0.0025,
+          "duration": 59,
+          "is_short": true,
+          "buzz_score": 47.3,
+          "upload_date": "2026.05.16",
+          "url": "https://www.youtube.com/watch?v=mBFldFWQ4qE",
+          "description_excerpt": "nan",
+          "top_comments": []
+        }
+      ]
+    },
+    "champd": {
+      "display": "참피디",
+      "video_count": 2,
+      "total_views": 83513,
+      "total_likes": 1415,
+      "total_comments": 199,
+      "n_short": 0,
+      "n_long": 2,
+      "tier_counts": {
+        "Mega": 2
+      },
+      "summary": "참피디의 공짬뽕 리뷰 영상에서 소비자들은 일부 메뉴 가격(계란후라이 1500원)과 퀄리티에 대해 부정적인 의견을 제시하며, 이는 육회바른연어와 비교해 경쟁력이 떨어질 수 있음을 시사한다. 즉각적인 가격 조정 및 품질 개선이 필요하다.\n  📌 가격 문제 · 품질 불만 · 경쟁력 저하",
+      "videos": [
+        {
+          "video_id": "u4p7ArdhTog",
+          "title": "공혁준 공짬뽕 팩폭리뷰 하고 왔습니다",
+          "channel": "애주가TV참PD",
+          "subscribers": 1520000,
+          "creator_tier": "Mega",
+          "is_verified": true,
+          "views": 7082,
+          "likes": 249,
+          "comment_count": 47,
+          "engagement_rate": 0.0418,
+          "duration": 903,
           "is_short": false,
-          "buzz_score": 27.5,
-          "upload_date": "2026.05.15",
-          "url": "https://www.youtube.com/watch?v=cRMu8oKSYOs",
-          "description_excerpt": "토론토 올유캔잇 스시 추천 맛집, 스시레전드(Sushi Legend)에 다녀왔어요🍣 \nBEST AYCE TORONTO 맛집답게 메뉴가 정말 다양해요! \n저의 원픽 메뉴들은 뭐였을까요?!\n여러분의 토론토 최애 올유캔잇 레스토랑이 있다면 알려주세요😌\n구독과 좋아요는 큰 힘이 됩니다✨\n\n-\n\nFinally sharing a vlog of my favorite go-to spot, Sushi Legend! 🍣\nAs one of the BEST SUSHI AYCE TORONTO gems, the menu variety never disapp",
+          "buzz_score": 67.1,
+          "upload_date": "2026.05.16",
+          "url": "https://www.youtube.com/watch?v=u4p7ArdhTog",
+          "description_excerpt": "공혁준님, 영알남님의 유튜브식당 전 메뉴 먹어보고 왔습니다\n\n참피디가 직접 운영하는 녹진이 특별 안주 할인몰\n핵이득마켓 구경가기 - https://ndns.shop/\n\n핵이득마켓 어플 다운로드\n안드로이드전용\n https://play.google.com/store/apps/details?id=com.cafe24.ec.plusndns2021\n아이폰전용\nhttps://apps.apple.com/kr/app/%ED%95%B5%EC%9D%B4%EB%93%9D%EB%A7%88%EC%BC%93/id1581544007\n\n참피디 Q&A 2025 최",
           "top_comments": [
             {
-              "author": "@annbae9223",
-              "text": "아 저도 먹으러 가고싶네요😝",
-              "likes": 1
+              "author": "@_bowling8556",
+              "text": "계란후라이 1500원은 좀 너무햇네 ..ㅋㅋㅋㅋ",
+              "likes": 38
             },
             {
-              "author": "@jumieom8421",
-              "text": "이모 따라서 하영이두 먹방 보여주려나보네 >_< ㅋㅋㅋㅋㅋㅋ 갈비 넘 먹어보고싶어용용😋😋",
-              "likes": 1
+              "author": "@HansT-1234",
+              "text": "저가 갔을때랑 퀄리티가 매우 달라보이는데;;",
+              "likes": 14
             },
             {
-              "author": "@HeberGoodTrip",
-              "text": "조인해여ㅋㅋㅋ",
+              "author": "@앵그리허",
+              "text": "나중에 제작진과 나눠드실거면 처음부터 덜어서 드시는게...하하",
+              "likes": 10
+            },
+            {
+              "author": "@김거누누",
+              "text": "짬뽕에 서 짬뽕 맛이 나야지 무슨 고깃국?\n전체적으로 맛없다는걸 포장한 느낌이네요\n자고로 짬뽕은 조미료 팍팍 넣어야 맛있음",
+              "likes": 10
+            },
+            {
+              "author": "@originalKimgi1598",
+              "text": "신경끄시는게..하하",
+              "likes": 9
+            }
+          ]
+        }
+      ]
+    },
+    "hongsound": {
+      "display": "홍사운드",
+      "video_count": 3,
+      "total_views": 57773,
+      "total_likes": 1192,
+      "total_comments": 44,
+      "n_short": 2,
+      "n_long": 1,
+      "tier_counts": {
+        "Official": 2,
+        "Micro": 1
+      },
+      "summary": "홍사운드의 기버터 신제품에 대한 긍정적인 소비자 반응과 맥도날드 호텔버거와 비교되는 내용들이 자사 제품 대비 우위를 보이고 있어, 육회바른연어의 매장 트래픽 및 점유율에 위협이 될 수 있음. 즉시 마케팅 전략 재검토 필요.\n  📌 기버터 신제품 · 맥도날드 호텔버거 비교 · 긍정적 소비자 반응",
+      "videos": [
+        {
+          "video_id": "bRnMqo_v7x4",
+          "title": "화제의 맥도날드 호텔버거 먹어봤는데 이거 맥도날드 맞나요?",
+          "channel": "HONG SOUND",
+          "subscribers": 1830000,
+          "creator_tier": "Official",
+          "is_verified": true,
+          "views": 18419,
+          "likes": 467,
+          "comment_count": 10,
+          "engagement_rate": 0.0259,
+          "duration": 47,
+          "is_short": true,
+          "buzz_score": 62.6,
+          "upload_date": "2026.05.16",
+          "url": "https://www.youtube.com/watch?v=bRnMqo_v7x4",
+          "description_excerpt": "집가락 정품 구매하는 곳\n홍사운드몰 https://hongsound.shop/\n네이버 https://smartstore.naver.com/coffeechild/products/7688043656\n집가락이 특별한 이유 https://youtu.be/9KvCvdMSJ54\n\n홍사운드 플러스 채널(네츄럴 홍의 모습들) : https://www.youtube.com/channel/UCe8eXpQCaLaEiXOh2RxU_3A\n인스타그램(instagram) : https://www.instagram.com/hong_sound",
+          "top_comments": [
+            {
+              "author": "@HONGSOUND",
+              "text": "제가 평소 좋아하던 이즈니 버터로도 해봤는데 기버터로 하는게 맛이 더 깔끔하면서 버거의 풍미를 살려주는 방향으로 고소해서 좋았어요!",
+              "likes": 4
+            },
+            {
+              "author": "@유지은-p5k",
+              "text": "아 대박 이 버터 냉장고 안에 있어요 ㅋㅋ 나중에 맥날 먹을때 해봐야겠다",
+              "likes": 4
+            },
+            {
+              "author": "@dls7364",
+              "text": "오 기버터 저거 진짜진짜 몸에 좋아요\n입심심할때 한숟가락씩 먹어주면 포만감도 생기고\n혈당조절도 해주고 다이어트에도 진짜 최곱니다",
               "likes": 0
             },
             {
-              "author": "@HeberGoodTrip",
-              "text": "ㅋㅋ 하영이는 오이랑 콩이랑 우동 한그릇 다 비웠어ㅋㅋㅋ",
+              "author": "@부부-q1t",
+              "text": "착하네이형",
               "likes": 0
             },
             {
-              "author": "@WadeHumanJung",
-              "text": "이쯤되면 새우가 불쌍해보이기도…?🥲",
+              "author": "@원스타5271",
+              "text": "버터보다 마이크가.더궁금하다 ㅋㅋㅋㅋ소리 지리네",
+              "likes": 0
+            }
+          ]
+        }
+      ]
+    },
+    "ttoganzip": {
+      "display": "또간집(풍자)",
+      "video_count": 16,
+      "total_views": 13319,
+      "total_likes": 288,
+      "total_comments": 109,
+      "n_short": 1,
+      "n_long": 15,
+      "tier_counts": {
+        "Nano": 13,
+        "Micro": 2,
+        "Macro": 1
+      },
+      "summary": "또간집이 입맛 까다로운 소비자에게도 호평을 받으며 빈 그릇 4개를 만들어내는 등 긍정적인 반응을 얻고 있어, 육회바른연어와의 경쟁에서 우위를 점하고 있음. 특히 베트남 현지에서도 인기를 누리며 글로벌 확장 가능성을 보여주고 있어 즉시 대응이 필요하다.\n  📌 입맛 까다로운 소비자 · 글로벌 확장 · 빈 그릇 4개",
+      "videos": [
+        {
+          "video_id": "MqvPTcp20Rk",
+          "title": "NYC Vlog | 나 이제 대학생 못해요...?쥬륵...마지막 대학생 브이로그🥺 • 뉴욕 미대 졸업전시회 • 인테리어디자인과 • 영원히 밤샌 기말 • 뉴욕 또또또간집들 🍽️",
+          "channel": "메림 Merim",
+          "subscribers": 296,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 63,
+          "likes": 10,
+          "comment_count": 3,
+          "engagement_rate": 0.2063,
+          "duration": 856,
+          "is_short": false,
+          "buzz_score": 35.4,
+          "upload_date": "2026.05.16",
+          "url": "https://www.youtube.com/watch?v=MqvPTcp20Rk",
+          "description_excerpt": "#vlog #대학생브이로그 #브이로그 #newyork #univlog #일주일브이로그 #미국일상 #일상브이로그 #대학생 #졸업전시 \n\n\n\n\n\nmerimchoi23@gmail.com\ninstagram: @yrmchoi",
+          "top_comments": [
+            {
+              "author": "@zxmntjs",
+              "text": "오늘도 잘 볼게요!!",
+              "likes": 0
+            },
+            {
+              "author": "@yjyjyjyj928",
+              "text": "드디어졸업이라닝 🫪🫪🫪",
+              "likes": 0
+            },
+            {
+              "author": "@h.c-z7n",
+              "text": "예쁘당",
+              "likes": 0
+            }
+          ]
+        },
+        {
+          "video_id": "Z7H7vl2OVCg",
+          "title": "베트남 음식 힘들어하는 와니옹이 두번이나 간 나트랑 또간집 🇻🇳나트랑여행",
+          "channel": "여행하는 어른이들",
+          "subscribers": 578,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 19,
+          "likes": 4,
+          "comment_count": 3,
+          "engagement_rate": 0.3684,
+          "duration": 1152,
+          "is_short": false,
+          "buzz_score": 31.6,
+          "upload_date": "2026.05.16",
+          "url": "https://www.youtube.com/watch?v=Z7H7vl2OVCg",
+          "description_excerpt": "진짜 진짜 와니옹은 베트남 음식을\n별로 좋아하지 않습니다. (진짜임)\n근데 정신을 차려보니 왜때문에?\n빈 그릇이 4개나 있는 걸까요?\n\n마지막 한 숟가락까지 싹싹 긁어먹게 만든\n마법의 또간집!\n\n입맛 까다로운 와니옹도 인정할 수밖에 없었던\n나트랑 현지 맛집의 정체, 지금 공개합니다.\n\n🔔 업로드: 매주 토요일 17:00 (잊지 마세요!)\n여러분이 베트남에서 가장 맛있게 먹었던 음식은 무엇인가요? 댓글로 공유해 주세요!\n\n#나트랑여행 #베트남맛집 #또간집 #와니옹\n#베트남여행 #먹방 #베트남현지맛집",
+          "top_comments": [
+            {
+              "author": "@뽕아-k9h",
+              "text": "음식이 맛있어 보이네요..다음에 한번 먹어봐야 겠네요..",
+              "likes": 1
+            },
+            {
+              "author": "@hamatv1",
+              "text": "🍛 오늘 영상 포인트:\n• 싫어한다더니 빈 접시 4개나 만든\n반전 먹방\n• 마지막 볶음밥 한 톨까지 싹싹\n긁어먹는 낯선(?) 모습\n• 베트남 음식 초보자도 100%\n성공하는 맛집 추천",
+              "likes": 0
+            },
+            {
+              "author": "@hamatv1",
+              "text": "완전 완전 강추합니다~😊",
               "likes": 0
             }
           ]
