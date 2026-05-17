@@ -53,17 +53,37 @@
     },
     "johnmaat": {
       "display": "삼양 JohnMaat",
-      "video_count": 2,
-      "total_views": 3378,
-      "total_likes": 51,
+      "video_count": 3,
+      "total_views": 5642,
+      "total_likes": 73,
       "total_comments": 3,
-      "n_short": 1,
+      "n_short": 2,
       "n_long": 1,
       "tier_counts": {
-        "Official": 2
+        "Official": 3
       },
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
-      "videos": []
+      "summary": "삼양 JohnMaat의 최근 영상은 자사 제품과 직접 비교되는 신메뉴나 프로모션을 제공하지 않았으며, 소비자 반응에서도 육회바른연어와의 명확한 대조가 드러나지 않았다. 그러나 삼양 JohnMaat의 브랜드 인지도 확산이 자사 점유율에 미치는 장기적 영향을 주시해야 한다.\n  📌 브랜드 인지도 · 장기적 영향 · 점유율",
+      "videos": [
+        {
+          "video_id": "ZnMRdGAZWYk",
+          "title": "It is okay to lie on the bed wearing the clothes worn outside",
+          "channel": "BURNT",
+          "subscribers": 355000,
+          "creator_tier": "Official",
+          "is_verified": false,
+          "views": 1868,
+          "likes": 10,
+          "comment_count": 0,
+          "engagement_rate": 0.0054,
+          "duration": 51,
+          "is_short": true,
+          "buzz_score": 48.8,
+          "upload_date": "2026.05.17",
+          "url": "https://www.youtube.com/watch?v=ZnMRdGAZWYk",
+          "description_excerpt": "nan",
+          "top_comments": []
+        }
+      ]
     },
     "champd": {
       "display": "참피디",
@@ -82,9 +102,9 @@
     "hongsound": {
       "display": "홍사운드",
       "video_count": 1,
-      "total_views": 43920,
-      "total_likes": 799,
-      "total_comments": 18,
+      "total_views": 59835,
+      "total_likes": 1109,
+      "total_comments": 21,
       "n_short": 1,
       "n_long": 0,
       "tier_counts": {
@@ -95,33 +115,154 @@
     },
     "ttoganzip": {
       "display": "또간집(풍자)",
-      "video_count": 11,
-      "total_views": 22751,
-      "total_likes": 408,
-      "total_comments": 163,
+      "video_count": 14,
+      "total_views": 22828,
+      "total_likes": 416,
+      "total_comments": 166,
       "n_short": 1,
-      "n_long": 10,
+      "n_long": 13,
       "tier_counts": {
-        "Nano": 9,
+        "Nano": 12,
         "Micro": 1,
         "Macro": 1
       },
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
-      "videos": []
+      "summary": "또간집(풍자)은 부산 지역에서 양곱창을 주요 메뉴로 하는 맛집으로 소개되어 있으며, 일부 여행객들이 방문한 것으로 나타났으나, 자사와 직접적인 경쟁 상품이 명시되지 않았다. 소비자 반응은 긍정적이지만, 이 영상들이 육회바른연어의 주 타겟 고객에게 큰 영향을 미치지는 않는 것으로 보인다.\n  📌 부산 양곱창 · 여행객 방문 · 긍정적 소비자 반응",
+      "videos": [
+        {
+          "video_id": "V-Pa06gaHKU",
+          "title": "부산 토박이 10번 또간집, 관광객은 모르는 곳",
+          "channel": "장사맛집 오팀장 : 스레드 마케팅",
+          "subscribers": 3340,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 53,
+          "likes": 7,
+          "comment_count": 3,
+          "engagement_rate": 0.1887,
+          "duration": 502,
+          "is_short": false,
+          "buzz_score": 36.6,
+          "upload_date": "2026.05.17",
+          "url": "https://www.youtube.com/watch?v=V-Pa06gaHKU",
+          "description_excerpt": "부산 하면 생각나는게 돼지국밥, 밀면, 꼼장어.. 생각나실텐데 \n부산에서는 양곱창을 드셔야 합니다. \n\n서울 야채곱창이랑은 조금 달라요.\n부산에는 양곱창 골목이 여러개 있는데 \n관광객들에게는 서면 문화양곱창, 자갈치 백화양곱창 유명한데요\n\n부산사람들은 연산동 로타리센타, 온천장 송원양곱창 자주갑니다.\n그 중 온천장으로 왔습니다. \n연산동 우삼겹 시켜야 주는데 \n여기는 에피타이저로 공짜로먹을수있다.\n\n온천장 농심호텔이 야구선구 지정 숙소 !\n야구시즌에 오면 야구선수도 가끔 만날수있다. \n코치님, 감독님들은 온천장에서 자주 보실수있어요",
+          "top_comments": [
+            {
+              "author": "@김프로-b6u",
+              "text": "부산 여행가면 꼭 가보고 싶어요~",
+              "likes": 1
+            },
+            {
+              "author": "@니가먼데-g6r",
+              "text": "이야 양곱창 진짜 오랜만이네\n직인다 내 고향 부산!!",
+              "likes": 1
+            },
+            {
+              "author": "@장사맛집오팀장",
+              "text": "부산촌놈 인생 찐맛집 소개합니다.\n\n부산 하면 생각나는게 돼지국밥, 밀면, 꼼장어.. 생각나실텐데 \r\n부산에서는 양곱창을 드셔야 합니다. \r\n\r\n서울 야채곱창이랑은 조금 달라요.\r\n부산에는 양곱창 골목이 여러개 있는데 \r\n관광객들에게는 서면 문화양곱창, 자갈치 백화양곱창 유명한데요\r\n\r\n부산사람들은 연산동 로타리센타, 온천장 송원양곱창 자주갑니다.\r\n그 중",
+              "likes": 1
+            }
+          ]
+        },
+        {
+          "video_id": "atk54_C6dMY",
+          "title": "🇨🇳 상하이&항저우 브이로그 | 8일간의 중국 여행 모음zip.",
+          "channel": "가나다라빈",
+          "subscribers": 82,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 20,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 1224,
+          "is_short": false,
+          "buzz_score": 8.8,
+          "upload_date": "2026.05.17",
+          "url": "https://www.youtube.com/watch?v=atk54_C6dMY",
+          "description_excerpt": "상하이&항저우 여행을 다시 다녀왔어요! \n또간집 등장 + 한국인이 많이 안 먹는 음식,네일,코스 등 등장하니 많관부입니다…🥢🙂‍↕️\n너무 게을러서 반년 동안 묵혀둔 영상 이제야 푸네요…\n다음 여행도 중국이 될 거 같은데 (중국인 아님)\n이번 영상도 재밌게 봐주세요! \n\n#상하이 #상하이브이로그 #항저우 #항저우브이로그 #중국브이로그 #중국여행 #상해여행",
+          "top_comments": []
+        },
+        {
+          "video_id": "bQKKVvXQacs",
+          "title": "2박 3일 도쿄 여행 | tokyo vlog 갓파거리 돈카츠 카츠동 맛집 날씨 넘 좋았던 1n번째 일본 여행 feat 티웨이비즈니스세이버 업그레의드",
+          "channel": "유우니youni",
+          "subscribers": 189,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 4,
+          "likes": 1,
+          "comment_count": 0,
+          "engagement_rate": 0.25,
+          "duration": 2905,
+          "is_short": false,
+          "buzz_score": 8.3,
+          "upload_date": "2026.05.17",
+          "url": "https://www.youtube.com/watch?v=bQKKVvXQacs",
+          "description_excerpt": "2박 3일 도쿄 여행 | 일본 1n번째 도쿄 또간집 맛집 티웨이 비즈니스 세이버 타고 도쿄로\n\n\n#도쿄여행 #도쿄브이로그 #티웨이비즈니스\n\n00:00 Day1 \n11:02 Day2\n36:30 Day3 \n\nbgm song : Oneul 오늘의일기",
+          "top_comments": []
+        }
+      ]
     },
     "meatking": {
       "display": "정육왕",
-      "video_count": 1,
-      "total_views": 25,
-      "total_likes": 0,
-      "total_comments": 1,
+      "video_count": 2,
+      "total_views": 31634,
+      "total_likes": 502,
+      "total_comments": 133,
       "n_short": 0,
-      "n_long": 1,
+      "n_long": 2,
       "tier_counts": {
-        "Nano": 1
+        "Nano": 1,
+        "Macro": 1
       },
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
-      "videos": []
+      "summary": "정육왕은 산청초월흑돈 패키지를 통해 고급 돼지고기 제품을 제공하며, 이는 육회바른연어의 주요 고객층과 겹치는 경향이 있다. 소비자들의 댓글에서 육회바른연어와 유사성을 지적하는 의견들이 있어 즉시 대응이 필요하다.\n  📌 산청초월흑돈 패키지 · 고급 돼지고기 제품 · 유사성 지적",
+      "videos": [
+        {
+          "video_id": "ADQeInEvfD4",
+          "title": "줄서는 탑급 식당들이 사용하는 초월급 원육의 흑돼지",
+          "channel": "MeatCreator (Only Korean BBQ )",
+          "subscribers": 790000,
+          "creator_tier": "Macro",
+          "is_verified": true,
+          "views": 31609,
+          "likes": 502,
+          "comment_count": 132,
+          "engagement_rate": 0.0201,
+          "duration": 972,
+          "is_short": false,
+          "buzz_score": 61.3,
+          "upload_date": "2026.05.17",
+          "url": "https://www.youtube.com/watch?v=ADQeInEvfD4",
+          "description_excerpt": "줄서는 유명맛집들이 사용하는 국내 최고수준의 돼지고기를 취급하는\n업체에 노하우를 알아봤습니다.  \n\n✔️산청초월흑돈 패키지 (500세트 한정)\n- 초월흑돈 삼겹살 300g 3팩 총 900g\n- 초월흑돈 아라비키 윈너 3종 250g 총 750g (오리지날, 치즈, 칠리) \n- 총 1.65KG 구성\n\n✔️정가 92,600원 (30% 할인) - 64,820원 (배송비 무료)\n\n(현재 돼지값이 폭등 했음에도 최저 마진으로 잡았습니다)\n\n✔️500세트 한정 (품절 시 판매 마감)\n\n✔️월드미트메이커스 스마트스토어\nhttps://smartst",
+          "top_comments": [
+            {
+              "author": "@김맛돌-s2t",
+              "text": "두분이 뭔가 비슷해보이는데 기분탓인가",
+              "likes": 86
+            },
+            {
+              "author": "@ZzeSXMtkQ",
+              "text": "닮았다... 목소리까지도",
+              "likes": 28
+            },
+            {
+              "author": "@meatcreator",
+              "text": "✔️산청초월흑돈 패키지 (500세트 한정)\n• 초월흑돈 삼겹살 300g 3팩 총 900g\n• 초월흑돈 아라비키 윈너 3종 250g 총 750g (오리지날, 치즈, 칠리)\n• 총 1.65KG 구성\n\n✔️정가 92,600원 (30% 할인) - 64,820원 (배송비 무료)\n\n(현재 돼지값이 폭등 했음에도 최저 마진으로 잡았습니다)\n\n(현재 품절로 판매 마감하였",
+              "likes": 19
+            },
+            {
+              "author": "@동의합니다대단합니다",
+              "text": "머리카락이 리버스로 자란 정육왕",
+              "likes": 19
+            },
+            {
+              "author": "@토시안창제비",
+              "text": "이정도면 형제 아닌가요?",
+              "likes": 13
+            }
+          ]
+        }
+      ]
     }
   }
 }
