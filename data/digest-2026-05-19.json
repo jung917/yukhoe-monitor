@@ -1,0 +1,232 @@
+{
+  "date": "2026-05-19",
+  "days": 2,
+  "first_run": false,
+  "brands": {
+    "yukbayeon": {
+      "display": "육회바른연어",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "baksoo": {
+      "display": "박수식당",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "daepo79": {
+      "display": "79대포",
+      "video_count": 2,
+      "total_views": 254,
+      "total_likes": 2,
+      "total_comments": 0,
+      "n_short": 1,
+      "n_long": 1,
+      "tier_counts": {
+        "Nano": 2
+      },
+      "summary": "79대포의 막걸리와 파전에 대한 긍정적인 소비자 반응이 나타나며, 특히 '꿀막걸리'라는 메뉴가 인상적임. 그러나 자사 육회바른연어와 직접 비교되는 부분은 명시되지 않았으며, 가격 대비 푸짐한 한 상 제공으로 경쟁력 있는 이미지를 형성하고 있음.\n  📌 꿀막걸리 · 가성비 · 푸짐한 한 상",
+      "videos": [
+        {
+          "video_id": "iwJiPq5hFSI",
+          "title": "2026 가성비 술집 하면 바로 79대포 인데요! 파전맛집이자 막걸리맛집인 79대포에 직접 다녀왔습니다! | 회식추천 | 모임장소추천",
+          "channel": "안나나 브이로그",
+          "subscribers": 4780,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 252,
+          "likes": 2,
+          "comment_count": 0,
+          "engagement_rate": 0.0079,
+          "duration": 196,
+          "is_short": false,
+          "buzz_score": 11.4,
+          "upload_date": "2026.05.18",
+          "url": "https://www.youtube.com/watch?v=iwJiPq5hFSI",
+          "description_excerpt": "79대포에서 먹은 꿀막걸리 아직도 생각이 나는데요\n역시 막걸리맛집 답게 퀄리티가 아주 좋았어요\n\n4만원으로 푸짐한 한 상 즐기고 왔는데\n같이 보시러 가실까요~?",
+          "top_comments": []
+        }
+      ]
+    },
+    "dalmaji_bbq": {
+      "display": "달맞이광장바베큐",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "johnmaat": {
+      "display": "삼양 JohnMaat",
+      "video_count": 3,
+      "total_views": 5618,
+      "total_likes": 31,
+      "total_comments": 0,
+      "n_short": 3,
+      "n_long": 0,
+      "tier_counts": {
+        "Official": 3
+      },
+      "summary": "삼양 JohnMaat의 최근 영상은 특정 메뉴나 프로모션을 강조하지 않았으며, 소비자 반응에서도 육회바른연어와 직접 비교되는 내용이 없었다. 그러나 자사와 유사한 카테고리 내에서 경쟁하고 있음을 확인할 수 있다.\n  📌 소비자 반응 · 경쟁 카테고리 · 프로모션",
+      "videos": [
+        {
+          "video_id": "uSHOhtqJJv4",
+          "title": "Men should have to sit down to pee",
+          "channel": "BURNT",
+          "subscribers": 354000,
+          "creator_tier": "Official",
+          "is_verified": false,
+          "views": 1900,
+          "likes": 3,
+          "comment_count": 0,
+          "engagement_rate": 0.0016,
+          "duration": 21,
+          "is_short": true,
+          "buzz_score": 45.5,
+          "upload_date": "2026.05.18",
+          "url": "https://www.youtube.com/watch?v=uSHOhtqJJv4",
+          "description_excerpt": "nan",
+          "top_comments": []
+        }
+      ]
+    },
+    "champd": {
+      "display": "참피디",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "hongsound": {
+      "display": "홍사운드",
+      "video_count": 1,
+      "total_views": 25126,
+      "total_likes": 418,
+      "total_comments": 15,
+      "n_short": 1,
+      "n_long": 0,
+      "tier_counts": {
+        "Official": 1
+      },
+      "summary": "홍사운드의 치아바타가 소비자들 사이에서 긍정적인 반응을 얻고 있으며, 특히 집에서 간편하게 즐길 수 있다는 점이 강점으로 작용하고 있다. 그러나 가격에 대한 우려도 일부 나타나고 있어 자사와의 경쟁력 분석이 필요하다.\n  📌 치아바타 · 가정 배달 · 가격",
+      "videos": [
+        {
+          "video_id": "AsoFMBuUC8w",
+          "title": "이제 카페 대신 집에서 에프 돌려 먹을래요 | 치아바타 미쳤다",
+          "channel": "HONG SOUND",
+          "subscribers": 1830000,
+          "creator_tier": "Official",
+          "is_verified": true,
+          "views": 25126,
+          "likes": 418,
+          "comment_count": 15,
+          "engagement_rate": 0.0172,
+          "duration": 33,
+          "is_short": true,
+          "buzz_score": 58.1,
+          "upload_date": "2026.05.18",
+          "url": "https://www.youtube.com/watch?v=AsoFMBuUC8w",
+          "description_excerpt": "집가락 정품 구매하는 곳\n홍사운드몰 https://hongsound.shop/\n네이버 https://smartstore.naver.com/coffeechild/products/7688043656\n집가락이 특별한 이유 https://youtu.be/9KvCvdMSJ54\n\n홍사운드 플러스 채널(네츄럴 홍의 모습들) : https://www.youtube.com/channel/UCe8eXpQCaLaEiXOh2RxU_3A\n인스타그램(instagram) : https://www.instagram.com/hong_sound",
+          "top_comments": [
+            {
+              "author": "@ddoobooo",
+              "text": "아니이 이미 쟁여놓고 먹고잇는걸.. 이러면 비싸지자나 ㅠㅠㅠㅠ😂",
+              "likes": 3
+            },
+            {
+              "author": "@suk1266",
+              "text": "뿌링클 먹방 해주세요!",
+              "likes": 2
+            },
+            {
+              "author": "@밝고빛나는나",
+              "text": "맛있겠다아아ㅏㅇ아ㅏ아",
+              "likes": 1
+            },
+            {
+              "author": "@jmwlals",
+              "text": "저거 트레이더스에 계속 팔아서 매번 사서 쟁여놓는데 …… 갑자기 뜨는 건가…??",
+              "likes": 1
+            },
+            {
+              "author": "@야구왕-h5i",
+              "text": "저거 토마토도 있는데 그것도 맛있어요!!",
+              "likes": 0
+            }
+          ]
+        }
+      ]
+    },
+    "ttoganzip": {
+      "display": "또간집(풍자)",
+      "video_count": 9,
+      "total_views": 1738,
+      "total_likes": 60,
+      "total_comments": 14,
+      "n_short": 0,
+      "n_long": 9,
+      "tier_counts": {
+        "Nano": 9
+      },
+      "summary": "영상에서 '또간집'의 신메뉴가 소개되었으나, 구체적인 메뉴 내용은 확인되지 않았다. 소비자 반응으로 볼 때, '또간집'이 새로운 맛집으로 인식되고 있어 자사 점유율에 영향을 미칠 수 있다. 즉시 경쟁력 있는 프로모션 및 신메뉴 출시를 고려해야 한다.\n  📌 신메뉴 · 맛집 이미지 강화 · 즉각적인 대응 필요",
+      "videos": [
+        {
+          "video_id": "AXeRGX1owjM",
+          "title": "[vlog] 내 앞에서 주식얘기금지. 6년차 직장인 매일 외식하며 돈쓰는 일상😇 뇨끼 진짜 찐맛집발견, 차지🥤,양재천 나들이",
+          "channel": "차차",
+          "subscribers": 45,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 64,
+          "likes": 2,
+          "comment_count": 0,
+          "engagement_rate": 0.0312,
+          "duration": 1263,
+          "is_short": false,
+          "buzz_score": 9.7,
+          "upload_date": "2026.05.18",
+          "url": "https://www.youtube.com/watch?v=AXeRGX1owjM",
+          "description_excerpt": "오늘의 타임라인✨\n00:00 | 요즘 월요일 아침루틴, 포모를 넘어선 현실부정, 맛도리떡추천\n04:38 | 자취생 대패볶음, 중식뿌셔, 편의점재벌등장\n06:34 | 나만의 또간집, 엉덩이 운동, 팩&발마사지 관리\n08:22 | 반차쓰고 양재천 나들이, 카페대신 여기, 연금저축펀드, 컵받침\n14:54 | 차지 드디어 먹었어요! 그리고 찐찐찐 뇨끼맛집 발견\n19:23 | 부대찌개먹방\n\n여러분… 삼전하닉 갖고계신가요…? \n부럽습니다… 엉엉슨\n저는 성실한 노예 당첨이라서 열심히 출근을 해야할듯해요.\n\n차지는 맛있는데 막 미친존맛은 아니었고",
+          "top_comments": []
+        }
+      ]
+    },
+    "meatking": {
+      "display": "정육왕",
+      "video_count": 2,
+      "total_views": 91540,
+      "total_likes": 966,
+      "total_comments": 213,
+      "n_short": 0,
+      "n_long": 2,
+      "tier_counts": {
+        "Macro": 1,
+        "Nano": 1
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    }
+  }
+}
