@@ -29,15 +29,37 @@
     },
     "daepo79": {
       "display": "79대포",
-      "video_count": 0,
+      "video_count": 1,
       "total_views": 0,
       "total_likes": 0,
       "total_comments": 0,
-      "n_short": 0,
+      "n_short": 1,
       "n_long": 0,
-      "tier_counts": {},
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
-      "videos": []
+      "tier_counts": {
+        "Nano": 1
+      },
+      "summary": "79대포의 신메뉴 및 슬러시 기계 관련 콘텐츠가 주로 소비자들의 관심을 끌고 있으며, 특히 시원한 음료를 선호하는 여름철 고객들에게 인기가 있어 육회바른연어와의 경쟁에서 매장 트래픽 및 점유율에 영향을 미칠 가능성이 있다. 즉시 대응이 필요한 상황이다.\n  📌 신메뉴 · 슬러시 기계 · 여름철 고객",
+      "videos": [
+        {
+          "video_id": "-baPnZrQekI",
+          "title": "\"부을 수 있다면 얼려라!\" 슬러시메이커by슬러시연구소",
+          "channel": "펫신져",
+          "subscribers": 9,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 0,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 20,
+          "is_short": true,
+          "buzz_score": 0.0,
+          "upload_date": "2026.05.18",
+          "url": "https://www.youtube.com/watch?v=-baPnZrQekI",
+          "description_excerpt": "“마시지 말고, 즐겨라. 슬러시로.”\n\n“더위엔 선택 없다. 전부 슬러시.”\n\n여름의 순간을 더 시원하게 만드는 방법\n\n#슬러시연구소 #슬러시기계 #슬러시메이커 #slushymaker #슬러시머신 #슬러시소주 #슬러시막걸리",
+          "top_comments": []
+        }
+      ]
     },
     "dalmaji_bbq": {
       "display": "달맞이광장바베큐",
@@ -53,17 +75,37 @@
     },
     "johnmaat": {
       "display": "삼양 JohnMaat",
-      "video_count": 3,
-      "total_views": 5934,
-      "total_likes": 83,
-      "total_comments": 4,
-      "n_short": 2,
+      "video_count": 4,
+      "total_views": 7874,
+      "total_likes": 115,
+      "total_comments": 7,
+      "n_short": 3,
       "n_long": 1,
       "tier_counts": {
-        "Official": 3
+        "Official": 4
       },
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
-      "videos": []
+      "summary": "삼양 JohnMaat의 신메뉴 N종에 대한 소비자 반응이 긍정적이지만, 자사와 직접 비교되는 부분은 명확하지 않음. 현재로서는 육회바른연어 점유율과 매장 트래픽에 큰 위협으로 보이지는 않으나, 지속적인 모니터링 필요.\n  📌 신메뉴 N종 · 긍정적 반응 · 지속 모니터링",
+      "videos": [
+        {
+          "video_id": "HW03VJBo6UA",
+          "title": "I want to have kids",
+          "channel": "BURNT",
+          "subscribers": 354000,
+          "creator_tier": "Official",
+          "is_verified": false,
+          "views": 1429,
+          "likes": 11,
+          "comment_count": 0,
+          "engagement_rate": 0.0077,
+          "duration": 59,
+          "is_short": true,
+          "buzz_score": 49.2,
+          "upload_date": "2026.05.18",
+          "url": "https://www.youtube.com/watch?v=HW03VJBo6UA",
+          "description_excerpt": "nan",
+          "top_comments": []
+        }
+      ]
     },
     "champd": {
       "display": "참피디",
@@ -82,8 +124,8 @@
     "hongsound": {
       "display": "홍사운드",
       "video_count": 1,
-      "total_views": 82007,
-      "total_likes": 1385,
+      "total_views": 91967,
+      "total_likes": 1665,
       "total_comments": 22,
       "n_short": 1,
       "n_long": 0,
@@ -95,59 +137,72 @@
     },
     "ttoganzip": {
       "display": "또간집(풍자)",
-      "video_count": 7,
-      "total_views": 1093,
-      "total_likes": 53,
+      "video_count": 10,
+      "total_views": 1153,
+      "total_likes": 62,
       "total_comments": 19,
       "n_short": 0,
-      "n_long": 7,
+      "n_long": 10,
       "tier_counts": {
-        "Nano": 7
+        "Nano": 10
       },
-      "summary": "또간집의 신메뉴와 프로모션에 대한 긍정적인 소비자 반응이 나타나고 있으나, 육회바른연어와 직접 비교되는 부분은 아직 확인되지 않았다. 그러나 또간집의 인지도 상승과 함께 자사 점유율 및 매장 트래픽에 영향을 미칠 가능성이 있어 주의가 필요하다.\n  📌 신메뉴 · 프로모션 · 인지도",
+      "summary": "또간집(풍자)의 두루치기 메뉴가 Vlog에서 긍정적으로 언급되었으나, 이는 자사와 직접적인 경쟁 상황을 반영하지 않음. 소비자들의 반응은 주로 맛집 탐색과 관련된 일반적 의견으로 나타났으며, 현재로서는 즉각적인 방어 액션은 필요 없음.\n  📌 두루치기 · 긍정적 언급 · 경쟁 상황",
       "videos": [
         {
-          "video_id": "T2ThDkei1Xs",
-          "title": "군산 여행 브이로그 🍧 아기랑 가기 좋은 숙소 추천• 또간집 부터 숨은 맛집까지 소개🧚‍♀️ 대만족한 1박 2일 대가족 여행🌼",
-          "channel": "니은 neeeun",
-          "subscribers": 4640,
+          "video_id": "0AGV7ni9OAo",
+          "title": "Vlog. 결혼식은 핑계고. 오징어두부 두루치기와 포차코강아지.",
+          "channel": "Shy Hyebong",
+          "subscribers": 96,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 347,
-          "likes": 11,
-          "comment_count": 1,
-          "engagement_rate": 0.0346,
-          "duration": 1097,
+          "views": 40,
+          "likes": 3,
+          "comment_count": 0,
+          "engagement_rate": 0.075,
+          "duration": 420,
           "is_short": false,
-          "buzz_score": 46.7,
-          "upload_date": "2026.05.17",
-          "url": "https://www.youtube.com/watch?v=T2ThDkei1Xs",
-          "description_excerpt": "안녕하세요!\n오늘은 또 여행 브이로그 되시겠슴다..! 두번째 다녀온 군산 여행인데 재밌게 봐주세요!\n\n00:00 intro\n00:35 출발\n01:23 이도상봉\n01:47 숙소 소개\n03:19 서산 유기방가옥\n04:49 군산카페\n06:00 호떡맛집\n06:15 떡갈비 맛집\n07:53 캠프파이어\n08:55 이도 노는거 구경..\n10:47 호떡 먹방\n11:13 쿨쿨\n11:35 day2\n12:00 수영\n14:10 젤라또집\n15:35 골목구경\n16:10 고양이와의 만남 (귀여움)\n16:45 신흥가옥\n17:02 점심 맛집\n17:14 편집샵 구경",
-          "top_comments": [
-            {
-              "author": "@LEE-py6rh",
-              "text": "이도공연 왜케 귀엽고 하찮고 완내스❤ 군산코스 똑같이 여행 가볼래요ㅎㅎㅎ 이번주도 영상 넘 재밌습니다.",
-              "likes": 0
-            }
-          ]
+          "buzz_score": 33.1,
+          "upload_date": "2026.05.18",
+          "url": "https://www.youtube.com/watch?v=0AGV7ni9OAo",
+          "description_excerpt": "결혼식이 대전이라는 소식에 설레이는건 나만 그래?\n대전 가면 꼭 다시 가고 싶은곳 2군데!!\n칼국수집과 포차코강아지를 볼수 있는 카페♡\n**** 고화질 시청 추천드려요 ****\n\n00:00 인트로\n00:22 성심당\n01:49 미락칼국수(또간집👍 두루치기 사리 추가 필수)\n02:25 크리켓사운드 (포차코강아지 베리♡)\n03:41 콜드버터베이크샵 (카페에서 도보 5분거리)\n\nhttps://youtu.be/KBPgEjPuCFU?si=X9AIGF9H-44M5gp1\n\n🎵https://youtube.com/@bgmpresident?si=K0b",
+          "top_comments": []
         },
         {
-          "video_id": "25ez6b-nMU8",
-          "title": "🇨🇳 상하이&항저우 브이로그 | 8일간의 중국 여행 모음zip.",
-          "channel": "가나다라빈",
-          "subscribers": 82,
+          "video_id": "IPoJwchjQhs",
+          "title": "[Vlog] 심심할때 툭하면 전주 놀러가는 사람의 전주에서의 하루 브이로그✌️|전주한옥마을, 전동성당, 해태바베큐, 또순이네집 |",
+          "channel": "민서 minsitt",
+          "subscribers": 213,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 45,
-          "likes": 2,
+          "views": 6,
+          "likes": 3,
           "comment_count": 0,
-          "engagement_rate": 0.0444,
-          "duration": 1264,
+          "engagement_rate": 0.5,
+          "duration": 745,
           "is_short": false,
-          "buzz_score": 9.5,
-          "upload_date": "2026.05.17",
-          "url": "https://www.youtube.com/watch?v=25ez6b-nMU8",
-          "description_excerpt": "19:43 *에메 👉🏻예매 (오타났어요..)😓\n\n상하이&항저우 여행을 다시 다녀왔어요! \n또간집 등장 + 한국인이 많이 안 먹는 음식,네일,코스 등 등장하니 많관부입니다…🥢🙂‍↕️\n너무 게을러서 반년 동안 묵혀둔 영상 이제야 푸네요…\n다음 여행도 중국이 될 거 같은데 (중국인 아님)\n이번 영상도 재밌게 봐주세요! \n\n#상하이 #상하이브이로그 #항저우 #항저우브이로그 #중국브이로그 #중국여행 #상해여행 #도우인",
+          "buzz_score": 28.2,
+          "upload_date": "2026.05.18",
+          "url": "https://www.youtube.com/watch?v=IPoJwchjQhs",
+          "description_excerpt": "여러분 오늘은 전주여행 브이로그로 들고왔어요🥰\n제가 졸업하자마자 취업을 해서 직장인이 되었답니다. 그래서 이제 어디 한번 놀러가려면 연차를 써야지 오래 놀 수 있어요..ㅠㅠ\n\n이번에는 쉬는날 하루 1박2일로 가까운 전주라도 놀러왔어요. 전주 정말 많이 놀러다녔지만 이번에 새로운 맛집들도 많이 찾았으니 힐링 하고 싶은 분들은 얼른 영상 보고오세요~☁️\n\n#전주 #전주여행 #전주한옥마을 #전동성당 #맛집공유 #맛집추천 #일상브이로그 #또간집 #브이로그",
+          "top_comments": []
+        },
+        {
+          "video_id": "0pEywfjXGFA",
+          "title": "⚽️✨260510 울산HD 직관 vlog 🐯 | 홈에서의 쓰디쓴 대패를 맛본 후 드디어 홈 승리 | 울산vs부천 결과는?! | 울산 풍자 또간집 | 울산 최애 카페 추천",
+          "channel": "순니 탐구생활",
+          "subscribers": 27,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 14,
+          "likes": 3,
+          "comment_count": 0,
+          "engagement_rate": 0.2143,
+          "duration": 470,
+          "is_short": false,
+          "buzz_score": 28.0,
+          "upload_date": "2026.05.18",
+          "url": "https://www.youtube.com/watch?v=0pEywfjXGFA",
+          "description_excerpt": "드디어 개막하고 직관 영상을 올리게 됐네요 💙💛\n승삼 선물로 줘서 고마운 울산 🥹\n\n멀리서 오신 부천 선수분들 팬분들 고생 많으셨습니다!\n\n사실 김천, 광주, 대전, 부천, 제주전 홈경기는 다 다녀왔는데\n차근차근 올려볼게요 .ᐟ.ᐟ \n올릴 븨로그가 많아 열심히 편집 해볼게요\n그렇다면 오늘도 많관부 ••• 🐯\n\n항상 시청해주셔서 감사합니다 좋은 하루 되세요 🍀\n\n\n\n\n\n\n\n\n\n\n\n\n\n#daily #dailylife #dailyvlog #데일리브이로그 #브이로그추천 #소소한일상 #아이폰브이로그 #울산 #울산맛집 #울산hdfc #울산현대",
           "top_comments": []
         }
       ]
@@ -164,28 +219,8 @@
         "Macro": 1,
         "Nano": 1
       },
-      "summary": "정육왕의 최근 영상은 자사와 직접적인 비교를 위한 신메뉴나 프로모션을 제공하지 않았으며, 소비자 반응에서도 육회바른연어에 대한 우위는 드러나지 않았다. 그러나 정육왕이 지속적으로 새로운 메뉴를 출시하고 있는 점은 주의가 필요하다.\n  📌 신메뉴 N종 · 소비자 반응 · 경쟁사 동향",
-      "videos": [
-        {
-          "video_id": "peUA4nnb5WQ",
-          "title": "The Meat King's Party | Hitman: Contracts Pt. 2",
-          "channel": "Ryunn Eldred",
-          "subscribers": 207,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 0,
-          "likes": 0,
-          "comment_count": 0,
-          "engagement_rate": 0.0,
-          "duration": 2039,
-          "is_short": false,
-          "buzz_score": 0.0,
-          "upload_date": "2026.05.17",
-          "url": "https://www.youtube.com/watch?v=peUA4nnb5WQ",
-          "description_excerpt": "Agent 47 is tasked with rescuing his client's daughter from Campbell Sturrock the \"Meat King\" from his meat processing plant during an S&M Party. Upon finding the client's daughter, 47 targets the Meat King and his butcher brother and Andrei Puscus, the Meat King's lawyer.\n\n#hitman #hitmancontracts ",
-          "top_comments": []
-        }
-      ]
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
     }
   }
 }
