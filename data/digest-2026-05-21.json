@@ -1,0 +1,240 @@
+{
+  "date": "2026-05-21",
+  "days": 2,
+  "first_run": false,
+  "brands": {
+    "yukbayeon": {
+      "display": "육회바른연어",
+      "video_count": 1,
+      "total_views": 8,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 1,
+      "tier_counts": {
+        "Nano": 1
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "baksoo": {
+      "display": "박수식당",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "daepo79": {
+      "display": "79대포",
+      "video_count": 1,
+      "total_views": 5,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 1,
+      "tier_counts": {
+        "Nano": 1
+      },
+      "summary": "79대포의 신메뉴 N종이 소비자들 사이에서 긍정적인 반응을 얻고 있으며, 특히 비오는 날 파전과 막걸리 조합에 대한 호평이 눈길을 끈다. 이는 육회바른연어와 유사한 시나리오를 겨냥하고 있어 즉시 경쟁력 분석 및 맞춤형 프로모션 계획 필요.\n  📌 신메뉴 N종 · 비오는 날 파전과 막걸리 조합 · 긍정적인 소비자 반응",
+      "videos": [
+        {
+          "video_id": "eDaboN8C1f0",
+          "title": "비오는 날엔 파전에 막걸리(인사동 맛집 도마-내돈내산)",
+          "channel": "샵톡",
+          "subscribers": 7,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 5,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 133,
+          "is_short": false,
+          "buzz_score": 7.0,
+          "upload_date": "2026.05.20",
+          "url": "https://www.youtube.com/watch?v=eDaboN8C1f0",
+          "description_excerpt": "이 포스팅은 쿠팡파트너스 활동의 일환으로 이에 따른 일정 수수료를 지원받습니다.\n\n호랑이허브솔트 허브소금 줄서는 맛집\nhttps://link.coupang.com/a/dT8ovgyijY\n\n구글 평점 4.4! 옛 번지없는주막의 맛을 대를 이어 지켜가는 인사동 맛집 '도마 인사점' 리얼 후기입니다.\n대표 메뉴인 마약된장찌개와 솥밥 3종 세트, 그리고 부드러운 고등어구이와 바삭함을 넘어 빠삭한 파전까지! 부자 막걸리와 함께 즐긴 최고의 밥상이었습니다.\n\n하지만 먹을 때마다 입맛을 계속 당기게 했던 진짜 맛의 비밀은 바로 테이블 위 '특제",
+          "top_comments": []
+        }
+      ]
+    },
+    "dalmaji_bbq": {
+      "display": "달맞이광장바베큐",
+      "video_count": 1,
+      "total_views": 260,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 1,
+      "n_long": 0,
+      "tier_counts": {
+        "Nano": 1
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "johnmaat": {
+      "display": "삼양 JohnMaat",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "champd": {
+      "display": "참피디",
+      "video_count": 2,
+      "total_views": 72482,
+      "total_likes": 958,
+      "total_comments": 202,
+      "n_short": 0,
+      "n_long": 2,
+      "tier_counts": {
+        "Mega": 1,
+        "Nano": 1
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "hongsound": {
+      "display": "홍사운드",
+      "video_count": 2,
+      "total_views": 89814,
+      "total_likes": 1559,
+      "total_comments": 69,
+      "n_short": 1,
+      "n_long": 1,
+      "tier_counts": {
+        "Official": 2
+      },
+      "summary": "홍사운드의 '불닭 양파쌈' 메뉴가 SNS에서 긍정적인 반응을 얻고 있으며, 이는 육회바른연어와 유사한 카테고리의 제품으로 소비자 트래픽을 끌어올 위험이 있다. 특히 홍사운드의 온라인 쇼핑몰 판매가 활발히 이루어져 있어 즉시 경쟁력 분석이 필요하다.\n  📌 불닭 양파쌈 · SNS 반응 · 온라인 쇼핑몰",
+      "videos": [
+        {
+          "video_id": "8A4dlbo8-s4",
+          "title": "SNS폭발중인 불닭 양파쌈 솔직하게 말씀드리겠습니다",
+          "channel": "HONG SOUND",
+          "subscribers": 1830000,
+          "creator_tier": "Official",
+          "is_verified": true,
+          "views": 32961,
+          "likes": 769,
+          "comment_count": 18,
+          "engagement_rate": 0.0239,
+          "duration": 48,
+          "is_short": true,
+          "buzz_score": 61.3,
+          "upload_date": "2026.05.20",
+          "url": "https://www.youtube.com/watch?v=8A4dlbo8-s4",
+          "description_excerpt": "집가락 정품 구매하는 곳\n홍사운드몰 https://hongsound.shop/\n네이버 https://smartstore.naver.com/coffeechild/products/7688043656\n집가락이 특별한 이유 https://youtu.be/9KvCvdMSJ54\n\n홍사운드 플러스 채널(네츄럴 홍의 모습들) : https://www.youtube.com/channel/UCe8eXpQCaLaEiXOh2RxU_3A\n인스타그램(instagram) : https://www.instagram.com/hong_sound",
+          "top_comments": [
+            {
+              "author": "@이승탁-g4q",
+              "text": "둘이 같이 사는거 아니면 이게 말이 안되는데",
+              "likes": 82
+            },
+            {
+              "author": "@밝고빛나는나",
+              "text": "두 분 같이 사시죠?",
+              "likes": 43
+            },
+            {
+              "author": "@earth-k3c",
+              "text": "댓글들 계속 둘이 같이 사는거 아니냐고 하는거 불편하네...\n결혼했는데 어캐 같이 안 사냐? 행복한 신혼 생활 중이야",
+              "likes": 18
+            },
+            {
+              "author": "@호박0",
+              "text": "병진님 자연스러운 등장 ㅋㅋ",
+              "likes": 18
+            },
+            {
+              "author": "@LoEwe-wj1mz",
+              "text": "당연히 같이 살죠 홍유리님이잖아요",
+              "likes": 6
+            }
+          ]
+        }
+      ]
+    },
+    "ttoganzip": {
+      "display": "또간집(풍자)",
+      "video_count": 11,
+      "total_views": 10104,
+      "total_likes": 259,
+      "total_comments": 42,
+      "n_short": 2,
+      "n_long": 9,
+      "tier_counts": {
+        "Nano": 9,
+        "Micro": 2
+      },
+      "summary": "또간집의 새로운 프로모션과 MZ 포토부스가 주목받고 있으나, 직접적인 메뉴 비교는 이루어지지 않았다. 소비자 반응은 긍정적이지만, 육회바른연어와의 직접 경쟁 상황은 아직 드러나지 않았다.\n  📌 MZ 포토부스 · 긍정적 반응 · 프로모션",
+      "videos": [
+        {
+          "video_id": "wqA_3YB4C88",
+          "title": "#또간집 #삼양쭈꾸미 #잘먹고잘살자 #유미TV",
+          "channel": "유미TV",
+          "subscribers": 3260,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 2047,
+          "likes": 5,
+          "comment_count": 1,
+          "engagement_rate": 0.0029,
+          "duration": 27,
+          "is_short": true,
+          "buzz_score": 43.2,
+          "upload_date": "2026.05.20",
+          "url": "https://www.youtube.com/watch?v=wqA_3YB4C88",
+          "description_excerpt": "맛있게 먹고, 기분 좋은 시간~^^",
+          "top_comments": [
+            {
+              "author": "@stepstoneband",
+              "text": "츄릅..' . 이런... 새벽에.'.'. 유미님 미워요~~~~😢",
+              "likes": 0
+            }
+          ]
+        },
+        {
+          "video_id": "6zHK62u8QU8",
+          "title": "(멜버른만 n번째...) 또간집 + MZ 포토부스 + 캠핑 + 늦은 입사 선물 🤍",
+          "channel": "meli",
+          "subscribers": 1,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 7,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 121,
+          "is_short": false,
+          "buzz_score": 4.9,
+          "upload_date": "2026.05.19",
+          "url": "https://www.youtube.com/watch?v=6zHK62u8QU8",
+          "description_excerpt": "records of april.\nmelbourne restaurants & cafes, photo booth, camping, cartier gift for myself\nbased in sydney \n\n#melbourne #vlog #멜버른 #멜버른브이로그 #멜버른맛집 #camping #travel #minivlog #cartier",
+          "top_comments": []
+        }
+      ]
+    },
+    "meatking": {
+      "display": "정육왕",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    }
+  }
+}
