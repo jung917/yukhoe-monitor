@@ -1,0 +1,415 @@
+{
+  "date": "2026-05-20",
+  "days": 2,
+  "first_run": false,
+  "brands": {
+    "yukbayeon": {
+      "display": "육회바른연어",
+      "video_count": 1,
+      "total_views": 5,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 1,
+      "tier_counts": {
+        "Nano": 1
+      },
+      "summary": "육회바른연어의 '육회냉면'과 '연어깍두기' 메뉴가 소개되었으나, 구체적인 소비자 반응이나 자사 대비 우위/열위는 드러나지 않았다. 신메뉴 또는 프로모션에 대한 정보 부재로 즉시 대응은 필요하지 않으나, 추후 동영상의 인기와 함께 소비자 피드백을 주목해야 한다.\n  📌 육회냉면 · 연어깍두기 · 소비자 반응",
+      "videos": [
+        {
+          "video_id": "7ZK8O1OlhvI",
+          "title": "때깔부터 남다른 연어깍두기와 육회냉면",
+          "channel": "[먹하루]Meokharu",
+          "subscribers": 2,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 5,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 588,
+          "is_short": false,
+          "buzz_score": 6.5,
+          "upload_date": "2026.05.19",
+          "url": "https://www.youtube.com/watch?v=7ZK8O1OlhvI",
+          "description_excerpt": "안녕하세요.\n먹하루 입니다!\n때깔부터 남다른 연어깍두기와 육회냉면 같이 먹어요!",
+          "top_comments": []
+        }
+      ]
+    },
+    "baksoo": {
+      "display": "박수식당",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "daepo79": {
+      "display": "79대포",
+      "video_count": 2,
+      "total_views": 1552,
+      "total_likes": 3,
+      "total_comments": 1,
+      "n_short": 1,
+      "n_long": 1,
+      "tier_counts": {
+        "Nano": 2
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "dalmaji_bbq": {
+      "display": "달맞이광장바베큐",
+      "video_count": 1,
+      "total_views": 259,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 1,
+      "n_long": 0,
+      "tier_counts": {
+        "Nano": 1
+      },
+      "summary": "달맞이광장바베큐가 센세이셔널한 인기를 얻고 있으며, 소비자들은 예약을 기다리며 방문을 원함. 이는 육회바른연어와의 경쟁에서 달맞이광장바베큐의 매력과 고객 유치 능력을 보여주며 즉시 대응 전략 수립 필요.\n  📌 센세이셔널한 인기 · 예약 기다림 · 즉각적 대응",
+      "videos": [
+        {
+          "video_id": "shjJR8zwyqM",
+          "title": "달맞이광장은 달뜨기전부터 핫함",
+          "channel": "삼시세끼",
+          "subscribers": 36,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 259,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 60,
+          "is_short": true,
+          "buzz_score": 10.6,
+          "upload_date": "2026.05.19",
+          "url": "https://www.youtube.com/watch?v=shjJR8zwyqM",
+          "description_excerpt": "달맞이광장은 정말 센세이셔널하네요. 사람들이 줄을 서고서고 또서는 모습을보면 여긴 니즈를 참 잘 아는 곳 같습니다. 예약만 된다면야 가고싶네요.\n\n#달맞이광장바베큐 #세광푸드 #바비정 #맛스타그램 #맛집 #남영동맛집 #남영동 #신용산 #용산맛집",
+          "top_comments": []
+        }
+      ]
+    },
+    "johnmaat": {
+      "display": "삼양 JohnMaat",
+      "video_count": 2,
+      "total_views": 4035,
+      "total_likes": 21,
+      "total_comments": 0,
+      "n_short": 2,
+      "n_long": 0,
+      "tier_counts": {
+        "Official": 2
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "champd": {
+      "display": "참피디",
+      "video_count": 2,
+      "total_views": 50613,
+      "total_likes": 723,
+      "total_comments": 155,
+      "n_short": 0,
+      "n_long": 2,
+      "tier_counts": {
+        "Mega": 1,
+        "Nano": 1
+      },
+      "summary": "참피디의 '미나리 감자탕'이 소비자들로부터 긍정적인 반응을 얻고 있어, 육회바른연어와 유사한 메뉴인 경우 직접 경쟁에서 우위를 차지할 가능성이 높다. 특히 참피디의 영향력으로 인해 매장 트래픽 증가가 예상되며, 즉시 자사 메뉴 개선 및 프로모션 전략 재검토 필요.\n  📌 미나리 감자탕 · 긍정적 반응 · 매장 트래픽",
+      "videos": [
+        {
+          "video_id": "j9B7uKGpXnk",
+          "title": "\"참피디가 입 아프게 칭찬한 '미나리 감자탕' 살맛리뷰",
+          "channel": "즐펀포차",
+          "subscribers": 178,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 14,
+          "likes": 1,
+          "comment_count": 0,
+          "engagement_rate": 0.0714,
+          "duration": 1621,
+          "is_short": false,
+          "buzz_score": 9.0,
+          "upload_date": "2026.05.20",
+          "url": "https://www.youtube.com/watch?v=j9B7uKGpXnk",
+          "description_excerpt": "여러분, 오늘 밤 잠들기 싫다면 주목하세요!\n애주가들의 성지, 참피디님이 침이 마르도록 칭찬했다는 그 신박한 안주, **'미나리 감자탕'**을 드디어 즐펀포차에 모셨습니다!\n\n묵직하고 깊은 맛의 감자탕 육수와 상큼하고 아삭한 미나리의 운명적인 만남!\n우리 채린이도 한 입 먹자마자 그 뜨겁고 화끈한 매력에 정신을 못 차렸답니다.\n끈적하고 묵직한 국물에 밥까지 비벼 먹으면? 캬~ 술이 그냥 쭉쭉 들어가는 거 아시죠?\n\n\"이건 진짜 밤새도록 먹고 싶은 맛이야...\" 채린이의 리얼한 리액션과 함께하는\n미나리 감자탕 솔직 리뷰! 지금 바로 ",
+          "top_comments": []
+        }
+      ]
+    },
+    "hongsound": {
+      "display": "홍사운드",
+      "video_count": 2,
+      "total_views": 83813,
+      "total_likes": 1261,
+      "total_comments": 63,
+      "n_short": 1,
+      "n_long": 1,
+      "tier_counts": {
+        "Official": 2
+      },
+      "summary": "홍사운드의 '엽떡 국물무뼈닭발'이 인기 상품으로 자리잡아 매출 증가와 품절 현상을 일으키며, 소비자들 사이에서 긍정적인 반응을 얻고 있어 육회바른연어의 점유율에 위협이 될 가능성이 있다. 특히 집가락과 협업으로 제품 다양화 및 판매 채널 확장에 성공한 것으로 보이며, 자사와 직접 비교되는 부분에서 우위를 나타내고 있어 즉시 대응 필요.\n  📌 엽떡 국물무뼈닭발 · 집가락 협업 · 품절",
+      "videos": [
+        {
+          "video_id": "Er2W2_wTq2w",
+          "title": "엽떡 국물무뼈닭발 품절난 이유가 있었네, 힐링되는 맛인데요?! | 리얼사운드 먹방 ASMR",
+          "channel": "HONG SOUND",
+          "subscribers": 1830000,
+          "creator_tier": "Official",
+          "is_verified": true,
+          "views": 41263,
+          "likes": 622,
+          "comment_count": 44,
+          "engagement_rate": 0.0161,
+          "duration": 615,
+          "is_short": false,
+          "buzz_score": 50.8,
+          "upload_date": "2026.05.19",
+          "url": "https://www.youtube.com/watch?v=Er2W2_wTq2w",
+          "description_excerpt": "집가락 정품 구매하는 곳\n홍사운드몰 https://hongsound.shop/\n네이버 https://smartstore.naver.com/coffeechild/products/7688043656\n집가락이 특별한 이유 https://youtu.be/9KvCvdMSJ54\n\n홍사운드 플러스 채널(네츄럴 홍의 모습들) : https://www.youtube.com/channel/UCe8eXpQCaLaEiXOh2RxU_3A\n인스타그램(instagram) : https://www.instagram.com/hong_sound",
+          "top_comments": [
+            {
+              "author": "@태윤-f6p",
+              "text": "오랜만에 롱폼 먹방이군요..",
+              "likes": 43
+            },
+            {
+              "author": "@슈크림맛쿠키",
+              "text": "청년다방 차돌크림 떡볶이 보고싶어요",
+              "likes": 11
+            },
+            {
+              "author": "@hgy_8467",
+              "text": "아니 자기 전에 이게 뜨면 나보고 으뜩하리고 으뜩하리고으뜩히리고",
+              "likes": 11
+            },
+            {
+              "author": "@나나-f3e",
+              "text": "진짜 맛있으셨나봐요 계란찜이랑 튀김엔 거의 손안대고 초집중해서 드심 ㅋㅋㅋㅋ 무뼈닭발꼭먹어봐야겠어요",
+              "likes": 11
+            },
+            {
+              "author": "@HONGSOUND",
+              "text": "앞으로 자주 올릴게요! ㅎㅎ 기대해주세용 ㅎ",
+              "likes": 9
+            }
+          ]
+        }
+      ]
+    },
+    "ttoganzip": {
+      "display": "또간집(풍자)",
+      "video_count": 14,
+      "total_views": 1931,
+      "total_likes": 104,
+      "total_comments": 30,
+      "n_short": 1,
+      "n_long": 13,
+      "tier_counts": {
+        "Nano": 12,
+        "Micro": 2
+      },
+      "summary": "또간집(풍자)은 최근 한국 YouTube에서 여러 여행 및 일상 Vlog에서 자사 육회바른연어와 유사한 메뉴를 포함하며, 특히 '육비'라는 메뉴가 소비자들로부터 긍정적인 반응을 얻고 있어 자사 점유율과 매장 트래픽에 위협이 될 가능성이 있다. 즉시 경쟁력 있는 프로모션 및 신제품 출시를 고려해야 한다.\n  📌 육비 · 긍정적 소비자 반응 · 프로모션",
+      "videos": [
+        {
+          "video_id": "w-3hXS3LIo0",
+          "title": "5번째 후쿠오카 🇯🇵ㅣ🤰🏻14주 쌍둥이 임산부 태교여행ㅣ텐진 찐맛집 또간집⭐️ㅣ👶🏻아카짱혼포 추천템 쇼핑ㅣ몽벨,유니클로ㅣ📍구글맵 공유",
+          "channel": "챈미 chaen mi",
+          "subscribers": 26800,
+          "creator_tier": "Micro",
+          "is_verified": false,
+          "views": 704,
+          "likes": 37,
+          "comment_count": 9,
+          "engagement_rate": 0.0653,
+          "duration": 1709,
+          "is_short": false,
+          "buzz_score": 61.8,
+          "upload_date": "2026.05.20",
+          "url": "https://www.youtube.com/watch?v=w-3hXS3LIo0",
+          "description_excerpt": "이 영상은 유료광고를 포함하고 있지 않습니다.\n높은 화질로 시청하는 것을 권장합니다\n\n📸 Instagram: https://instagram.com/chaen__mi\n💌 Contact : chaenmi90@gmail.com\n\n\n\n[📍구글맵 공유]\n03:25 모토무라 규카츠\n(https://maps.app.goo.gl/1YqWrJ3GXPShujrdA)\n05:35 유벨 호텔\n(https://maps.app.goo.gl/9xuH84iEFfafnnNs9)\n08:30 시나리우동\n(https://maps.app.goo.gl/CkJC8jJzeN",
+          "top_comments": [
+            {
+              "author": "@양지-n6h",
+              "text": "성별 너무 궁금해요..😮",
+              "likes": 3
+            },
+            {
+              "author": "@꾸뀨우",
+              "text": "니프티 성별 너무 궁금해요",
+              "likes": 2
+            },
+            {
+              "author": "@leilajjj",
+              "text": "기다렸어요!!❤",
+              "likes": 1
+            },
+            {
+              "author": "@택시라이프한편",
+              "text": "편의점 간식 강추임다😊\n챈미님 안녕하세요~😊\n구독자 5만명 가즈아😊\n😊\n구독자 10만 가즈아😊",
+              "likes": 1
+            },
+            {
+              "author": "@박기범-v3y",
+              "text": "챈미님 후쿠오카 브이로그를 잘 볼게요",
+              "likes": 1
+            }
+          ]
+        },
+        {
+          "video_id": "7EuB4b9t3L0",
+          "title": "13th 도쿄 여행 𖠚ᐝ 예쁜 카페 맛집 bar 도쿄타워 뷰 추천 쇼핑𖤐 도쿄 브이로그 Tokyo vlog 𖤐 아자부주반 아오야마 시부야 𖤐 2박3일 호텔 정보 𖤐 또간집",
+          "channel": "바닐라콩 Vanillabean",
+          "subscribers": 31700,
+          "creator_tier": "Micro",
+          "is_verified": false,
+          "views": 165,
+          "likes": 26,
+          "comment_count": 10,
+          "engagement_rate": 0.2182,
+          "duration": 1273,
+          "is_short": false,
+          "buzz_score": 45.6,
+          "upload_date": "2026.05.20",
+          "url": "https://www.youtube.com/watch?v=7EuB4b9t3L0",
+          "description_excerpt": "https://www.instagram.com/vanillabean_vlog\n\n\n여러분 안녕하세요꒰ᐢ. .ᐢ꒱₊˚⊹♡\n\n오늘 영상은 5월초에 2박3일 도쿄 다녀온 영상이에요. \n이번엔 쇼핑은 거의 안했고 뷰에 진심인 친구 덕분에 뷰맛집 bar를 저녁마다 다녀왔는데 두 곳 모두 추천이에요..! \n식당이나 카페는 절반이상 또간집, 좋아하는 곳들 위주로 갔어요. 오늘도 편하게 봐주셔요⊹˚. ♡\n\n☺︎ For ENG subtitles, please click the CC button :)\n☺︎ 높은 화질로 시청해주세요! Please wat",
+          "top_comments": [
+            {
+              "author": "@vanillabean_vlog",
+              "text": "정말 시간 가는 줄 모르고 돌아다녔네요 항상 감사해요🫧💕",
+              "likes": 1
+            },
+            {
+              "author": "@jma1843",
+              "text": "꺄 필승조합 바닐라콩X도쿄❤",
+              "likes": 0
+            },
+            {
+              "author": "@vanillabean_vlog",
+              "text": "우왕 이런 빠른 댓글..✨ 감사해요👍🏻💕",
+              "likes": 0
+            },
+            {
+              "author": "@suedayis",
+              "text": "진짜 좋아하는 바닐라콩님 영상💗 늘 옷 정보도 궁금해요🧐",
+              "likes": 0
+            },
+            {
+              "author": "@vanillabean_vlog",
+              "text": "흐앙 영상 좋아해 주셔서 너무 감사해요💕 이번 영상 착장들은 다 망고매니플리즈 아니면 수아마르 옷들이었던 것 같아요 :)",
+              "likes": 0
+            }
+          ]
+        },
+        {
+          "video_id": "i-sgp391SCM",
+          "title": "VLOGㅣ집에서 먹고 자고 취업 준비는 안 하는 홈프로텍터 브이로그ㅣ전북현대 축구 첫 직관ㅣ나의 또간집 육비 맛집ㅣ여름옷 언박싱ㅣ일상브이로그",
+          "channel": "수빈SUBIN",
+          "subscribers": 23,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 65,
+          "likes": 6,
+          "comment_count": 2,
+          "engagement_rate": 0.1231,
+          "duration": 503,
+          "is_short": false,
+          "buzz_score": 32.6,
+          "upload_date": "2026.05.19",
+          "url": "https://www.youtube.com/watch?v=i-sgp391SCM",
+          "description_excerpt": "nan",
+          "top_comments": [
+            {
+              "author": "@rkdmsdld",
+              "text": "아 슬라임 또 사야겟다",
+              "likes": 0
+            },
+            {
+              "author": "@xxuv0xxv",
+              "text": "가룽이님 슬라임 후원 감사합니다🙏🏻",
+              "likes": 0
+            }
+          ]
+        },
+        {
+          "video_id": "k2ph-nszH2o",
+          "title": "나만의 제주도 또간집! #제주와인바",
+          "channel": "하고재비 덕진",
+          "subscribers": 55,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 278,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 12,
+          "is_short": true,
+          "buzz_score": 11.2,
+          "upload_date": "2026.05.19",
+          "url": "https://www.youtube.com/watch?v=k2ph-nszH2o",
+          "description_excerpt": "📍리볼버 (@revolver.jeju) \n제주 서귀포시 예래로 31 Revolver\n\n✔️ 분위기 좋은 제주 와인바 \n✔️ 다양한 와인 & 페어링 메뉴 \n✔️ 조용하고 감성적인 공간 \n✔️ 기념일 / 데이트 코스로 추천 \n\n서귀포에서 분위기 좋은 와인바 찾는다면 여기 추천 🍷 \n조명 분위기부터 음악, 공간 느낌까지 너무 좋아서 \n나만의 또간집!!\n\n특히 남자친구랑 기념일 여행 왔다면 \n조용하게 와인 한잔하면서 이야기하기 딱 좋은 분위기✨\n\n#제주와인바 #서귀포와인바 #제주데이트 \n#제주맛집 #국내여행 #서귀포맛집 \n\n*자료제공: 춘",
+          "top_comments": []
+        },
+        {
+          "video_id": "d9arPgm9rok",
+          "title": "[나혼자특별기획] 3주간 발리에서 생긴일 -5화-",
+          "channel": "Kim is gang",
+          "subscribers": 23,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 3,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 716,
+          "is_short": false,
+          "buzz_score": 7.4,
+          "upload_date": "2026.05.20",
+          "url": "https://www.youtube.com/watch?v=d9arPgm9rok",
+          "description_excerpt": "00:05 Alchemy Yoga ubud (알케미 요가)\n00:11 Alchemy bali (알케미 요가 앞 비건 레스토랑)\n00:21 빈땅마켓 가는길\n01:23 개큰 노란줄 도마뱀 봄\n02:04 빈땅마켓 도착\n02:38 숙소로 빠른귀가 후 점심\n02:59 i love mangosteen (망고스틴 까먹기)\n04:40 둥지안에 둥지\n04:20 또간집 Mr. Wayan, Coffee & Eatery\n05:54 미친맛\n07:35 별이 가득한 발리의 밤하늘\n08:31 귀뚜라미 들어옴 (혐오주의)\n09:10 귀뚜라미와 하룻밤을 보낸 14",
+          "top_comments": []
+        },
+        {
+          "video_id": "6zHK62u8QU8",
+          "title": "(멜버른만 n번째...) 또간집 + MZ 포토부스 + 캠핑 + 늦은 입사 선물 🤍",
+          "channel": "meli",
+          "subscribers": 0,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 0,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 121,
+          "is_short": false,
+          "buzz_score": 0.0,
+          "upload_date": "2026.05.19",
+          "url": "https://www.youtube.com/watch?v=6zHK62u8QU8",
+          "description_excerpt": "records of april.\nmelbourne restaurants & cafes, photo booth, camping, cartier gift for myself\nbased in sydney \n\n#melbourne #vlog #멜버른 #멜버른브이로그 #멜버른맛집 #camping #travel #minivlog #cartier",
+          "top_comments": []
+        }
+      ]
+    },
+    "meatking": {
+      "display": "정육왕",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    }
+  }
+}
