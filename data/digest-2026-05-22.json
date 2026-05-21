@@ -1,0 +1,263 @@
+{
+  "date": "2026-05-22",
+  "days": 2,
+  "first_run": false,
+  "brands": {
+    "yukbayeon": {
+      "display": "육회바른연어",
+      "video_count": 2,
+      "total_views": 149,
+      "total_likes": 12,
+      "total_comments": 3,
+      "n_short": 0,
+      "n_long": 2,
+      "tier_counts": {
+        "Nano": 2
+      },
+      "summary": "육회바른연어의 연어깍두기가 소개되었으나, 다른 메뉴들에 비해 언급도가 낮고 소비자 반응이 뜨겁지 않아 매장 트래픽 증대에는 미미한 영향을 미칠 것으로 보인다. 그러나 신메뉴의 등장을 통해 경쟁사의 존재를 인식시킨 점은 주목할 만하다.\n  📌 연어깍두기 · 언급도 낮음 · 매장 트래픽",
+      "videos": [
+        {
+          "video_id": "FgC8NzJT52c",
+          "title": "먹방브이로그 | 드디어 연어깍두기 먹어봄...!(연어깍두기, 대패삼겹살, 모듬회, 크림김치볶음밥, 과일모찌, 김치만두)",
+          "channel": "찌닝",
+          "subscribers": 798,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 49,
+          "likes": 4,
+          "comment_count": 1,
+          "engagement_rate": 0.102,
+          "duration": 1049,
+          "is_short": false,
+          "buzz_score": 33.5,
+          "upload_date": "2026.05.21",
+          "url": "https://www.youtube.com/watch?v=FgC8NzJT52c",
+          "description_excerpt": "#먹방브이로그 #먹방 #vlog #일상브이로그 \n\nEmail - ansdbwls2468@naver.com\nInstagram - @zzlning\n\n#먹방브이로그 #일상브이로그 #먹방 #일상 #vlog #먹방vlog #asmr",
+          "top_comments": []
+        }
+      ]
+    },
+    "baksoo": {
+      "display": "박수식당",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "daepo79": {
+      "display": "79대포",
+      "video_count": 1,
+      "total_views": 6,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 1,
+      "tier_counts": {
+        "Nano": 1
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "dalmaji_bbq": {
+      "display": "달맞이광장바베큐",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "johnmaat": {
+      "display": "삼양 JohnMaat",
+      "video_count": 1,
+      "total_views": 1887,
+      "total_likes": 12,
+      "total_comments": 0,
+      "n_short": 1,
+      "n_long": 0,
+      "tier_counts": {
+        "Official": 1
+      },
+      "summary": "삼양 JohnMaat의 신메뉴 N종이 소개되었으나 구체적인 메뉴 내용이나 프로모션 정보가 부족하여 자사(육회바른연어)와의 직접 비교는 불가능하다. 소비자 반응에서도 특별한 우위를 드러내지 못하고 있어 당장 위협으로 보기는 어렵다. 그러나 신제품 출시 추이를 지속 모니터링 필요.\n  📌 신메뉴 N종 · 프로모션 부재 · 소비자 반응",
+      "videos": [
+        {
+          "video_id": "JQMAH1Szk88",
+          "title": "When a woman is considerate",
+          "channel": "BURNT",
+          "subscribers": 354000,
+          "creator_tier": "Official",
+          "is_verified": false,
+          "views": 1887,
+          "likes": 12,
+          "comment_count": 0,
+          "engagement_rate": 0.0064,
+          "duration": 25,
+          "is_short": true,
+          "buzz_score": 47.4,
+          "upload_date": "2026.05.21",
+          "url": "https://www.youtube.com/watch?v=JQMAH1Szk88",
+          "description_excerpt": "nan",
+          "top_comments": []
+        }
+      ]
+    },
+    "champd": {
+      "display": "참피디",
+      "video_count": 2,
+      "total_views": 61895,
+      "total_likes": 1058,
+      "total_comments": 113,
+      "n_short": 0,
+      "n_long": 2,
+      "tier_counts": {
+        "Nano": 2
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "hongsound": {
+      "display": "홍사운드",
+      "video_count": 3,
+      "total_views": 119631,
+      "total_likes": 2016,
+      "total_comments": 56,
+      "n_short": 1,
+      "n_long": 2,
+      "tier_counts": {
+        "Official": 2,
+        "Micro": 1
+      },
+      "summary": "홍사운드의 곱창과 대창 메뉴가 강서구 지역에서 큰 인기를 얻어 소비자들의 긍정적인 반응을 이끌어내고 있으며, 특히 '모듬구이'와 '염통' 등 신메뉴에 대한 호평이 많아 육회바른연어의 점유율과 매장 트래픽에 즉각적인 위협 요소로 작용할 수 있다.\n  📌 곱창 · 대창 · 신메뉴",
+      "videos": [
+        {
+          "video_id": "SLn3UgCILko",
+          "title": "곱창 1타 강사 홍사운드 찐텐 터진 강서구 로컬 노포 ㄷㄷ 역대급 소곱창 먹방",
+          "channel": "참솨랑호프",
+          "subscribers": 48700,
+          "creator_tier": "Micro",
+          "is_verified": false,
+          "views": 2906,
+          "likes": 85,
+          "comment_count": 5,
+          "engagement_rate": 0.031,
+          "duration": 2383,
+          "is_short": false,
+          "buzz_score": 56.2,
+          "upload_date": "2026.05.21",
+          "url": "https://www.youtube.com/watch?v=SLn3UgCILko",
+          "description_excerpt": "곱창과 대창에 진심인 183만 유튜버의 '전공과목' 텐션과 강서구 숨은 노포의 만남!\n\n1차 제철 해산물 먹방에 이어, 이번엔 강서구를 평정한 진짜배기 로컬 맛집 에서 \n극강의 고소함을 자랑하는 소곱창과 대창을 박살 내고 왔습니다 🚨\n\n수많은 곱창,대창류를 섭렵한 곱창 1타 강사 홍사운드 님!\n자신의 주력 메뉴를 만나자마자 텐션이 폭발하며 역대급 먹방 폼을 보여주시는데...\n돌판 위에서 지글지글 익어가는 대창의 미친 육즙과 \n쫄깃한 소곱창, 부추, 김치의 완벽한 하모니 ㄷㄷ \n\n세월의 흔적이 묻어나는 노포에서 펼쳐지는 마성의 찐텐 ",
+          "top_comments": [
+            {
+              "author": "@참솨랑호프",
+              "text": "와 곱창 육즙 터지는 거 폼 진짜 미쳤습니다;; 이건 배불러도 못 참지\n\n00:45 역대급 비주얼 모듬구이 등장 \n05:01 찐텐 터지는 염통 첫 입 리액션\n06:31 달콤 고소한 소곱창 육즙에 무너져버린 두 아재\n07:21 홍사운드 채널에서 내장류 먹방이 잘 터지는 이유\n09:19  '유튜버 MBTI' 감별법\n11:19 혈관 막히는 맛(?) 곱창 기름을 ",
+              "likes": 3
+            },
+            {
+              "author": "@단비TV369",
+              "text": "참피디님 ~ 참하 , 홍사운드님 홍홍~, 아재들의 2차 먹방 ~ 소곱창 ~!!! 고소하이 쥑이지유~^^,  대한민국 아빠들 힘들쥬~ , 괜히 헬조선 이겠습니까~\n영상 잼나게 보고갑니다. 다음 영상도 기대됩니다. 참참참~! 홍홍~!",
+              "likes": 2
+            },
+            {
+              "author": "@육키로3",
+              "text": "대박!!",
+              "likes": 0
+            },
+            {
+              "author": "@tnwns4545",
+              "text": "오... 저희집 근처... 가본적은 없지만.. 😄",
+              "likes": 0
+            },
+            {
+              "author": "@kkobuki869",
+              "text": "하.....3×9=27......",
+              "likes": 0
+            }
+          ]
+        }
+      ]
+    },
+    "ttoganzip": {
+      "display": "또간집(풍자)",
+      "video_count": 5,
+      "total_views": 15557,
+      "total_likes": 399,
+      "total_comments": 66,
+      "n_short": 1,
+      "n_long": 4,
+      "tier_counts": {
+        "Nano": 3,
+        "Micro": 2
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "meatking": {
+      "display": "정육왕",
+      "video_count": 1,
+      "total_views": 18402,
+      "total_likes": 275,
+      "total_comments": 44,
+      "n_short": 0,
+      "n_long": 1,
+      "tier_counts": {
+        "Macro": 1
+      },
+      "summary": "정육왕은 높은 가격대의 메뉴(5만원 샌드위치, 뉴욕 스테이크)를 선보이며 소비자들의 주목을 받았으나, 일부 고객들은 비용 대비 가치에 대한 의문을 제기하고 있다. 육회바른연어와 비교해 정육왕의 가격 경쟁력이 상대적으로 떨어질 수 있으므로, 가격 프로모션 및 저가 메뉴 확대로 소비자 유인 필요성이 있음.\n  📌 고가 메뉴 · 비용 대비 가치 · 가격 경쟁력",
+      "videos": [
+        {
+          "video_id": "mk8bBgei5OU",
+          "title": "샌드위치가 5만원? 뉴욕 스테이크?! 미친 물가 체험하는 정육왕 미국 뉴욕 고기 투어🇺🇸",
+          "channel": "MeatCreator (Only Korean BBQ )",
+          "subscribers": 791000,
+          "creator_tier": "Macro",
+          "is_verified": true,
+          "views": 18402,
+          "likes": 275,
+          "comment_count": 44,
+          "engagement_rate": 0.0173,
+          "duration": 1287,
+          "is_short": false,
+          "buzz_score": 57.3,
+          "upload_date": "2026.05.21",
+          "url": "https://www.youtube.com/watch?v=mk8bBgei5OU",
+          "description_excerpt": "✔️ 미국 뉴욕 투어에서 방문한 식당 구글지도 정보\n \n쉑쉑버거 메디슨스퀘어파크점 (Shake Shack Madison Square Park)\nhttps://maps.app.goo.gl/XU14F7491r6ySHp28\n\n갤러거스테이크하우스 (Gallagher’s Steakhouse NYC)\nhttps://maps.app.goo.gl/BfpiL59v9UVEEdMc9\n\n텍사스 로드하우스(Texas Roadhouse)\nhttps://maps.app.goo.gl/syZ4W7m98tXYAnjk6\n\n헌츠 포인트 마켓 (Hunts Point C",
+          "top_comments": [
+            {
+              "author": "@김한결-n7m",
+              "text": "채널명 육즙가두기입니다 ㅋㅋㅋㅋㅋ",
+              "likes": 15
+            },
+            {
+              "author": "@최민수-v6j",
+              "text": "15:52 대물 꽈추를 보고 흥분한 정력왕",
+              "likes": 8
+            },
+            {
+              "author": "@형왔다-z3b",
+              "text": "이렇게 해외 방문 까지 해서 컨텐츠나 연구를 위해 노력하는 걸 보면 10년 넘게 폼을 유지하는 페이커가 새삼 대단하다고 느껴지네..",
+              "likes": 5
+            },
+            {
+              "author": "@co2rktm",
+              "text": "형님도 푸드트립의 길을 걷기 시작하는건가요 ㅎㅎ 너무 좋습니다 재밌습니다 !",
+              "likes": 5
+            },
+            {
+              "author": "@vinirvinirvinir",
+              "text": "정력왕 롱폼도 폼 미쳤네",
+              "likes": 4
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
