@@ -5,17 +5,43 @@
   "brands": {
     "yukbayeon": {
       "display": "육회바른연어",
-      "video_count": 1,
-      "total_views": 8,
-      "total_likes": 0,
-      "total_comments": 0,
+      "video_count": 2,
+      "total_views": 46,
+      "total_likes": 5,
+      "total_comments": 1,
       "n_short": 0,
-      "n_long": 1,
+      "n_long": 2,
       "tier_counts": {
-        "Nano": 1
+        "Nano": 2
       },
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
-      "videos": []
+      "summary": "육회바른연어는 창업박람회에서 조심해야 할 브랜드로 언급되었으며, 소비자들의 우려를 반영한 내용이 포함되어 있어 자사의 점유율과 매장 트래픽에 부정적 영향을 미칠 가능성이 있다. 특히 가맹비 관련 이슈가 언급되면서 신규 창업자의 주저함을 유발할 수 있으므로 즉시 대응 필요.\n  📌 조심해야 할 브랜드 · 창업박람회 · 가맹비",
+      "videos": [
+        {
+          "video_id": "pZVmAinA-SY",
+          "title": "코엑스마곡 창업박람회- 도전할 브랜드와 조심할 브랜드, \"3억 날리기 전에 꼭 보세요\"",
+          "channel": "Startup Detective",
+          "subscribers": 2580,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 38,
+          "likes": 5,
+          "comment_count": 1,
+          "engagement_rate": 0.1579,
+          "duration": 775,
+          "is_short": false,
+          "buzz_score": 35.3,
+          "upload_date": "2026.05.21",
+          "url": "https://www.youtube.com/watch?v=pZVmAinA-SY",
+          "description_excerpt": "✨화려한 부스에 혹! 해서 계약서에 사인하는 순간, 인생이 꼬이기 시작합니다.😱\n오늘 창업 명탐정이 직접 코엑스 마곡 창업박람회 80개 브랜드를 모두 돌아보고,\n\"도전할 만한 아이템\"과 \"절대 하지 말아야 할 아이템\"을 솔직하게 가려드립니다.\n\n🚨피자헛의 차액가맹금 반환 판결\n🎉 옥된장 100호점 돌파\n🚀소도몰의 폭발적 성장\n💸 교동찜닭의 가맹비 0원 정책\n\n박람회 부스에서는 절대 알려주지 않는\n숨겨진 숫자와 현실을 짚어드립니다.\n\n[타임스탬프]\n00:00  오프닝 - 창업박람회 3억 날린 사람들\n00:32  코엑스 마곡 창업박람회",
+          "top_comments": [
+            {
+              "author": "@창업명탐정",
+              "text": "🎙이번 영상부터 제 목소리를 넣기로 했습니다.\n예전 ai목소리에 비해 어떤지요?\n듣기 거북한 목소리는 아닌지... 😅\n영상 중반에 제 모습도 살짝 나오네요☺\n━━━━━━━━━━━━━━━━━━━\n\n📌 창업 명탐정의 한마디\n\n오늘 코엑스마곡 창업박람회 참여한 80개 브랜드 중 \n25개만 추려서 보여드렸지만,\n전하고 싶은 메시지는 단 하나입니다.\n\n👉 박람회 부",
+              "likes": 0
+            }
+          ]
+        }
+      ]
     },
     "baksoo": {
       "display": "박수식당",
@@ -40,28 +66,8 @@
       "tier_counts": {
         "Nano": 1
       },
-      "summary": "79대포의 신메뉴 N종이 소비자들 사이에서 긍정적인 반응을 얻고 있으며, 특히 비오는 날 파전과 막걸리 조합에 대한 호평이 눈길을 끈다. 이는 육회바른연어와 유사한 시나리오를 겨냥하고 있어 즉시 경쟁력 분석 및 맞춤형 프로모션 계획 필요.\n  📌 신메뉴 N종 · 비오는 날 파전과 막걸리 조합 · 긍정적인 소비자 반응",
-      "videos": [
-        {
-          "video_id": "eDaboN8C1f0",
-          "title": "비오는 날엔 파전에 막걸리(인사동 맛집 도마-내돈내산)",
-          "channel": "샵톡",
-          "subscribers": 7,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 5,
-          "likes": 0,
-          "comment_count": 0,
-          "engagement_rate": 0.0,
-          "duration": 133,
-          "is_short": false,
-          "buzz_score": 7.0,
-          "upload_date": "2026.05.20",
-          "url": "https://www.youtube.com/watch?v=eDaboN8C1f0",
-          "description_excerpt": "이 포스팅은 쿠팡파트너스 활동의 일환으로 이에 따른 일정 수수료를 지원받습니다.\n\n호랑이허브솔트 허브소금 줄서는 맛집\nhttps://link.coupang.com/a/dT8ovgyijY\n\n구글 평점 4.4! 옛 번지없는주막의 맛을 대를 이어 지켜가는 인사동 맛집 '도마 인사점' 리얼 후기입니다.\n대표 메뉴인 마약된장찌개와 솥밥 3종 세트, 그리고 부드러운 고등어구이와 바삭함을 넘어 빠삭한 파전까지! 부자 막걸리와 함께 즐긴 최고의 밥상이었습니다.\n\n하지만 먹을 때마다 입맛을 계속 당기게 했던 진짜 맛의 비밀은 바로 테이블 위 '특제",
-          "top_comments": []
-        }
-      ]
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
     },
     "dalmaji_bbq": {
       "display": "달맞이광장바베큐",
@@ -91,74 +97,120 @@
     },
     "champd": {
       "display": "참피디",
-      "video_count": 2,
-      "total_views": 72482,
-      "total_likes": 958,
-      "total_comments": 202,
+      "video_count": 3,
+      "total_views": 79771,
+      "total_likes": 1222,
+      "total_comments": 237,
       "n_short": 0,
-      "n_long": 2,
+      "n_long": 3,
       "tier_counts": {
-        "Mega": 1,
-        "Nano": 1
+        "Nano": 2,
+        "Mega": 1
       },
-      "summary": "(48시간 내 한국어 콘텐츠 없음)",
-      "videos": []
+      "summary": "참피디의 갑각로드 시리즈가 재개되면서 태즈매니아 킹크랩에 대한 깊이 있는 소개를 제공하고 있으며, 이는 소비자들의 높은 관심을 얻고 있어 육회바른연어와 유사한 해산물 메뉴의 경쟁력을 강화할 수 있음. 그러나 아직 자사 제품과 직접 비교되는 내용이나 프로모션은 없으며, 주로 참피디 자체 채널에서 홍보 중인 상황.\n  📌 갑각로드 시리즈 · 태즈매니아 킹크랩 · 핵이득마켓",
+      "videos": [
+        {
+          "video_id": "0TBYj60A9fk",
+          "title": "유튜브 9년만에 드디어 꿈을 이루는 날이 왔습니다 [상하이 갑각로드 1편]",
+          "channel": "애주가TV참PD",
+          "subscribers": 0,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 7289,
+          "likes": 264,
+          "comment_count": 35,
+          "engagement_rate": 0.041,
+          "duration": 1455,
+          "is_short": false,
+          "buzz_score": 72.1,
+          "upload_date": "2026.05.21",
+          "url": "https://www.youtube.com/watch?v=0TBYj60A9fk",
+          "description_excerpt": "참피디의 갑각로드 태즈매니아 킹크랩 1편입니다.\n\n참피디가 직접 운영하는 녹진이 특별 안주 할인몰\n핵이득마켓 구경가기 - https://ndns.shop/\n\n핵이득마켓 어플 다운로드\n안드로이드전용\n https://play.google.com/store/apps/details?id=com.cafe24.ec.plusndns2021\n아이폰전용\nhttps://apps.apple.com/kr/app/%ED%95%B5%EC%9D%B4%EB%93%9D%EB%A7%88%EC%BC%93/id1581544007\n\n참피디 Q&A 2025 최신판\nhtt",
+          "top_comments": [
+            {
+              "author": "@shanghaishinSMG",
+              "text": "와!! 이리 멋진영상에 제가 나오다니!! 영광입니다🤩🤩 멋지게 담아주셔서 감사드려요!!",
+              "likes": 18
+            },
+            {
+              "author": "@참",
+              "text": "오랜만에 갑각로드 떠났습니다.\n\n2편은 정말 충격적인 영상입니다.\n\n태즈매니아 킹크랩의 실체를 밝혀드립니다.\n\n갑각로드 시리즈 전체보기\nhttps://www.youtube.com/playlist?list=PLXreh1-SDr_A5BvsprDSG0UNjBYg0N9z5",
+              "likes": 9
+            },
+            {
+              "author": "@혀장님",
+              "text": "상하이신님 언제뜨나 했는데 .. 모든 영상퀄리티 너무 좋구요!! 어서 떴으면🥹😊",
+              "likes": 6
+            },
+            {
+              "author": "@참",
+              "text": "또 봬요 상하이신님❤",
+              "likes": 3
+            },
+            {
+              "author": "@만돈-n7l",
+              "text": "상하이신 님 프로 구독하고 잘보고있는  사람입니다  항상 보는거지만  상하이신님 금방 10만 갈거라 생각했는데 보기보다  오래 걸리더라구요 참피디님의 기를받아서 10만  빨리 달성해 주세요 ~^^",
+              "likes": 2
+            }
+          ]
+        }
+      ]
     },
     "hongsound": {
       "display": "홍사운드",
-      "video_count": 2,
-      "total_views": 89814,
-      "total_likes": 1559,
-      "total_comments": 69,
+      "video_count": 3,
+      "total_views": 117784,
+      "total_likes": 2116,
+      "total_comments": 89,
       "n_short": 1,
-      "n_long": 1,
+      "n_long": 2,
       "tier_counts": {
-        "Official": 2
+        "Official": 3
       },
-      "summary": "홍사운드의 '불닭 양파쌈' 메뉴가 SNS에서 긍정적인 반응을 얻고 있으며, 이는 육회바른연어와 유사한 카테고리의 제품으로 소비자 트래픽을 끌어올 위험이 있다. 특히 홍사운드의 온라인 쇼핑몰 판매가 활발히 이루어져 있어 즉시 경쟁력 분석이 필요하다.\n  📌 불닭 양파쌈 · SNS 반응 · 온라인 쇼핑몰",
+      "summary": "홍사운드의 '불닭냉면'과 '감자만두'가 소비자로부터 긍정적인 반응을 얻고 있으며, 특히 '불닭냉면'은 맛있게 느껴지는 제품으로 평가되어 육회바른연어와 직접 경쟁 상품으로 인식될 위험이 있다. 즉시 대응이 필요한 상황.\n  📌 불닭냉면 · 감자만두 · 긍정적 반응",
       "videos": [
         {
-          "video_id": "8A4dlbo8-s4",
-          "title": "SNS폭발중인 불닭 양파쌈 솔직하게 말씀드리겠습니다",
+          "video_id": "UhhMpz_EbNw",
+          "title": "불닭냉면 & 감자만두 한입 한입이 행복한 리얼사운드 먹방 | 황금레시피 알려드림",
           "channel": "HONG SOUND",
           "subscribers": 1830000,
           "creator_tier": "Official",
           "is_verified": true,
-          "views": 32961,
-          "likes": 769,
-          "comment_count": 18,
-          "engagement_rate": 0.0239,
-          "duration": 48,
-          "is_short": true,
-          "buzz_score": 61.3,
-          "upload_date": "2026.05.20",
-          "url": "https://www.youtube.com/watch?v=8A4dlbo8-s4",
+          "views": 546,
+          "likes": 34,
+          "comment_count": 7,
+          "engagement_rate": 0.0751,
+          "duration": 518,
+          "is_short": false,
+          "buzz_score": 65.2,
+          "upload_date": "2026.05.21",
+          "url": "https://www.youtube.com/watch?v=UhhMpz_EbNw",
           "description_excerpt": "집가락 정품 구매하는 곳\n홍사운드몰 https://hongsound.shop/\n네이버 https://smartstore.naver.com/coffeechild/products/7688043656\n집가락이 특별한 이유 https://youtu.be/9KvCvdMSJ54\n\n홍사운드 플러스 채널(네츄럴 홍의 모습들) : https://www.youtube.com/channel/UCe8eXpQCaLaEiXOh2RxU_3A\n인스타그램(instagram) : https://www.instagram.com/hong_sound",
           "top_comments": [
             {
-              "author": "@이승탁-g4q",
-              "text": "둘이 같이 사는거 아니면 이게 말이 안되는데",
-              "likes": 82
+              "author": "@태윤-f6p",
+              "text": "와우..소리 미쳤다..",
+              "likes": 0
             },
             {
-              "author": "@밝고빛나는나",
-              "text": "두 분 같이 사시죠?",
-              "likes": 43
+              "author": "@박기범-v3y",
+              "text": "홍사운드님 먹방 잘 볼게요",
+              "likes": 0
             },
             {
-              "author": "@earth-k3c",
-              "text": "댓글들 계속 둘이 같이 사는거 아니냐고 하는거 불편하네...\n결혼했는데 어캐 같이 안 사냐? 행복한 신혼 생활 중이야",
-              "likes": 18
+              "author": "@yoon0402",
+              "text": "불닭냉면 너무 맛있어보여요ㅜㅜ",
+              "likes": 0
             },
             {
-              "author": "@호박0",
-              "text": "병진님 자연스러운 등장 ㅋㅋ",
-              "likes": 18
+              "author": "@박기범-v3y",
+              "text": "불닭냉면 맛있겠어요",
+              "likes": 0
             },
             {
-              "author": "@LoEwe-wj1mz",
-              "text": "당연히 같이 살죠 홍유리님이잖아요",
-              "likes": 6
+              "author": "@흐규흐규-u4u",
+              "text": "나트륨섭취 장난 없겠네",
+              "likes": 0
             }
           ]
         }
@@ -166,60 +218,35 @@
     },
     "ttoganzip": {
       "display": "또간집(풍자)",
-      "video_count": 11,
-      "total_views": 10104,
+      "video_count": 12,
+      "total_views": 10105,
       "total_likes": 259,
       "total_comments": 42,
       "n_short": 2,
-      "n_long": 9,
+      "n_long": 10,
       "tier_counts": {
-        "Nano": 9,
+        "Nano": 10,
         "Micro": 2
       },
-      "summary": "또간집의 새로운 프로모션과 MZ 포토부스가 주목받고 있으나, 직접적인 메뉴 비교는 이루어지지 않았다. 소비자 반응은 긍정적이지만, 육회바른연어와의 직접 경쟁 상황은 아직 드러나지 않았다.\n  📌 MZ 포토부스 · 긍정적 반응 · 프로모션",
+      "summary": "또간집(풍자)의 신메뉴와 프로모션은 육회바른연어와 직접적인 경쟁 상황을 반영하며, 소비자의 긍정적 반응이 자사 대비 우위를 보이고 있어 즉시 방어 전략 수립이 필요하다.\n  📌 신메뉴 · 프로모션 · 긍정적 반응",
       "videos": [
         {
-          "video_id": "wqA_3YB4C88",
-          "title": "#또간집 #삼양쭈꾸미 #잘먹고잘살자 #유미TV",
-          "channel": "유미TV",
-          "subscribers": 3260,
+          "video_id": "EHp2r3C6A74",
+          "title": "vlog 도쿄여행 브이로그🗼’또갈집’ ‘또간집’으로 모십니다 ｜ 4박5일 일정과 경비 공유📝 츠케멘 로컬 맛집, 카이센동, 당고맛집, 메론소금빵, 롯폰기 대욕장 숙소",
+          "channel": "Joyful Day조이",
+          "subscribers": 0,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 2047,
-          "likes": 5,
-          "comment_count": 1,
-          "engagement_rate": 0.0029,
-          "duration": 27,
-          "is_short": true,
-          "buzz_score": 43.2,
-          "upload_date": "2026.05.20",
-          "url": "https://www.youtube.com/watch?v=wqA_3YB4C88",
-          "description_excerpt": "맛있게 먹고, 기분 좋은 시간~^^",
-          "top_comments": [
-            {
-              "author": "@stepstoneband",
-              "text": "츄릅..' . 이런... 새벽에.'.'. 유미님 미워요~~~~😢",
-              "likes": 0
-            }
-          ]
-        },
-        {
-          "video_id": "6zHK62u8QU8",
-          "title": "(멜버른만 n번째...) 또간집 + MZ 포토부스 + 캠핑 + 늦은 입사 선물 🤍",
-          "channel": "meli",
-          "subscribers": 1,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 7,
+          "views": 1,
           "likes": 0,
           "comment_count": 0,
           "engagement_rate": 0.0,
-          "duration": 121,
+          "duration": 1807,
           "is_short": false,
-          "buzz_score": 4.9,
-          "upload_date": "2026.05.19",
-          "url": "https://www.youtube.com/watch?v=6zHK62u8QU8",
-          "description_excerpt": "records of april.\nmelbourne restaurants & cafes, photo booth, camping, cartier gift for myself\nbased in sydney \n\n#melbourne #vlog #멜버른 #멜버른브이로그 #멜버른맛집 #camping #travel #minivlog #cartier",
+          "buzz_score": 6.6,
+          "upload_date": "2026.05.21",
+          "url": "https://www.youtube.com/watch?v=EHp2r3C6A74",
+          "description_excerpt": "In today’s video on Joyful Day조이, we’re sharing a positive and heartwarming moment to brighten your day. Don’t forget to like and subscribe!",
           "top_comments": []
         }
       ]
