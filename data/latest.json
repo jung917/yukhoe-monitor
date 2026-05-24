@@ -1,9 +1,9 @@
 {
   "date": "2026-05-24",
-  "generated_at": "2026-05-24 12:36:28",
+  "generated_at": "2026-05-24 19:03:49",
   "window_days": 365,
   "data_earliest": "2025-05-24",
-  "data_latest": "2026-05-23",
+  "data_latest": "2026-05-24",
   "tiers": {
     "own": {
       "label": "자사",
@@ -48,7 +48,7 @@
         "Macro": 2,
         "Micro": 1
       },
-      "summary": "육회바른연어의 연어 관련 메뉴들이 소비자들 사이에서 긍정적인 반응을 얻고 있으며, 특히 불닭마요 연어깍두기와 연어 회가 주목받았다. 그러나 다른 연어 제품과 비교될 때 일부 소비자의 의구심이 나타나는 경우도 있어 즉시 대응 필요성이 있다.\n  📌 연어 hakkotuki · 불닭마요 양념 · 긍정적 반응",
+      "summary": "육회바른연어의 연어 관련 메뉴들이 소비자들 사이에서 긍정적인 반응을 얻고 있으며, 특히 불닭마요 양념 연어깍두기가 주목받았다. 그러나 다른 연어 제품들과 비교해 경쟁력이 부족하다는 의견도 있어 즉시 대응 필요.\n  📌 연어 hakkot · 불닭마요 양념 · 경쟁력",
       "videos": [
         {
           "video_id": "Ye8E_dCsMkw",
@@ -1092,7 +1092,7 @@
         "Macro": 1,
         "Nano": 7
       },
-      "summary": "육회야문연어는 신규 창업 매장이 오픈 첫 날 만석을 기록하며 주목받고 있으며, 소비자들의 긍정적인 반응과 인플루언서의 방문 리뷰가 점유율 증대에 기여하고 있다. 특히, 육회와 연어 메뉴에 대한 높은 평가가 경쟁사 대비 우위를 보이고 있으며, 이는 즉시 자사 마케팅 전략 재검토 및 프로모션 강화 필요성을 시사한다.\n  📌 오픈 첫 날 만석 · 긍정적 소비자 반응 · 인플루언서 방문 리뷰",
+      "summary": "육회야문연어는 신도시 상권에서 오픈 첫 날 만석을 기록하며 주목받고 있으며, 김복순의 영상에서도 다양한 메뉴를 소개해 소비자들에게 인지도를 높이고 있다. 그러나 구체적인 가격 경쟁력이나 프로모션은 언급되지 않았다.\n  📌 오픈 첫 날 만석 · 김복순 영상 소개 · 가격 경쟁력",
       "videos": [
         {
           "video_id": "ku4hG-cD5kY",
@@ -1708,7 +1708,7 @@
       "tier_counts": {
         "Nano": 1
       },
-      "summary": "김천재의 육회반한연어가 신메뉴를 통해 연어육회 무제한 리필을 제공하며, 이는 소비자들 사이에서 긍정적인 반응을 얻고 있어 자사와 직접 경쟁이 예상되며 즉시 대응 필요하다.\n  📌 연어육회 무제한 리필 · 긍정적 소비자 반응 · 즉시 방어 액션",
+      "summary": "김천재의 육회반한연어가 신메뉴 연어육회무한리필을 2인 기준 56,000원에 제공하며, 소비자들은 양과 맛에 대해 긍정적인 반응을 보이고 있어 자사 매장 트래픽 및 점유율에 위협이 될 수 있음. 즉시 가격 경쟁력 강화와 신메뉴 출시가 필요.\n  📌 연어육회무한리필 · 양과 맛 · 가격경쟁",
       "videos": [
         {
           "video_id": "Ukft6tVXwEY",
@@ -1838,7 +1838,7 @@
       "tier_counts": {
         "Nano": 1
       },
-      "summary": "연어로만S에서 구독자 이벤트를 진행하며 모든 메뉴(스페셜메뉴 제외)에 대해 10% 할인을 제공하는 프로모션을 실시하고 있어, 자사와의 가격 경쟁력 측면에서 주목해야 한다. 소비자 반응은 긍정적이지만, 이벤트 기간이 2026년으로 예정되어 있어 즉각적인 위협으로 보기는 어렵다. 그러나 장기적으로 자사 점유율에 영향을 미칠 수 있으므로 경계 필요.\n  📌 구독자 이벤트 · 10% 할인 프로모션 · 2026년",
+      "summary": "연어로만S가 이벤트를 통해 구독자들에게 모든 메뉴(스페셜메뉴 제외)에 대해 10% 할인을 제공하며, 이를 통해 고객 유치 및 매출 증대를 노리고 있다. 소비자들은 이벤트에 대한 긍정적인 반응을 보이고 있으며, 특히 교회 관련 커뮤니티에서 인기가 높아 자사와의 경쟁이 예상된다.\n  📌 구독자 이벤트 · 10% 할인 · 교회 관련",
       "videos": [
         {
           "video_id": "594DiiCC5ZA",
@@ -1988,6 +1988,1090 @@
       "negative_ratio": 0.0,
       "warning_level": "",
       "is_multi_section": true
+    }
+  },
+  "t2_occasions": {
+    "delivery_yukhoe": {
+      "occasion": "육회 배달",
+      "keywords": [
+        "육회 배달",
+        "육회 포장",
+        "배민 육회",
+        "쿠팡이츠 육회"
+      ],
+      "related": [
+        "회 배달",
+        "마장동 육회 배달"
+      ],
+      "video_count": 9,
+      "total_views": 4170116,
+      "n_short": 1,
+      "n_long": 8,
+      "shorts_pct": 0.1111111111111111,
+      "top_titles": [
+        {
+          "title": "아ㅏ ㅇ어지러우ㅓ",
+          "channel": "숏박스",
+          "views": 4163871,
+          "url": "https://www.youtube.com/watch?v=39sr2Q8Fzog"
+        },
+        {
+          "title": "월세 50만원 배달 전문점으로 5년동안 2억 저축한 31살 사장님 [ 흰고래연어육회 ]",
+          "channel": "세상의 다양한 이야기",
+          "views": 3766,
+          "url": "https://www.youtube.com/watch?v=Vrp8UQeRdCI"
+        },
+        {
+          "title": "배달 장사 돈 안된다고? 맞습니다. 그럼에도 돈 벌 수 있는 방법",
+          "channel": "당신도 사장",
+          "views": 1761,
+          "url": "https://www.youtube.com/watch?v=nqkgLPJOWR0"
+        },
+        {
+          "title": "일본인이 충격😳한국은 육회도 배달이 된다고요?!",
+          "channel": "코지코지 ",
+          "views": 402,
+          "url": "https://www.youtube.com/watch?v=nXvyfrJE1YI"
+        },
+        {
+          "title": "통영 생고기맛집 육삼. 뭉티기·육회·삼겹살, 100% 국내산 한돈 한우고기, 당일 도축된 뭉티기 전문취급 신선하고 깔끔한 육사시미 전문맛집 포장가능 육삼",
+          "channel": "TV OK114",
+          "views": 209,
+          "url": "https://www.youtube.com/watch?v=Qpk-cixDPpY"
+        },
+        {
+          "title": "배달브이로그｜안양2인조｜리얼 배달기 \"계단지옥!!\"｜7시간 배달 수익 공개",
+          "channel": "안양2인조",
+          "views": 74,
+          "url": "https://www.youtube.com/watch?v=5H1WXTh88v8"
+        },
+        {
+          "title": "#고향생고기 #육회맛집 #육회비빔밥#은평구맛집 #불광동맛집 #연신내맛집#저녁맛집 #야식맛집 #대조동맛집#리뷰 #후기 #배달맛집 #쿠팡이츠주소 : 은평구 통일로",
+          "channel": "정꼬마TV",
+          "views": 14,
+          "url": "https://www.youtube.com/watch?v=LlZdF8fN5rM"
+        },
+        {
+          "title": "배달의기도 엄마",
+          "channel": "♂ 머꾸べ머꾸𓅿𓅿  ⍤⃝",
+          "views": 14,
+          "url": "https://www.youtube.com/watch?v=nKBmOe4ndhc"
+        },
+        {
+          "title": "#육회바른연어 #구파발역맛집 #구파발맛집 #진관동맛집#은평구맛집 #북한산맛집 #육회맛집#연어초밥맛집 #소고기스테이크맛집#배달맛집 #후기 #리뷰 #내돈내산#야식맛집 #저녁추천메뉴",
+          "channel": "정꼬마TV",
+          "views": 5,
+          "url": "https://www.youtube.com/watch?v=9QsoqiRopKU"
+        }
+      ]
+    },
+    "yeoneo_deopbap": {
+      "occasion": "연어덮밥",
+      "keywords": [
+        "연어덮밥",
+        "연어회덮밥",
+        "연어덮밥 맛집"
+      ],
+      "related": [
+        "연어 정식",
+        "덮밥 맛집"
+      ],
+      "video_count": 9,
+      "total_views": 126202,
+      "n_short": 1,
+      "n_long": 8,
+      "shorts_pct": 0.1111111111111111,
+      "top_titles": [
+        {
+          "title": "\"제가 받아온 거 맞습니다\"... 수사관, 결국 연어 회덮밥 '인정'",
+          "channel": "JTV뉴스",
+          "views": 71980,
+          "url": "https://www.youtube.com/watch?v=74rYhK48pTM"
+        },
+        {
+          "title": "연어덮밥 사케동 제대로 만들어 드세요. サーモン丼 さけどん #연어덮밥 어 #레시피 #일본요리",
+          "channel": "오키나와 저녁",
+          "views": 14205,
+          "url": "https://www.youtube.com/watch?v=QheZmLF7bzQ"
+        },
+        {
+          "title": "[신통방통] 민주당, '페트병 소주' 재연···소주 채우고 연어덮밥 받은게 '의혹 입증'?",
+          "channel": "뉴스TVCHOSUN",
+          "views": 10192,
+          "url": "https://www.youtube.com/watch?v=m5XsS_qUbrY"
+        },
+        {
+          "title": "[돌발영상] 나경원 \"근사한 연어회가 아니라 연어 회덮밥이네?\" / YTN",
+          "channel": "YTN POPUP OUTBREAK NEWS",
+          "views": 9499,
+          "url": "https://www.youtube.com/watch?v=-y4TMYaaIeU"
+        },
+        {
+          "title": "박은정, 박상용 고발 반대 퇴장 국힘에 “연어 회덮밥 좀 사 오세요” 서영교 “1분 더 줘요?”",
+          "channel": "미디어오늘",
+          "views": 8797,
+          "url": "https://www.youtube.com/watch?v=4jpnQf3v_s8"
+        },
+        {
+          "title": "교도관 \"연어 회덮밥 제가 받아왔다\"..수원지검 '멘붕' [26. 4. 3.]",
+          "channel": "제주MBC NEWS",
+          "views": 5050,
+          "url": "https://www.youtube.com/watch?v=V7N7mjZlsdE"
+        },
+        {
+          "title": "[돌발영상] 나경원 \"근사한 연어회가 아니라 연어 회덮밥이네?\" / YTN",
+          "channel": " YTN",
+          "views": 3530,
+          "url": "https://www.youtube.com/watch?v=wWA1qugEf80"
+        },
+        {
+          "title": "나경원 \"15분 동안 연어회덮밥·술· 환기까지 가능하겠냐\" [티조Clip]",
+          "channel": "뉴스TVCHOSUN",
+          "views": 2887,
+          "url": "https://www.youtube.com/watch?v=PU7O1eBwxsw"
+        },
+        {
+          "title": "1인분 13,900원｜비비지 않고 쌓아 먹는 연어덮밥 [부평 점심 맛집｜구르메 리포트]",
+          "channel": "구르메 리포트",
+          "views": 62,
+          "url": "https://www.youtube.com/watch?v=yQFttVpoCbg"
+        }
+      ]
+    },
+    "yukhoe_yeoneo_sushi": {
+      "occasion": "육회초밥/연어초밥",
+      "keywords": [
+        "육회초밥",
+        "연어초밥",
+        "육회연어초밥"
+      ],
+      "related": [
+        "스시 캐주얼",
+        "초밥 뷔페",
+        "쿠우쿠우",
+        "스시노칸도",
+        "은행골"
+      ],
+      "video_count": 10,
+      "total_views": 417904,
+      "n_short": 0,
+      "n_long": 10,
+      "shorts_pct": 0.0,
+      "top_titles": [
+        {
+          "title": "입에서 녹는 대왕연어초밥과 일반 연어초밥, 오뎅탕 먹방~!! salmon sushi",
+          "channel": "ddeong-gae",
+          "views": 132389,
+          "url": "https://www.youtube.com/watch?v=RSeQ77-8o8Q"
+        },
+        {
+          "title": "쇼츠 비명맛집 *연어초밥님을 초대해서* 마크 기술들을 배워보자",
+          "channel": "꼬예유 & 한예찬의 게임저장소",
+          "views": 88566,
+          "url": "https://www.youtube.com/watch?v=Fmly6olikA0"
+        },
+        {
+          "title": "연어초밥 달걀 초밥과 마라샹궈 먹방🔥일반 당면 왕창 추가한 마라샹궈는 정말 최고야!!! (feat. 코코넛) REALSOUND MUKBANG | Mara Xian Guo :D",
+          "channel": "나도Nado",
+          "views": 73234,
+          "url": "https://www.youtube.com/watch?v=lP7rXj2IoDk"
+        },
+        {
+          "title": "후레쉬 연어는 이 소스가 제일 맛있습니다. サーモン用りんごソース #레시피 #연어초밥 #소스",
+          "channel": "오키나와 저녁",
+          "views": 59618,
+          "url": "https://www.youtube.com/watch?v=vgj9jHmn4-o"
+        },
+        {
+          "title": "오늘 라인업 미쳤다! 완전 연어 파티 아인교🔥 베릅이의 먹방VLOG | 대왕연어초밥, 불닭볶음탕면, 엽떡 국물무뼈닭발, 제육볶음, 연어국수, 육회연어초밥, 배홍동칼빔면, 뿌링사이드",
+          "channel": "츄베릅JMT",
+          "views": 57728,
+          "url": "https://www.youtube.com/watch?v=Wc1QLxUF7zs"
+        },
+        {
+          "title": "첫먹방은 직접만든 왕연어초밥, 육회불닭볶음면(feat.새우튀김) 🍣🍤😋",
+          "channel": "지얌 JIYAM",
+          "views": 3251,
+          "url": "https://www.youtube.com/watch?v=LEtH5XRkyzU"
+        },
+        {
+          "title": "육회바른연어 육회 & 연어 초밥 먹방 ASMR 🍣 노토킹 리얼사운드 먹방 브이로그 꿀조합 내돈내산 솔직 리뷰 먹방스타그램 먹스타그램 육회먹방 연어먹방 이팅사운드 먹방레전드",
+          "channel": "Captain-Q ASMR Mukbang Eating show",
+          "views": 2979,
+          "url": "https://www.youtube.com/watch?v=__QPdZV-MLc"
+        },
+        {
+          "title": "[신중동역 맛집] 스시이안앤 신중동역점 - 육회연어초밥이 맛있는 회전초밥 맛집 / 초밥",
+          "channel": "구르메 리포트",
+          "views": 68,
+          "url": "https://www.youtube.com/watch?v=ujJ4X9bcTBk"
+        },
+        {
+          "title": "Beef Tartare & Sushi Mukbang | 육회 & 육회초밥 먹방",
+          "channel": "DOPAMINE_MUKBANG",
+          "views": 37,
+          "url": "https://www.youtube.com/watch?v=kXFXWpa7vz4"
+        },
+        {
+          "title": "피곤할 때는 연어다! [덕천맛집] 봉황당 육회·연어·초밥",
+          "channel": "아무거나",
+          "views": 34,
+          "url": "https://www.youtube.com/watch?v=yVymbC45RUQ"
+        }
+      ]
+    },
+    "gaseongbi_anju": {
+      "occasion": "가성비 술안주",
+      "keywords": [
+        "가성비 안주",
+        "술안주 추천",
+        "2차 술집",
+        "포차 안주",
+        "가성비 술자리"
+      ],
+      "related": [
+        "79대포",
+        "역전할머니맥주",
+        "한신포차"
+      ],
+      "video_count": 22,
+      "total_views": 4174269,
+      "n_short": 0,
+      "n_long": 22,
+      "shorts_pct": 0.0,
+      "top_titles": [
+        {
+          "title": "술 소비 5060은 늘고 2030은 줄어든 이유｜크랩",
+          "channel": "크랩 KLAB",
+          "views": 2237998,
+          "url": "https://www.youtube.com/watch?v=vykr8VDOiCM"
+        },
+        {
+          "title": "[ENG SUB] I.O.I 전소미 최유정 청하 유연정 [짠한형 EP.145] 🗣️10년 만에 프듀 썰.mov",
+          "channel": "짠한형 신동엽",
+          "views": 1465391,
+          "url": "https://www.youtube.com/watch?v=NHEf8d9FTDo"
+        },
+        {
+          "title": "오늘 안주 추천",
+          "channel": "180초",
+          "views": 415197,
+          "url": "https://www.youtube.com/watch?v=0jzUOo1nXhg"
+        },
+        {
+          "title": "주 8회 술 마시는 한의사가 추천하는 살 빠지는 술안주 TOP3 (다이어트 식단,짠한형)",
+          "channel": "살빼주는한의사언니",
+          "views": 18842,
+          "url": "https://www.youtube.com/watch?v=oDrQCXI3L_0"
+        },
+        {
+          "title": "신박한 꿀템❤️꿀템 폭로 리뷰. 간식, 안주, 디저트, 신박템 등등 노브랜드 추천템6 , 한 가지는 절대사지마세요;; 가성비 맛 모두 잡은 노브랜드 가성비템 솔직 리뷰!",
+          "channel": "TakJuBu_as I want",
+          "views": 12878,
+          "url": "https://www.youtube.com/watch?v=-5brwiTXXrY"
+        },
+        {
+          "title": "신촌술집🍺20년 신촌 터줏대감! 단체 모임의 성지, 청담동포장마차 신촌본점에서 치츠계란말이에 레몬 소주 한 잔! / #신촌술집 #신촌단체모임 #신촌회식장소  #청담동포장마차",
+          "channel": "선식객 - Sik Agent",
+          "views": 10621,
+          "url": "https://www.youtube.com/watch?v=H-MgjXFb9W0"
+        },
+        {
+          "title": "가성비 안주로 소주만 10병 까는 캠핑 먹방 브이로그(ft.충주풍물시장)",
+          "channel": "호차 HOCHA",
+          "views": 5782,
+          "url": "https://www.youtube.com/watch?v=qnQcKZuEvgM"
+        },
+        {
+          "title": "[향남맛집] 포차감성 제대로에 푸짐한 안주들과 가성비 미친 술집😎 부담없이 편하게 한잔하기 좋은 곳🍺🍺",
+          "channel": "정슐랭",
+          "views": 3153,
+          "url": "https://www.youtube.com/watch?v=-jz34UidtZc"
+        },
+        {
+          "title": "[광고] 이거 술안주에 미쳤습니다...추운 날 먹기 딱 좋은 쿠팡 No.1 밀키트 (맛/ 가격/ 구성 대신 리뷰 해드림!) 문의 많았던 ‘가성비 끝판왕’ 밀키트. 괜히 1위 아니네",
+          "channel": "오늘 뭐 먹을지 정해준다! | 솔드와아웃",
+          "views": 2490,
+          "url": "https://www.youtube.com/watch?v=3MaUEkCU7B0"
+        },
+        {
+          "title": "가성비 폭발 “이 가격에 이 양? 미쳤다!”",
+          "channel": "즐펀포차",
+          "views": 1016,
+          "url": "https://www.youtube.com/watch?v=5aI8EFXU_qo"
+        }
+      ]
+    },
+    "yasik_delivery": {
+      "occasion": "야식/배달",
+      "keywords": [
+        "야식 추천",
+        "배달 맛집",
+        "배달 안주",
+        "야식 메뉴"
+      ],
+      "related": [
+        "족발 배달",
+        "보쌈 배달",
+        "회 배달"
+      ],
+      "video_count": 13,
+      "total_views": 7782522,
+      "n_short": 2,
+      "n_long": 11,
+      "shorts_pct": 0.15384615384615385,
+      "top_titles": [
+        {
+          "title": "대한민국 최고가 배달음식은 돈값 할까?",
+          "channel": "고재영",
+          "views": 3320861,
+          "url": "https://www.youtube.com/watch?v=0WPzR6kvVGk"
+        },
+        {
+          "title": "하루종일 배달음식만 먹어봤습니다🔥 적립 포인트 공개! 엽떡 버거킹 두찜 파파존스 배달지옥",
+          "channel": "tzuyang",
+          "views": 2674769,
+          "url": "https://www.youtube.com/watch?v=oloeGY3oAVg"
+        },
+        {
+          "title": "성수 배달지옥🔥 유명한 성수맛집 싹다 배달시켰습니다. 성수족발 감자탕 떡볶이와 마라곤약젤리 먹방",
+          "channel": "tzuyang",
+          "views": 731089,
+          "url": "https://www.youtube.com/watch?v=HbJCszPqy_I"
+        },
+        {
+          "title": "출출한 밤에 추천하는 야식 메뉴 4가지ㅣ안성재거덩요👨‍🍳",
+          "channel": "셰프 안성재 Chef Sung Anh",
+          "views": 600684,
+          "url": "https://www.youtube.com/watch?v=coRtlS6EV3M"
+        },
+        {
+          "title": "오늘 안주 추천",
+          "channel": "180초",
+          "views": 415219,
+          "url": "https://www.youtube.com/watch?v=0jzUOo1nXhg"
+        },
+        {
+          "title": "배달음식 없이 못 살아😭 식비고 뭐고 일단 시키고 보는 배달 VIP녀들💸 #먹방 #mukbang",
+          "channel": "채널아하: 채널A Health & Asset",
+          "views": 16571,
+          "url": "https://www.youtube.com/watch?v=AzxY0GD_FqQ"
+        },
+        {
+          "title": "'연쇄 사망' 여성, \"배달 맛집 가자\"며 유인 (2026.02.15/뉴스투데이/MBC)",
+          "channel": "MBCNEWS",
+          "views": 11999,
+          "url": "https://www.youtube.com/watch?v=a_uhJXY-cD8"
+        },
+        {
+          "title": "베트남 다낭 여행 배달맛집은 바로 여기!!",
+          "channel": "브이몽티비 [VMONGTV]",
+          "views": 5824,
+          "url": "https://www.youtube.com/watch?v=dR8ML7ro2aI"
+        },
+        {
+          "title": "전자렌지 배달 족발 조리시간 5분 컷 배달 전문으로 월 매출 1억 8200만원 [ 먹 보 족 ]  | 휴먼스토리 | 일상속으로 | 당신이주인공 | 돈버는 사람들 | 장사의신 |",
+          "channel": "세상의 다양한 이야기",
+          "views": 4549,
+          "url": "https://www.youtube.com/watch?v=WVElSabnvzg"
+        },
+        {
+          "title": "🚨\"먹고 싶은 야식 참지 말고 이렇게 드세요!\" 산부인과 의사가 추천하는 똑똑하고 건강한 야식 [의사결정 ep.120 Full Ver.]🚨",
+          "channel": "CBS 경제연구실",
+          "views": 760,
+          "url": "https://www.youtube.com/watch?v=sUE9ad87RpI"
+        }
+      ]
+    },
+    "honbap_lunch": {
+      "occasion": "혼밥/점심",
+      "keywords": [
+        "혼밥 추천",
+        "덮밥 맛집",
+        "점심 혼밥"
+      ],
+      "related": [
+        "핵밥",
+        "홍대개미",
+        "덮밥장 사장류"
+      ],
+      "video_count": 22,
+      "total_views": 815709,
+      "n_short": 0,
+      "n_long": 22,
+      "shorts_pct": 0.0,
+      "top_titles": [
+        {
+          "title": "혼밥 이렇게 드세요. 돈 모으기 가장 쉽습니다.",
+          "channel": "자취요리 뱅_쉽고 편한 자취 요리",
+          "views": 337301,
+          "url": "https://www.youtube.com/watch?v=GhDSn2qY36E"
+        },
+        {
+          "title": "[98KG의 애슐리 혼밥] 아바타 보는 꿀팁 방출❤️",
+          "channel": "박빼빼",
+          "views": 191350,
+          "url": "https://www.youtube.com/watch?v=ZpMD1QdXTf8"
+        },
+        {
+          "title": "서울속의 작은 도쿄~!  윤종신 노래 가사에도 나오는 상가 덮밥맛집~! ㅣ상가수첩2호 : 이촌 로얄상가ㅣ",
+          "channel": "오늘부터 황제성",
+          "views": 158892,
+          "url": "https://www.youtube.com/watch?v=vEgaMQIn-q4"
+        },
+        {
+          "title": "제주 여행🌴 혼밥 가능한 밥집 + 카페 20곳 | 혼자라도 꼭 가보고 싶은 꿀맛 모음!🔥",
+          "channel": "아임지니 Jini Pass",
+          "views": 91416,
+          "url": "https://www.youtube.com/watch?v=rG22Yr2lcvo"
+        },
+        {
+          "title": "서울 성수 맛집 총정리｜데이트·혼밥·모임 전부 가능한 12곳",
+          "channel": "Minsullin Guide KoreaFoodie ",
+          "views": 13079,
+          "url": "https://www.youtube.com/watch?v=yQfW_GlSlrU"
+        },
+        {
+          "title": "진짜 미친 비주얼의 역대급 장어덮밥 맛집!!! 오사카 장어덮밥집 '이즈모'",
+          "channel": "웅짱TVうんちゃんTV",
+          "views": 11367,
+          "url": "https://www.youtube.com/watch?v=2VzVTLYH81k"
+        },
+        {
+          "title": "교토 맛집 5곳 추천🍱미슐랭 장어덮밥 · 스키야키 · 히키니쿠토코메 교토점 - 일본 교토 여행",
+          "channel": "책쓰는 미식가",
+          "views": 8653,
+          "url": "https://www.youtube.com/watch?v=Vw6Ye5lp9Mo"
+        },
+        {
+          "title": "서울에서 혼자 놀기✨️ 홍대 또간집 혼밥 맛집 추천☃️ 연남동 카페, 소품샵 투어 | 일본 감성 LP 카페 | 팝업스토어 전시회 | 오브젝트 서교 | 당일치기 여행 vlog",
+          "channel": "가빈 gabin",
+          "views": 1089,
+          "url": "https://www.youtube.com/watch?v=aMoKLemNRd4"
+        },
+        {
+          "title": "혼자라서 더 좋은 특별한 메뉴! 부산의 혼밥 맛집 강력 추천 [ 생방송부라보 ] 20260306",
+          "channel": "부산MBC",
+          "views": 873,
+          "url": "https://www.youtube.com/watch?v=_rd-tqf3XDQ"
+        },
+        {
+          "title": "아웃백에서 혼밥하기 가능?",
+          "channel": "이창배",
+          "views": 418,
+          "url": "https://www.youtube.com/watch?v=1KAuriXA-sI"
+        }
+      ]
+    }
+  },
+  "t3_channels": {
+    "ttoganzip": {
+      "name": "또간집",
+      "format": "지역 맛집 재방문 시리즈",
+      "strength": "MZ 신뢰도, 풍자 진행, 일식·스시·맛집 다수",
+      "lesson": "방문 기록·실사 후기·재방문 신뢰",
+      "applicability": "자사 매장 재방문 리뷰, 단골 인터뷰 콘텐츠",
+      "video_count": 8,
+      "total_views": 5883241,
+      "n_short": 0,
+      "n_long": 8,
+      "shorts_pct": 0.0,
+      "top_titles": [
+        {
+          "title": "★100회 특집★ 대한민국 소도시 100개 복불복, 지금 바로 출발합니다. | 또간집 EP.100",
+          "channel": "스튜디오 수제",
+          "views": 2050276,
+          "url": "https://www.youtube.com/watch?v=1HExH6cy5BQ"
+        },
+        {
+          "title": "살빠진 풍자 먹방 기강 잡는 신기루의 16년 단골 맛집  | 또간집 EP.94",
+          "channel": "스튜디오 수제",
+          "views": 1640238,
+          "url": "https://www.youtube.com/watch?v=vAKeY1t_bLI"
+        },
+        {
+          "title": "안산 사람들은 다 안다는 ‘이 메뉴’, 토박이 로컬 찐맛집 대공개 | 또간집 EP.90",
+          "channel": "스튜디오 수제",
+          "views": 1301961,
+          "url": "https://www.youtube.com/watch?v=4cCrjwgi54w"
+        },
+        {
+          "title": "🔥하모예! 맛있지예!🔥삼성, LG 창업주 배출한 경상도 진주의 차원이 다른 맛부심 | 또간집 EP.101",
+          "channel": "스튜디오 수제",
+          "views": 570395,
+          "url": "https://www.youtube.com/watch?v=Uf8V4EvPKWk"
+        },
+        {
+          "title": "설날핑계로 명절음식 때려박는 먹방쇼🔥",
+          "channel": "풍자테레비",
+          "views": 196363,
+          "url": "https://www.youtube.com/watch?v=nk3FZe7z4tQ"
+        },
+        {
+          "title": "두친자의 최최최종 두쫀쿠",
+          "channel": "풍자테레비",
+          "views": 121679,
+          "url": "https://www.youtube.com/watch?v=pIh3Ss9yuXQ"
+        },
+        {
+          "title": "풍자 또간집 1위  남양주 오리촌, 직접 가서 먹어봤습니다",
+          "channel": "헌썸 Heonsome",
+          "views": 1910,
+          "url": "https://www.youtube.com/watch?v=bF2EATeVrsA"
+        },
+        {
+          "title": "분당 수내 서현 다녀왔습니다 - 풍자 또간집 예돈돈까스 오픈런후기",
+          "channel": "이케",
+          "views": 419,
+          "url": "https://www.youtube.com/watch?v=54U44jTNNeQ"
+        }
+      ]
+    },
+    "seongsikyeong": {
+      "name": "성시경 먹을텐데",
+      "format": "셀럽 식당 방문 롱폼",
+      "strength": "감성·신뢰·고급 식당 큐레이션",
+      "lesson": "셀럽·미식가 추천 효과",
+      "applicability": "지역 미식가/인플루언서 매장 방문 협업",
+      "video_count": 19,
+      "total_views": 10812495,
+      "n_short": 0,
+      "n_long": 19,
+      "shorts_pct": 0.0,
+      "top_titles": [
+        {
+          "title": "[sub] 성시경의 먹을텐데 l 망원역 몽골생소금구이 (with. 화사)",
+          "channel": "성시경 SUNG SI KYUNG",
+          "views": 1035693,
+          "url": "https://www.youtube.com/watch?v=RZJDKKl7VrM"
+        },
+        {
+          "title": "[sub] 성시경의 만날텐데 l 명예영국인🩷 호쾌한 매력에 입담까지 완벽! 많이 웃었습니다😂",
+          "channel": "성시경 SUNG SI KYUNG",
+          "views": 994013,
+          "url": "https://www.youtube.com/watch?v=In8fsZEDEcY"
+        },
+        {
+          "title": "[sub] 성시경의 먹을텐데 l 한남동 압구정진주 (with.박서준)",
+          "channel": "성시경 SUNG SI KYUNG",
+          "views": 861199,
+          "url": "https://www.youtube.com/watch?v=1tg6dEbU1no"
+        },
+        {
+          "title": "[sub] 성시경의 먹을텐데 l 남영동 까치네",
+          "channel": "성시경 SUNG SI KYUNG",
+          "views": 741731,
+          "url": "https://www.youtube.com/watch?v=Nyg6h7-xxEA"
+        },
+        {
+          "title": "[sub] 성시경의 먹을텐데 l 잠원동 한신치킨호프",
+          "channel": "성시경 SUNG SI KYUNG",
+          "views": 684157,
+          "url": "https://www.youtube.com/watch?v=47bO-VRW13Q"
+        },
+        {
+          "title": "[sub] 성시경의 먹을텐데 l 잠실 별미곱창 (with.비비)",
+          "channel": "성시경 SUNG SI KYUNG",
+          "views": 651403,
+          "url": "https://www.youtube.com/watch?v=TuT0kthdfGE"
+        },
+        {
+          "title": "[sub] 성시경의 먹을텐데 l 합정역 제주삼다돈 (with.임지연)",
+          "channel": "성시경 SUNG SI KYUNG",
+          "views": 617963,
+          "url": "https://www.youtube.com/watch?v=bfBmJCPgCmI"
+        },
+        {
+          "title": "[sub] 성시경의 먹을텐데 l 가락시장 수동상회",
+          "channel": "성시경 SUNG SI KYUNG",
+          "views": 605433,
+          "url": "https://www.youtube.com/watch?v=Xhy8JKSIp70"
+        },
+        {
+          "title": "[sub] 성시경의 먹을텐데 l 삼각지 삼각정",
+          "channel": "성시경 SUNG SI KYUNG",
+          "views": 517600,
+          "url": "https://www.youtube.com/watch?v=BRB34sU9lJM"
+        },
+        {
+          "title": "성시경의 먹을텐데 l 둔촌동역 다람 강동본점",
+          "channel": "성시경 SUNG SI KYUNG",
+          "views": 513184,
+          "url": "https://www.youtube.com/watch?v=KF_8wNtJ9TM"
+        }
+      ]
+    },
+    "matsangmu": {
+      "name": "맛상무",
+      "format": "상권·자영업 분석",
+      "strength": "외식업 비즈니스 관점, 가맹점주 신뢰",
+      "lesson": "프랜차이즈 데이터·매출 공개",
+      "applicability": "육바연 가맹 사례, 매출·실적 인터뷰",
+      "video_count": 50,
+      "total_views": 2837024,
+      "n_short": 0,
+      "n_long": 50,
+      "shorts_pct": 0.0,
+      "top_titles": [
+        {
+          "title": "2,900원 치킨버거 !! 맘스터치 대체 가능할까?",
+          "channel": "맛상무",
+          "views": 129340,
+          "url": "https://www.youtube.com/watch?v=ecVTr6NqKJo"
+        },
+        {
+          "title": "새해부터 대혼종파티~ 붕어빵 어포, 쌈장 떡볶이, 붉은말 햄버거 2026년 첫 편의점 리뷰",
+          "channel": "맛상무",
+          "views": 104534,
+          "url": "https://www.youtube.com/watch?v=V0RNG1shVNQ"
+        },
+        {
+          "title": "이 집만 가는 이유~ 맛상무 단골 뷔페 찐 후기",
+          "channel": "맛상무",
+          "views": 101623,
+          "url": "https://www.youtube.com/watch?v=3W1IGe8K2Kk"
+        },
+        {
+          "title": "진검승부!! 흑백요리사2 편의점 전쟁~ 1월 넷째 주 신제품 리뷰",
+          "channel": "맛상무",
+          "views": 97078,
+          "url": "https://www.youtube.com/watch?v=GE6UtvMoFPk"
+        },
+        {
+          "title": "미국치킨 한국상륙 선키스트 치킨",
+          "channel": "맛상무",
+          "views": 94843,
+          "url": "https://www.youtube.com/watch?v=0Z5UjOljJX4"
+        },
+        {
+          "title": "백만개 팔린 도시락 2탄, 유사 두쫀쿠, 실비김치우동~ 1월 셋째 주 편의점 신제품 리뷰",
+          "channel": "맛상무",
+          "views": 94330,
+          "url": "https://www.youtube.com/watch?v=K3SF244cD3E"
+        },
+        {
+          "title": "적당히가 없네..갓성비 도시락, 에드워드리 김치전, 삼겹살 아이스크림~ 1월 둘째 주 편의점 신제품 리뷰",
+          "channel": "맛상무",
+          "views": 92814,
+          "url": "https://www.youtube.com/watch?v=MPzxop04BWo"
+        },
+        {
+          "title": "손종원 쌈밥 vs 정호영 해장국~ 4월 첫째 주 편의점 신제품 리뷰",
+          "channel": "맛상무",
+          "views": 88823,
+          "url": "https://www.youtube.com/watch?v=qBpnwlMSwIk"
+        },
+        {
+          "title": "대박~3,900원 스팸도시락+라면, 에드워드리 함박, 트릭컬~ 12월 둘째 주 편의점 신상품 리뷰",
+          "channel": "맛상무",
+          "views": 87747,
+          "url": "https://www.youtube.com/watch?v=WyokTJoPI7I"
+        },
+        {
+          "title": "점점 너프하는~ 올해 마지막 편의점 신제품 리뷰",
+          "channel": "맛상무",
+          "views": 85590,
+          "url": "https://www.youtube.com/watch?v=ZZ4GPBAr_-0"
+        }
+      ]
+    },
+    "hoesarang": {
+      "name": "회사랑",
+      "format": "회 전문 리얼사운드·먹방",
+      "strength": "회·연어·광어 전문 콘텐츠",
+      "lesson": "메뉴 다양성·재료 신선도 강조",
+      "applicability": "자사 신메뉴·재료 다양성 ASMR",
+      "video_count": 11,
+      "total_views": 989668,
+      "n_short": 0,
+      "n_long": 11,
+      "shorts_pct": 0.0,
+      "top_titles": [
+        {
+          "title": "제한 시간 1시간 89,000원 킹크랩 무한리필에 다녀왔습니다!",
+          "channel": "회사랑RawFishEater",
+          "views": 248646,
+          "url": "https://www.youtube.com/watch?v=J1pyZCr69q4"
+        },
+        {
+          "title": "사조참치에서 만든 참치횟집은 특별할까? 궁금해서 다녀왔습니다!(광고X)",
+          "channel": "회사랑RawFishEater",
+          "views": 191073,
+          "url": "https://www.youtube.com/watch?v=4hkXU7qyJsQ"
+        },
+        {
+          "title": "참돔초밥, 성게아귀간초밥, LA갈비, 홍게, 아귀찜 무제한?? 리뉴얼한 고메스퀘어에 다녀왔습니다!",
+          "channel": "회사랑RawFishEater",
+          "views": 128910,
+          "url": "https://www.youtube.com/watch?v=IDOnBhDqz6o"
+        },
+        {
+          "title": "값비싼 대방어, 직접 잡으면 저렴할까? 인당 14만원 대방어 낚시 체험배를 타고 왔습니다!",
+          "channel": "회사랑RawFishEater",
+          "views": 120091,
+          "url": "https://www.youtube.com/watch?v=d4fdFYTqfeo"
+        },
+        {
+          "title": "흑백요리사2 출신 횟집은 특별할까? 진짜 솔직한 후기 전해봅니다.(내돈내산)",
+          "channel": "회사랑RawFishEater",
+          "views": 105680,
+          "url": "https://www.youtube.com/watch?v=x9qpY3doS2g"
+        },
+        {
+          "title": "인당 2만원 이하에 배 터집니다... 서울 평균 반값에 막 퍼주는 숙성횟집에 다녀왔습니다!",
+          "channel": "회사랑RawFishEater",
+          "views": 87985,
+          "url": "https://www.youtube.com/watch?v=KfAymGFpUnw"
+        },
+        {
+          "title": "인당 2.9만원 카라비네로 오마카세?! 가성비로는 역대급입니다(※콜키지 프리)",
+          "channel": "회사랑RawFishEater",
+          "views": 56993,
+          "url": "https://www.youtube.com/watch?v=Fax4oN9kNMI"
+        },
+        {
+          "title": "전지점 웨이팅하는 숙성회 프랜차이즈는 정말 맛있을까?",
+          "channel": "회사랑RawFishEater",
+          "views": 46385,
+          "url": "https://www.youtube.com/watch?v=6vHPmRqiHuE"
+        },
+        {
+          "title": "[멋진신세계 7화예고] 미친.. 이게 이유라고? 서리가 사랑했던 이현을 기억 못 하는 서글픈 비밀과 6화 바닷가 대사의 소름 돋는 복선",
+          "channel": "함께 즐기는 쏭드라마입니다.",
+          "views": 2215,
+          "url": "https://www.youtube.com/watch?v=hWGO_jUHUtg"
+        },
+        {
+          "title": "[유튜브라디오] 201회 사랑의 종소리 -  가장 위대한 용서",
+          "channel": "김석균목사와 함께",
+          "views": 1562,
+          "url": "https://www.youtube.com/watch?v=pqLYoCkcCfo"
+        }
+      ]
+    },
+    "foodyland": {
+      "name": "푸디랜드",
+      "format": "음식 트렌드·신메뉴 리뷰",
+      "strength": "트렌드 빠른 캐치",
+      "lesson": "신메뉴·트렌드 초기 알리기",
+      "applicability": "자사 신메뉴 출시 보도자료·인플루언서 협업",
+      "video_count": 4,
+      "total_views": 665043,
+      "n_short": 0,
+      "n_long": 4,
+      "shorts_pct": 0.0,
+      "top_titles": [
+        {
+          "title": "국내유일! 맛탕 주는 읍내 닭강정집에서 고구마만 한달 1톤? 염지부터 특제소스, 장어토핑까지 모든게 수제인 역대급 닭강정집┃Dakgangjeong / Korean Food",
+          "channel": "FoodieLand",
+          "views": 249074,
+          "url": "https://www.youtube.com/watch?v=AnB27n20LFM"
+        },
+        {
+          "title": "제육,불고기,생선구이중 하나만 고르면 13가지 반찬이 무한리필인 1만원 백반? 매일새벽 홀로 반찬 다만드는 엄마백반집┃$6.99 Korean mom's Home-Style Meal",
+          "channel": "FoodieLand",
+          "views": 162051,
+          "url": "https://www.youtube.com/watch?v=NhnTC3RRy_Q"
+        },
+        {
+          "title": "미나리만 한달 350kg써도 모자란 산아래 삼겹살집? 직접만든 13가지 푸짐한 기본찬으로 단체손님까지 끊이지 않는 야장 고깃집┃Samgyeopsal /KoreanStreetFood",
+          "channel": "FoodieLand",
+          "views": 160322,
+          "url": "https://www.youtube.com/watch?v=AxGBUHEcunI"
+        },
+        {
+          "title": "12판씩 다 팔리는 역대급 정류장 떡볶이? 20년 단골 연예인이 한달에 한번씩 온다는 매콤 떡볶이 맛집 등. 맛있는 분식 영상 몰아보기┃BEST3 Korean street food",
+          "channel": "FoodieLand",
+          "views": 93596,
+          "url": "https://www.youtube.com/watch?v=Ajq15U6o5Ns"
+        }
+      ]
+    },
+    "yamiboy": {
+      "name": "야미보이",
+      "format": "글로벌 음식 콘텐츠",
+      "strength": "한식·일식 글로벌 콘텐츠 노출",
+      "lesson": "외국인 시선에서 한식 매력 표현",
+      "applicability": "자사 글로벌 콘텐츠 (영문 자막)",
+      "video_count": 7,
+      "total_views": 2111357,
+      "n_short": 0,
+      "n_long": 7,
+      "shorts_pct": 0.0,
+      "top_titles": [
+        {
+          "title": "태국의 신기한 조리방식! 대량으로 만드는 통닭 모음 / curious thai cooking method! roasted whole chickens",
+          "channel": "야미보이 Yummyboy",
+          "views": 538503,
+          "url": "https://www.youtube.com/watch?v=Tn3EF8pFYUg"
+        },
+        {
+          "title": "거대한 계란 볶음밥! 동남아 대량 볶음밥 모음 / giant egg fried rice!",
+          "channel": "야미보이 Yummyboy",
+          "views": 437526,
+          "url": "https://www.youtube.com/watch?v=_j4Dap8enAE"
+        },
+        {
+          "title": "한국의 겨울 길거리 음식! 유명 호떡 14가지 몰아보기! / korean winter street food! hotteok!",
+          "channel": "야미보이 Yummyboy",
+          "views": 431251,
+          "url": "https://www.youtube.com/watch?v=egOSam3g3ag"
+        },
+        {
+          "title": "한국의 인기 가마솥 통닭! / Korea's popular cauldron fried chicken!",
+          "channel": "야미보이 Yummyboy",
+          "views": 218239,
+          "url": "https://www.youtube.com/watch?v=rZzyQ8NPex8"
+        },
+        {
+          "title": "줄서서 먹는! 한국의 시장 유명 길거리음식 / Long Lines Guaranteed! Famous Korean Street Food",
+          "channel": "야미보이 Yummyboy",
+          "views": 167637,
+          "url": "https://www.youtube.com/watch?v=40infasKTcc"
+        },
+        {
+          "title": "신기한 조리! 인기있는 피자 햄버거! / Amazing Cooking! The Popular Pizza Burger Everyone Loves",
+          "channel": "야미보이 Yummyboy",
+          "views": 160812,
+          "url": "https://www.youtube.com/watch?v=SpnLCO7hH28"
+        },
+        {
+          "title": "태국의 가장 빠른 과일 자르기 달인들! / Thailand's Fastest Fruit Cutting Masters!",
+          "channel": "야미보이 Yummyboy",
+          "views": 157389,
+          "url": "https://www.youtube.com/watch?v=RsYTWlNDyEE"
+        }
+      ]
+    },
+    "foodkingdom": {
+      "name": "푸드킹덤",
+      "format": "음식 정보·다양한 리뷰",
+      "strength": "정보 밀도 높은 음식 영상",
+      "lesson": "재료·조리·영양 정보 포함 리뷰",
+      "applicability": "자사 식재료·조리 과정 콘텐츠",
+      "video_count": 11,
+      "total_views": 3548619,
+      "n_short": 0,
+      "n_long": 11,
+      "shorts_pct": 0.0,
+      "top_titles": [
+        {
+          "title": "역대급입니다! 압도적인 228Kg짜리 생참치 해체와 세상 다양한 참치모듬 코스 / Korean street food",
+          "channel": "푸드킹덤 Food Kingdom",
+          "views": 2146789,
+          "url": "https://www.youtube.com/watch?v=-0ZLyMXa-GQ"
+        },
+        {
+          "title": "우리가 매일 먹는 맛, 한국 양념은 이렇게 만들어집니다｜ Korea’s Seasoning Factories",
+          "channel": "푸드킹덤 Food Kingdom",
+          "views": 589452,
+          "url": "https://www.youtube.com/watch?v=KYXO843MMIo"
+        },
+        {
+          "title": "먹기 아까운 비주얼! 인기 케이크 5종 공장 대량생산 과정 몰아보기 /  Korean Cake Factory",
+          "channel": "푸드킹덤 Food Kingdom",
+          "views": 283085,
+          "url": "https://www.youtube.com/watch?v=RRtoIDoSIcg"
+        },
+        {
+          "title": "역시 김치원조국! 깨끗하고 정갈한 우리나라 김치 대량생산 / Korean food factory",
+          "channel": "푸드킹덤 Food Kingdom",
+          "views": 171193,
+          "url": "https://www.youtube.com/watch?v=JuvC7M1x4BM"
+        },
+        {
+          "title": "칼국수가 이렇게 다양해? 누구나 좋아하는 면음식의 대표주자 칼국수 몰아보기",
+          "channel": "푸드킹덤 Food Kingdom",
+          "views": 88946,
+          "url": "https://www.youtube.com/watch?v=12keArzYeMU"
+        },
+        {
+          "title": "이게 한국 디저트 수준? 화려한 타르트 모음 / Insane Korean Tart Desserts",
+          "channel": "푸드킹덤 Food Kingdom",
+          "views": 69385,
+          "url": "https://www.youtube.com/watch?v=6IWpjuFJwYE"
+        },
+        {
+          "title": "식빵의 변신은 어디까지? 다시 봐도 놀라운 식빵 공정 몰아보기 / Amazing Korean Bread Making Process",
+          "channel": "푸드킹덤 Food Kingdom",
+          "views": 66909,
+          "url": "https://www.youtube.com/watch?v=EXm-5lfo22Y"
+        },
+        {
+          "title": "신발만 빼고 다 튀긴다! 별의별 한국 길거리 튀김 모음 | Korean Fried Street Food",
+          "channel": "푸드킹덤 Food Kingdom",
+          "views": 44088,
+          "url": "https://www.youtube.com/watch?v=cupjfaL-cbM"
+        },
+        {
+          "title": "평소 즐겨먹는 음식, 이렇게 만듭니다! 한국 밀키트 대량생산 현장 / Korean Food Factory",
+          "channel": "푸드킹덤 Food Kingdom",
+          "views": 34897,
+          "url": "https://www.youtube.com/watch?v=woWFce2oQ30"
+        },
+        {
+          "title": "이것이 한국의 식품공장! 반도체급 위생으로 만드는 떡볶이 대량생산 / Korean food factory",
+          "channel": "푸드킹덤 Food Kingdom",
+          "views": 32345,
+          "url": "https://www.youtube.com/watch?v=uU4qbIGTbl8"
+        }
+      ]
+    },
+    "franchise_all": {
+      "name": "모두의 프랜차이즈",
+      "format": "가맹 창업 분석",
+      "strength": "가맹점주 의사결정 직결 정보",
+      "lesson": "가맹 모집 콘텐츠 포맷",
+      "applicability": "자사 가맹 모집 영상",
+      "video_count": 4,
+      "total_views": 669230,
+      "n_short": 0,
+      "n_long": 4,
+      "shorts_pct": 0.0,
+      "top_titles": [
+        {
+          "title": "40만 유튜버가 치킨집 차리면 생기는일(자영업의 현실)",
+          "channel": "직업의모든것 All about jobs",
+          "views": 355601,
+          "url": "https://www.youtube.com/watch?v=wrDPqjXp-ZE"
+        },
+        {
+          "title": "2025년 가맹점 평균 매출 '5,322만 원' 프랜차이즈 브랜드가 밝힌 창업 성공 방법｜feat. 왓더버거🍔안준혁 대표님&안다빈 이사님",
+          "channel": "INSIGHT-MAN, Korea Franchise Business Insights",
+          "views": 308113,
+          "url": "https://www.youtube.com/watch?v=aTDtYp6Ryn8"
+        },
+        {
+          "title": "콘코드·데스티니·팩션… 플스 라이브 서비스 연쇄 붕괴 외 | 게임 헤드라인",
+          "channel": "모험러의 어드벤처",
+          "views": 5292,
+          "url": "https://www.youtube.com/watch?v=e_tpsP98Pgo"
+        },
+        {
+          "title": "[2026 모두의 창업] 아이디어 하나로 최대 5억? 중소벤처기업부 '모두의 창업 프로젝트' 완벽 분석!",
+          "channel": "사업자필독",
+          "views": 224,
+          "url": "https://www.youtube.com/watch?v=OPADN2FJ_kg"
+        }
+      ]
+    },
+    "startup_interview": {
+      "name": "창업 인터뷰 채널",
+      "format": "창업 사례·매출 인터뷰",
+      "strength": "외식업 종사자 강한 흡인력",
+      "lesson": "사장님 인터뷰 형식",
+      "applicability": "자사 가맹점주 성공 사례 시리즈",
+      "video_count": 15,
+      "total_views": 1881241,
+      "n_short": 0,
+      "n_long": 15,
+      "shorts_pct": 0.0,
+      "top_titles": [
+        {
+          "title": "100평매장에서 최고급 고기로 장사하지만 6년째 적자보며 싸우기만하는 60대부부.\"은현장의 골목식당\"",
+          "channel": "장사의 신",
+          "views": 444865,
+          "url": "https://www.youtube.com/watch?v=-ZWxitGRR_Q"
+        },
+        {
+          "title": "6년째 적자중이지만 풀대출받으며 끝까지 버티는 이유.\"은현장의 골목식당\"",
+          "channel": "장사의 신",
+          "views": 375280,
+          "url": "https://www.youtube.com/watch?v=AnSDGwHrF3o"
+        },
+        {
+          "title": "폐업직전에 장사초대박 났지만 퍼주다 망할것 같다는 국밥집사장님.\"은현장의 골목식당\"",
+          "channel": "장사의 신",
+          "views": 364723,
+          "url": "https://www.youtube.com/watch?v=hRJ6sH-Ws2s"
+        },
+        {
+          "title": "💥200억에 치킨집 매각💥 '장사의 신'이 말하는 사업 성공 노하우ㄷㄷ",
+          "channel": "빵공장",
+          "views": 127198,
+          "url": "https://www.youtube.com/watch?v=CLvIPHeDDN0"
+        },
+        {
+          "title": "[충격단독]김세의가 쉽다던 강남경찰서 역대급 물갈이중.\"은현장의 렉카박멸\"",
+          "channel": "장사의 신",
+          "views": 108967,
+          "url": "https://www.youtube.com/watch?v=iVTyxJNC2HU"
+        },
+        {
+          "title": "BBQ, BHC로 하루 12시간 장사해도 남는게 없는 이유 - 연 6억매출인데 수익은 최저시급?",
+          "channel": "정보의 신",
+          "views": 106597,
+          "url": "https://www.youtube.com/watch?v=vsppre882uM"
+        },
+        {
+          "title": "[충격단독] 김세의 구속영창청구 깜빵 가즈아.",
+          "channel": "장사의 신",
+          "views": 83294,
+          "url": "https://www.youtube.com/watch?v=6fhMmpKw_hA"
+        },
+        {
+          "title": "[녹취공개]4년동안 장사의신 컨설팅 신청했지만 가지않은 이유.\"은현장의 골목식당\"",
+          "channel": "장사의 신",
+          "views": 60550,
+          "url": "https://www.youtube.com/watch?v=hFa_vyuvWvc"
+        },
+        {
+          "title": "싸게 많이 팔면 신고테러 당하는 현실. 계속 해나갈 수 있을까요?\"은현장의 삶\"",
+          "channel": "장사의 신",
+          "views": 56614,
+          "url": "https://www.youtube.com/watch?v=DowPvIHhhlw"
+        },
+        {
+          "title": "신내림 안받으면 죽을것 같아서 무당됐지만 생활고로 죽기직전인 이유.\"은현장의 골목식당\"",
+          "channel": "장사의 신",
+          "views": 46017,
+          "url": "https://www.youtube.com/watch?v=_-yW-u-NqEo"
+        }
+      ]
+    },
+    "local_shorts": {
+      "name": "지역 맛집 쇼츠 채널",
+      "format": "쇼츠 위주 빠른 회전",
+      "strength": "쇼츠 알고리즘 활용",
+      "lesson": "쇼츠 포맷·해시태그 전략",
+      "applicability": "자사 매장 쇼츠 (지역명+메뉴)",
+      "video_count": 5,
+      "total_views": 57488,
+      "n_short": 1,
+      "n_long": 4,
+      "shorts_pct": 0.2,
+      "top_titles": [
+        {
+          "title": "전라남도 미식여행",
+          "channel": "김종호 쇼츠",
+          "views": 39166,
+          "url": "https://www.youtube.com/watch?v=TONfPFkzAtA"
+        },
+        {
+          "title": "유튜브 쇼츠용 어그로 끌던 나경원 발각 되자.. 위원장석 앞까지 치고 나오더니",
+          "channel": "엠키타카 MKTK",
+          "views": 12378,
+          "url": "https://www.youtube.com/watch?v=jnCwk3zc86s"
+        },
+        {
+          "title": "ai 시흥맛집 아름드리장어  TV광고 사례  IPTV 광고 문의 1661-6751",
+          "channel": "물빛미디어 ",
+          "views": 4171,
+          "url": "https://www.youtube.com/watch?v=iznVSmMB_lg"
+        },
+        {
+          "title": "동탄 양꼬치 맛집 찾다가 회식 장소로 램미가양갈비양꼬치 동탄2호점을 보게 된 이유",
+          "channel": "ENTERFACE",
+          "views": 1586,
+          "url": "https://www.youtube.com/watch?v=xMxTFmFd_f0"
+        },
+        {
+          "title": "🤩울진 버스 대박이다~🎁죽변에서 울진읍까지 버스타고 달렸더니 바다·시장·인심까지 한 번에 만난 동해 감성 여행 🚍🌊",
+          "channel": "행운만점 생활TV",
+          "views": 187,
+          "url": "https://www.youtube.com/watch?v=7fsPWjii_9o"
+        }
+      ]
     }
   }
 }
