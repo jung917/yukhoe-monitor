@@ -1,6 +1,6 @@
 {
   "date": "2026-05-25",
-  "generated_at": "2026-05-25 02:15:55",
+  "generated_at": "2026-05-25 13:42:32",
   "window_days": 365,
   "data_earliest": "2025-05-27",
   "data_latest": "2026-05-24",
@@ -37,18 +37,18 @@
   "brands": {
     "yukbayeon": {
       "display": "육회바른연어",
-      "video_count": 11,
-      "total_views": 431797,
-      "total_likes": 3016,
-      "total_comments": 372,
+      "video_count": 13,
+      "total_views": 432000,
+      "total_likes": 3037,
+      "total_comments": 377,
       "n_short": 1,
-      "n_long": 10,
+      "n_long": 12,
       "tier_counts": {
         "Nano": 8,
         "Macro": 2,
-        "Micro": 1
+        "Micro": 3
       },
-      "summary": "육회바른연어의 연어 관련 메뉴들이 소비자들 사이에서 긍정적인 반응을 얻고 있으며, 특히 불닭마요 연어 hakkot와 연어 초밥이 주목받았다. 그러나 다른 연어 제품과 비교해 가격 경쟁력에 대한 의구심도 나타났다. 즉시 가격 전략 검토 필요.\n  📌 연어 hakkot · 연어 초밥 · 가격 경쟁력",
+      "summary": "육회바른연어의 불닭마요와 연어깍두기, 초밥 메뉴가 인기를 얻고 있으며 소비자들의 긍정적인 반응이 이어지고 있으나, 구체적인 경쟁력 비교는 나타나지 않았다. 신메뉴 및 프로모션 효과를 지속적으로 모니터링하고 즉시 대응 필요.\n  📌 불닭마요 · 연어깍두기 · 초밥",
       "videos": [
         {
           "video_id": "Ye8E_dCsMkw",
@@ -364,6 +364,58 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "xwqM7BaOJvw",
+          "title": "육회바른연어초밥 불닭마요 연어깍두기 연어 먹방! Rawbeef Salmon Buldak Sushi Mukbang Asmr!",
+          "channel": "깜뜨kkamddeu",
+          "subscribers": 12200,
+          "creator_tier": "Micro",
+          "is_verified": false,
+          "views": 160,
+          "likes": 18,
+          "comment_count": 5,
+          "engagement_rate": 0.1437,
+          "duration": 430,
+          "is_short": false,
+          "buzz_score": 42.9,
+          "upload_date": "2026.05.24",
+          "url": "https://www.youtube.com/watch?v=xwqM7BaOJvw",
+          "description_excerpt": "항상 감사드리고 좋은 하루 보내세요!😍🥰\n\n✨인스타 : ​⁠kkamddeu\n\n📩비즈니스 메일 : kkamddeu@gmail.com\n\n#asmr #mukbang #먹방 #eating #육회 #연어 #불닭마요 #연어깍두기 #초밥 #rawbeef #salmon #buldak #sushi #야식 #후기 #리뷰 #존맛",
+          "top_comments": [
+            {
+              "author": "@OLGUL",
+              "text": "진짜 항상 맛잘알 조합으로만 잘 가져오시는듯 ㅎㅎㅎ 연어 사운드가 특히 미쳐써용",
+              "likes": 1
+            },
+            {
+              "author": "@도도-b9m",
+              "text": "대박❤❤❤❤❤",
+              "likes": 0
+            },
+            {
+              "author": "@지원-gadut",
+              "text": "0:04 사이다 따르는게 귀여운사람,,",
+              "likes": 0
+            },
+            {
+              "author": "@daaam-i2h",
+              "text": "갑자기보다가 떠오른건데\n뭐라해야하지 음식드실때 과하게 입 크게 안벌리고 음식사이즈만큼만 입벌리고 깔끔하게 드시는거 개호감..\n다른분들 종종 입크게 벌리셔서 안에 내용물보일때 있는데\n개큰호감..❤양파드실때 입 채썬양파만큼만 벌어짐 1:55",
+              "likes": 0
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 0,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "SF6vCMfMrMQ",
           "title": "[먹방브이로그] 고능한 쩝쩝박사님들이 많은 세상이 참 좋다…🤙🏻 (엽기닭다리탕, 육바연, 대왕연어초밥, 모찌샌드, 버터떡, 집밥, 치킨, 불닭)",
           "channel": "승희얌 Yum",
@@ -457,6 +509,37 @@
               "likes": 0
             }
           ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "",
+          "video_meta_rating": 0,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "XaYzWy5eskQ",
+          "title": "쉬었음 청년의 집밥 VLOG :부모님 저녁밥 차리기✨ | 올 여름은 이북식 찜닭으로 몸보양..🫶 | 맛있는 아욱쌈밥🥬 ㅣ 육회바른연어 들기름메밀면 육회초밥 | 훈제연어",
+          "channel": "에센스 Essence",
+          "subscribers": 17900,
+          "creator_tier": "Micro",
+          "is_verified": false,
+          "views": 43,
+          "likes": 3,
+          "comment_count": 0,
+          "engagement_rate": 0.0698,
+          "duration": 522,
+          "is_short": false,
+          "buzz_score": 36.2,
+          "upload_date": "2026.05.24",
+          "url": "https://www.youtube.com/watch?v=XaYzWy5eskQ",
+          "description_excerpt": "📨 bhshap@naver.com",
+          "top_comments": [],
           "sentiment_counts": {
             "neg": 0,
             "neu": 0,
@@ -1092,7 +1175,7 @@
         "Macro": 1,
         "Nano": 7
       },
-      "summary": "육회야문연어는 신메뉴와 프로모션을 통해 소비자들에게 인기를 얻고 있으며, 특히 불닭마요 연어깍두기와 육회 메뉴에 대한 긍정적인 반응이 나타나 자사의 점유율과 매장 트래픽에 위협 요인이 될 수 있다. 즉시 경쟁력을 높이는 방어 액션을 취해야 한다.\n  📌 불닭마요 연어깍두기 · 육회 메뉴 · 신메뉴",
+      "summary": "육회야문연어는 신메뉴와 프로모션을 통해 소비자들에게 긍정적인 반응을 얻고 있으며, 특히 불닭마요연어깍두기와 육회 메뉴가 주목받아 자사(육회바른연어)의 점유율과 매장 트래픽에 위협이 될 가능성이 있다. 즉시 경쟁력 강화를 위한 대응이 필요하다.\n  📌 불닭마요연어깍두기 · 육회 메뉴 · 신메뉴",
       "videos": [
         {
           "video_id": "ku4hG-cD5kY",
@@ -1708,7 +1791,7 @@
       "tier_counts": {
         "Nano": 1
       },
-      "summary": "김천재의 육회반한연어가 신메뉴 연어육회무한리필을 2인 기준으로 56,000원에 제공하며, 이는 자사와 직접적인 가격 경쟁 상황임. 소비자 반응은 중립적이나, 무한 리필이라는 프로모션 전략이 주목받아 자사 매장 트래픽에 영향을 줄 가능성이 있음. 즉시 가격 및 메뉴 혜택 조정 필요.\n  📌 연어육회무한리필 · 56000원 · 매장트래픽",
+      "summary": "김천재의 육회반한연어가 신메뉴를 출시하고 있으며, 이는 이미 일부 소비자들에게 긍정적인 반응을 얻고 있어 자사와 직접적인 경쟁 상황에 놓여 있다. 특히 가격 대비 무한리필 서비스로 인해 매장 트래픽 증가가 예상되며, 즉시 시장 점유율 변화를 모니터링하고 적극적인 마케팅 전략을 수립해야 한다.\n  📌 신메뉴 · 무한리필 · 긍정적 반응",
       "videos": [
         {
           "video_id": "Ukft6tVXwEY",
@@ -1838,7 +1921,7 @@
       "tier_counts": {
         "Nano": 2
       },
-      "summary": "연어로만S에서 구독자 이벤트를 진행하며 모든 메뉴에 대해 10% 할인을 제공하는 프로모션을 실시하고 있어, 육회바른연어의 고객 유치 및 매출 증대에 위협이 될 수 있으며, 소비자 반응은 긍정적이지만 즉각적인 대응 전략이 필요하다.\n  📌 구독자 이벤트 · 10% 할인 프로모션 · 긍정적 소비자 반응",
+      "summary": "연어로만S가 구독자 이벤트를 통해 모든 메뉴에 대해 10% 할인을 제공하며, 이를 통해 고객 유치 및 매출 증대를 노리고 있다. 그러나 이벤트 내용이 자사 제품과 직접 비교되는 부분은 없으며, 주로 교회 관련 콘텐츠 내에서 홍보되고 있어 즉시 대응 필요성은 낮다.\n  📌 구독자 이벤트 · 10% 할인 · 교회 관련",
       "videos": [
         {
           "video_id": "594DiiCC5ZA",
