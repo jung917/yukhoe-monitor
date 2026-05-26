@@ -1,0 +1,81 @@
+{
+  "date": "2026-05-26",
+  "days": 2,
+  "first_run": false,
+  "brands": {
+    "yukbayeon": {
+      "display": "육회바른연어",
+      "video_count": 2,
+      "total_views": 695,
+      "total_likes": 38,
+      "total_comments": 6,
+      "n_short": 0,
+      "n_long": 2,
+      "tier_counts": {
+        "Micro": 2
+      },
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "yamoonyeoneo": {
+      "display": "육회야문연어",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "bahanyeoneo": {
+      "display": "김천재의 육회반한연어",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "yeoneosanghoe": {
+      "display": "연어상회",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "yeoneodang": {
+      "display": "연어당",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "yeoneoroman": {
+      "display": "연어로만",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    }
+  }
+}
