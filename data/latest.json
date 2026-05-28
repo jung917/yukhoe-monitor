@@ -1,6 +1,6 @@
 {
-  "date": "2026-05-28",
-  "generated_at": "2026-05-28 15:38:14",
+  "date": "2026-05-29",
+  "generated_at": "2026-05-29 03:36:09",
   "window_days": 365,
   "data_earliest": "2025-05-30",
   "data_latest": "2026-05-24",
@@ -38,17 +38,17 @@
     "yukbayeon": {
       "display": "육회바른연어",
       "video_count": 13,
-      "total_views": 432676,
-      "total_likes": 3061,
+      "total_views": 432759,
+      "total_likes": 3064,
       "total_comments": 378,
       "n_short": 1,
       "n_long": 12,
       "tier_counts": {
         "Nano": 8,
-        "Micro": 3,
-        "Macro": 2
+        "Macro": 2,
+        "Micro": 3
       },
-      "summary": "육회바른연어의 신메뉴 불닭마요 연어깍두기와 연어초밥에 대한 긍정적인 소비자 반응이 확인되며, 특히 맛과 식감에 대한 호평이 많다. 그러나 이 영상들은 타사 제품들과 함께 비교되는 경우가 있어 자사만의 메뉴를 독립적으로 평가하기 어려운 상황이다. 즉각적인 대응으로는 육회바른연어에서 자체 프로모션을 강화하여 소비자에게 더 집중된 메시지를 전달하는 것이 필요하다.\n  📌 불닭마요 연어깍두기 · 연어초밥 · 긍정적 반응",
+      "summary": "육회바른연어의 연어 관련 메뉴들이 소비자들 사이에서 긍정적인 반응을 얻고 있으나, 다른 연어 제품과 비교해 경쟁력이 부족한 부분도 드러났다. 특히 가격 대비 만족도에 대한 의견이 다양하며, 신메뉴의 추가와 프로모션 전략 필요성이 제기되었다.\n  📌 긍정적 반응 · 경쟁력 부족 · 프로모션",
       "videos": [
         {
           "video_id": "Ye8E_dCsMkw",
@@ -77,66 +77,6 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "xwqM7BaOJvw",
-          "title": "육회바른연어초밥 불닭마요 연어깍두기 연어 먹방! Rawbeef Salmon Buldak Sushi Mukbang Asmr!",
-          "channel": "깜뜨kkamddeu",
-          "subscribers": 12300,
-          "creator_tier": "Micro",
-          "is_verified": false,
-          "views": 722,
-          "likes": 38,
-          "comment_count": 6,
-          "engagement_rate": 0.0609,
-          "duration": 430,
-          "is_short": false,
-          "buzz_score": 46.3,
-          "upload_date": "2026.05.24",
-          "url": "https://www.youtube.com/watch?v=xwqM7BaOJvw",
-          "description_excerpt": "항상 감사드리고 좋은 하루 보내세요!😍🥰\n\n✨인스타 : ​⁠kkamddeu\n\n📩비즈니스 메일 : kkamddeu@gmail.com\n\n#asmr #mukbang #먹방 #eating #육회 #연어 #불닭마요 #연어깍두기 #초밥 #rawbeef #salmon #buldak #sushi #야식 #후기 #리뷰 #존맛",
-          "top_comments": [
-            {
-              "author": "@OLGUL",
-              "text": "진짜 항상 맛잘알 조합으로만 잘 가져오시는듯 ㅎㅎㅎ 연어 사운드가 특히 미쳐써용",
-              "likes": 1,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@도도-b9m",
-              "text": "대박❤❤❤❤❤",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@지원-gadut",
-              "text": "0:04 사이다 따르는게 귀여운사람,,",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@daaam-i2h",
-              "text": "갑자기보다가 떠오른건데\n뭐라해야하지 음식드실때 과하게 입 크게 안벌리고 음식사이즈만큼만 입벌리고 깔끔하게 드시는거 개호감..\n다른분들 종종 입크게 벌리셔서 안에 내용물보일때 있는데\n개큰호감..❤양파드실때 입 채썬양파만큼만 벌어짐 1:55",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 4
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
           "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
@@ -519,6 +459,66 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "xwqM7BaOJvw",
+          "title": "육회바른연어초밥 불닭마요 연어깍두기 연어 먹방! Rawbeef Salmon Buldak Sushi Mukbang Asmr!",
+          "channel": "깜뜨kkamddeu",
+          "subscribers": 12300,
+          "creator_tier": "Micro",
+          "is_verified": false,
+          "views": 796,
+          "likes": 41,
+          "comment_count": 6,
+          "engagement_rate": 0.059,
+          "duration": 430,
+          "is_short": false,
+          "buzz_score": 44.7,
+          "upload_date": "2026.05.24",
+          "url": "https://www.youtube.com/watch?v=xwqM7BaOJvw",
+          "description_excerpt": "항상 감사드리고 좋은 하루 보내세요!😍🥰\n\n✨인스타 : ​⁠kkamddeu\n\n📩비즈니스 메일 : kkamddeu@gmail.com\n\n#asmr #mukbang #먹방 #eating #육회 #연어 #불닭마요 #연어깍두기 #초밥 #rawbeef #salmon #buldak #sushi #야식 #후기 #리뷰 #존맛",
+          "top_comments": [
+            {
+              "author": "@OLGUL",
+              "text": "진짜 항상 맛잘알 조합으로만 잘 가져오시는듯 ㅎㅎㅎ 연어 사운드가 특히 미쳐써용",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@도도-b9m",
+              "text": "대박❤❤❤❤❤",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@지원-gadut",
+              "text": "0:04 사이다 따르는게 귀여운사람,,",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@daaam-i2h",
+              "text": "갑자기보다가 떠오른건데\n뭐라해야하지 음식드실때 과하게 입 크게 안벌리고 음식사이즈만큼만 입벌리고 깔끔하게 드시는거 개호감..\n다른분들 종종 입크게 벌리셔서 안에 내용물보일때 있는데\n개큰호감..❤양파드실때 입 채썬양파만큼만 벌어짐 1:55",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 4
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
@@ -1049,13 +1049,13 @@
           "subscribers": 17900,
           "creator_tier": "Micro",
           "is_verified": false,
-          "views": 132,
+          "views": 141,
           "likes": 6,
           "comment_count": 0,
-          "engagement_rate": 0.0455,
+          "engagement_rate": 0.0426,
           "duration": 522,
           "is_short": false,
-          "buzz_score": 31.9,
+          "buzz_score": 30.1,
           "upload_date": "2026.05.24",
           "url": "https://www.youtube.com/watch?v=XaYzWy5eskQ",
           "description_excerpt": "📨 bhshap@naver.com",
@@ -1431,7 +1431,7 @@
         "Macro": 1,
         "Nano": 7
       },
-      "summary": "육회야문연어는 신선한 재료와 세심한 서비스로 소비자들에게 좋은 평가를 받고 있으며, 특히 육회와 연어 메뉴에서 경쟁력을 보여주고 있다. 그러나 일부 영상에서는 타사 제품과 비교되거나 혼용되어 있어 자사의 매장 트래픽에 미칠 수 있는 직접적인 영향은 제한적이나, 지속적인 브랜드 인지도 확산으로 장기적으로 위협 요인으로 작용할 가능성이 있다.\n  📌 신선도 · 서비스 품질 · 브랜드 인지도",
+      "summary": "육회야문연어는 신메뉴 '불닭마요연어깍두기'와 육회를 중심으로 소비자들에게 긍정적인 반응을 얻고 있으며, 특히 창업 성공 사례로도 주목받아 자사 점유율과 매장 트래픽에 대한 위협 요인이 되고 있다. 즉시 대응 필요.\n  📌 불닭마요연어깍두기 · 창업성공사례 · 신메뉴",
       "videos": [
         {
           "video_id": "ku4hG-cD5kY",
@@ -2151,7 +2151,7 @@
       "tier_counts": {
         "Nano": 1
       },
-      "summary": "김천재의 육회반한연어가 신메뉴를 통해 2인 기준 무한리필을 제공하며, 이는 소비자로부터 긍정적인 반응을 얻고 있어 자사와 직접 경쟁 상황에 있다. 특히 가격 대비 품질과 분량이 강점으로 작용하고 있으며, 즉시 마케팅 전략 재검토가 필요하다.\n  📌 무한리필 · 긍정적 반응 · 마케팅 전략 재검토",
+      "summary": "김천재의 육회반한연어가 신메뉴를 통해 연어육회 무제한을 제공하며, 이는 자사와 직접적인 경쟁 상황임을 시사하고 소비자 반응은 긍정적이나 가격이 높아 일부 우려도 있어 즉시 가격 경쟁력 분석 및 프로모션 계획 필요하다.\n  📌 연어육회 무제한 · 긍정적 소비자 반응 · 높은 가격",
       "videos": [
         {
           "video_id": "Ukft6tVXwEY",
@@ -2281,7 +2281,7 @@
       "tier_counts": {
         "Nano": 2
       },
-      "summary": "연어로만S에서 구독자 이벤트를 진행하며 모든 메뉴에 대해 10% 할인을 제공하는 프로모션을 실시하고 있어, 자사와의 가격 경쟁력 비교가 필요하다. 소비자 반응은 긍정적이지만, 신메뉴나 특별한 제품 소개는 없어 자사 대비 우위를 확인하기 어렵다. 즉각적인 가격 경쟁 전략 검토 필요.\n  📌 구독자 이벤트 · 10% 할인 프로모션 · 긍정적 소비자 반응",
+      "summary": "연어로만S에서 구독자 이벤트를 진행하며, 모든 메뉴에 대해 10% 할인을 제공하는 프로모션을 실시하고 있어 자사와의 가격 경쟁력을 높이고 있다. 소비자 반응은 긍정적이지만, 신메뉴나 특별한 제품 소개는 없어 즉시 대응보다는 장기적인 마케팅 전략이 필요하다.\n  📌 구독자 이벤트 · 10% 할인 프로모션 · 긍정적 소비자 반응",
       "videos": [
         {
           "video_id": "594DiiCC5ZA",
@@ -2591,42 +2591,42 @@
         }
       ],
       "sentiment_counts": {
-        "pos": 0,
-        "neu": 0,
-        "neg": 0
+        "pos": 914,
+        "neu": 388,
+        "neg": 31
       },
-      "negative_ratio": 0,
+      "negative_ratio": 0.023255813953488372,
       "warning_level": "",
       "top_comments": [
         {
           "text": "크리스마스 전에 남친,여친 생기기 버튼",
           "likes": 20000,
           "video_id": "39sr2Q8Fzog",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "집 본능귀가있는사람은 천운입니다 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ 진짜 만취하고 눈떠보면 집이면 진짜 제일무섭긴한데 제일안전함...ㅋㅋㅋㅋㅋ",
           "likes": 8600,
           "video_id": "39sr2Q8Fzog",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "25년 마무리 잘하고 26년 대박나기\n버튼! (사업성공, 취업, 승진, 여친 남친 생기기, 임신 등등)",
           "likes": 8000,
           "video_id": "39sr2Q8Fzog",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "안 취한척하려고 카톡 보낼 때 오타 안 내려고 노력함 ㅋㅋㅋ",
           "likes": 4400,
           "video_id": "39sr2Q8Fzog",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "만취하면 눈에 보이는거 다 먹는 디테일 개웃기네 ㅋㅋㅋㅋ",
           "likes": 3200,
           "video_id": "39sr2Q8Fzog",
-          "sentiment": ""
+          "sentiment": "긍정"
         }
       ],
       "title_words": [
@@ -2783,42 +2783,42 @@
         }
       ],
       "sentiment_counts": {
-        "pos": 0,
-        "neu": 0,
-        "neg": 0
+        "pos": 245,
+        "neu": 226,
+        "neg": 75
       },
-      "negative_ratio": 0,
+      "negative_ratio": 0.13736263736263737,
       "warning_level": "",
       "top_comments": [
         {
           "text": "관련자들 전부 무기징역 때려라",
           "likes": 70,
           "video_id": "74rYhK48pTM",
-          "sentiment": ""
+          "sentiment": "부정"
         },
         {
           "text": "연어회덮밥 받아왔고 다같이 먹었고 술은 생수병에 담아와서 나눠마셨지만 연어술파티는 하지 않았다\n술마시고 운전했지만 음주운전은 하지 않았다와 같은 주장을 해왔던 것😏",
           "likes": 67,
           "video_id": "74rYhK48pTM",
-          "sentiment": ""
+          "sentiment": "중립"
         },
         {
           "text": "위증죄는 반드시 엄벌에 처해야 한다",
           "likes": 60,
           "video_id": "74rYhK48pTM",
-          "sentiment": ""
+          "sentiment": "부정"
         },
         {
           "text": "정말 소설을 쓴다. 이런 일이 뻔뻔스럽게 일어난다는 자체가 국민들을 개 돼지로 아는 것 같은데...\n쇼한다고 해결이 되나? \n돈은 갔고, 유죄는 났고, 이게 바뀌지 않는다.\n김정은이 한테 한번 물어보면 돼, 이재명이는 북에 무인기 사과 이른 짓거리 하지 말고, \n\n이재명이는 \"내가 돈 보냈 더냐?\" 하고 김정은이 한테 한번 물어봐. \n그러면 끝 나는 것 아",
           "likes": 58,
           "video_id": "m5XsS_qUbrY",
-          "sentiment": ""
+          "sentiment": "부정"
         },
         {
           "text": "삼류소설 쓰지마라\n혈세아깝다 \n전부사퇴해라 \n국민들을바보로보나 적당히해라 \n죄명재판이나속개해라",
           "likes": 57,
           "video_id": "m5XsS_qUbrY",
-          "sentiment": ""
+          "sentiment": "중립"
         }
       ],
       "title_words": [
@@ -2988,42 +2988,42 @@
         }
       ],
       "sentiment_counts": {
-        "pos": 0,
-        "neu": 0,
-        "neg": 0
+        "pos": 388,
+        "neu": 56,
+        "neg": 54
       },
-      "negative_ratio": 0,
+      "negative_ratio": 0.10843373493975904,
       "warning_level": "",
       "top_comments": [
         {
           "text": "???: 제 우1유를 뺏겨버릴지도 모릅니다!",
           "likes": 198,
           "video_id": "Fmly6olikA0",
-          "sentiment": ""
+          "sentiment": "중립"
         },
         {
           "text": "임신10주차입니다. 초밥 먹고싶은데 대리만족 하고 갑니당❤",
           "likes": 142,
           "video_id": "RSeQ77-8o8Q",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "아무리 봐도 떵개님은 곰이 환생한게 틀림없다",
           "likes": 130,
           "video_id": "RSeQ77-8o8Q",
-          "sentiment": ""
+          "sentiment": "부정"
         },
         {
           "text": "언제든지 돌아와도 항상 그 자리에 계셔서 너무 좋음",
           "likes": 66,
           "video_id": "RSeQ77-8o8Q",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "연어 드시니까 곰같고 보기좋아용 많이 드셔주세요♡♡",
           "likes": 60,
           "video_id": "RSeQ77-8o8Q",
-          "sentiment": ""
+          "sentiment": "긍정"
         }
       ],
       "title_words": [
@@ -3193,42 +3193,42 @@
         }
       ],
       "sentiment_counts": {
-        "pos": 0,
-        "neu": 0,
-        "neg": 0
+        "pos": 2603,
+        "neu": 1476,
+        "neg": 485
       },
-      "negative_ratio": 0,
+      "negative_ratio": 0.10626643295354951,
       "warning_level": "",
       "top_comments": [
         {
           "text": "음주문화가 건전해지는건데 쌍수들고 환영해야하는거 아님? 부어라 마셔라하면서 필름 끊길 때까지 쳐먹는게 ㄹㅇ 알콜중독자 양산하는 미개한 음주문화였던거지.",
           "likes": 25000,
           "video_id": "vykr8VDOiCM",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "1. 건강에도 안 좋음\n2. 비쌈.\n3. 숙취 후 뺏기는 시간이 아까움",
           "likes": 24000,
           "video_id": "vykr8VDOiCM",
-          "sentiment": ""
+          "sentiment": "중립"
         },
         {
           "text": "과거: 술부심 부리는게 멋있는건줄 앎\n현재: 술부심 부리면 한심한 인간으로 보임",
           "likes": 13000,
           "video_id": "vykr8VDOiCM",
-          "sentiment": ""
+          "sentiment": "중립"
         },
         {
           "text": "술 권하는 사회로 유명했던 한국이 이렇게 변해가니 참으로 좋네요",
           "likes": 9600,
           "video_id": "vykr8VDOiCM",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "술. 담배 잘하는게 자랑은 아님 특히 술 처마시고 음주운전하고 본인과 상관없는 사람 피해주고 사회적 비용이 너무 많이 듦",
           "likes": 9300,
           "video_id": "vykr8VDOiCM",
-          "sentiment": ""
+          "sentiment": "중립"
         }
       ],
       "title_words": [
@@ -3397,42 +3397,42 @@
         }
       ],
       "sentiment_counts": {
-        "pos": 0,
-        "neu": 0,
-        "neg": 0
+        "pos": 3920,
+        "neu": 1470,
+        "neg": 521
       },
-      "negative_ratio": 0,
+      "negative_ratio": 0.08814075452546101,
       "warning_level": "",
       "top_comments": [
         {
           "text": "??: 이제 나랑 같은 클래스에유 ㅎㅎ",
           "likes": 12000,
           "video_id": "coRtlS6EV3M",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "이정도면 우낌표한테 찍기 쉬운 걸 주는게 아닌가 하는 생각이 든다",
           "likes": 9700,
           "video_id": "0WPzR6kvVGk",
-          "sentiment": ""
+          "sentiment": "부정"
         },
         {
           "text": "제일 비싼 음식은 부모님 모신 거 너무 좋다",
           "likes": 7900,
           "video_id": "0WPzR6kvVGk",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "쯔양님 계단에 놓인 화분보고 집 위치 알아채시는 분들도 있을거같아 현관밖은 노출안하는게 좋을거같아요~~ 조심해서 나쁠거없죠",
           "likes": 7000,
           "video_id": "oloeGY3oAVg",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "병따개랑 같이 침몰하는걸 선택했구나",
           "likes": 5600,
           "video_id": "coRtlS6EV3M",
-          "sentiment": ""
+          "sentiment": "긍정"
         }
       ],
       "title_words": [
@@ -3600,42 +3600,42 @@
         }
       ],
       "sentiment_counts": {
-        "pos": 0,
-        "neu": 0,
-        "neg": 0
+        "pos": 1072,
+        "neu": 194,
+        "neg": 77
       },
-      "negative_ratio": 0,
+      "negative_ratio": 0.0573343261355175,
       "warning_level": "",
       "top_comments": [
         {
           "text": "대박 나비족이셨구나..",
           "likes": 2700,
           "video_id": "ZpMD1QdXTf8",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "용산연합 가입하고 싶습니다",
           "likes": 2100,
           "video_id": "vEgaMQIn-q4",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "황제성과 제작진은 이안선생님께 조그마한 선물이라도 보내야할듯 ㅋㅋㅋㅋㅋㅋ 황제성유튭 있는줄 몰랐는데 그 친구보고 검색해서 찾아봄ㅋㅋㅋㅋ",
           "likes": 1900,
           "video_id": "vEgaMQIn-q4",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "용산연합 보고 옴ㅋㅋㅋㅋㅋ",
           "likes": 1500,
           "video_id": "vEgaMQIn-q4",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "용산연합의 무궁한 발전을 기원합니다.",
           "likes": 1400,
           "video_id": "vEgaMQIn-q4",
-          "sentiment": ""
+          "sentiment": "긍정"
         }
       ],
       "title_words": [
@@ -3779,42 +3779,42 @@
         }
       ],
       "sentiment_counts": {
-        "pos": 0,
-        "neu": 0,
-        "neg": 0
+        "pos": 4727,
+        "neu": 890,
+        "neg": 732
       },
-      "negative_ratio": 0,
+      "negative_ratio": 0.11529374704677903,
       "warning_level": "",
       "top_comments": [
         {
           "text": "우와 하울에 나오신 분 맞죠?",
           "likes": 6000,
           "video_id": "1HExH6cy5BQ",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "와 근데 다른거 다떠나서 2주격주 유튜브 컨텐츠를 5년넘게했는데 이정도 파급력 조회수 유지하면서 해온다는게 진짜 제작진이랑 풍자누나 리스펙…..",
           "likes": 3700,
           "video_id": "1HExH6cy5BQ",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "가덕도는 다들 잘 모르시니 맛집에대한 비평이없네요 ㅋㅋㅋ 맘이편안~",
           "likes": 3400,
           "video_id": "1HExH6cy5BQ",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "뭔가 신기루씨 맛집 하나 잃을까봐 찐 1등 맛집은 숨기고 안 알려줬을거 같음ㅋㅋㅋㅋㅋㅋㅋ",
           "likes": 3400,
           "video_id": "vAKeY1t_bLI",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "장수촌 손자인데 저희 할아버지 할머니가 저 키우시면서 30년 넘게 장사하셨어요. 여기 촬영 왔다 갔다고 좋아하시면서 말하는데 그렇게 좋아하시는 것도 엄청 오랜만에 봐서 저도 기분 좋았습니다. 저한테는 제일 맛집입니다. 장수촌 많이 와서 드셔주세요!!",
           "likes": 3000,
           "video_id": "Uf8V4EvPKWk",
-          "sentiment": ""
+          "sentiment": "긍정"
         }
       ],
       "title_words": [
@@ -3976,42 +3976,42 @@
         }
       ],
       "sentiment_counts": {
-        "pos": 0,
-        "neu": 0,
-        "neg": 0
+        "pos": 13137,
+        "neu": 2102,
+        "neg": 2083
       },
-      "negative_ratio": 0,
+      "negative_ratio": 0.12025170303660085,
       "warning_level": "",
       "top_comments": [
         {
           "text": "안녕하세요, YB 윤도현입니다.\n\n오랜만에 시경이와 만나서 이런저런 이야기 나누고, 참 편안하고 즐거운 시간 보내고 왔습니다 \n\n좋은 자리 만들어준 시경이에게 감사하고, 이렇게 영상으로 함께할 수 있어서 또 한 번 감사한 마음입니다.\n\n영상 재미있게 봐주세요. \n저도 제 자리에서 좋은 음악으로 인사드리겠습니다. 고맙습니다.🤟",
           "likes": 4400,
           "video_id": "98h4G8FA4cE",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "최근 본 중에 제일 편하게 대화하는 거 같은데? ㅋㅋㅋ",
           "likes": 2300,
           "video_id": "In8fsZEDEcY",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "'이윽고'와 '아직도'의 만남",
           "likes": 2100,
           "video_id": "9NycugQL2xw",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "쌉T들의 물 흐르듯 한 필터링 없는 나이스한 대화를 보니 마음이 너무 편안합니다. - 지나가던 쌉T - ㅋㅋㅋㅋ",
           "likes": 1700,
           "video_id": "In8fsZEDEcY",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "초대해 주셔서 감사해요🙏🙏 그리고 이렇게 맛있는 음식들을 뒤로하고 이뤄 낸 다이어트의 결실을 진심으로 축하드리옵니다. 형은 힘드셨겠지만, 저는 너무 부러워요. - 종완 -",
           "likes": 1500,
           "video_id": "9NycugQL2xw",
-          "sentiment": ""
+          "sentiment": "긍정"
         }
       ],
       "title_words": [
@@ -4173,42 +4173,42 @@
         }
       ],
       "sentiment_counts": {
-        "pos": 0,
-        "neu": 0,
-        "neg": 0
+        "pos": 3603,
+        "neu": 1853,
+        "neg": 711
       },
-      "negative_ratio": 0,
+      "negative_ratio": 0.11529106534781904,
       "warning_level": "",
       "top_comments": [
         {
           "text": "가맹점 늘려나가는 초반 단계엔 싸게 팔고, 나중에 덩치가 커지면 가격을 올리는 이전 프랜차이즈 회사들의 수법을 반복할 것 같은데, 암튼 소비자 입장에선 오래 싸게 팔아주길 바랄 따름입니다.",
           "likes": 385,
           "video_id": "ecVTr6NqKJo",
-          "sentiment": ""
+          "sentiment": "중립"
         },
         {
           "text": "2900 원이면 편의점 버거 보다 싼데  걍 감사합니다 하고 먹어야죠 ㅋㅋㅋ\n편의점 버거 보단 맛있겠지  아니여도 더 싸니까 ㅋ",
           "likes": 238,
           "video_id": "ecVTr6NqKJo",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "삼각김밥2200 ㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋㅋ",
           "likes": 187,
           "video_id": "2Z2RjKRwK8E",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "맛상무님 또봉이통닭의 신메뉴 드셔주셔서 감사해요!! 저희 이번 신메뉴는 순살로 드시는게 더 맛있는데요. 뼈로 드셨군요..ㅠㅠ 아무쪼록 관심주셔서 감사해요!",
           "likes": 174,
           "video_id": "0Z5UjOljJX4",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "그냥 딱 전형적인 프랭크버저 초창기 느낌같은데 ㅋㅋ\n가맹점수 왕창 늘리다가\n가격 더더더더더ㅓ더더더더더ㅓ더더더 계속 올리고 \n세트가격 장난질하고 결국 아무도 안사먹고 본사만 노나는 엔딩",
           "likes": 172,
           "video_id": "ecVTr6NqKJo",
-          "sentiment": ""
+          "sentiment": "중립"
         }
       ],
       "title_words": [
@@ -4370,42 +4370,42 @@
         }
       ],
       "sentiment_counts": {
-        "pos": 0,
-        "neu": 0,
-        "neg": 0
+        "pos": 2423,
+        "neu": 307,
+        "neg": 226
       },
-      "negative_ratio": 0,
+      "negative_ratio": 0.07645466847090664,
       "warning_level": "",
       "top_comments": [
         {
           "text": "대화 안 하고 먹어야겠는데요 ㅋㅋㅋㅋ",
           "likes": 261,
           "video_id": "J1pyZCr69q4",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "[종료/카라비네로 오마카세 응모 이벤트]\n\n1. 영상 좋아요를 누른다\n2. 댓글을 쓴다\n3. 댓글을 캡쳐한다.\n4. 아래의 네이버 폼을 작성한다.\n\n링크 : https://naver.me/Gj7vskcV",
           "likes": 176,
           "video_id": "Fax4oN9kNMI",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "소래포구에서 대게 17만원 영상보고\n이 영상을 보니 확실히 싼게 맞군요",
           "likes": 147,
           "video_id": "J1pyZCr69q4",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "1시간은 넘 빡세다",
           "likes": 143,
           "video_id": "J1pyZCr69q4",
-          "sentiment": ""
+          "sentiment": "중립"
         },
         {
           "text": "[+식사권 이벤트 안내/총 10팀]\n\n1. 영상의 좋아요를 누른다.\n2. 본 영상에 댓글을 달고 캡쳐 후, 아래의 네이버 폼을 작성한다.\n3. 2026년5월28일목)까지 기다린다.\n4. 당첨자는 2026년6월13일, 14일 중 하루 방문하여 당첨 인증하고 즐긴다.\n\n*네이버폼 : https://naver.me/FTdXzb8f",
           "likes": 96,
           "video_id": "IDOnBhDqz6o",
-          "sentiment": ""
+          "sentiment": "긍정"
         }
       ],
       "title_words": [
@@ -4507,42 +4507,42 @@
         }
       ],
       "sentiment_counts": {
-        "pos": 0,
-        "neu": 0,
-        "neg": 0
+        "pos": 180,
+        "neu": 47,
+        "neg": 44
       },
-      "negative_ratio": 0,
+      "negative_ratio": 0.16236162361623616,
       "warning_level": "",
       "top_comments": [
         {
           "text": "이런게 진정한 힐링영상 우울증치료제 아니겠어 😂",
           "likes": 48,
           "video_id": "Ajq15U6o5Ns",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "근처 사시는분들 부럽습니다",
           "likes": 47,
           "video_id": "NhnTC3RRy_Q",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "와 집 근처면 매일가겠다!",
           "likes": 41,
           "video_id": "NhnTC3RRy_Q",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "상상이 안가는  저렴한 가격에  맛까지❤❤❤❤❤ 원재료 값도 안될테되고 ,노동비, 인건비, 임대료 까지 절대 불가능할텐데 서민들도 배불리 드시게 자선사업을 크게 하십니다.  존경스럽습니다 . . 어마 무시합니다.",
           "likes": 38,
           "video_id": "NhnTC3RRy_Q",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "세상에나\n너무 먹음직스럽고 엄마가 해주는 밥 같아요❤",
           "likes": 37,
           "video_id": "NhnTC3RRy_Q",
-          "sentiment": ""
+          "sentiment": "긍정"
         }
       ],
       "title_words": [
@@ -4674,42 +4674,42 @@
         }
       ],
       "sentiment_counts": {
-        "pos": 0,
-        "neu": 0,
-        "neg": 0
+        "pos": 148,
+        "neu": 149,
+        "neg": 12
       },
-      "negative_ratio": 0,
+      "negative_ratio": 0.038834951456310676,
       "warning_level": "",
       "top_comments": [
         {
           "text": "Dear korean people, on behalf of the entire world, keep being great at making food and blessing us with your amazing cooking skills, thanks!",
           "likes": 41,
           "video_id": "egOSam3g3ag",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "Surprised that the straw burned long enough with enough heat to cook the whole chickens.",
           "likes": 31,
           "video_id": "Tn3EF8pFYUg",
-          "sentiment": ""
+          "sentiment": "중립"
         },
         {
           "text": "Those shrimp require deveining!",
           "likes": 29,
           "video_id": "_j4Dap8enAE",
-          "sentiment": ""
+          "sentiment": "중립"
         },
         {
           "text": "Wish I could zap myself to Korea for those yummy hotteok. from UK",
           "likes": 27,
           "video_id": "egOSam3g3ag",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "The kitchens are always extremely clean! 😮",
           "likes": 26,
           "video_id": "rZzyQ8NPex8",
-          "sentiment": ""
+          "sentiment": "중립"
         }
       ],
       "title_words": [
@@ -4871,42 +4871,42 @@
         }
       ],
       "sentiment_counts": {
-        "pos": 0,
-        "neu": 0,
-        "neg": 0
+        "pos": 247,
+        "neu": 118,
+        "neg": 33
       },
-      "negative_ratio": 0,
+      "negative_ratio": 0.0829145728643216,
       "warning_level": "",
       "top_comments": [
         {
           "text": "일본식 정통을 고집하지 않고 한국인 입맛과 취향에 맞게 구성하시고 이미 성공하실만큼 성공하셨는데 사장님이 아직 현역에 계신다는게 본참치의 큰 장점인거 같아요",
           "likes": 75,
           "video_id": "-0ZLyMXa-GQ",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "Warning: Never do this on an empty stomach 😂",
           "likes": 60,
           "video_id": "-0ZLyMXa-GQ",
-          "sentiment": ""
+          "sentiment": "중립"
         },
         {
           "text": "watching a tuna that big get broken down so clean is kinda hypnotic, i couldn’t look away 🔪",
           "likes": 39,
           "video_id": "-0ZLyMXa-GQ",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "1:22 Dude unsheathing his blade like he's a samurai!",
           "likes": 30,
           "video_id": "-0ZLyMXa-GQ",
-          "sentiment": ""
+          "sentiment": "중립"
         },
         {
           "text": "우왕 저런 기계까지 있다니 넘 신기하고 저기서 애써주시는 노동자분들께도 감사합니다😮",
           "likes": 21,
           "video_id": "JuvC7M1x4BM",
-          "sentiment": ""
+          "sentiment": "긍정"
         }
       ],
       "title_words": [
@@ -5008,42 +5008,42 @@
         }
       ],
       "sentiment_counts": {
-        "pos": 0,
-        "neu": 0,
-        "neg": 0
+        "pos": 1053,
+        "neu": 778,
+        "neg": 231
       },
-      "negative_ratio": 0,
+      "negative_ratio": 0.11202715809893307,
       "warning_level": "",
       "top_comments": [
         {
           "text": "지금 코스피 5천 찍고 이런 데 실물 경제는 어려움.\n자영업 경쟁이 심하다곤 해도 10년 전은 이정도는 아니었는데 요즘 사람들이 진짜 돈이 없는 것 같음.",
           "likes": 1100,
           "video_id": "wrDPqjXp-ZE",
-          "sentiment": ""
+          "sentiment": "중립"
         },
         {
           "text": "불족발 이빠이 맵게해주세요 라고 해서 캡사이신 많이 뿌렸는데, 매워서 못먹겠다고 환불들어와서 찾으러 가면 다 먹은상태였음, 그리고 주소지가 거지같은 아파트인곳이랑 원룸이 진상이 제일 많았음",
           "likes": 684,
           "video_id": "wrDPqjXp-ZE",
-          "sentiment": ""
+          "sentiment": "중립"
         },
         {
           "text": "김상호님 말이 맞음...집안이 장사하는 집안이면 장사 가능함...농사도 똑같음..지금 현재 시대은  부모 능력이 내 능력이 되는 시대임...",
           "likes": 618,
           "video_id": "wrDPqjXp-ZE",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "장사한지 26년동안 IMF이후 최악인것같습니다",
           "likes": 484,
           "video_id": "wrDPqjXp-ZE",
-          "sentiment": ""
+          "sentiment": "중립"
         },
         {
           "text": "자영업15년차입니다\n역대급 불황에 주변 상가들 다 나갑니다\n전에는 업종이 바뀌기라도 했지\n지금은 임대종이만 붙어있죠...",
           "likes": 422,
           "video_id": "wrDPqjXp-ZE",
-          "sentiment": ""
+          "sentiment": "긍정"
         }
       ],
       "title_words": [
@@ -5205,42 +5205,42 @@
         }
       ],
       "sentiment_counts": {
-        "pos": 0,
-        "neu": 0,
-        "neg": 0
+        "pos": 4063,
+        "neu": 1519,
+        "neg": 586
       },
-      "negative_ratio": 0,
+      "negative_ratio": 0.09500648508430609,
       "warning_level": "",
       "top_comments": [
         {
           "text": "은현장 화짱조 택갈이임 ㅋㅋㅋㅋ",
           "likes": 453,
           "video_id": "W5F-DwtHVUY",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "와 강남경찰서 개판이었네..김세의 제발 죄지은거 벌좀 받았으면 좋겠네요",
           "likes": 420,
           "video_id": "iVTyxJNC2HU",
-          "sentiment": ""
+          "sentiment": "부정"
         },
         {
           "text": "온기국밥집 입니다\n4번째 영상에 은대표님 감사합니다\n늘 구독자분들께도 감사합니다\n미사화로께도 감사합니다 \n할일이 있다는것에 기쁨을 느끼고있습니다\n재료비는 사실 걱정 안하고 있습니다\n대표님 말처럼 퍼줘서 망하는일은 없을껍니다 \n비타민에 홍삼까지 요즘제가 잘일어납니다 흥이 나요ㅎㅎ\n늘 감사하는 마음으로 장사하겠습니다\n대표님 사랑합니다",
           "likes": 416,
           "video_id": "hRJ6sH-Ws2s",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "극좌니까 정상이 극우로 보이는거야",
           "likes": 411,
           "video_id": "W5F-DwtHVUY",
-          "sentiment": ""
+          "sentiment": "중립"
         },
         {
           "text": "우리나라 프랜차이즈: 어떻게든 퇴직금 빨아먹으려고 고민하는 sky 석박사들의 모임",
           "likes": 369,
           "video_id": "vsppre882uM",
-          "sentiment": ""
+          "sentiment": "긍정"
         }
       ],
       "title_words": [
@@ -5352,42 +5352,42 @@
         }
       ],
       "sentiment_counts": {
-        "pos": 0,
-        "neu": 0,
-        "neg": 0
+        "pos": 126,
+        "neu": 41,
+        "neg": 24
       },
-      "negative_ratio": 0,
+      "negative_ratio": 0.1256544502617801,
       "warning_level": "",
       "top_comments": [
         {
           "text": "종호야 슬슬 채널명에서 쇼츠 지워라❤",
           "likes": 185,
           "video_id": "TONfPFkzAtA",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "종호야 신안은 안된다❤",
           "likes": 144,
           "video_id": "TONfPFkzAtA",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "14:21 종호야 우리들 보고 왜 인사안하냐❤",
           "likes": 93,
           "video_id": "TONfPFkzAtA",
-          "sentiment": ""
+          "sentiment": "긍정"
         },
         {
           "text": "나경원 저게지금 뭐하는 거임?\n아주 발악을 하는군!",
           "likes": 88,
           "video_id": "jnCwk3zc86s",
-          "sentiment": ""
+          "sentiment": "중립"
         },
         {
           "text": "나경원은 저짓하러 나오는게 목적",
           "likes": 72,
           "video_id": "jnCwk3zc86s",
-          "sentiment": ""
+          "sentiment": "중립"
         }
       ],
       "title_words": [
