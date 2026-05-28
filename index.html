@@ -685,6 +685,31 @@ tr.own-row:hover td { background: rgba(228, 0, 43, 0.12); }
 }
 
 /* Filter / sort bar (own tab) */
+/* ★ 2026-05-27: 영상 상세 brand 선택 칩 */
+.own-brand-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 16px;
+}
+.own-brand-tabs .ob-chip {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  border-radius: 20px;
+  padding: 7px 16px;
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.own-brand-tabs .ob-chip:hover { background: var(--bg-card-hover); color: var(--text-primary); }
+.own-brand-tabs .ob-chip.active {
+  background: var(--accent);
+  color: #fff;
+  border-color: var(--accent);
+}
+
 .own-toolbar {
   display: flex;
   flex-wrap: wrap;
@@ -1535,7 +1560,7 @@ tr.own-row:hover td { background: rgba(228, 0, 43, 0.12); }
   <button class="tab-btn" data-tab="t1">T1 직접 경쟁</button>
   <button class="tab-btn" data-tab="t2">T2 소비상황</button>
   <button class="tab-btn" data-tab="t3">T3 콘텐츠 벤치마크</button>
-  <button class="tab-btn" data-tab="own">육바연 영상 상세</button>
+  <button class="tab-btn" data-tab="own">영상 상세</button>
   <button class="tab-btn" data-tab="keywords">키워드 인사이트</button>
   <button class="tab-btn" data-tab="help">Help</button>
 </nav>
@@ -1758,16 +1783,26 @@ tr.own-row:hover td { background: rgba(228, 0, 43, 0.12); }
     </div>
   </section>
 
-  <!-- TAB: 육바연 영상 상세 -->
+  <!-- TAB: 영상 상세 -->
   <section class="tab-pane" id="tab-own">
     <div class="intro-block">
-      자사(육회바른연어) 관련 영상만 깊게 분석합니다. <strong>썸네일·제목·채널·티어·조회수·좋아요·댓글·ER·Buzz·감성·치명 콘텐츠 판정·멀티-브랜드 비교</strong>까지 영상 단위로 펼쳐봅니다.
+      자사 및 T1 직접 경쟁 브랜드 영상을 깊게 분석합니다. <strong>썸네일·제목·채널·티어·조회수·좋아요·댓글·ER·Buzz·감성·치명 콘텐츠 판정·멀티-브랜드 비교</strong>까지 영상 단위로 펼쳐봅니다. 아래 브랜드 칩으로 전환하세요.
+    </div>
+
+    <!-- ★ 2026-05-27: brand 선택 칩 -->
+    <div class="own-brand-tabs" id="ownBrandTabs">
+      <button type="button" class="ob-chip active" data-brand="yukbayeon">육바연</button>
+      <button type="button" class="ob-chip" data-brand="yamoonyeoneo">야문연어</button>
+      <button type="button" class="ob-chip" data-brand="bahanyeoneo">반한연어</button>
+      <button type="button" class="ob-chip" data-brand="yeoneosanghoe">연어상회</button>
+      <button type="button" class="ob-chip" data-brand="yeoneodang">연어당</button>
+      <button type="button" class="ob-chip" data-brand="yeoneoroman">연어로만</button>
     </div>
 
     <div class="kpi-grid" id="ownKpiGrid"></div>
 
     <div class="section">
-      <h2>자사 영상 리스트</h2>
+      <h2 id="ownListTitle">영상 리스트</h2>
       <div class="own-toolbar" id="ownToolbar">
         <label>정렬</label>
         <select id="ownSort">
@@ -1871,6 +1906,41 @@ var BRAND_SHORT_LABELS = {
 
 var T1_ORDER = ['yukbayeon', 'yamoonyeoneo', 'bahanyeoneo', 'yeoneosanghoe', 'yeoneodang', 'yeoneoroman'];
 
+// ★ 2026-05-27: PESO 분류 (v1 정확한 룰 + yukhoe 확장)
+// 브랜드별 채널명 매칭 토큰 (채널명에 이게 있으면 본사/가맹점 공식 영상 = Owned)
+var BRAND_CHANNEL_TOKENS = {
+  yukbayeon:    ['육회바른연어', '육바연'],
+  yamoonyeoneo: ['육회야문연어', '야문연어'],
+  bahanyeoneo:  ['육회반한연어', '반한연어', '김천재'],
+  yeoneosanghoe:['연어상회'],
+  yeoneodang:   ['연어당'],
+  yeoneoroman:  ['연어로만']
+};
+var SPONSORED_MARKERS = [
+  '유료광고 포함', '유료 광고 포함', '유료 프로모션', '유료프로모션',
+  '#광고', '#협찬', '#ad', '#sponsored', 'paid promotion', 'brand partnership',
+  '협찬받아', '협찬 받아', '제공받아', '제공 받아', '제품을 제공', '이 영상은 광고',
+  '가맹점 모집', '가맹 모집', '창업 문의', '가맹문의', '점주 모집', '본사 지원'
+];
+function classifyPesoCat(v, brandKey) {
+  if (!v) return 'earned';
+  // 1) Owned — 공식 채널 tier OR 채널명에 브랜드명 직접 포함
+  if (v.creator_tier === 'Official') return 'owned';
+  var ch = (v.channel || '').toLowerCase();
+  var toks = BRAND_CHANNEL_TOKENS[brandKey] || [];
+  for (var i = 0; i < toks.length; i++) {
+    if (ch.indexOf(toks[i].toLowerCase()) !== -1) return 'owned';
+  }
+  // 2) Sponsored — 유료광고 disclosure OR 광고/협찬/가맹모집 키워드
+  if (v.paid_content === true || v.paid_content_disclosure === true) return 'sponsored';
+  var hay = ((v.title || '') + ' ' + (v.description_excerpt || v.description || '')).toLowerCase();
+  for (var j = 0; j < SPONSORED_MARKERS.length; j++) {
+    if (hay.indexOf(SPONSORED_MARKERS[j].toLowerCase()) !== -1) return 'sponsored';
+  }
+  // 3) Earned — 나머지 자발 크리에이터
+  return 'earned';
+}
+
 var PALETTE = {
   yukbayeon: '#E4002B',
   yamoonyeoneo: '#F97316',
@@ -1922,6 +1992,7 @@ var STATE = { data: null };
 /* Own tab UI state */
 var OWN_PAGE_SIZE = 10;
 var ownState = {
+  brand: 'yukbayeon', // ★ 2026-05-27: 선택된 brand (자사+T1)
   sort: 'upload',     // upload | views | buzz | likes | comments | neg
   format: 'all',      // all | long | short
   search: '',
@@ -2064,12 +2135,16 @@ function getT1Stats() {
     var views = b.total_views || 0;
     var engagement = likes + comments;
     var er = views > 0 ? engagement / views : 0;
-    // Owned / Sponsored / Earned split using creator_tier === 'Official' for owned
+    // ★ 2026-05-27: PESO 분류 — v1 정확한 룰 + 확장 (classifyPesoCat)
+    //   Owned:     공식 채널(Official) OR 채널명에 브랜드명 직접 포함 (본사·가맹점 운영)
+    //   Sponsored: 유료광고 disclosure OR 광고/협찬/가맹모집 키워드
+    //   Earned:    나머지 — 순수 자발 크리에이터 (primary)
     var owned = 0, sponsored = 0, earned = 0;
     videos.forEach(function (v) {
       var vv = v.views || 0;
-      if (v.creator_tier === 'Official') owned += vv;
-      else if (v.is_verified || (v.subscribers || 0) >= 100000) sponsored += vv;
+      var cat = classifyPesoCat(v, key);
+      if (cat === 'owned') owned += vv;
+      else if (cat === 'sponsored') sponsored += vv;
       else earned += vv;
     });
     rows.push({
@@ -3589,20 +3664,22 @@ function ownFilterVideos(videos) {
   });
 }
 
-/* ---- 자사 영상 리스트 렌더 ---- */
+/* ---- 영상 리스트 렌더 (선택된 brand) ---- */
 function renderOwnList() {
   var d = STATE.data;
-  var own = d && d.brands && d.brands.yukbayeon;
+  var bcode = ownState.brand || 'yukbayeon';
+  var bname = BRAND_SHORT_LABELS[bcode] || bcode;
+  var own = d && d.brands && d.brands[bcode];
   var listBox = document.getElementById('ownVideoList');
   var rc = document.getElementById('ownResultCount');
   if (!own) {
-    listBox.innerHTML = emptyState('🎬', '자사 영상 데이터 없음', '');
+    listBox.innerHTML = emptyState('🎬', bname + ' 영상 데이터 없음', '');
     if (rc) rc.textContent = '';
     return;
   }
   var videos = own.videos || [];
   if (videos.length === 0) {
-    listBox.innerHTML = emptyState('🎬', '수집된 자사 영상 없음', '데이터 수집 시 자동 표시됩니다');
+    listBox.innerHTML = emptyState('🎬', '수집된 ' + bname + ' 영상 없음', '데이터 수집 시 자동 표시됩니다');
     if (rc) rc.textContent = '';
     return;
   }
@@ -3637,10 +3714,13 @@ function renderOwnList() {
   // comment toggle wire (delegation handled at section level — bound once below)
 }
 
-/* ---- 자사 탭 KPI + 리스트 ---- */
+/* ---- 영상 상세 탭 KPI + 리스트 (선택된 brand) ---- */
 function renderOwn() {
   var d = STATE.data;
-  var own = d && d.brands && d.brands.yukbayeon;
+  var bcode = ownState.brand || 'yukbayeon';
+  var own = d && d.brands && d.brands[bcode];
+  var titleEl = document.getElementById('ownListTitle');
+  if (titleEl) titleEl.textContent = (BRAND_SHORT_LABELS[bcode] || bcode) + ' 영상 리스트';
   var kpiBox = document.getElementById('ownKpiGrid');
   if (!own) {
     kpiBox.innerHTML = '';
@@ -3679,6 +3759,22 @@ function initOwnTab() {
   var fmtSeg = document.getElementById('ownFormatSeg');
   var searchEl = document.getElementById('ownSearch');
   var section = document.getElementById('tab-own');
+
+  // ★ 2026-05-27: brand 선택 칩 wire
+  var brandTabs = document.getElementById('ownBrandTabs');
+  if (brandTabs) {
+    brandTabs.addEventListener('click', function (e) {
+      var btn = e.target.closest('button[data-brand]');
+      if (!btn) return;
+      brandTabs.querySelectorAll('button').forEach(function (b) { b.classList.remove('active'); });
+      btn.classList.add('active');
+      ownState.brand = btn.getAttribute('data-brand');
+      ownState.shown = OWN_PAGE_SIZE;
+      ownState.search = '';
+      if (searchEl) searchEl.value = '';
+      renderOwn();  // KPI + 리스트 재렌더
+    });
+  }
 
   if (sortSel) {
     sortSel.addEventListener('change', function () {
