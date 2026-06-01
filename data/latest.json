@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-01",
-  "generated_at": "2026-06-01 14:02:21",
+  "date": "2026-06-02",
+  "generated_at": "2026-06-02 03:53:31",
   "window_days": 365,
   "data_earliest": "2025-06-02",
   "data_latest": "2026-05-24",
@@ -38,8 +38,8 @@
     "yukbayeon": {
       "display": "육회바른연어",
       "video_count": 13,
-      "total_views": 432904,
-      "total_likes": 3070,
+      "total_views": 432924,
+      "total_likes": 3071,
       "total_comments": 378,
       "n_short": 1,
       "n_long": 12,
@@ -48,7 +48,7 @@
         "Macro": 2,
         "Micro": 3
       },
-      "summary": "육회바른연어의 신메뉴 및 프로모션에 대한 소비자 반응이 긍정적이지만, 다른 연어 관련 제품과 비교해 경쟁력이 부족하다는 지적도 있어. 특히 가격대비 양에 대한 만족도가 높으나, 맛이나 질감에서 타사 제품을 선호하는 의견도 존재한다.\n  📌 신메뉴 · 프로모션 · 경쟁력",
+      "summary": "육회바른연어의 연어 관련 메뉴들이 소비자들의 긍정적인 반응을 얻고 있으며, 특히 '불닭마요 연어깍두기'가 주목받았다. 그러나 경쟁사 제품과 직접 비교하는 내용은 발견되지 않았다. 즉시 대응이 필요하지 않으나, 지속적인 모니터링은 필수。\n  📌 연어衎 · 불닭마요 연어깍두기 · 긍정적 반응",
       "videos": [
         {
           "video_id": "Ye8E_dCsMkw",
@@ -1228,16 +1228,16 @@
           "video_id": "7ZK8O1OlhvI",
           "title": "때깔부터 남다른 연어깍두기와 육회냉면",
           "channel": "[먹하루]Meokharu",
-          "subscribers": 14,
+          "subscribers": 32,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 37,
-          "likes": 4,
+          "views": 56,
+          "likes": 5,
           "comment_count": 1,
-          "engagement_rate": 0.1351,
+          "engagement_rate": 0.1071,
           "duration": 588,
           "is_short": false,
-          "buzz_score": 16.4,
+          "buzz_score": 18.1,
           "upload_date": "2026.05.19",
           "url": "https://www.youtube.com/watch?v=7ZK8O1OlhvI",
           "description_excerpt": "안녕하세요.\n먹하루 입니다!\n때깔부터 남다른 연어깍두기와 육회냉면 같이 먹어요!",
@@ -1295,37 +1295,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "T5p-s8rulhs",
-          "title": "오늘 야식은 불닭냉면으로 하세요 🔥| 불닭냉면 | 육회바른연어 | 육회불닭냉면 | 불닭볶음면 | 먹방",
-          "channel": "SEOYEON",
-          "subscribers": 7,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 43,
-          "likes": 0,
-          "comment_count": 1,
-          "engagement_rate": 0.0233,
-          "duration": 286,
-          "is_short": false,
-          "buzz_score": 5.2,
-          "upload_date": "2026.05.22",
-          "url": "https://www.youtube.com/watch?v=T5p-s8rulhs",
-          "description_excerpt": "여러분 !! 불닭을 사랑하는 제가 불닭을 컨텐츠로 영상을 가져왔어요🫰 연휴동안 쉬면서 불닭냉면 한 번씩 꼭 만들어 드세요!\n.\n.\n.\n#불닭냉면 #불닭볶음면 #동치미냉면육수 #육회바른연어 #육회 #반숙란 #주먹밥 #육회불닭냉면 #삼양 #호치 #냉면 #불닭 #먹방 #mukbang #food #브이로그 #일상브이로그 #vlog #일상 #먹로그 #커플브이로그 #남자친구 #커플 #couple #foodvlog #dailyvlog",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "LdTGK3qCU6A",
           "title": "ENG | 남편 생일주간 브이로그🎂 카페 데이트부터 홈메이드 딸기 케이크 만들기, 육회바른연어 먹방하는 하루",
           "channel": "Dainty데인티",
@@ -1352,6 +1321,37 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "T5p-s8rulhs",
+          "title": "오늘 야식은 불닭냉면으로 하세요 🔥| 불닭냉면 | 육회바른연어 | 육회불닭냉면 | 불닭볶음면 | 먹방",
+          "channel": "SEOYEON",
+          "subscribers": 7,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 44,
+          "likes": 0,
+          "comment_count": 1,
+          "engagement_rate": 0.0227,
+          "duration": 286,
+          "is_short": false,
+          "buzz_score": 4.7,
+          "upload_date": "2026.05.22",
+          "url": "https://www.youtube.com/watch?v=T5p-s8rulhs",
+          "description_excerpt": "여러분 !! 불닭을 사랑하는 제가 불닭을 컨텐츠로 영상을 가져왔어요🫰 연휴동안 쉬면서 불닭냉면 한 번씩 꼭 만들어 드세요!\n.\n.\n.\n#불닭냉면 #불닭볶음면 #동치미냉면육수 #육회바른연어 #육회 #반숙란 #주먹밥 #육회불닭냉면 #삼양 #호치 #냉면 #불닭 #먹방 #mukbang #food #브이로그 #일상브이로그 #vlog #일상 #먹로그 #커플브이로그 #남자친구 #커플 #couple #foodvlog #dailyvlog",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
@@ -1431,7 +1431,7 @@
         "Macro": 1,
         "Nano": 7
       },
-      "summary": "육회야문연어는 신도시 상권에서 오픈 첫 날 만석을 기록하며 성공적인 시작을 보였고, 김복순의 영상에서도 다양한 메뉴를 선보이며 주목받았다. 그러나 소비자들의 반응은 긍정적이지만 자사와 직접 비교되는 부분이 부족해 즉시 대응보다는 지켜볼 필요가 있다.\n  📌 오픈 첫 날 만석 · 김복순 영상 출연 · 소비자 긍정적 반응",
+      "summary": "육회야문연어는 신메뉴와 프로모션을 통해 소비자들에게 긍정적인 반응을 얻고 있으며, 특히 불닭마요연어깍두기와 연어 추가 메뉴가 주목받았다. 그러나 자사 제품과 직접 비교되는 부분은 명확히 드러나지 않았으며, 즉시 대응이 필요한 상황은 아니다.\n  📌 불닭마요연어 hakkot · 신메뉴 · 긍정적 소비자 반응",
       "videos": [
         {
           "video_id": "ku4hG-cD5kY",
@@ -2151,7 +2151,7 @@
       "tier_counts": {
         "Nano": 1
       },
-      "summary": "김천재의 육회반한연어가 새로운 연어육회 무제한 메뉴를 제공하며, 이는 소비자들로부터 긍정적인 반응을 얻고 있어 자사와 직접 경쟁하고 있으며, 가격과 품질 측면에서 자사 대비 우위를 점할 가능성이 있다. 즉시 자사의 프로모션 및 메뉴 다양화 전략 검토 필요.\n  📌 연어육회 무제한 · 긍정적 소비자 반응 · 가격 경쟁력",
+      "summary": "김천재의 육회반한연어가 새로운 연어육회 무제한 이벤트를 진행하며, 소비자들 사이에서 긍정적인 반응을 얻고 있어 자사와 직접 비교되는 경쟁 상황에 놓여 있으며, 가격 대비 품질과 다양성에서 우위를 점하고 있어 즉시 대응이 필요하다.\n  📌 연어육회 무제한 · 긍정적 소비자 반응 · 가격 대비 가치",
       "videos": [
         {
           "video_id": "Ukft6tVXwEY",
@@ -2281,7 +2281,7 @@
       "tier_counts": {
         "Nano": 2
       },
-      "summary": "연어로만S에서 구독자 이벤트를 진행하며 모든 메뉴에 대해 10% 할인을 제공하는 프로모션을 실시하고 있어, 자사와의 가격 경쟁력이 우위를 보이고 소비자 반응도 긍정적이다. 즉시 대응 필요.\n  📌 구독자 이벤트 · 10% 할인 · 긍정적 소비자 반응",
+      "summary": "연어로만S에서 구독자 이벤트를 진행하며 모든 메뉴에 대해 10% 할인을 제공하고 있어, 자사와 비교되는 프로모션 활동이 진행되고 있다. 소비자 반응은 긍정적이지만, 신메뉴나 가격 경쟁력에 대한 정보는 부족하다. 즉시 대응 필요성은 높지 않으나, 이벤트 효과를 모니터링하고 유사 전략 검토가 필요하다.\n  📌 구독자 이벤트 · 10% 할인 · 프로모션",
       "videos": [
         {
           "video_id": "594DiiCC5ZA",
