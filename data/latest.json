@@ -1,8 +1,8 @@
 {
-  "date": "2026-05-29",
-  "generated_at": "2026-05-29 14:40:01",
+  "date": "2026-06-01",
+  "generated_at": "2026-06-01 14:02:21",
   "window_days": 365,
-  "data_earliest": "2025-05-30",
+  "data_earliest": "2025-06-02",
   "data_latest": "2026-05-24",
   "tiers": {
     "own": {
@@ -38,8 +38,8 @@
     "yukbayeon": {
       "display": "육회바른연어",
       "video_count": 13,
-      "total_views": 432770,
-      "total_likes": 3064,
+      "total_views": 432904,
+      "total_likes": 3070,
       "total_comments": 378,
       "n_short": 1,
       "n_long": 12,
@@ -48,7 +48,7 @@
         "Macro": 2,
         "Micro": 3
       },
-      "summary": "육회바른연어의 연어 관련 메뉴들이 소비자들 사이에서 긍정적인 반응을 얻고 있으며, 특히 불닭마요 연어깍두기와 대왕연어초밥이 주목받았다. 그러나 일부 사용자는 메뉴의 맛에 대한 의구심을 나타내기도 했다. 즉시 경쟁 상황 모니터링과 고객 피드백 분석 필요.\n  📌 불닭마요 연어깍두기 · 대왕연어초밥 · 소비자 반응",
+      "summary": "육회바른연어의 신메뉴 및 프로모션에 대한 소비자 반응이 긍정적이지만, 다른 연어 관련 제품과 비교해 경쟁력이 부족하다는 지적도 있어. 특히 가격대비 양에 대한 만족도가 높으나, 맛이나 질감에서 타사 제품을 선호하는 의견도 존재한다.\n  📌 신메뉴 · 프로모션 · 경쟁력",
       "videos": [
         {
           "video_id": "Ye8E_dCsMkw",
@@ -470,13 +470,13 @@
           "subscribers": 12300,
           "creator_tier": "Micro",
           "is_verified": false,
-          "views": 796,
-          "likes": 41,
+          "views": 896,
+          "likes": 46,
           "comment_count": 6,
-          "engagement_rate": 0.059,
+          "engagement_rate": 0.058,
           "duration": 430,
           "is_short": false,
-          "buzz_score": 44.7,
+          "buzz_score": 43.3,
           "upload_date": "2026.05.24",
           "url": "https://www.youtube.com/watch?v=xwqM7BaOJvw",
           "description_excerpt": "항상 감사드리고 좋은 하루 보내세요!😍🥰\n\n✨인스타 : ​⁠kkamddeu\n\n📩비즈니스 메일 : kkamddeu@gmail.com\n\n#asmr #mukbang #먹방 #eating #육회 #연어 #불닭마요 #연어깍두기 #초밥 #rawbeef #salmon #buldak #sushi #야식 #후기 #리뷰 #존맛",
@@ -1043,37 +1043,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "XaYzWy5eskQ",
-          "title": "쉬었음 청년의 집밥 VLOG :부모님 저녁밥 차리기✨ | 올 여름은 이북식 찜닭으로 몸보양..🫶 | 맛있는 아욱쌈밥🥬 ㅣ 육회바른연어 들기름메밀면 육회초밥 | 훈제연어",
-          "channel": "에센스 Essence",
-          "subscribers": 17900,
-          "creator_tier": "Micro",
-          "is_verified": false,
-          "views": 141,
-          "likes": 6,
-          "comment_count": 0,
-          "engagement_rate": 0.0426,
-          "duration": 522,
-          "is_short": false,
-          "buzz_score": 30.1,
-          "upload_date": "2026.05.24",
-          "url": "https://www.youtube.com/watch?v=XaYzWy5eskQ",
-          "description_excerpt": "📨 bhshap@naver.com",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "중립",
-          "video_meta_rating": 3,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "vWnMVVwlYDw",
           "title": "[SUB] 🐟연어깍두기 &주먹밥 & 계란국‼️이거 왜 이제 먹었죠?🍙Salmon Buldak Kkakdugi Mukbang ASMR",
           "channel": "모구밍moguming",
@@ -1134,22 +1103,22 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "FgC8NzJT52c",
-          "title": "먹방브이로그 | 드디어 연어깍두기 먹어봄...!(연어깍두기, 대패삼겹살, 모듬회, 크림김치볶음밥, 과일모찌, 김치만두)",
-          "channel": "찌닝",
-          "subscribers": 796,
-          "creator_tier": "Nano",
+          "video_id": "XaYzWy5eskQ",
+          "title": "쉬었음 청년의 집밥 VLOG :부모님 저녁밥 차리기✨ | 올 여름은 이북식 찜닭으로 몸보양..🫶 | 맛있는 아욱쌈밥🥬 ㅣ 육회바른연어 들기름메밀면 육회초밥 | 훈제연어",
+          "channel": "에센스 Essence",
+          "subscribers": 17900,
+          "creator_tier": "Micro",
           "is_verified": false,
-          "views": 110,
-          "likes": 7,
-          "comment_count": 1,
-          "engagement_rate": 0.0727,
-          "duration": 1049,
+          "views": 151,
+          "likes": 6,
+          "comment_count": 0,
+          "engagement_rate": 0.0397,
+          "duration": 522,
           "is_short": false,
-          "buzz_score": 25.7,
-          "upload_date": "2026.05.21",
-          "url": "https://www.youtube.com/watch?v=FgC8NzJT52c",
-          "description_excerpt": "#먹방브이로그 #먹방 #vlog #일상브이로그 \n\nEmail - ansdbwls2468@naver.com\nInstagram - @zzlning\n\n#먹방브이로그 #일상브이로그 #먹방 #일상 #vlog #먹방vlog #asmr",
+          "buzz_score": 28.1,
+          "upload_date": "2026.05.24",
+          "url": "https://www.youtube.com/watch?v=XaYzWy5eskQ",
+          "description_excerpt": "📨 bhshap@naver.com",
           "top_comments": [],
           "sentiment_counts": {
             "neg": 0,
@@ -1158,8 +1127,8 @@
           },
           "negative_ratio": 0.0,
           "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
@@ -1225,19 +1194,50 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "FgC8NzJT52c",
+          "title": "먹방브이로그 | 드디어 연어깍두기 먹어봄...!(연어깍두기, 대패삼겹살, 모듬회, 크림김치볶음밥, 과일모찌, 김치만두)",
+          "channel": "찌닝",
+          "subscribers": 795,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 123,
+          "likes": 7,
+          "comment_count": 1,
+          "engagement_rate": 0.065,
+          "duration": 1049,
+          "is_short": false,
+          "buzz_score": 23.6,
+          "upload_date": "2026.05.21",
+          "url": "https://www.youtube.com/watch?v=FgC8NzJT52c",
+          "description_excerpt": "#먹방브이로그 #먹방 #vlog #일상브이로그 \n\nEmail - ansdbwls2468@naver.com\nInstagram - @zzlning\n\n#먹방브이로그 #일상브이로그 #먹방 #일상 #vlog #먹방vlog #asmr",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "7ZK8O1OlhvI",
           "title": "때깔부터 남다른 연어깍두기와 육회냉면",
           "channel": "[먹하루]Meokharu",
-          "subscribers": 6,
+          "subscribers": 14,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 26,
-          "likes": 3,
+          "views": 37,
+          "likes": 4,
           "comment_count": 1,
-          "engagement_rate": 0.1538,
+          "engagement_rate": 0.1351,
           "duration": 588,
           "is_short": false,
-          "buzz_score": 16.1,
+          "buzz_score": 16.4,
           "upload_date": "2026.05.19",
           "url": "https://www.youtube.com/watch?v=7ZK8O1OlhvI",
           "description_excerpt": "안녕하세요.\n먹하루 입니다!\n때깔부터 남다른 연어깍두기와 육회냉면 같이 먹어요!",
@@ -1431,7 +1431,7 @@
         "Macro": 1,
         "Nano": 7
       },
-      "summary": "육회야문연어는 신메뉴와 프로모션을 통해 소비자들에게 긍정적인 반응을 얻고 있으며, 특히 불닭마요 연어깍두기와 육회 메뉴가 주목받았다. 그러나 자사(육회바른연어)와의 직접 비교에서 명확한 우위를 드러내지 못했으며, 신규 매장 오픈과 인지도 확산으로 점유율 상승이 예상된다. 즉시 대응 필요.\n  📌 불닭마요 연어깍두기 · 신메뉴 프로모션 · 신규 매장",
+      "summary": "육회야문연어는 신도시 상권에서 오픈 첫 날 만석을 기록하며 성공적인 시작을 보였고, 김복순의 영상에서도 다양한 메뉴를 선보이며 주목받았다. 그러나 소비자들의 반응은 긍정적이지만 자사와 직접 비교되는 부분이 부족해 즉시 대응보다는 지켜볼 필요가 있다.\n  📌 오픈 첫 날 만석 · 김복순 영상 출연 · 소비자 긍정적 반응",
       "videos": [
         {
           "video_id": "ku4hG-cD5kY",
@@ -2151,7 +2151,7 @@
       "tier_counts": {
         "Nano": 1
       },
-      "summary": "김천재의 육회반한연어가 신메뉴를 통해 저렴한 가격으로 무한리필 서비스를 제공하며, 이는 소비자들 사이에서 긍정적인 반응을 얻고 있어 자사(육회바른연어)의 점유율과 매장 트래픽에 위협이 될 가능성이 높다. 즉시 가격 경쟁력 및 메뉴 다양화 전략 검토 필요.\n  📌 무한리필 · 가성비 · 긍정적 반응",
+      "summary": "김천재의 육회반한연어가 새로운 연어육회 무제한 메뉴를 제공하며, 이는 소비자들로부터 긍정적인 반응을 얻고 있어 자사와 직접 경쟁하고 있으며, 가격과 품질 측면에서 자사 대비 우위를 점할 가능성이 있다. 즉시 자사의 프로모션 및 메뉴 다양화 전략 검토 필요.\n  📌 연어육회 무제한 · 긍정적 소비자 반응 · 가격 경쟁력",
       "videos": [
         {
           "video_id": "Ukft6tVXwEY",
@@ -2281,7 +2281,7 @@
       "tier_counts": {
         "Nano": 2
       },
-      "summary": "연어로만S에서 구독자 이벤트를 진행하며 모든 메뉴에 대해 10% 할인을 제공하는 프로모션으로 인해 경쟁력이 상승했으나, 자사와 직접 비교되는 부분은 명확히 드러나지 않았다. 소비자 반응에서도 특별한 우위 또는 열위가 나타나지는 않았으며, 이벤트 효과를 모니터링하고 필요시 대응 전략을 수립하는 것이 좋겠다.\n  📌 구독자 이벤트 · 10% 할인 프로모션 · 이벤트 효과 모니터링",
+      "summary": "연어로만S에서 구독자 이벤트를 진행하며 모든 메뉴에 대해 10% 할인을 제공하는 프로모션을 실시하고 있어, 자사와의 가격 경쟁력이 우위를 보이고 소비자 반응도 긍정적이다. 즉시 대응 필요.\n  📌 구독자 이벤트 · 10% 할인 · 긍정적 소비자 반응",
       "videos": [
         {
           "video_id": "594DiiCC5ZA",
