@@ -1,0 +1,127 @@
+{
+  "date": "2026-06-06",
+  "days": 2,
+  "first_run": false,
+  "brands": {
+    "yukbayeon": {
+      "display": "육회바른연어",
+      "video_count": 1,
+      "total_views": 253,
+      "total_likes": 12,
+      "total_comments": 7,
+      "n_short": 0,
+      "n_long": 1,
+      "tier_counts": {
+        "Nano": 1
+      },
+      "summary": "육회바른연어의 직접 경쟁사인 유빈바이트가 연어 깍두기를 소개하며 긍정적인 소비자 반응을 얻고 있어, 육회바른연어의 점유율과 매장 트래픽에 대해 우려할 만한 위협 요소로 작용하고 있다. 특히 유빈바이트의 연어 깍두기가 육회바른연어 메뉴와 직접 비교되는 상황에서 소비자들이 긍정적인 반응을 보이고 있어 즉시 대응이 필요하다.\n  📌 연어 깍두기 · 긍정적 소비자 반응 · 즉시 대응",
+      "videos": [
+        {
+          "video_id": "FCqf9D1YIoc",
+          "title": "연어를 이렇게 먹는다고…? | 생각보다 훨씬 맛있네!! #연어깍두기 #먹방 #asmr",
+          "channel": "유빈바이트 | Yubin Bites",
+          "subscribers": 24,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 253,
+          "likes": 12,
+          "comment_count": 7,
+          "engagement_rate": 0.0751,
+          "duration": 714,
+          "is_short": false,
+          "buzz_score": 37.7,
+          "upload_date": "2026.06.04",
+          "url": "https://www.youtube.com/watch?v=FCqf9D1YIoc",
+          "description_excerpt": "요즘 궁금했던 연어깍두기, 직접 만들어봤어요🧡\n생각보다 훨씬 맛있어서 끝까지 정말 맛있게 먹었습니다🥰\n\n다음 먹방도 기대해주세요💓\n\n#MukbangASMR #KoreanMukbang #SalmonMukbang",
+          "top_comments": [
+            {
+              "author": "@진희-k9z",
+              "text": "아 연어 깍두기 맛있겠네요 🥹",
+              "likes": 1
+            },
+            {
+              "author": "@별-o3r",
+              "text": "어쩜 이리 예쁘게 먹나요~~❤❤❤❤❤😊😊",
+              "likes": 1
+            },
+            {
+              "author": "@박현우박현우-o2e",
+              "text": "안녕하세요 잘보고갈게요 구독했어요",
+              "likes": 1
+            },
+            {
+              "author": "@yubinbites",
+              "text": "아 정말 맛있었습니다😋",
+              "likes": 0
+            },
+            {
+              "author": "@yubinbites",
+              "text": "감사합니다❣️😸",
+              "likes": 0
+            }
+          ]
+        }
+      ]
+    },
+    "yamoonyeoneo": {
+      "display": "육회야문연어",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "bahanyeoneo": {
+      "display": "김천재의 육회반한연어",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "yeoneosanghoe": {
+      "display": "연어상회",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "yeoneodang": {
+      "display": "연어당",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "yeoneoroman": {
+      "display": "연어로만",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    }
+  }
+}
