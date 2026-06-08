@@ -1,9 +1,9 @@
 {
-  "date": "2026-06-07",
-  "generated_at": "2026-06-07 14:44:28",
+  "date": "2026-06-09",
+  "generated_at": "2026-06-09 03:17:59",
   "window_days": 365,
-  "data_earliest": "2025-06-07",
-  "data_latest": "2026-06-04",
+  "data_earliest": "2025-06-11",
+  "data_latest": "2026-06-07",
   "tiers": {
     "own": {
       "label": "자사",
@@ -37,18 +37,18 @@
   "brands": {
     "yukbayeon": {
       "display": "육회바른연어",
-      "video_count": 14,
-      "total_views": 433320,
-      "total_likes": 3089,
-      "total_comments": 392,
+      "video_count": 16,
+      "total_views": 433955,
+      "total_likes": 3104,
+      "total_comments": 396,
       "n_short": 1,
-      "n_long": 13,
+      "n_long": 15,
       "tier_counts": {
-        "Nano": 9,
+        "Nano": 11,
         "Macro": 2,
         "Micro": 3
       },
-      "summary": "육회바른연어의 연어 관련 메뉴들이 다양한 플랫폼에서 긍정적인 반응을 얻고 있으며, 특히 연어 회와 연어 초밥이 주요 소비자 만족도를 높이고 있다. 그러나 일부 소비자들은 양과 가격에 대한 우려를 나타내며, 이는 자사 매장 트래픽 증가에는 긍정적이지만 장기적으로 경쟁력 약화로 이어질 수 있는 위협 요소다.\n  📌 연어 회 · 연어 초밥 · 양과 가격",
+      "summary": "육회바른연어의 신메뉴 연어깍두기가 소비자들 사이에서 긍정적인 반응을 얻고 있으며, 특히 두툼하게 썰어 먹는 것이 집에서 먹는 장점으로 꼽혔다. 그러나 일부 소비자는 맛에 대한 의구심을 나타내기도 했다.\n  📌 연어깍두기 · 양파+홀스래디쉬소스 · 두툼하게 썰어먹기",
       "videos": [
         {
           "video_id": "Ye8E_dCsMkw",
@@ -464,19 +464,65 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "TlZrcZYhZu4",
+          "title": "연어깍두기🧡불닭양파쌈🤤🤤✨                Salmon 🧡 Buldak onion wrap 🤤🤤✨ #asmr #연어 #mukbang #먹방 #양파 #불닭소스",
+          "channel": "ASMR빡슈",
+          "subscribers": 534,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 313,
+          "likes": 8,
+          "comment_count": 2,
+          "engagement_rate": 0.0319,
+          "duration": 409,
+          "is_short": false,
+          "buzz_score": 43.1,
+          "upload_date": "2026.06.07",
+          "url": "https://www.youtube.com/watch?v=TlZrcZYhZu4",
+          "description_excerpt": "연어에다가 스리라차+불닭소스+마요네즈+날치알 넣었어요!너무 맛있네용!\n양파쌈은 불닭에 연어에 불닭마요 소스입니당🫶🏻🧡\n잘먹겠습니다!❤️\n\n\nI added Sriracha+Buldak Sauce+Mayonnaise+Flounder to salmon! \nIt's so good!\nOnion ssam is buldak, salmon, and buldak mayo sauce. 🫶🏻🧡\nThank you for the food! ❤️\n\n\n#asmr #먹방 #mukbang #불닭마요 #연어 #연어먹방 #양파쌈#양파 #날치알",
+          "top_comments": [
+            {
+              "author": "@CONANCONAN72",
+              "text": "맛있겠다....😊😊",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@ASMR빡슈",
+              "text": "완전 꿀조합이에용!꼭 드셔보세용😋🫶🏻",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 2
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "xwqM7BaOJvw",
           "title": "육회바른연어초밥 불닭마요 연어깍두기 연어 먹방! Rawbeef Salmon Buldak Sushi Mukbang Asmr!",
           "channel": "깜뜨kkamddeu",
           "subscribers": 12400,
           "creator_tier": "Micro",
           "is_verified": false,
-          "views": 1027,
+          "views": 1096,
           "likes": 52,
           "comment_count": 13,
-          "engagement_rate": 0.0633,
+          "engagement_rate": 0.0593,
           "duration": 430,
           "is_short": false,
-          "buzz_score": 44.8,
+          "buzz_score": 42.5,
           "upload_date": "2026.05.24",
           "url": "https://www.youtube.com/watch?v=xwqM7BaOJvw",
           "description_excerpt": "항상 감사드리고 좋은 하루 보내세요!😍🥰\n\n✨인스타 : ​⁠kkamddeu\n\n📩비즈니스 메일 : kkamddeu@gmail.com\n\n#asmr #mukbang #먹방 #eating #육회 #연어 #불닭마요 #연어깍두기 #초밥 #rawbeef #salmon #buldak #sushi #야식 #후기 #리뷰 #존맛",
@@ -1124,6 +1170,52 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "r84QByMqc5g",
+          "title": "[먹방브이로그] 한식대잔치에 내사랑 내자기 내감동 내.. 하튼 소중한 연어 한스푼(?)🧡| 미역국+버섯나물밥+젓갈+숭늉•뚝배기불고기•연포탕+수제비•통연어+연어깍두기+불닭볶음면",
+          "channel": "예띠 yedddi",
+          "subscribers": 2900,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 251,
+          "likes": 7,
+          "comment_count": 2,
+          "engagement_rate": 0.0359,
+          "duration": 1729,
+          "is_short": false,
+          "buzz_score": 31.6,
+          "upload_date": "2026.06.05",
+          "url": "https://www.youtube.com/watch?v=r84QByMqc5g",
+          "description_excerpt": "예띠의 맛도리 식사일기😋\n\n🎵Music provided by 브금대통령\n🎵Track : 걸음마  -       • [브금대통령] (아기/깜찍/Cute) 걸...  \n🎵Track : 꼬물꼬물  -      • [브금대통령](귀여운/단순/Lovely)...  \n🎵Track : 보통날 -      • [Royalty Free Music] 보...  \n🎵Track : 비몽사몽  -      • [브금대통령](지각/늦잠/Cute) 비몽...  \n\nIG @yedddi_nyam\n💌 yedddi46@gmail.com",
+          "top_comments": [
+            {
+              "author": "@Ly-h1v",
+              "text": "우연히 알고리즘에 떠서 영상 정주행했는데 먹방 브이로그 너무 재밌어요!!! 자주 올려주세용!!🩷🩷",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@yedddi_nyam",
+              "text": "감사해용!! 열심히 올려보겠습니당ㅎㅅㅎ🫶",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 2
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 4,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "vWnMVVwlYDw",
           "title": "[SUB] 🐟연어깍두기 &주먹밥 & 계란국‼️이거 왜 이제 먹었죠?🍙Salmon Buldak Kkakdugi Mukbang ASMR",
           "channel": "모구밍moguming",
@@ -1190,13 +1282,13 @@
           "subscribers": 17900,
           "creator_tier": "Micro",
           "is_verified": false,
-          "views": 157,
+          "views": 159,
           "likes": 6,
           "comment_count": 0,
-          "engagement_rate": 0.0382,
+          "engagement_rate": 0.0377,
           "duration": 522,
           "is_short": false,
-          "buzz_score": 25.8,
+          "buzz_score": 25.0,
           "upload_date": "2026.05.24",
           "url": "https://www.youtube.com/watch?v=XaYzWy5eskQ",
           "description_excerpt": "📨 bhshap@naver.com",
@@ -1441,9 +1533,9 @@
       "sentiment_counts": {
         "neg": 11,
         "neu": 15,
-        "pos": 109
+        "pos": 113
       },
-      "negative_ratio": 0.081,
+      "negative_ratio": 0.079,
       "warning_level": "",
       "transcript_sentiment_counts": {
         "긍정": 0,
@@ -1512,7 +1604,7 @@
         "Macro": 1,
         "Nano": 7
       },
-      "summary": "육회야문연어는 신메뉴와 프로모션을 통해 긍정적인 소비자 반응을 얻고 있으며, 특히 불닭마요연어깍두기와 연어 추가 주문이 인기를 끌고 있다. 그러나 육회바른연어 대비 가격 경쟁력과 메뉴 다양성에서 우위를 보이고 있어 즉시 대응이 필요하다.\n  📌 불닭마요연어깍두기 · 메뉴 다양성 · 가격 경쟁력",
+      "summary": "육회야문연어는 신메뉴와 프로모션을 통해 소비자들에게 긍정적인 반응을 얻고 있으며, 특히 불닭마요연어깍두기와 연어 추가 메뉴가 주목받았다. 그러나 자사 제품과 직접 비교되는 부분은 명확히 드러나지 않았으며, 육회야문연어의 신선도와 맛에 대한 긍정적인 평가가 이어져 자사 점유율 및 매장 트래픽에 즉각적인 위협으로 작용하지는 않을 것으로 보인다.\n  📌 불닭마요연어깍두기 · 연어추가메뉴 · 신선도와 맛",
       "videos": [
         {
           "video_id": "ku4hG-cD5kY",
@@ -2232,7 +2324,7 @@
       "tier_counts": {
         "Nano": 1
       },
-      "summary": "김천재의 육회반한연어가 신메뉴로 연어육회 무제한을 제공하며, 2인 기준으로 56000원에 저렴하게 즐길 수 있다는 긍정적인 소비자 반응이 있어 자사 매장 트래픽과 점유율에 위협 요인이 될 가능성이 있다. 즉시 가격 경쟁력 및 메뉴 다양화 전략을 검토해야 한다.\n  📌 연어육회 무제한 · 2인 기준 56000원 · 긍정적인 소비자 반응",
+      "summary": "김천재의 육회반한연어가 신메뉴로 연어육회 무제한을 출시하여 2인 기준 56,000원으로 제공하고 있으며, 이는 자사와 직접적인 가격 경쟁 상황임. 소비자들의 반응은 긍정적이지만, 아직 구체적 매장 트래픽 증가 여부 확인 불가능하여 즉시 대응 필요.\n  📌 연어육회 무제한 · 2인 기준 56000원 · 긍정적인 소비자 반응",
       "videos": [
         {
           "video_id": "Ukft6tVXwEY",
@@ -2362,7 +2454,7 @@
       "tier_counts": {
         "Nano": 2
       },
-      "summary": "연어로만S에서 구독자 이벤트를 진행 중으로, 모든 메뉴에 대해 10% 할인을 제공하며 특히 광주 지역에서 인지도 상승이 예상됨. 그러나 이벤트는 특정 기간 동안만 적용되며, 이를 통해 자사와의 가격 경쟁력 비교가 필요한 시점.\n  📌 구독자 이벤트 · 10% 할인 · 광주 지역",
+      "summary": "연어로만S에서 구독자 이벤트를 진행하며 모든 메뉴에 대해 10% 할인을 제공하고 있어, 자사와의 가격 경쟁력 비교가 필요함. 소비자들의 반응은 긍정적이지만, 아직까지는 직접적인 매출 영향이 미미해 보임. 즉시 대응으로는 이벤트 기간 동안 자사 프로모션 강화.\n  📌 구독자 이벤트 · 10% 할인 · 긍정적 반응",
       "videos": [
         {
           "video_id": "594DiiCC5ZA",
