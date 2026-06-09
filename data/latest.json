@@ -1,9 +1,9 @@
 {
   "date": "2026-06-09",
-  "generated_at": "2026-06-09 03:17:59",
+  "generated_at": "2026-06-09 13:39:48",
   "window_days": 365,
   "data_earliest": "2025-06-11",
-  "data_latest": "2026-06-07",
+  "data_latest": "2026-06-08",
   "tiers": {
     "own": {
       "label": "자사",
@@ -37,19 +37,128 @@
   "brands": {
     "yukbayeon": {
       "display": "육회바른연어",
-      "video_count": 16,
-      "total_views": 433955,
-      "total_likes": 3104,
-      "total_comments": 396,
+      "video_count": 17,
+      "total_views": 435836,
+      "total_likes": 3192,
+      "total_comments": 408,
       "n_short": 1,
-      "n_long": 15,
+      "n_long": 16,
       "tier_counts": {
+        "Macro": 3,
         "Nano": 11,
-        "Macro": 2,
         "Micro": 3
       },
-      "summary": "육회바른연어의 신메뉴 연어깍두기가 소비자들 사이에서 긍정적인 반응을 얻고 있으며, 특히 두툼하게 썰어 먹는 것이 집에서 먹는 장점으로 꼽혔다. 그러나 일부 소비자는 맛에 대한 의구심을 나타내기도 했다.\n  📌 연어깍두기 · 양파+홀스래디쉬소스 · 두툼하게 썰어먹기",
+      "summary": "육회바른연어의 경쟁사인 오늘도 연희 채널에서 불닭연어깍두기와 불닭볶음면을 조합한 메뉴를 소개하며, 매운 맛을 즐기는 소비자들에게 인기를 얻고 있다. 이는 육회바른연어의 매콤한 메뉴 대비 경쟁력을 갖추며, 소비자의 즉각적인 관심과 호응을 보이고 있어 자사와 직접 비교되는 상황이다.\n  📌 불닭연어깍두기 · 매운맛 · 즉시대응필요",
       "videos": [
+        {
+          "video_id": "9voP7Ep3ew8",
+          "title": "불닭연어깍두기에 불닭볶음면 꾸덕하게 먹방🔥",
+          "channel": "오늘도 연희 ",
+          "subscribers": 117000,
+          "creator_tier": "Macro",
+          "is_verified": false,
+          "views": 1783,
+          "likes": 85,
+          "comment_count": 12,
+          "engagement_rate": 0.0544,
+          "duration": 501,
+          "is_short": false,
+          "buzz_score": 63.5,
+          "upload_date": "2026.06.08",
+          "url": "https://www.youtube.com/watch?v=9voP7Ep3ew8",
+          "description_excerpt": "매콤한 불닭 소스에 연어깍두기!!!!\n그리고 꾸덕꾸덕하게 만든 불닭볶음면까지!\n매운맛 좋아하는 분들이라면 절대 놓칠 수 없는 조합🤤🌶️\n\n#먹방 #불닭볶음면 #불닭연어깍두기 #매운먹방 #라면먹방 #koreanmukbang #mukbang #spicynoodles #먹방유튜버 #야식 #집밥 #불닭 #연어깍두기 #매운음식 #asmr먹방",
+          "top_comments": [
+            {
+              "author": "@夏の黄金比率",
+              "text": "연희님 3대 퍼컬: 불닭 마라 엽떡",
+              "likes": 4,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@르니-c9r",
+              "text": "ㄹㅇ지금먹고싶은거만 한가득 담아오셨네",
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 4
+            },
+            {
+              "author": "@user-kv9kv2hy8j",
+              "text": "다음엔 양파에 싸드셔주실수있나요?? ㅜㅜ맛잇갯다",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@yhasmr",
+              "text": "아마 맞을지도..😮❤",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@ade레몬",
+              "text": "꾸덕꾸덕 소리좋고!!!🤤",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@moonkoko",
+              "text": "국물많은 엽떡.. 먹방 보고시퍼요ㅠㅠ",
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 2
+            },
+            {
+              "author": "@Maybeeer",
+              "text": "레전드❤",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@싱바-m8l",
+              "text": "와개맛잇겟다;ㅁㅊ",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@간식맘",
+              "text": "오랜만에 댓글 남겨요~\n저는 연어 먹을때 양파채랑 무순 퍼먹음...🤣",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@yhasmr",
+              "text": "꺄아 ~!!! 진짜 오랜만입니당 ㅎㅎ\n저도 양파채랑 같이 먹는거 좋아해요",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@강아지귀여워-h2n",
+              "text": "앞접시쓰시는게",
+              "likes": 0,
+              "sentiment": "중립",
+              "rating": 3
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 1,
+            "pos": 9
+          },
+          "negative_ratio": 0.091,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
         {
           "video_id": "Ye8E_dCsMkw",
           "title": "Day 7 & 8 In Korea | 육회바른연어 | 셀렉션 etc.",
@@ -464,52 +573,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "TlZrcZYhZu4",
-          "title": "연어깍두기🧡불닭양파쌈🤤🤤✨                Salmon 🧡 Buldak onion wrap 🤤🤤✨ #asmr #연어 #mukbang #먹방 #양파 #불닭소스",
-          "channel": "ASMR빡슈",
-          "subscribers": 534,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 313,
-          "likes": 8,
-          "comment_count": 2,
-          "engagement_rate": 0.0319,
-          "duration": 409,
-          "is_short": false,
-          "buzz_score": 43.1,
-          "upload_date": "2026.06.07",
-          "url": "https://www.youtube.com/watch?v=TlZrcZYhZu4",
-          "description_excerpt": "연어에다가 스리라차+불닭소스+마요네즈+날치알 넣었어요!너무 맛있네용!\n양파쌈은 불닭에 연어에 불닭마요 소스입니당🫶🏻🧡\n잘먹겠습니다!❤️\n\n\nI added Sriracha+Buldak Sauce+Mayonnaise+Flounder to salmon! \nIt's so good!\nOnion ssam is buldak, salmon, and buldak mayo sauce. 🫶🏻🧡\nThank you for the food! ❤️\n\n\n#asmr #먹방 #mukbang #불닭마요 #연어 #연어먹방 #양파쌈#양파 #날치알",
-          "top_comments": [
-            {
-              "author": "@CONANCONAN72",
-              "text": "맛있겠다....😊😊",
-              "likes": 1,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@ASMR빡슈",
-              "text": "완전 꿀조합이에용!꼭 드셔보세용😋🫶🏻",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 2
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "xwqM7BaOJvw",
           "title": "육회바른연어초밥 불닭마요 연어깍두기 연어 먹방! Rawbeef Salmon Buldak Sushi Mukbang Asmr!",
           "channel": "깜뜨kkamddeu",
@@ -560,6 +623,52 @@
             "neg": 0,
             "neu": 0,
             "pos": 4
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "TlZrcZYhZu4",
+          "title": "연어깍두기🧡불닭양파쌈🤤🤤✨                Salmon 🧡 Buldak onion wrap 🤤🤤✨ #asmr #연어 #mukbang #먹방 #양파 #불닭소스",
+          "channel": "ASMR빡슈",
+          "subscribers": 535,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 411,
+          "likes": 11,
+          "comment_count": 2,
+          "engagement_rate": 0.0316,
+          "duration": 409,
+          "is_short": false,
+          "buzz_score": 39.9,
+          "upload_date": "2026.06.07",
+          "url": "https://www.youtube.com/watch?v=TlZrcZYhZu4",
+          "description_excerpt": "연어에다가 스리라차+불닭소스+마요네즈+날치알 넣었어요!너무 맛있네용!\n양파쌈은 불닭에 연어에 불닭마요 소스입니당🫶🏻🧡\n잘먹겠습니다!❤️\n\n\nI added Sriracha+Buldak Sauce+Mayonnaise+Flounder to salmon! \nIt's so good!\nOnion ssam is buldak, salmon, and buldak mayo sauce. 🫶🏻🧡\nThank you for the food! ❤️\n\n\n#asmr #먹방 #mukbang #불닭마요 #연어 #연어먹방 #양파쌈#양파 #날치알",
+          "top_comments": [
+            {
+              "author": "@CONANCONAN72",
+              "text": "맛있겠다....😊😊",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@ASMR빡슈",
+              "text": "완전 꿀조합이에용!꼭 드셔보세용😋🫶🏻",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 2
           },
           "negative_ratio": 0.0,
           "warning_level": "",
@@ -1468,37 +1577,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "LdTGK3qCU6A",
-          "title": "ENG | 남편 생일주간 브이로그🎂 카페 데이트부터 홈메이드 딸기 케이크 만들기, 육회바른연어 먹방하는 하루",
-          "channel": "Dainty데인티",
-          "subscribers": 13,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 129,
-          "likes": 2,
-          "comment_count": 0,
-          "engagement_rate": 0.0155,
-          "duration": 853,
-          "is_short": false,
-          "buzz_score": 4.7,
-          "upload_date": "2026.04.23",
-          "url": "https://www.youtube.com/watch?v=LdTGK3qCU6A",
-          "description_excerpt": "안녕하세요 데인티입니다.\n오늘은 남편 생일 주간의 하루를 담은 브이로그로 찾아왔어요.\n힐링하는 카페 데이트, 쉽지 않았던 케이크 만들기\n하지만 정말 맛있어서 강추드리는 레시피입니다!\n편하게 봐주세요 🤍\n\nHello, this is Dainty.\nIn today’s vlog, I’m sharing a day from my husband’s birthday week.\nWe had a relaxing café date and made a cake that wasn’t easy, \nbut turned out so delicious that",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "중립",
-          "video_meta_rating": 3,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "T5p-s8rulhs",
           "title": "오늘 야식은 불닭냉면으로 하세요 🔥| 불닭냉면 | 육회바른연어 | 육회불닭냉면 | 불닭볶음면 | 먹방",
           "channel": "SEOYEON",
@@ -1528,14 +1606,45 @@
           "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
+        },
+        {
+          "video_id": "LdTGK3qCU6A",
+          "title": "ENG | 남편 생일주간 브이로그🎂 카페 데이트부터 홈메이드 딸기 케이크 만들기, 육회바른연어 먹방하는 하루",
+          "channel": "Dainty데인티",
+          "subscribers": 13,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 129,
+          "likes": 2,
+          "comment_count": 0,
+          "engagement_rate": 0.0155,
+          "duration": 853,
+          "is_short": false,
+          "buzz_score": 4.7,
+          "upload_date": "2026.04.23",
+          "url": "https://www.youtube.com/watch?v=LdTGK3qCU6A",
+          "description_excerpt": "안녕하세요 데인티입니다.\n오늘은 남편 생일 주간의 하루를 담은 브이로그로 찾아왔어요.\n힐링하는 카페 데이트, 쉽지 않았던 케이크 만들기\n하지만 정말 맛있어서 강추드리는 레시피입니다!\n편하게 봐주세요 🤍\n\nHello, this is Dainty.\nIn today’s vlog, I’m sharing a day from my husband’s birthday week.\nWe had a relaxing café date and made a cake that wasn’t easy, \nbut turned out so delicious that",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
         }
       ],
       "sentiment_counts": {
-        "neg": 11,
-        "neu": 15,
-        "pos": 113
+        "neg": 12,
+        "neu": 16,
+        "pos": 122
       },
-      "negative_ratio": 0.079,
+      "negative_ratio": 0.08,
       "warning_level": "",
       "transcript_sentiment_counts": {
         "긍정": 0,
@@ -1604,7 +1713,7 @@
         "Macro": 1,
         "Nano": 7
       },
-      "summary": "육회야문연어는 신메뉴와 프로모션을 통해 소비자들에게 긍정적인 반응을 얻고 있으며, 특히 불닭마요연어깍두기와 연어 추가 메뉴가 주목받았다. 그러나 자사 제품과 직접 비교되는 부분은 명확히 드러나지 않았으며, 육회야문연어의 신선도와 맛에 대한 긍정적인 평가가 이어져 자사 점유율 및 매장 트래픽에 즉각적인 위협으로 작용하지는 않을 것으로 보인다.\n  📌 불닭마요연어깍두기 · 연어추가메뉴 · 신선도와 맛",
+      "summary": "육회야문연어는 신메뉴와 프로모션을 통해 소비자들에게 인기 있는 맛집으로 자리잡고 있으며, 특히 불닭마요연어깍두기가 주목받아 매장 트래픽 증가에 기여하고 있다. 그러나 자사와 비교해 가격 경쟁력이 떨어지는 부분이 있어 즉시 대응 필요.\n  📌 불닭마요연어 hakkot · 신메뉴 · 매장 트래픽",
       "videos": [
         {
           "video_id": "ku4hG-cD5kY",
@@ -2324,7 +2433,7 @@
       "tier_counts": {
         "Nano": 1
       },
-      "summary": "김천재의 육회반한연어가 신메뉴로 연어육회 무제한을 출시하여 2인 기준 56,000원으로 제공하고 있으며, 이는 자사와 직접적인 가격 경쟁 상황임. 소비자들의 반응은 긍정적이지만, 아직 구체적 매장 트래픽 증가 여부 확인 불가능하여 즉시 대응 필요.\n  📌 연어육회 무제한 · 2인 기준 56000원 · 긍정적인 소비자 반응",
+      "summary": "김천재의 육회반한연어가 신메뉴를 통해 연어육회 무제한 제공을 시작했으며, 이는 가격 대비 양과 품질에서 소비자로부터 긍정적인 반응을 얻고 있어 자사의 점유율 및 매장 트래픽에 대한 위협이 존재하며 즉시 경쟁력 강화 전략이 필요하다.\n  📌 연어육회 무제한 · 긍정적 소비자 반응 · 경쟁력 강화",
       "videos": [
         {
           "video_id": "Ukft6tVXwEY",
@@ -2454,7 +2563,7 @@
       "tier_counts": {
         "Nano": 2
       },
-      "summary": "연어로만S에서 구독자 이벤트를 진행하며 모든 메뉴에 대해 10% 할인을 제공하고 있어, 자사와의 가격 경쟁력 비교가 필요함. 소비자들의 반응은 긍정적이지만, 아직까지는 직접적인 매출 영향이 미미해 보임. 즉시 대응으로는 이벤트 기간 동안 자사 프로모션 강화.\n  📌 구독자 이벤트 · 10% 할인 · 긍정적 반응",
+      "summary": "연어로만S에서 구독자 이벤트를 진행 중으로, 모든 메뉴에 대해 10% 할인을 제공하며 특히 광주 지역에서의 인지도와 고객 충성도가 높아 육회바른연어의 매장 트래픽과 점유율에 즉각적인 위협이 될 수 있다. 대응 방안으로는 유사 프로모션 및 마케팅 전략을 신속히 실행해야 한다.\n  📌 구독자 이벤트 · 광주 지역 인지도 · 즉시 대응 필요",
       "videos": [
         {
           "video_id": "594DiiCC5ZA",

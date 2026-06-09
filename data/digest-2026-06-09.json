@@ -1,0 +1,128 @@
+{
+  "date": "2026-06-09",
+  "days": 2,
+  "first_run": false,
+  "brands": {
+    "yukbayeon": {
+      "display": "육회바른연어",
+      "video_count": 2,
+      "total_views": 2194,
+      "total_likes": 96,
+      "total_comments": 14,
+      "n_short": 0,
+      "n_long": 2,
+      "tier_counts": {
+        "Nano": 1,
+        "Macro": 1
+      },
+      "summary": "육회바른연어의 경쟁사인 오늘도 연희 채널에서 불닭연어깍두기와 불닭볶음면을 조합한 메뉴를 소개하며, 매운 맛을 즐기는 소비자들에게 인기를 얻고 있다. 이는 육회바른연어의 매콤한 메뉴 대비 경쟁력을 갖추며, 소비자의 즉각적인 관심과 호응을 보이고 있어 자사와 직접 비교되는 상황이다.\n  📌 불닭연어깍두기 · 매운맛 · 즉시대응필요",
+      "videos": [
+        {
+          "video_id": "9voP7Ep3ew8",
+          "title": "불닭연어깍두기에 불닭볶음면 꾸덕하게 먹방🔥",
+          "channel": "오늘도 연희 ",
+          "subscribers": 117000,
+          "creator_tier": "Macro",
+          "is_verified": false,
+          "views": 1783,
+          "likes": 85,
+          "comment_count": 12,
+          "engagement_rate": 0.0544,
+          "duration": 501,
+          "is_short": false,
+          "buzz_score": 63.5,
+          "upload_date": "2026.06.08",
+          "url": "https://www.youtube.com/watch?v=9voP7Ep3ew8",
+          "description_excerpt": "매콤한 불닭 소스에 연어깍두기!!!!\n그리고 꾸덕꾸덕하게 만든 불닭볶음면까지!\n매운맛 좋아하는 분들이라면 절대 놓칠 수 없는 조합🤤🌶️\n\n#먹방 #불닭볶음면 #불닭연어깍두기 #매운먹방 #라면먹방 #koreanmukbang #mukbang #spicynoodles #먹방유튜버 #야식 #집밥 #불닭 #연어깍두기 #매운음식 #asmr먹방",
+          "top_comments": [
+            {
+              "author": "@夏の黄金比率",
+              "text": "연희님 3대 퍼컬: 불닭 마라 엽떡",
+              "likes": 4
+            },
+            {
+              "author": "@르니-c9r",
+              "text": "ㄹㅇ지금먹고싶은거만 한가득 담아오셨네",
+              "likes": 2
+            },
+            {
+              "author": "@user-kv9kv2hy8j",
+              "text": "다음엔 양파에 싸드셔주실수있나요?? ㅜㅜ맛잇갯다",
+              "likes": 0
+            },
+            {
+              "author": "@yhasmr",
+              "text": "아마 맞을지도..😮❤",
+              "likes": 0
+            },
+            {
+              "author": "@ade레몬",
+              "text": "꾸덕꾸덕 소리좋고!!!🤤",
+              "likes": 0
+            }
+          ]
+        }
+      ]
+    },
+    "yamoonyeoneo": {
+      "display": "육회야문연어",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "bahanyeoneo": {
+      "display": "김천재의 육회반한연어",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "yeoneosanghoe": {
+      "display": "연어상회",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "yeoneodang": {
+      "display": "연어당",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "yeoneoroman": {
+      "display": "연어로만",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    }
+  }
+}
