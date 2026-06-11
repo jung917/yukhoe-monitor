@@ -1,9 +1,9 @@
 {
-  "date": "2026-06-11",
-  "generated_at": "2026-06-11 13:37:39",
+  "date": "2026-06-12",
+  "generated_at": "2026-06-12 02:57:14",
   "window_days": 365,
-  "data_earliest": "2025-06-11",
-  "data_latest": "2026-06-09",
+  "data_earliest": "2025-06-13",
+  "data_latest": "2026-06-11",
   "tiers": {
     "own": {
       "label": "자사",
@@ -37,18 +37,18 @@
   "brands": {
     "yukbayeon": {
       "display": "육회바른연어",
-      "video_count": 17,
-      "total_views": 438929,
-      "total_likes": 3269,
-      "total_comments": 409,
+      "video_count": 18,
+      "total_views": 438937,
+      "total_likes": 3270,
+      "total_comments": 411,
       "n_short": 1,
-      "n_long": 16,
+      "n_long": 17,
       "tier_counts": {
-        "Nano": 11,
+        "Nano": 12,
         "Macro": 3,
         "Micro": 3
       },
-      "summary": "육회바른연어의 연어 관련 메뉴들이 다양한 조리법과 맛있는 소스들로 제작되어 소비자들의 호응을 얻고 있으며, 특히 불닭소스와 연어의 조합이 인기 있는 것으로 나타났다. 그러나 자사 제품에 대한 직접적인 비교나 평가는 없으며, 경쟁사 메뉴가 언급되지 않았다.\n  📌 불닭연어깍두기 · 연어메뉴 다양성 · 소스 조합",
+      "summary": "육회바른연어의 불닭마요와 연어깍두기가 소비자들 사이에서 긍정적인 반응을 얻고 있으며, 특히 불닭소스를 활용한 메뉴들이 인기 있는 것으로 보인다. 그러나 다른 경쟁사의 유사 제품들도 주목받아 육회바른연어의 점유율과 매장 트래픽에 대한 위협이 존재한다. 즉각적인 마케팅 전략으로 소비자들의 관심을 유지해야 한다.\n  📌 불닭마요 · 연어깍두기 · 매운맛",
       "videos": [
         {
           "video_id": "Ye8E_dCsMkw",
@@ -1339,6 +1339,52 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "diqqJv1dmUY",
+          "title": "육회바른연어에 치즈불닭 근데 치즈불닭을 더 많이 먹어서 자신없게 올리는중 ..",
+          "channel": "나나",
+          "subscribers": 58,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 8,
+          "likes": 1,
+          "comment_count": 2,
+          "engagement_rate": 0.375,
+          "duration": 185,
+          "is_short": false,
+          "buzz_score": 27.7,
+          "upload_date": "2026.06.11",
+          "url": "https://www.youtube.com/watch?v=diqqJv1dmUY",
+          "description_excerpt": "nan",
+          "top_comments": [
+            {
+              "author": "@수루룽-m8z",
+              "text": "다음은 치즈없는 불닭도 먹어주세요 ~",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@나나-t7u",
+              "text": "구독자 58명 감사합니다.",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 2
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "r84QByMqc5g",
           "title": "[먹방브이로그] 한식대잔치에 내사랑 내자기 내감동 내.. 하튼 소중한 연어 한스푼(?)🧡| 미역국+버섯나물밥+젓갈+숭늉•뚝배기불고기•연포탕+수제비•통연어+연어깍두기+불닭볶음면",
           "channel": "예띠 yedddi",
@@ -1642,9 +1688,9 @@
       "sentiment_counts": {
         "neg": 12,
         "neu": 16,
-        "pos": 122
+        "pos": 124
       },
-      "negative_ratio": 0.08,
+      "negative_ratio": 0.079,
       "warning_level": "",
       "transcript_sentiment_counts": {
         "긍정": 0,
@@ -1713,7 +1759,7 @@
         "Macro": 1,
         "Nano": 7
       },
-      "summary": "육회야문연어는 신메뉴 및 프로모션을 통해 소비자들의 주목을 받고 있으며, 특히 불닭마요연어깍두기와 연어 추가 메뉴에 대한 긍정적인 반응이 나타나고 있다. 그러나 이 영상들은 자사(육회바른연어)의 제품과 직접 비교되는 부분은 없으며, 육회야문연어가 소비자들에게 인지도를 높이는 데 성공한 것으로 보인다. 즉시 대응 필요성은 낮으나, 경쟁 상황을 주시하는 것이 좋다.\n  📌 불닭마요연어깍두기 · 연어추가메뉴 · 긍정적소비자반응",
+      "summary": "육회야문연어는 신규 매장 오픈과 함께 월매출 1000만원을 목표로 하고 있으며, 소비자들 사이에서 다양한 메뉴와 추가 옵션에 대한 긍정적인 반응이 나타나고 있다. 그러나 자사와 직접 비교되는 부분은 명확히 드러나지 않으며, 신메뉴 및 프로모션의 효과는 아직 미지수이다.\n  📌 월매출 1000만원 · 긍정적인 소비자 반응 · 신규 매장 오픈",
       "videos": [
         {
           "video_id": "ku4hG-cD5kY",
@@ -2433,7 +2479,7 @@
       "tier_counts": {
         "Nano": 1
       },
-      "summary": "김천재의 육회반한연어가 신메뉴 연어육회무한리필을 2인 기준 56,000원에 제공하며, 이는 자사와 직접적인 가격 경쟁 상황임. 소비자 반응은 긍정적이지만, 자사 대비 가성비 우위를 주장하는 의견이 있어 즉시 대응 필요.\n  📌 연어육회무한리필 · 가격경쟁력 · 소비자반응",
+      "summary": "김천재의 육회반한연어가 신메뉴로 연어육회 무제한을 제공하며, 이는 소비자들로부터 긍정적인 반응을 얻고 있어 자사와 직접 경쟁 중인 것으로 보이며, 가격 대비 품질에 대한 우위를 드러내고 있어 즉시 대응이 필요하다.\n  📌 연어육회 무제한 · 긍정적 소비자 반응 · 가격 대비 품질",
       "videos": [
         {
           "video_id": "Ukft6tVXwEY",
@@ -2555,7 +2601,7 @@
     "yeoneoroman": {
       "display": "연어로만",
       "video_count": 3,
-      "total_views": 276,
+      "total_views": 281,
       "total_likes": 28,
       "total_comments": 7,
       "n_short": 0,
@@ -2563,7 +2609,7 @@
       "tier_counts": {
         "Nano": 3
       },
-      "summary": "연어로만이 구독자 이벤트를 통해 모든 메뉴에 대해 10% 할인을 제공하며, 이를 통해 고객 유치 및 매출 증대를 노리고 있다. 그러나 이벤트 내용은 자사와 직접 비교되는 부분 없이 주로 교회 관련 채널에서 홍보되고 있어 소비자 반응에서도 아직 명확한 우위/열위는 드러나지 않았다. 즉시 대응 필요성은 낮으나, 이벤트 효과를 지속적으로 모니터링할 필요가 있다.\n  📌 구독자 이벤트 · 10% 할인 · 교회 관련 채널",
+      "summary": "연어로만이 구독자 이벤트를 통해 모든 메뉴에 대해 10% 할인을 제공하며, 이를 통해 고객 유치 및 매출 증대를 노리고 있다. 그러나 이벤트는 교회 관련 영상에서 주로 언급되어 일반 소비자에게까지 효과가 미칠지는 불확실하다. 육회바른연어는 마케팅 전략을 재검토하고 즉각적인 프로모션 활동이 필요하다.\n  📌 구독자 이벤트 · 10% 할인 · 교회 관련",
       "videos": [
         {
           "video_id": "594DiiCC5ZA",
@@ -2653,13 +2699,13 @@
           "subscribers": 59,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 11,
+          "views": 16,
           "likes": 3,
           "comment_count": 0,
-          "engagement_rate": 0.2727,
+          "engagement_rate": 0.1875,
           "duration": 1366,
           "is_short": false,
-          "buzz_score": 21.5,
+          "buzz_score": 21.0,
           "upload_date": "2026.06.09",
           "url": "https://www.youtube.com/watch?v=5fWdbUrL8Q0",
           "description_excerpt": "[주일예배] 기도 시리즈 1 - '기도가 소망이다'\n[제목] 기도하면 들으신다\n[본문] 시편 4편 1-8절\n[설교자] 박요한 담임전도사\n-----------------------\n[초즌 처치 예배 안내]\n1. 주일예배\n- 시간 : 1부ㅣ오전 11시,  2부ㅣ오후 2시\n2. 토요저녁기도회\n- 시간 : 매월 둘째 주, 넷째 주 토요일 오후 9시 10분(인스타 안내 참조)\n→ 6월달 기도회 일정 : 6월 13일, 27일\n* 장소 : 서울시 서초구 반포대로 9길 3 삼현빌딩(연어로만 서초점)ㅣ\n기독교한국침례회 초즌처치\n———————————",
