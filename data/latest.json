@@ -1,6 +1,6 @@
 {
   "date": "2026-06-11",
-  "generated_at": "2026-06-11 03:32:33",
+  "generated_at": "2026-06-11 13:37:39",
   "window_days": 365,
   "data_earliest": "2025-06-11",
   "data_latest": "2026-06-09",
@@ -38,18 +38,49 @@
     "yukbayeon": {
       "display": "육회바른연어",
       "video_count": 17,
-      "total_views": 437818,
-      "total_likes": 3243,
+      "total_views": 438929,
+      "total_likes": 3269,
       "total_comments": 409,
       "n_short": 1,
       "n_long": 16,
       "tier_counts": {
-        "Macro": 3,
         "Nano": 11,
+        "Macro": 3,
         "Micro": 3
       },
-      "summary": "육회바른연어의 연어 관련 메뉴들이 다양한 유튜버들로부터 긍정적인 반응을 얻고 있으며, 특히 불닭소스와 연어의 조합이 인기 있는 것으로 나타났다. 그러나 소비자들은 양파쌈과 같은 새로운 조합에 대한 호기심을 보이고 있어 즉시 대응이 필요하다.\n  📌 불닭연어깍두기 · 양파쌈 · 새로운 조합",
+      "summary": "육회바른연어의 연어 관련 메뉴들이 다양한 조리법과 맛있는 소스들로 제작되어 소비자들의 호응을 얻고 있으며, 특히 불닭소스와 연어의 조합이 인기 있는 것으로 나타났다. 그러나 자사 제품에 대한 직접적인 비교나 평가는 없으며, 경쟁사 메뉴가 언급되지 않았다.\n  📌 불닭연어깍두기 · 연어메뉴 다양성 · 소스 조합",
       "videos": [
+        {
+          "video_id": "Ye8E_dCsMkw",
+          "title": "Day 7 & 8 In Korea | 육회바른연어 | 셀렉션 etc.",
+          "channel": "Michelle",
+          "subscribers": 87,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 634,
+          "likes": 7,
+          "comment_count": 3,
+          "engagement_rate": 0.0158,
+          "duration": 55,
+          "is_short": true,
+          "buzz_score": 48.4,
+          "upload_date": "2026.05.02",
+          "url": "https://www.youtube.com/watch?v=Ye8E_dCsMkw",
+          "description_excerpt": "nan",
+          "top_comments": [],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 0
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
         {
           "video_id": "9voP7Ep3ew8",
           "title": "불닭연어깍두기에 불닭볶음면 꾸덕하게 먹방🔥",
@@ -57,13 +88,13 @@
           "subscribers": 117000,
           "creator_tier": "Macro",
           "is_verified": false,
-          "views": 3608,
-          "likes": 132,
+          "views": 4719,
+          "likes": 158,
           "comment_count": 13,
-          "engagement_rate": 0.0402,
+          "engagement_rate": 0.0362,
           "duration": 501,
           "is_short": false,
-          "buzz_score": 48.8,
+          "buzz_score": 47.3,
           "upload_date": "2026.06.08",
           "url": "https://www.youtube.com/watch?v=9voP7Ep3ew8",
           "description_excerpt": "매콤한 불닭 소스에 연어깍두기!!!!\n그리고 꾸덕꾸덕하게 만든 불닭볶음면까지!\n매운맛 좋아하는 분들이라면 절대 놓칠 수 없는 조합🤤🌶️\n\n#먹방 #불닭볶음면 #불닭연어깍두기 #매운먹방 #라면먹방 #koreanmukbang #mukbang #spicynoodles #먹방유튜버 #야식 #집밥 #불닭 #연어깍두기 #매운음식 #asmr먹방",
@@ -155,37 +186,6 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "Ye8E_dCsMkw",
-          "title": "Day 7 & 8 In Korea | 육회바른연어 | 셀렉션 etc.",
-          "channel": "Michelle",
-          "subscribers": 87,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 634,
-          "likes": 7,
-          "comment_count": 3,
-          "engagement_rate": 0.0158,
-          "duration": 55,
-          "is_short": true,
-          "buzz_score": 48.4,
-          "upload_date": "2026.05.02",
-          "url": "https://www.youtube.com/watch?v=Ye8E_dCsMkw",
-          "description_excerpt": "nan",
-          "top_comments": [],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "중립",
-          "video_meta_rating": 3,
           "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
@@ -1713,7 +1713,7 @@
         "Macro": 1,
         "Nano": 7
       },
-      "summary": "육회야문연어는 신메뉴와 프로모션을 통해 소비자들에게 긍정적인 반응을 얻고 있으며, 특히 불닭마요 연어깍두기 메뉴에 대한 관심이 높다. 그러나 자사(육회바른연어)와의 직접 비교에서 가격 경쟁력과 신선도가 주요 이슈로 부각되며 매장 트래픽 증대 가능성은 있으나, 점유율 상승을 위해서는 추가적인 마케팅 노력이 필요하다.\n  📌 불닭마요 연어깍두기 · 신메뉴 N종 · 가격 경쟁력",
+      "summary": "육회야문연어는 신메뉴 및 프로모션을 통해 소비자들의 주목을 받고 있으며, 특히 불닭마요연어깍두기와 연어 추가 메뉴에 대한 긍정적인 반응이 나타나고 있다. 그러나 이 영상들은 자사(육회바른연어)의 제품과 직접 비교되는 부분은 없으며, 육회야문연어가 소비자들에게 인지도를 높이는 데 성공한 것으로 보인다. 즉시 대응 필요성은 낮으나, 경쟁 상황을 주시하는 것이 좋다.\n  📌 불닭마요연어깍두기 · 연어추가메뉴 · 긍정적소비자반응",
       "videos": [
         {
           "video_id": "ku4hG-cD5kY",
@@ -2433,7 +2433,7 @@
       "tier_counts": {
         "Nano": 1
       },
-      "summary": "김천재의 육회반한연어가 신메뉴를 출시하고 무한리필 프로모션을 진행하며, 이는 소비자들에게 긍정적인 반응을 얻고 있어 자사 점유율과 매장 트래픽에 위협이 될 수 있음. 즉시 경쟁력 있는 프로모션 및 메뉴 개발 필요.\n  📌 신메뉴 · 무한리필 프로모션 · 긍정적 소비자 반응",
+      "summary": "김천재의 육회반한연어가 신메뉴 연어육회무한리필을 2인 기준 56,000원에 제공하며, 이는 자사와 직접적인 가격 경쟁 상황임. 소비자 반응은 긍정적이지만, 자사 대비 가성비 우위를 주장하는 의견이 있어 즉시 대응 필요.\n  📌 연어육회무한리필 · 가격경쟁력 · 소비자반응",
       "videos": [
         {
           "video_id": "Ukft6tVXwEY",
@@ -2563,7 +2563,7 @@
       "tier_counts": {
         "Nano": 3
       },
-      "summary": "연어로만이 구독자 이벤트를 통해 모든 메뉴에 대해 10% 할인을 제공하며, 이를 통해 고객 유치 및 매출 증대를 노리고 있다. 그러나 이벤트 내용은 자사 제품과 직접 비교되는 부분 없이 주로 교회 관련 콘텐츠 내에서 이루어져 있어 즉시 대응 필요성은 낮다.\n  📌 구독자 이벤트 · 10% 할인 · 교회 연계",
+      "summary": "연어로만이 구독자 이벤트를 통해 모든 메뉴에 대해 10% 할인을 제공하며, 이를 통해 고객 유치 및 매출 증대를 노리고 있다. 그러나 이벤트 내용은 자사와 직접 비교되는 부분 없이 주로 교회 관련 채널에서 홍보되고 있어 소비자 반응에서도 아직 명확한 우위/열위는 드러나지 않았다. 즉시 대응 필요성은 낮으나, 이벤트 효과를 지속적으로 모니터링할 필요가 있다.\n  📌 구독자 이벤트 · 10% 할인 · 교회 관련 채널",
       "videos": [
         {
           "video_id": "594DiiCC5ZA",
