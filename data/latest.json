@@ -1,6 +1,6 @@
 {
   "date": "2026-06-12",
-  "generated_at": "2026-06-12 02:57:14",
+  "generated_at": "2026-06-12 13:53:34",
   "window_days": 365,
   "data_earliest": "2025-06-13",
   "data_latest": "2026-06-11",
@@ -38,9 +38,9 @@
     "yukbayeon": {
       "display": "육회바른연어",
       "video_count": 18,
-      "total_views": 438937,
-      "total_likes": 3270,
-      "total_comments": 411,
+      "total_views": 439080,
+      "total_likes": 3273,
+      "total_comments": 413,
       "n_short": 1,
       "n_long": 17,
       "tier_counts": {
@@ -48,7 +48,7 @@
         "Macro": 3,
         "Micro": 3
       },
-      "summary": "육회바른연어의 불닭마요와 연어깍두기가 소비자들 사이에서 긍정적인 반응을 얻고 있으며, 특히 불닭소스를 활용한 메뉴들이 인기 있는 것으로 보인다. 그러나 다른 경쟁사의 유사 제품들도 주목받아 육회바른연어의 점유율과 매장 트래픽에 대한 위협이 존재한다. 즉각적인 마케팅 전략으로 소비자들의 관심을 유지해야 한다.\n  📌 불닭마요 · 연어깍두기 · 매운맛",
+      "summary": "육회바른연어의 불닭마요와 연어깍두기 메뉴가 소비자들로부터 긍정적인 반응을 얻고 있으며, 특히 매운맛을 선호하는 고객들에게 인기가 높다. 그러나 다른 연어 관련 요리들이 주목받으면서 육회바른연어의 점유율과 트래픽에 대한 즉각적인 방어 전략이 필요하다.\n  📌 불닭마요 · 연어깍두기 · 매운맛",
       "videos": [
         {
           "video_id": "Ye8E_dCsMkw",
@@ -633,52 +633,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "TlZrcZYhZu4",
-          "title": "연어깍두기🧡불닭양파쌈🤤🤤✨                Salmon 🧡 Buldak onion wrap 🤤🤤✨ #asmr #연어 #mukbang #먹방 #양파 #불닭소스",
-          "channel": "ASMR빡슈",
-          "subscribers": 536,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 533,
-          "likes": 14,
-          "comment_count": 2,
-          "engagement_rate": 0.03,
-          "duration": 409,
-          "is_short": false,
-          "buzz_score": 40.5,
-          "upload_date": "2026.06.07",
-          "url": "https://www.youtube.com/watch?v=TlZrcZYhZu4",
-          "description_excerpt": "연어에다가 스리라차+불닭소스+마요네즈+날치알 넣었어요!너무 맛있네용!\n양파쌈은 불닭에 연어에 불닭마요 소스입니당🫶🏻🧡\n잘먹겠습니다!❤️\n\n\nI added Sriracha+Buldak Sauce+Mayonnaise+Flounder to salmon! \nIt's so good!\nOnion ssam is buldak, salmon, and buldak mayo sauce. 🫶🏻🧡\nThank you for the food! ❤️\n\n\n#asmr #먹방 #mukbang #불닭마요 #연어 #연어먹방 #양파쌈#양파 #날치알",
-          "top_comments": [
-            {
-              "author": "@CONANCONAN72",
-              "text": "맛있겠다....😊😊",
-              "likes": 1,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@ASMR빡슈",
-              "text": "완전 꿀조합이에용!꼭 드셔보세용😋🫶🏻",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 2
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "FCqf9D1YIoc",
           "title": "연어를 이렇게 먹는다고…? | 생각보다 훨씬 맛있네!! #연어깍두기 #먹방 #asmr",
           "channel": "유빈바이트 | Yubin Bites",
@@ -892,6 +846,52 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "TlZrcZYhZu4",
+          "title": "연어깍두기🧡불닭양파쌈🤤🤤✨                Salmon 🧡 Buldak onion wrap 🤤🤤✨ #asmr #연어 #mukbang #먹방 #양파 #불닭소스",
+          "channel": "ASMR빡슈",
+          "subscribers": 537,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 648,
+          "likes": 15,
+          "comment_count": 2,
+          "engagement_rate": 0.0262,
+          "duration": 409,
+          "is_short": false,
+          "buzz_score": 36.4,
+          "upload_date": "2026.06.07",
+          "url": "https://www.youtube.com/watch?v=TlZrcZYhZu4",
+          "description_excerpt": "연어에다가 스리라차+불닭소스+마요네즈+날치알 넣었어요!너무 맛있네용!\n양파쌈은 불닭에 연어에 불닭마요 소스입니당🫶🏻🧡\n잘먹겠습니다!❤️\n\n\nI added Sriracha+Buldak Sauce+Mayonnaise+Flounder to salmon! \nIt's so good!\nOnion ssam is buldak, salmon, and buldak mayo sauce. 🫶🏻🧡\nThank you for the food! ❤️\n\n\n#asmr #먹방 #mukbang #불닭마요 #연어 #연어먹방 #양파쌈#양파 #날치알",
+          "top_comments": [
+            {
+              "author": "@CONANCONAN72",
+              "text": "맛있겠다....😊😊",
+              "likes": 1,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@ASMR빡슈",
+              "text": "완전 꿀조합이에용!꼭 드셔보세용😋🫶🏻",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 2
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
@@ -1339,65 +1339,19 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "diqqJv1dmUY",
-          "title": "육회바른연어에 치즈불닭 근데 치즈불닭을 더 많이 먹어서 자신없게 올리는중 ..",
-          "channel": "나나",
-          "subscribers": 58,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 8,
-          "likes": 1,
-          "comment_count": 2,
-          "engagement_rate": 0.375,
-          "duration": 185,
-          "is_short": false,
-          "buzz_score": 27.7,
-          "upload_date": "2026.06.11",
-          "url": "https://www.youtube.com/watch?v=diqqJv1dmUY",
-          "description_excerpt": "nan",
-          "top_comments": [
-            {
-              "author": "@수루룽-m8z",
-              "text": "다음은 치즈없는 불닭도 먹어주세요 ~",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@나나-t7u",
-              "text": "구독자 58명 감사합니다.",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 2
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "r84QByMqc5g",
           "title": "[먹방브이로그] 한식대잔치에 내사랑 내자기 내감동 내.. 하튼 소중한 연어 한스푼(?)🧡| 미역국+버섯나물밥+젓갈+숭늉•뚝배기불고기•연포탕+수제비•통연어+연어깍두기+불닭볶음면",
           "channel": "예띠 yedddi",
           "subscribers": 2900,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 286,
+          "views": 303,
           "likes": 8,
-          "comment_count": 2,
-          "engagement_rate": 0.035,
+          "comment_count": 3,
+          "engagement_rate": 0.0363,
           "duration": 1729,
           "is_short": false,
-          "buzz_score": 27.1,
+          "buzz_score": 28.0,
           "upload_date": "2026.06.05",
           "url": "https://www.youtube.com/watch?v=r84QByMqc5g",
           "description_excerpt": "예띠의 맛도리 식사일기😋\n\n🎵Music provided by 브금대통령\n🎵Track : 걸음마  -       • [브금대통령] (아기/깜찍/Cute) 걸...  \n🎵Track : 꼬물꼬물  -      • [브금대통령](귀여운/단순/Lovely)...  \n🎵Track : 보통날 -      • [Royalty Free Music] 보...  \n🎵Track : 비몽사몽  -      • [브금대통령](지각/늦잠/Cute) 비몽...  \n\nIG @yedddi_nyam\n💌 yedddi46@gmail.com",
@@ -1426,6 +1380,52 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "diqqJv1dmUY",
+          "title": "육회바른연어에 치즈불닭 근데 치즈불닭을 더 많이 먹어서 자신없게 올리는중 ..",
+          "channel": "나나",
+          "subscribers": 58,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 19,
+          "likes": 3,
+          "comment_count": 3,
+          "engagement_rate": 0.3158,
+          "duration": 185,
+          "is_short": false,
+          "buzz_score": 27.8,
+          "upload_date": "2026.06.11",
+          "url": "https://www.youtube.com/watch?v=diqqJv1dmUY",
+          "description_excerpt": "nan",
+          "top_comments": [
+            {
+              "author": "@수루룽-m8z",
+              "text": "다음은 치즈없는 불닭도 먹어주세요 ~",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@나나-t7u",
+              "text": "구독자 58명 감사합니다.",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 2
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
@@ -1759,7 +1759,7 @@
         "Macro": 1,
         "Nano": 7
       },
-      "summary": "육회야문연어는 신규 매장 오픈과 함께 월매출 1000만원을 목표로 하고 있으며, 소비자들 사이에서 다양한 메뉴와 추가 옵션에 대한 긍정적인 반응이 나타나고 있다. 그러나 자사와 직접 비교되는 부분은 명확히 드러나지 않으며, 신메뉴 및 프로모션의 효과는 아직 미지수이다.\n  📌 월매출 1000만원 · 긍정적인 소비자 반응 · 신규 매장 오픈",
+      "summary": "육회야문연어는 신규 매장 오픈과 함께 소비자들에게 긍정적인 반응을 얻고 있으며, 특히 '불닭마요연어깍두기'와 연어 추가 메뉴가 주목받았다. 그러나 이 영상들은 자사의 직접 경쟁 제품과 가격 비교를 제시하지 않아 즉각적인 위협으로 보이지는 않는다.\n  📌 신규 매장 오픈 · 긍정적 소비자 반응 · 불닭마요연어 hakkotgi",
       "videos": [
         {
           "video_id": "ku4hG-cD5kY",
@@ -2479,7 +2479,7 @@
       "tier_counts": {
         "Nano": 1
       },
-      "summary": "김천재의 육회반한연어가 신메뉴로 연어육회 무제한을 제공하며, 이는 소비자들로부터 긍정적인 반응을 얻고 있어 자사와 직접 경쟁 중인 것으로 보이며, 가격 대비 품질에 대한 우위를 드러내고 있어 즉시 대응이 필요하다.\n  📌 연어육회 무제한 · 긍정적 소비자 반응 · 가격 대비 품질",
+      "summary": "김천재의 육회반한연어가 신메뉴 연어육회무한리필을 2인 기준 56,000원으로 제공하며, 이는 자사와 직접적인 가격 경쟁 상황임. 소비자들은 김천재의 메뉴를 다양하고 저렴하다고 평가하여 자사 매장 트래픽에 부정적 영향을 미칠 가능성이 높음. 즉시 가격 전략 및 프로모션 조정 필요.\n  📌 연어육회무한리필 · 2인 기준 56,000원 · 매장 트래픽",
       "videos": [
         {
           "video_id": "Ukft6tVXwEY",
@@ -2609,7 +2609,7 @@
       "tier_counts": {
         "Nano": 3
       },
-      "summary": "연어로만이 구독자 이벤트를 통해 모든 메뉴에 대해 10% 할인을 제공하며, 이를 통해 고객 유치 및 매출 증대를 노리고 있다. 그러나 이벤트는 교회 관련 영상에서 주로 언급되어 일반 소비자에게까지 효과가 미칠지는 불확실하다. 육회바른연어는 마케팅 전략을 재검토하고 즉각적인 프로모션 활동이 필요하다.\n  📌 구독자 이벤트 · 10% 할인 · 교회 관련",
+      "summary": "연어로만이 구독자 이벤트를 통해 모든 메뉴에 대해 10% 할인을 제공하며, 이를 통해 고객 유치 및 매출 증대를 노리고 있다. 그러나 이벤트 내용은 자사 제품과 직접 비교되는 부분 없이 주로 교회 관련 활동 중심으로 진행되고 있어 즉시 대응의 필요성은 낮다.\n  📌 구독자 이벤트 · 10% 할인 · 교회 관련",
       "videos": [
         {
           "video_id": "594DiiCC5ZA",
