@@ -1,9 +1,9 @@
 {
-  "date": "2026-06-12",
-  "generated_at": "2026-06-12 13:53:34",
+  "date": "2026-06-13",
+  "generated_at": "2026-06-13 03:06:10",
   "window_days": 365,
   "data_earliest": "2025-06-13",
-  "data_latest": "2026-06-11",
+  "data_latest": "2026-06-12",
   "tiers": {
     "own": {
       "label": "자사",
@@ -37,18 +37,18 @@
   "brands": {
     "yukbayeon": {
       "display": "육회바른연어",
-      "video_count": 18,
-      "total_views": 439080,
-      "total_likes": 3273,
-      "total_comments": 413,
+      "video_count": 19,
+      "total_views": 439126,
+      "total_likes": 3274,
+      "total_comments": 414,
       "n_short": 1,
-      "n_long": 17,
+      "n_long": 18,
       "tier_counts": {
-        "Nano": 12,
+        "Nano": 13,
         "Macro": 3,
         "Micro": 3
       },
-      "summary": "육회바른연어의 불닭마요와 연어깍두기 메뉴가 소비자들로부터 긍정적인 반응을 얻고 있으며, 특히 매운맛을 선호하는 고객들에게 인기가 높다. 그러나 다른 연어 관련 요리들이 주목받으면서 육회바른연어의 점유율과 트래픽에 대한 즉각적인 방어 전략이 필요하다.\n  📌 불닭마요 · 연어깍두기 · 매운맛",
+      "summary": "육회바른연어의 불닭마요와 연어깍두기 등 메뉴에 대한 긍정적인 반응이 나타나고 있으나, 경쟁사 제품과 직접 비교되는 부분은 미미하다. 소비자들의 주요 관심사는 매운 맛과 연어의 두께이며, 이는 자사 대비 우위를 드러내지는 않지만 브랜드 인지도 향상에 도움이 될 수 있다. 즉시 대응 필요성은 낮으나, 경쟁사 제품과 유사한 매력 포인트를 강조하는 마케팅 전략을 고려할 필요가 있다.\n  📌 불닭마요 · 연어깍두기 · 매운맛",
       "videos": [
         {
           "video_id": "Ye8E_dCsMkw",
@@ -1584,6 +1584,45 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "-IvLrDyL2TM",
+          "title": "코스트코 통연어 한판에 연어깍두기, 불닭볶음면까지 🔥 | Salmon Sashimi, Buldak Ramen MUKBANG",
+          "channel": "예띠 yedddi",
+          "subscribers": 2900,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 46,
+          "likes": 1,
+          "comment_count": 1,
+          "engagement_rate": 0.0435,
+          "duration": 715,
+          "is_short": false,
+          "buzz_score": 10.7,
+          "upload_date": "2026.06.12",
+          "url": "https://www.youtube.com/watch?v=-IvLrDyL2TM",
+          "description_excerpt": "📋 Today’s Menu\n\n🍣 코스트코 통연어\n🥗 연어깍두기 (포케연어)\n🔥 불닭볶음면\n\n📋 Today’s Menu\n\n🍣 Costco Salmon Sashimi\n🥗 Salmon Poke (Diced Salmon)\n🔥 Buldak Spicy Chicken Ramen\n\n\nIG @yedddi_nyam\n💌 yedddi46@gmail.com",
+          "top_comments": [
+            {
+              "author": "@모여봐요고양이",
+              "text": "맛있겠따ㅠㅠ",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "KcG1wVD7fno",
           "title": "Vlog│가족들 한차례씩 앓고 간 b형독감무섭다(스타벅스텀블러벚꽃에디션언박싱,장사의신두쫀쿠,홍안동두마리찜닭,비빔밥,육회바른연어)",
           "channel": "요것저것 알라홍",
@@ -1688,9 +1727,9 @@
       "sentiment_counts": {
         "neg": 12,
         "neu": 16,
-        "pos": 124
+        "pos": 125
       },
-      "negative_ratio": 0.079,
+      "negative_ratio": 0.078,
       "warning_level": "",
       "transcript_sentiment_counts": {
         "긍정": 0,
@@ -1759,7 +1798,7 @@
         "Macro": 1,
         "Nano": 7
       },
-      "summary": "육회야문연어는 신규 매장 오픈과 함께 소비자들에게 긍정적인 반응을 얻고 있으며, 특히 '불닭마요연어깍두기'와 연어 추가 메뉴가 주목받았다. 그러나 이 영상들은 자사의 직접 경쟁 제품과 가격 비교를 제시하지 않아 즉각적인 위협으로 보이지는 않는다.\n  📌 신규 매장 오픈 · 긍정적 소비자 반응 · 불닭마요연어 hakkotgi",
+      "summary": "육회야문연어는 신메뉴와 프로모션을 통해 고객 유치에 성공하고 있으며, 특히 불닭마요연어깍두기와 연어 추가 주문이 인기를 얻고 있다. 그러나 일부 영상에서 가격과 메뉴 구성에 대한 소비자들의 의견이 분분하며, 육회바른연어의 점유율 및 매장 트래픽에 대해 즉각적인 대응이 필요하다.\n  📌 불닭마요연어깍두기 · 연어 추가 주문 · 가격",
       "videos": [
         {
           "video_id": "ku4hG-cD5kY",
@@ -2479,7 +2518,7 @@
       "tier_counts": {
         "Nano": 1
       },
-      "summary": "김천재의 육회반한연어가 신메뉴 연어육회무한리필을 2인 기준 56,000원으로 제공하며, 이는 자사와 직접적인 가격 경쟁 상황임. 소비자들은 김천재의 메뉴를 다양하고 저렴하다고 평가하여 자사 매장 트래픽에 부정적 영향을 미칠 가능성이 높음. 즉시 가격 전략 및 프로모션 조정 필요.\n  📌 연어육회무한리필 · 2인 기준 56,000원 · 매장 트래픽",
+      "summary": "김천재의 육회반한연어가 신메뉴로 연어육회 무제한을 출시하였으며, 2인 기준으로 56000원이라는 가격대를 제시하고 있어 자사와 직접적인 경쟁 상황에 놓여 있으며 소비자들의 반응은 긍정적이다. 즉각적으로 프로모션 및 가격 전략 검토가 필요하다.\n  📌 연어육회 무제한 · 2인 기준 56000원 · 긍정적인 소비자 반응",
       "videos": [
         {
           "video_id": "Ukft6tVXwEY",
@@ -2609,7 +2648,7 @@
       "tier_counts": {
         "Nano": 3
       },
-      "summary": "연어로만이 구독자 이벤트를 통해 모든 메뉴에 대해 10% 할인을 제공하며, 이를 통해 고객 유치 및 매출 증대를 노리고 있다. 그러나 이벤트 내용은 자사 제품과 직접 비교되는 부분 없이 주로 교회 관련 활동 중심으로 진행되고 있어 즉시 대응의 필요성은 낮다.\n  📌 구독자 이벤트 · 10% 할인 · 교회 관련",
+      "summary": "연어로만이 구독자 이벤트를 통해 모든 메뉴에 대해 10% 할인을 제공하며, 특히 광주 지역에서 인지도 상승과 함께 매장 트래픽 증가가 예상됨. 그러나 이벤트는 특정 기간 동안 진행되며, 자사와 비교해 가격 경쟁력은 아직 명확하지 않음.\n  📌 구독자 이벤트 · 광주 지역 인지도 상승 · 10% 할인",
       "videos": [
         {
           "video_id": "594DiiCC5ZA",
