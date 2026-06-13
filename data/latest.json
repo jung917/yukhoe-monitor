@@ -1,6 +1,6 @@
 {
   "date": "2026-06-13",
-  "generated_at": "2026-06-13 03:06:10",
+  "generated_at": "2026-06-13 13:46:39",
   "window_days": 365,
   "data_earliest": "2025-06-13",
   "data_latest": "2026-06-12",
@@ -38,9 +38,9 @@
     "yukbayeon": {
       "display": "육회바른연어",
       "video_count": 19,
-      "total_views": 439126,
-      "total_likes": 3274,
-      "total_comments": 414,
+      "total_views": 440571,
+      "total_likes": 3299,
+      "total_comments": 416,
       "n_short": 1,
       "n_long": 18,
       "tier_counts": {
@@ -48,7 +48,7 @@
         "Macro": 3,
         "Micro": 3
       },
-      "summary": "육회바른연어의 불닭마요와 연어깍두기 등 메뉴에 대한 긍정적인 반응이 나타나고 있으나, 경쟁사 제품과 직접 비교되는 부분은 미미하다. 소비자들의 주요 관심사는 매운 맛과 연어의 두께이며, 이는 자사 대비 우위를 드러내지는 않지만 브랜드 인지도 향상에 도움이 될 수 있다. 즉시 대응 필요성은 낮으나, 경쟁사 제품과 유사한 매력 포인트를 강조하는 마케팅 전략을 고려할 필요가 있다.\n  📌 불닭마요 · 연어깍두기 · 매운맛",
+      "summary": "육회바른연어의 신메뉴 및 프로모션에 대한 언급이 없으며, 주요 영상은 타사 연어 제품을 중심으로 진행되어 육회바른연어와 직접적인 경쟁 상황은 확인되지 않았다. 그러나 소비자들이 집에서 두툼하게 연어를 즐기는 트렌드가 확산되고 있어, 육회바른연어의 매장 방문이 줄어들 수 있는 위협 요인이 될 가능성이 있다.\n  📌 연어 · 홈코노미 ·  newcompetition",
       "videos": [
         {
           "video_id": "Ye8E_dCsMkw",
@@ -77,115 +77,6 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "9voP7Ep3ew8",
-          "title": "불닭연어깍두기에 불닭볶음면 꾸덕하게 먹방🔥",
-          "channel": "오늘도 연희 ",
-          "subscribers": 117000,
-          "creator_tier": "Macro",
-          "is_verified": false,
-          "views": 4719,
-          "likes": 158,
-          "comment_count": 13,
-          "engagement_rate": 0.0362,
-          "duration": 501,
-          "is_short": false,
-          "buzz_score": 47.3,
-          "upload_date": "2026.06.08",
-          "url": "https://www.youtube.com/watch?v=9voP7Ep3ew8",
-          "description_excerpt": "매콤한 불닭 소스에 연어깍두기!!!!\n그리고 꾸덕꾸덕하게 만든 불닭볶음면까지!\n매운맛 좋아하는 분들이라면 절대 놓칠 수 없는 조합🤤🌶️\n\n#먹방 #불닭볶음면 #불닭연어깍두기 #매운먹방 #라면먹방 #koreanmukbang #mukbang #spicynoodles #먹방유튜버 #야식 #집밥 #불닭 #연어깍두기 #매운음식 #asmr먹방",
-          "top_comments": [
-            {
-              "author": "@夏の黄金比率",
-              "text": "연희님 3대 퍼컬: 불닭 마라 엽떡",
-              "likes": 4,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@르니-c9r",
-              "text": "ㄹㅇ지금먹고싶은거만 한가득 담아오셨네",
-              "likes": 2,
-              "sentiment": "긍정",
-              "rating": 4
-            },
-            {
-              "author": "@user-kv9kv2hy8j",
-              "text": "다음엔 양파에 싸드셔주실수있나요?? ㅜㅜ맛잇갯다",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@yhasmr",
-              "text": "아마 맞을지도..😮❤",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@ade레몬",
-              "text": "꾸덕꾸덕 소리좋고!!!🤤",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@moonkoko",
-              "text": "국물많은 엽떡.. 먹방 보고시퍼요ㅠㅠ",
-              "likes": 0,
-              "sentiment": "부정",
-              "rating": 2
-            },
-            {
-              "author": "@Maybeeer",
-              "text": "레전드❤",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@싱바-m8l",
-              "text": "와개맛잇겟다;ㅁㅊ",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@간식맘",
-              "text": "오랜만에 댓글 남겨요~\n저는 연어 먹을때 양파채랑 무순 퍼먹음...🤣",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@yhasmr",
-              "text": "꺄아 ~!!! 진짜 오랜만입니당 ㅎㅎ\n저도 양파채랑 같이 먹는거 좋아해요",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@강아지귀여워-h2n",
-              "text": "앞접시쓰시는게",
-              "likes": 0,
-              "sentiment": "중립",
-              "rating": 3
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 1,
-            "neu": 1,
-            "pos": 9
-          },
-          "negative_ratio": 0.091,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
           "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
@@ -573,6 +464,115 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "9voP7Ep3ew8",
+          "title": "불닭연어깍두기에 불닭볶음면 꾸덕하게 먹방🔥",
+          "channel": "오늘도 연희 ",
+          "subscribers": 117000,
+          "creator_tier": "Macro",
+          "is_verified": false,
+          "views": 5946,
+          "likes": 178,
+          "comment_count": 15,
+          "engagement_rate": 0.0325,
+          "duration": 501,
+          "is_short": false,
+          "buzz_score": 44.5,
+          "upload_date": "2026.06.08",
+          "url": "https://www.youtube.com/watch?v=9voP7Ep3ew8",
+          "description_excerpt": "매콤한 불닭 소스에 연어깍두기!!!!\n그리고 꾸덕꾸덕하게 만든 불닭볶음면까지!\n매운맛 좋아하는 분들이라면 절대 놓칠 수 없는 조합🤤🌶️\n\n#먹방 #불닭볶음면 #불닭연어깍두기 #매운먹방 #라면먹방 #koreanmukbang #mukbang #spicynoodles #먹방유튜버 #야식 #집밥 #불닭 #연어깍두기 #매운음식 #asmr먹방",
+          "top_comments": [
+            {
+              "author": "@夏の黄金比率",
+              "text": "연희님 3대 퍼컬: 불닭 마라 엽떡",
+              "likes": 4,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@르니-c9r",
+              "text": "ㄹㅇ지금먹고싶은거만 한가득 담아오셨네",
+              "likes": 2,
+              "sentiment": "긍정",
+              "rating": 4
+            },
+            {
+              "author": "@user-kv9kv2hy8j",
+              "text": "다음엔 양파에 싸드셔주실수있나요?? ㅜㅜ맛잇갯다",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@yhasmr",
+              "text": "아마 맞을지도..😮❤",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@ade레몬",
+              "text": "꾸덕꾸덕 소리좋고!!!🤤",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@moonkoko",
+              "text": "국물많은 엽떡.. 먹방 보고시퍼요ㅠㅠ",
+              "likes": 0,
+              "sentiment": "부정",
+              "rating": 2
+            },
+            {
+              "author": "@Maybeeer",
+              "text": "레전드❤",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@싱바-m8l",
+              "text": "와개맛잇겟다;ㅁㅊ",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@간식맘",
+              "text": "오랜만에 댓글 남겨요~\n저는 연어 먹을때 양파채랑 무순 퍼먹음...🤣",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@yhasmr",
+              "text": "꺄아 ~!!! 진짜 오랜만입니당 ㅎㅎ\n저도 양파채랑 같이 먹는거 좋아해요",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@강아지귀여워-h2n",
+              "text": "앞접시쓰시는게",
+              "likes": 0,
+              "sentiment": "중립",
+              "rating": 3
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 1,
+            "neu": 1,
+            "pos": 9
+          },
+          "negative_ratio": 0.091,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "xwqM7BaOJvw",
           "title": "육회바른연어초밥 불닭마요 연어깍두기 연어 먹방! Rawbeef Salmon Buldak Sushi Mukbang Asmr!",
           "channel": "깜뜨kkamddeu",
@@ -628,6 +628,45 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "-IvLrDyL2TM",
+          "title": "코스트코 통연어 한판에 연어깍두기, 불닭볶음면까지 🔥 | Salmon Sashimi, Buldak Ramen MUKBANG",
+          "channel": "예띠 yedddi",
+          "subscribers": 2900,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 227,
+          "likes": 4,
+          "comment_count": 1,
+          "engagement_rate": 0.022,
+          "duration": 715,
+          "is_short": false,
+          "buzz_score": 38.0,
+          "upload_date": "2026.06.12",
+          "url": "https://www.youtube.com/watch?v=-IvLrDyL2TM",
+          "description_excerpt": "📋 Today’s Menu\n\n🍣 코스트코 통연어\n🥗 연어깍두기 (포케연어)\n🔥 불닭볶음면\n\n📋 Today’s Menu\n\n🍣 Costco Salmon Sashimi\n🥗 Salmon Poke (Diced Salmon)\n🔥 Buldak Spicy Chicken Ramen\n\n\nIG @yedddi_nyam\n💌 yedddi46@gmail.com",
+          "top_comments": [
+            {
+              "author": "@모여봐요고양이",
+              "text": "맛있겠따ㅠㅠ",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
           "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
@@ -1279,6 +1318,52 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "diqqJv1dmUY",
+          "title": "육회바른연어에 치즈불닭 근데 치즈불닭을 더 많이 먹어서 자신없게 올리는중 ..",
+          "channel": "나나",
+          "subscribers": 60,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 56,
+          "likes": 5,
+          "comment_count": 3,
+          "engagement_rate": 0.1429,
+          "duration": 185,
+          "is_short": false,
+          "buzz_score": 30.6,
+          "upload_date": "2026.06.11",
+          "url": "https://www.youtube.com/watch?v=diqqJv1dmUY",
+          "description_excerpt": "nan",
+          "top_comments": [
+            {
+              "author": "@수루룽-m8z",
+              "text": "다음은 치즈없는 불닭도 먹어주세요 ~",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@나나-t7u",
+              "text": "구독자 58명 감사합니다.",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 2
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "vWnMVVwlYDw",
           "title": "[SUB] 🐟연어깍두기 &주먹밥 & 계란국‼️이거 왜 이제 먹었죠?🍙Salmon Buldak Kkakdugi Mukbang ASMR",
           "channel": "모구밍moguming",
@@ -1380,52 +1465,6 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 4,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "diqqJv1dmUY",
-          "title": "육회바른연어에 치즈불닭 근데 치즈불닭을 더 많이 먹어서 자신없게 올리는중 ..",
-          "channel": "나나",
-          "subscribers": 58,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 19,
-          "likes": 3,
-          "comment_count": 3,
-          "engagement_rate": 0.3158,
-          "duration": 185,
-          "is_short": false,
-          "buzz_score": 27.8,
-          "upload_date": "2026.06.11",
-          "url": "https://www.youtube.com/watch?v=diqqJv1dmUY",
-          "description_excerpt": "nan",
-          "top_comments": [
-            {
-              "author": "@수루룽-m8z",
-              "text": "다음은 치즈없는 불닭도 먹어주세요 ~",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@나나-t7u",
-              "text": "구독자 58명 감사합니다.",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 2
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
           "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
@@ -1574,45 +1613,6 @@
             "neg": 0,
             "neu": 0,
             "pos": 0
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "중립",
-          "video_meta_rating": 3,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "-IvLrDyL2TM",
-          "title": "코스트코 통연어 한판에 연어깍두기, 불닭볶음면까지 🔥 | Salmon Sashimi, Buldak Ramen MUKBANG",
-          "channel": "예띠 yedddi",
-          "subscribers": 2900,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 46,
-          "likes": 1,
-          "comment_count": 1,
-          "engagement_rate": 0.0435,
-          "duration": 715,
-          "is_short": false,
-          "buzz_score": 10.7,
-          "upload_date": "2026.06.12",
-          "url": "https://www.youtube.com/watch?v=-IvLrDyL2TM",
-          "description_excerpt": "📋 Today’s Menu\n\n🍣 코스트코 통연어\n🥗 연어깍두기 (포케연어)\n🔥 불닭볶음면\n\n📋 Today’s Menu\n\n🍣 Costco Salmon Sashimi\n🥗 Salmon Poke (Diced Salmon)\n🔥 Buldak Spicy Chicken Ramen\n\n\nIG @yedddi_nyam\n💌 yedddi46@gmail.com",
-          "top_comments": [
-            {
-              "author": "@모여봐요고양이",
-              "text": "맛있겠따ㅠㅠ",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 1
           },
           "negative_ratio": 0.0,
           "warning_level": "",
@@ -1798,7 +1798,7 @@
         "Macro": 1,
         "Nano": 7
       },
-      "summary": "육회야문연어는 신메뉴와 프로모션을 통해 고객 유치에 성공하고 있으며, 특히 불닭마요연어깍두기와 연어 추가 주문이 인기를 얻고 있다. 그러나 일부 영상에서 가격과 메뉴 구성에 대한 소비자들의 의견이 분분하며, 육회바른연어의 점유율 및 매장 트래픽에 대해 즉각적인 대응이 필요하다.\n  📌 불닭마요연어깍두기 · 연어 추가 주문 · 가격",
+      "summary": "육회야문연어는 신메뉴와 프로모션을 통해 소비자들에게 긍정적인 반응을 얻고 있으며, 특히 불닭마요연어깍두기와 연어 추가 메뉴가 주목받았다. 그러나 자사(육회바른연어)와의 직접 비교에서 가격과 신선도 측면에서 우위를 보이지 않았다.\n  📌 불닭마요연어 hakkotgi · 연어 추가 메뉴 · 가격",
       "videos": [
         {
           "video_id": "ku4hG-cD5kY",
@@ -2518,7 +2518,7 @@
       "tier_counts": {
         "Nano": 1
       },
-      "summary": "김천재의 육회반한연어가 신메뉴로 연어육회 무제한을 출시하였으며, 2인 기준으로 56000원이라는 가격대를 제시하고 있어 자사와 직접적인 경쟁 상황에 놓여 있으며 소비자들의 반응은 긍정적이다. 즉각적으로 프로모션 및 가격 전략 검토가 필요하다.\n  📌 연어육회 무제한 · 2인 기준 56000원 · 긍정적인 소비자 반응",
+      "summary": "김천재의 육회반한연어가 신메뉴 연어육회무한리필을 56,000원에 제공하며, 이는 자사와 직접적인 가격 경쟁 상황을 의미한다. 소비자들의 반응은 긍정적이지만, 아직 구체적 매장 트래픽 증가를 확인하기 어렵다. 즉시 가격 전략 검토 필요.\n  📌 연어육회무한리필 · 56000원 · 긍정적 소비자 반응",
       "videos": [
         {
           "video_id": "Ukft6tVXwEY",
@@ -2648,7 +2648,7 @@
       "tier_counts": {
         "Nano": 3
       },
-      "summary": "연어로만이 구독자 이벤트를 통해 모든 메뉴에 대해 10% 할인을 제공하며, 특히 광주 지역에서 인지도 상승과 함께 매장 트래픽 증가가 예상됨. 그러나 이벤트는 특정 기간 동안 진행되며, 자사와 비교해 가격 경쟁력은 아직 명확하지 않음.\n  📌 구독자 이벤트 · 광주 지역 인지도 상승 · 10% 할인",
+      "summary": "연어로만이 구독자 이벤트를 통해 모든 메뉴에 대해 10% 할인을 제공하며, 이를 통해 고객 유치 및 매출 증대를 노리고 있다. 그러나 소비자의 반응은 주로 교회 관련 내용으로, 연어로만의 음식 자체에 대한 긍정적인 피드백은 부족하다. 즉시 대응 필요성은 낮으나, 메뉴 다양성과 맛 측면에서 자사와 비교해 우위를 점할 수 있는 전략을 고려해야 한다.\n  📌 구독자 이벤트 · 10% 할인 · 교회 관련",
       "videos": [
         {
           "video_id": "594DiiCC5ZA",
