@@ -1,6 +1,6 @@
 {
   "date": "2026-06-14",
-  "generated_at": "2026-06-14 03:02:12",
+  "generated_at": "2026-06-14 14:03:31",
   "window_days": 365,
   "data_earliest": "2025-06-14",
   "data_latest": "2026-06-12",
@@ -38,8 +38,8 @@
     "yukbayeon": {
       "display": "육회바른연어",
       "video_count": 19,
-      "total_views": 440571,
-      "total_likes": 3299,
+      "total_views": 440819,
+      "total_likes": 3305,
       "total_comments": 416,
       "n_short": 1,
       "n_long": 18,
@@ -48,7 +48,7 @@
         "Macro": 3,
         "Micro": 3
       },
-      "summary": "육회바른연어의 경쟁사들은 다양한 연어 요리를 제공하며, 특히 불닭 연어 깍두기와 연어 초밥 등이 소비자들로부터 좋은 반응을 얻고 있다. 육회바른연어 메뉴인 연어 회와 연어 깍두기가 집에서 두툼하게 즐길 수 있다는 점에서 경쟁사 제품과 차별화를 보이고 있으나, 불닭볶음면과 연계된 먹방 영상들이 인기 있어 육회바른연어의 매장 트래픽에 즉각적인 위협이 될 가능성이 있다.\n  📌 불닭 연어 깍두기 · 연어 초밥 · 집에서 즐기는 연어",
+      "summary": "육회바른연어의 경쟁사들은 다양한 연어 요리를 제공하며, 특히 '불닭볶음면'과 '연어깍두기'를 주요 메뉴로 내세우고 있어 소비자들의 큰 호응을 얻고 있다. 육회바른연어와 직접 비교되는 부분은 없으나, 경쟁사들이 연어 요리를 집에서 쉽게 즐길 수 있도록 다양한 방법으로 제공함으로써 자사의 점유율과 매장 트래픽에 약간의 위협이 될 가능성이 있다.\n  📌 연어깍두기 · 불닭볶음면 · 집에서 연어 요리",
       "videos": [
         {
           "video_id": "Ye8E_dCsMkw",
@@ -573,6 +573,45 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "-IvLrDyL2TM",
+          "title": "코스트코 통연어 한판에 연어깍두기, 불닭볶음면까지 🔥 | Salmon Sashimi, Buldak Ramen MUKBANG",
+          "channel": "예띠 yedddi",
+          "subscribers": 2910,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 463,
+          "likes": 10,
+          "comment_count": 1,
+          "engagement_rate": 0.0238,
+          "duration": 715,
+          "is_short": false,
+          "buzz_score": 43.0,
+          "upload_date": "2026.06.12",
+          "url": "https://www.youtube.com/watch?v=-IvLrDyL2TM",
+          "description_excerpt": "📋 Today’s Menu\n\n🍣 코스트코 통연어\n🥗 연어깍두기 (포케연어)\n🔥 불닭볶음면\n\n📋 Today’s Menu\n\n🍣 Costco Salmon Sashimi\n🥗 Salmon Poke (Diced Salmon)\n🔥 Buldak Spicy Chicken Ramen\n\n\nIG @yedddi_nyam\n💌 yedddi46@gmail.com",
+          "top_comments": [
+            {
+              "author": "@모여봐요고양이",
+              "text": "맛있겠따ㅠㅠ",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "xwqM7BaOJvw",
           "title": "육회바른연어초밥 불닭마요 연어깍두기 연어 먹방! Rawbeef Salmon Buldak Sushi Mukbang Asmr!",
           "channel": "깜뜨kkamddeu",
@@ -628,45 +667,6 @@
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "-IvLrDyL2TM",
-          "title": "코스트코 통연어 한판에 연어깍두기, 불닭볶음면까지 🔥 | Salmon Sashimi, Buldak Ramen MUKBANG",
-          "channel": "예띠 yedddi",
-          "subscribers": 2900,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 227,
-          "likes": 4,
-          "comment_count": 1,
-          "engagement_rate": 0.022,
-          "duration": 715,
-          "is_short": false,
-          "buzz_score": 38.0,
-          "upload_date": "2026.06.12",
-          "url": "https://www.youtube.com/watch?v=-IvLrDyL2TM",
-          "description_excerpt": "📋 Today’s Menu\n\n🍣 코스트코 통연어\n🥗 연어깍두기 (포케연어)\n🔥 불닭볶음면\n\n📋 Today’s Menu\n\n🍣 Costco Salmon Sashimi\n🥗 Salmon Poke (Diced Salmon)\n🔥 Buldak Spicy Chicken Ramen\n\n\nIG @yedddi_nyam\n💌 yedddi46@gmail.com",
-          "top_comments": [
-            {
-              "author": "@모여봐요고양이",
-              "text": "맛있겠따ㅠㅠ",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 1
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "중립",
-          "video_meta_rating": 3,
           "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
@@ -893,16 +893,16 @@
           "video_id": "TlZrcZYhZu4",
           "title": "연어깍두기🧡불닭양파쌈🤤🤤✨                Salmon 🧡 Buldak onion wrap 🤤🤤✨ #asmr #연어 #mukbang #먹방 #양파 #불닭소스",
           "channel": "ASMR빡슈",
-          "subscribers": 537,
+          "subscribers": 538,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 648,
+          "views": 653,
           "likes": 15,
           "comment_count": 2,
-          "engagement_rate": 0.0262,
+          "engagement_rate": 0.026,
           "duration": 409,
           "is_short": false,
-          "buzz_score": 36.4,
+          "buzz_score": 34.6,
           "upload_date": "2026.06.07",
           "url": "https://www.youtube.com/watch?v=TlZrcZYhZu4",
           "description_excerpt": "연어에다가 스리라차+불닭소스+마요네즈+날치알 넣었어요!너무 맛있네용!\n양파쌈은 불닭에 연어에 불닭마요 소스입니당🫶🏻🧡\n잘먹겠습니다!❤️\n\n\nI added Sriracha+Buldak Sauce+Mayonnaise+Flounder to salmon! \nIt's so good!\nOnion ssam is buldak, salmon, and buldak mayo sauce. 🫶🏻🧡\nThank you for the food! ❤️\n\n\n#asmr #먹방 #mukbang #불닭마요 #연어 #연어먹방 #양파쌈#양파 #날치알",
@@ -1321,16 +1321,16 @@
           "video_id": "diqqJv1dmUY",
           "title": "육회바른연어에 치즈불닭 근데 치즈불닭을 더 많이 먹어서 자신없게 올리는중 ..",
           "channel": "나나",
-          "subscribers": 60,
+          "subscribers": 62,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 56,
+          "views": 63,
           "likes": 5,
           "comment_count": 3,
-          "engagement_rate": 0.1429,
+          "engagement_rate": 0.127,
           "duration": 185,
           "is_short": false,
-          "buzz_score": 30.6,
+          "buzz_score": 30.1,
           "upload_date": "2026.06.11",
           "url": "https://www.youtube.com/watch?v=diqqJv1dmUY",
           "description_excerpt": "nan",
@@ -1798,7 +1798,7 @@
         "Macro": 1,
         "Nano": 7
       },
-      "summary": "육회야문연어는 신메뉴와 프로모션을 통해 소비자들에게 긍정적인 반응을 얻고 있으며, 특히 불닭마요연어깍두기와 육회 메뉴가 주목받았다. 그러나 자사(육회바른연어)와 직접 비교되는 부분은 명확히 드러나지 않았으며, 소비자들의 의견에서 자사 대비 우위를 확인하기 어렵다. 즉시 대응 필요성은 낮으나, 경쟁사의 활발한 마케팅 전략을 주시하는 것이 좋다.\n  📌 불닭마요연어깍두기 · 육회 메뉴 · 신메뉴",
+      "summary": "육회야문연어는 신메뉴와 프로모션을 통해 인지도를 높이고 있으며, 특히 불닭마요 연어깍두기와 육회 메뉴에 대한 긍정적인 소비자 반응이 나타나고 있어 자사 점유율과 매장 트래픽에 위협 요소가 될 수 있다. 즉시 대응 필요.\n  📌 불닭마요 연어깍두기 · 육회 메뉴 · 신메뉴",
       "videos": [
         {
           "video_id": "ku4hG-cD5kY",
@@ -2518,7 +2518,7 @@
       "tier_counts": {
         "Nano": 1
       },
-      "summary": "김천재의 육회반한연어가 신메뉴를 통해 연어육회 무한리필을 제공하며, 이는 소비자들에게 긍정적인 반응을 얻고 있어 자사와 직접 경쟁 상황이며 즉시 대응이 필요하다.\n  📌 신메뉴 · 무한리필 · 긍정적 반응",
+      "summary": "김천재의 육회반한연어가 신메뉴로 연어육회 무제한을 출시했으며, 2인 기준으로 56000원이라는 가격 설정은 소비자들 사이에서 주목받고 있으나, 자사와 비교해 어떤 메뉴 구성과 가격 경쟁력을 갖추고 있는지 명확히 드러나지 않았다. 즉시 대응 필요.\n  📌 연어육회 무제한 · 2인 기준 56000원 · 자사와의 비교",
       "videos": [
         {
           "video_id": "Ukft6tVXwEY",
@@ -2648,7 +2648,7 @@
       "tier_counts": {
         "Nano": 3
       },
-      "summary": "연어로만이 구독자 이벤트를 통해 모든 메뉴에 대해 10% 할인을 제공하며, 특히 광주 지역에서 인지도를 높이고 있어 육회바른연어의 점유율과 매장 트래픽에 직접적인 위협이 될 수 있다. 소비자 반응은 긍정적이지만, 이벤트 기간 동안 자사와 비교되는 부분이 많아 즉시 대응 필요.\n  📌 구독자 이벤트 · 광주 지역 인지도 · 즉시 대응",
+      "summary": "연어로만이 구독자 이벤트를 통해 모든 메뉴에 대해 10% 할인을 제공하며, 특히 광주 지역에서 인지도를 높이고 있어 육회바른연어의 점유율과 매장 트래픽에 영향을 미칠 가능성이 있다. 소비자 반응은 긍정적이지만, 이벤트 기간이 2026년으로 예상보다 늦어 즉시 위협으로 보기는 어렵다.\n  📌 구독자 이벤트 · 광주 지역 인지도 · 긍정적 소비자 반응",
       "videos": [
         {
           "video_id": "594DiiCC5ZA",
