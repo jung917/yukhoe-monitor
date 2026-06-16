@@ -794,6 +794,148 @@ tr.own-row:hover td { background: rgba(228, 0, 43, 0.12); }
   .own-toolbar .result-count { margin-left: 0; width: 100%; }
 }
 
+/* ★ 2026-06-17: 트렌드 발굴 탭 */
+.trend-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  padding: 10px 16px;
+  background: var(--bg-secondary);
+  border-radius: var(--radius);
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+}
+.trend-meta-item strong { color: var(--text-primary); }
+.trend-meta-sep { opacity: 0.4; }
+
+.trend-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: var(--radius);
+  padding: 20px 24px;
+  margin-bottom: 18px;
+  box-shadow: var(--shadow);
+}
+.trend-card-header {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 6px;
+  flex-wrap: wrap;
+}
+.trend-card-rank {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--accent-light);
+}
+.trend-card-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--text-primary);
+  flex: 1;
+}
+.trend-card-core {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  margin-bottom: 14px;
+  line-height: 1.6;
+}
+.trend-section {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border-light);
+}
+.trend-section h4 {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  margin-bottom: 8px;
+  font-weight: 700;
+}
+.trend-section .row {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 6px;
+}
+.trend-chip {
+  display: inline-block;
+  padding: 3px 10px;
+  background: var(--bg-card-hover);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  font-size: 0.8rem;
+  color: var(--text-secondary);
+}
+.trend-chip.diff-즉시 { background: rgba(16,185,129,0.15); color: #10b981; border-color: rgba(16,185,129,0.3); }
+.trend-chip.diff-중기 { background: rgba(245,158,11,0.15); color: #f59e0b; border-color: rgba(245,158,11,0.3); }
+.trend-chip.diff-장기 { background: rgba(96,165,250,0.15); color: #60a5fa; border-color: rgba(96,165,250,0.3); }
+
+.trend-video-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 10px;
+  margin-top: 8px;
+}
+.trend-video-item {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 10px 12px;
+  font-size: 0.85rem;
+}
+.trend-video-item a {
+  color: var(--text-primary);
+  font-weight: 600;
+  display: block;
+  margin-bottom: 4px;
+  line-height: 1.4;
+}
+.trend-video-item a:hover { color: var(--accent-light); }
+.trend-video-item .v-meta {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+}
+
+.trend-bullet-list {
+  list-style: none;
+  padding: 0;
+}
+.trend-bullet-list li {
+  padding: 4px 0 4px 18px;
+  position: relative;
+  font-size: 0.9rem;
+  color: var(--text-primary);
+  line-height: 1.5;
+}
+.trend-bullet-list li::before {
+  content: "•";
+  color: var(--accent);
+  position: absolute;
+  left: 6px;
+}
+
+.trend-grid-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 14px;
+  margin-top: 6px;
+}
+@media (max-width: 768px) {
+  .trend-grid-2 { grid-template-columns: 1fr; }
+}
+
+.trend-empty {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-secondary);
+}
+.trend-empty .icon { font-size: 2.5rem; opacity: 0.5; margin-bottom: 12px; }
+
 /* Help */
 .help-grid {
   display: grid;
@@ -1557,6 +1699,7 @@ tr.own-row:hover td { background: rgba(228, 0, 43, 0.12); }
 
 <nav class="tab-nav" id="tabNav">
   <button class="tab-btn" data-tab="exec">Executive Summary</button>
+  <button class="tab-btn" data-tab="trends">🔥 트렌드 발굴</button>
   <button class="tab-btn" data-tab="t1">T1 직접 경쟁</button>
   <button class="tab-btn" data-tab="t2">T2 소비상황</button>
   <button class="tab-btn" data-tab="t3">T3 콘텐츠 벤치마크</button>
@@ -1731,6 +1874,23 @@ tr.own-row:hover td { background: rgba(228, 0, 43, 0.12); }
     <div class="highlights-list" id="highlights-list">
       <div style="text-align:center; color: var(--text-muted); padding: 20px;">분석 중…</div>
     </div>
+  </section>
+
+  <!-- TAB: 트렌드 발굴 -->
+  <section class="tab-pane" id="tab-trends">
+    <div class="intro-block">
+      유튜브에서 <strong>'육회·연어·일식·소비상황'</strong> 키워드로 매일 수집한 영상을 LLM(qwen2.5:14b)이 트렌드 그룹으로 분류하고, 자사 적용 아이디어·T1 경쟁사 차별화 포인트까지 자동 분석합니다. 매일 09:00 갱신 + Slack 발송.
+    </div>
+
+    <div class="trend-meta" id="trendMeta">
+      <span class="trend-meta-item"><strong id="trendDate">-</strong></span>
+      <span class="trend-meta-sep">·</span>
+      <span class="trend-meta-item">분석 영상 <strong id="trendVideoCount">-</strong>개</span>
+      <span class="trend-meta-sep">·</span>
+      <span class="trend-meta-item">트렌드 그룹 <strong id="trendGroupCount">-</strong>개</span>
+    </div>
+
+    <div id="trendCards"></div>
   </section>
 
   <!-- TAB: T1 직접 경쟁 -->
@@ -2086,7 +2246,7 @@ function initTabs() {
     b.addEventListener('click', function () { activateTab(b.dataset.tab); });
   });
   var hash = (window.location.hash || '#exec').replace('#', '');
-  var validTabs = ['exec', 't1', 't2', 't3', 'own', 'keywords', 'help'];
+  var validTabs = ['exec', 'trends', 't1', 't2', 't3', 'own', 'keywords', 'help'];
   if (validTabs.indexOf(hash) === -1) hash = 'exec';
   activateTab(hash);
 }
@@ -3871,11 +4031,114 @@ function renderKeywords() {
 }
 
 /* ============================================================
+   Tab: 트렌드 발굴 (★ 2026-06-17)
+============================================================ */
+function renderTrends() {
+  var d = STATE.data || {};
+  var trends = d.trends || {};
+  var meta = {
+    date: trends.date || '-',
+    total: trends.total_videos || 0,
+    groups: (trends.groups || []).length
+  };
+  var dateEl = document.getElementById('trendDate');
+  var vcEl = document.getElementById('trendVideoCount');
+  var gcEl = document.getElementById('trendGroupCount');
+  if (dateEl) dateEl.textContent = meta.date;
+  if (vcEl) vcEl.textContent = meta.total;
+  if (gcEl) gcEl.textContent = meta.groups;
+
+  var box = document.getElementById('trendCards');
+  if (!box) return;
+
+  var groups = trends.groups || [];
+  if (groups.length === 0) {
+    box.innerHTML = '<div class="trend-empty"><div class="icon">🔥</div>' +
+      '<div>아직 수집된 트렌드가 없습니다</div>' +
+      '<div style="font-size:0.85rem;margin-top:6px;">매일 09:00 자동 갱신됩니다</div></div>';
+    return;
+  }
+
+  function esc(s) {
+    if (s == null) return '';
+    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+  }
+  function fmtNum(n) {
+    n = Number(n) || 0;
+    if (n >= 1000000) return (n/1000000).toFixed(1) + 'M';
+    if (n >= 1000) return (n/1000).toFixed(1) + 'K';
+    return String(n);
+  }
+
+  var html = groups.map(function(g, idx) {
+    var pi = g.product_idea || {};
+    var cd = g.competitive_diff || {};
+    var videos = (g.representative_videos || []).map(function(v) {
+      return '<div class="trend-video-item">' +
+        '<a href="' + esc(v.url || ('https://www.youtube.com/watch?v='+v.video_id)) + '" target="_blank" rel="noopener">' +
+        esc(v.title || '(제목 없음)') + '</a>' +
+        '<div class="v-meta">' + esc(v.channel || '') + ' · ' + fmtNum(v.views) + ' views</div>' +
+      '</div>';
+    }).join('');
+
+    var menuChips = (pi.menu_name_suggestions || []).map(function(m) {
+      return '<span class="trend-chip">🍣 ' + esc(m) + '</span>';
+    }).join('');
+
+    var marketingItems = (pi.marketing_points || []).map(function(p) {
+      return '<li>' + esc(p) + '</li>';
+    }).join('');
+
+    var diffPoints = (cd.yukbayeon_diff_points || []).map(function(p) {
+      return '<li>' + esc(p) + '</li>';
+    }).join('');
+
+    var diffClass = 'trend-chip diff-' + esc(pi.difficulty || '');
+
+    return '<div class="trend-card">' +
+      '<div class="trend-card-header">' +
+        '<span class="trend-card-rank">[' + (idx + 1) + ']</span>' +
+        '<span class="trend-card-title">' + esc(g.group_name || '(이름 없음)') + '</span>' +
+        (pi.difficulty ? '<span class="' + diffClass + '">난이도: ' + esc(pi.difficulty) + '</span>' : '') +
+      '</div>' +
+      '<div class="trend-card-core">💡 ' + esc(g.core_message || '') + '</div>' +
+
+      (g.why_trending ? '<div class="trend-section"><h4>📊 왜 인기인가</h4><div>' + esc(g.why_trending) + '</div></div>' : '') +
+      (g.consumer_signal ? '<div class="trend-section"><h4>🎯 소비자 시그널</h4><div>' + esc(g.consumer_signal) + '</div></div>' : '') +
+
+      (videos ? '<div class="trend-section"><h4>🎬 대표 영상</h4><div class="trend-video-list">' + videos + '</div></div>' : '') +
+
+      '<div class="trend-section"><h4>🚀 자사 제품화 아이디어</h4>' +
+        '<div class="trend-grid-2">' +
+          '<div>' +
+            (menuChips ? '<div style="margin-bottom:8px;"><div class="row">' + menuChips + '</div></div>' : '') +
+            (pi.target_persona ? '<div style="font-size:0.88rem;color:var(--text-secondary);margin-top:6px;">🎯 <strong>타깃</strong>: ' + esc(pi.target_persona) + '</div>' : '') +
+            (pi.price_range ? '<div style="font-size:0.88rem;color:var(--text-secondary);margin-top:4px;">💰 <strong>가격</strong>: ' + esc(pi.price_range) + '</div>' : '') +
+          '</div>' +
+          '<div>' +
+            (marketingItems ? '<div style="font-size:0.85rem;color:var(--text-muted);margin-bottom:4px;">📣 마케팅 포인트</div><ul class="trend-bullet-list">' + marketingItems + '</ul>' : '') +
+          '</div>' +
+        '</div>' +
+      '</div>' +
+
+      '<div class="trend-section"><h4>⚔️ T1 경쟁사 차별화</h4>' +
+        (cd.t1_expected_response ? '<div style="font-size:0.88rem;color:var(--text-secondary);margin-bottom:8px;">📌 <strong>예상 대응</strong>: ' + esc(cd.t1_expected_response) + '</div>' : '') +
+        (diffPoints ? '<div style="font-size:0.85rem;color:var(--text-muted);margin-bottom:4px;">자사 차별화 포인트</div><ul class="trend-bullet-list">' + diffPoints + '</ul>' : '') +
+        (cd.first_mover_effect ? '<div style="margin-top:8px;font-size:0.88rem;color:#10b981;">🏆 선점 효과: ' + esc(cd.first_mover_effect) + '</div>' : '') +
+      '</div>' +
+    '</div>';
+  }).join('');
+
+  box.innerHTML = html;
+}
+
+/* ============================================================
    Render all + charts
 ============================================================ */
 function renderAll() {
   renderHeader();
   renderExec();
+  renderTrends();
   renderT1();
   renderT2();
   renderT3();
@@ -3907,7 +4170,7 @@ function renderChartsForTab(tab) {
 
   window.addEventListener('hashchange', function () {
     var h = (window.location.hash || '#exec').replace('#', '');
-    var validTabs = ['exec', 't1', 't2', 't3', 'own', 'keywords', 'help'];
+    var validTabs = ['exec', 'trends', 't1', 't2', 't3', 'own', 'keywords', 'help'];
     if (validTabs.indexOf(h) === -1) h = 'exec';
     activateTab(h);
   });
