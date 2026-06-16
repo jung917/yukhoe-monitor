@@ -1,6 +1,6 @@
 {
   "date": "2026-06-16",
-  "generated_at": "2026-06-16 03:31:41",
+  "generated_at": "2026-06-16 15:38:11",
   "window_days": 365,
   "data_earliest": "2025-06-18",
   "data_latest": "2026-06-12",
@@ -38,8 +38,8 @@
     "yukbayeon": {
       "display": "육회바른연어",
       "video_count": 19,
-      "total_views": 441537,
-      "total_likes": 3309,
+      "total_views": 441703,
+      "total_likes": 3313,
       "total_comments": 417,
       "n_short": 1,
       "n_long": 18,
@@ -48,7 +48,7 @@
         "Macro": 3,
         "Micro": 3
       },
-      "summary": "육회바른연어의 신메뉴 연어깍두기와 불닭마요 초밥이 소비자들 사이에서 긍정적인 반응을 얻고 있으며, 특히 두툼하게 썰어 먹는 것이 집에서 먹는 연어의 장점으로 지목되었다. 그러나 일부 고객은 맛에 대한 의구심을 나타내기도 했다.\n  📌 연어깍두기 · 불닭마요 초밥 · 집에서 먹는 연어",
+      "summary": "육회바른연어의 신메뉴와 프로모션에 대한 소비자 반응은 긍정적이지만, 다른 연어 관련 제품들(코스트코 통연어 등)과 비교해 가격 경쟁력이 부족한 것으로 보인다. 특히 불닭마요와 연어깍두기 등의 메뉴가 인기가 있으나, 이는 육회바른연어의 독점적 장점이 아닌 다른 업체에서도 제공 가능한 제품임을 시사한다.\n  📌 불닭마요 · 연어 hakkotgi · 코스트코 통연어",
       "videos": [
         {
           "video_id": "Ye8E_dCsMkw",
@@ -667,6 +667,52 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "diqqJv1dmUY",
+          "title": "육회바른연어에 치즈불닭 근데 치즈불닭을 더 많이 먹어서 자신없게 올리는중 ..",
+          "channel": "나나",
+          "subscribers": 62,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 229,
+          "likes": 9,
+          "comment_count": 3,
+          "engagement_rate": 0.0524,
+          "duration": 185,
+          "is_short": false,
+          "buzz_score": 38.2,
+          "upload_date": "2026.06.11",
+          "url": "https://www.youtube.com/watch?v=diqqJv1dmUY",
+          "description_excerpt": "nan",
+          "top_comments": [
+            {
+              "author": "@수루룽-m8z",
+              "text": "다음은 치즈없는 불닭도 먹어주세요 ~",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            },
+            {
+              "author": "@나나-t7u",
+              "text": "구독자 58명 감사합니다.",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 2
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
           "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
@@ -1318,52 +1364,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "diqqJv1dmUY",
-          "title": "육회바른연어에 치즈불닭 근데 치즈불닭을 더 많이 먹어서 자신없게 올리는중 ..",
-          "channel": "나나",
-          "subscribers": 62,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 63,
-          "likes": 5,
-          "comment_count": 3,
-          "engagement_rate": 0.127,
-          "duration": 185,
-          "is_short": false,
-          "buzz_score": 30.1,
-          "upload_date": "2026.06.11",
-          "url": "https://www.youtube.com/watch?v=diqqJv1dmUY",
-          "description_excerpt": "nan",
-          "top_comments": [
-            {
-              "author": "@수루룽-m8z",
-              "text": "다음은 치즈없는 불닭도 먹어주세요 ~",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            },
-            {
-              "author": "@나나-t7u",
-              "text": "구독자 58명 감사합니다.",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 2
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "vWnMVVwlYDw",
           "title": "[SUB] 🐟연어깍두기 &주먹밥 & 계란국‼️이거 왜 이제 먹었죠?🍙Salmon Buldak Kkakdugi Mukbang ASMR",
           "channel": "모구밍moguming",
@@ -1798,7 +1798,7 @@
         "Macro": 1,
         "Nano": 7
       },
-      "summary": "육회야문연어는 신도시 상권에서 오픈 첫 날 만석을 기록하며 성공적인 시작을 보였고, 김복순의 뷔페놀이 영상에서도 주요 메뉴로 소개되어 인지도를 높이고 있으며, 소비자들의 긍정적 반응과 함께 자사와 직접 비교되는 부분에서 우위를 드러내고 있어 즉시 대응 필요.\n  📌 오픈 첫 날 만석 · 김복순의 뷔페놀이 영상 · 긍정적 소비자 반응",
+      "summary": "육회야문연어는 신도시 상권에서 오픈 첫 날 만석을 기록하며 성공적인 출발을 보였고, 김복순의 영상에서도 다양한 메뉴를 선보이며 인기를 얻고 있다. 그러나 소비자들의 반응은 긍정적이지만 자사와 직접 비교되는 부분이 부족해 즉시 대응 필요성은 낮다.\n  📌 오픈 첫날 만석 · 김복순 영상 인기 · 즉시 대응 필요 없음",
       "videos": [
         {
           "video_id": "ku4hG-cD5kY",
@@ -2518,7 +2518,7 @@
       "tier_counts": {
         "Nano": 1
       },
-      "summary": "김천재의 육회반한연어가 신메뉴를 출시하며 2인 기준 무한리필을 제공하고 있어, 이는 육회바른연어와 직접적인 경쟁 상황이며 소비자들의 긍정적 반응이 자사 매장 트래픽에 영향을 미칠 가능성이 있다. 즉각적으로 가격 및 메뉴 다양화 전략을 고려해야 한다.\n  📌 신메뉴 · 무한리필 · 긍정적 반응",
+      "summary": "김천재의 육회반한연어가 신메뉴를 출시하고 있으며, 특히 연어육회무한리필 메뉴에 대한 소비자들의 긍정적인 반응이 나타나고 있어 자사와 직접 경쟁 상황이며, 가격대는 56000원으로 비교적 높은 편이다. 즉시 대응 필요.\n  📌 신메뉴 · 긍정적 소비자 반응 · 가격",
       "videos": [
         {
           "video_id": "Ukft6tVXwEY",
@@ -2648,7 +2648,7 @@
       "tier_counts": {
         "Nano": 3
       },
-      "summary": "연어로만이 구독자 이벤트를 통해 10% 할인 프로모션을 진행하며, 이를 통해 고객 유치 및 매출 증대를 노리고 있다. 그러나 이벤트는 교회 관련 채널에서 주로 홍보되어 일반 소비자에게까지 영향력이 미칠지는 불확실하다. 즉각적인 대응으로는 연어로만의 이벤트 효과를 모니터링하고, 필요시 유사 프로모션을 실시하는 것이 필요하다.\n  📌 구독자 이벤트 · 10% 할인 · 교회 관련 홍보",
+      "summary": "연어로만이 구독자 이벤트를 통해 모든 메뉴에 대해 10% 할인을 제공하며, 이를 통해 고객 유치 및 매출 증대를 모색하고 있다. 그러나 해당 콘텐츠는 자사와 직접적인 비교나 경쟁 제품에 대한 언급은 없으며, 주로 교회 관련 내용이므로 즉시 대응의 필요성은 낮다.\n  📌 구독자 이벤트 · 할인 프로모션 · 교회 연계",
       "videos": [
         {
           "video_id": "594DiiCC5ZA",
