@@ -810,6 +810,130 @@ tr.own-row:hover td { background: rgba(228, 0, 43, 0.12); }
 .trend-meta-item strong { color: var(--text-primary); }
 .trend-meta-sep { opacity: 0.4; }
 
+/* ★ 2026-06-17: 트렌드 검색·필터 툴바 */
+.trend-toolbar {
+  background: var(--bg-secondary);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 16px;
+  margin-bottom: 18px;
+}
+.trend-search-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+.trend-search {
+  flex: 1;
+  min-width: 220px;
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  padding: 9px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 0.92rem;
+}
+.trend-search:focus { outline: none; border-color: var(--accent); }
+.trend-sort {
+  background: var(--bg-input);
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  padding: 9px 12px;
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+.trend-reset {
+  background: var(--bg-card-hover);
+  border: 1px solid var(--border);
+  color: var(--text-secondary);
+  padding: 9px 16px;
+  border-radius: var(--radius-sm);
+  font-size: 0.9rem;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.trend-reset:hover { color: var(--text-primary); background: var(--bg-card); }
+
+.trend-facets {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.trend-facet-axis {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+.trend-facet-label {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--text-muted);
+  font-weight: 700;
+  min-width: 90px;
+}
+.trend-facet-chip {
+  display: inline-block;
+  padding: 4px 11px;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  font-size: 0.82rem;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all 0.15s;
+}
+.trend-facet-chip:hover {
+  border-color: var(--accent-light);
+  color: var(--text-primary);
+}
+.trend-facet-chip.active {
+  background: var(--accent);
+  color: white;
+  border-color: var(--accent);
+  font-weight: 600;
+}
+.trend-facet-chip .count {
+  opacity: 0.7;
+  font-size: 0.75rem;
+  margin-left: 4px;
+}
+
+.trend-card-date {
+  display: inline-block;
+  padding: 2px 8px;
+  background: var(--bg-card-hover);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  font-weight: 600;
+}
+.trend-card-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+.trend-tag-small {
+  font-size: 0.72rem;
+  padding: 2px 8px;
+  border-radius: 10px;
+  background: rgba(228,0,43,0.1);
+  color: var(--accent-light);
+  border: 1px solid rgba(228,0,43,0.25);
+}
+.trend-tag-axis {
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-right: 3px;
+}
+
 .trend-card {
   background: var(--bg-card);
   border: 1px solid var(--border);
@@ -1879,15 +2003,31 @@ tr.own-row:hover td { background: rgba(228, 0, 43, 0.12); }
   <!-- TAB: 트렌드 발굴 -->
   <section class="tab-pane" id="tab-trends">
     <div class="intro-block">
-      유튜브에서 <strong>'육회·연어·일식·소비상황'</strong> 키워드로 매일 수집한 영상을 LLM(qwen2.5:14b)이 트렌드 그룹으로 분류하고, 자사 적용 아이디어·T1 경쟁사 차별화 포인트까지 자동 분석합니다. 매일 09:00 갱신 + Slack 발송.
+      유튜브에서 매일 자동 수집·분석한 트렌드입니다. <strong>검색·카테고리 필터·기간 정렬</strong>로 누적된 모든 트렌드를 탐색하세요.
     </div>
 
     <div class="trend-meta" id="trendMeta">
-      <span class="trend-meta-item"><strong id="trendDate">-</strong></span>
+      <span class="trend-meta-item">최근 갱신 <strong id="trendDate">-</strong></span>
       <span class="trend-meta-sep">·</span>
-      <span class="trend-meta-item">분석 영상 <strong id="trendVideoCount">-</strong>개</span>
+      <span class="trend-meta-item">누적 트렌드 <strong id="trendGroupCount">-</strong>개</span>
       <span class="trend-meta-sep">·</span>
-      <span class="trend-meta-item">트렌드 그룹 <strong id="trendGroupCount">-</strong>개</span>
+      <span class="trend-meta-item">분석 영상 누적 <strong id="trendVideoCount">-</strong>개</span>
+      <span class="trend-meta-sep">·</span>
+      <span class="trend-meta-item">필터링 <strong id="trendShownCount">-</strong>개</span>
+    </div>
+
+    <!-- 검색·필터 툴바 -->
+    <div class="trend-toolbar">
+      <div class="trend-search-row">
+        <input type="search" id="trendSearch" class="trend-search" placeholder="🔍 트렌드명·키워드·페르소나 검색...">
+        <select id="trendSort" class="trend-sort">
+          <option value="newest">최신순</option>
+          <option value="oldest">오래된순</option>
+          <option value="video">영상 많은순</option>
+        </select>
+        <button type="button" id="trendReset" class="trend-reset">초기화</button>
+      </div>
+      <div class="trend-facets" id="trendFacets"></div>
     </div>
 
     <div id="trendCards"></div>
@@ -2261,6 +2401,11 @@ function loadData() {
       console.error('latest.json load failed', e);
       return null;
     });
+}
+function loadTrendsIndex() {
+  return fetch('data/trends_index.json', { cache: 'no-cache' })
+    .then(function (r) { return r.ok ? r.json() : null; })
+    .catch(function () { return null; });
 }
 
 /* ============================================================
@@ -4032,104 +4177,284 @@ function renderKeywords() {
 
 /* ============================================================
    Tab: 트렌드 발굴 (★ 2026-06-17)
+   검색·카테고리 필터·정렬 UI 지원 — trends_index.json 우선,
+   없으면 latest.json 의 trends.groups (1일치) fallback
 ============================================================ */
-function renderTrends() {
-  var d = STATE.data || {};
-  var trends = d.trends || {};
-  var meta = {
-    date: trends.date || '-',
-    total: trends.total_videos || 0,
-    groups: (trends.groups || []).length
-  };
-  var dateEl = document.getElementById('trendDate');
-  var vcEl = document.getElementById('trendVideoCount');
-  var gcEl = document.getElementById('trendGroupCount');
-  if (dateEl) dateEl.textContent = meta.date;
-  if (vcEl) vcEl.textContent = meta.total;
-  if (gcEl) gcEl.textContent = meta.groups;
+var trendsState = {
+  search: '',
+  filters: {},   // { menu_type: ['신메뉴'], occasion: ['야식'], ... }
+  sort: 'newest'
+};
 
+function trendEsc(s) {
+  if (s == null) return '';
+  return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+function trendFmtNum(n) {
+  n = Number(n) || 0;
+  if (n >= 1000000) return (n/1000000).toFixed(1) + 'M';
+  if (n >= 1000) return (n/1000).toFixed(1) + 'K';
+  return String(n);
+}
+
+function getTrendsItems() {
+  // trends_index 우선, 없으면 latest.json 의 trends.groups (1일치) fallback
+  var idx = STATE.trendsIndex;
+  if (idx && idx.items && idx.items.length > 0) {
+    return idx.items;
+  }
+  var trends = ((STATE.data || {}).trends || {});
+  var groups = trends.groups || [];
+  // latest 데이터를 인덱스 포맷으로 적응
+  return groups.map(function (g) {
+    return {
+      source_date: trends.date || '',
+      group_name: g.group_name,
+      core_message: g.core_message,
+      why_trending: g.why_trending,
+      consumer_signal: g.consumer_signal,
+      video_count: (g.representative_videos || []).length,
+      product_idea: g.product_idea || {},
+      competitive_diff: g.competitive_diff || {},
+      representative_videos: g.representative_videos || [],
+      categories: { menu_type: [], marketing: [], occasion: [], target: [], intensity: [] },
+      keywords: [],
+      summary_short: ''
+    };
+  });
+}
+
+function getTrendsFacets() {
+  var idx = STATE.trendsIndex;
+  if (idx && idx.facets) return idx.facets;
+  return { menu_type: [], marketing: [], occasion: [], target: [], intensity: [], keywords: [] };
+}
+
+function filterTrendsItems(items) {
+  var s = (trendsState.search || '').trim().toLowerCase();
+  var filters = trendsState.filters;
+  var hasFilter = Object.keys(filters).some(function (k) { return (filters[k] || []).length > 0; });
+
+  return items.filter(function (it) {
+    if (s) {
+      var pi = it.product_idea || {};
+      var hay = [
+        it.group_name, it.core_message, it.why_trending, it.consumer_signal,
+        it.summary_short,
+        (it.keywords || []).join(' '),
+        pi.target_persona || '',
+        (pi.menu_name_suggestions || []).join(' ')
+      ].join(' ').toLowerCase();
+      if (hay.indexOf(s) === -1) return false;
+    }
+    if (hasFilter) {
+      for (var axis in filters) {
+        var selected = filters[axis] || [];
+        if (selected.length === 0) continue;
+        var itemTags = (it.categories || {})[axis] || [];
+        var hit = selected.some(function (t) { return itemTags.indexOf(t) !== -1; });
+        if (!hit) return false;
+      }
+    }
+    return true;
+  });
+}
+
+function sortTrendsItems(items) {
+  var sorted = items.slice();
+  if (trendsState.sort === 'newest') {
+    sorted.sort(function (a, b) { return (b.source_date || '').localeCompare(a.source_date || ''); });
+  } else if (trendsState.sort === 'oldest') {
+    sorted.sort(function (a, b) { return (a.source_date || '').localeCompare(b.source_date || ''); });
+  } else if (trendsState.sort === 'video') {
+    sorted.sort(function (a, b) { return (b.video_count || 0) - (a.video_count || 0); });
+  }
+  return sorted;
+}
+
+function renderTrendsFacets() {
+  var box = document.getElementById('trendFacets');
+  if (!box) return;
+  var facets = getTrendsFacets();
+  var axes = [
+    { key: 'menu_type', label: '메뉴/요리' },
+    { key: 'occasion', label: '소비상황' },
+    { key: 'target', label: '타깃' },
+    { key: 'marketing', label: '마케팅' },
+    { key: 'intensity', label: '강도' }
+  ];
+  var html = axes.map(function (axis) {
+    var tags = facets[axis.key] || [];
+    if (tags.length === 0) return '';
+    var sel = trendsState.filters[axis.key] || [];
+    var chips = tags.map(function (t) {
+      var active = sel.indexOf(t.tag) !== -1 ? ' active' : '';
+      return '<span class="trend-facet-chip' + active + '" data-axis="' + axis.key + '" data-tag="' + trendEsc(t.tag) + '">' +
+        trendEsc(t.tag) + '<span class="count">' + (t.count || 0) + '</span></span>';
+    }).join('');
+    return '<div class="trend-facet-axis"><span class="trend-facet-label">' + axis.label + '</span>' + chips + '</div>';
+  }).join('');
+  box.innerHTML = html || '<div style="font-size:0.85rem;color:var(--text-muted);">카테고리 인덱스 없음 — categorizer 실행 필요</div>';
+}
+
+function renderTrendsCards(items) {
   var box = document.getElementById('trendCards');
   if (!box) return;
-
-  var groups = trends.groups || [];
-  if (groups.length === 0) {
-    box.innerHTML = '<div class="trend-empty"><div class="icon">🔥</div>' +
-      '<div>아직 수집된 트렌드가 없습니다</div>' +
-      '<div style="font-size:0.85rem;margin-top:6px;">매일 09:00 자동 갱신됩니다</div></div>';
+  if (items.length === 0) {
+    box.innerHTML = '<div class="trend-empty"><div class="icon">🔍</div>' +
+      '<div>조건에 맞는 트렌드가 없습니다</div>' +
+      '<div style="font-size:0.85rem;margin-top:6px;">검색어·필터를 조정하세요</div></div>';
     return;
   }
 
-  function esc(s) {
-    if (s == null) return '';
-    return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
-  }
-  function fmtNum(n) {
-    n = Number(n) || 0;
-    if (n >= 1000000) return (n/1000000).toFixed(1) + 'M';
-    if (n >= 1000) return (n/1000).toFixed(1) + 'K';
-    return String(n);
-  }
-
-  var html = groups.map(function(g, idx) {
+  var html = items.map(function (g, idx) {
     var pi = g.product_idea || {};
     var cd = g.competitive_diff || {};
-    var videos = (g.representative_videos || []).map(function(v) {
+    var videos = (g.representative_videos || []).map(function (v) {
+      var url = v.url || ('https://www.youtube.com/watch?v=' + (v.video_id || ''));
       return '<div class="trend-video-item">' +
-        '<a href="' + esc(v.url || ('https://www.youtube.com/watch?v='+v.video_id)) + '" target="_blank" rel="noopener">' +
-        esc(v.title || '(제목 없음)') + '</a>' +
-        '<div class="v-meta">' + esc(v.channel || '') + ' · ' + fmtNum(v.views) + ' views</div>' +
+        '<a href="' + trendEsc(url) + '" target="_blank" rel="noopener">' + trendEsc(v.title || '(제목 없음)') + '</a>' +
+        '<div class="v-meta">' + trendEsc(v.channel || '') + ' · ' + trendFmtNum(v.views) + ' views</div>' +
       '</div>';
     }).join('');
 
-    var menuChips = (pi.menu_name_suggestions || []).map(function(m) {
-      return '<span class="trend-chip">🍣 ' + esc(m) + '</span>';
+    var menuChips = (pi.menu_name_suggestions || []).map(function (m) {
+      return '<span class="trend-chip">🍣 ' + trendEsc(m) + '</span>';
     }).join('');
 
-    var marketingItems = (pi.marketing_points || []).map(function(p) {
-      return '<li>' + esc(p) + '</li>';
+    var marketingItems = (pi.marketing_points || []).map(function (p) { return '<li>' + trendEsc(p) + '</li>'; }).join('');
+    var diffPoints = (cd.yukbayeon_diff_points || []).map(function (p) { return '<li>' + trendEsc(p) + '</li>'; }).join('');
+
+    var allTags = [];
+    var cats = g.categories || {};
+    ['menu_type','occasion','target','marketing','intensity'].forEach(function (ax) {
+      (cats[ax] || []).forEach(function (t) { allTags.push({ axis: ax, tag: t }); });
+    });
+    var tagsHtml = allTags.map(function (t) {
+      return '<span class="trend-tag-small">' + trendEsc(t.tag) + '</span>';
     }).join('');
 
-    var diffPoints = (cd.yukbayeon_diff_points || []).map(function(p) {
-      return '<li>' + esc(p) + '</li>';
-    }).join('');
-
-    var diffClass = 'trend-chip diff-' + esc(pi.difficulty || '');
+    var diffClass = 'trend-chip diff-' + trendEsc(pi.difficulty || '');
 
     return '<div class="trend-card">' +
       '<div class="trend-card-header">' +
         '<span class="trend-card-rank">[' + (idx + 1) + ']</span>' +
-        '<span class="trend-card-title">' + esc(g.group_name || '(이름 없음)') + '</span>' +
-        (pi.difficulty ? '<span class="' + diffClass + '">난이도: ' + esc(pi.difficulty) + '</span>' : '') +
+        '<span class="trend-card-title">' + trendEsc(g.group_name || '(이름 없음)') + '</span>' +
+        (g.source_date ? '<span class="trend-card-date">📅 ' + trendEsc(g.source_date) + '</span>' : '') +
+        (pi.difficulty ? '<span class="' + diffClass + '">난이도: ' + trendEsc(pi.difficulty) + '</span>' : '') +
       '</div>' +
-      '<div class="trend-card-core">💡 ' + esc(g.core_message || '') + '</div>' +
-
-      (g.why_trending ? '<div class="trend-section"><h4>📊 왜 인기인가</h4><div>' + esc(g.why_trending) + '</div></div>' : '') +
-      (g.consumer_signal ? '<div class="trend-section"><h4>🎯 소비자 시그널</h4><div>' + esc(g.consumer_signal) + '</div></div>' : '') +
-
+      (tagsHtml ? '<div class="trend-card-tags">' + tagsHtml + '</div>' : '') +
+      '<div class="trend-card-core">💡 ' + trendEsc(g.core_message || '') + '</div>' +
+      (g.why_trending ? '<div class="trend-section"><h4>📊 왜 인기인가</h4><div>' + trendEsc(g.why_trending) + '</div></div>' : '') +
+      (g.consumer_signal ? '<div class="trend-section"><h4>🎯 소비자 시그널</h4><div>' + trendEsc(g.consumer_signal) + '</div></div>' : '') +
       (videos ? '<div class="trend-section"><h4>🎬 대표 영상</h4><div class="trend-video-list">' + videos + '</div></div>' : '') +
-
       '<div class="trend-section"><h4>🚀 자사 제품화 아이디어</h4>' +
         '<div class="trend-grid-2">' +
           '<div>' +
             (menuChips ? '<div style="margin-bottom:8px;"><div class="row">' + menuChips + '</div></div>' : '') +
-            (pi.target_persona ? '<div style="font-size:0.88rem;color:var(--text-secondary);margin-top:6px;">🎯 <strong>타깃</strong>: ' + esc(pi.target_persona) + '</div>' : '') +
-            (pi.price_range ? '<div style="font-size:0.88rem;color:var(--text-secondary);margin-top:4px;">💰 <strong>가격</strong>: ' + esc(pi.price_range) + '</div>' : '') +
+            (pi.target_persona ? '<div style="font-size:0.88rem;color:var(--text-secondary);margin-top:6px;">🎯 <strong>타깃</strong>: ' + trendEsc(pi.target_persona) + '</div>' : '') +
+            (pi.price_range ? '<div style="font-size:0.88rem;color:var(--text-secondary);margin-top:4px;">💰 <strong>가격</strong>: ' + trendEsc(pi.price_range) + '</div>' : '') +
           '</div>' +
           '<div>' +
             (marketingItems ? '<div style="font-size:0.85rem;color:var(--text-muted);margin-bottom:4px;">📣 마케팅 포인트</div><ul class="trend-bullet-list">' + marketingItems + '</ul>' : '') +
           '</div>' +
         '</div>' +
       '</div>' +
-
       '<div class="trend-section"><h4>⚔️ T1 경쟁사 차별화</h4>' +
-        (cd.t1_expected_response ? '<div style="font-size:0.88rem;color:var(--text-secondary);margin-bottom:8px;">📌 <strong>예상 대응</strong>: ' + esc(cd.t1_expected_response) + '</div>' : '') +
+        (cd.t1_expected_response ? '<div style="font-size:0.88rem;color:var(--text-secondary);margin-bottom:8px;">📌 <strong>예상 대응</strong>: ' + trendEsc(cd.t1_expected_response) + '</div>' : '') +
         (diffPoints ? '<div style="font-size:0.85rem;color:var(--text-muted);margin-bottom:4px;">자사 차별화 포인트</div><ul class="trend-bullet-list">' + diffPoints + '</ul>' : '') +
-        (cd.first_mover_effect ? '<div style="margin-top:8px;font-size:0.88rem;color:#10b981;">🏆 선점 효과: ' + esc(cd.first_mover_effect) + '</div>' : '') +
+        (cd.first_mover_effect ? '<div style="margin-top:8px;font-size:0.88rem;color:#10b981;">🏆 선점 효과: ' + trendEsc(cd.first_mover_effect) + '</div>' : '') +
       '</div>' +
     '</div>';
   }).join('');
 
   box.innerHTML = html;
+}
+
+function renderTrends() {
+  var items = getTrendsItems();
+  var dateEl = document.getElementById('trendDate');
+  var vcEl = document.getElementById('trendVideoCount');
+  var gcEl = document.getElementById('trendGroupCount');
+  var scEl = document.getElementById('trendShownCount');
+
+  var idx = STATE.trendsIndex;
+  if (dateEl) {
+    var dateStr = idx ? ((idx.generated_at || '').split(' ')[0] || '-') : (((STATE.data || {}).trends || {}).date || '-');
+    dateEl.textContent = dateStr || '-';
+  }
+  if (gcEl) gcEl.textContent = items.length;
+  if (vcEl) {
+    var total = items.reduce(function (a, it) { return a + (it.video_count || 0); }, 0);
+    vcEl.textContent = total;
+  }
+
+  renderTrendsFacets();
+
+  var filtered = filterTrendsItems(items);
+  var sorted = sortTrendsItems(filtered);
+  if (scEl) scEl.textContent = sorted.length;
+
+  if (items.length === 0) {
+    var box = document.getElementById('trendCards');
+    if (box) {
+      box.innerHTML = '<div class="trend-empty"><div class="icon">🔥</div>' +
+        '<div>아직 수집된 트렌드가 없습니다</div>' +
+        '<div style="font-size:0.85rem;margin-top:6px;">매일 09:00 자동 갱신됩니다</div></div>';
+    }
+    return;
+  }
+
+  renderTrendsCards(sorted);
+}
+
+function initTrendsTab() {
+  var searchEl = document.getElementById('trendSearch');
+  var sortEl = document.getElementById('trendSort');
+  var resetEl = document.getElementById('trendReset');
+  var facetsEl = document.getElementById('trendFacets');
+
+  if (searchEl) {
+    var timer = null;
+    searchEl.addEventListener('input', function () {
+      clearTimeout(timer);
+      timer = setTimeout(function () {
+        trendsState.search = searchEl.value;
+        renderTrends();
+      }, 200);
+    });
+  }
+  if (sortEl) {
+    sortEl.addEventListener('change', function () {
+      trendsState.sort = sortEl.value;
+      renderTrends();
+    });
+  }
+  if (resetEl) {
+    resetEl.addEventListener('click', function () {
+      trendsState.search = '';
+      trendsState.filters = {};
+      trendsState.sort = 'newest';
+      if (searchEl) searchEl.value = '';
+      if (sortEl) sortEl.value = 'newest';
+      renderTrends();
+    });
+  }
+  if (facetsEl) {
+    facetsEl.addEventListener('click', function (e) {
+      var chip = e.target.closest && e.target.closest('.trend-facet-chip');
+      if (!chip) return;
+      var axis = chip.getAttribute('data-axis');
+      var tag = chip.getAttribute('data-tag');
+      if (!axis || !tag) return;
+      trendsState.filters[axis] = trendsState.filters[axis] || [];
+      var arr = trendsState.filters[axis];
+      var ix = arr.indexOf(tag);
+      if (ix === -1) arr.push(tag);
+      else arr.splice(ix, 1);
+      renderTrends();
+    });
+  }
 }
 
 /* ============================================================
@@ -4159,6 +4484,7 @@ function renderChartsForTab(tab) {
 (function boot() {
   initTabs();
   initOwnTab();
+  initTrendsTab();
   wireExecChrome();
   loadData().then(function (data) {
     STATE.data = data;
@@ -4166,6 +4492,11 @@ function renderChartsForTab(tab) {
     // Re-render charts for current active tab
     var activeBtn = document.querySelector('.tab-btn.active');
     if (activeBtn) renderChartsForTab(activeBtn.dataset.tab);
+    // 트렌드 인덱스는 별도 fetch (없으면 graceful fallback)
+    loadTrendsIndex().then(function (idx) {
+      STATE.trendsIndex = idx || null;
+      if (typeof renderTrends === 'function') renderTrends();
+    });
   });
 
   window.addEventListener('hashchange', function () {
