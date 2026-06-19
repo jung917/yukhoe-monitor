@@ -1,8 +1,8 @@
 {
-  "date": "2026-06-19",
-  "generated_at": "2026-06-19 14:17:24",
+  "date": "2026-06-20",
+  "generated_at": "2026-06-20 03:44:14",
   "window_days": 365,
-  "data_earliest": "2025-06-19",
+  "data_earliest": "2025-06-20",
   "data_latest": "2026-06-16",
   "tiers": {
     "own": {
@@ -38,8 +38,8 @@
     "yukbayeon": {
       "display": "육회바른연어",
       "video_count": 20,
-      "total_views": 442636,
-      "total_likes": 3328,
+      "total_views": 442684,
+      "total_likes": 3329,
       "total_comments": 426,
       "n_short": 1,
       "n_long": 19,
@@ -48,7 +48,7 @@
         "Macro": 3,
         "Micro": 3
       },
-      "summary": "육회바른연어의 신메뉴와 프로모션에 대한 소비자 반응이 긍정적이지만, 일부 고객은 양이나 맛에서 기대치 미달을 느끼는 것으로 나타났다. 특히 불닭 연어 제품군은 인기 있으나 치즈 불닭과 같은 변형 메뉴가 주요 관심사로 떠올랐다.\n  📌 신메뉴 · 불닭연어 · 소비자반응",
+      "summary": "육회바른연어의 신메뉴 및 프로모션에 대한 소비자 반응이 긍정적이지만, 다른 연어 관련 제품들이 주목을 받고 있어 자사 매장 트래픽과 점유율에 미미한 위협 요인이 될 수 있다. 특히 집에서 쉽게 연어를 즐길 수 있다는 점이 강조되어 소비자들의 직접 방문 경향성이 약화될 가능성이 있다.\n  📌 연어 신메뉴 · 가정용 연어 제품 · 매장 방문 대체",
       "videos": [
         {
           "video_id": "Ye8E_dCsMkw",
@@ -760,45 +760,6 @@
           "transcript_sentiment": null
         },
         {
-          "video_id": "-IvLrDyL2TM",
-          "title": "코스트코 통연어 한판에 연어깍두기, 불닭볶음면까지 🔥 | Salmon Sashimi, Buldak Ramen MUKBANG",
-          "channel": "예띠 yedddi",
-          "subscribers": 2930,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 922,
-          "likes": 12,
-          "comment_count": 1,
-          "engagement_rate": 0.0141,
-          "duration": 715,
-          "is_short": false,
-          "buzz_score": 37.2,
-          "upload_date": "2026.06.12",
-          "url": "https://www.youtube.com/watch?v=-IvLrDyL2TM",
-          "description_excerpt": "📋 Today’s Menu\n\n🍣 코스트코 통연어\n🥗 연어깍두기 (포케연어)\n🔥 불닭볶음면\n\n📋 Today’s Menu\n\n🍣 Costco Salmon Sashimi\n🥗 Salmon Poke (Diced Salmon)\n🔥 Buldak Spicy Chicken Ramen\n\n\nIG @yedddi_nyam\n💌 yedddi46@gmail.com",
-          "top_comments": [
-            {
-              "author": "@모여봐요고양이",
-              "text": "맛있겠따ㅠㅠ",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 1
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "중립",
-          "video_meta_rating": 3,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
           "video_id": "SF6vCMfMrMQ",
           "title": "[먹방브이로그] 고능한 쩝쩝박사님들이 많은 세상이 참 좋다…🤙🏻 (엽기닭다리탕, 육바연, 대왕연어초밥, 모찌샌드, 버터떡, 집밥, 치킨, 불닭)",
           "channel": "승희얌 Yum",
@@ -936,19 +897,58 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "-IvLrDyL2TM",
+          "title": "코스트코 통연어 한판에 연어깍두기, 불닭볶음면까지 🔥 | Salmon Sashimi, Buldak Ramen MUKBANG",
+          "channel": "예띠 yedddi",
+          "subscribers": 2940,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 950,
+          "likes": 12,
+          "comment_count": 1,
+          "engagement_rate": 0.0137,
+          "duration": 715,
+          "is_short": false,
+          "buzz_score": 36.5,
+          "upload_date": "2026.06.12",
+          "url": "https://www.youtube.com/watch?v=-IvLrDyL2TM",
+          "description_excerpt": "📋 Today’s Menu\n\n🍣 코스트코 통연어\n🥗 연어깍두기 (포케연어)\n🔥 불닭볶음면\n\n📋 Today’s Menu\n\n🍣 Costco Salmon Sashimi\n🥗 Salmon Poke (Diced Salmon)\n🔥 Buldak Spicy Chicken Ramen\n\n\nIG @yedddi_nyam\n💌 yedddi46@gmail.com",
+          "top_comments": [
+            {
+              "author": "@모여봐요고양이",
+              "text": "맛있겠따ㅠㅠ",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "중립",
+          "video_meta_rating": 3,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "5HwD2vlf2oI",
           "title": "vlog 한화이글스! 야차 신청하러 온 거야~? ☠️ 문동주 싸인볼 • 한화vs키움전 직관 브이로그 • 고척돔 야푸(육바연,백남옥손만두,오토김밥..)",
           "channel": "멜",
           "subscribers": 9,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 141,
-          "likes": 5,
+          "views": 161,
+          "likes": 6,
           "comment_count": 4,
-          "engagement_rate": 0.0638,
+          "engagement_rate": 0.0621,
           "duration": 547,
           "is_short": false,
-          "buzz_score": 33.6,
+          "buzz_score": 34.4,
           "upload_date": "2026.06.16",
           "url": "https://www.youtube.com/watch?v=5HwD2vlf2oI",
           "description_excerpt": "Music provided by 브금대통령\nTrack : 내가 그랬어 - https://youtu.be/QKBh2YehfGM",
@@ -1829,7 +1829,7 @@
         "Macro": 1,
         "Nano": 7
       },
-      "summary": "육회야문연어는 신메뉴와 프로모션을 통해 긍정적인 소비자 반응을 얻고 있으며, 특히 불닭마요연어깍두기와 연어 추가 메뉴가 주목받음. 그러나 자사(육회바른연어)와의 직접 비교는 없으며, 현재로서는 매장 트래픽 증가에 대한 즉각적인 위협으로 보이지 않으나 지켜볼 필요 있음.\n  📌 불닭마요연어깍두기 · 연어추가 · 신메뉴",
+      "summary": "육회야문연어는 신메뉴와 프로모션을 통해 소비자들에게 긍정적인 반응을 얻고 있으며, 특히 불닭마요연어깍두기와 연어 추가 메뉴가 주목받았다. 그러나 자사(육회바른연어) 대비 가격 경쟁력과 신선도에 대한 우위를 아직 보여주지 못하고 있어 즉시 대응이 필요하다.\n  📌 불닭마요연어깍두기 · 연어추가메뉴 · 가격경쟁력",
       "videos": [
         {
           "video_id": "ku4hG-cD5kY",
@@ -2549,7 +2549,7 @@
       "tier_counts": {
         "Nano": 1
       },
-      "summary": "김천재의 육회반한연어가 신메뉴를 통해 저렴한 가격으로 무한리필을 제공하며, 이는 소비자들에게 인기가 높아 육회바른연어와 직접적인 경쟁 상황에 있으며 자사 매장 트래픽 감소 위협이 있다.\n  📌 무한리필 · 저렴한 가격 · 경쟁",
+      "summary": "김천재의 육회반한연어가 신메뉴를 통해 연어육회 무제한을 56,000원에 제공하며, 이는 자사와 직접적인 가격 경쟁으로 해석될 수 있다. 소비자들의 반응은 긍정적이지만, 자사의 매장 트래픽과 점유율에 부정적 영향을 미칠 가능성이 있으며 즉시 대응이 필요하다.\n  📌 연어육회 무제한 · 56000원 프로모션 · 가격 경쟁",
       "videos": [
         {
           "video_id": "Ukft6tVXwEY",
@@ -2679,7 +2679,7 @@
       "tier_counts": {
         "Nano": 3
       },
-      "summary": "연어로만이 교회의 이벤트를 활용해 구독자들에게 메뉴 할인 혜택을 제공하며, 이를 통해 고객 유치 및 매출 증대를 노리고 있으나, 이벤트 내용은 자사와 직접적인 비교가 아닌 연어로만의 독자적 마케팅 전략으로 보임. 소비자 반응은 긍정적이지만, 자사 대비 우위는 아직 드러나지 않음.\n  📌 구독자 이벤트 · 할인 혜택 · 긍정적인 소비자 반응",
+      "summary": "연어로만이 구독자 이벤트를 통해 모든 메뉴에 대해 10% 할인을 제공하며, 이를 통해 고객 유치 및 매출 증대를 노리고 있다. 그러나 이벤트 내용은 자사 제품과 직접 비교되는 부분 없음. 소비자 반응에서 연어로만이 화이팅 메시지를 받으며 긍정적인 분위기를 유지하고 있으나, 구체적 경쟁 우위는 드러나지 않음.\n  📌 구독자 이벤트 · 10% 할인 · 긍정적 반응",
       "videos": [
         {
           "video_id": "594DiiCC5ZA",
