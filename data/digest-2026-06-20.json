@@ -1,0 +1,107 @@
+{
+  "date": "2026-06-20",
+  "days": 2,
+  "first_run": false,
+  "brands": {
+    "yukbayeon": {
+      "display": "육회바른연어",
+      "video_count": 1,
+      "total_views": 4,
+      "total_likes": 0,
+      "total_comments": 1,
+      "n_short": 0,
+      "n_long": 1,
+      "tier_counts": {
+        "Nano": 1
+      },
+      "summary": "육회바른연어의 연어깍두기가 소비자에게 긍정적인 반응을 얻고 있으며, 특히 연어깍두기와 콩국수 조합에 대한 호평이 이어져 육회바른연어의 매장 트래픽 증가를 예상할 수 있다. 그러나 다른 메뉴나 프로모션에 대한 정보 부족으로 자사 대비 우위/열위 판단은 어렵다.\n  📌 연어깍두기 · 콩국수 조합 · 매장 트래픽 증가",
+      "videos": [
+        {
+          "video_id": "2flKCA1qwlQ",
+          "title": "연어깍두기 쿨타임 찼다! 올여름 첫 콩국수 개시하고(feat. 닭강정) 까르보나라 만들어 먹는 자취 일상 ❋ 이지의 기록",
+          "channel": "izzie 이지의 기록",
+          "subscribers": 7,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 4,
+          "likes": 0,
+          "comment_count": 1,
+          "engagement_rate": 0.25,
+          "duration": 1500,
+          "is_short": false,
+          "buzz_score": 7.0,
+          "upload_date": "2026.06.19",
+          "url": "https://www.youtube.com/watch?v=2flKCA1qwlQ",
+          "description_excerpt": "안녕하세요, 이지입니다 :) \n주기적으로 생각나는 그 맛, 연어깍두기 쿨타임이 돌아왔어요 🐟 \n연어깍두기 김에 올려 밥과 함께 싸 먹으면 그렇게 행복할 수가 없지용♥️\n그리고 이제 바야흐로 콩국수의 계절 아니겠습니까ㅏ\n닭강정과 함께 올여름 첫 콩국수도 개시했지요✨\n또 다소 험난(?)했던 저의 첫 정통 까르보나라 도전기도 담아보았는데요\n이렇듯 맛있게 먹고 즐긴 소소한 저의 일상의 단편들을 모아모아 영상으로 엮어보았습니다\n제 영상이 보시는 모든 분들에게 작게나마 힐링이 될 수 있길 바랄게요. \n시청해 주셔서 감사합니다! 🙇🏻‍♀️\n\n\n",
+          "top_comments": [
+            {
+              "author": "@Izzie-z3w",
+              "text": "안녕하세요, 이지입니다 :) \n주기적으로 생각나는 그 맛, 연어깍두기 쿨타임이 돌아왔어요 🐟 \n연어깍두기 김에 올려 밥과 함께 싸 먹으면 그렇게 행복할 수가 없지용♥\n그리고 이제 바야흐로 콩국수의 계절 아니겠습니까ㅏ\n올여름 첫 콩국수도 개시했지요✨\n또 다소 험난(?)했던 저의 첫 정통 까르보나라 도전기도 담아보았는데요\n이렇듯 맛있게 먹고 즐긴 소소한 저의 ",
+              "likes": 0
+            }
+          ]
+        }
+      ]
+    },
+    "yamoonyeoneo": {
+      "display": "육회야문연어",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "bahanyeoneo": {
+      "display": "김천재의 육회반한연어",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "yeoneosanghoe": {
+      "display": "연어상회",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "yeoneodang": {
+      "display": "연어당",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "yeoneoroman": {
+      "display": "연어로만",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    }
+  }
+}

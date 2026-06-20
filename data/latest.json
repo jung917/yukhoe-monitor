@@ -1,9 +1,9 @@
 {
   "date": "2026-06-20",
-  "generated_at": "2026-06-20 03:44:14",
+  "generated_at": "2026-06-20 14:45:51",
   "window_days": 365,
   "data_earliest": "2025-06-20",
-  "data_latest": "2026-06-16",
+  "data_latest": "2026-06-19",
   "tiers": {
     "own": {
       "label": "자사",
@@ -37,18 +37,18 @@
   "brands": {
     "yukbayeon": {
       "display": "육회바른연어",
-      "video_count": 20,
-      "total_views": 442684,
+      "video_count": 21,
+      "total_views": 442688,
       "total_likes": 3329,
-      "total_comments": 426,
+      "total_comments": 427,
       "n_short": 1,
-      "n_long": 19,
+      "n_long": 20,
       "tier_counts": {
-        "Nano": 14,
+        "Nano": 15,
         "Macro": 3,
         "Micro": 3
       },
-      "summary": "육회바른연어의 신메뉴 및 프로모션에 대한 소비자 반응이 긍정적이지만, 다른 연어 관련 제품들이 주목을 받고 있어 자사 매장 트래픽과 점유율에 미미한 위협 요인이 될 수 있다. 특히 집에서 쉽게 연어를 즐길 수 있다는 점이 강조되어 소비자들의 직접 방문 경향성이 약화될 가능성이 있다.\n  📌 연어 신메뉴 · 가정용 연어 제품 · 매장 방문 대체",
+      "summary": "육회바른연어의 연어깍두기가 소비자에게 긍정적인 반응을 얻고 있으며, 특히 연어깍두기와 콩국수 조합에 대한 호평이 이어져 육회바른연어의 매장 트래픽 증가를 예상할 수 있다. 그러나 다른 메뉴나 프로모션에 대한 정보 부족으로 자사 대비 우위/열위 판단은 어렵다.\n  📌 연어깍두기 · 콩국수 조합 · 매장 트래픽 증가",
       "videos": [
         {
           "video_id": "Ye8E_dCsMkw",
@@ -1693,6 +1693,45 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "2flKCA1qwlQ",
+          "title": "연어깍두기 쿨타임 찼다! 올여름 첫 콩국수 개시하고(feat. 닭강정) 까르보나라 만들어 먹는 자취 일상 ❋ 이지의 기록",
+          "channel": "izzie 이지의 기록",
+          "subscribers": 7,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 4,
+          "likes": 0,
+          "comment_count": 1,
+          "engagement_rate": 0.25,
+          "duration": 1500,
+          "is_short": false,
+          "buzz_score": 7.0,
+          "upload_date": "2026.06.19",
+          "url": "https://www.youtube.com/watch?v=2flKCA1qwlQ",
+          "description_excerpt": "안녕하세요, 이지입니다 :) \n주기적으로 생각나는 그 맛, 연어깍두기 쿨타임이 돌아왔어요 🐟 \n연어깍두기 김에 올려 밥과 함께 싸 먹으면 그렇게 행복할 수가 없지용♥️\n그리고 이제 바야흐로 콩국수의 계절 아니겠습니까ㅏ\n닭강정과 함께 올여름 첫 콩국수도 개시했지요✨\n또 다소 험난(?)했던 저의 첫 정통 까르보나라 도전기도 담아보았는데요\n이렇듯 맛있게 먹고 즐긴 소소한 저의 일상의 단편들을 모아모아 영상으로 엮어보았습니다\n제 영상이 보시는 모든 분들에게 작게나마 힐링이 될 수 있길 바랄게요. \n시청해 주셔서 감사합니다! 🙇🏻‍♀️\n\n\n",
+          "top_comments": [
+            {
+              "author": "@Izzie-z3w",
+              "text": "안녕하세요, 이지입니다 :) \n주기적으로 생각나는 그 맛, 연어깍두기 쿨타임이 돌아왔어요 🐟 \n연어깍두기 김에 올려 밥과 함께 싸 먹으면 그렇게 행복할 수가 없지용♥\n그리고 이제 바야흐로 콩국수의 계절 아니겠습니까ㅏ\n올여름 첫 콩국수도 개시했지요✨\n또 다소 험난(?)했던 저의 첫 정통 까르보나라 도전기도 담아보았는데요\n이렇듯 맛있게 먹고 즐긴 소소한 저의 일상의 단편들을 모아모아 영상으로 엮어보았습니다\n제 영상이 보시는 모든 분들에게 작게나마 힐링이 될 수 있길 바랄게요. 시청해 주셔서 감사합니다! 🙇🏻‍♀\n\n\n🎵Music prov",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "LdTGK3qCU6A",
           "title": "ENG | 남편 생일주간 브이로그🎂 카페 데이트부터 홈메이드 딸기 케이크 만들기, 육회바른연어 먹방하는 하루",
           "channel": "Dainty데인티",
@@ -1758,7 +1797,7 @@
       "sentiment_counts": {
         "neg": 12,
         "neu": 16,
-        "pos": 125
+        "pos": 126
       },
       "negative_ratio": 0.078,
       "warning_level": "",
@@ -1829,7 +1868,7 @@
         "Macro": 1,
         "Nano": 7
       },
-      "summary": "육회야문연어는 신메뉴와 프로모션을 통해 소비자들에게 긍정적인 반응을 얻고 있으며, 특히 불닭마요연어깍두기와 연어 추가 메뉴가 주목받았다. 그러나 자사(육회바른연어) 대비 가격 경쟁력과 신선도에 대한 우위를 아직 보여주지 못하고 있어 즉시 대응이 필요하다.\n  📌 불닭마요연어깍두기 · 연어추가메뉴 · 가격경쟁력",
+      "summary": "육회야문연어는 신선한 재료와 세심한 서비스로 소비자로부터 긍정적인 반응을 얻고 있으며, 특히 불닭마요연어깍두기와 육회 메뉴가 주목받음. 그러나 자사(육회바른연어)와 직접 비교되는 부분은 아직 미미하고, 즉시 대응보다는 경쟁사의 성공 요인 분석이 필요하다.\n  📌 신선한 재료 · 긍정적 소비자 반응 · 불닭마요연어깍두기",
       "videos": [
         {
           "video_id": "ku4hG-cD5kY",
@@ -2549,7 +2588,7 @@
       "tier_counts": {
         "Nano": 1
       },
-      "summary": "김천재의 육회반한연어가 신메뉴를 통해 연어육회 무제한을 56,000원에 제공하며, 이는 자사와 직접적인 가격 경쟁으로 해석될 수 있다. 소비자들의 반응은 긍정적이지만, 자사의 매장 트래픽과 점유율에 부정적 영향을 미칠 가능성이 있으며 즉시 대응이 필요하다.\n  📌 연어육회 무제한 · 56000원 프로모션 · 가격 경쟁",
+      "summary": "김천재의 육회반한연어가 신메뉴를 통해 연어육회 무제한을 제공하며, 이는 소비자들에게 인기 있는 메뉴로 자리잡아 자사와 직접적인 경쟁 상황에 놓여 있으나, 가격 대비 양과 맛에서 우위를 보이고 있어 즉시 방어 전략이 필요하다.\n  📌 연어육회 무제한 · 가격 대비 가치 · 즉시 방어 전략",
       "videos": [
         {
           "video_id": "Ukft6tVXwEY",
@@ -2679,7 +2718,7 @@
       "tier_counts": {
         "Nano": 3
       },
-      "summary": "연어로만이 구독자 이벤트를 통해 모든 메뉴에 대해 10% 할인을 제공하며, 이를 통해 고객 유치 및 매출 증대를 노리고 있다. 그러나 이벤트 내용은 자사 제품과 직접 비교되는 부분 없음. 소비자 반응에서 연어로만이 화이팅 메시지를 받으며 긍정적인 분위기를 유지하고 있으나, 구체적 경쟁 우위는 드러나지 않음.\n  📌 구독자 이벤트 · 10% 할인 · 긍정적 반응",
+      "summary": "연어로만이 구독자 이벤트를 통해 모든 메뉴에 대해 10% 할인을 제공하며, 이를 통해 고객 유치 및 매출 증대를 노리고 있다. 그러나 이벤트 내용은 자사와 직접 비교되는 부분 없음. 소비자 반응에서 연어로만이 지역 내 데이트 및 생연어 맛집으로 인식되고 있어 즉시 대응 필요.\n  📌 구독자 이벤트 · 10% 할인 · 데이트 맛집",
       "videos": [
         {
           "video_id": "594DiiCC5ZA",
@@ -5906,770 +5945,769 @@
     }
   },
   "trends": {
-    "date": "2026-06-19",
+    "date": "2026-06-20",
     "total_videos": 200,
     "groups": [
       {
-        "group_name": "육회 열풍",
-        "core_message": "육회를 활용한 다양한 요리 트렌드가 인기를 얻고 있다.",
-        "why_trending": "소비자들은 육회의 신선함과 맛을 즐기며, 이를 이용해 다양한 메뉴로 변신시키는 데 관심이 많다. 또한 육회를 활용한 비빔밥이나 파스타 등 새로운 조리법에 대한 호기심도 높아지고 있다.",
-        "consumer_signal": "소비자들은 육회를 활용한 다양한 요리법과 맛집을 찾는 데 관심이 많으며, 이를 통해 새로운 음식 경험을 즐기고 싶어 한다.",
+        "group_name": "연어 메뉴 다양화",
+        "core_message": "연어를 활용한 다양한 요리 트렌드 증가",
+        "why_trending": "소비자들이 연어의 맛과 영양을 더 다양한 방법으로 즐기려는 경향이 있다. 이는 건강식품에 대한 관심 증가와 함께 발전하고 있다.",
+        "consumer_signal": "소비자들은 연어를 다양한 요리에 활용하는 레시피와 아이디어를 찾고 있다.",
         "representative_videos": [
           {
-            "video_id": "g7gd-ym_QKM",
-            "title": "기러기 육회부터 주물럭까지! 자연인이 직접 잡은 '기러기 고기' 먹방 모음 #나는자연인이다",
-            "channel": "MBN STORY",
-            "views": 4236,
-            "url": "https://www.youtube.com/watch?v=g7gd-ym_QKM",
-            "thumbnail": "https://i.ytimg.com/vi/g7gd-ym_QKM/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 1937
+            "video_id": "azZXFmb91v4",
+            "title": "'연어 술파티' 공방 막바지...이화영 최후 진술 진행 / YTN",
+            "channel": " YTN",
+            "views": 4327,
+            "url": "https://www.youtube.com/watch?v=azZXFmb91v4",
+            "thumbnail": "https://i.ytimg.com/vi/azZXFmb91v4/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 194
           },
           {
-            "video_id": "es6TDpdr-R8",
-            "title": "육회 반, 밥 반 진짜 육회비빔밥 먹방 #mukbang #eatingshow",
-            "channel": "Muktae먹태",
-            "views": 18,
-            "url": "https://www.youtube.com/watch?v=es6TDpdr-R8",
-            "thumbnail": "https://i.ytimg.com/vi/es6TDpdr-R8/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 374
+            "video_id": "tboR-Ovu9gk",
+            "title": "매콤 크리미 끝판왕 '불닭마요 연어 깍두기' 🐟 Spicy Salmon Kkakdugi",
+            "channel": "Hello Julie",
+            "views": 10,
+            "url": "https://www.youtube.com/watch?v=tboR-Ovu9gk",
+            "thumbnail": "https://i.ytimg.com/vi/tboR-Ovu9gk/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 217
           },
           {
-            "video_id": "JJVts4OvBbM",
-            "title": "VLOG) 도대체 왜 그런 집으로 이사했어요❓이사 토크 하면서 불닭 양파컵 육회 쌀국수 불족발 보쌈 etc. 먹방 브이로그",
-            "channel": "Leeby리비",
-            "views": 61000,
-            "url": "https://www.youtube.com/watch?v=JJVts4OvBbM",
-            "thumbnail": "https://i.ytimg.com/vi/JJVts4OvBbM/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 1276
+            "video_id": "yB-GpQKVXX0",
+            "title": "집밥이 힐링인 일본 일상 브이로그𓇢𓆸 | 엄마표 연어초밥과 연어 치즈 아부리 🍣 타코🌮 간장코지, 여름 니트 뜨개₊˚⊹",
+            "channel": "meisi",
+            "views": 41,
+            "url": "https://www.youtube.com/watch?v=yB-GpQKVXX0",
+            "thumbnail": "https://i.ytimg.com/vi/yB-GpQKVXX0/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 610
           },
           {
-            "video_id": "m_rBnDcoCWs",
-            "title": "🥩 2026년 미트엑스포 현장 생중계 고기에 진심이면 누구든지 구경오세요",
+            "video_id": "rVorBphx2HI",
+            "title": "[미니영의 제철식탁] 회가 남았다고? 오히려좋아",
+            "channel": "피쉬서핑 fish surfing",
+            "views": 136,
+            "url": "https://www.youtube.com/watch?v=rVorBphx2HI",
+            "thumbnail": "https://i.ytimg.com/vi/rVorBphx2HI/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 532
+          },
+          {
+            "video_id": "IUf7BY6A5NI",
+            "title": "제철 맞은 연어를 사냥하기 위한 불곰들의 서열 싸움ㄷㄷㅣ야생 곰 생존 일기2",
+            "channel": "KBS 동물의 왕국",
+            "views": 996,
+            "url": "https://www.youtube.com/watch?v=IUf7BY6A5NI",
+            "thumbnail": "https://i.ytimg.com/vi/IUf7BY6A5NI/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 2766
+          },
+          {
+            "video_id": "PFRDMQ6Bibs",
+            "title": "SNS 핫 메뉴 불닭 레시피 3종🔥 불닭냉면, 연어 불닭쌈, 불닭 양파쌈 먹방 Buldak Cold Noodles [eating show] mukbang korean food",
+            "channel": "Wooang 우앙",
+            "views": 33240,
+            "url": "https://www.youtube.com/watch?v=PFRDMQ6Bibs",
+            "thumbnail": "https://i.ytimg.com/vi/PFRDMQ6Bibs/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 1001
+          },
+          {
+            "video_id": "kxK4ttalCho",
+            "title": "브루스게타? 브루게스타? 아무튼 여름 홈파티 요리! 🍉⛱️ (feat. 토마토 마리네이드, 브리치즈 & 사과 다이스, 훈제 연어, 살라미)",
+            "channel": "데비마마 DEBBIEMAMA",
+            "views": 3338,
+            "url": "https://www.youtube.com/watch?v=kxK4ttalCho",
+            "thumbnail": "https://i.ytimg.com/vi/kxK4ttalCho/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 701
+          },
+          {
+            "video_id": "Rdzd2nTPHlY",
+            "title": "비가 오지만 야시장은 계속 합니다 육회ㆍ간ㆍ천엽ㆍ지라ㆍ소등골",
             "channel": "고기왕김태백",
-            "views": 159,
-            "url": "https://www.youtube.com/watch?v=m_rBnDcoCWs",
-            "thumbnail": "https://i.ytimg.com/vi/m_rBnDcoCWs/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 1500
+            "views": 144,
+            "url": "https://www.youtube.com/watch?v=Rdzd2nTPHlY",
+            "thumbnail": "https://i.ytimg.com/vi/Rdzd2nTPHlY/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 11643
           },
           {
-            "video_id": "pd4jpKtyBK0",
-            "title": "🇯🇵 일본 본가 저녁 식탁에 양념게장이 나왔습니다… 회 먹다가 한국 얘기로 난리남 🇰🇷",
-            "channel": "코지코지 ",
-            "views": 641,
-            "url": "https://www.youtube.com/watch?v=pd4jpKtyBK0",
-            "thumbnail": "https://i.ytimg.com/vi/pd4jpKtyBK0/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 1058
+            "video_id": "IrIhHh__fIw",
+            "title": "야시장 오늘은 3구역 꿀꿀이국밥 라이브방송 버터닭모래집 볶음ㆍ돼지껍데기ㆍ뱃보 볶음 후평야시장 놀러오세요",
+            "channel": "고기왕김태백",
+            "views": 60,
+            "url": "https://www.youtube.com/watch?v=IrIhHh__fIw",
+            "thumbnail": "https://i.ytimg.com/vi/IrIhHh__fIw/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 3212
           },
           {
-            "video_id": "IPhXhL6ncJw",
-            "title": "바쁜 인생 속 하나의 ‘쉼표’! 녹음이 푸르른 예산에서 만난 나만의 힐링 관광 코스 #여행의향기 #안혜경 #예산 #관광지",
-            "channel": "이제는 지방시대",
-            "views": 188,
-            "url": "https://www.youtube.com/watch?v=IPhXhL6ncJw",
-            "thumbnail": "https://i.ytimg.com/vi/IPhXhL6ncJw/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 1661
+            "video_id": "NZio2tq8eKE",
+            "title": "2026 부산 포트빌리지 공략법, 꿀팁! (설명란 맛 후기, 주차장, 화장실)",
+            "channel": "리뷰액츄얼리",
+            "views": 9,
+            "url": "https://www.youtube.com/watch?v=NZio2tq8eKE",
+            "thumbnail": "https://i.ytimg.com/vi/NZio2tq8eKE/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 253
           },
           {
-            "video_id": "RxAch1nvHdU",
-            "title": "[옛날TV] 생방송 전국시대_속이 확 풀리는 뜨끈한 국물! 20년 전 동네 칼국수 맛집!_2007년 1월 방송",
-            "channel": "MBC JEONJU IN KOREA",
-            "views": 31,
-            "url": "https://www.youtube.com/watch?v=RxAch1nvHdU",
-            "thumbnail": "https://i.ytimg.com/vi/RxAch1nvHdU/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 2886
+            "video_id": "H8JT3Ur0_0w",
+            "title": "EP 68. 오랜만에 전세 캠핑 (사이트가 단 4곳인 소형캠핑장, 다양한 안주 : 육회, 까망베르 치즈타라, 막창)",
+            "channel": "아재캠핑",
+            "views": 7,
+            "url": "https://www.youtube.com/watch?v=H8JT3Ur0_0w",
+            "thumbnail": "https://i.ytimg.com/vi/H8JT3Ur0_0w/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 504
           },
           {
-            "video_id": "unsLTPxWPv4",
-            "title": "Seoul Walking Tour 4K | 서울 광장시장에서 가장 의외였던 장소",
-            "channel": "reviewalky",
-            "views": 4,
-            "url": "https://www.youtube.com/watch?v=unsLTPxWPv4",
-            "thumbnail": "https://i.ytimg.com/vi/unsLTPxWPv4/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 1186
-          },
-          {
-            "video_id": "5VVpStpg264",
-            "title": "【260618】[숏탐사] 오세훈 징역 1년 6개월구형, 벌금100만원만 나오면 당선무효'... 연어술 파티' 국민참여재판 민주 최고위서 전혀 언급안돼",
-            "channel": "뉴탐사 NewTamsa",
-            "views": 954,
-            "url": "https://www.youtube.com/watch?v=5VVpStpg264",
-            "thumbnail": "https://i.ytimg.com/vi/5VVpStpg264/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 494
-          },
-          {
-            "video_id": "-5UNAr8pWYk",
-            "title": "양귀비꽃 보러 노지캠핑 왔는데 다 갈아엎었네 카라반 캠핑카 미국식 진입 가능한 노지에서 폭염 30도 캠핑",
-            "channel": "찡찡대노",
-            "views": 794,
-            "url": "https://www.youtube.com/watch?v=-5UNAr8pWYk",
-            "thumbnail": "https://i.ytimg.com/vi/-5UNAr8pWYk/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 1735
-          },
-          {
-            "video_id": "RA_yrDlOCvs",
-            "title": "커피해장 다이어트  😃😶일본여행  소통  토크  #아고엑셀 #카광 #먹방 #소통 #토크 #마라탕 #매운음식 #일본여행 #두쫀쿠 #족발",
-            "channel": "고제우",
-            "views": 289,
-            "url": "https://www.youtube.com/watch?v=RA_yrDlOCvs",
-            "thumbnail": "https://i.ytimg.com/vi/RA_yrDlOCvs/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 7952
-          },
-          {
-            "video_id": "tQHto0v-T2c",
-            "title": "😃😶새벽반  소통  토크  #아고엑셀 #카광 #먹방 #소통 #토크 #마라탕 #매운음식 #일본여행 #두쫀쿠 #족발",
-            "channel": "고제우",
-            "views": 252,
-            "url": "https://www.youtube.com/watch?v=tQHto0v-T2c",
-            "thumbnail": "https://i.ytimg.com/vi/tQHto0v-T2c/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 9954
+            "video_id": "gqql16bGdh8",
+            "title": "쯔양은 맥주도 많이 마실까?🤔 살면서 맥주 제일 많이 먹었습니다🔥 역할맥 짜빠구리 떡볶이 냉면",
+            "channel": "tzuyang",
+            "views": 196841,
+            "url": "https://www.youtube.com/watch?v=gqql16bGdh8",
+            "thumbnail": "https://i.ytimg.com/vi/gqql16bGdh8/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 1377
           }
         ],
         "product_idea": {
           "menu_name_suggestions": [
-            "육회 비빔밥",
-            "육회 파스타",
-            "육회 초밥"
+            "연어 크림 파스타",
+            "연어 햄버거 레터럴",
+            "연어 스시롤"
           ],
           "target_persona": "20~30대 야식 혼밥",
           "difficulty": "중기",
           "price_range": "14,900~18,900원",
           "marketing_points": [
-            "신선한 육회를 활용한 새로운 맛의 비빔밥과 파스타",
-            "육회의 고급스러움을 느낄 수 있는 초밥 형태 메뉴 추가",
-            "젊은 층을 겨냥한 혁신적인 메뉴로 차별화"
+            "건강한 식사 옵션",
+            "다양한 연어 요리 경험",
+            "새로운 맛의 발견"
           ]
         },
         "competitive_diff": {
-          "t1_expected_response": "T1 브랜드들은 육회 열풍에 대응하기 위해 육회를 활용한 신메뉴 개발과 다양한 조리법 소개를 통해 소비자들의 관심을 유도할 것으로 보인다. 예를 들어, '육회야문연어'는 연어와 육회의 조합으로 새로운 맛을 제공하며, '김천재의 육회반한연어'는 전통적인 육회 요리에 현대적인 요소를 더해 차별화 시도할 것이다.",
+          "t1_expected_response": "T1의 경쟁사들은 연어 메뉴 다양화 트렌드에 대응하기 위해 새로운 메뉴 개발과 기존 메뉴의 재해석을 시도할 것으로 보인다. 예를 들어, 육회야문연어는 연어 스시나 연어 샐러드와 같은 신메뉴를 출시하고, 김천재의 육회반한연어는 전통적인 연어 요리를 현대적으로 재해석하여 소비자들의 기대에 부응할 것이다.",
           "yukbayeon_diff_points": [
-            "육회의 신선함과 다양성을 강조하여 소비자에게 최상의 맛을 제공한다.",
-            "다양한 매장 분포와 배달 친화로 고객 편의를 극대화한다.",
-            "고객이 직접 참여할 수 있는 육회 요리 클래스를 운영하여 경험 경쟁력을 높인다."
+            "고품질 연어 원물 사용",
+            "건강과 맛을 동시에 추구하는 메뉴 개발",
+            "지역별 특화 메뉴 제공"
           ],
-          "first_mover_effect": "육회바른연어가 이 트렌드에 먼저 대응하면, 소비자들에게 새로운 맛과 경험을 선보이는 첫 번째 브랜드로 인식되어 브랜드 인지도와 매출 증대 효과를 기대할 수 있다."
+          "first_mover_effect": "육회바른연어가 이 트렌드를 선도하면, 브랜드 인지도와 고객 충성도가 크게 증가할 것으로 예상된다. 또한 경쟁사들이 따라잡기 어려운 고유한 메뉴 포트폴리오를 구축함으로써 장기적인 시장 지위를 확보할 수 있다."
         }
       },
       {
-        "group_name": "연어 덮밥",
-        "core_message": "연어 덮밥에 대한 인기가 급상승 중이다.",
-        "why_trending": "연어 덮밥은 건강과 맛을 동시에 추구하는 소비자들에게 매력적인 선택이다. 또한, 연어 덮밥은 다양한 토핑과 조합으로 변화무쌍한 맛을 즐길 수 있어 많은 이들의 관심을 받고 있다.",
-        "consumer_signal": "소비자들은 연어 덮밥의 다양한 변주와 건강한 식사 옵션에 대한 정보를 찾고 있으며, 이를 통해 자신의 취향과 건강을 동시에 챙길 수 있는 방법을 모색하고 있다.",
+        "group_name": "육회 및 한우",
+        "core_message": "육회와 한우 관련 콘텐츠 인기 증가",
+        "why_trending": "한국 전통 음식에 대한 관심이 높아지면서 육회와 한우를 중심으로 한 요리법과 맛집 소개가 소비자들의 주목을 받고 있다.",
+        "consumer_signal": "소비자들은 전통적인 한국 음식의 맛과 품질을 경험하고 싶어한다.",
         "representative_videos": [
           {
-            "video_id": "pRPenbQ2ByY",
-            "title": "기장 꼼장어, 멸치, 대게를 뒤로하고 먹은 기깔나는 대구탕?!😮 (feat. 쯔양이 다녀간 떡볶이집!🍡)",
-            "channel": "찐아재",
-            "views": 24974,
-            "url": "https://www.youtube.com/watch?v=pRPenbQ2ByY",
-            "thumbnail": "https://i.ytimg.com/vi/pRPenbQ2ByY/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 2081
+            "video_id": "a9bpBbctayg",
+            "title": "입에서 녹는 한우 육사시미 먹방! [Melt-in-Your-Mouth Korean Beef Sashimi Mukbang]",
+            "channel": "터틀넥_Turtleneck",
+            "views": 193,
+            "url": "https://www.youtube.com/watch?v=a9bpBbctayg",
+            "thumbnail": "https://i.ytimg.com/vi/a9bpBbctayg/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 589
           },
           {
-            "video_id": "WMlKYMVldHE",
-            "title": "[vlog] 분좋레 추천💌| 바질연어파스타🌿| 2개월차 헬린이💦",
-            "channel": "나라리 Narari",
-            "views": 10,
-            "url": "https://www.youtube.com/watch?v=WMlKYMVldHE",
-            "thumbnail": "https://i.ytimg.com/vi/WMlKYMVldHE/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 559
+            "video_id": "Rdzd2nTPHlY",
+            "title": "비가 오지만 야시장은 계속 합니다 육회ㆍ간ㆍ천엽ㆍ지라ㆍ소등골",
+            "channel": "고기왕김태백",
+            "views": 144,
+            "url": "https://www.youtube.com/watch?v=Rdzd2nTPHlY",
+            "thumbnail": "https://i.ytimg.com/vi/Rdzd2nTPHlY/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 11643
           },
           {
-            "video_id": "SUfebVseS1k",
-            "title": "미백과 콜라겐을 한번에 챙길수 있는 연어콜라겐 글루타치온 2달분이 단돈 6천원~~~~!!",
-            "channel": "득템마켓 라이브방송",
-            "views": 1994,
-            "url": "https://www.youtube.com/watch?v=SUfebVseS1k",
-            "thumbnail": "https://i.ytimg.com/vi/SUfebVseS1k/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 13739
+            "video_id": "wO7qRqFZ5Zs",
+            "title": "쭈꾸미덮밥 육회비빔밥 순두부 보쌈",
+            "channel": "바둑과 커피 Baduk and Coffee",
+            "views": 6,
+            "url": "https://www.youtube.com/watch?v=wO7qRqFZ5Zs",
+            "thumbnail": "https://i.ytimg.com/vi/wO7qRqFZ5Zs/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 55
           },
           {
-            "video_id": "5VVpStpg264",
-            "title": "【260618】[숏탐사] 오세훈 징역 1년 6개월구형, 벌금100만원만 나오면 당선무효'... 연어술 파티' 국민참여재판 민주 최고위서 전혀 언급안돼",
-            "channel": "뉴탐사 NewTamsa",
-            "views": 954,
-            "url": "https://www.youtube.com/watch?v=5VVpStpg264",
-            "thumbnail": "https://i.ytimg.com/vi/5VVpStpg264/mqdefault.jpg",
-            "upload_date": "20260618",
+            "video_id": "ozMhdFa08mE",
+            "title": "한우국거리+육회",
+            "channel": "오빠네고기나라",
+            "views": 1906,
+            "url": "https://www.youtube.com/watch?v=ozMhdFa08mE",
+            "thumbnail": "https://i.ytimg.com/vi/ozMhdFa08mE/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 4286
+          },
+          {
+            "video_id": "2fkGHKj6-YU",
+            "title": "1++ 한우만 고집한다... 질 좋은 한우를 제대로 즐기는 대구 맛집 | KBS 260602 방송",
+            "channel": "Delicious Korea",
+            "views": 1176,
+            "url": "https://www.youtube.com/watch?v=2fkGHKj6-YU",
+            "thumbnail": "https://i.ytimg.com/vi/2fkGHKj6-YU/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 829
+          },
+          {
+            "video_id": "fP8z2P3VM90",
+            "title": "[예고] 오늘 건식당에 찾아온 손님은 우아한 사모님? ★건식당에서 만나는 특별한 한우 코스★ | 건강한 식당 17 회",
+            "channel": "채널아하: 채널A Health & Asset",
+            "views": 131,
+            "url": "https://www.youtube.com/watch?v=fP8z2P3VM90",
+            "thumbnail": "https://i.ytimg.com/vi/fP8z2P3VM90/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 30
+          },
+          {
+            "video_id": "-vvm_nPWry4",
+            "title": "이 비주얼 실화냐? 속초 뭉티기 끝판왕",
+            "channel": "맛있는건희",
+            "views": 36,
+            "url": "https://www.youtube.com/watch?v=-vvm_nPWry4",
+            "thumbnail": "https://i.ytimg.com/vi/-vvm_nPWry4/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 1652
+          },
+          {
+            "video_id": "qNpYxAwDomw",
+            "title": "[SUB]한우곱 찜닭 먹방🔥 대창 토실한 보소🤤",
+            "channel": "꾸쭈니 밥상머리 ",
+            "views": 295,
+            "url": "https://www.youtube.com/watch?v=qNpYxAwDomw",
+            "thumbnail": "https://i.ytimg.com/vi/qNpYxAwDomw/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 315
+          },
+          {
+            "video_id": "IrIhHh__fIw",
+            "title": "야시장 오늘은 3구역 꿀꿀이국밥 라이브방송 버터닭모래집 볶음ㆍ돼지껍데기ㆍ뱃보 볶음 후평야시장 놀러오세요",
+            "channel": "고기왕김태백",
+            "views": 60,
+            "url": "https://www.youtube.com/watch?v=IrIhHh__fIw",
+            "thumbnail": "https://i.ytimg.com/vi/IrIhHh__fIw/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 3212
+          },
+          {
+            "video_id": "pD0PYgHrrBY",
+            "title": "미국 살다 오니 더 소중한 일상 🤍 | 그리웠던 맛집 투어, 한남동·양재천, 가족과 친구들",
+            "channel": "로라오로라 (Olaura)",
+            "views": 58,
+            "url": "https://www.youtube.com/watch?v=pD0PYgHrrBY",
+            "thumbnail": "https://i.ytimg.com/vi/pD0PYgHrrBY/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 639
+          },
+          {
+            "video_id": "m7nKEuWZuLg",
+            "title": "이화영 난리났다 '연어회 파티' 위증 혐의 관련 충격 구형 (2026.6.19)",
+            "channel": "성창경TV",
+            "views": 142753,
+            "url": "https://www.youtube.com/watch?v=m7nKEuWZuLg",
+            "thumbnail": "https://i.ytimg.com/vi/m7nKEuWZuLg/mqdefault.jpg",
+            "upload_date": "20260619",
             "duration": 494
           },
           {
-            "video_id": "S3Y8nDlC5AU",
-            "title": "[미니영의 제철식탁]🌹홈파티 손님들 극찬✨ 장미 꽃 마끼🍣",
-            "channel": "피쉬서핑 fish surfing",
-            "views": 221,
-            "url": "https://www.youtube.com/watch?v=S3Y8nDlC5AU",
-            "thumbnail": "https://i.ytimg.com/vi/S3Y8nDlC5AU/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 466
-          },
-          {
-            "video_id": "NISb3RYqDMY",
-            "title": "vlog:❄️🍜더운 날 생각나는 시원한 레시피와 집에서 즐기는 여름 축제 길거리 음식🏮|라임 냉우동,후토마키,타코야키,초코바나나,팬케이크,눈꽃만두,라멘,장어덮밥,도리토스 치킨",
-            "channel": "seravi 세라비",
-            "views": 1994,
-            "url": "https://www.youtube.com/watch?v=NISb3RYqDMY",
-            "thumbnail": "https://i.ytimg.com/vi/NISb3RYqDMY/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 2709
-          },
-          {
-            "video_id": "VO7kqKQaz_A",
-            "title": "마트 연어 그냥 먹지 마세요. 30년 일식 셰프의 숙성 노하우 공개ㅣ코스트코 연어숙성ㅣ사케지메",
-            "channel": "20대 수산물 전문가, 에단",
-            "views": 58,
-            "url": "https://www.youtube.com/watch?v=VO7kqKQaz_A",
-            "thumbnail": "https://i.ytimg.com/vi/VO7kqKQaz_A/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 632
-          },
-          {
-            "video_id": "JJVts4OvBbM",
-            "title": "VLOG) 도대체 왜 그런 집으로 이사했어요❓이사 토크 하면서 불닭 양파컵 육회 쌀국수 불족발 보쌈 etc. 먹방 브이로그",
-            "channel": "Leeby리비",
-            "views": 61000,
-            "url": "https://www.youtube.com/watch?v=JJVts4OvBbM",
-            "thumbnail": "https://i.ytimg.com/vi/JJVts4OvBbM/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 1276
-          },
-          {
-            "video_id": "77n6VeYE8kk",
-            "title": "아이스박스 세로테이핑을 자유자재로, 아이스박스 와인딩 테이핑기 이런 옵션도 가능!",
-            "channel": "Since1981 국제상사 ",
-            "views": 4134,
-            "url": "https://www.youtube.com/watch?v=77n6VeYE8kk",
-            "thumbnail": "https://i.ytimg.com/vi/77n6VeYE8kk/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 184
-          },
-          {
-            "video_id": "xgf4PhylzYs",
-            "title": "바이앤셀225회260618",
-            "channel": "이데일리ON (이데일리온)",
-            "views": 1485,
-            "url": "https://www.youtube.com/watch?v=xgf4PhylzYs",
-            "thumbnail": "https://i.ytimg.com/vi/xgf4PhylzYs/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 3000
-          },
-          {
-            "video_id": "RkaptoksyeU",
-            "title": "애프터 마켓2부29회260618",
-            "channel": "이데일리ON (이데일리온)",
-            "views": 496,
-            "url": "https://www.youtube.com/watch?v=RkaptoksyeU",
-            "thumbnail": "https://i.ytimg.com/vi/RkaptoksyeU/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 3000
-          },
-          {
-            "video_id": "4cgzk4Is9iE",
-            "title": "마켓 위너422회260618",
-            "channel": "이데일리ON (이데일리온)",
-            "views": 246,
-            "url": "https://www.youtube.com/watch?v=4cgzk4Is9iE",
-            "thumbnail": "https://i.ytimg.com/vi/4cgzk4Is9iE/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 3000
+            "video_id": "Vvum0lvtY1A",
+            "title": "골뱅이에 미친 캐나다 남자|한국 월드컵을 더 응원하는 이유",
+            "channel": "K-Wife",
+            "views": 41272,
+            "url": "https://www.youtube.com/watch?v=Vvum0lvtY1A",
+            "thumbnail": "https://i.ytimg.com/vi/Vvum0lvtY1A/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 1117
           }
         ],
         "product_idea": {
           "menu_name_suggestions": [
-            "건강연어 덮밥",
-            "타코 연어 덮밥",
-            "비건 연어 덮밥"
+            "한우육회 덮밥",
+            "한우초밥 세트",
+            "한우와 연어의 조화"
+          ],
+          "target_persona": "타깃 페르소나 (20~30대 야식 혼밥/30~40대 술자리)",
+          "difficulty": "중기",
+          "price_range": "15,900~18,900원",
+          "marketing_points": [
+            "한우와 연어의 절묘한 조화",
+            "전통과 현대의 맛을 동시에 즐길 수 있는 메뉴",
+            "고급스러움과 가성비를 겸비한 특별한 경험 제공"
+          ]
+        },
+        "competitive_diff": {
+          "t1_expected_response": "T1 경쟁사들은 한국 전통 음식에 대한 소비자들의 관심을 반영하여 육회와 한우 메뉴를 확대하고, 이를 중심으로 한 마케팅 캠페인을 진행할 것으로 예상된다. 예를 들어, '육회야문연어'는 기존 연어 라인업 외에 육회와 한우 요리를 추가로 제공하며, '김천재의 육회반한연어'는 한국 전통 음식의 맛과 아름다움을 강조하는 콘텐츠를 제작할 것이다.",
+          "yukbayeon_diff_points": [
+            "자사만의 고급 연어 원물을 사용하여 육회와 한우 요리를 더욱 독특하고 풍부한 맛으로 제공",
+            "고객 맞춤형 메뉴 개발을 통해 전통과 현대를 결합한 혁신적인 음식 경험 제공",
+            "배달 친화적이고 다양한 매장 분포로 고객 접근성을 높여 차별화"
+          ],
+          "first_mover_effect": "자사가 이 트렌드에 먼저 대응하면, 육회와 한우 관련 콘텐츠 인기에 따른 소비자들의 관심을 효과적으로 활용하여 시장을 선점할 수 있다. 또한, 경쟁 업체보다 빠르게 적응하고 혁신적인 제품을 제공함으로써 브랜드의 입지를 강화하고 경쟁력을 확보할 수 있다."
+        }
+      },
+      {
+        "group_name": "브이로그 일상화",
+        "core_message": "일상을 담은 브이로그 콘텐츠 인기 증가",
+        "why_trending": "소비자들은 유튜버들의 일상과 여행을 통해 실제 생활을 경험하는 것 같은 편안함을 느낀다. 이는 소셜 미디어에서의 개인화된 콘텐츠에 대한 수요를 증가시키고 있다.",
+        "consumer_signal": "소비자들은 유튜버들의 일상과 여행을 통해 실제 생활 경험을 공유받고 싶어한다.",
+        "representative_videos": [
+          {
+            "video_id": "Vyh-c-349Vs",
+            "title": "예랑이와 함께하는 첫 가족 여행✈️ /기 빨림 주의🚨/제주도 여행🍊",
+            "channel": "돌돌하",
+            "views": 6460,
+            "url": "https://www.youtube.com/watch?v=Vyh-c-349Vs",
+            "thumbnail": "https://i.ytimg.com/vi/Vyh-c-349Vs/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 1104
+          },
+          {
+            "video_id": "CLb_OoxfX2A",
+            "title": "30도 여름밤, 왜 굳이 차에서 잘까요? | 테일게이트 테이블로 즐기는 미니멀 레이 차박 | 차돌박이 육회쌈 그리고 명란크림우동",
+            "channel": "어디갈 라나",
+            "views": 1452,
+            "url": "https://www.youtube.com/watch?v=CLb_OoxfX2A",
+            "thumbnail": "https://i.ytimg.com/vi/CLb_OoxfX2A/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 1881
+          },
+          {
+            "video_id": "pD0PYgHrrBY",
+            "title": "미국 살다 오니 더 소중한 일상 🤍 | 그리웠던 맛집 투어, 한남동·양재천, 가족과 친구들",
+            "channel": "로라오로라 (Olaura)",
+            "views": 58,
+            "url": "https://www.youtube.com/watch?v=pD0PYgHrrBY",
+            "thumbnail": "https://i.ytimg.com/vi/pD0PYgHrrBY/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 639
+          },
+          {
+            "video_id": "aF9pEfpOVxE",
+            "title": "🇹🇼 대만 타이베이 여행‼️ 남들 다 가는 뻔한 코스 이제 그만🔥인생 역대급 로컬 맛집부터 3대 누가크래커👍, 단수이 노을까지 실패 없는 완벽 루트🤩",
+            "channel": "닥터신월드 dr shin world",
+            "views": 60,
+            "url": "https://www.youtube.com/watch?v=aF9pEfpOVxE",
+            "thumbnail": "https://i.ytimg.com/vi/aF9pEfpOVxE/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 1802
+          },
+          {
+            "video_id": "jeN1mjLoG40",
+            "title": "🏝 완도&목포 2박3일 여행 브이로그ㅣ전라도 식도락 여행ㅣ목포 맛집 추천ㅣ완도 맛집ㅣ코롬방, 커피 창고로, 무가보, 명사십리, 구계등, 항구포차, 목포돌게장,화신연쇄점",
+            "channel": "Dannie Kim",
+            "views": 56,
+            "url": "https://www.youtube.com/watch?v=jeN1mjLoG40",
+            "thumbnail": "https://i.ytimg.com/vi/jeN1mjLoG40/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 2058
+          },
+          {
+            "video_id": "6XP8x-CGTWw",
+            "title": "vlog) 참관수업 다녀온 날, 육퇴 후 야식이 간절한 이유와 우리 집 고양이들 #고양이 #고양이브이로그 #고양이일상 #브이로그 #육아",
+            "channel": "고솜이들",
+            "views": 53,
+            "url": "https://www.youtube.com/watch?v=6XP8x-CGTWw",
+            "thumbnail": "https://i.ytimg.com/vi/6XP8x-CGTWw/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 744
+          },
+          {
+            "video_id": "yB-GpQKVXX0",
+            "title": "집밥이 힐링인 일본 일상 브이로그𓇢𓆸 | 엄마표 연어초밥과 연어 치즈 아부리 🍣 타코🌮 간장코지, 여름 니트 뜨개₊˚⊹",
+            "channel": "meisi",
+            "views": 41,
+            "url": "https://www.youtube.com/watch?v=yB-GpQKVXX0",
+            "thumbnail": "https://i.ytimg.com/vi/yB-GpQKVXX0/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 610
+          },
+          {
+            "video_id": "-m5G9Lhn7jQ",
+            "title": "비만 브이로그 | 아팠던김에 다시 시작하는 다이어트 | 내 인생 제일 짧은 머리 해보기",
+            "channel": "뚠구로그",
+            "views": 188,
+            "url": "https://www.youtube.com/watch?v=-m5G9Lhn7jQ",
+            "thumbnail": "https://i.ytimg.com/vi/-m5G9Lhn7jQ/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 572
+          },
+          {
+            "video_id": "Rdzd2nTPHlY",
+            "title": "비가 오지만 야시장은 계속 합니다 육회ㆍ간ㆍ천엽ㆍ지라ㆍ소등골",
+            "channel": "고기왕김태백",
+            "views": 144,
+            "url": "https://www.youtube.com/watch?v=Rdzd2nTPHlY",
+            "thumbnail": "https://i.ytimg.com/vi/Rdzd2nTPHlY/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 11643
+          },
+          {
+            "video_id": "IrIhHh__fIw",
+            "title": "야시장 오늘은 3구역 꿀꿀이국밥 라이브방송 버터닭모래집 볶음ㆍ돼지껍데기ㆍ뱃보 볶음 후평야시장 놀러오세요",
+            "channel": "고기왕김태백",
+            "views": 60,
+            "url": "https://www.youtube.com/watch?v=IrIhHh__fIw",
+            "thumbnail": "https://i.ytimg.com/vi/IrIhHh__fIw/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 3212
+          },
+          {
+            "video_id": "NiBbcERUJp4",
+            "title": "🥖새우 오리 브루스케타🦆 7평 원룸 자취생의 야식 만들기 - 요리 힐링 브이로그",
+            "channel": "딸그락",
+            "views": 37,
+            "url": "https://www.youtube.com/watch?v=NiBbcERUJp4",
+            "thumbnail": "https://i.ytimg.com/vi/NiBbcERUJp4/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 516
+          },
+          {
+            "video_id": "n1X-ATZqCzs",
+            "title": "no.142/비오는 날 제주 서쪽여행코스/날이 좋아도 비가 와도 제주는 여행입니다./같이 오늘도 제주에 머물러봐요",
+            "channel": "애월부부의 제주이야기",
+            "views": 28,
+            "url": "https://www.youtube.com/watch?v=n1X-ATZqCzs",
+            "thumbnail": "https://i.ytimg.com/vi/n1X-ATZqCzs/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 869
+          }
+        ],
+        "product_idea": {
+          "menu_name_suggestions": [
+            "연어초밥 미니 세트",
+            "육회 연어 덮밥 세트",
+            "연어와 육회의 만남"
           ],
           "target_persona": "20~30대 야식 혼밥",
           "difficulty": "즉시",
-          "price_range": "14,900~17,900원",
+          "price_range": "12,900~14,500원",
           "marketing_points": [
-            "건강한 식사 옵션",
-            "다양한 토핑 선택",
-            "연어의 신선함"
+            "브이로그 콘텐츠를 통한 브랜드 인지도 제고",
+            "연어와 육회의 조화로운 맛을 강조",
+            "혼밥 및 야식 문화에 맞는 다양한 세트 메뉴 제공"
           ]
         },
         "competitive_diff": {
-          "t1_expected_response": "T1 브랜드들은 연어 덮밥 메뉴를 추가하거나 기존의 육회와 연어 요리를 변형해 덮밥 형태로 제공할 것으로 예상된다. 특히, 김천재의 육회반한연어는 이미 육회와 연어 요리를 주력으로 하는 브랜드인 만큼 연어 덮밥 메뉴를 신속하게 도입하여 소비자들의 니즈에 부응할 것으로 보인다.",
+          "t1_expected_response": "T1 브랜드들은 소비자들이 선호하는 개인화된 콘텐츠를 활용하여 브이로그 트렌드에 대응할 것으로 보인다. 예를 들어, 육회야문연어는 유명 인플루언서와 협업해 그들의 일상 속에서의 연어 요리를 소개하거나, 김천재의 육회반한연어는 고객들이 직접 참여 가능한 브이로그 콘텐츠를 제작할 가능성이 크다.",
           "yukbayeon_diff_points": [
-            "육회바른연어는 고급 연어 원물을 사용해 더욱 풍부하고 건강한 맛을 제공한다.",
-            "자사의 다양한 매장 분포와 배달 친화적인 서비스를 통해 소비자가 언제 어디서나 쉽게 연어 덮밥을 즐길 수 있다.",
-            "고객 맞춤형 토핑과 조합으로 개인별 취향에 따른 독특한 맛을 제공하며, 이를 통해 차별화된 경험을 선사한다."
+            "육회바른연어는 가성비와 다양한 매장 분포를 활용해 소비자들에게 실질적인 이익을 제공하며, 이를 강조하는 브이로그 콘텐츠를 제작한다.",
+            "배달 친화성을 최대한 활용하여 집에서도 편안하게 연어 요리를 즐길 수 있는 경험을 전파한다.",
+            "고객들이 직접 참여할 수 있는 이벤트형 브이로그를 진행해 소비자와의 상호작용을 강화한다."
           ],
-          "first_mover_effect": "육회바른연어가 연어 덮밥 트렌드를 선도함으로써 빠르게 시장 점유율을 확보하고, 브랜드 인지도와 충성 고객을 늘릴 수 있을 것이다. 또한, 이는 경쟁사의 진입 장벽을 높이는 효과가 있다."
+          "first_mover_effect": "육회바른연어가 이 트렌드에 가장 먼저 대응한다면, 고객들의 인지도와 선호도가 크게 증가할 것이며, 이를 통해 경쟁사들로부터 차별화된 브랜드 이미지를 구축하고 매출 성장을 기대할 수 있다."
         }
       },
       {
-        "group_name": "브이로그 여행",
-        "core_message": "브이로그 형식의 여행 콘텐츠가 인기를 얻고 있다.",
-        "why_trending": "소비자들은 브이로그를 통해 실제 여행지의 분위기와 경험을 생생하게 느낄 수 있으며, 이를 통해 자신만의 여행 계획을 세우는 데 도움이 된다. 또한, 브이로그는 개인적인 이야기와 추억 공유를 통한 감성적 만족감도 제공한다.",
-        "consumer_signal": "소비자들은 브이로그를 통해 실제 여행지의 분위기와 경험을 생생하게 느낄 수 있으며, 이를 통해 자신만의 여행 계획을 세우는 데 도움이 된다.",
+        "group_name": "푸드 ASMR",
+        "core_message": "음식 소리와 시각적 즐거움을 강조한 푸드 ASMR 콘텐츠 인기",
+        "why_trending": "소비자들은 음식의 맛뿐만 아니라 그 과정에서 발생하는 소리와 시각적인 경험을 중요하게 여긴다. 이는 특히 스트레스 해소를 위한 릴랙싱한 콘텐츠로 인기가 있다.",
+        "consumer_signal": "소비자들은 음식을 먹는 과정에서 발생하는 소리와 시각적 즐거움을 체험하고 싶어한다.",
         "representative_videos": [
           {
-            "video_id": "y5EL8EOUGxw",
-            "title": "도쿄여행 브이로그 4박 5일🗼(가마쿠라 당일치기, 도쿄돔 요미우리 자이언츠 경기⚾)",
-            "channel": "올디너림 All Dinner Lim",
-            "views": 294,
-            "url": "https://www.youtube.com/watch?v=y5EL8EOUGxw",
-            "thumbnail": "https://i.ytimg.com/vi/y5EL8EOUGxw/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 1297
+            "video_id": "e9O3h0HNhUE",
+            "title": "ASMR 🧊 얼린 자두 슬러시 아이스 자연은 자두 얼음 먹방 Frozen Ice Slush Plum Juice Drink Mukbang",
+            "channel": "이종화",
+            "views": 2606,
+            "url": "https://www.youtube.com/watch?v=e9O3h0HNhUE",
+            "thumbnail": "https://i.ytimg.com/vi/e9O3h0HNhUE/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 326
           },
           {
-            "video_id": "z6Km93kWGrE",
-            "title": "하노이 브이로그 🇻🇳 | 센터 쇼핑몰, 규카츠, 따이엔 커피 그리고 여름 일상",
-            "channel": "fromrami",
-            "views": 152,
-            "url": "https://www.youtube.com/watch?v=z6Km93kWGrE",
-            "thumbnail": "https://i.ytimg.com/vi/z6Km93kWGrE/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 799
+            "video_id": "kxK4ttalCho",
+            "title": "브루스게타? 브루게스타? 아무튼 여름 홈파티 요리! 🍉⛱️ (feat. 토마토 마리네이드, 브리치즈 & 사과 다이스, 훈제 연어, 살라미)",
+            "channel": "데비마마 DEBBIEMAMA",
+            "views": 3338,
+            "url": "https://www.youtube.com/watch?v=kxK4ttalCho",
+            "thumbnail": "https://i.ytimg.com/vi/kxK4ttalCho/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 701
           },
           {
-            "video_id": "_cTrmZ5uoDQ",
-            "title": "연어런 같이 할분??",
-            "channel": "페로",
-            "views": 3,
-            "url": "https://www.youtube.com/watch?v=_cTrmZ5uoDQ",
-            "thumbnail": "https://i.ytimg.com/vi/_cTrmZ5uoDQ/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 136
-          },
-          {
-            "video_id": "vaYvAJ6R590",
-            "title": "청주 여행 먹방 브이로그 | 진짜 청주 맛집 8끼 먹어보기🥩 생갈비 닭발 짜글이 꼼장어 육회비빔밥 떡볶이 수제버거 쫄쫄호떡 케이크",
-            "channel": "곰슈슈 gomshushu",
-            "views": 17033,
-            "url": "https://www.youtube.com/watch?v=vaYvAJ6R590",
-            "thumbnail": "https://i.ytimg.com/vi/vaYvAJ6R590/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 1883
-          },
-          {
-            "video_id": "IPhXhL6ncJw",
-            "title": "바쁜 인생 속 하나의 ‘쉼표’! 녹음이 푸르른 예산에서 만난 나만의 힐링 관광 코스 #여행의향기 #안혜경 #예산 #관광지",
-            "channel": "이제는 지방시대",
-            "views": 188,
-            "url": "https://www.youtube.com/watch?v=IPhXhL6ncJw",
-            "thumbnail": "https://i.ytimg.com/vi/IPhXhL6ncJw/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 1661
-          },
-          {
-            "video_id": "jp0BKgJnWak",
-            "title": "일본 가면 뭐 사야 돼? 직접 써본 진짜 개이득인 제품 몰아보기 | 마트, 돈키호테, 드럭스토어 + 일본 주방용품",
-            "channel": "세오의 일본살이",
-            "views": 19406,
-            "url": "https://www.youtube.com/watch?v=jp0BKgJnWak",
-            "thumbnail": "https://i.ytimg.com/vi/jp0BKgJnWak/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 4115
-          },
-          {
-            "video_id": "TufYeKUB9Uw",
-            "title": "50대노총각 인력노가다 오늘도 자재곰방, 퇴근후 소맥한잔, 해장은 계란우동, 시원한 콩국수",
-            "channel": "안녕 언젠가",
-            "views": 6166,
-            "url": "https://www.youtube.com/watch?v=TufYeKUB9Uw",
-            "thumbnail": "https://i.ytimg.com/vi/TufYeKUB9Uw/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 1078
-          },
-          {
-            "video_id": "fpIQqP9cD-I",
-            "title": "비행기 대신 17시간.. 오사카행 5성급 크루즈가 19만원, 탈만할까?",
-            "channel": "밥알",
-            "views": 5514,
-            "url": "https://www.youtube.com/watch?v=fpIQqP9cD-I",
-            "thumbnail": "https://i.ytimg.com/vi/fpIQqP9cD-I/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 1247
-          },
-          {
-            "video_id": "gAQsTmshWS4",
-            "title": "포항칼잡이 라이브 방송",
-            "channel": "포항칼잡이",
-            "views": 3121,
-            "url": "https://www.youtube.com/watch?v=gAQsTmshWS4",
-            "thumbnail": "https://i.ytimg.com/vi/gAQsTmshWS4/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 10668
-          },
-          {
-            "video_id": "9GAHNUsqQfc",
-            "title": "(실시간)목요일 스피또 신나게 조지자#스피또#명당#5억#로또#사사단#소통왕#이벤트",
-            "channel": "사시미💎",
-            "views": 2828,
-            "url": "https://www.youtube.com/watch?v=9GAHNUsqQfc",
-            "thumbnail": "https://i.ytimg.com/vi/9GAHNUsqQfc/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 13043
-          },
-          {
-            "video_id": "wC1pxs4BEIo",
-            "title": "베트남 다낭에서만 먹을 수 있는 크레이피쉬 사시미? 블랙펄 해산물 맛집",
-            "channel": "다낭보스몽키",
-            "views": 1805,
-            "url": "https://www.youtube.com/watch?v=wC1pxs4BEIo",
-            "thumbnail": "https://i.ytimg.com/vi/wC1pxs4BEIo/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 930
-          },
-          {
-            "video_id": "8j_fXeXFiIY",
-            "title": "40대 백수 면접 보러 서울 입성 이야기ㅣ합격? 불합격?",
-            "channel": "자연스레",
-            "views": 1225,
-            "url": "https://www.youtube.com/watch?v=8j_fXeXFiIY",
-            "thumbnail": "https://i.ytimg.com/vi/8j_fXeXFiIY/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 1359
-          }
-        ],
-        "product_idea": {
-          "menu_name_suggestions": [
-            "연어와 육회를 활용한 일본풍 덮밥 세트",
-            "도쿄 여행 특선 연어 초밥 플래터",
-            "브이로그 인기 메뉴 모음"
-          ],
-          "target_persona": "20~30대 야식 혼밥",
-          "difficulty": "중기",
-          "price_range": "14,900~18,900원",
-          "marketing_points": [
-            "브이로그 여행 콘텐츠와 연계한 메뉴 개발",
-            "도쿄 여행 테마의 인테리어 적용",
-            "연어 및 육회를 활용한 일본식 요리 소개"
-          ]
-        },
-        "competitive_diff": {
-          "t1_expected_response": "직접 경쟁사들은 브이로그 여행 트렌드를 활용하여 인기 여행지에서의 연어 요리 맛집 소개와 같은 콘텐츠를 제작할 것으로 예상됩니다. 예를 들어, 육회야문연어는 그들의 매장 주변의 관광 명소와 연계한 브이로그를 통해 방문객들에게 메뉴 추천과 함께 여행 정보도 제공할 것입니다.",
-          "yukbayeon_diff_points": [
-            "육회바른연어는 고급 연어 원물을 사용함으로써 차별화된 맛을 제공한다.",
-            "다양한 매장 분포로 인해 소비자들이 쉽게 접근 가능하다.",
-            "배달 친화적인 운영으로 집에서도 최상의 퀄리티를 즐길 수 있도록 한다."
-          ],
-          "first_mover_effect": "육회바른연어가 이 트렌드를 선도적으로 활용하면, 브랜드 인지도와 매출 상승 효과를 얻을 수 있을 것입니다. 또한, 경쟁사들이 따라잡기 어려운 독보적인 콘텐츠 포트폴리오를 구축함으로써 장기적으로는 방어력도 강화될 것으로 예상됩니다."
-        }
-      },
-      {
-        "group_name": "건강 식사",
-        "core_message": "건강한 식사에 대한 관심이 증가하고 있다.",
-        "why_trending": "소비자들은 건강한 식사를 통해 일상의 스트레스를 관리하고, 신체적·정신적인 건강을 유지하려는 경향이 강하다. 특히, 연어와 같은 고단백질 식품이나 다양한 채식 요리를 활용한 건강 메뉴가 인기를 얻고 있다.",
-        "consumer_signal": "소비자들은 건강한 식사 옵션과 관련된 정보를 찾고 있으며, 이를 통해 일상의 스트레스 관리와 신체적·정신적인 건강 유지에 도움이 되는 방법을 모색하고 있다.",
-        "representative_videos": [
-          {
-            "video_id": "SUfebVseS1k",
-            "title": "미백과 콜라겐을 한번에 챙길수 있는 연어콜라겐 글루타치온 2달분이 단돈 6천원~~~~!!",
-            "channel": "득템마켓 라이브방송",
-            "views": 1994,
-            "url": "https://www.youtube.com/watch?v=SUfebVseS1k",
-            "thumbnail": "https://i.ytimg.com/vi/SUfebVseS1k/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 13739
-          },
-          {
-            "video_id": "EXKquYXt8pc",
-            "title": "\"허리보다 다리가 더 위험합니다\" 낙상 2.6배 부르는 다리 근감소증, 살리는 음식 TOP 5 | 50대건강",
-            "channel": "50대건강",
-            "views": 21,
-            "url": "https://www.youtube.com/watch?v=EXKquYXt8pc",
-            "thumbnail": "https://i.ytimg.com/vi/EXKquYXt8pc/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 1718
-          },
-          {
-            "video_id": "dn2iqxvW2KQ",
-            "title": "가장 빨리 소원을 이루는 방법_효풍수지리회",
-            "channel": "효풍수지리회",
-            "views": 7546,
-            "url": "https://www.youtube.com/watch?v=dn2iqxvW2KQ",
-            "thumbnail": "https://i.ytimg.com/vi/dn2iqxvW2KQ/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 494
-          },
-          {
-            "video_id": "d1OoTYhmNsk",
-            "title": "속쓰림 때문에 약 먹는데도 안 낫는 이유! 매일 하는 '이 행동' 때문입니다",
-            "channel": "강동구 외과 | 양병원TV",
-            "views": 8,
-            "url": "https://www.youtube.com/watch?v=d1OoTYhmNsk",
-            "thumbnail": "https://i.ytimg.com/vi/d1OoTYhmNsk/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 670
-          },
-          {
-            "video_id": "mNc_BkPe8NU",
-            "title": "27331회. 어두운 밤, 전봇대 밑에 누워있는 사람 보일까요? 일부러 보려고 했어도 발견하기 어려웠을 것 같습니다.",
-            "channel": "한문철 TV",
-            "views": 3846,
-            "url": "https://www.youtube.com/watch?v=mNc_BkPe8NU",
-            "thumbnail": "https://i.ytimg.com/vi/mNc_BkPe8NU/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 418
-          },
-          {
-            "video_id": "5VVpStpg264",
-            "title": "【260618】[숏탐사] 오세훈 징역 1년 6개월구형, 벌금100만원만 나오면 당선무효'... 연어술 파티' 국민참여재판 민주 최고위서 전혀 언급안돼",
-            "channel": "뉴탐사 NewTamsa",
-            "views": 954,
-            "url": "https://www.youtube.com/watch?v=5VVpStpg264",
-            "thumbnail": "https://i.ytimg.com/vi/5VVpStpg264/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 494
-          },
-          {
-            "video_id": "raU-MzgM1pg",
-            "title": "80세 이상 88%가 몰랐던 TOP 4 야식 조합, 자는 동안 근육 손실을 막아줍니다",
-            "channel": "100세 장수 비결",
-            "views": 39,
-            "url": "https://www.youtube.com/watch?v=raU-MzgM1pg",
-            "thumbnail": "https://i.ytimg.com/vi/raU-MzgM1pg/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 3933
-          },
-          {
-            "video_id": "fuxCtq6GLXA",
-            "title": "신입사원 강회장 7회 선공개🔥강회장이 설계한 압도적인 참교육 #신입사원강회장#신입사원강회장6화 #이준영 #손현주",
-            "channel": "드신",
-            "views": 82410,
-            "url": "https://www.youtube.com/watch?v=fuxCtq6GLXA",
-            "thumbnail": "https://i.ytimg.com/vi/fuxCtq6GLXA/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 594
-          },
-          {
-            "video_id": "dDdgR1uNsuI",
-            "title": "월드컵 열기 속 지워지는 얼굴들 (KBS_456회_2026.06.13.방송)",
-            "channel": "KBS 세계는지금",
-            "views": 23994,
-            "url": "https://www.youtube.com/watch?v=dDdgR1uNsuI",
-            "thumbnail": "https://i.ytimg.com/vi/dDdgR1uNsuI/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 556
-          },
-          {
-            "video_id": "ZqI_nVDYhvk",
-            "title": "5성급 호텔 호캉스보다 15만원 크루즈 배캉스가 10배 좋은 이유 | 오사카 → 부산 탑승 후기",
-            "channel": "Yesjun",
-            "views": 9948,
-            "url": "https://www.youtube.com/watch?v=ZqI_nVDYhvk",
-            "thumbnail": "https://i.ytimg.com/vi/ZqI_nVDYhvk/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 1403
-          },
-          {
-            "video_id": "TufYeKUB9Uw",
-            "title": "50대노총각 인력노가다 오늘도 자재곰방, 퇴근후 소맥한잔, 해장은 계란우동, 시원한 콩국수",
-            "channel": "안녕 언젠가",
-            "views": 6166,
-            "url": "https://www.youtube.com/watch?v=TufYeKUB9Uw",
-            "thumbnail": "https://i.ytimg.com/vi/TufYeKUB9Uw/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 1078
-          },
-          {
-            "video_id": "xgf4PhylzYs",
-            "title": "바이앤셀225회260618",
-            "channel": "이데일리ON (이데일리온)",
-            "views": 1485,
-            "url": "https://www.youtube.com/watch?v=xgf4PhylzYs",
-            "thumbnail": "https://i.ytimg.com/vi/xgf4PhylzYs/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 3000
-          }
-        ],
-        "product_idea": {
-          "menu_name_suggestions": [
-            "건강연어셋트(연어회+채소샐러드)",
-            "단백질업그레이드 연어덮밥",
-            "스트레스관리 연어초밥세트"
-          ],
-          "target_persona": "20~30대 야식 혼밥",
-          "difficulty": "중기",
-          "price_range": "14,900~18,900원",
-          "marketing_points": [
-            "건강한 식사 옵션 제공",
-            "스트레스 관리에 도움되는 메뉴 추천",
-            "고품질 연어를 활용한 영양가 높은 메뉴"
-          ]
-        },
-        "competitive_diff": {
-          "t1_expected_response": "T1 브랜드들은 건강 식사 트렌드에 대응하기 위해 연어 메뉴의 영양 정보를 강조하고, 다양한 채식 요리를 추가할 것으로 예상된다. 특히 육회야문연어는 이미 건강한 연어 요리로 알려져 있어 이를 더욱 부각시킬 가능성이 높다.",
-          "yukbayeon_diff_points": [
-            "육회바른연어는 고급 연어 원물을 사용하여 품질을 강조한다.",
-            "건강에 좋은 식사 옵션을 다양화하며, 특히 다이어트 메뉴를 추가할 계획이다.",
-            "다양한 매장 분포와 배달 친화적인 서비스로 접근성을 높인다."
-          ],
-          "first_mover_effect": "육회바른연어가 건강 식사 트렌드에 선제적으로 대응하면, 브랜드 이미지 강화는 물론 새로운 고객 유치에도 효과적일 것이다."
-        }
-      },
-      {
-        "group_name": "집에서 즐기는 음식",
-        "core_message": "집에서 쉽게 만들 수 있는 다양한 요리를 찾는 트렌드가 나타나고 있다.",
-        "why_trending": "집에서 간편하게 만들어 먹을 수 있는 음식에 대한 관심이 높아지고 있으며, 이는 코로나19 이후 집에서의 시간을 더 효율적으로 활용하려는 경향과 관련이 깊다. 또한, 다양한 재료를 활용한 요리법 공유가 인기를 얻고 있다.",
-        "consumer_signal": "소비자들은 집에서 간편하게 만들 수 있는 다양한 요리법과 재료에 대한 정보를 찾고 있으며, 이를 통해 일상의 스트레스 관리와 신체적·정신적인 건강 유지에 도움이 되는 방법을 모색하고 있다.",
-        "representative_videos": [
-          {
-            "video_id": "ikH8kSqVrkM",
-            "title": "전기차 배터리보다 뜨거웠던 한치낚시... 넣는 족족 난리 났습니다!!! (한치 풀코스)",
-            "channel": "순생",
-            "views": 115,
-            "url": "https://www.youtube.com/watch?v=ikH8kSqVrkM",
-            "thumbnail": "https://i.ytimg.com/vi/ikH8kSqVrkM/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 1784
-          },
-          {
-            "video_id": "zwyh9No8FNI",
-            "title": "다이어트 실패하고 걍 야무지게 집밥 만들어 먹은 사람의 브이로그",
-            "channel": "좋하영 Hi-young",
+            "video_id": "-vvm_nPWry4",
+            "title": "이 비주얼 실화냐? 속초 뭉티기 끝판왕",
+            "channel": "맛있는건희",
             "views": 36,
-            "url": "https://www.youtube.com/watch?v=zwyh9No8FNI",
-            "thumbnail": "https://i.ytimg.com/vi/zwyh9No8FNI/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 1281
+            "url": "https://www.youtube.com/watch?v=-vvm_nPWry4",
+            "thumbnail": "https://i.ytimg.com/vi/-vvm_nPWry4/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 1652
           },
           {
-            "video_id": "_2Q_Q2E-4Ow",
-            "title": "큰 돈을 벌테ㅇㅑ",
-            "channel": "연어",
-            "views": 3,
-            "url": "https://www.youtube.com/watch?v=_2Q_Q2E-4Ow",
-            "thumbnail": "https://i.ytimg.com/vi/_2Q_Q2E-4Ow/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 7
-          },
-          {
-            "video_id": "-5UNAr8pWYk",
-            "title": "양귀비꽃 보러 노지캠핑 왔는데 다 갈아엎었네 카라반 캠핑카 미국식 진입 가능한 노지에서 폭염 30도 캠핑",
-            "channel": "찡찡대노",
-            "views": 794,
-            "url": "https://www.youtube.com/watch?v=-5UNAr8pWYk",
-            "thumbnail": "https://i.ytimg.com/vi/-5UNAr8pWYk/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 1735
-          },
-          {
-            "video_id": "NISb3RYqDMY",
-            "title": "vlog:❄️🍜더운 날 생각나는 시원한 레시피와 집에서 즐기는 여름 축제 길거리 음식🏮|라임 냉우동,후토마키,타코야키,초코바나나,팬케이크,눈꽃만두,라멘,장어덮밥,도리토스 치킨",
-            "channel": "seravi 세라비",
-            "views": 1994,
-            "url": "https://www.youtube.com/watch?v=NISb3RYqDMY",
-            "thumbnail": "https://i.ytimg.com/vi/NISb3RYqDMY/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 2709
-          },
-          {
-            "video_id": "Aoo2s8JoJ3Y",
-            "title": "국물 끝내주는 감자탕! 택배로 주문해 먹은 솔직 후기",
-            "channel": "조땡먹방",
-            "views": 27,
-            "url": "https://www.youtube.com/watch?v=Aoo2s8JoJ3Y",
-            "thumbnail": "https://i.ytimg.com/vi/Aoo2s8JoJ3Y/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 619
-          },
-          {
-            "video_id": "zlRFglULtKY",
-            "title": "집에서 먹는 감바스",
-            "channel": "짐마카세",
+            "video_id": "-IR1MjnkdU8",
+            "title": "점보 전복 먹방 (+ 좋은 소식 공유)",
+            "channel": "보은의 세계",
             "views": 21,
-            "url": "https://www.youtube.com/watch?v=zlRFglULtKY",
-            "thumbnail": "https://i.ytimg.com/vi/zlRFglULtKY/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 299
+            "url": "https://www.youtube.com/watch?v=-IR1MjnkdU8",
+            "thumbnail": "https://i.ytimg.com/vi/-IR1MjnkdU8/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 474
           },
           {
-            "video_id": "d1OoTYhmNsk",
-            "title": "속쓰림 때문에 약 먹는데도 안 낫는 이유! 매일 하는 '이 행동' 때문입니다",
-            "channel": "강동구 외과 | 양병원TV",
-            "views": 8,
-            "url": "https://www.youtube.com/watch?v=d1OoTYhmNsk",
-            "thumbnail": "https://i.ytimg.com/vi/d1OoTYhmNsk/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 670
+            "video_id": "PFRDMQ6Bibs",
+            "title": "SNS 핫 메뉴 불닭 레시피 3종🔥 불닭냉면, 연어 불닭쌈, 불닭 양파쌈 먹방 Buldak Cold Noodles [eating show] mukbang korean food",
+            "channel": "Wooang 우앙",
+            "views": 33240,
+            "url": "https://www.youtube.com/watch?v=PFRDMQ6Bibs",
+            "thumbnail": "https://i.ytimg.com/vi/PFRDMQ6Bibs/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 1001
           },
           {
-            "video_id": "QPz7lK-9z98",
-            "title": "집밥 오뚜기 순후추 돼지국밥 먹방 🍚🌶️ 간편식인데 맛있네! | Ottogi Spicy Pepper Pork Gukbap Mukbang",
-            "channel": "뚱야TV",
-            "views": 6,
-            "url": "https://www.youtube.com/watch?v=QPz7lK-9z98",
-            "thumbnail": "https://i.ytimg.com/vi/QPz7lK-9z98/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 322
+            "video_id": "CsiaS6mQsgc",
+            "title": "지구 반대편의 미친 농기계를 발견한 과학자들의 반응ㅣ여행인 줄 알았나 보다 Ep.03",
+            "channel": "보다 BODA",
+            "views": 33128,
+            "url": "https://www.youtube.com/watch?v=CsiaS6mQsgc",
+            "thumbnail": "https://i.ytimg.com/vi/CsiaS6mQsgc/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 4421
           },
           {
-            "video_id": "mNc_BkPe8NU",
-            "title": "27331회. 어두운 밤, 전봇대 밑에 누워있는 사람 보일까요? 일부러 보려고 했어도 발견하기 어려웠을 것 같습니다.",
-            "channel": "한문철 TV",
-            "views": 3846,
-            "url": "https://www.youtube.com/watch?v=mNc_BkPe8NU",
-            "thumbnail": "https://i.ytimg.com/vi/mNc_BkPe8NU/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 418
+            "video_id": "QRKV_zFq0eM",
+            "title": "[심괴ASMR] 심괴 보고 어려져서 민증 챙겨다녀야 함 20살 괴담 1시간 ASMR #심야괴담회 #심괴 #어둑시니 #midnight MBC250706방송",
+            "channel": "MBC 미스터리 : 심야괴담회 X 서프라이즈",
+            "views": 11324,
+            "url": "https://www.youtube.com/watch?v=QRKV_zFq0eM",
+            "thumbnail": "https://i.ytimg.com/vi/QRKV_zFq0eM/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 3601
           },
           {
-            "video_id": "IPhXhL6ncJw",
-            "title": "바쁜 인생 속 하나의 ‘쉼표’! 녹음이 푸르른 예산에서 만난 나만의 힐링 관광 코스 #여행의향기 #안혜경 #예산 #관광지",
-            "channel": "이제는 지방시대",
-            "views": 188,
-            "url": "https://www.youtube.com/watch?v=IPhXhL6ncJw",
-            "thumbnail": "https://i.ytimg.com/vi/IPhXhL6ncJw/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 1661
+            "video_id": "PWjUYRdQGPg",
+            "title": "[ENG] 불면증 치료제가 왔습니다.😴 #앤더블 #장하오 가 자장가도 불러주고, ASMR도 들려주고, 굿나잇 인사까지 해줍니다. I 눕터뷰",
+            "channel": "싱글즈",
+            "views": 3540,
+            "url": "https://www.youtube.com/watch?v=PWjUYRdQGPg",
+            "thumbnail": "https://i.ytimg.com/vi/PWjUYRdQGPg/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 354
           },
           {
-            "video_id": "VO7kqKQaz_A",
-            "title": "마트 연어 그냥 먹지 마세요. 30년 일식 셰프의 숙성 노하우 공개ㅣ코스트코 연어숙성ㅣ사케지메",
-            "channel": "20대 수산물 전문가, 에단",
-            "views": 58,
-            "url": "https://www.youtube.com/watch?v=VO7kqKQaz_A",
-            "thumbnail": "https://i.ytimg.com/vi/VO7kqKQaz_A/mqdefault.jpg",
-            "upload_date": "20260618",
-            "duration": 632
+            "video_id": "PNXOzoXgM1U",
+            "title": "🔥왜 이제 알았지?한입 먹고 깜짝 놀란 마늘쫑 비빔밥 먹방ㅣKorean Bibimbap Mukbang🔥",
+            "channel": "금은옥먹방MUKBANG",
+            "views": 552,
+            "url": "https://www.youtube.com/watch?v=PNXOzoXgM1U",
+            "thumbnail": "https://i.ytimg.com/vi/PNXOzoXgM1U/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 833
+          },
+          {
+            "video_id": "2PxK8uW15C4",
+            "title": "십년간 머물렀던 자리에서..폐업2일차",
+            "channel": "kandousushi",
+            "views": 195,
+            "url": "https://www.youtube.com/watch?v=2PxK8uW15C4",
+            "thumbnail": "https://i.ytimg.com/vi/2PxK8uW15C4/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 3695
+          },
+          {
+            "video_id": "jeN1mjLoG40",
+            "title": "🏝 완도&목포 2박3일 여행 브이로그ㅣ전라도 식도락 여행ㅣ목포 맛집 추천ㅣ완도 맛집ㅣ코롬방, 커피 창고로, 무가보, 명사십리, 구계등, 항구포차, 목포돌게장,화신연쇄점",
+            "channel": "Dannie Kim",
+            "views": 56,
+            "url": "https://www.youtube.com/watch?v=jeN1mjLoG40",
+            "thumbnail": "https://i.ytimg.com/vi/jeN1mjLoG40/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 2058
+          },
+          {
+            "video_id": "1TQjc9BMXYI",
+            "title": "생선회는 왜 일본 음식이 됐을까? 조선시대에 이미 회에 진심이였다",
+            "channel": " History Pot | Delicious History Table",
+            "views": 22,
+            "url": "https://www.youtube.com/watch?v=1TQjc9BMXYI",
+            "thumbnail": "https://i.ytimg.com/vi/1TQjc9BMXYI/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 291
           }
         ],
         "product_idea": {
           "menu_name_suggestions": [
-            "집에서 즐기는 연어 풀코스",
-            "쉬운 조리법 연어 덮밥 세트",
-            "건강한 연어 초밥 DIY 키트"
+            "연어 소리 덮밥",
+            "육회 시각향초밥"
           ],
           "target_persona": "20~30대 야식 혼밥",
           "difficulty": "중기",
           "price_range": "14,900~18,900원",
           "marketing_points": [
-            "집에서도 쉽게 즐길 수 있는 고급 연어 요리",
-            "건강과 맛을 동시에 챙기는 DIY 키트 제공",
-            "요리를 사랑하는 이들을 위한 다양한 조리법 안내"
+            "음식을 먹는 과정에서 발생하는 소리와 시각적 즐거움 강조",
+            "특별한 음향 효과 제공하여 고객 경험 향상",
+            "시각적인 요소를 활용한 메뉴 디자인"
           ]
         },
         "competitive_diff": {
-          "t1_expected_response": "T1 브랜드들은 집에서 쉽게 즐길 수 있는 연어 요리 제품을 출시할 것으로 예상된다. 육회야문연어는 간편 조리키트를, 김천재의 육회반한연어는 재택에서도 손쉽게 맛볼 수 있는 홈킷 서비스를 제공할 가능성이 높다.",
+          "t1_expected_response": "T1 경쟁사들은 푸드 ASMR 트렌드를 활용해 음식을 먹는 과정에서 발생하는 소리와 시각적 즐거움을 강조할 것으로 예상된다. 예를 들어, 육회야문연어는 매장 내에서 고객들이 음식을 만드는 과정을 직접 체험하고 이를 캡처할 수 있는 공간을 제공하거나, 연어로만은 고급 연어의 식감과 맛을 더욱 강조하는 ASMR 비디오를 제작해 소비자들의 관심을 끌 것으로 예상된다.",
           "yukbayeon_diff_points": [
-            "육회바른연어는 고급 연어 원물을 저렴하게 제공하며, 이를 활용해 집에서 쉽게 만들 수 있는 다양한 요리법을 공유한다.",
-            "자사의 매장은 전국에 널리 분포하여 접근성이 뛰어나며, 배달 서비스도 강화하여 고객 편의성을 극대화한다.",
-            "육회바른연어는 소비자의 건강과 스트레스 관리를 위한 요리법을 제공하며, 이를 통해 가정에서의 식사 시간이 더욱 즐거운 경험으로 이어지도록 한다."
+            "육회바른연어는 푸드 ASMR 콘텐츠에서 연어의 신선함과 식감을 강조하며, 특히 원물의 질을 통해 차별화한다.",
+            "다양한 매장 분포와 배달 친화성을 활용해 온라인 및 오프라인 채널 모두에서 푸드 ASMR 콘텐츠를 제공하여 고객 경험을 극대화한다.",
+            "자사의 가성비 강점을 부각하며, 소비자가 직접 연어를 손질하는 과정을 포함한 ASMR 콘텐츠를 제작해 경쟁력을 높인다."
           ],
-          "first_mover_effect": "육회바른연어가 집에서 즐기는 연어 요리 트렌드를 선도함으로써 브랜드 인지도와 매출 확대에 기여할 수 있으며, 경쟁사의 진입을 어렵게 하는 효과적인 방어선을 구축하게 된다."
+          "first_mover_effect": "육회바른연어가 푸드 ASMR 트렌드에 먼저 대응하면, 소비자들의 관심과 참여를 유도하고 브랜드 인지도를 빠르게 상승시킬 수 있다. 이로써 경쟁사들로부터 차별화된 이미지를 구축하고 매출 증대와 함께 시장 입지 강화에 기여할 것이다."
+        }
+      },
+      {
+        "group_name": "캠핑 및 차박",
+        "core_message": "캠핑과 차박 관련 콘텐츠 인기 증가",
+        "why_trending": "자연에서의 휴식과 여가 활동에 대한 관심이 높아지면서, 소비자들은 캠핑 및 차박을 중심으로 한 여행 콘텐츠를 선호한다.",
+        "consumer_signal": "소비자들은 자연에서의 휴식과 여가 활동을 경험하고 싶어한다.",
+        "representative_videos": [
+          {
+            "video_id": "H8JT3Ur0_0w",
+            "title": "EP 68. 오랜만에 전세 캠핑 (사이트가 단 4곳인 소형캠핑장, 다양한 안주 : 육회, 까망베르 치즈타라, 막창)",
+            "channel": "아재캠핑",
+            "views": 7,
+            "url": "https://www.youtube.com/watch?v=H8JT3Ur0_0w",
+            "thumbnail": "https://i.ytimg.com/vi/H8JT3Ur0_0w/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 504
+          },
+          {
+            "video_id": "CLb_OoxfX2A",
+            "title": "30도 여름밤, 왜 굳이 차에서 잘까요? | 테일게이트 테이블로 즐기는 미니멀 레이 차박 | 차돌박이 육회쌈 그리고 명란크림우동",
+            "channel": "어디갈 라나",
+            "views": 1452,
+            "url": "https://www.youtube.com/watch?v=CLb_OoxfX2A",
+            "thumbnail": "https://i.ytimg.com/vi/CLb_OoxfX2A/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 1881
+          },
+          {
+            "video_id": "jeN1mjLoG40",
+            "title": "🏝 완도&목포 2박3일 여행 브이로그ㅣ전라도 식도락 여행ㅣ목포 맛집 추천ㅣ완도 맛집ㅣ코롬방, 커피 창고로, 무가보, 명사십리, 구계등, 항구포차, 목포돌게장,화신연쇄점",
+            "channel": "Dannie Kim",
+            "views": 56,
+            "url": "https://www.youtube.com/watch?v=jeN1mjLoG40",
+            "thumbnail": "https://i.ytimg.com/vi/jeN1mjLoG40/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 2058
+          },
+          {
+            "video_id": "5hW8pk2s01c",
+            "title": "알래스카에서도 에어컨이 필요해? 알래스카에서만 살수있는 제품이 뭘까? #alaska #fairbanks",
+            "channel": "젠부부",
+            "views": 15,
+            "url": "https://www.youtube.com/watch?v=5hW8pk2s01c",
+            "thumbnail": "https://i.ytimg.com/vi/5hW8pk2s01c/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 427
+          },
+          {
+            "video_id": "m7nKEuWZuLg",
+            "title": "이화영 난리났다 '연어회 파티' 위증 혐의 관련 충격 구형 (2026.6.19)",
+            "channel": "성창경TV",
+            "views": 142753,
+            "url": "https://www.youtube.com/watch?v=m7nKEuWZuLg",
+            "thumbnail": "https://i.ytimg.com/vi/m7nKEuWZuLg/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 494
+          },
+          {
+            "video_id": "LhBZcttcnVg",
+            "title": "갈치배에 실수로 걸려든 삼치 덕분에 야식 파티 확정｜돌돔 낚시 몇십 마리 잡을 때보다 재밌다. 유독 갈치낚시꾼들이 많은 이유｜먹갈치와 은갈치의 차이｜바닷가 사람들｜#골라듄다큐",
+            "channel": "EBS Documentary",
+            "views": 9487,
+            "url": "https://www.youtube.com/watch?v=LhBZcttcnVg",
+            "thumbnail": "https://i.ytimg.com/vi/LhBZcttcnVg/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 2572
+          },
+          {
+            "video_id": "FMqgfRa0LLs",
+            "title": "이화영 난리났다 '연어회 파티' 위증 혐의 관련 충격 구형",
+            "channel": "Saif k facts",
+            "views": 9117,
+            "url": "https://www.youtube.com/watch?v=FMqgfRa0LLs",
+            "thumbnail": "https://i.ytimg.com/vi/FMqgfRa0LLs/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 1091
+          },
+          {
+            "video_id": "8CX3opkjtyM",
+            "title": "(실시간)오 대한민국 승리의 함성 월드컵 입중계#월드컵#한국#멕시코#승리#응원#광주",
+            "channel": "사시미💎",
+            "views": 2555,
+            "url": "https://www.youtube.com/watch?v=8CX3opkjtyM",
+            "thumbnail": "https://i.ytimg.com/vi/8CX3opkjtyM/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 19826
+          },
+          {
+            "video_id": "C5x9PgnX4bM",
+            "title": "재벌은 가족을 달래려 그녀와 결혼했고 3년간 만나지 않았고 이혼을 요구했지만 첫눈에 사랑에 빠졌다.",
+            "channel": "클래식 스위트 스토리",
+            "views": 2439,
+            "url": "https://www.youtube.com/watch?v=C5x9PgnX4bM",
+            "thumbnail": "https://i.ytimg.com/vi/C5x9PgnX4bM/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 9405
+          },
+          {
+            "video_id": "uzOCr8KmBDo",
+            "title": "[SSG vs NC] 1회 말 무려 4득점! 대량 득점에 성공하는 NC다이노스 | 6.19 | 크보모먼트 | KBO 야구 하이라이트",
+            "channel": "KBO",
+            "views": 1515,
+            "url": "https://www.youtube.com/watch?v=uzOCr8KmBDo",
+            "thumbnail": "https://i.ytimg.com/vi/uzOCr8KmBDo/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 86
+          },
+          {
+            "video_id": "y17IjAtKVYk",
+            "title": "#피부관리실무 에스테틱에서 리쥬란",
+            "channel": "세라뷰 아카데미",
+            "views": 214,
+            "url": "https://www.youtube.com/watch?v=y17IjAtKVYk",
+            "thumbnail": "https://i.ytimg.com/vi/y17IjAtKVYk/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 3450
+          },
+          {
+            "video_id": "-_6FnkX0hGo",
+            "title": "재난안전 119 LIVE🔴| 557회 | KBS Life 260619방송",
+            "channel": "KBS Life 119 : 국민 든든 채널",
+            "views": 43,
+            "url": "https://www.youtube.com/watch?v=-_6FnkX0hGo",
+            "thumbnail": "https://i.ytimg.com/vi/-_6FnkX0hGo/mqdefault.jpg",
+            "upload_date": "20260619",
+            "duration": 2785
+          }
+        ],
+        "product_idea": {
+          "menu_name_suggestions": [
+            "육회 캠핑팩",
+            "연어 덮밥 차박 세트",
+            "차돌박이 육회"
+          ],
+          "target_persona": "20~30대 야식 혼밥",
+          "difficulty": "중기",
+          "price_range": "15,900~18,900원",
+          "marketing_points": [
+            "캠핑과 차박을 위한 간편한 안주 세트",
+            "자연 속에서 즐길 수 있는 특별 메뉴 제공",
+            "캠핑 및 차박 관련 SNS 콘텐츠 마케팅"
+          ]
+        },
+        "competitive_diff": {
+          "t1_expected_response": "T1 경쟁사들은 캠핑 및 차박 트렌드에 맞춰 자연친화적인 메뉴를 추가하거나, 외부 행사나 이벤트를 통해 소비자들에게 자연에서의 휴식과 여가 활동을 경험할 수 있는 기회를 제공할 것으로 예상된다. 특히 육회야문연어는 캠핑용 연어 요리 세트를 출시하거나, 차박 관련 이벤트에 참여하여 소비자들과의 접점을 늘릴 가능성이 높다.",
+          "yukbayeon_diff_points": [
+            "육회바른연어는 가성비와 함께 배달 친화적인 메뉴 개발을 통해 캠핑 및 차박 여행지에서도 쉽게 이용할 수 있는 서비스를 제공한다.",
+            "다양한 매장 분포로 인해 지역별 특성을 반영한 연어 요리를 선보이며, 소비자들이 가까운 곳에서 즐길 수 있도록 한다.",
+            "또한 연어 원물을 강점으로 활용하여 캠핑 및 차박 관련 프리미엄 제품을 출시한다."
+          ],
+          "first_mover_effect": "육회바른연어가 이 트렌드를 가장 먼저 타깃팅하면, 자연에서의 휴식과 여가 활동에 대한 소비자들의 니즈를 효과적으로 만족시키며 브랜드 인지도와 매출을 동시에 증대시킬 수 있다. 또한 경쟁사들보다 더 빠르게 대응함으로써 시장에서의 입지를 굳힐 수 있다."
         }
       }
     ],
-    "_source_file": "2026-06-19.json"
+    "_source_file": "2026-06-20.json"
   }
 }
