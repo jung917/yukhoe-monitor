@@ -1,9 +1,9 @@
 {
-  "date": "2026-06-21",
-  "generated_at": "2026-06-21 14:23:53",
+  "date": "2026-06-22",
+  "generated_at": "2026-06-22 03:43:27",
   "window_days": 365,
-  "data_earliest": "2025-06-21",
-  "data_latest": "2026-06-20",
+  "data_earliest": "2025-06-26",
+  "data_latest": "2026-06-21",
   "tiers": {
     "own": {
       "label": "자사",
@@ -37,18 +37,18 @@
   "brands": {
     "yukbayeon": {
       "display": "육회바른연어",
-      "video_count": 21,
-      "total_views": 442737,
-      "total_likes": 3329,
-      "total_comments": 427,
+      "video_count": 22,
+      "total_views": 443173,
+      "total_likes": 3343,
+      "total_comments": 431,
       "n_short": 1,
-      "n_long": 20,
+      "n_long": 21,
       "tier_counts": {
-        "Nano": 15,
+        "Nano": 16,
         "Macro": 3,
         "Micro": 3
       },
-      "summary": "육회바른연어의 신메뉴와 프로모션에 대한 소비자의 반응이 긍정적이지만, 다른 연어 관련 제품과 비교해 경쟁력이 떨어질 수 있는 위험이 존재한다. 특히, '불닭마요'와 같은 메뉴가 소비자들 사이에서 인기가 있지만, 이는 자사의 주요 메뉴인 연어 회나 초밥에 대한 관심을 분산시킬 가능성이 있다.\n  📌 신메뉴 · 소비자 반응 · 경쟁력",
+      "summary": "육회바른연어의 신메뉴 및 프로모션에 대한 소비자 반응이 긍정적이지만, 다른 연어 관련 제품과 비교해도 만족감을 느끼는 고객들이 있어 자사 점유율과 매장 트래픽에 영향을 미칠 가능성이 있다. 즉시 대응 필요.\n  📌 연어 신메뉴 · 소비자 반응 · 경쟁 제품",
       "videos": [
         {
           "video_id": "Ye8E_dCsMkw",
@@ -530,13 +530,13 @@
           "subscribers": 117000,
           "creator_tier": "Macro",
           "is_verified": false,
-          "views": 6901,
-          "likes": 190,
-          "comment_count": 19,
-          "engagement_rate": 0.0303,
+          "views": 7272,
+          "likes": 197,
+          "comment_count": 22,
+          "engagement_rate": 0.0301,
           "duration": 501,
           "is_short": false,
-          "buzz_score": 40.4,
+          "buzz_score": 39.5,
           "upload_date": "2026.06.08",
           "url": "https://www.youtube.com/watch?v=9voP7Ep3ew8",
           "description_excerpt": "매콤한 불닭 소스에 연어깍두기!!!!\n그리고 꾸덕꾸덕하게 만든 불닭볶음면까지!\n매운맛 좋아하는 분들이라면 절대 놓칠 수 없는 조합🤤🌶️\n\n#먹방 #불닭볶음면 #불닭연어깍두기 #매운먹방 #라면먹방 #koreanmukbang #mukbang #spicynoodles #먹방유튜버 #야식 #집밥 #불닭 #연어깍두기 #매운음식 #asmr먹방",
@@ -636,13 +636,13 @@
           "video_id": "diqqJv1dmUY",
           "title": "육회바른연어에 치즈불닭 근데 치즈불닭을 더 많이 먹어서 자신없게 올리는중 ..",
           "channel": "나나",
-          "subscribers": 63,
+          "subscribers": 64,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 272,
-          "likes": 9,
+          "views": 310,
+          "likes": 10,
           "comment_count": 4,
-          "engagement_rate": 0.0478,
+          "engagement_rate": 0.0452,
           "duration": 185,
           "is_short": false,
           "buzz_score": 38.1,
@@ -1349,6 +1349,45 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "z6jlWXxJ3Hk",
+          "title": "냠#23✩ 집에서 돼지게티랑 불닭연어양파쌈 해먹기 | 김치항정로제 신라면, 연어깍두기(육회바른연어)+불닭양파쌈, 불닭피자덮밥, 함박스테이크 집밥",
+          "channel": "양애정",
+          "subscribers": 374,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 23,
+          "likes": 6,
+          "comment_count": 1,
+          "engagement_rate": 0.3043,
+          "duration": 898,
+          "is_short": false,
+          "buzz_score": 31.9,
+          "upload_date": "2026.06.21",
+          "url": "https://www.youtube.com/watch?v=z6jlWXxJ3Hk",
+          "description_excerpt": "저 내일 종강해여!! ₍₍ ◝(˙꒳​˙◝) ⁾⁾ \n.\n.\n00:00 16일차\n05:24 17일차\n07:52 18일차\n10:26 19일차\n\n────────\n\nOneul - https://m.youtube.com/watch?v=3cVx9dRMQTc&t=1038s\nMusic provided by 브금대통령\nTrack : https://youtu.be/czajaQpTBds?si=dPWEUssug8Ydfxtt\n\n────────\n\n#먹방 #다이어트 #소식 #다이어트브이로그 #먹방브이로그 #일상 #mukbang #diet #vlog",
+          "top_comments": [
+            {
+              "author": "@양애정-0508",
+              "text": "키/몸무게 : 160/44 초반?((몸무게 잘 안 잼 (๑•⤙•๑)ᐝ\n장기목표 : 41~42로 돌아가기\n———\n00:01 16일차 - 단백바 / 키위 / 신라면로제돼지게티\n05:24 17일차 - 아아 / 함박스테이크, 명란젓 / 까까\n07:52 18일차 - 단쉐 / 까까 / 불닭연어양파쌈\n10:26 19일차 - 아아 / 불닭피자덮밥",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "TlZrcZYhZu4",
           "title": "연어깍두기🧡불닭양파쌈🤤🤤✨                Salmon 🧡 Buldak onion wrap 🤤🤤✨ #asmr #연어 #mukbang #먹방 #양파 #불닭소스",
           "channel": "ASMR빡슈",
@@ -1699,10 +1738,10 @@
           "subscribers": 6,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 13,
+          "views": 17,
           "likes": 0,
           "comment_count": 1,
-          "engagement_rate": 0.0769,
+          "engagement_rate": 0.0588,
           "duration": 1500,
           "is_short": false,
           "buzz_score": 5.7,
@@ -1797,9 +1836,9 @@
       "sentiment_counts": {
         "neg": 12,
         "neu": 16,
-        "pos": 126
+        "pos": 127
       },
-      "negative_ratio": 0.078,
+      "negative_ratio": 0.077,
       "warning_level": "",
       "transcript_sentiment_counts": {
         "긍정": 0,
@@ -1868,7 +1907,7 @@
         "Macro": 1,
         "Nano": 7
       },
-      "summary": "육회야문연어는 신메뉴와 프로모션을 통해 소비자들에게 긍정적인 반응을 얻고 있으며, 특히 불닭마요연어깍두기와 육회 메뉴가 주목받았다. 이에 따른 매장 트래픽 증가는 자사(육회바른연어)의 점유율과 트래픽에 위협이 될 수 있다. 즉시 경쟁력 강화 전략을 고려해야 한다.\n  📌 불닭마요연어깍두기 · 육회 메뉴 · 매장 트래픽 증가",
+      "summary": "육회야문연어는 신도시 상권에서 오픈 첫 날 만석을 기록하며 주목받고 있으며, 김복순의 영상에서도 다양한 메뉴를 선보여 소비자들의 호응을 얻고 있다. 그러나 자사와 직접 비교되는 부분은 아직 명확히 드러나지 않았으나, 신선한 재료와 세심한 서비스로 인해 매장 트래픽 증가에 주의해야 한다.\n  📌 오픈 첫 날 만석 · 김복순 영상 호응 · 신선한 재료",
       "videos": [
         {
           "video_id": "ku4hG-cD5kY",
@@ -2588,7 +2627,7 @@
       "tier_counts": {
         "Nano": 1
       },
-      "summary": "김천재의 육회반한연어가 신메뉴를 통해 연어육회 무한리필을 2인 기준으로 56,000원에 제공하며, 이는 자사와 가격대비 가치를 비교하게 만드는 요소로 작용하고 있다. 소비자들의 반응은 긍정적이지만, 자사 대비 우위를 점하는 것으로 보이며 즉시 경쟁력 강화 전략이 필요하다.\n  📌 신메뉴 · 무한리필 · 가격대비 가치",
+      "summary": "김천재의 육회반한연어가 신메뉴로 연어육회 무제한을 제공하며, 이는 소비자들 사이에서 긍정적인 반응을 얻고 있어 자사와 직접 경쟁 상황이며 즉시 대응이 필요하다.\n  📌 연어육회 무제한 · 긍정적 반응 · 즉시 대응",
       "videos": [
         {
           "video_id": "Ukft6tVXwEY",
@@ -2710,7 +2749,7 @@
     "yeoneoroman": {
       "display": "연어로만",
       "video_count": 4,
-      "total_views": 292,
+      "total_views": 296,
       "total_likes": 31,
       "total_comments": 7,
       "n_short": 0,
@@ -2718,7 +2757,7 @@
       "tier_counts": {
         "Nano": 4
       },
-      "summary": "연어로만이 구독자 이벤트를 통해 모든 메뉴에 대해 10% 할인을 제공하며, 이를 통해 고객 유치 및 매출 증대를 노리고 있다. 그러나 이벤트가 주로 교회 관련 채널에서 진행되어 타겟팅 범위가 제한적일 가능성이 있으며, 소비자 반응은 긍정적이지만 즉각적인 자사 영향력은 미미해 보인다.\n  📌 구독자 이벤트 · 10% 할인 · 교회 관련",
+      "summary": "연어로만S가 구독자 이벤트를 통해 모든 메뉴에 대해 10% 할인을 제공하며, 이를 통해 고객 유치 및 매출 증대를 노리고 있다. 그러나 이벤트는 특정 교회와 연관되어 있어 일반 소비자에게까지 영향력이 미칠지는 불확실하다. 육회바른연어는 가격 경쟁력을 강화하거나 프로모션을 통해 대응해야 할 필요성이 있다.\n  📌 구독자 이벤트 · 10% 할인 · 교회사회 연계",
       "videos": [
         {
           "video_id": "594DiiCC5ZA",
@@ -2839,13 +2878,13 @@
           "subscribers": 60,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 5,
+          "views": 9,
           "likes": 1,
           "comment_count": 0,
-          "engagement_rate": 0.2,
+          "engagement_rate": 0.1111,
           "duration": 1900,
           "is_short": false,
-          "buzz_score": 7.8,
+          "buzz_score": 6.3,
           "upload_date": "2026.06.20",
           "url": "https://www.youtube.com/watch?v=Kw_aDzPX0ag",
           "description_excerpt": "[주일예배] 기초 시리즈 1 - '신앙 Basic'\n[제목] 기초가 튼튼해야 흔들리지 않는다\n[본문] 에베소서 2장 1-5절\n[설교자] 박요한 담임전도사\n-----------------------\n[초즌 처치 예배 안내]\n1. 주일예배\n- 시간 : 1부ㅣ오전 11시,  2부ㅣ오후 2시\n2. 토요저녁기도회\n- 시간 : 매월 둘째 주, 넷째 주 토요일 오후 9시 10분(인스타 안내 참조)\n→ 6월달 기도회 일정 : 6월 13일, 27일\n* 장소 : 서울시 서초구 반포대로 9길 3 삼현빌딩(연어로만 서초점)ㅣ\n기독교한국침례회 초즌처치\n—",
