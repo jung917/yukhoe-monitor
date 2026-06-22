@@ -1,6 +1,6 @@
 {
-  "date": "2026-06-22",
-  "generated_at": "2026-06-22 13:50:29",
+  "date": "2026-06-23",
+  "generated_at": "2026-06-23 03:37:25",
   "window_days": 365,
   "data_earliest": "2025-06-26",
   "data_latest": "2026-06-21",
@@ -37,18 +37,18 @@
   "brands": {
     "yukbayeon": {
       "display": "육회바른연어",
-      "video_count": 22,
-      "total_views": 443291,
-      "total_likes": 3345,
-      "total_comments": 431,
+      "video_count": 23,
+      "total_views": 443737,
+      "total_likes": 3355,
+      "total_comments": 432,
       "n_short": 1,
-      "n_long": 21,
+      "n_long": 22,
       "tier_counts": {
-        "Nano": 16,
+        "Nano": 17,
         "Macro": 3,
         "Micro": 3
       },
-      "summary": "육회바른연어의 신메뉴 및 프로모션에 대한 소비자 반응이 긍정적이지만, 다른 연어 관련 제품과 비교해도 만족감을 얻고 있어 자사 매장 트래픽에는 큰 영향 없음. 그러나 불닭 마요 등 특정 메뉴에 대한 관심이 높아 즉시 대응 필요.\n  📌 연어 ·  newcomenu · 불닭마요",
+      "summary": "육회바른연어의 연어 제품들이 소비자들 사이에서 다양한 방식으로 활용되고 있으며, 특히 연어깍두기와 불닭마요 초밥이 인기가 있어 자사 매장 트래픽에 긍정적인 영향을 미칠 수 있으나, 경쟁 업체들의 유사 제품과 비교되는 부분도 존재해 주의가 필요하다. 소비자들은 메뉴의 다양성과 맛에 대해 긍정적으로 반응하고 있지만, 가격과 프로모션 전략이 자사와 직접 비교되어 즉시 대응이 요구된다.\n  📌 연어깍두기 · 불닭마요 초밥 · 가격 및 프로모션",
       "videos": [
         {
           "video_id": "Ye8E_dCsMkw",
@@ -524,6 +524,45 @@
           "transcript_sentiment": null
         },
         {
+          "video_id": "I30If88dYLU",
+          "title": "집밥 레시피 모음.zip 🍚 (마늘쫑비빔밥, 충무김밥, 연어깍두기)",
+          "channel": "민댕밥",
+          "subscribers": 187,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 231,
+          "likes": 7,
+          "comment_count": 1,
+          "engagement_rate": 0.0346,
+          "duration": 908,
+          "is_short": false,
+          "buzz_score": 39.6,
+          "upload_date": "2026.06.20",
+          "url": "https://www.youtube.com/watch?v=I30If88dYLU",
+          "description_excerpt": "🧄 마늘쫑 비빔밥\n🍙 충무김밥\n🌿 미나리 소고기 솥밥\n🦆 훈제오리 볶음밥\n🐟 연어깍두기\n\n\n\n\n\n\n🧄 마늘쫑 비빔밥\n\n입맛 없을 때 강추!\n마늘쫑의 아삭한 식감이 진짜 최고입니다😋\n\n📌 레시피 참고\n\n[재료]\n마늘쫑 \n밥 1공기\n우삼겹 또는 대패삼겹 150g\n계란 1개\n참기름\n통깨\n\n[양념]\n고춧가루 2T\n고추장 0.5T\n다진마늘 0.5T\n진간장 1T\n백간장 1T (진간장으로 대체 가능)\n맛술 1T\n물엿 1T\n물 2T\n\n\n\n\n🍙 충무김밥\n\n충무김밥 좋아하시나요?\n밖에서 사 먹으면 양이 늘 아쉬워서 집에서 만들어봤어요😊\n\n📌 레시피 ",
+          "top_comments": [
+            {
+              "author": "@리리-g9d",
+              "text": "맛잇어보여용",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.0,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
           "video_id": "9voP7Ep3ew8",
           "title": "불닭연어깍두기에 불닭볶음면 꾸덕하게 먹방🔥",
           "channel": "오늘도 연희 ",
@@ -625,6 +664,45 @@
             "pos": 9
           },
           "negative_ratio": 0.091,
+          "warning_level": "",
+          "video_meta_sentiment": "긍정",
+          "video_meta_rating": 5,
+          "is_news_incident": false,
+          "multi_brand_tags": [],
+          "transcript_sentiment": null
+        },
+        {
+          "video_id": "z6jlWXxJ3Hk",
+          "title": "냠#23✩ 집에서 돼지게티랑 불닭연어양파쌈 해먹기 | 김치항정로제 신라면, 연어깍두기(육회바른연어)+불닭양파쌈, 불닭피자덮밥, 함박스테이크 집밥",
+          "channel": "양애정",
+          "subscribers": 383,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 321,
+          "likes": 11,
+          "comment_count": 1,
+          "engagement_rate": 0.0374,
+          "duration": 898,
+          "is_short": false,
+          "buzz_score": 39.2,
+          "upload_date": "2026.06.21",
+          "url": "https://www.youtube.com/watch?v=z6jlWXxJ3Hk",
+          "description_excerpt": "저 내일 종강해여!! ₍₍ ◝(˙꒳​˙◝) ⁾⁾ \n.\n.\n00:00 16일차\n05:24 17일차\n07:52 18일차\n10:26 19일차\n\n────────\n\nOneul - https://m.youtube.com/watch?v=3cVx9dRMQTc&t=1038s\nMusic provided by 브금대통령\nTrack : https://youtu.be/czajaQpTBds?si=dPWEUssug8Ydfxtt\n\n────────\n\n#먹방 #다이어트 #소식 #다이어트브이로그 #먹방브이로그 #일상 #mukbang #diet #vlog",
+          "top_comments": [
+            {
+              "author": "@양애정-0508",
+              "text": "키/몸무게 : 160/44 초반?((몸무게 잘 안 잼 (๑•⤙•๑)ᐝ\n장기목표 : 41~42로 돌아가기\n———\n00:01 16일차 - 단백바 / 키위 / 신라면로제돼지게티\n05:24 17일차 - 아아 / 함박스테이크, 명란젓 / 까까\n07:52 18일차 - 단쉐 / 까까 / 불닭연어양파쌈\n10:26 19일차 - 아아 / 불닭피자덮밥",
+              "likes": 0,
+              "sentiment": "긍정",
+              "rating": 5
+            }
+          ],
+          "sentiment_counts": {
+            "neg": 0,
+            "neu": 0,
+            "pos": 1
+          },
+          "negative_ratio": 0.0,
           "warning_level": "",
           "video_meta_sentiment": "긍정",
           "video_meta_rating": 5,
@@ -903,13 +981,13 @@
           "subscribers": 2940,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 950,
+          "views": 967,
           "likes": 12,
           "comment_count": 1,
-          "engagement_rate": 0.0137,
+          "engagement_rate": 0.0134,
           "duration": 715,
           "is_short": false,
-          "buzz_score": 36.5,
+          "buzz_score": 35.0,
           "upload_date": "2026.06.12",
           "url": "https://www.youtube.com/watch?v=-IvLrDyL2TM",
           "description_excerpt": "📋 Today’s Menu\n\n🍣 코스트코 통연어\n🥗 연어깍두기 (포케연어)\n🔥 불닭볶음면\n\n📋 Today’s Menu\n\n🍣 Costco Salmon Sashimi\n🥗 Salmon Poke (Diced Salmon)\n🔥 Buldak Spicy Chicken Ramen\n\n\nIG @yedddi_nyam\n💌 yedddi46@gmail.com",
@@ -931,45 +1009,6 @@
           "warning_level": "",
           "video_meta_sentiment": "중립",
           "video_meta_rating": 3,
-          "is_news_incident": false,
-          "multi_brand_tags": [],
-          "transcript_sentiment": null
-        },
-        {
-          "video_id": "z6jlWXxJ3Hk",
-          "title": "냠#23✩ 집에서 돼지게티랑 불닭연어양파쌈 해먹기 | 김치항정로제 신라면, 연어깍두기(육회바른연어)+불닭양파쌈, 불닭피자덮밥, 함박스테이크 집밥",
-          "channel": "양애정",
-          "subscribers": 378,
-          "creator_tier": "Nano",
-          "is_verified": false,
-          "views": 123,
-          "likes": 8,
-          "comment_count": 1,
-          "engagement_rate": 0.0732,
-          "duration": 898,
-          "is_short": false,
-          "buzz_score": 34.5,
-          "upload_date": "2026.06.21",
-          "url": "https://www.youtube.com/watch?v=z6jlWXxJ3Hk",
-          "description_excerpt": "저 내일 종강해여!! ₍₍ ◝(˙꒳​˙◝) ⁾⁾ \n.\n.\n00:00 16일차\n05:24 17일차\n07:52 18일차\n10:26 19일차\n\n────────\n\nOneul - https://m.youtube.com/watch?v=3cVx9dRMQTc&t=1038s\nMusic provided by 브금대통령\nTrack : https://youtu.be/czajaQpTBds?si=dPWEUssug8Ydfxtt\n\n────────\n\n#먹방 #다이어트 #소식 #다이어트브이로그 #먹방브이로그 #일상 #mukbang #diet #vlog",
-          "top_comments": [
-            {
-              "author": "@양애정-0508",
-              "text": "키/몸무게 : 160/44 초반?((몸무게 잘 안 잼 (๑•⤙•๑)ᐝ\n장기목표 : 41~42로 돌아가기\n———\n00:01 16일차 - 단백바 / 키위 / 신라면로제돼지게티\n05:24 17일차 - 아아 / 함박스테이크, 명란젓 / 까까\n07:52 18일차 - 단쉐 / 까까 / 불닭연어양파쌈\n10:26 19일차 - 아아 / 불닭피자덮밥",
-              "likes": 0,
-              "sentiment": "긍정",
-              "rating": 5
-            }
-          ],
-          "sentiment_counts": {
-            "neg": 0,
-            "neu": 0,
-            "pos": 1
-          },
-          "negative_ratio": 0.0,
-          "warning_level": "",
-          "video_meta_sentiment": "긍정",
-          "video_meta_rating": 5,
           "is_news_incident": false,
           "multi_brand_tags": [],
           "transcript_sentiment": null
@@ -1744,7 +1783,7 @@
           "engagement_rate": 0.0588,
           "duration": 1500,
           "is_short": false,
-          "buzz_score": 5.5,
+          "buzz_score": 5.4,
           "upload_date": "2026.06.19",
           "url": "https://www.youtube.com/watch?v=2flKCA1qwlQ",
           "description_excerpt": "안녕하세요, 이지입니다 :) \n주기적으로 생각나는 그 맛, 연어깍두기 쿨타임이 돌아왔어요 🐟 \n연어깍두기 김에 올려 밥과 함께 싸 먹으면 그렇게 행복할 수가 없지용♥️\n그리고 이제 바야흐로 콩국수의 계절 아니겠습니까ㅏ\n닭강정과 함께 올여름 첫 콩국수도 개시했지요✨\n또 다소 험난(?)했던 저의 첫 정통 까르보나라 도전기도 담아보았는데요\n이렇듯 맛있게 먹고 즐긴 소소한 저의 일상의 단편들을 모아모아 영상으로 엮어보았습니다\n제 영상이 보시는 모든 분들에게 작게나마 힐링이 될 수 있길 바랄게요. \n시청해 주셔서 감사합니다! 🙇🏻‍♀️\n\n\n",
@@ -1836,7 +1875,7 @@
       "sentiment_counts": {
         "neg": 12,
         "neu": 16,
-        "pos": 127
+        "pos": 128
       },
       "negative_ratio": 0.077,
       "warning_level": "",
@@ -1907,7 +1946,7 @@
         "Macro": 1,
         "Nano": 7
       },
-      "summary": "육회야문연어는 신메뉴와 프로모션을 통해 소비자들에게 긍정적인 반응을 얻고 있으며, 특히 불닭마요 연어깍두기와 육회 메뉴에 대한 호평이 많다. 그러나 자사(육회바른연어)와 직접 비교되는 부분은 아직 확인되지 않았으며, 영상에서 언급된 다른 제품들이 주목받는 상황이다. 즉시 대응 필요성은 높지 않으나, 경쟁사의 긍정적인 트렌드를 모니터링하고 자사의 강점을 부각하는 마케팅 전략이 필요하다.\n  📌 불닭마요 연어깍두기 · 육회 메뉴 · 긍정적 소비자 반응",
+      "summary": "육회야문연어는 신메뉴와 프로모션을 통해 소비자들에게 긍정적인 반응을 얻고 있으며, 특히 불닭마요 연어깍두기와 육회 메뉴가 주목받았다. 그러나 자사(육회바른연어)와 직접 비교되는 부분은 명확히 드러나지 않았으며, 소비자들의 긍정적인 반응이 자사 대비 우위를 보이는 것은 확인되지 않았다. 즉시 대응 필요성은 높지 않으나 지속적인 모니터링과 경쟁 상황 분석이 요구된다.\n  📌 불닭마요 연어깍두기 · 육회 메뉴 · 신메뉴",
       "videos": [
         {
           "video_id": "ku4hG-cD5kY",
@@ -2627,7 +2666,7 @@
       "tier_counts": {
         "Nano": 1
       },
-      "summary": "김천재의 육회반한연어가 신메뉴를 통해 연어육회 무한리필을 제공하며, 이는 소비자들 사이에서 긍정적인 반응을 얻고 있어 자사와 직접 경쟁 상황에 놓여 있으며 즉시 대응이 필요하다.\n  📌 연어육회 무한리필 · 긍정적 소비자 반응 · 즉시 대응",
+      "summary": "김천재의 육회반한연어가 신메뉴로 연어육회 무제한을 출시했으며, 2인 기준 56000원으로 비교적 저렴한 가격대를 형성하고 있어 소비자들로부터 긍정적인 반응을 얻고 있으나, 육회바른연어와의 직접 경쟁에서 가격과 메뉴 다양성이 주요 변수로 작용할 것으로 보인다.\n  📌 무제한 리필 · 가성비 · 메뉴 다양성",
       "videos": [
         {
           "video_id": "Ukft6tVXwEY",
@@ -2749,7 +2788,7 @@
     "yeoneoroman": {
       "display": "연어로만",
       "video_count": 4,
-      "total_views": 298,
+      "total_views": 299,
       "total_likes": 31,
       "total_comments": 7,
       "n_short": 0,
@@ -2757,7 +2796,7 @@
       "tier_counts": {
         "Nano": 4
       },
-      "summary": "연어로만이 구독자 이벤트를 통해 모든 메뉴에 대해 10% 할인을 제공하며, 이를 통해 고객 유치 및 매출 증대를 노리고 있다. 그러나 이벤트 대상은 신메뉴 제외이며, 소비자 반응에서 특별한 우위는 드러나지 않았다.\n  📌 구독자 이벤트 · 10% 할인 · 신메뉴 제외",
+      "summary": "연어로만이 구독자 이벤트를 통해 모든 메뉴에 대해 10% 할인을 제공하며, 이를 통해 고객 유치 및 매출 증대를 노리고 있다. 그러나 해당 영상들은 주로 교회 관련 콘텐츠이며 연어로만의 음식 메뉴나 맛집 정보는 부족하다. 즉각적인 대응으로는 자사 프로모션 강화와 마케팅 전략 재검토가 필요하다.\n  📌 구독자 이벤트 · 할인 프로모션 · 교회 관련 콘텐츠",
       "videos": [
         {
           "video_id": "594DiiCC5ZA",
@@ -2878,13 +2917,13 @@
           "subscribers": 60,
           "creator_tier": "Nano",
           "is_verified": false,
-          "views": 9,
+          "views": 10,
           "likes": 1,
           "comment_count": 0,
-          "engagement_rate": 0.1111,
+          "engagement_rate": 0.1,
           "duration": 1900,
           "is_short": false,
-          "buzz_score": 6.3,
+          "buzz_score": 6.0,
           "upload_date": "2026.06.20",
           "url": "https://www.youtube.com/watch?v=Kw_aDzPX0ag",
           "description_excerpt": "[주일예배] 기초 시리즈 1 - '신앙 Basic'\n[제목] 기초가 튼튼해야 흔들리지 않는다\n[본문] 에베소서 2장 1-5절\n[설교자] 박요한 담임전도사\n-----------------------\n[초즌 처치 예배 안내]\n1. 주일예배\n- 시간 : 1부ㅣ오전 11시,  2부ㅣ오후 2시\n2. 토요저녁기도회\n- 시간 : 매월 둘째 주, 넷째 주 토요일 오후 9시 10분(인스타 안내 참조)\n→ 6월달 기도회 일정 : 6월 13일, 27일\n* 장소 : 서울시 서초구 반포대로 9길 3 삼현빌딩(연어로만 서초점)ㅣ\n기독교한국침례회 초즌처치\n—",
