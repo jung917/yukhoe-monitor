@@ -1,0 +1,101 @@
+{
+  "date": "2026-06-26",
+  "days": 2,
+  "first_run": false,
+  "brands": {
+    "yukbayeon": {
+      "display": "육회바른연어",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "yamoonyeoneo": {
+      "display": "육회야문연어",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "bahanyeoneo": {
+      "display": "김천재의 육회반한연어",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "yeoneosanghoe": {
+      "display": "연어상회",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "yeoneodang": {
+      "display": "연어당",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "yeoneoroman": {
+      "display": "연어로만",
+      "video_count": 1,
+      "total_views": 1,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 1,
+      "tier_counts": {
+        "Nano": 1
+      },
+      "summary": "연어로만 관련 영상 중 신메뉴나 프로모션에 대한 내용이 없으며, 제공된 콘텐츠는 식품과 직접적으로 관련이 없는 종교적 주제로 자사의 점유율 및 매장 트래픽에 즉각적인 위협은 되지 않는 것으로 분석됨.\n  📌 신메뉴 · 프로모션 · 가격",
+      "videos": [
+        {
+          "video_id": "DCKi5pL-8Xo",
+          "title": "[신앙 Basic] 힘들어도 찬양할 수 있습니다(엡 1장 3-6절)ㅣ박요한 담임전도사",
+          "channel": "초즌처치",
+          "subscribers": 60,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 1,
+          "likes": 0,
+          "comment_count": 0,
+          "engagement_rate": 0.0,
+          "duration": 2336,
+          "is_short": false,
+          "buzz_score": 7.1,
+          "upload_date": "2026.06.25",
+          "url": "https://www.youtube.com/watch?v=DCKi5pL-8Xo",
+          "description_excerpt": "[주일예배] 기초 시리즈 2 - '신앙 Basic'\n[제목] 힘들어도 흔들리지 않습니다\n[본문] 에베소서 1장 3-6절\n[설교자] 박요한 담임전도사\n-----------------------\n[초즌 처치 예배 안내]\n1. 주일예배\n- 시간 : 1부ㅣ오전 11시,  2부ㅣ오후 2시\n2. 토요저녁기도회\n- 시간 : 매월 둘째 주, 넷째 주 토요일 오후 9시 10분(인스타 안내 참조)\n→ 6월달 기도회 일정 : 6월 13일, 27일\n* 장소 : 서울시 서초구 반포대로 9길 3 삼현빌딩(연어로만 서초점)ㅣ\n기독교한국침례회 초즌처치\n————",
+          "top_comments": []
+        }
+      ]
+    }
+  }
+}
