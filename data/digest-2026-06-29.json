@@ -1,0 +1,107 @@
+{
+  "date": "2026-06-29",
+  "days": 2,
+  "first_run": false,
+  "brands": {
+    "yukbayeon": {
+      "display": "육회바른연어",
+      "video_count": 1,
+      "total_views": 3,
+      "total_likes": 1,
+      "total_comments": 1,
+      "n_short": 0,
+      "n_long": 1,
+      "tier_counts": {
+        "Nano": 1
+      },
+      "summary": "민_뚜네에서 진행된 연어파티 영상은 저조한 조회수를 보였으나 소비자 반응이 긍정적이어서 향후 매장 트래픽 증가 가능성 존재. 그러나 신메뉴나 프로모션에 대한 구체적 정보 부재로 자사 대비 우위는 아직 확인되지 않음.\n  📌 연어파티 · 긍정적 소비자 반응 · 매장 트래픽 증가 가능성",
+      "videos": [
+        {
+          "video_id": "xOxdf7PWE4E",
+          "title": "민_뚜네에서 친구들과 연어파티, 연어깍두기, 연어회",
+          "channel": "냄뚜",
+          "subscribers": 23,
+          "creator_tier": "Nano",
+          "is_verified": false,
+          "views": 3,
+          "likes": 1,
+          "comment_count": 1,
+          "engagement_rate": 0.6667,
+          "duration": 69,
+          "is_short": false,
+          "buzz_score": 7.2,
+          "upload_date": "2026.06.28",
+          "url": "https://www.youtube.com/watch?v=xOxdf7PWE4E",
+          "description_excerpt": "nan",
+          "top_comments": [
+            {
+              "author": "@김민혁-q1y",
+              "text": "재밌어요",
+              "likes": 0
+            }
+          ]
+        }
+      ]
+    },
+    "yamoonyeoneo": {
+      "display": "육회야문연어",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "bahanyeoneo": {
+      "display": "김천재의 육회반한연어",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "yeoneosanghoe": {
+      "display": "연어상회",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "yeoneodang": {
+      "display": "연어당",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    },
+    "yeoneoroman": {
+      "display": "연어로만",
+      "video_count": 0,
+      "total_views": 0,
+      "total_likes": 0,
+      "total_comments": 0,
+      "n_short": 0,
+      "n_long": 0,
+      "tier_counts": {},
+      "summary": "(48시간 내 한국어 콘텐츠 없음)",
+      "videos": []
+    }
+  }
+}
