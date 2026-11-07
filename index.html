@@ -4693,23 +4693,30 @@ function errMsg(e) {
 }
 
 // Firestore에서 문서 로드 (단일 또는 청크 분할 모두 지원)
-async function loadDoc(id) {
+// 청크는 gzip+base64이고 ID는 메타의 gen으로 만든다(C-150). 읽는 사이 판이 바뀌어 조각이 없으면 메타부터 한 번만 다시 읽는다.
+async function loadDoc(id, retried) {
   const meta = await getDoc(doc(db, 'dashboard', id));
   if (!meta.exists()) return null;
   const m = meta.data();
   if (!m.chunks) return m.json || null;
   let s = '';
   for (let i = 0; i < m.chunks; i++) {
-    const c = await getDoc(doc(db, 'dashboard_chunks', id + '_' + i));
+    const c = await getDoc(doc(db, 'dashboard_chunks', id + '_' + (m.gen ? m.gen + '_' : '') + i));
+    if (!c.exists()) { if (!retried) return loadDoc(id, true); throw new Error('자료 조각이 없습니다: ' + id + '_' + i); }
     s += ((c.data() || {}).data) || '';
   }
-  return s;
+  if (!m.gzip) return s;
+  const bin = atob(s);
+  const bytes = new Uint8Array(bin.length);
+  for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+  return await new Response(new Blob([bytes]).stream().pipeThrough(new DecompressionStream('gzip'))).text();
 }
 
 onAuthStateChanged(auth, async (user) => {
   if (user) {
     try {
-      const [latest, trends] = await Promise.all([loadDoc('latest'), loadDoc('trends_index')]);
+      const [latest, trends] = await Promise.all([loadDoc('latest'),
+        loadDoc('trends_index').catch((e) => { console.warn('trends_index 로드 실패, 대체 화면 사용', e); return null; })]);
       window.__GATE.setData('latest', latest);
       window.__GATE.setData('trends', trends);
       window.__GATE.unlock();
